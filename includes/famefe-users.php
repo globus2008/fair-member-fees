@@ -40,15 +40,42 @@ function famefe_sync_member_from_user(int $user_id): void
 add_action('profile_update', 'famefe_sync_member_from_user');
 
 /**
+ * REST GET famefe/v1/user-details/<id>: first name, last name and e-mail of one account, for filling the
+ * member form right after the account is chosen. Only for managers of members, only the chosen account.
+ */
+function famefe_register_user_routes(): void
+{
+	register_rest_route('famefe/v1', '/user-details/(?P<id>\d+)', [
+		'methods' => 'GET',
+		'callback' => function (WP_REST_Request $request) {
+			$user_id = intval($request['id']);
+			if (!get_userdata($user_id)) {
+				return new WP_Error('not_found', famefe_notice_text('not_found'), ['status' => 404]);
+			}
+			$member = famefe_get_member($user_id);
+			return array_merge(famefe_user_details($user_id), [
+				// Already a member: the form says so before it is sent.
+				'member_id' => $member ? intval($member->id) : 0,
+			]);
+		},
+		'permission_callback' => 'famefe_can_manage',
+		'args' => ['id' => ['type' => 'integer', 'minimum' => 1]],
+	]);
+}
+add_action('rest_api_init', 'famefe_register_user_routes');
+
+/**
  * Membership section of the user profile (Users → Edit user, Profile).
  */
 function famefe_user_profile_section(WP_User $user): void
 {
-	$member = famefe_get_member($user->ID);
-	$manage = famefe_can_manage();
-	if (!$member && !$manage) {
+	// The whole back end of the plugin is only for administrators and editors (owner 2026-10-09),
+	// so members do not see this section in their own profile.
+	if (!famefe_can_manage()) {
 		return;
 	}
+	$member = famefe_get_member($user->ID);
+	$manage = true;
 	?>
 	<h2><?php esc_html_e('Membership', 'fair-member-fees'); ?></h2>
 	<table class="form-table" role="presentation">

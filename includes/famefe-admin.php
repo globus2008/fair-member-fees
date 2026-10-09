@@ -170,7 +170,10 @@ function famefe_page_member_edit(?object $member): void
 		<h1><?php echo $is_new ? esc_html__('Add member', 'fair-member-fees') : esc_html(famefe_member_name($member)); ?></h1>
 		<p><a href="<?php echo esc_url(famefe_admin_url('famefe-members')); ?>">&larr; <?php esc_html_e('Back to the members', 'fair-member-fees'); ?></a></p>
 
-		<form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" class="famefe-card">
+		<form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" class="famefe-card famefe-member-form"
+			data-famefe-details="<?php echo esc_url(rest_url('famefe/v1/user-details/')); ?>"
+			data-famefe-nonce="<?php echo esc_attr(wp_create_nonce('wp_rest')); ?>"
+			data-famefe-taken="<?php esc_attr_e('This user account already belongs to another member.', 'fair-member-fees'); ?>">
 			<?php famefe_admin_form_fields('famefe_save_member'); ?>
 			<input type="hidden" name="id" value="<?php echo intval($member->id ?? 0); ?>">
 			<h2><?php esc_html_e('Details', 'fair-member-fees'); ?></h2>

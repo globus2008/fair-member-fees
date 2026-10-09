@@ -39,6 +39,11 @@
   profile only when the current user may `edit_user` that account (an editor must not change an admin's e-mail
   = account takeover). "Add member": existing account / new account (`create_users`, default role, optional
   password link) / no account. Profile section "Membership", Users list column, warning on the delete screen.
+  Choosing an account in the member form fills first name, last name and e-mail at once (`assets/admin.js`,
+  REST GET `famefe/v1/user-details/<id>`, managers only, one account per request) and warns when the account
+  already belongs to another member.
+- The whole back end of the plugin is only for administrators and editors (`famefe_manage`; Settings only
+  `manage_options`); members do not even see the Membership section in their own profile (owner 2026-10-09).
 - `famefe_member_log`: every membership change (joined, type_changed, left, rejoined) with change_date,
   recorded_by and recorded_at – required by the club statutes. Type/status change only through
   `famefe_service_change_member()`. Rejoining sets a new member_since.

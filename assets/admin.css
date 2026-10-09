@@ -62,3 +62,8 @@
 .famefe-mode[hidden] {
 	display: none;
 }
+
+.famefe-account-warning {
+	color: #b32d2e;
+	font-weight: 600;
+}
