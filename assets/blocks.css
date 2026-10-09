@@ -230,6 +230,11 @@
 	min-width: 11em;
 }
 
+/* Room for the longest value ("10,5") plus the arrow, also with the large padding of some themes. */
+.famefe-entry-table select[name="hours"] {
+	min-width: 6.5em;
+}
+
 .famefe-entry-table .famefe-entry-fixed {
 	display: flex;
 	align-items: center;
