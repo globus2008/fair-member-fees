@@ -80,7 +80,7 @@ $famefe_table_id = wp_unique_id('famefe-members-');
 						$famefe_change = $famefe_entry ? ($famefe_change_labels[$famefe_entry->change_type] ?? '') : '';
 						// Every cell: [text, value for sorting]; dates sort by their Y-m-d value.
 						$famefe_cells = [
-							'name' => [famefe_member_name($famefe_member, $famefe_names), $famefe_member->last_name . ' ' . $famefe_member->first_name],
+							'name' => array_fill(0, 2, famefe_member_name($famefe_member, $famefe_names)),
 							'type' => [$famefe_type, $famefe_type],
 							'since' => [famefe_format_date($famefe_member->member_since), $famefe_member->member_since],
 							'change' => [$famefe_change, $famefe_change],
@@ -89,7 +89,7 @@ $famefe_table_id = wp_unique_id('famefe-members-');
 							'recorded_at' => $famefe_entry ? [famefe_format_date($famefe_entry->recorded_at, true), $famefe_entry->recorded_at] : ['', ''],
 						];
 						?>
-						<tr<?php echo $famefe_former ? ' class="famefe-former"' : ''; ?> data-search="<?php echo esc_attr(famefe_member_name($famefe_member, 'full')); ?>">
+						<tr<?php echo $famefe_former ? ' class="famefe-former"' : ''; ?> data-search="<?php echo esc_attr(famefe_member_name($famefe_member, $famefe_names)); ?>">
 							<?php foreach (array_keys($famefe_columns) as $famefe_key) : ?>
 								<td data-value="<?php echo esc_attr((string) $famefe_cells[$famefe_key][1]); ?>"><?php echo esc_html($famefe_cells[$famefe_key][0]); ?></td>
 							<?php endforeach; ?>

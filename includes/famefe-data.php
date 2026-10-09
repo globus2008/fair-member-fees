@@ -155,9 +155,23 @@ function famefe_members_in_period(string $start, string $end): array
 }
 
 /**
+ * Name shortened for data protection as in the old volunteers-hours plugin: names longer than
+ * 8 characters keep only the first 4 and the last 4 characters ("Jana Nováková" → "Janaková").
+ */
+function famefe_mask_name(string $name): string
+{
+	$name = trim($name);
+	if ($name === '') {
+		return __('Unknown name', 'fair-member-fees');
+	}
+	return mb_strlen($name) > 8 ? mb_substr($name, 0, 4) . mb_substr($name, -4) : $name;
+}
+
+/**
  * Name of a person for display.
  *
- * @param string $mode full (Jane Smith), short (Jane S.) or initials (J. S.).
+ * @param string $mode full (Jane Smith), short (Jane S.), initials (J. S.), masked (see famefe_mask_name());
+ *                     display = full here (people without an account have no display name).
  */
 function famefe_person_name(string $first, string $last, string $mode = 'full'): string
 {
@@ -165,6 +179,8 @@ function famefe_person_name(string $first, string $last, string $mode = 'full'):
 	$last = trim($last);
 	$initial = fn(string $name) => $name === '' ? '' : mb_strtoupper(mb_substr($name, 0, 1)) . '.';
 	switch ($mode) {
+		case 'masked':
+			return famefe_mask_name($first . ' ' . $last);
 		case 'short':
 			$parts = [$first, $initial($last)];
 			break;
@@ -182,6 +198,10 @@ function famefe_person_name(string $first, string $last, string $mode = 'full'):
  */
 function famefe_member_name(object $member, string $mode = 'full'): string
 {
+	// Display name and masked name come from the account, as in the old plugin.
+	if (in_array($mode, ['display', 'masked'], true) && !empty($member->user_id) && get_userdata(intval($member->user_id))) {
+		return famefe_user_name(intval($member->user_id), $mode);
+	}
 	return famefe_person_name((string) $member->first_name, (string) $member->last_name, $mode);
 }
 
@@ -193,6 +213,12 @@ function famefe_user_name(int $user_id, string $mode = 'full'): string
 	$user = $user_id > 0 ? get_userdata($user_id) : false;
 	if (!$user) {
 		return $user_id > 0 ? __('Deleted user', 'fair-member-fees') : '';
+	}
+	if ($mode === 'display') {
+		return (string) $user->display_name;
+	}
+	if ($mode === 'masked') {
+		return famefe_mask_name((string) $user->display_name);
 	}
 	if ($user->first_name !== '' || $user->last_name !== '') {
 		return famefe_person_name($user->first_name, $user->last_name, $mode);
@@ -335,6 +361,9 @@ function famefe_get_hours_entry(int $id): ?object
  */
 function famefe_hours_name(object $entry, string $mode): string
 {
+	if (in_array($mode, ['display', 'masked'], true) && !empty($entry->user_id) && get_userdata(intval($entry->user_id))) {
+		return famefe_user_name(intval($entry->user_id), $mode);
+	}
 	if (!empty($entry->member_id) && ($entry->first_name ?? '') . ($entry->last_name ?? '') !== '') {
 		return famefe_person_name((string) $entry->first_name, (string) $entry->last_name, $mode);
 	}

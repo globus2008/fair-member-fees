@@ -76,7 +76,7 @@ function famefe_currency_decimals(string $currency): int
  */
 function famefe_name_mode(string $mode, string $fallback = ''): string
 {
-	if (in_array($mode, ['full', 'short', 'initials'], true)) {
+	if (in_array($mode, ['full', 'short', 'initials', 'display', 'masked'], true)) {
 		return $mode;
 	}
 	return $fallback !== '' ? $fallback : (string) famefe_settings('name_display');

@@ -66,7 +66,7 @@ foreach ($famefe_fees['members'] as $famefe_id => $famefe_member) {
 	}
 	$famefe_rows[] = [
 		'current' => $famefe_id === $famefe_my_id && $attributes['highlightCurrent'],
-		'name' => [famefe_member_name($famefe_member, $famefe_names), famefe_member_name($famefe_member, 'full')],
+		'name' => array_fill(0, 2, famefe_member_name($famefe_member, $famefe_names)),
 		'type' => [$famefe_types[$famefe_row['member_type']] ?? '', $famefe_types[$famefe_row['member_type']] ?? ''],
 		'hours' => [famefe_format_hours($famefe_row['hours']), $famefe_row['hours']],
 		'share' => $famefe_regular ? [number_format_i18n($famefe_row['hours_share'] * 100, 1) . ' %', $famefe_row['hours_share']] : ['', ''],

@@ -599,6 +599,8 @@ function famefe_name_modes(): array
 		'full' => __('Full name (Jane Smith)', 'fair-member-fees'),
 		'short' => __('First name and initial (Jane S.)', 'fair-member-fees'),
 		'initials' => __('Initials (J. S.)', 'fair-member-fees'),
+		'display' => __('Display name of the user account', 'fair-member-fees'),
+		'masked' => __('Shortened for data protection: first 4 and last 4 characters (Janaková)', 'fair-member-fees'),
 	];
 }
 

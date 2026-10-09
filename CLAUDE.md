@@ -29,7 +29,7 @@
 | `includes/famefe-block-forms.php` | admin-post handlers of the block forms (hours, manual payment, checkout) |
 | `includes/famefe-admin*.php` | Admin pages (Members, Volunteer hours, Payments, Settings, Help), list tables, handlers |
 | `src/blocks/*` -> `build/blocks/*` | 5 dynamic blocks; `npm run build`. Shared editor code `src/blocks/shared.js`, CSS `assets/blocks.css` |
-| `languages/` | POT + cs_CZ (.po/.mo/.json). Regenerate: `wp i18n make-pot . languages/fair-member-fees.pot --exclude=node_modules,src` |
+| `languages/` | POT + cs_CZ (.po/.mo/.json). Regenerate: `wp i18n make-pot . languages/fair-member-fees.pot --exclude=node_modules,src,tools` |
 
 ## Data
 - `famefe_members` (user_id optional + unique, member_type regular|honorary, status active|left, member_since, left_on).
@@ -42,6 +42,9 @@
   Choosing an account in the member form fills first name, last name and e-mail at once (`assets/admin.js`,
   REST GET `famefe/v1/user-details/<id>`, managers only, one account per request) and warns when the account
   already belongs to another member.
+- Name display modes: full, short, initials, display (account's display name), masked (first 4 + last 4
+  characters, as the old plugin's `display_name_shortcut()`, data protection). Hidden `data-value` /
+  `data-search` of the tables use the displayed name, never the full one.
 - The whole back end of the plugin is only for administrators and editors (`famefe_manage`; Settings only
   `manage_options`); members do not even see the Membership section in their own profile (owner 2026-10-09).
 - `famefe_member_log`: every membership change (joined, type_changed, left, rejoined) with change_date,

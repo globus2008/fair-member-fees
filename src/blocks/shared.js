@@ -92,6 +92,20 @@ export function NameDisplayControl( { value, onChange } ) {
 					value: 'initials',
 					label: __( 'Initials (J. S.)', 'fair-member-fees' ),
 				},
+				{
+					value: 'display',
+					label: __(
+						'Display name of the user account',
+						'fair-member-fees'
+					),
+				},
+				{
+					value: 'masked',
+					label: __(
+						'Shortened for data protection: first 4 and last 4 characters (Janaková)',
+						'fair-member-fees'
+					),
+				},
 			] }
 			onChange={ onChange }
 		/>
