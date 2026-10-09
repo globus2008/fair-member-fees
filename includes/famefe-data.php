@@ -202,6 +202,26 @@ function famefe_user_name(int $user_id, string $mode = 'full'): string
 }
 
 /**
+ * First name, last name and e-mail of a user account ('' for missing values). Without first and last name
+ * in the profile, the display name is split into them.
+ */
+function famefe_user_details(int $user_id): array
+{
+	$user = get_userdata($user_id);
+	if (!$user) {
+		return ['first_name' => '', 'last_name' => '', 'email' => ''];
+	}
+	$first = trim((string) $user->first_name);
+	$last = trim((string) $user->last_name);
+	if ($first === '' && $last === '') {
+		$words = preg_split('/\s+/', trim((string) $user->display_name));
+		$first = (string) array_shift($words);
+		$last = implode(' ', $words);
+	}
+	return ['first_name' => $first, 'last_name' => $last, 'email' => (string) $user->user_email];
+}
+
+/**
  * History of a member, newest first, with the name of the person who recorded each change.
  */
 function famefe_member_log(int $member_id): array

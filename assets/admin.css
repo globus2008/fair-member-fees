@@ -49,3 +49,16 @@
 .famefe-delete {
 	margin-top: 24px;
 }
+
+.famefe-account-modes > label {
+	display: block;
+	margin: 6px 0;
+}
+
+.famefe-account-modes .famefe-mode {
+	margin: 0 0 8px 24px;
+}
+
+.famefe-mode[hidden] {
+	display: none;
+}

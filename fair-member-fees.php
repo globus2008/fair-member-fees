@@ -31,6 +31,7 @@ require_once FAMEFE_PATH . 'includes/famefe-calculator.php';
 require_once FAMEFE_PATH . 'includes/famefe-data.php';
 require_once FAMEFE_PATH . 'includes/famefe-services.php';
 require_once FAMEFE_PATH . 'includes/famefe-notices.php';
+require_once FAMEFE_PATH . 'includes/famefe-users.php';
 require_once FAMEFE_PATH . 'includes/famefe-stripe.php';
 require_once FAMEFE_PATH . 'includes/famefe-blocks.php';
 require_once FAMEFE_PATH . 'includes/famefe-block-forms.php';

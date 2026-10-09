@@ -18,6 +18,8 @@ function famefe_notice_text(string $code): string
 	$texts = [
 		// Success.
 		'member_added' => __('The member was added.', 'fair-member-fees'),
+		'member_account_added' => __('The member and the user account were created.', 'fair-member-fees'),
+		'member_account_sent' => __('The member and the user account were created. The member got an e-mail with a link for setting the password.', 'fair-member-fees'),
 		'member_saved' => __('The member was saved.', 'fair-member-fees'),
 		'member_changed' => __('The change of the membership was recorded.', 'fair-member-fees'),
 		'member_deleted' => __('The member was deleted.', 'fair-member-fees'),
@@ -38,6 +40,8 @@ function famefe_notice_text(string $code): string
 		'invalid_date' => __('Enter a valid date.', 'fair-member-fees'),
 		'invalid_type' => __('Choose a valid membership type.', 'fair-member-fees'),
 		'invalid_change' => __('This change is not possible for the member (check the status and the date).', 'fair-member-fees'),
+		'invalid_email' => __('Enter a valid e-mail address.', 'fair-member-fees'),
+		'email_taken' => __('This e-mail address is already used by another user account.', 'fair-member-fees'),
 		'user_taken' => __('This user account already belongs to another member.', 'fair-member-fees'),
 		'has_records' => __('The member has hours or payments and cannot be deleted. End the membership instead.', 'fair-member-fees'),
 		'invalid_hours' => __('Enter a valid number of hours.', 'fair-member-fees'),

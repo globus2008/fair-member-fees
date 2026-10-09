@@ -32,6 +32,12 @@
 
 ## Data
 - `famefe_members` (user_id optional + unique, member_type regular|honorary, status active|left, member_since, left_on).
+- Members and WP users (owner 2026-10-09, `includes/famefe-users.php`): the register stays in the plugin's table
+  (members without an account; history survives a deleted account), but a linked account is the source of the
+  name and e-mail. Profile changes are copied to the member (`profile_update`); the member form writes to the
+  profile only when the current user may `edit_user` that account (an editor must not change an admin's e-mail
+  = account takeover). "Add member": existing account / new account (`create_users`, default role, optional
+  password link) / no account. Profile section "Membership", Users list column, warning on the delete screen.
 - `famefe_member_log`: every membership change (joined, type_changed, left, rejoined) with change_date,
   recorded_by and recorded_at – required by the club statutes. Type/status change only through
   `famefe_service_change_member()`. Rejoining sets a new member_since.

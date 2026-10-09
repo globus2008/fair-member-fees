@@ -39,7 +39,7 @@ function famefe_handle_save_member(): void
 	famefe_admin_verify('famefe_save_member', $back);
 	// phpcs:ignore WordPress.Security.NonceVerification.Missing -- verified above.
 	$note = isset($_POST['note']) ? sanitize_textarea_field(wp_unslash($_POST['note'])) : '';
-	$result = famefe_service_save_member([
+	$data = [
 		'first_name' => famefe_post_text('first_name'),
 		'last_name' => famefe_post_text('last_name'),
 		'email' => famefe_post_text('email'),
@@ -47,7 +47,17 @@ function famefe_handle_save_member(): void
 		'note' => $note,
 		'member_type' => famefe_post_text('member_type'),
 		'member_since' => famefe_post_text('member_since'),
-	], $id);
+	];
+	// New member: existing account, new account or none (the user dropdown is ignored for the last two).
+	$mode = $id ? 'existing' : famefe_post_text('account_mode');
+	if ($mode === 'new') {
+		$result = famefe_service_add_member_with_account($data, famefe_post_text('send_link') === '1');
+	} else {
+		if ($mode === 'none') {
+			$data['user_id'] = 0;
+		}
+		$result = famefe_service_save_member($data, $id);
+	}
 	if (!is_wp_error($result)) {
 		$back = famefe_admin_url('famefe-members', ['action' => 'edit', 'id' => $result['id']]);
 	}

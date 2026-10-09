@@ -43,6 +43,7 @@ function famefe_admin_assets(string $hook): void
 		return;
 	}
 	wp_enqueue_style('famefe-admin', FAMEFE_URL . 'assets/admin.css', [], FAMEFE_VERSION);
+	wp_enqueue_script('famefe-admin', FAMEFE_URL . 'assets/admin.js', [], FAMEFE_VERSION, ['strategy' => 'defer', 'in_footer' => true]);
 }
 add_action('admin_enqueue_scripts', 'famefe_admin_assets');
 
@@ -174,32 +175,66 @@ function famefe_page_member_edit(?object $member): void
 			<input type="hidden" name="id" value="<?php echo intval($member->id ?? 0); ?>">
 			<h2><?php esc_html_e('Details', 'fair-member-fees'); ?></h2>
 			<table class="form-table" role="presentation">
+				<?php
+				// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- preselects the account from the profile link.
+				$famefe_preselect = $is_new && isset($_GET['user_id']) ? absint($_GET['user_id']) : intval($member->user_id ?? 0);
+				$famefe_linked = !$is_new && !empty($member->user_id);
+				$famefe_locked = $famefe_linked && !current_user_can('edit_user', intval($member->user_id));
+				$famefe_can_create = current_user_can('create_users');
+				$famefe_dropdown = [
+					'name' => 'user_id',
+					'id' => 'famefe-user',
+					'selected' => $famefe_preselect,
+					'show_option_none' => __('— No account —', 'fair-member-fees'),
+					'option_none_value' => 0,
+					'show' => 'display_name_with_login',
+				];
+				?>
+				<tr>
+					<th scope="row"><?php esc_html_e('User account', 'fair-member-fees'); ?></th>
+					<td>
+						<?php if ($is_new) : ?>
+							<fieldset class="famefe-account-modes">
+								<label><input type="radio" name="account_mode" value="existing" <?php checked($famefe_preselect > 0); ?>> <?php esc_html_e('Existing user account', 'fair-member-fees'); ?></label>
+								<div class="famefe-mode" data-famefe-mode="existing"><?php wp_dropdown_users($famefe_dropdown); ?></div>
+								<?php if ($famefe_can_create) : ?>
+									<label><input type="radio" name="account_mode" value="new"> <?php esc_html_e('Create a new user account', 'fair-member-fees'); ?></label>
+									<div class="famefe-mode" data-famefe-mode="new">
+										<label><input type="checkbox" name="send_link" value="1" checked> <?php esc_html_e('Send the member an e-mail with a link for setting the password', 'fair-member-fees'); ?></label>
+										<p class="description"><?php esc_html_e('The account gets the default role of the site; the e-mail address is required.', 'fair-member-fees'); ?></p>
+									</div>
+								<?php endif; ?>
+								<label><input type="radio" name="account_mode" value="none" <?php checked($famefe_preselect, 0); ?>> <?php esc_html_e('Without a user account', 'fair-member-fees'); ?></label>
+							</fieldset>
+							<p class="description"><?php esc_html_e('Members with an account can record their hours and pay online. The name and e-mail of a linked member are those of the account.', 'fair-member-fees'); ?></p>
+						<?php else : ?>
+							<?php wp_dropdown_users($famefe_dropdown); ?>
+							<?php if ($famefe_linked && current_user_can('edit_user', intval($member->user_id))) : ?>
+								<a href="<?php echo esc_url(get_edit_user_link(intval($member->user_id))); ?>"><?php esc_html_e('Open the profile', 'fair-member-fees'); ?></a>
+							<?php endif; ?>
+							<p class="description"><?php esc_html_e('Members with an account can record their hours and pay online.', 'fair-member-fees'); ?></p>
+						<?php endif; ?>
+					</td>
+				</tr>
 				<tr>
 					<th scope="row"><label for="famefe-first"><?php esc_html_e('First name', 'fair-member-fees'); ?></label></th>
-					<td><input type="text" id="famefe-first" name="first_name" class="regular-text" maxlength="100" value="<?php echo esc_attr($member->first_name ?? ''); ?>"></td>
+					<td><input type="text" id="famefe-first" name="first_name" class="regular-text" maxlength="100" value="<?php echo esc_attr($member->first_name ?? ''); ?>" <?php echo $famefe_locked ? 'readonly' : ''; ?>></td>
 				</tr>
 				<tr>
 					<th scope="row"><label for="famefe-last"><?php esc_html_e('Last name', 'fair-member-fees'); ?></label></th>
-					<td><input type="text" id="famefe-last" name="last_name" class="regular-text" maxlength="100" value="<?php echo esc_attr($member->last_name ?? ''); ?>"></td>
+					<td><input type="text" id="famefe-last" name="last_name" class="regular-text" maxlength="100" value="<?php echo esc_attr($member->last_name ?? ''); ?>" <?php echo $famefe_locked ? 'readonly' : ''; ?>></td>
 				</tr>
 				<tr>
 					<th scope="row"><label for="famefe-email"><?php esc_html_e('Email', 'fair-member-fees'); ?></label></th>
-					<td><input type="email" id="famefe-email" name="email" class="regular-text" value="<?php echo esc_attr($member->email ?? ''); ?>"></td>
-				</tr>
-				<tr>
-					<th scope="row"><label for="famefe-user"><?php esc_html_e('User account', 'fair-member-fees'); ?></label></th>
 					<td>
-						<?php
-						wp_dropdown_users([
-							'name' => 'user_id',
-							'id' => 'famefe-user',
-							'selected' => intval($member->user_id ?? 0),
-							'show_option_none' => __('— No account —', 'fair-member-fees'),
-							'option_none_value' => 0,
-							'show' => 'display_name_with_login',
-						]);
-						?>
-						<p class="description"><?php esc_html_e('Members with an account can record their hours and pay online.', 'fair-member-fees'); ?></p>
+						<input type="email" id="famefe-email" name="email" class="regular-text" value="<?php echo esc_attr($member->email ?? ''); ?>" <?php echo $famefe_locked ? 'readonly' : ''; ?>>
+						<?php if ($famefe_locked) : ?>
+							<p class="description"><?php esc_html_e('The name and e-mail come from the user account, which you are not allowed to edit.', 'fair-member-fees'); ?></p>
+						<?php elseif ($famefe_linked) : ?>
+							<p class="description"><?php esc_html_e('Changes of the name and e-mail are saved to the user account too.', 'fair-member-fees'); ?></p>
+						<?php elseif ($is_new) : ?>
+							<p class="description famefe-mode" data-famefe-mode="existing"><?php esc_html_e('For an existing account, the name and e-mail of the account are used; these fields only fill in what the account lacks.', 'fair-member-fees'); ?></p>
+						<?php endif; ?>
 					</td>
 				</tr>
 				<?php if ($is_new) : ?>

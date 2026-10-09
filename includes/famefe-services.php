@@ -96,9 +96,6 @@ function famefe_service_save_member(array $data, int $id = 0): array|WP_Error
 		'email' => sanitize_email((string) ($data['email'] ?? '')),
 		'note' => sanitize_textarea_field((string) ($data['note'] ?? '')),
 	];
-	if ($row['first_name'] === '' && $row['last_name'] === '') {
-		return famefe_error('invalid_name');
-	}
 	$user_id = intval($data['user_id'] ?? 0);
 	if ($user_id > 0) {
 		if (!get_userdata($user_id)) {
@@ -108,6 +105,14 @@ function famefe_service_save_member(array $data, int $id = 0): array|WP_Error
 		if ($other && intval($other->id) !== $id) {
 			return famefe_error('user_taken');
 		}
+		$synced = famefe_sync_member_details_with_user($row, $user_id, !$old || intval($old->user_id) !== $user_id);
+		if (is_wp_error($synced)) {
+			return $synced;
+		}
+		$row = $synced;
+	}
+	if ($row['first_name'] === '' && $row['last_name'] === '') {
+		return famefe_error('invalid_name');
 	}
 	$row['user_id'] = $user_id > 0 ? $user_id : null;
 
@@ -134,6 +139,113 @@ function famefe_service_save_member(array $data, int $id = 0): array|WP_Error
 	famefe_log_change($id, 'joined', $since, '', $type);
 	famefe_flush_member_cache((object) $row);
 	return famefe_ok('member_added', ['id' => $id]);
+}
+
+/**
+ * Name and e-mail of a member linked to a user account: the account is the source of truth.
+ *
+ * - A newly linked account wins: its non-empty details replace the form (the form only fills what the profile lacks).
+ * - For an account that was already linked, the form changes the profile too – but only when the current
+ *   user may edit that account (an editor must never change an administrator's e-mail and take the account over).
+ *   Otherwise the details stay as in the profile.
+ *
+ * @param array $row       first_name, last_name, email from the form.
+ * @param bool  $new_link  The account is linked now (new member or another account).
+ * @return array|WP_Error The row with the synchronised details.
+ */
+function famefe_sync_member_details_with_user(array $row, int $user_id, bool $new_link): array|WP_Error
+{
+	$user = famefe_user_details($user_id);
+	$can_edit = current_user_can('edit_user', $user_id);
+	if ($new_link || !$can_edit) {
+		foreach (['first_name', 'last_name', 'email'] as $key) {
+			if ($user[$key] !== '' || !$can_edit) {
+				$row[$key] = $user[$key] !== '' ? $user[$key] : $row[$key];
+			}
+		}
+		if (!$can_edit) {
+			return $row;
+		}
+	}
+	$update = ['ID' => $user_id];
+	foreach (['first_name', 'last_name'] as $key) {
+		if ($row[$key] !== $user[$key]) {
+			$update[$key] = $row[$key];
+		}
+	}
+	if ($row['email'] !== '' && strcasecmp($row['email'], $user['email']) !== 0) {
+		if (email_exists($row['email'])) {
+			return famefe_error('email_taken');
+		}
+		$update['user_email'] = $row['email'];
+	}
+	if ($row['email'] === '') {
+		// An account always keeps its e-mail.
+		$row['email'] = $user['email'];
+	}
+	if (count($update) > 1) {
+		$result = wp_update_user($update);
+		if (is_wp_error($result)) {
+			return famefe_error($result->get_error_code() === 'existing_user_email' ? 'email_taken' : 'db_error');
+		}
+	}
+	return $row;
+}
+
+/**
+ * Create a WordPress account (default role of the site) and the member linked to it.
+ * Needs the capability create_users in addition to famefe_manage.
+ *
+ * @param array $data      first_name, last_name, email (required), member_type, member_since, note.
+ * @param bool  $send_link Send the new user the e-mail with the link for setting the password.
+ */
+function famefe_service_add_member_with_account(array $data, bool $send_link): array|WP_Error
+{
+	if (!famefe_can_manage() || !current_user_can('create_users')) {
+		return famefe_error('forbidden');
+	}
+	$email = sanitize_email((string) ($data['email'] ?? ''));
+	if (!is_email($email)) {
+		return famefe_error('invalid_email');
+	}
+	if (email_exists($email)) {
+		return famefe_error('email_taken');
+	}
+	$first = sanitize_text_field((string) ($data['first_name'] ?? ''));
+	$last = sanitize_text_field((string) ($data['last_name'] ?? ''));
+	if ($first === '' && $last === '') {
+		return famefe_error('invalid_name');
+	}
+	if (!isset(famefe_member_types()[(string) ($data['member_type'] ?? '')]) || famefe_valid_date($data['member_since'] ?? '') === '') {
+		return famefe_error(famefe_valid_date($data['member_since'] ?? '') === '' ? 'invalid_date' : 'invalid_type');
+	}
+	// Login name from the e-mail address, made unique.
+	$base = sanitize_user(strstr($email, '@', true), true) ?: 'member';
+	$login = $base;
+	for ($i = 2; username_exists($login); $i++) {
+		$login = $base . $i;
+	}
+	$user_id = wp_insert_user([
+		'user_login' => $login,
+		'user_email' => $email,
+		'user_pass' => wp_generate_password(24),
+		'first_name' => $first,
+		'last_name' => $last,
+		'display_name' => trim($first . ' ' . $last),
+		'role' => get_option('default_role', 'subscriber'),
+	]);
+	if (is_wp_error($user_id)) {
+		return famefe_error('db_error');
+	}
+	$result = famefe_service_save_member(array_merge($data, ['user_id' => $user_id]), 0);
+	if (is_wp_error($result)) {
+		return $result;
+	}
+	if ($send_link) {
+		wp_send_new_user_notifications($user_id, 'user');
+	}
+	$result['code'] = $send_link ? 'member_account_sent' : 'member_account_added';
+	return $result;
 }
 
 /**
