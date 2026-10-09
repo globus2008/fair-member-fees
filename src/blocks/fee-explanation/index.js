@@ -7,9 +7,10 @@ import { PanelBody, TextControl, ToggleControl } from '@wordpress/components';
 import { __, sprintf } from '@wordpress/i18n';
 
 import metadata from './block.json';
-import { editorSettings, NumberControl, ServerPreview } from '../shared';
+import { useEditorSettings, NumberControl, ServerPreview } from '../shared';
 
 function Edit( { attributes, setAttributes } ) {
+	const settings = useEditorSettings();
 	return (
 		<ServerPreview name={ metadata.name } attributes={ attributes }>
 			<InspectorControls>
@@ -20,7 +21,7 @@ function Edit( { attributes, setAttributes } ) {
 						label={ sprintf(
 							/* translators: %s: currency code. */
 							__( 'Base fee (%s)', 'fair-member-fees' ),
-							editorSettings.currency
+							settings.currency
 						) }
 						value={ attributes.baseFee }
 						onChange={ ( baseFee ) => setAttributes( { baseFee } ) }

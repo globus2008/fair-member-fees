@@ -182,7 +182,7 @@ class Famefe_Hours_Table extends WP_List_Table
 		return esc_html(famefe_format_date($item->work_date)) . $this->row_actions([
 			'edit' => sprintf('<a href="%s">%s</a>', esc_url($edit), esc_html__('Edit', 'fair-member-fees')),
 			'delete' => sprintf(
-				'<a href="%1$s" class="submitdelete" onclick="return confirm(this.dataset.confirm)" data-confirm="%2$s">%3$s</a>',
+				'<a href="%1$s" class="submitdelete" data-famefe-confirm="%2$s">%3$s</a>',
 				esc_url($delete),
 				esc_attr__('Delete these hours?', 'fair-member-fees'),
 				esc_html__('Delete', 'fair-member-fees')
@@ -261,7 +261,7 @@ class Famefe_Payments_Table extends WP_List_Table
 		$delete = wp_nonce_url(add_query_arg(['action' => 'famefe_delete_payment', 'id' => $item->id], admin_url('admin-post.php')), 'famefe_delete_payment');
 		return esc_html(famefe_format_date($item->paid_at)) . $this->row_actions([
 			'delete' => sprintf(
-				'<a href="%1$s" class="submitdelete" onclick="return confirm(this.dataset.confirm)" data-confirm="%2$s">%3$s</a>',
+				'<a href="%1$s" class="submitdelete" data-famefe-confirm="%2$s">%3$s</a>',
 				esc_url($delete),
 				esc_attr__('Delete this payment? The member will be shown as unpaid.', 'fair-member-fees'),
 				esc_html__('Delete', 'fair-member-fees')

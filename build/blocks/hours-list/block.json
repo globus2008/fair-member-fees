@@ -89,5 +89,6 @@
   },
   "editorScript": "file:./index.js",
   "style": "famefe-blocks",
-  "render": "file:./render.php"
+  "render": "file:./render.php",
+  "viewScript": "famefe-tables"
 }

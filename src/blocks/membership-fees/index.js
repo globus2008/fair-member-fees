@@ -9,7 +9,7 @@ import { __, sprintf } from '@wordpress/i18n';
 
 import metadata from './block.json';
 import {
-	editorSettings,
+	useEditorSettings,
 	useBlockId,
 	NameDisplayControl,
 	NumberControl,
@@ -20,6 +20,7 @@ import {
 
 function Edit( props ) {
 	const { attributes, setAttributes } = props;
+	const settings = useEditorSettings();
 	useBlockId( props );
 
 	// A new block starts with the current calendar year as the period.
@@ -51,7 +52,7 @@ function Edit( props ) {
 						label={ sprintf(
 							/* translators: %s: currency code. */
 							__( 'Base fee (%s)', 'fair-member-fees' ),
-							editorSettings.currency
+							settings.currency
 						) }
 						help={ __(
 							'The fee of a regular member when nobody volunteers. All regular members together pay the base fee times their number.',

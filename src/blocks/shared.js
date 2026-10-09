@@ -14,13 +14,25 @@ import { __ } from '@wordpress/i18n';
 import ServerSideRender from '@wordpress/server-side-render';
 
 /**
- * Settings of the plugin passed by PHP (famefe_block_editor_settings()).
+ * Settings of the plugin, passed by PHP as block editor settings (famefe_block_editor_settings()).
+ *
+ * @return {Object} { currency, decimals, nameDisplay }.
  */
-export const editorSettings = window.famefeEditor || {
-	currency: '',
-	decimals: 0,
-	nameDisplay: 'full',
-};
+export function useEditorSettings() {
+	return useSelect( ( select ) => {
+		// The post and site editors keep all editor settings in core/editor; core/block-editor
+		// receives only the keys it knows (the widget editor has no core/editor).
+		const editor = select( 'core/editor' );
+		return (
+			editor?.getEditorSettings?.().famefe ||
+			select( 'core/block-editor' ).getSettings().famefe || {
+				currency: '',
+				decimals: 0,
+				nameDisplay: 'full',
+			}
+		);
+	}, [] );
+}
 
 /**
  * Give the block a permanent blockId, so that its form handler finds the block attributes in

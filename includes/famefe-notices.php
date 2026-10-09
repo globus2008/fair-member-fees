@@ -96,18 +96,18 @@ function famefe_redirect_with_result(string $url, array|WP_Error $result, array 
  * Notice box of a block. Block forms redirect with famefe_block=<blockId>, so only the block
  * that sent the form shows the message.
  */
-function famefe_block_notice(string $block_id): string
+function famefe_block_notice(string $block_id): void
 {
 	$notice = famefe_current_notice();
 	// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- only selects which block shows the message.
 	$target = isset($_GET['famefe_block']) ? sanitize_key(wp_unslash($_GET['famefe_block'])) : '';
 	if (!$notice || $block_id === '' || $target !== $block_id) {
-		return '';
+		return;
 	}
-	return sprintf(
-		'<p class="famefe-notice%s" role="%s">%s</p>',
-		$notice['error'] ? ' famefe-notice--error' : '',
-		$notice['error'] ? 'alert' : 'status',
+	printf(
+		'<p class="%1$s" role="%2$s">%3$s</p>',
+		esc_attr($notice['error'] ? 'famefe-notice famefe-notice--error' : 'famefe-notice'),
+		esc_attr($notice['error'] ? 'alert' : 'status'),
 		esc_html($notice['text'])
 	);
 }

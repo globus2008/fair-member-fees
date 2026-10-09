@@ -125,7 +125,7 @@ $famefe_period_text = sprintf(
 );
 ?>
 <div <?php echo get_block_wrapper_attributes(['class' => 'famefe-block famefe-fees']); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
-	<?php echo famefe_block_notice($famefe_block_id); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- escaped in the function. ?>
+	<?php famefe_block_notice($famefe_block_id); ?>
 
 	<?php if ($attributes['summaryAbove']) : ?>
 		<p class="famefe-fees__period">
@@ -212,7 +212,7 @@ $famefe_period_text = sprintf(
 				</p>
 				<?php if ($attributes['showPayButton'] && famefe_stripe_ready() && $famefe_block_id !== '') : ?>
 					<form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>">
-						<?php echo famefe_block_form_fields('famefe_block_checkout', $famefe_block_id); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- escaped in the function. ?>
+						<?php famefe_block_form_fields('famefe_block_checkout', $famefe_block_id); ?>
 						<button type="submit" class="wp-element-button famefe-button">
 							<?php
 							/* translators: %s: amount. */
@@ -256,7 +256,7 @@ $famefe_period_text = sprintf(
 			<details class="famefe-manage">
 				<summary><?php esc_html_e('Record a cash or bank payment (administrators and editors)', 'fair-member-fees'); ?></summary>
 				<form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" class="famefe-form">
-					<?php echo famefe_block_form_fields('famefe_block_payment', $famefe_block_id); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- escaped in the function. ?>
+					<?php famefe_block_form_fields('famefe_block_payment', $famefe_block_id); ?>
 					<p>
 						<label for="famefe-pay-member-<?php echo esc_attr($famefe_block_id); ?>"><?php esc_html_e('Member and fee', 'fair-member-fees'); ?></label>
 						<select id="famefe-pay-member-<?php echo esc_attr($famefe_block_id); ?>" name="member_id" required>

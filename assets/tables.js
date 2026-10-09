@@ -4,8 +4,18 @@
  * - <th data-sort="text|number"> gets a sort button; each cell may carry data-value with the raw value.
  *   Only tbody rows move, the totals in tfoot stay at the bottom.
  * - <input data-famefe-search="ID"> filters the rows of the table with id ID by their data-search text.
+ * - Buttons with data-famefe-confirm (delete in the hours list) ask for confirmation.
  */
 ( function () {
+	// Links and buttons with data-famefe-confirm ask before they delete something.
+	document.addEventListener( 'click', ( event ) => {
+		const element = event.target.closest( '[data-famefe-confirm]' );
+		// eslint-disable-next-line no-alert
+		if ( element && ! window.confirm( element.dataset.famefeConfirm ) ) {
+			event.preventDefault();
+		}
+	} );
+
 	function cellValue( row, index, type ) {
 		const cell = row.cells[ index ];
 		if ( ! cell ) {

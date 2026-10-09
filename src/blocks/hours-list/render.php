@@ -45,13 +45,13 @@ if ($attributes['allowDelete'] && $famefe_user_id > 0 && $famefe_block_id !== ''
 }
 ?>
 <div <?php echo get_block_wrapper_attributes(['class' => 'famefe-block famefe-hours-list']); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
-	<?php echo famefe_block_notice($famefe_block_id); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- escaped in the function. ?>
+	<?php famefe_block_notice($famefe_block_id); ?>
 	<?php if (!$famefe_entries) : ?>
 		<p><?php esc_html_e('No hours recorded.', 'fair-member-fees'); ?></p>
 	<?php else : ?>
 		<?php if ($famefe_deletable) : ?>
 			<form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>">
-			<?php echo famefe_block_form_fields('famefe_block_delete_hours', $famefe_block_id); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- escaped in the function. ?>
+			<?php famefe_block_form_fields('famefe_block_delete_hours', $famefe_block_id); ?>
 		<?php endif; ?>
 		<div class="famefe-table-wrap">
 			<table class="famefe-table">
@@ -91,8 +91,7 @@ if ($attributes['allowDelete'] && $famefe_user_id > 0 && $famefe_block_id !== ''
 								<td class="famefe-col-action">
 									<?php if (isset($famefe_deletable[intval($famefe_entry->id)])) : ?>
 										<button type="submit" name="entry_id" value="<?php echo intval($famefe_entry->id); ?>" class="famefe-delete-button"
-											onclick="return confirm(this.dataset.confirm)"
-											data-confirm="<?php esc_attr_e('Delete these hours?', 'fair-member-fees'); ?>"><?php esc_html_e('Delete', 'fair-member-fees'); ?></button>
+											data-famefe-confirm="<?php esc_attr_e('Delete these hours?', 'fair-member-fees'); ?>"><?php esc_html_e('Delete', 'fair-member-fees'); ?></button>
 									<?php endif; ?>
 								</td>
 							<?php endif; ?>

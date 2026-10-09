@@ -14,6 +14,17 @@
 - Requires PHP 8.0 (union types, `mixed`) and WP 6.6.
 - Sister plugin `ltc-extension` (club-specific, not published) uses only the public API below.
 
+## wordpress.org review rules (owner 2026-10-09)
+- **No JavaScript in PHP**: no `<script>`, no `on*=` attributes, no `wp_add_inline_script`/`wp_localize_script`.
+  Scripts live in files (`assets/*.js`, `src/blocks`); data goes in `data-*` attributes or, for the block
+  editor, in the block editor settings (`block_editor_settings_all` → `useEditorSettings()`, read from
+  `core/editor` first). Confirmations: `data-famefe-confirm` (handled in `admin.js` / `tables.js`).
+- Escape at output; helpers that print HTML escape themselves (`famefe_block_notice()`, `famefe_block_form_fields()`),
+  no `echo $html` with phpcs:ignore (only core's `get_block_wrapper_attributes()`).
+- No heredoc/nowdoc, `$wpdb->prepare()` everywhere, prefix `famefe_`, readme names external services (Stripe)
+  and the source of the minified build (`src/`, GitHub). Guidelines:
+  https://developer.wordpress.org/plugins/wordpress-org/common-issues/ and …/detailed-plugin-guidelines/
+
 ## Files
 | File | Purpose |
 |---|---|

@@ -31,19 +31,19 @@ function famefe_register_blocks(): void
 add_action('init', 'famefe_register_blocks');
 
 /**
- * Settings the block editor needs (currency, default name display, whether the user manages members).
+ * Settings the block editor needs (currency, default name display), passed as block editor settings
+ * (read in src/blocks/shared.js with select( 'core/block-editor' ).getSettings().famefe) – no inline script.
  */
-function famefe_block_editor_settings(): void
+function famefe_block_editor_settings(array $settings): array
 {
-	$data = [
+	$settings['famefe'] = [
 		'currency' => famefe_settings('currency'),
 		'decimals' => intval(famefe_settings('decimals')),
 		'nameDisplay' => famefe_settings('name_display'),
-		'settingsUrl' => admin_url('admin.php?page=famefe-settings'),
 	];
-	wp_add_inline_script('wp-blocks', 'window.famefeEditor = ' . wp_json_encode($data) . ';', 'before');
+	return $settings;
 }
-add_action('enqueue_block_editor_assets', 'famefe_block_editor_settings');
+add_filter('block_editor_settings_all', 'famefe_block_editor_settings');
 
 /**
  * Attributes of a block with the given blockId in a post (also inside groups, columns and synced patterns).
@@ -152,27 +152,27 @@ function famefe_block_id(array $attrs): string
 /**
  * Hidden fields that tell a block form handler which block sent it.
  */
-function famefe_block_form_fields(string $action, string $block_id): string
+function famefe_block_form_fields(string $action, string $block_id): void
 {
 	$post_id = intval(get_the_ID());
-	return sprintf(
-		'<input type="hidden" name="action" value="%1$s"><input type="hidden" name="post_id" value="%2$d"><input type="hidden" name="block_id" value="%3$s">%4$s',
+	printf(
+		'<input type="hidden" name="action" value="%1$s"><input type="hidden" name="post_id" value="%2$d"><input type="hidden" name="block_id" value="%3$s">',
 		esc_attr($action),
-		$post_id,
-		esc_attr($block_id),
-		wp_nonce_field($action . '_' . $post_id, '_wpnonce', true, false)
+		absint($post_id),
+		esc_attr($block_id)
 	);
+	wp_nonce_field($action . '_' . $post_id);
 }
 
 /**
  * The message box of a block when the block has no blockId yet (inserted before saving) or the
  * page cannot be found by the form handler.
  */
-function famefe_block_message(string $text, string $class = ''): string
+function famefe_block_message(string $text, string $class = ''): void
 {
-	return sprintf(
+	printf(
 		'<div %1$s><p class="famefe-notice">%2$s</p></div>',
-		get_block_wrapper_attributes(['class' => trim('famefe-block ' . $class)]),
+		get_block_wrapper_attributes(['class' => trim('famefe-block ' . $class)]), // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- core escapes the wrapper attributes.
 		esc_html($text)
 	);
 }

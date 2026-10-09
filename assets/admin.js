@@ -3,9 +3,19 @@
  * - "Add member": show only the fields of the chosen account option.
  * - Choosing a user account fills in the first name, last name and e-mail of the account
  *   (REST famefe/v1/user-details/<id>) and warns when the account already belongs to another member.
+ * - Delete links and buttons ask for confirmation (data-famefe-confirm).
  * Without JavaScript all fields stay visible and the server takes the details from the account itself.
  */
 ( function () {
+	// Links and buttons with data-famefe-confirm ask before they delete something.
+	document.addEventListener( 'click', ( event ) => {
+		const element = event.target.closest( '[data-famefe-confirm]' );
+		// eslint-disable-next-line no-alert
+		if ( element && ! window.confirm( element.dataset.famefeConfirm ) ) {
+			event.preventDefault();
+		}
+	} );
+
 	function updateModes( form ) {
 		const checked = form.querySelector( 'input[name="account_mode"]:checked' );
 		const mode = checked ? checked.value : 'none';

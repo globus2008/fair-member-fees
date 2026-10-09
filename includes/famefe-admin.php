@@ -122,6 +122,18 @@ function famefe_recorded_text(int $user_id, string $at): string
 }
 
 /**
+ * Search field above the user account list of the member form; shown and run by assets/admin.js.
+ */
+function famefe_user_search_field(): void
+{
+	printf(
+		'<input type="search" class="famefe-user-search regular-text" hidden placeholder="%1$s" aria-label="%2$s" aria-controls="famefe-user"><span class="famefe-user-search-count" aria-live="polite"></span><br>',
+		esc_attr__('Search accounts by name or login…', 'fair-member-fees'),
+		esc_attr__('Search user accounts', 'fair-member-fees')
+	);
+}
+
+/**
  * Members page: list, or the form of one member with its history.
  */
 function famefe_page_members(): void
@@ -187,12 +199,6 @@ function famefe_page_member_edit(?object $member): void
 				$famefe_linked = !$is_new && !empty($member->user_id);
 				$famefe_locked = $famefe_linked && !current_user_can('edit_user', intval($member->user_id));
 				$famefe_can_create = current_user_can('create_users');
-				// Search field above the account list; shown and run by assets/admin.js.
-				$famefe_user_search = sprintf(
-					'<input type="search" class="famefe-user-search regular-text" hidden placeholder="%1$s" aria-label="%2$s" aria-controls="famefe-user"><span class="famefe-user-search-count" aria-live="polite"></span><br>',
-					esc_attr__('Search accounts by name or login…', 'fair-member-fees'),
-					esc_attr__('Search user accounts', 'fair-member-fees')
-				);
 				$famefe_dropdown = [
 					'name' => 'user_id',
 					'id' => 'famefe-user',
@@ -208,7 +214,7 @@ function famefe_page_member_edit(?object $member): void
 						<?php if ($is_new) : ?>
 							<fieldset class="famefe-account-modes">
 								<label><input type="radio" name="account_mode" value="existing" <?php checked($famefe_preselect > 0); ?>> <?php esc_html_e('Existing user account', 'fair-member-fees'); ?></label>
-								<div class="famefe-mode" data-famefe-mode="existing"><?php echo $famefe_user_search; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- escaped above. ?><?php wp_dropdown_users($famefe_dropdown); ?></div>
+								<div class="famefe-mode" data-famefe-mode="existing"><?php famefe_user_search_field(); ?><?php wp_dropdown_users($famefe_dropdown); ?></div>
 								<?php if ($famefe_can_create) : ?>
 									<label><input type="radio" name="account_mode" value="new"> <?php esc_html_e('Create a new user account', 'fair-member-fees'); ?></label>
 									<div class="famefe-mode" data-famefe-mode="new">
@@ -220,7 +226,7 @@ function famefe_page_member_edit(?object $member): void
 							</fieldset>
 							<p class="description"><?php esc_html_e('Members with an account can record their hours and pay online. The name and e-mail of a linked member are those of the account.', 'fair-member-fees'); ?></p>
 						<?php else : ?>
-							<?php echo $famefe_user_search; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- escaped above. ?>
+							<?php famefe_user_search_field(); ?>
 							<?php wp_dropdown_users($famefe_dropdown); ?>
 							<?php if ($famefe_linked && current_user_can('edit_user', intval($member->user_id))) : ?>
 								<a href="<?php echo esc_url(get_edit_user_link(intval($member->user_id))); ?>"><?php esc_html_e('Open the profile', 'fair-member-fees'); ?></a>
@@ -286,7 +292,7 @@ function famefe_page_member_edit(?object $member): void
 		<form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" class="famefe-delete">
 			<?php famefe_admin_form_fields('famefe_delete_member'); ?>
 			<input type="hidden" name="id" value="<?php echo intval($member->id); ?>">
-			<button type="submit" class="button-link button-link-delete" onclick="return confirm(this.dataset.confirm)" data-confirm="<?php esc_attr_e('Delete this member? Use this only for a member entered by mistake.', 'fair-member-fees'); ?>"><?php esc_html_e('Delete member entered by mistake', 'fair-member-fees'); ?></button>
+			<button type="submit" class="button-link button-link-delete" data-famefe-confirm="<?php esc_attr_e('Delete this member? Use this only for a member entered by mistake.', 'fair-member-fees'); ?>"><?php esc_html_e('Delete member entered by mistake', 'fair-member-fees'); ?></button>
 		</form>
 	</div>
 	<?php

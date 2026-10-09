@@ -52,6 +52,10 @@ This plugin connects to **Stripe** (https://stripe.com) to let members pay their
 
 Stripe terms of service: https://stripe.com/legal/ssa – Stripe privacy policy: https://stripe.com/privacy
 
+== Source code ==
+
+The editor scripts in `build/` are compiled from the human-readable sources in `src/` (included in the plugin) with `@wordpress/scripts` (`npm install`, `npm run build`). The development repository is public: https://github.com/globus2008/fair-member-fees
+
 == Installation ==
 
 1. Install and activate the plugin.

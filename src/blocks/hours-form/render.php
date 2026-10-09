@@ -36,7 +36,7 @@ if ($famefe_user_id <= 0) {
 	return;
 }
 if (!$famefe_is_member && !$famefe_manage && !famefe_settings('hours_non_members')) {
-	echo famefe_block_message(__('Only members can record volunteer hours.', 'fair-member-fees'), 'famefe-hours-form'); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- escaped in the function.
+	famefe_block_message(__('Only members can record volunteer hours.', 'fair-member-fees'), 'famefe-hours-form');
 	return;
 }
 
@@ -47,9 +47,9 @@ for ($famefe_h = $famefe_step; $famefe_h <= $famefe_limits['max_hours'] + 0.0001
 $famefe_recent = $attributes['showRecent'] ? famefe_get_hours(['user_id' => $famefe_user_id, 'limit' => max(1, intval($attributes['recentCount']))]) : [];
 ?>
 <div <?php echo get_block_wrapper_attributes(['class' => 'famefe-block famefe-hours-form']); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
-	<?php echo famefe_block_notice($famefe_block_id); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- escaped in the function. ?>
+	<?php famefe_block_notice($famefe_block_id); ?>
 	<form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" class="famefe-hours-entry">
-		<?php echo famefe_block_form_fields('famefe_block_hours', $famefe_block_id); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- escaped in the function. ?>
+		<?php famefe_block_form_fields('famefe_block_hours', $famefe_block_id); ?>
 		<?php
 		// The form is a one-row table: the labels form the header line, styled like the headers of the other tables.
 		// On narrow screens every cell shows its label (data-label) above the field.
