@@ -191,3 +191,85 @@
 	font-size: 0.85em;
 	cursor: pointer;
 }
+
+/* Hours form: a one-row table, labels in the header line like the other tables. */
+.famefe-entry-table tbody tr,
+.famefe-entry-table tbody tr:nth-child(even) {
+	background: transparent;
+}
+
+.famefe-entry-table th label {
+	display: block;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.famefe-entry-table td {
+	vertical-align: middle;
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+}
+
+.famefe-entry-table .famefe-entry-wide {
+	width: 45%;
+}
+
+.famefe-entry-table select,
+.famefe-entry-table input[type="date"],
+.famefe-entry-table input[type="text"],
+.famefe-entry-table .famefe-entry-fixed {
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 2.6em;
+	margin: 0;
+	font: inherit;
+}
+
+/* The member list of administrators needs room for whole names. */
+.famefe-entry-table select[name="member_id"] {
+	min-width: 11em;
+}
+
+.famefe-entry-table .famefe-entry-fixed {
+	display: flex;
+	align-items: center;
+	font-weight: 600;
+	white-space: nowrap;
+}
+
+.famefe-entry-submit {
+	margin: 0.75em 0 1.75em;
+}
+
+.famefe-hours-form__recent-title {
+	margin-top: 0;
+}
+
+@media (max-width: 600px) {
+	.famefe-entry-table thead {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+		clip: rect(0 0 0 0);
+	}
+
+	.famefe-entry-table tr,
+	.famefe-entry-table td {
+		display: block;
+		width: auto;
+	}
+
+	.famefe-entry-table .famefe-entry-wide {
+		width: auto;
+	}
+
+	.famefe-entry-table td::before {
+		content: attr(data-label);
+		display: block;
+		margin: -0.6em -0.6em 0.5em;
+		padding: 0.4em 0.6em;
+		background: var(--famefe-strong-tint);
+		font-weight: 600;
+	}
+}
