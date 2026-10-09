@@ -3,6 +3,7 @@
 - Slug and text domain: `fair-member-fees`. Code prefix **`famefe_`** everywhere: functions, tables
   (`{prefix}famefe_*`), options, capability `famefe_manage`, REST `famefe/v1`, blocks `famefe/*`.
   (A wp.org reviewer rejected the short `drt_` prefix of another plugin.)
+- Repo: https://github.com/globus2008/fair-member-fees (public; ltc-extension: globus2008/ltc-extension, private).
 - Meant for wordpress.org. Rebuilt in 2026-10 from the owner's old plugin `volunteers-hours`
   (kept for reference in `_old/`, not loaded; delete it before release). No backward compatibility, not even data:
   the owner converts the live data (`brigady_data`, user meta `clen`, `payment_date`) separately.
