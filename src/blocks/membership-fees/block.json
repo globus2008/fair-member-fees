@@ -1,0 +1,43 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"version": "1.0.0",
+	"category": "widgets",
+	"textdomain": "fair-member-fees",
+	"name": "famefe/membership-fees",
+	"title": "Membership fees",
+	"icon": "money-alt",
+	"description": "Fair membership fees for a period: members who volunteered more pay less. Members pay online; administrators and editors record cash and bank payments.",
+	"keywords": [ "fee", "fair member fees", "membership", "payment", "volunteer" ],
+	"attributes": {
+		"blockId": { "type": "string", "default": "" },
+		"periodStart": { "type": "string", "default": "" },
+		"periodEnd": { "type": "string", "default": "" },
+		"baseFee": { "type": "number", "default": 1000 },
+		"discountEnabled": { "type": "boolean", "default": false },
+		"discountShare": { "type": "number", "default": 60 },
+		"discountRate": { "type": "number", "default": 20 },
+		"showMemberType": { "type": "boolean", "default": true },
+		"showHonorary": { "type": "boolean", "default": true },
+		"showHours": { "type": "boolean", "default": true },
+		"showShare": { "type": "boolean", "default": false },
+		"showGross": { "type": "boolean", "default": false },
+		"showDiscount": { "type": "boolean", "default": true },
+		"showPaidOn": { "type": "boolean", "default": true },
+		"summaryAbove": { "type": "boolean", "default": true },
+		"summaryBelow": { "type": "boolean", "default": true },
+		"nameDisplay": { "type": "string", "default": "default" },
+		"highlightCurrent": { "type": "boolean", "default": true },
+		"showPayButton": { "type": "boolean", "default": true }
+	},
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ],
+		"color": { "background": true, "text": true, "link": true },
+		"spacing": { "margin": true, "padding": true },
+		"typography": { "fontSize": true }
+	},
+	"editorScript": "file:./index.js",
+	"style": "famefe-blocks",
+	"render": "file:./render.php"
+}

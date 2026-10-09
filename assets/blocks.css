@@ -1,0 +1,115 @@
+/* Fair Member Fees – blocks. Colours follow the theme (currentColor), so light and dark themes both work. */
+.famefe-block {
+	--famefe-line: color-mix(in srgb, currentColor 20%, transparent);
+	--famefe-tint: color-mix(in srgb, currentColor 6%, transparent);
+	--famefe-strong-tint: color-mix(in srgb, currentColor 12%, transparent);
+}
+
+.famefe-table-wrap {
+	overflow-x: auto;
+	margin: 0 0 1em;
+}
+
+.famefe-table {
+	width: 100%;
+	border-collapse: collapse;
+	font-variant-numeric: tabular-nums;
+}
+
+.famefe-table th,
+.famefe-table td {
+	padding: 0.4em 0.6em;
+	border-bottom: 1px solid var(--famefe-line);
+	text-align: left;
+	vertical-align: top;
+}
+
+.famefe-table thead th {
+	background: var(--famefe-strong-tint);
+	font-weight: 600;
+}
+
+.famefe-table tbody tr:nth-child(even) {
+	background: var(--famefe-tint);
+}
+
+.famefe-table tfoot th,
+.famefe-table tfoot td {
+	font-weight: 600;
+}
+
+.famefe-table .famefe-col-hours,
+.famefe-table .famefe-col-share,
+.famefe-table .famefe-col-gross,
+.famefe-table .famefe-col-calculated,
+.famefe-table .famefe-col-discount,
+.famefe-table .famefe-col-fee {
+	text-align: right;
+	white-space: nowrap;
+}
+
+.famefe-table tr.famefe-current {
+	background: var(--famefe-strong-tint);
+	font-weight: 600;
+}
+
+.famefe-table tr.famefe-former {
+	opacity: 0.7;
+}
+
+.famefe-notice {
+	padding: 0.6em 0.9em;
+	border-left: 4px solid currentColor;
+	background: var(--famefe-tint);
+}
+
+.famefe-notice--error {
+	border-left-color: #d63638;
+}
+
+.famefe-summary {
+	margin: 0 0 1em;
+}
+
+.famefe-form {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	gap: 0.5em 1em;
+}
+
+.famefe-form p {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 0.25em;
+}
+
+.famefe-form .famefe-form__wide {
+	flex: 1 1 16em;
+}
+
+.famefe-form input,
+.famefe-form select {
+	max-width: 100%;
+}
+
+.famefe-pay,
+.famefe-manage {
+	margin-top: 1em;
+}
+
+.famefe-manage summary {
+	cursor: pointer;
+	margin-bottom: 0.5em;
+}
+
+.famefe-hint {
+	flex-basis: 100%;
+	font-size: 0.875em;
+	opacity: 0.8;
+}
+
+.famefe-total {
+	font-weight: 600;
+}

@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"version": "1.0.0",
+	"category": "widgets",
+	"textdomain": "fair-member-fees",
+	"name": "famefe/fee-explanation",
+	"title": "Fee calculation explained",
+	"icon": "editor-help",
+	"description": "Explains on an example how the fair membership fee is calculated.",
+	"keywords": [ "fee", "fair member fees", "calculation", "example", "help" ],
+	"attributes": {
+		"baseFee": { "type": "number", "default": 1000 },
+		"regularHours": { "type": "string", "default": "0, 10, 15, 20, 25" },
+		"honoraryHours": { "type": "string", "default": "20" },
+		"discountEnabled": { "type": "boolean", "default": false },
+		"discountShare": { "type": "number", "default": 60 },
+		"discountRate": { "type": "number", "default": 20 }
+	},
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ],
+		"color": { "background": true, "text": true, "link": true },
+		"spacing": { "margin": true, "padding": true },
+		"typography": { "fontSize": true }
+	},
+	"editorScript": "file:./index.js",
+	"style": "famefe-blocks",
+	"render": "file:./render.php"
+}

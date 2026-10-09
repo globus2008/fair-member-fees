@@ -1,0 +1,35 @@
+{
+	"name": "fair-member-fees",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Fair Member Fees: blocks of the WordPress plugin",
+	"license": "GPL-2.0-or-later",
+	"scripts": {
+		"build": "wp-scripts build --webpack-src-dir=src/blocks --output-path=build/blocks --webpack-copy-php",
+		"start": "wp-scripts start --webpack-src-dir=src/blocks --output-path=build/blocks --webpack-copy-php",
+		"lint:js": "wp-scripts lint-js src",
+		"format": "wp-scripts format src",
+		"plugin-zip": "wp-scripts plugin-zip"
+	},
+	"files": [
+		"fair-member-fees.php",
+		"uninstall.php",
+		"readme.txt",
+		"includes",
+		"assets",
+		"build",
+		"src",
+		"languages",
+		"package.json"
+	],
+	"devDependencies": {
+		"@wordpress/block-editor": "^18.0.0",
+		"@wordpress/blocks": "^16.1.0",
+		"@wordpress/components": "^41.0.0",
+		"@wordpress/data": "^10.0.0",
+		"@wordpress/element": "^8.8.0",
+		"@wordpress/i18n": "^6.29.0",
+		"@wordpress/scripts": "^36.0.0",
+		"@wordpress/server-side-render": "^6.32.0"
+	}
+}

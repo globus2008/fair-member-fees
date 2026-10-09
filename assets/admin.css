@@ -1,0 +1,51 @@
+/* Fair Member Fees – admin pages */
+.famefe-admin .famefe-card {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 4px 20px 16px;
+	margin: 16px 0;
+	max-width: 1100px;
+}
+
+.famefe-inline-form,
+.famefe-filters {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	gap: 12px 16px;
+}
+
+.famefe-inline-form h2,
+.famefe-inline-form .famefe-full {
+	flex-basis: 100%;
+	margin-bottom: 0;
+}
+
+.famefe-inline-form label,
+.famefe-filters label {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.famefe-inline-form .famefe-grow {
+	flex: 1 1 220px;
+}
+
+.famefe-filters {
+	margin: 16px 0 8px;
+}
+
+.famefe-total {
+	font-weight: 600;
+	padding-bottom: 6px;
+}
+
+.famefe-admin dd {
+	margin: 0 0 12px;
+}
+
+.famefe-delete {
+	margin-top: 24px;
+}

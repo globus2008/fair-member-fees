@@ -1,0 +1,77 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "1.0.0",
+  "category": "widgets",
+  "textdomain": "fair-member-fees",
+  "name": "famefe/hours-list",
+  "title": "Volunteer hours list",
+  "icon": "list-view",
+  "description": "Recorded volunteer hours of a period.",
+  "keywords": [
+    "hours",
+    "fair member fees",
+    "volunteer",
+    "list"
+  ],
+  "attributes": {
+    "periodStart": {
+      "type": "string",
+      "default": ""
+    },
+    "periodEnd": {
+      "type": "string",
+      "default": ""
+    },
+    "count": {
+      "type": "number",
+      "default": 100
+    },
+    "onlyMine": {
+      "type": "boolean",
+      "default": false
+    },
+    "nameDisplay": {
+      "type": "string",
+      "default": "default"
+    },
+    "showName": {
+      "type": "boolean",
+      "default": true
+    },
+    "showDescription": {
+      "type": "boolean",
+      "default": true
+    },
+    "showRecordedAt": {
+      "type": "boolean",
+      "default": false
+    },
+    "showTotal": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "color": {
+      "background": true,
+      "text": true,
+      "link": true
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
+    "typography": {
+      "fontSize": true
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "famefe-blocks",
+  "render": "file:./render.php"
+}

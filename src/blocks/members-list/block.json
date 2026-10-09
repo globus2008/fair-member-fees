@@ -1,0 +1,35 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"version": "1.0.0",
+	"category": "widgets",
+	"textdomain": "fair-member-fees",
+	"name": "famefe/members-list",
+	"title": "Members list",
+	"icon": "groups",
+	"description": "The membership register: members, their type, membership changes and who recorded them.",
+	"keywords": [ "members", "fair member fees", "register", "membership" ],
+	"attributes": {
+		"showRegular": { "type": "boolean", "default": true },
+		"showHonorary": { "type": "boolean", "default": true },
+		"showFormer": { "type": "boolean", "default": false },
+		"nameDisplay": { "type": "string", "default": "default" },
+		"showMemberType": { "type": "boolean", "default": true },
+		"showMemberSince": { "type": "boolean", "default": true },
+		"showLastChange": { "type": "boolean", "default": true },
+		"showChangeDate": { "type": "boolean", "default": true },
+		"showRecordedBy": { "type": "boolean", "default": true },
+		"showRecordedAt": { "type": "boolean", "default": false },
+		"onlyLoggedIn": { "type": "boolean", "default": true }
+	},
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ],
+		"color": { "background": true, "text": true, "link": true },
+		"spacing": { "margin": true, "padding": true },
+		"typography": { "fontSize": true }
+	},
+	"editorScript": "file:./index.js",
+	"style": "famefe-blocks",
+	"render": "file:./render.php"
+}
