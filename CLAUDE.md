@@ -76,6 +76,9 @@ Rounding to the currency decimals only at the end. The website example (1000; 0/
 - Hours form: members record hours only for today unless `allowDateChange` is on (default off, owner 2026-10-09:
   no invented hours in the past, no change of a closed period); enforced in `famefe_hours_block_limits()`.
   Managers always choose the date and the member (their own name preselected, also when they are not members).
+- Hours list: deleting in the block (owner 2026-10-09) – members only entries they recorded for themselves,
+  managers any entry; both within days after `recorded_at` set in the block (default 7/7), checked on the server
+  (`famefe_hours_delete_denied()`). The admin page Volunteer hours deletes without a time limit.
 - `assets/tables.js` (handle `famefe-tables`, plain script, `viewScript` of the fees and members blocks): sort buttons
   for `th[data-sort]` using `td[data-value]`, and the name search `input[data-famefe-search]` of the members list.
 - Tests: Playwright from the Rotation Tournaments node_modules with `executablePath` of the installed Chromium;

@@ -63,7 +63,7 @@ msgstr "Typ"
 #: build/blocks/fee-explanation/render.php:129
 #: build/blocks/hours-form/render.php:89
 #: build/blocks/hours-form/render.php:110
-#: build/blocks/hours-list/render.php:47
+#: build/blocks/hours-list/render.php:64
 #: build/blocks/membership-fees/render.php:33
 #: includes/famefe-admin-tables.php:150
 #: includes/famefe-admin.php:397
@@ -164,14 +164,14 @@ msgid "Log in"
 msgstr "Přihlásit se"
 
 #: build/blocks/hours-form/render.php:39
-#: includes/famefe-notices.php:50
+#: includes/famefe-notices.php:51
 msgid "Only members can record volunteer hours."
 msgstr "Brigádnické hodiny mohou zapisovat jen členové."
 
 #: build/blocks/hours-form/render.php:73
 #: build/blocks/hours-form/render.php:79
 #: build/blocks/hours-form/render.php:109
-#: build/blocks/hours-list/render.php:43
+#: build/blocks/hours-list/render.php:60
 #: includes/famefe-admin-tables.php:148
 #: includes/famefe-admin.php:396
 msgid "Date"
@@ -179,7 +179,7 @@ msgstr "Datum"
 
 #: build/blocks/hours-form/render.php:97
 #: build/blocks/hours-form/render.php:111
-#: build/blocks/hours-list/render.php:49
+#: build/blocks/hours-list/render.php:66
 #: includes/famefe-admin-tables.php:151
 #: includes/famefe-admin.php:398
 #: build/blocks/hours-list/index.js:1
@@ -194,12 +194,12 @@ msgstr "Moje poslední zápisy"
 msgid "Log in to see your volunteer hours."
 msgstr "Pro zobrazení svých hodin se přihlaste."
 
-#: build/blocks/hours-list/render.php:37
+#: build/blocks/hours-list/render.php:50
 #: includes/famefe-admin-tables.php:175
 msgid "No hours recorded."
 msgstr "Žádné zapsané hodiny."
 
-#: build/blocks/hours-list/render.php:45
+#: build/blocks/hours-list/render.php:62
 #: build/blocks/members-list/render.php:39
 #: build/blocks/membership-fees/render.php:28
 #: includes/famefe-admin-tables.php:32
@@ -208,15 +208,30 @@ msgstr "Žádné zapsané hodiny."
 msgid "Name"
 msgstr "Jméno"
 
-#: build/blocks/hours-list/render.php:52
+#: build/blocks/hours-list/render.php:69
 #: build/blocks/members-list/render.php:46
 #: build/blocks/hours-list/index.js:1
 #: build/blocks/members-list/index.js:1
 msgid "Recorded on"
 msgstr "Zapsáno"
 
+#: build/blocks/hours-list/render.php:72
+msgid "Actions"
+msgstr "Akce"
+
+#: build/blocks/hours-list/render.php:95
+#: includes/famefe-admin-tables.php:187
+msgid "Delete these hours?"
+msgstr "Smazat tyto hodiny?"
+
+#: build/blocks/hours-list/render.php:95
+#: includes/famefe-admin-tables.php:188
+#: includes/famefe-admin-tables.php:267
+msgid "Delete"
+msgstr "Smazat"
+
 #. translators: 1: number of hours, 2: number of entries.
-#: build/blocks/hours-list/render.php:81
+#: build/blocks/hours-list/render.php:113
 msgid "Total: %1$s hours in %2$d entry"
 msgid_plural "Total: %1$s hours in %2$d entries"
 msgstr[0] "Celkem: %1$s h v %2$d zápisu"
@@ -413,15 +428,6 @@ msgstr "Upravit a historie"
 #: includes/famefe-admin-tables.php:183
 msgid "Edit"
 msgstr "Upravit"
-
-#: includes/famefe-admin-tables.php:187
-msgid "Delete these hours?"
-msgstr "Smazat tyto hodiny?"
-
-#: includes/famefe-admin-tables.php:188
-#: includes/famefe-admin-tables.php:267
-msgid "Delete"
-msgstr "Smazat"
 
 #. translators: %s: name of a user who is not a member.
 #: includes/famefe-admin-tables.php:198
@@ -1057,46 +1063,50 @@ msgid "Enter a valid number of hours."
 msgstr "Zadejte platný počet hodin."
 
 #: includes/famefe-notices.php:48
+msgid "These hours can no longer be deleted here; the time limit has passed."
+msgstr "Tyto hodiny už zde smazat nelze, lhůta uplynula."
+
+#: includes/famefe-notices.php:49
 msgid "Hours cannot be recorded for this date any more."
 msgstr "Na toto datum už hodiny zapsat nelze."
 
-#: includes/famefe-notices.php:49
+#: includes/famefe-notices.php:50
 msgid "Describe the work, please."
 msgstr "Popište prosím náplň práce."
 
-#: includes/famefe-notices.php:51
+#: includes/famefe-notices.php:52
 msgid "Enter a valid amount."
 msgstr "Zadejte platnou částku."
 
-#: includes/famefe-notices.php:52
+#: includes/famefe-notices.php:53
 msgid "Choose a valid payment method."
 msgstr "Zvolte platný způsob platby."
 
-#: includes/famefe-notices.php:53
+#: includes/famefe-notices.php:54
 msgid "The membership fee for this period has already been paid."
 msgstr "Členský příspěvek za toto období už je zaplacen."
 
-#: includes/famefe-notices.php:54
+#: includes/famefe-notices.php:55
 msgid "There is nothing to pay."
 msgstr "Není co platit."
 
-#: includes/famefe-notices.php:55
+#: includes/famefe-notices.php:56
 msgid "The block of this form was not found on the page. Please reload the page."
 msgstr "Blok tohoto formuláře nebyl na stránce nalezen. Načtěte prosím stránku znovu."
 
-#: includes/famefe-notices.php:56
+#: includes/famefe-notices.php:57
 msgid "Online payment is not set up."
 msgstr "Platba online není nastavena."
 
-#: includes/famefe-notices.php:57
+#: includes/famefe-notices.php:58
 msgid "The payment service could not be reached. Please try again later."
 msgstr "Platební služba není dostupná. Zkuste to prosím později."
 
-#: includes/famefe-notices.php:58
+#: includes/famefe-notices.php:59
 msgid "The payment has not been confirmed yet. If you paid, it will appear shortly."
 msgstr "Platba zatím nebyla potvrzena. Pokud jste zaplatili, brzy se objeví."
 
-#: includes/famefe-notices.php:59
+#: includes/famefe-notices.php:60
 msgid "The data could not be saved. Please try again."
 msgstr "Data se nepodařilo uložit. Zkuste to prosím znovu."
 
@@ -1243,6 +1253,30 @@ msgstr "Zobrazení"
 #: build/blocks/hours-list/index.js:1
 msgid "Total below"
 msgstr "Součet pod tabulkou"
+
+#: build/blocks/hours-list/index.js:1
+msgid "Deleting"
+msgstr "Mazání"
+
+#: build/blocks/hours-list/index.js:1
+msgid "Allow deleting hours"
+msgstr "Povolit mazání hodin"
+
+#: build/blocks/hours-list/index.js:1
+msgid "Members: days after recording"
+msgstr "Členové: dní od zápisu"
+
+#: build/blocks/hours-list/index.js:1
+msgid "Members delete only hours they recorded themselves, e.g. after a mistake. 0 = only on the day of recording."
+msgstr "Členové mažou jen hodiny, které sami zapsali, třeba po omylu. 0 = jen v den zápisu."
+
+#: build/blocks/hours-list/index.js:1
+msgid "Administrators and editors: days after recording"
+msgstr "Administrátoři a editoři: dní od zápisu"
+
+#: build/blocks/hours-list/index.js:1
+msgid "They may delete any entry within this time. Older entries can still be deleted in Member Fees → Volunteer hours."
+msgstr "V této lhůtě mohou smazat jakýkoli záznam. Starší záznamy lze dál smazat v Členské příspěvky → Brigádnické hodiny."
 
 #: build/blocks/members-list/index.js:1
 msgid "Regular members"

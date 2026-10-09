@@ -129,3 +129,20 @@ function famefe_handle_block_checkout(): void
 }
 add_action('admin_post_famefe_block_checkout', 'famefe_handle_block_checkout');
 add_action('admin_post_nopriv_famefe_block_checkout', 'famefe_handle_block_checkout');
+
+/**
+ * Volunteer hours list block: delete an entry (own entries of members, any entry of managers),
+ * within the time limits of the saved block.
+ */
+function famefe_handle_block_delete_hours(): void
+{
+	[, $block_id, $attrs, $back] = famefe_block_form_start('famefe_block_delete_hours', 'famefe/hours-list');
+	// phpcs:ignore WordPress.Security.NonceVerification.Missing -- verified in famefe_block_form_start().
+	$id = isset($_POST['entry_id']) ? absint($_POST['entry_id']) : 0;
+	$result = ($attrs['allowDelete'] ?? true)
+		? famefe_service_delete_hours_entry($id, famefe_hours_list_delete_limits($attrs))
+		: famefe_error('forbidden');
+	famefe_redirect_with_result($back, $result, ['famefe_block' => $block_id]);
+}
+add_action('admin_post_famefe_block_delete_hours', 'famefe_handle_block_delete_hours');
+add_action('admin_post_nopriv_famefe_block_delete_hours', 'famefe_handle_block_delete_hours');

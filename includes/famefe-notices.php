@@ -45,6 +45,7 @@ function famefe_notice_text(string $code): string
 		'user_taken' => __('This user account already belongs to another member.', 'fair-member-fees'),
 		'has_records' => __('The member has hours or payments and cannot be deleted. End the membership instead.', 'fair-member-fees'),
 		'invalid_hours' => __('Enter a valid number of hours.', 'fair-member-fees'),
+		'delete_too_late' => __('These hours can no longer be deleted here; the time limit has passed.', 'fair-member-fees'),
 		'date_out_of_range' => __('Hours cannot be recorded for this date any more.', 'fair-member-fees'),
 		'description_required' => __('Describe the work, please.', 'fair-member-fees'),
 		'not_member' => __('Only members can record volunteer hours.', 'fair-member-fees'),

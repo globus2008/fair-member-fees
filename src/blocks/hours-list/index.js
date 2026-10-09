@@ -8,6 +8,7 @@ import { __ } from '@wordpress/i18n';
 
 import metadata from './block.json';
 import {
+	useBlockId,
 	NameDisplayControl,
 	NumberControl,
 	PeriodControls,
@@ -15,7 +16,9 @@ import {
 	Toggles,
 } from '../shared';
 
-function Edit( { attributes, setAttributes } ) {
+function Edit( props ) {
+	const { attributes, setAttributes } = props;
+	useBlockId( props );
 	return (
 		<ServerPreview name={ metadata.name } attributes={ attributes }>
 			<InspectorControls>
@@ -76,6 +79,67 @@ function Edit( { attributes, setAttributes } ) {
 							showTotal: __( 'Total below', 'fair-member-fees' ),
 						} }
 					/>
+				</PanelBody>
+				<PanelBody
+					title={ __( 'Deleting', 'fair-member-fees' ) }
+					initialOpen={ false }
+				>
+					<Toggles
+						attributes={ attributes }
+						setAttributes={ setAttributes }
+						toggles={ {
+							allowDelete: __(
+								'Allow deleting hours',
+								'fair-member-fees'
+							),
+						} }
+					/>
+					{ attributes.allowDelete && (
+						<>
+							<NumberControl
+								min={ 0 }
+								max={ 366 }
+								label={ __(
+									'Members: days after recording',
+									'fair-member-fees'
+								) }
+								help={ __(
+									'Members delete only hours they recorded themselves, e.g. after a mistake. 0 = only on the day of recording.',
+									'fair-member-fees'
+								) }
+								value={ attributes.memberDeleteDays }
+								onChange={ ( value ) =>
+									setAttributes( {
+										memberDeleteDays: Math.min(
+											366,
+											Math.max( 0, Math.round( value ) )
+										),
+									} )
+								}
+							/>
+							<NumberControl
+								min={ 0 }
+								max={ 3660 }
+								label={ __(
+									'Administrators and editors: days after recording',
+									'fair-member-fees'
+								) }
+								help={ __(
+									'They may delete any entry within this time. Older entries can still be deleted in Member Fees → Volunteer hours.',
+									'fair-member-fees'
+								) }
+								value={ attributes.managerDeleteDays }
+								onChange={ ( value ) =>
+									setAttributes( {
+										managerDeleteDays: Math.min(
+											3660,
+											Math.max( 0, Math.round( value ) )
+										),
+									} )
+								}
+							/>
+						</>
+					) }
 				</PanelBody>
 			</InspectorControls>
 		</ServerPreview>

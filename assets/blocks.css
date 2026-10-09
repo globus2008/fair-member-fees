@@ -180,3 +180,14 @@
 .famefe-total {
 	font-weight: 600;
 }
+
+.famefe-table .famefe-col-action {
+	text-align: right;
+	white-space: nowrap;
+}
+
+.famefe-delete-button {
+	padding: 0.15em 0.6em;
+	font-size: 0.85em;
+	cursor: pointer;
+}

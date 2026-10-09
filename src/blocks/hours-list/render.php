@@ -31,11 +31,28 @@ $famefe_filter = [
 $famefe_entries = famefe_get_hours($famefe_filter + ['limit' => min(1000, max(1, intval($attributes['count'])))]);
 $famefe_names = famefe_name_mode((string) $attributes['nameDisplay']);
 $famefe_show_name = $attributes['showName'] && !$attributes['onlyMine'];
+
+// Deleting: members their own entries, managers any entry, within the limits of the block (checked again on the server).
+$famefe_block_id = famefe_block_id($attributes);
+$famefe_deletable = [];
+if ($attributes['allowDelete'] && $famefe_user_id > 0 && $famefe_block_id !== '') {
+	$famefe_limits = famefe_hours_list_delete_limits($attributes);
+	foreach ($famefe_entries as $famefe_entry) {
+		if (famefe_hours_delete_denied($famefe_entry, $famefe_limits) === '') {
+			$famefe_deletable[intval($famefe_entry->id)] = true;
+		}
+	}
+}
 ?>
 <div <?php echo get_block_wrapper_attributes(['class' => 'famefe-block famefe-hours-list']); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
+	<?php echo famefe_block_notice($famefe_block_id); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- escaped in the function. ?>
 	<?php if (!$famefe_entries) : ?>
 		<p><?php esc_html_e('No hours recorded.', 'fair-member-fees'); ?></p>
 	<?php else : ?>
+		<?php if ($famefe_deletable) : ?>
+			<form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>">
+			<?php echo famefe_block_form_fields('famefe_block_delete_hours', $famefe_block_id); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- escaped in the function. ?>
+		<?php endif; ?>
 		<div class="famefe-table-wrap">
 			<table class="famefe-table">
 				<thead>
@@ -50,6 +67,9 @@ $famefe_show_name = $attributes['showName'] && !$attributes['onlyMine'];
 						<?php endif; ?>
 						<?php if ($attributes['showRecordedAt']) : ?>
 							<th scope="col"><?php esc_html_e('Recorded on', 'fair-member-fees'); ?></th>
+						<?php endif; ?>
+						<?php if ($famefe_deletable) : ?>
+							<th scope="col"><span class="screen-reader-text"><?php esc_html_e('Actions', 'fair-member-fees'); ?></span></th>
 						<?php endif; ?>
 					</tr>
 				</thead>
@@ -67,11 +87,23 @@ $famefe_show_name = $attributes['showName'] && !$attributes['onlyMine'];
 							<?php if ($attributes['showRecordedAt']) : ?>
 								<td><?php echo esc_html(famefe_format_date($famefe_entry->recorded_at, true)); ?></td>
 							<?php endif; ?>
+							<?php if ($famefe_deletable) : ?>
+								<td class="famefe-col-action">
+									<?php if (isset($famefe_deletable[intval($famefe_entry->id)])) : ?>
+										<button type="submit" name="entry_id" value="<?php echo intval($famefe_entry->id); ?>" class="famefe-delete-button"
+											onclick="return confirm(this.dataset.confirm)"
+											data-confirm="<?php esc_attr_e('Delete these hours?', 'fair-member-fees'); ?>"><?php esc_html_e('Delete', 'fair-member-fees'); ?></button>
+									<?php endif; ?>
+								</td>
+							<?php endif; ?>
 						</tr>
 					<?php endforeach; ?>
 				</tbody>
 			</table>
 		</div>
+		<?php if ($famefe_deletable) : ?>
+			</form>
+		<?php endif; ?>
 		<?php if ($attributes['showTotal']) : ?>
 			<p class="famefe-total">
 				<?php

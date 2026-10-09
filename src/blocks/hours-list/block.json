@@ -8,24 +8,84 @@
 	"title": "Volunteer hours list",
 	"icon": "list-view",
 	"description": "Recorded volunteer hours of a period.",
-	"keywords": [ "hours", "fair member fees", "volunteer", "list" ],
+	"keywords": [
+		"hours",
+		"fair member fees",
+		"volunteer",
+		"list"
+	],
 	"attributes": {
-		"periodStart": { "type": "string", "default": "" },
-		"periodEnd": { "type": "string", "default": "" },
-		"count": { "type": "number", "default": 100 },
-		"onlyMine": { "type": "boolean", "default": false },
-		"nameDisplay": { "type": "string", "default": "default" },
-		"showName": { "type": "boolean", "default": true },
-		"showDescription": { "type": "boolean", "default": true },
-		"showRecordedAt": { "type": "boolean", "default": false },
-		"showTotal": { "type": "boolean", "default": true }
+		"blockId": {
+			"type": "string",
+			"default": ""
+		},
+		"periodStart": {
+			"type": "string",
+			"default": ""
+		},
+		"periodEnd": {
+			"type": "string",
+			"default": ""
+		},
+		"count": {
+			"type": "number",
+			"default": 100
+		},
+		"onlyMine": {
+			"type": "boolean",
+			"default": false
+		},
+		"nameDisplay": {
+			"type": "string",
+			"default": "default"
+		},
+		"showName": {
+			"type": "boolean",
+			"default": true
+		},
+		"showDescription": {
+			"type": "boolean",
+			"default": true
+		},
+		"showRecordedAt": {
+			"type": "boolean",
+			"default": false
+		},
+		"showTotal": {
+			"type": "boolean",
+			"default": true
+		},
+		"allowDelete": {
+			"type": "boolean",
+			"default": true
+		},
+		"memberDeleteDays": {
+			"type": "number",
+			"default": 7
+		},
+		"managerDeleteDays": {
+			"type": "number",
+			"default": 7
+		}
 	},
 	"supports": {
 		"html": false,
-		"align": [ "wide", "full" ],
-		"color": { "background": true, "text": true, "link": true },
-		"spacing": { "margin": true, "padding": true },
-		"typography": { "fontSize": true }
+		"align": [
+			"wide",
+			"full"
+		],
+		"color": {
+			"background": true,
+			"text": true,
+			"link": true
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"typography": {
+			"fontSize": true
+		}
 	},
 	"editorScript": "file:./index.js",
 	"style": "famefe-blocks",

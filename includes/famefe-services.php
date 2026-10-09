@@ -450,6 +450,52 @@ function famefe_service_delete_hours(int $id): array|WP_Error
 }
 
 /**
+ * Whether the current user may delete an hours entry in the Volunteer hours list block.
+ * - Members: only entries they recorded themselves for themselves, at most member_days after recording.
+ * - Administrators and editors: any entry, at most manager_days after recording.
+ * The time limit counts from the day the entry was recorded (0 = only on that day).
+ *
+ * @param array $limits 'member_days', 'manager_days'.
+ * @return string '' when allowed, otherwise the notice code why not.
+ */
+function famefe_hours_delete_denied(object $entry, array $limits): string
+{
+	$user_id = get_current_user_id();
+	if ($user_id <= 0) {
+		return 'login_required';
+	}
+	if (famefe_can_manage()) {
+		$days = intval($limits['manager_days'] ?? 7);
+	} else {
+		$own = famefe_get_member($user_id);
+		$for_me = intval($entry->user_id) === $user_id || ($own && intval($entry->member_id) === intval($own->id));
+		if (!$for_me || intval($entry->recorded_by) !== $user_id) {
+			return 'forbidden';
+		}
+		$days = intval($limits['member_days'] ?? 7);
+	}
+	return substr((string) $entry->recorded_at, 0, 10) < famefe_days_ago(max(0, $days)) ? 'delete_too_late' : '';
+}
+
+/**
+ * Delete an hours entry from the Volunteer hours list block (see famefe_hours_delete_denied()).
+ */
+function famefe_service_delete_hours_entry(int $id, array $limits): array|WP_Error
+{
+	global $wpdb;
+	$entry = famefe_get_hours_entry($id);
+	if (!$entry) {
+		return famefe_error('not_found');
+	}
+	$denied = famefe_hours_delete_denied($entry, $limits);
+	if ($denied !== '') {
+		return famefe_error($denied);
+	}
+	$wpdb->delete(famefe_table('hours'), ['id' => $id]);
+	return famefe_ok('hours_deleted');
+}
+
+/**
  * Write a payment without permission checks (callers check them). A Stripe session is stored
  * only once, so a repeated return from Stripe or a repeated webhook changes nothing.
  *

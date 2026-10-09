@@ -131,6 +131,17 @@ function famefe_hours_block_limits(array $attrs): array
 }
 
 /**
+ * Deletion limits of a Volunteer hours list block for famefe_service_delete_hours_entry() (days after recording).
+ */
+function famefe_hours_list_delete_limits(array $attrs): array
+{
+	return [
+		'member_days' => min(366, max(0, intval($attrs['memberDeleteDays'] ?? 7))),
+		'manager_days' => min(3660, max(0, intval($attrs['managerDeleteDays'] ?? 7))),
+	];
+}
+
+/**
  * Safe blockId from the editor (letters and digits).
  */
 function famefe_block_id(array $attrs): string
