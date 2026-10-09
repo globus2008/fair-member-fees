@@ -39,13 +39,12 @@ msgstr "1. Členové a jejich hodiny"
 
 #: build/blocks/fee-explanation/render.php:58
 #: build/blocks/fee-explanation/render.php:128
-#: build/blocks/hours-form/render.php:55
-#: build/blocks/hours-form/render.php:67
+#: build/blocks/hours-form/render.php:56
 #: includes/famefe-admin-tables.php:235
-#: includes/famefe-admin.php:388
-#: includes/famefe-admin.php:409
-#: includes/famefe-admin.php:443
-#: includes/famefe-admin.php:467
+#: includes/famefe-admin.php:398
+#: includes/famefe-admin.php:419
+#: includes/famefe-admin.php:453
+#: includes/famefe-admin.php:477
 #: includes/famefe-users.php:83
 #: includes/famefe-users.php:139
 msgid "Member"
@@ -61,12 +60,12 @@ msgstr "Typ"
 
 #: build/blocks/fee-explanation/render.php:60
 #: build/blocks/fee-explanation/render.php:129
-#: build/blocks/hours-form/render.php:89
-#: build/blocks/hours-form/render.php:110
+#: build/blocks/hours-form/render.php:58
+#: build/blocks/hours-form/render.php:124
 #: build/blocks/hours-list/render.php:64
 #: build/blocks/membership-fees/render.php:33
 #: includes/famefe-admin-tables.php:150
-#: includes/famefe-admin.php:397
+#: includes/famefe-admin.php:407
 #: build/blocks/membership-fees/index.js:2
 msgid "Hours"
 msgstr "Hodiny"
@@ -148,7 +147,7 @@ msgid "Whoever does not volunteer pays more than the base fee: paying instead of
 msgstr "Kdo nepracuje, platí víc než základní příspěvek: zaplatit místo práce nesmí být nikdy výhodnější."
 
 #: build/blocks/hours-form/render.php:22
-#: includes/famefe-admin.php:399
+#: includes/famefe-admin.php:409
 #: build/blocks/hours-form/index.js:1
 msgid "Add hours"
 msgstr "Přidat hodiny"
@@ -168,25 +167,24 @@ msgstr "Přihlásit se"
 msgid "Only members can record volunteer hours."
 msgstr "Brigádnické hodiny mohou zapisovat jen členové."
 
-#: build/blocks/hours-form/render.php:73
-#: build/blocks/hours-form/render.php:79
-#: build/blocks/hours-form/render.php:109
+#: build/blocks/hours-form/render.php:57
+#: build/blocks/hours-form/render.php:123
 #: build/blocks/hours-list/render.php:60
 #: includes/famefe-admin-tables.php:148
-#: includes/famefe-admin.php:396
+#: includes/famefe-admin.php:406
 msgid "Date"
 msgstr "Datum"
 
-#: build/blocks/hours-form/render.php:97
-#: build/blocks/hours-form/render.php:111
+#: build/blocks/hours-form/render.php:59
+#: build/blocks/hours-form/render.php:125
 #: build/blocks/hours-list/render.php:66
 #: includes/famefe-admin-tables.php:151
-#: includes/famefe-admin.php:398
+#: includes/famefe-admin.php:408
 #: build/blocks/hours-list/index.js:1
 msgid "Work done"
 msgstr "Náplň práce"
 
-#: build/blocks/hours-form/render.php:104
+#: build/blocks/hours-form/render.php:118
 msgid "My recent entries"
 msgstr "Moje poslední zápisy"
 
@@ -244,7 +242,7 @@ msgstr "Seznam členů vidí jen přihlášení uživatelé."
 
 #: build/blocks/members-list/render.php:42
 #: includes/famefe-admin-tables.php:34
-#: includes/famefe-admin.php:256
+#: includes/famefe-admin.php:266
 #: build/blocks/members-list/index.js:1
 msgid "Member since"
 msgstr "Členem od"
@@ -257,7 +255,7 @@ msgstr "Změna"
 
 #: build/blocks/members-list/render.php:44
 #: includes/famefe-admin-tables.php:36
-#: includes/famefe-admin.php:345
+#: includes/famefe-admin.php:355
 #: build/blocks/members-list/index.js:1
 msgid "Change date"
 msgstr "Datum změny"
@@ -266,7 +264,7 @@ msgstr "Datum změny"
 #: includes/famefe-admin-tables.php:37
 #: includes/famefe-admin-tables.php:152
 #: includes/famefe-admin-tables.php:240
-#: includes/famefe-admin.php:350
+#: includes/famefe-admin.php:360
 #: build/blocks/members-list/index.js:1
 msgid "Recorded by"
 msgstr "Změnu zapsal"
@@ -287,7 +285,7 @@ msgstr "Hledat podle jména"
 
 #: build/blocks/members-list/render.php:79
 #: includes/famefe-admin-tables.php:92
-#: includes/famefe-admin.php:338
+#: includes/famefe-admin.php:348
 #: includes/famefe-users.php:159
 msgid "Former member"
 msgstr "Bývalý člen"
@@ -295,7 +293,7 @@ msgstr "Bývalý člen"
 #: build/blocks/membership-fees/render.php:47
 #: build/blocks/membership-fees/render.php:276
 #: includes/famefe-admin-tables.php:234
-#: includes/famefe-admin.php:461
+#: includes/famefe-admin.php:471
 #: build/blocks/membership-fees/index.js:2
 msgid "Paid on"
 msgstr "Zaplaceno"
@@ -374,12 +372,12 @@ msgstr "Člen a příspěvek"
 
 #: build/blocks/membership-fees/render.php:269
 #: includes/famefe-admin-tables.php:238
-#: includes/famefe-admin.php:455
+#: includes/famefe-admin.php:465
 msgid "Method"
 msgstr "Způsob"
 
 #: build/blocks/membership-fees/render.php:279
-#: includes/famefe-admin.php:463
+#: includes/famefe-admin.php:473
 msgid "Record payment"
 msgstr "Zapsat platbu"
 
@@ -388,12 +386,12 @@ msgid "Only administrators and editors see this form. The amount is the calculat
 msgstr "Tento formulář vidí jen administrátoři a editoři. Částka je vypočtený příspěvek člena."
 
 #: includes/famefe-admin-tables.php:38
-#: includes/famefe-admin.php:197
+#: includes/famefe-admin.php:206
 msgid "User account"
 msgstr "Uživatelský účet"
 
 #: includes/famefe-admin-tables.php:39
-#: includes/famefe-admin.php:231
+#: includes/famefe-admin.php:241
 msgid "Email"
 msgstr "E-mail"
 
@@ -412,8 +410,8 @@ msgid "Former members"
 msgstr "Bývalí členové"
 
 #: includes/famefe-admin-tables.php:61
-#: includes/famefe-admin.php:411
-#: includes/famefe-admin.php:469
+#: includes/famefe-admin.php:421
+#: includes/famefe-admin.php:479
 msgid "All"
 msgstr "Vše"
 
@@ -444,10 +442,10 @@ msgid "Amount"
 msgstr "Částka"
 
 #: includes/famefe-admin-tables.php:239
-#: includes/famefe-admin.php:261
-#: includes/famefe-admin.php:324
-#: includes/famefe-admin.php:349
-#: includes/famefe-admin.php:462
+#: includes/famefe-admin.php:271
+#: includes/famefe-admin.php:334
+#: includes/famefe-admin.php:359
+#: includes/famefe-admin.php:472
 msgid "Note"
 msgstr "Poznámka"
 
@@ -464,12 +462,12 @@ msgid "Member Fees"
 msgstr "Členské příspěvky"
 
 #: includes/famefe-admin.php:30
-#: includes/famefe-admin.php:383
+#: includes/famefe-admin.php:393
 msgid "Volunteer hours"
 msgstr "Brigádnické hodiny"
 
 #: includes/famefe-admin.php:31
-#: includes/famefe-admin.php:438
+#: includes/famefe-admin.php:448
 msgid "Payments"
 msgstr "Platby"
 
@@ -493,7 +491,7 @@ msgstr "%1$s, %2$s"
 
 #: includes/famefe-admin.php:142
 #: includes/famefe-admin.php:170
-#: includes/famefe-admin.php:265
+#: includes/famefe-admin.php:275
 msgid "Add member"
 msgstr "Přidat člena"
 
@@ -510,407 +508,424 @@ msgstr "Zpět na členy"
 msgid "This user account already belongs to another member."
 msgstr "Tento uživatelský účet už patří jinému členovi."
 
+#. translators: %d: number of user accounts found.
+#: includes/famefe-admin.php:178
+msgid "Found: %d"
+msgstr "Nalezeno: %d"
+
 #: includes/famefe-admin.php:179
+msgid "No account found."
+msgstr "Žádný účet nenalezen."
+
+#: includes/famefe-admin.php:182
 msgid "Details"
 msgstr "Údaje"
 
-#: includes/famefe-admin.php:191
+#: includes/famefe-admin.php:193
+msgid "Search accounts by name or login…"
+msgstr "Hledat účet podle jména nebo přihlašovacího jména…"
+
+#: includes/famefe-admin.php:194
+msgid "Search user accounts"
+msgstr "Hledat uživatelské účty"
+
+#: includes/famefe-admin.php:200
 msgid "— No account —"
 msgstr "— Bez účtu —"
 
-#: includes/famefe-admin.php:201
+#: includes/famefe-admin.php:210
 msgid "Existing user account"
 msgstr "Existující uživatelský účet"
 
-#: includes/famefe-admin.php:204
+#: includes/famefe-admin.php:213
 msgid "Create a new user account"
 msgstr "Vytvořit nový uživatelský účet"
 
-#: includes/famefe-admin.php:206
+#: includes/famefe-admin.php:215
 msgid "Send the member an e-mail with a link for setting the password"
 msgstr "Poslat členovi e-mail s odkazem pro nastavení hesla"
 
-#: includes/famefe-admin.php:207
+#: includes/famefe-admin.php:216
 msgid "The account gets the default role of the site; the e-mail address is required."
 msgstr "Účet dostane výchozí roli webu; e-mail je povinný."
 
-#: includes/famefe-admin.php:210
+#: includes/famefe-admin.php:219
 msgid "Without a user account"
 msgstr "Bez uživatelského účtu"
 
-#: includes/famefe-admin.php:212
+#: includes/famefe-admin.php:221
 msgid "Members with an account can record their hours and pay online. The name and e-mail of a linked member are those of the account."
 msgstr "Členové s účtem mohou zapisovat hodiny a platit online. Jméno a e-mail propojeného člena se berou z jeho účtu."
 
-#: includes/famefe-admin.php:216
+#: includes/famefe-admin.php:226
 msgid "Open the profile"
 msgstr "Otevřít profil"
 
-#: includes/famefe-admin.php:218
+#: includes/famefe-admin.php:228
 msgid "Members with an account can record their hours and pay online."
 msgstr "Členové s účtem mohou zapisovat hodiny a platit online."
 
-#: includes/famefe-admin.php:223
+#: includes/famefe-admin.php:233
 msgid "First name"
 msgstr "Jméno"
 
-#: includes/famefe-admin.php:227
+#: includes/famefe-admin.php:237
 msgid "Last name"
 msgstr "Příjmení"
 
-#: includes/famefe-admin.php:235
+#: includes/famefe-admin.php:245
 msgid "The name and e-mail come from the user account, which you are not allowed to edit."
 msgstr "Jméno a e-mail pocházejí z uživatelského účtu, který nemáte oprávnění upravovat."
 
-#: includes/famefe-admin.php:237
+#: includes/famefe-admin.php:247
 msgid "Changes of the name and e-mail are saved to the user account too."
 msgstr "Změny jména a e-mailu se uloží i do uživatelského účtu."
 
-#: includes/famefe-admin.php:239
+#: includes/famefe-admin.php:249
 msgid "For an existing account, the name and e-mail of the account are used; these fields only fill in what the account lacks."
 msgstr "U existujícího účtu se použije jméno a e-mail z účtu; tato pole doplní jen to, co účtu chybí."
 
-#: includes/famefe-admin.php:245
+#: includes/famefe-admin.php:255
 #: build/blocks/membership-fees/index.js:2
 msgid "Membership type"
 msgstr "Typ členství"
 
-#: includes/famefe-admin.php:252
+#: includes/famefe-admin.php:262
 msgid "Regular members pay the membership fee, honorary members do not."
 msgstr "Řádní členové platí členský příspěvek, čestní ne."
 
-#: includes/famefe-admin.php:265
+#: includes/famefe-admin.php:275
 msgid "Save details"
 msgstr "Uložit údaje"
 
-#: includes/famefe-admin.php:279
+#: includes/famefe-admin.php:289
 msgid "Delete this member? Use this only for a member entered by mistake."
 msgstr "Smazat tohoto člena? Použijte jen pro člena zapsaného omylem."
 
-#: includes/famefe-admin.php:279
+#: includes/famefe-admin.php:289
 msgid "Delete member entered by mistake"
 msgstr "Smazat člena zapsaného omylem"
 
 #. translators: 1: membership type, 2: date.
-#: includes/famefe-admin.php:293
+#: includes/famefe-admin.php:303
 #: includes/famefe-users.php:113
 msgid "%1$s member since %2$s"
 msgstr "%1$s člen od %2$s"
 
 #. translators: %s: date.
-#: includes/famefe-admin.php:295
+#: includes/famefe-admin.php:305
 #: includes/famefe-users.php:110
 msgid "Membership ended on %s"
 msgstr "Členství ukončeno %s"
 
-#: includes/famefe-admin.php:298
+#: includes/famefe-admin.php:308
 #: includes/famefe-users.php:80
 msgid "Membership"
 msgstr "Členství"
 
-#: includes/famefe-admin.php:304
-#: includes/famefe-admin.php:346
+#: includes/famefe-admin.php:314
+#: includes/famefe-admin.php:356
 msgid "Change"
 msgstr "Změna"
 
 #. translators: %s: membership type (Regular, Honorary).
-#: includes/famefe-admin.php:311
+#: includes/famefe-admin.php:321
 msgid "Change type to: %s"
 msgstr "Změnit typ na: %s"
 
-#: includes/famefe-admin.php:316
+#: includes/famefe-admin.php:326
 msgid "End the membership"
 msgstr "Ukončit členství"
 
-#: includes/famefe-admin.php:321
+#: includes/famefe-admin.php:331
 msgid "Rejoin"
 msgstr "Znovu přijmout"
 
-#: includes/famefe-admin.php:323
+#: includes/famefe-admin.php:333
 msgid "Valid from"
 msgstr "Platí od"
 
-#: includes/famefe-admin.php:325
+#: includes/famefe-admin.php:335
 msgid "Record the change"
 msgstr "Zapsat změnu"
 
-#: includes/famefe-admin.php:338
+#: includes/famefe-admin.php:348
 msgid "Active"
 msgstr "Aktivní"
 
-#: includes/famefe-admin.php:341
+#: includes/famefe-admin.php:351
 msgid "History"
 msgstr "Historie"
 
-#: includes/famefe-admin.php:347
-#: includes/famefe-admin.php:407
+#: includes/famefe-admin.php:357
+#: includes/famefe-admin.php:417
 #: build/blocks/hours-list/index.js:1
 #: build/blocks/membership-fees/index.js:1
 msgid "From"
 msgstr "Od"
 
-#: includes/famefe-admin.php:348
-#: includes/famefe-admin.php:408
+#: includes/famefe-admin.php:358
+#: includes/famefe-admin.php:418
 #: build/blocks/hours-list/index.js:1
 #: build/blocks/membership-fees/index.js:1
 msgid "To"
 msgstr "Do"
 
-#: includes/famefe-admin.php:387
+#: includes/famefe-admin.php:397
 msgid "Edit hours"
 msgstr "Upravit hodiny"
 
-#: includes/famefe-admin.php:387
+#: includes/famefe-admin.php:397
 msgid "Record hours for a member"
 msgstr "Zapsat hodiny za člena"
 
-#: includes/famefe-admin.php:399
+#: includes/famefe-admin.php:409
 msgid "Save"
 msgstr "Uložit"
 
-#: includes/famefe-admin.php:401
+#: includes/famefe-admin.php:411
 msgid "Cancel"
 msgstr "Zrušit"
 
-#: includes/famefe-admin.php:415
-#: includes/famefe-admin.php:473
+#: includes/famefe-admin.php:425
+#: includes/famefe-admin.php:483
 msgid "Filter"
 msgstr "Filtrovat"
 
 #. translators: %s: number of hours.
-#: includes/famefe-admin.php:419
+#: includes/famefe-admin.php:429
 msgid "Total: %s hours"
 msgstr "Celkem: %s h"
 
-#: includes/famefe-admin.php:441
+#: includes/famefe-admin.php:451
 msgid "Record a payment"
 msgstr "Zapsat platbu"
 
-#: includes/famefe-admin.php:442
+#: includes/famefe-admin.php:452
 msgid "Cash and bank payments. The period must be the same as in the Membership fees block, otherwise the block does not show the member as paid. Card payments are recorded automatically."
 msgstr "Platby hotově a převodem. Období musí být stejné jako v bloku Členské příspěvky, jinak blok člena nezobrazí jako zaplaceného. Platby kartou se zapisují automaticky."
 
-#: includes/famefe-admin.php:446
+#: includes/famefe-admin.php:456
 msgid "Period from"
 msgstr "Období od"
 
-#: includes/famefe-admin.php:447
+#: includes/famefe-admin.php:457
 msgid "to"
 msgstr "do"
 
 #. translators: %s: currency code.
-#: includes/famefe-admin.php:451
+#: includes/famefe-admin.php:461
 msgid "Amount (%s)"
 msgstr "Částka (%s)"
 
-#: includes/famefe-admin.php:505
+#: includes/famefe-admin.php:515
 msgid "Fair Member Fees settings"
 msgstr "Nastavení Fair Member Fees"
 
-#: includes/famefe-admin.php:507
+#: includes/famefe-admin.php:517
 msgid "The season (period), the base fee and the discount are set in the Membership fees block on your page."
 msgstr "Sezóna (období), základní příspěvek a sleva se nastavují v bloku Členské příspěvky na vaší stránce."
 
-#: includes/famefe-admin.php:510
+#: includes/famefe-admin.php:520
 msgid "Money"
 msgstr "Peníze"
 
-#: includes/famefe-admin.php:513
+#: includes/famefe-admin.php:523
 msgid "Currency"
 msgstr "Měna"
 
-#: includes/famefe-admin.php:516
+#: includes/famefe-admin.php:526
 msgid "Three-letter ISO code, e.g. CZK, EUR, USD."
 msgstr "Třípísmenný kód ISO, např. CZK, EUR, USD."
 
-#: includes/famefe-admin.php:520
+#: includes/famefe-admin.php:530
 msgid "Decimal places"
 msgstr "Desetinná místa"
 
-#: includes/famefe-admin.php:523
+#: includes/famefe-admin.php:533
 msgid "Fees are rounded to this number of decimals. Leave empty to use the usual number of the currency (CZK 0, EUR and USD 2)."
 msgstr "Příspěvky se zaokrouhlí na tento počet desetinných míst. Prázdné pole = obvyklý počet pro měnu (CZK 0, EUR a USD 2)."
 
-#: includes/famefe-admin.php:528
+#: includes/famefe-admin.php:538
 msgid "Stripe"
 msgstr "Stripe"
 
-#: includes/famefe-admin.php:529
+#: includes/famefe-admin.php:539
 msgid "Members pay on the Stripe payment page. Fill in the secret key of the mode you use; without it the Membership fees block shows no payment button."
 msgstr "Členové platí na platební stránce Stripe. Vyplňte tajný klíč používaného režimu; bez něj blok Členské příspěvky tlačítko platby nezobrazí."
 
-#: includes/famefe-admin.php:532
+#: includes/famefe-admin.php:542
 msgid "Mode"
 msgstr "Režim"
 
-#: includes/famefe-admin.php:534
+#: includes/famefe-admin.php:544
 msgid "Test (no real money)"
 msgstr "Testovací (bez skutečných peněz)"
 
-#: includes/famefe-admin.php:535
+#: includes/famefe-admin.php:545
 msgid "Live"
 msgstr "Ostrý"
 
-#: includes/famefe-admin.php:540
+#: includes/famefe-admin.php:550
 msgid "Test secret key"
 msgstr "Testovací tajný klíč"
 
-#: includes/famefe-admin.php:541
+#: includes/famefe-admin.php:551
 msgid "Test webhook signing secret"
 msgstr "Testovací podpisový klíč webhooku"
 
-#: includes/famefe-admin.php:542
+#: includes/famefe-admin.php:552
 msgid "Live secret key"
 msgstr "Ostrý tajný klíč"
 
-#: includes/famefe-admin.php:543
+#: includes/famefe-admin.php:553
 msgid "Live webhook signing secret"
 msgstr "Ostrý podpisový klíč webhooku"
 
-#: includes/famefe-admin.php:553
+#: includes/famefe-admin.php:563
 msgid "Webhook endpoint"
 msgstr "Adresa webhooku"
 
-#: includes/famefe-admin.php:556
+#: includes/famefe-admin.php:566
 msgid "Add this address in Stripe (Developers → Webhooks) with the events checkout.session.completed and checkout.session.async_payment_succeeded, then copy its signing secret here. Payments are recorded even when a member closes the browser before returning to your site."
 msgstr "Přidejte tuto adresu ve Stripe (Developers → Webhooks) s událostmi checkout.session.completed a checkout.session.async_payment_succeeded a zkopírujte sem její podpisový klíč. Platby se pak zapíší, i když člen zavře prohlížeč dřív, než se vrátí na váš web."
 
-#: includes/famefe-admin.php:561
+#: includes/famefe-admin.php:571
 msgid "Volunteer hours and names"
 msgstr "Brigádnické hodiny a jména"
 
-#: includes/famefe-admin.php:564
+#: includes/famefe-admin.php:574
 msgid "Hours of non-members"
 msgstr "Hodiny nečlenů"
 
-#: includes/famefe-admin.php:565
+#: includes/famefe-admin.php:575
 msgid "Logged-in users who are not members may record their hours too (they count only in the totals)."
 msgstr "Přihlášení uživatelé, kteří nejsou členy, mohou také zapisovat hodiny (počítají se jen do souhrnů)."
 
-#: includes/famefe-admin.php:568
+#: includes/famefe-admin.php:578
 msgid "Names in blocks"
 msgstr "Jména v blocích"
 
-#: includes/famefe-admin.php:575
+#: includes/famefe-admin.php:585
 msgid "Default for all blocks; each block can override it."
 msgstr "Výchozí pro všechny bloky; každý blok to může změnit."
 
-#: includes/famefe-admin.php:580
+#: includes/famefe-admin.php:590
 msgid "Uninstall"
 msgstr "Odinstalace"
 
-#: includes/famefe-admin.php:583
+#: includes/famefe-admin.php:593
 msgid "Delete data"
 msgstr "Smazat data"
 
-#: includes/famefe-admin.php:584
+#: includes/famefe-admin.php:594
 msgid "Delete all members, hours, payments and settings when the plugin is deleted."
 msgstr "Při smazání pluginu smazat všechny členy, hodiny, platby a nastavení."
 
-#: includes/famefe-admin.php:599
+#: includes/famefe-admin.php:609
 #: build/blocks/hours-list/index.js:1
 #: build/blocks/members-list/index.js:1
 #: build/blocks/membership-fees/index.js:1
 msgid "Full name (Jane Smith)"
 msgstr "Celé jméno (Jana Nováková)"
 
-#: includes/famefe-admin.php:600
+#: includes/famefe-admin.php:610
 #: build/blocks/hours-list/index.js:1
 #: build/blocks/members-list/index.js:1
 #: build/blocks/membership-fees/index.js:1
 msgid "First name and initial (Jane S.)"
 msgstr "Jméno a iniciála (Jana N.)"
 
-#: includes/famefe-admin.php:601
+#: includes/famefe-admin.php:611
 #: build/blocks/hours-list/index.js:1
 #: build/blocks/members-list/index.js:1
 #: build/blocks/membership-fees/index.js:1
 msgid "Initials (J. S.)"
 msgstr "Iniciály (J. N.)"
 
-#: includes/famefe-admin.php:602
+#: includes/famefe-admin.php:612
 #: build/blocks/hours-list/index.js:1
 #: build/blocks/members-list/index.js:1
 #: build/blocks/membership-fees/index.js:1
 msgid "Display name of the user account"
 msgstr "Zobrazované jméno uživatelského účtu"
 
-#: includes/famefe-admin.php:603
+#: includes/famefe-admin.php:613
 #: build/blocks/hours-list/index.js:1
 #: build/blocks/members-list/index.js:1
 #: build/blocks/membership-fees/index.js:1
 msgid "Shortened for data protection: first 4 and last 4 characters (Janaková)"
 msgstr "Zkrácené kvůli ochraně údajů: první 4 a poslední 4 znaky (Janaková)"
 
-#: includes/famefe-admin.php:613
+#: includes/famefe-admin.php:623
 msgid "Membership fees"
 msgstr "Členské příspěvky"
 
-#: includes/famefe-admin.php:613
+#: includes/famefe-admin.php:623
 msgid "The table of fees for a period. Set the period, the base fee and the optional discount in the block settings. Members pay their fee with the button; administrators and editors can record cash and bank payments right there."
 msgstr "Tabulka příspěvků za období. Období, základní příspěvek a volitelnou slevu nastavíte v nastavení bloku. Členové platí tlačítkem; administrátoři a editoři tam mohou rovnou zapsat platby hotově a převodem."
 
-#: includes/famefe-admin.php:614
+#: includes/famefe-admin.php:624
 msgid "Volunteer hours form"
 msgstr "Formulář brigádnických hodin"
 
-#: includes/famefe-admin.php:614
+#: includes/famefe-admin.php:624
 msgid "Members record their own hours. Set the maximum hours per entry, how many days back a date may be, and whether a description is required."
 msgstr "Členové zapisují své hodiny. Nastavte maximum hodin na zápis, kolik dní zpětně smí být datum a zda je popis povinný."
 
-#: includes/famefe-admin.php:615
+#: includes/famefe-admin.php:625
 msgid "Volunteer hours list"
 msgstr "Seznam brigádnických hodin"
 
-#: includes/famefe-admin.php:615
+#: includes/famefe-admin.php:625
 msgid "Recorded hours for a period, all or only the visitor’s own."
 msgstr "Zapsané hodiny za období, všechny nebo jen návštěvníkovy."
 
-#: includes/famefe-admin.php:616
+#: includes/famefe-admin.php:626
 msgid "Members list"
 msgstr "Seznam členů"
 
-#: includes/famefe-admin.php:616
+#: includes/famefe-admin.php:626
 msgid "The membership register with the date of the last change and who recorded it; visible to logged-in users by default."
 msgstr "Evidence členů s datem poslední změny a tím, kdo ji zapsal; ve výchozím stavu jen pro přihlášené."
 
-#: includes/famefe-admin.php:617
+#: includes/famefe-admin.php:627
 msgid "Fee calculation explained"
 msgstr "Postup výpočtu příspěvku"
 
-#: includes/famefe-admin.php:617
+#: includes/famefe-admin.php:627
 msgid "Explains the calculation on an example with your numbers."
 msgstr "Vysvětlí výpočet na příkladu s vašimi čísly."
 
-#: includes/famefe-admin.php:621
+#: includes/famefe-admin.php:631
 msgid "Fair Member Fees help"
 msgstr "Nápověda Fair Member Fees"
 
-#: includes/famefe-admin.php:623
+#: includes/famefe-admin.php:633
 msgid "Getting started"
 msgstr "Začínáme"
 
-#: includes/famefe-admin.php:625
+#: includes/famefe-admin.php:635
 msgid "Add your members (Members → Add member) and link them to their user accounts."
 msgstr "Přidejte členy (Členové → Přidat člena) a propojte je s jejich uživatelskými účty."
 
-#: includes/famefe-admin.php:626
+#: includes/famefe-admin.php:636
 msgid "Set the currency, and Stripe if you want online payments (Settings)."
 msgstr "Nastavte měnu a pro platby online i Stripe (Nastavení)."
 
-#: includes/famefe-admin.php:627
+#: includes/famefe-admin.php:637
 msgid "Add the blocks to your pages: search for \"Fair Member Fees\" in the block inserter."
 msgstr "Vložte bloky na stránky: v nabídce bloků hledejte „Fair Member Fees“."
 
-#: includes/famefe-admin.php:631
+#: includes/famefe-admin.php:641
 msgid "Blocks"
 msgstr "Bloky"
 
-#: includes/famefe-admin.php:640
+#: includes/famefe-admin.php:650
 msgid "How the fee is calculated"
 msgstr "Jak se příspěvek počítá"
 
-#: includes/famefe-admin.php:641
+#: includes/famefe-admin.php:651
 msgid "All regular members of the period together pay the base fee times their number (the expected total). Each member’s share of the volunteer hours of all regular members lowers the fee; what is collected above the expected total is taken off everybody equally, and no fee goes below zero. Honorary members pay nothing. With the optional discount, the given share of members with the lowest fees pays the given percentage less; nothing is moved to the others."
 msgstr "Řádní členové období zaplatí dohromady základní příspěvek krát jejich počet (očekávaný součet). Podíl člena na brigádnických hodinách všech řádných členů jeho příspěvek snižuje; co se vybere nad očekávaný součet, se všem odečte rovným dílem a žádný příspěvek neklesne pod nulu. Čestní členové neplatí. S volitelnou slevou platí zadaný podíl členů s nejnižšími příspěvky o zadané procento méně; nic se nepřesouvá na ostatní."
 

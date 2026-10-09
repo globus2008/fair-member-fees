@@ -69,8 +69,60 @@
 		}
 	}
 
+	// Lower case without diacritics, so that "sarka" finds "Šárka".
+	function plain( text ) {
+		return text.normalize( 'NFD' ).replace( /[\u0300-\u036f]/g, '' ).toLowerCase();
+	}
+
+	/**
+	 * Search field above the account list: keeps only the matching accounts in the list. When the chosen
+	 * account no longer matches, the first match is chosen (and its details filled in).
+	 */
+	function setupSearch( form, select, input ) {
+		const count = input.nextElementSibling;
+		const all = Array.from( select.options );
+		const none = all.find( ( option ) => option.value === '0' );
+		input.hidden = false;
+		input.addEventListener( 'input', () => {
+			const words = plain( input.value ).split( /\s+/ ).filter( Boolean );
+			const before = select.value;
+			const matches = words.length
+				? all.filter( ( option ) => {
+						const text = plain( option.textContent );
+						return option.value !== '0' && words.every( ( word ) => text.includes( word ) );
+				  } )
+				: all;
+			select.replaceChildren( ...( matches.length ? matches : [ none ] ) );
+			if ( ! matches.includes( all.find( ( option ) => option.value === before ) ) ) {
+				select.value = select.options[ 0 ].value;
+			} else {
+				select.value = before;
+			}
+			if ( count ) {
+				count.textContent = ! words.length
+					? ''
+					: matches.length
+					? form.dataset.famefeFound.replace( '%d', matches.length )
+					: form.dataset.famefeNone;
+			}
+			if ( select.value !== before ) {
+				select.dispatchEvent( new Event( 'change', { bubbles: true } ) );
+			}
+		} );
+		// Enter in the search field must not send the form.
+		input.addEventListener( 'keydown', ( event ) => {
+			if ( event.key === 'Enter' ) {
+				event.preventDefault();
+			}
+		} );
+	}
+
 	document.querySelectorAll( '.famefe-member-form' ).forEach( ( form ) => {
 		const select = form.querySelector( '#famefe-user' );
+		const search = form.querySelector( '.famefe-user-search' );
+		if ( select && search ) {
+			setupSearch( form, select, search );
+		}
 		const modes = form.querySelector( '.famefe-account-modes' );
 		if ( modes ) {
 			form.addEventListener( 'change', ( event ) => {
