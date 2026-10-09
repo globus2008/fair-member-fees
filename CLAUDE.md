@@ -5,7 +5,7 @@
   (A wp.org reviewer rejected the short `drt_` prefix of another plugin.)
 - Repo: https://github.com/globus2008/fair-member-fees (public; ltc-extension: globus2008/ltc-extension, private).
 - Meant for wordpress.org. Rebuilt in 2026-10 from the owner's old plugin `volunteers-hours`
-  (kept for reference in `_old/`, not loaded; delete it before release). No backward compatibility, not even data:
+  (its code is in the git history, commit a433394). No backward compatibility, not even data:
   the owner converts the live data (`brigady_data`, user meta `clen`, `payment_date`) separately.
 - Everything in the code is **English** (strings, comments, DB values). The owner chats in Czech.
 - `c:\scr\doubles-rotation-tournament` is a local WP in Docker (http://localhost:8000, container
@@ -29,7 +29,7 @@
 | `includes/famefe-block-forms.php` | admin-post handlers of the block forms (hours, manual payment, checkout) |
 | `includes/famefe-admin*.php` | Admin pages (Members, Volunteer hours, Payments, Settings, Help), list tables, handlers |
 | `src/blocks/*` -> `build/blocks/*` | 5 dynamic blocks; `npm run build`. Shared editor code `src/blocks/shared.js`, CSS `assets/blocks.css` |
-| `languages/` | POT + cs_CZ (.po/.mo/.json). Regenerate: `wp i18n make-pot . languages/fair-member-fees.pot --exclude=node_modules,_old,src` |
+| `languages/` | POT + cs_CZ (.po/.mo/.json). Regenerate: `wp i18n make-pot . languages/fair-member-fees.pot --exclude=node_modules,src` |
 
 ## Data
 - `famefe_members` (user_id optional + unique, member_type regular|honorary, status active|left, member_since, left_on).
