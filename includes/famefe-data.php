@@ -341,7 +341,7 @@ function famefe_hours_summary(array $args = []): array
 	global $wpdb;
 	[$where, $values] = famefe_hours_where($args);
 	$hours = famefe_table('hours');
-	// phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared, WordPress.DB.PreparedSQLPlaceholders.ReplacementsWrongNumber -- $where holds placeholders only.
+	// phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared, WordPress.DB.PreparedSQLPlaceholders.ReplacementsWrongNumber, WordPress.DB.PreparedSQLPlaceholders.UnfinishedPrepare -- $where holds the placeholders (famefe_hours_where()).
 	$row = $wpdb->get_row($wpdb->prepare("SELECT COUNT(*) AS n, COALESCE(SUM(h.hours), 0) AS total FROM $hours h WHERE $where", $values));
 	return ['count' => intval($row->n ?? 0), 'hours' => floatval($row->total ?? 0)];
 }
