@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-09T13:31:10+00:00\n"
+"POT-Creation-Date: 2026-10-09T13:54:38+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: fair-member-fees\n"
@@ -46,7 +46,8 @@ msgstr ""
 
 #: build/blocks/fee-explanation/render.php:58
 #: build/blocks/fee-explanation/render.php:128
-#: build/blocks/hours-form/render.php:52
+#: build/blocks/hours-form/render.php:55
+#: build/blocks/hours-form/render.php:67
 #: includes/famefe-admin-tables.php:235
 #: includes/famefe-admin.php:350
 #: includes/famefe-admin.php:371
@@ -65,8 +66,8 @@ msgstr ""
 
 #: build/blocks/fee-explanation/render.php:60
 #: build/blocks/fee-explanation/render.php:129
-#: build/blocks/hours-form/render.php:71
-#: build/blocks/hours-form/render.php:92
+#: build/blocks/hours-form/render.php:89
+#: build/blocks/hours-form/render.php:110
 #: build/blocks/hours-list/render.php:47
 #: build/blocks/membership-fees/render.php:33
 #: includes/famefe-admin-tables.php:150
@@ -77,6 +78,7 @@ msgstr ""
 
 #: build/blocks/fee-explanation/render.php:74
 #: build/blocks/fee-explanation/render.php:161
+#: build/blocks/membership-fees/render.php:112
 msgid "Total"
 msgstr ""
 
@@ -161,35 +163,32 @@ msgstr ""
 msgid "Add hours"
 msgstr ""
 
-#: build/blocks/hours-form/render.php:29
+#: build/blocks/hours-form/render.php:32
 msgid "Log in to record your volunteer hours."
 msgstr ""
 
-#: build/blocks/hours-form/render.php:31
+#: build/blocks/hours-form/render.php:34
 #: build/blocks/hours-list/render.php:21
 #: build/blocks/members-list/render.php:21
 msgid "Log in"
 msgstr ""
 
-#: build/blocks/hours-form/render.php:36
+#: build/blocks/hours-form/render.php:39
 #: includes/famefe-notices.php:46
 msgid "Only members can record volunteer hours."
 msgstr ""
 
-#: build/blocks/hours-form/render.php:55
-msgid "Myself"
-msgstr ""
-
-#: build/blocks/hours-form/render.php:64
-#: build/blocks/hours-form/render.php:91
+#: build/blocks/hours-form/render.php:73
+#: build/blocks/hours-form/render.php:79
+#: build/blocks/hours-form/render.php:109
 #: build/blocks/hours-list/render.php:43
 #: includes/famefe-admin-tables.php:148
 #: includes/famefe-admin.php:358
 msgid "Date"
 msgstr ""
 
-#: build/blocks/hours-form/render.php:79
-#: build/blocks/hours-form/render.php:93
+#: build/blocks/hours-form/render.php:97
+#: build/blocks/hours-form/render.php:111
 #: build/blocks/hours-list/render.php:49
 #: includes/famefe-admin-tables.php:151
 #: includes/famefe-admin.php:360
@@ -197,7 +196,7 @@ msgstr ""
 msgid "Work done"
 msgstr ""
 
-#: build/blocks/hours-form/render.php:86
+#: build/blocks/hours-form/render.php:104
 msgid "My recent entries"
 msgstr ""
 
@@ -267,109 +266,126 @@ msgstr ""
 msgid "Recorded by"
 msgstr ""
 
-#: build/blocks/members-list/render.php:56
+#: build/blocks/members-list/render.php:57
 #: includes/famefe-admin-tables.php:78
 msgid "No members found."
 msgstr ""
 
-#: build/blocks/members-list/render.php:74
+#: build/blocks/members-list/render.php:62
+msgid "Search by name…"
+msgstr ""
+
+#: build/blocks/members-list/render.php:63
+#: build/blocks/members-list/index.js:1
+msgid "Search by name"
+msgstr ""
+
+#: build/blocks/members-list/render.php:79
 #: includes/famefe-admin-tables.php:92
 #: includes/famefe-admin.php:300
 msgid "Former member"
 msgstr ""
 
 #: build/blocks/membership-fees/render.php:47
-#: build/blocks/membership-fees/render.php:248
+#: build/blocks/membership-fees/render.php:276
 #: includes/famefe-admin-tables.php:234
 #: includes/famefe-admin.php:423
 #: build/blocks/membership-fees/index.js:2
 msgid "Paid on"
 msgstr ""
 
+#. translators: %d: number of regular members.
+#: build/blocks/membership-fees/render.php:86
+#, php-format
+msgid "Regular members (%d)"
+msgstr ""
+
+#. translators: 1: number of members who paid, 2: number of regular members.
+#: build/blocks/membership-fees/render.php:94
+#, php-format
+msgid "%1$d of %2$d"
+msgstr ""
+
+#. translators: %d: number of honorary members.
+#: build/blocks/membership-fees/render.php:99
+#, php-format
+msgid "Honorary members (%d)"
+msgstr ""
+
+#: build/blocks/membership-fees/render.php:106
+msgid "Non-members and former members"
+msgstr ""
+
 #. translators: 1: first day of the period, 2: last day of the period.
-#: build/blocks/membership-fees/render.php:75
+#: build/blocks/membership-fees/render.php:122
 #, php-format
 msgid "%1$s – %2$s"
 msgstr ""
 
 #. translators: 1: period (from – to), 2: base fee with currency.
-#: build/blocks/membership-fees/render.php:88
+#: build/blocks/membership-fees/render.php:135
 #, php-format
 msgid "Membership fees for %1$s. Base fee: %2$s."
 msgstr ""
 
-#: build/blocks/membership-fees/render.php:97
+#: build/blocks/membership-fees/render.php:144
 msgid "There are no members in this period."
 msgstr ""
 
-#. translators: 1: number of regular members, 2: base fee, 3: expected total.
-#: build/blocks/membership-fees/render.php:127
-#, php-format
-msgid "%1$d regular member × %2$s = expected total %3$s"
-msgid_plural "%1$d regular members × %2$s = expected total %3$s"
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: 1: hours of all, 2: hours of regular members, 3: hours of honorary members and others.
-#: build/blocks/membership-fees/render.php:138
-#, php-format
-msgid "Volunteer hours: %1$s in total, %2$s of regular members, %3$s of honorary members and others"
-msgstr ""
-
-#. translators: 1: number of members with the discount, 2: share of members in percent, 3: discount in percent, 4: total discount.
-#: build/blocks/membership-fees/render.php:150
-#, php-format
-msgid "Discount: %1$d members with the lowest fees (%2$s %%) pay %3$s %% less, together %4$s"
-msgstr ""
-
-#. translators: %s: sum of all fees to pay.
-#: build/blocks/membership-fees/render.php:163
-#, php-format
-msgid "Fees to pay in total: %s"
-msgstr ""
-
 #. translators: 1: amount, 2: date.
-#: build/blocks/membership-fees/render.php:183
+#: build/blocks/membership-fees/render.php:195
 #, php-format
 msgid "You paid %1$s on %2$s. Thank you!"
 msgstr ""
 
-#: build/blocks/membership-fees/render.php:190
+#: build/blocks/membership-fees/render.php:202
 msgid "You do not need to pay a membership fee for this period. Thank you for your work!"
 msgstr ""
 
 #. translators: %s: amount.
-#: build/blocks/membership-fees/render.php:196
+#: build/blocks/membership-fees/render.php:208
 #, php-format
 msgid "Your membership fee: %s"
 msgstr ""
 
 #. translators: %s: amount.
-#: build/blocks/membership-fees/render.php:207
+#: build/blocks/membership-fees/render.php:219
 #, php-format
 msgid "Pay %s online"
 msgstr ""
 
-#: build/blocks/membership-fees/render.php:229
+#: build/blocks/membership-fees/render.php:232
+msgid "The online payment button is hidden: Stripe is not set up yet (Member Fees → Settings → Stripe secret key)."
+msgstr ""
+
+#: build/blocks/membership-fees/render.php:234
+msgid "The online payment button is shown only to logged-in regular members who have a fee to pay."
+msgstr ""
+
+#: build/blocks/membership-fees/render.php:240
+msgid "(Visible only to administrators and editors.)"
+msgstr ""
+
+#: build/blocks/membership-fees/render.php:257
 msgid "Record a cash or bank payment (administrators and editors)"
 msgstr ""
 
-#: build/blocks/membership-fees/render.php:233
+#: build/blocks/membership-fees/render.php:261
 msgid "Member and fee"
 msgstr ""
 
-#: build/blocks/membership-fees/render.php:241
+#: build/blocks/membership-fees/render.php:269
 #: includes/famefe-admin-tables.php:238
 #: includes/famefe-admin.php:417
 msgid "Method"
 msgstr ""
 
-#: build/blocks/membership-fees/render.php:251
+#: build/blocks/membership-fees/render.php:279
 #: includes/famefe-admin.php:425
 msgid "Record payment"
 msgstr ""
 
-#: build/blocks/membership-fees/render.php:252
+#: build/blocks/membership-fees/render.php:280
 msgid "Only administrators and editors see this form. The amount is the calculated fee of the member."
 msgstr ""
 
@@ -1093,6 +1109,14 @@ msgid "Step of the hours"
 msgstr ""
 
 #: build/blocks/hours-form/index.js:1
+msgid "Members may change the date"
+msgstr ""
+
+#: build/blocks/hours-form/index.js:1
+msgid "Off: hours are always recorded for today, so nobody can add hours to the past or change a closed period. Administrators and editors can always choose the date."
+msgstr ""
+
+#: build/blocks/hours-form/index.js:1
 msgid "Days back"
 msgstr ""
 
@@ -1199,7 +1223,7 @@ msgid "Period and base fee above the table"
 msgstr ""
 
 #: build/blocks/membership-fees/index.js:2
-msgid "Totals below the table"
+msgid "Totals rows at the end of the table"
 msgstr ""
 
 #: build/blocks/membership-fees/index.js:2

@@ -55,5 +55,13 @@ Rounding to the currency decimals only at the end. The website example (1000; 0/
   `blockId` is set in the editor (`useBlockId`, regenerated for copies).
 - Season (period), base fee and discount are attributes of the Membership fees block, not settings (owner decision).
 - Manual payments (cash/transfer) only for `famefe_manage` (administrator, editor).
+- Membership fees table: sortable columns and totals rows in `<tfoot>` (regular / honorary / non-members and former
+  members / total); no sentences with numbers below the table (owner 2026-10-09). Managers see a hint when the
+  payment button cannot show (Stripe not set up, or they are not regular members).
+- Hours form: members record hours only for today unless `allowDateChange` is on (default off, owner 2026-10-09:
+  no invented hours in the past, no change of a closed period); enforced in `famefe_hours_block_limits()`.
+  Managers always choose the date and the member (their own name preselected, also when they are not members).
+- `assets/tables.js` (handle `famefe-tables`, plain script, `viewScript` of the fees and members blocks): sort buttons
+  for `th[data-sort]` using `td[data-value]`, and the name search `input[data-famefe-search]` of the members list.
 - Tests: Playwright from the Rotation Tournaments node_modules with `executablePath` of the installed Chromium;
   accounts `claude@claude.cz`/`claude` (admin) and the local test subscriber `zz_famefe_member`/`famefe-test`.

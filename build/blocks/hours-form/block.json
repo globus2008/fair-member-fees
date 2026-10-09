@@ -28,6 +28,10 @@
       "type": "number",
       "default": 0.5
     },
+    "allowDateChange": {
+      "type": "boolean",
+      "default": false
+    },
     "daysBack": {
       "type": "number",
       "default": 30

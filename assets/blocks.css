@@ -48,6 +48,73 @@
 	white-space: nowrap;
 }
 
+/* Sort buttons added by tables.js: look like the header text. */
+.famefe-table th .famefe-sort {
+	all: unset;
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+	gap: 0.3em;
+	font: inherit;
+	font-weight: 600;
+	color: inherit;
+}
+
+.famefe-table th .famefe-sort:focus-visible {
+	outline: 2px solid currentColor;
+	outline-offset: 2px;
+}
+
+.famefe-table th .famefe-sort::after {
+	content: "↕";
+	opacity: 0.35;
+	font-size: 0.85em;
+}
+
+.famefe-table th[aria-sort="ascending"] .famefe-sort::after {
+	content: "↑";
+	opacity: 1;
+}
+
+.famefe-table th[aria-sort="descending"] .famefe-sort::after {
+	content: "↓";
+	opacity: 1;
+}
+
+.famefe-table tfoot tr:first-child th,
+.famefe-table tfoot tr:first-child td {
+	border-top: 2px solid var(--famefe-line);
+}
+
+.famefe-table tfoot tr.famefe-total-row th,
+.famefe-table tfoot tr.famefe-total-row td {
+	background: var(--famefe-strong-tint);
+}
+
+.famefe-table tfoot th {
+	text-align: left;
+}
+
+.famefe-search {
+	display: block;
+	width: 100%;
+	max-width: 22em;
+	margin: 0 0 0.75em;
+	padding: 0.4em 0.6em;
+}
+
+.famefe-search[hidden] {
+	display: none;
+}
+
+.famefe-form .famefe-form__fixed {
+	align-self: flex-end;
+}
+
+.famefe-form__label {
+	font-size: 0.9em;
+}
+
 .famefe-table tr.famefe-current {
 	background: var(--famefe-strong-tint);
 	font-weight: 600;

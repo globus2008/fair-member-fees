@@ -50,17 +50,24 @@ foreach ($famefe_optional as $famefe_attr => [$famefe_key, $famefe_label]) {
 		$famefe_columns[$famefe_key] = $famefe_label;
 	}
 }
+$famefe_table_id = wp_unique_id('famefe-members-');
 ?>
 <div <?php echo get_block_wrapper_attributes(['class' => 'famefe-block famefe-members']); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
 	<?php if (!$famefe_members) : ?>
 		<p><?php esc_html_e('No members found.', 'fair-member-fees'); ?></p>
 	<?php else : ?>
+		<?php if ($attributes['showSearch']) : ?>
+			<?php // Shown by assets/tables.js; without JavaScript the search cannot work. ?>
+			<input type="search" class="famefe-search" hidden data-famefe-search="<?php echo esc_attr($famefe_table_id); ?>"
+				placeholder="<?php esc_attr_e('Search by name…', 'fair-member-fees'); ?>"
+				aria-label="<?php esc_attr_e('Search by name', 'fair-member-fees'); ?>">
+		<?php endif; ?>
 		<div class="famefe-table-wrap">
-			<table class="famefe-table">
+			<table class="famefe-table" id="<?php echo esc_attr($famefe_table_id); ?>">
 				<thead>
 					<tr>
 						<?php foreach ($famefe_columns as $famefe_key => $famefe_label) : ?>
-							<th scope="col"><?php echo esc_html($famefe_label); ?></th>
+							<th scope="col" data-sort="text"><?php echo esc_html($famefe_label); ?></th>
 						<?php endforeach; ?>
 					</tr>
 				</thead>
@@ -69,19 +76,22 @@ foreach ($famefe_optional as $famefe_attr => [$famefe_key, $famefe_label]) {
 					foreach ($famefe_members as $famefe_member) :
 						$famefe_entry = $famefe_last[intval($famefe_member->id)] ?? null;
 						$famefe_former = $famefe_member->status === 'left';
+						$famefe_type = $famefe_former ? __('Former member', 'fair-member-fees') : ($famefe_type_labels[$famefe_member->member_type] ?? '');
+						$famefe_change = $famefe_entry ? ($famefe_change_labels[$famefe_entry->change_type] ?? '') : '';
+						// Every cell: [text, value for sorting]; dates sort by their Y-m-d value.
 						$famefe_cells = [
-							'name' => famefe_member_name($famefe_member, $famefe_names),
-							'type' => $famefe_former ? __('Former member', 'fair-member-fees') : ($famefe_type_labels[$famefe_member->member_type] ?? ''),
-							'since' => famefe_format_date($famefe_member->member_since),
-							'change' => $famefe_entry ? ($famefe_change_labels[$famefe_entry->change_type] ?? '') : '',
-							'change_date' => $famefe_entry ? famefe_format_date($famefe_entry->change_date) : '',
-							'recorded_by' => $famefe_entry ? famefe_user_name(intval($famefe_entry->recorded_by), $famefe_names) : '',
-							'recorded_at' => $famefe_entry ? famefe_format_date($famefe_entry->recorded_at, true) : '',
+							'name' => [famefe_member_name($famefe_member, $famefe_names), $famefe_member->last_name . ' ' . $famefe_member->first_name],
+							'type' => [$famefe_type, $famefe_type],
+							'since' => [famefe_format_date($famefe_member->member_since), $famefe_member->member_since],
+							'change' => [$famefe_change, $famefe_change],
+							'change_date' => $famefe_entry ? [famefe_format_date($famefe_entry->change_date), $famefe_entry->change_date] : ['', ''],
+							'recorded_by' => $famefe_entry ? array_fill(0, 2, famefe_user_name(intval($famefe_entry->recorded_by), $famefe_names)) : ['', ''],
+							'recorded_at' => $famefe_entry ? [famefe_format_date($famefe_entry->recorded_at, true), $famefe_entry->recorded_at] : ['', ''],
 						];
 						?>
-						<tr<?php echo $famefe_former ? ' class="famefe-former"' : ''; ?>>
+						<tr<?php echo $famefe_former ? ' class="famefe-former"' : ''; ?> data-search="<?php echo esc_attr(famefe_member_name($famefe_member, 'full')); ?>">
 							<?php foreach (array_keys($famefe_columns) as $famefe_key) : ?>
-								<td><?php echo esc_html($famefe_cells[$famefe_key]); ?></td>
+								<td data-value="<?php echo esc_attr((string) $famefe_cells[$famefe_key][1]); ?>"><?php echo esc_html($famefe_cells[$famefe_key][0]); ?></td>
 							<?php endforeach; ?>
 						</tr>
 					<?php endforeach; ?>

@@ -161,8 +161,8 @@ function Edit( props ) {
 								'Period and base fee above the table',
 								'fair-member-fees'
 							),
-							summaryBelow: __(
-								'Totals below the table',
+							showTotals: __(
+								'Totals rows at the end of the table',
 								'fair-member-fees'
 							),
 							highlightCurrent: __(

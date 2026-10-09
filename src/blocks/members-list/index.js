@@ -24,6 +24,10 @@ function Edit( { attributes, setAttributes } ) {
 								'fair-member-fees'
 							),
 							showFormer: __( 'Former members', 'fair-member-fees' ),
+							showSearch: __(
+								'Search by name',
+								'fair-member-fees'
+							),
 							onlyLoggedIn: __(
 								'Only for logged-in visitors',
 								'fair-member-fees'

@@ -21,6 +21,9 @@ $famefe_is_member = $famefe_me && $famefe_me->status === 'active';
 $famefe_manage = famefe_can_manage();
 $famefe_button = trim((string) $attributes['buttonText']) ?: __('Add hours', 'fair-member-fees');
 $famefe_uid = 'famefe-' . ($famefe_block_id ?: wp_unique_id());
+// Members record hours only for today unless the block allows another date; managers may always choose it.
+$famefe_date_fixed = !$famefe_manage && empty($attributes['allowDateChange']);
+$famefe_my_name = $famefe_is_member ? famefe_member_name($famefe_me) : famefe_user_name($famefe_user_id);
 
 if ($famefe_user_id <= 0) {
 	printf(
@@ -51,22 +54,37 @@ $famefe_recent = $attributes['showRecent'] ? famefe_get_hours(['user_id' => $fam
 			<p>
 				<label for="<?php echo esc_attr($famefe_uid); ?>-member"><?php esc_html_e('Member', 'fair-member-fees'); ?></label>
 				<select id="<?php echo esc_attr($famefe_uid); ?>-member" name="member_id">
-					<?php if (!$famefe_is_member && famefe_settings('hours_non_members')) : ?>
-						<option value="0"><?php esc_html_e('Myself', 'fair-member-fees'); ?></option>
+					<?php if (!$famefe_is_member) : ?>
+						<option value="0" selected><?php echo esc_html($famefe_my_name); ?></option>
 					<?php endif; ?>
 					<?php foreach (famefe_get_members(['status' => 'active']) as $famefe_member) : ?>
 						<option value="<?php echo intval($famefe_member->id); ?>" <?php selected($famefe_me ? intval($famefe_me->id) : 0, intval($famefe_member->id)); ?>><?php echo esc_html(famefe_member_name($famefe_member)); ?></option>
 					<?php endforeach; ?>
 				</select>
 			</p>
+		<?php else : ?>
+			<p class="famefe-form__fixed">
+				<span class="famefe-form__label"><?php esc_html_e('Member', 'fair-member-fees'); ?></span>
+				<strong><?php echo esc_html($famefe_my_name); ?></strong>
+			</p>
 		<?php endif; ?>
-		<p>
-			<label for="<?php echo esc_attr($famefe_uid); ?>-date"><?php esc_html_e('Date', 'fair-member-fees'); ?></label>
-			<input type="date" id="<?php echo esc_attr($famefe_uid); ?>-date" name="work_date" required
-				value="<?php echo esc_attr(famefe_today()); ?>"
-				min="<?php echo esc_attr(famefe_days_ago($famefe_limits['days_back'])); ?>"
-				max="<?php echo esc_attr(famefe_today()); ?>">
-		</p>
+		<?php if ($famefe_date_fixed) : ?>
+			<p class="famefe-form__fixed">
+				<span class="famefe-form__label"><?php esc_html_e('Date', 'fair-member-fees'); ?></span>
+				<strong><?php echo esc_html(famefe_format_date(famefe_today())); ?></strong>
+				<input type="hidden" name="work_date" value="<?php echo esc_attr(famefe_today()); ?>">
+			</p>
+		<?php else : ?>
+			<p>
+				<label for="<?php echo esc_attr($famefe_uid); ?>-date"><?php esc_html_e('Date', 'fair-member-fees'); ?></label>
+				<input type="date" id="<?php echo esc_attr($famefe_uid); ?>-date" name="work_date" required
+					value="<?php echo esc_attr(famefe_today()); ?>"
+					<?php if (isset($famefe_limits['days_back'])) : ?>
+						min="<?php echo esc_attr(famefe_days_ago($famefe_limits['days_back'])); ?>"
+					<?php endif; ?>
+					max="<?php echo esc_attr(famefe_today()); ?>">
+			</p>
+		<?php endif; ?>
 		<p>
 			<label for="<?php echo esc_attr($famefe_uid); ?>-hours"><?php esc_html_e('Hours', 'fair-member-fees'); ?></label>
 			<select id="<?php echo esc_attr($famefe_uid); ?>-hours" name="hours" required>

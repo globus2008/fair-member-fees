@@ -76,7 +76,7 @@
       "type": "boolean",
       "default": true
     },
-    "summaryBelow": {
+    "showTotals": {
       "type": "boolean",
       "default": true
     },
@@ -114,5 +114,6 @@
   },
   "editorScript": "file:./index.js",
   "style": "famefe-blocks",
-  "render": "file:./render.php"
+  "render": "file:./render.php",
+  "viewScript": "famefe-tables"
 }

@@ -24,50 +24,97 @@ $famefe_me = famefe_get_member(get_current_user_id());
 $famefe_my_id = $famefe_me ? intval($famefe_me->id) : 0;
 $famefe_money = fn(float $amount) => famefe_format_money($amount);
 
-// Columns: key => [label, value callback].
-$famefe_columns = ['name' => __('Name', 'fair-member-fees')];
+// Columns: key => [label, sort type for assets/tables.js].
+$famefe_columns = ['name' => [__('Name', 'fair-member-fees'), 'text']];
 if ($attributes['showMemberType']) {
-	$famefe_columns['type'] = __('Type', 'fair-member-fees');
+	$famefe_columns['type'] = [__('Type', 'fair-member-fees'), 'text'];
 }
 if ($attributes['showHours']) {
-	$famefe_columns['hours'] = __('Hours', 'fair-member-fees');
+	$famefe_columns['hours'] = [__('Hours', 'fair-member-fees'), 'number'];
 }
 if ($attributes['showShare']) {
-	$famefe_columns['share'] = __('Share of hours', 'fair-member-fees');
+	$famefe_columns['share'] = [__('Share of hours', 'fair-member-fees'), 'number'];
 }
 if ($attributes['showGross']) {
-	$famefe_columns['gross'] = __('Unreduced fee', 'fair-member-fees');
+	$famefe_columns['gross'] = [__('Unreduced fee', 'fair-member-fees'), 'number'];
 }
 if ($famefe_discount && $attributes['showDiscount']) {
-	$famefe_columns['calculated'] = __('Calculated fee', 'fair-member-fees');
-	$famefe_columns['discount'] = __('Discount', 'fair-member-fees');
+	$famefe_columns['calculated'] = [__('Calculated fee', 'fair-member-fees'), 'number'];
+	$famefe_columns['discount'] = [__('Discount', 'fair-member-fees'), 'number'];
 }
-$famefe_columns['fee'] = __('Fee to pay', 'fair-member-fees');
+$famefe_columns['fee'] = [__('Fee to pay', 'fair-member-fees'), 'number'];
 if ($attributes['showPaidOn']) {
-	$famefe_columns['paid'] = __('Paid on', 'fair-member-fees');
+	$famefe_columns['paid'] = [__('Paid on', 'fair-member-fees'), 'text'];
 }
 
+// Rows: every cell is [text, raw value for sorting].
 $famefe_rows = [];
+$famefe_honorary = ['count' => 0, 'hours' => 0.0];
+$famefe_paid_count = 0;
 foreach ($famefe_fees['members'] as $famefe_id => $famefe_member) {
 	$famefe_row = $famefe_calc['rows'][$famefe_id];
-	if ($famefe_row['member_type'] !== 'regular' && !$attributes['showHonorary']) {
-		continue;
-	}
 	$famefe_regular = $famefe_row['member_type'] === 'regular';
 	$famefe_payment = $famefe_fees['payments'][$famefe_id] ?? null;
+	if (!$famefe_regular) {
+		$famefe_honorary['count']++;
+		$famefe_honorary['hours'] += $famefe_row['hours'];
+		if (!$attributes['showHonorary']) {
+			continue;
+		}
+	} elseif ($famefe_payment) {
+		$famefe_paid_count++;
+	}
 	$famefe_rows[] = [
-		'id' => $famefe_id,
 		'current' => $famefe_id === $famefe_my_id && $attributes['highlightCurrent'],
-		'name' => famefe_member_name($famefe_member, $famefe_names),
-		'type' => $famefe_types[$famefe_row['member_type']] ?? '',
-		'hours' => famefe_format_hours($famefe_row['hours']),
-		'share' => $famefe_regular ? number_format_i18n($famefe_row['hours_share'] * 100, 1) . ' %' : '',
-		'gross' => $famefe_regular ? $famefe_money($famefe_row['gross_fee']) : '',
-		'calculated' => $famefe_regular ? $famefe_money($famefe_row['calculated_fee']) : '',
-		'discount' => $famefe_regular && $famefe_row['discounted'] ? $famefe_money($famefe_row['discount']) : '',
-		'fee' => $famefe_regular ? $famefe_money($famefe_row['final_fee']) : '—',
-		'paid' => $famefe_payment ? famefe_format_date($famefe_payment->paid_at) : '',
+		'name' => [famefe_member_name($famefe_member, $famefe_names), famefe_member_name($famefe_member, 'full')],
+		'type' => [$famefe_types[$famefe_row['member_type']] ?? '', $famefe_types[$famefe_row['member_type']] ?? ''],
+		'hours' => [famefe_format_hours($famefe_row['hours']), $famefe_row['hours']],
+		'share' => $famefe_regular ? [number_format_i18n($famefe_row['hours_share'] * 100, 1) . ' %', $famefe_row['hours_share']] : ['', ''],
+		'gross' => $famefe_regular ? [$famefe_money($famefe_row['gross_fee']), $famefe_row['gross_fee']] : ['', ''],
+		'calculated' => $famefe_regular ? [$famefe_money($famefe_row['calculated_fee']), $famefe_row['calculated_fee']] : ['', ''],
+		'discount' => $famefe_regular && $famefe_row['discounted'] ? [$famefe_money($famefe_row['discount']), $famefe_row['discount']] : ['', 0],
+		'fee' => $famefe_regular ? [$famefe_money($famefe_row['final_fee']), $famefe_row['final_fee']] : ['—', ''],
+		'paid' => $famefe_payment ? [famefe_format_date($famefe_payment->paid_at), $famefe_payment->paid_at] : ['', ''],
 	];
+}
+
+// Totals in the table footer: regular members, honorary members, others (non-members, former members), all.
+$famefe_footer = [];
+if ($attributes['showTotals'] && $famefe_rows) {
+	$famefe_footer[] = [
+		/* translators: %d: number of regular members. */
+		'name' => sprintf(__('Regular members (%d)', 'fair-member-fees'), $famefe_totals['regular_count']),
+		'hours' => famefe_format_hours($famefe_totals['hours_regular']),
+		'share' => $famefe_totals['regular_count'] ? '100 %' : '',
+		'gross' => $famefe_money($famefe_totals['gross_total']),
+		'calculated' => $famefe_money($famefe_totals['calculated_total']),
+		'discount' => $famefe_money($famefe_totals['discount_total']),
+		'fee' => $famefe_money($famefe_totals['final_total']),
+		/* translators: 1: number of members who paid, 2: number of regular members. */
+		'paid' => sprintf(__('%1$d of %2$d', 'fair-member-fees'), $famefe_paid_count, $famefe_totals['regular_count']),
+	];
+	if ($famefe_honorary['count'] > 0) {
+		$famefe_footer[] = [
+			/* translators: %d: number of honorary members. */
+			'name' => sprintf(__('Honorary members (%d)', 'fair-member-fees'), $famefe_honorary['count']),
+			'hours' => famefe_format_hours($famefe_honorary['hours']),
+		];
+	}
+	$famefe_other_hours = $famefe_totals['hours_other'] - $famefe_honorary['hours'];
+	if ($famefe_other_hours > 0) {
+		$famefe_footer[] = [
+			'name' => __('Non-members and former members', 'fair-member-fees'),
+			'hours' => famefe_format_hours($famefe_other_hours),
+		];
+	}
+	if (count($famefe_footer) > 1) {
+		$famefe_footer[] = [
+			'name' => __('Total', 'fair-member-fees'),
+			'hours' => famefe_format_hours($famefe_totals['hours_total']),
+			'fee' => $famefe_money($famefe_totals['final_total']),
+			'class' => 'famefe-total-row',
+		];
+	}
 }
 
 $famefe_period_text = sprintf(
@@ -100,8 +147,8 @@ $famefe_period_text = sprintf(
 			<table class="famefe-table">
 				<thead>
 					<tr>
-						<?php foreach ($famefe_columns as $famefe_key => $famefe_label) : ?>
-							<th scope="col" class="famefe-col-<?php echo esc_attr($famefe_key); ?>"><?php echo esc_html($famefe_label); ?></th>
+						<?php foreach ($famefe_columns as $famefe_key => [$famefe_label, $famefe_sort]) : ?>
+							<th scope="col" class="famefe-col-<?php echo esc_attr($famefe_key); ?>" data-sort="<?php echo esc_attr($famefe_sort); ?>"><?php echo esc_html($famefe_label); ?></th>
 						<?php endforeach; ?>
 					</tr>
 				</thead>
@@ -109,63 +156,28 @@ $famefe_period_text = sprintf(
 					<?php foreach ($famefe_rows as $famefe_row) : ?>
 						<tr<?php echo $famefe_row['current'] ? ' class="famefe-current"' : ''; ?>>
 							<?php foreach (array_keys($famefe_columns) as $famefe_key) : ?>
-								<td class="famefe-col-<?php echo esc_attr($famefe_key); ?>"><?php echo esc_html($famefe_row[$famefe_key]); ?></td>
+								<td class="famefe-col-<?php echo esc_attr($famefe_key); ?>" data-value="<?php echo esc_attr((string) $famefe_row[$famefe_key][1]); ?>"><?php echo esc_html($famefe_row[$famefe_key][0]); ?></td>
 							<?php endforeach; ?>
 						</tr>
 					<?php endforeach; ?>
 				</tbody>
+				<?php if ($famefe_footer) : ?>
+					<tfoot>
+						<?php foreach ($famefe_footer as $famefe_total) : ?>
+							<tr<?php echo isset($famefe_total['class']) ? ' class="' . esc_attr($famefe_total['class']) . '"' : ''; ?>>
+								<?php foreach (array_keys($famefe_columns) as $famefe_key) : ?>
+									<?php if ($famefe_key === 'name') : ?>
+										<th scope="row"><?php echo esc_html($famefe_total['name']); ?></th>
+									<?php else : ?>
+										<td class="famefe-col-<?php echo esc_attr($famefe_key); ?>"><?php echo esc_html($famefe_total[$famefe_key] ?? ''); ?></td>
+									<?php endif; ?>
+								<?php endforeach; ?>
+							</tr>
+						<?php endforeach; ?>
+					</tfoot>
+				<?php endif; ?>
 			</table>
 		</div>
-	<?php endif; ?>
-
-	<?php if ($attributes['summaryBelow'] && $famefe_rows) : ?>
-		<ul class="famefe-summary">
-			<li>
-				<?php
-				echo esc_html(sprintf(
-					/* translators: 1: number of regular members, 2: base fee, 3: expected total. */
-					_n('%1$d regular member × %2$s = expected total %3$s', '%1$d regular members × %2$s = expected total %3$s', $famefe_totals['regular_count'], 'fair-member-fees'),
-					$famefe_totals['regular_count'],
-					$famefe_money($famefe_totals['base_fee']),
-					$famefe_money($famefe_totals['expected_total'])
-				));
-				?>
-			</li>
-			<li>
-				<?php
-				echo esc_html(sprintf(
-					/* translators: 1: hours of all, 2: hours of regular members, 3: hours of honorary members and others. */
-					__('Volunteer hours: %1$s in total, %2$s of regular members, %3$s of honorary members and others', 'fair-member-fees'),
-					famefe_format_hours($famefe_totals['hours_total']),
-					famefe_format_hours($famefe_totals['hours_regular']),
-					famefe_format_hours($famefe_totals['hours_other'])
-				));
-				?>
-			</li>
-			<?php if ($famefe_discount) : ?>
-				<li>
-					<?php
-					echo esc_html(sprintf(
-						/* translators: 1: number of members with the discount, 2: share of members in percent, 3: discount in percent, 4: total discount. */
-						__('Discount: %1$d members with the lowest fees (%2$s %%) pay %3$s %% less, together %4$s', 'fair-member-fees'),
-						$famefe_totals['discounted_count'],
-						number_format_i18n($famefe_totals['discount_share']),
-						number_format_i18n($famefe_totals['discount_rate']),
-						$famefe_money($famefe_totals['discount_total'])
-					));
-					?>
-				</li>
-			<?php endif; ?>
-			<li>
-				<?php
-				echo esc_html(sprintf(
-					/* translators: %s: sum of all fees to pay. */
-					__('Fees to pay in total: %s', 'fair-member-fees'),
-					$famefe_money($famefe_totals['final_total'])
-				));
-				?>
-			</li>
-		</ul>
 	<?php endif; ?>
 
 	<?php
@@ -211,6 +223,22 @@ $famefe_period_text = sprintf(
 				<?php endif; ?>
 			<?php endif; ?>
 		</div>
+	<?php endif; ?>
+
+	<?php
+	// Why administrators and editors may not see the payment button.
+	if ($attributes['showPayButton'] && famefe_can_manage()) :
+		if (!famefe_stripe_ready()) {
+			$famefe_hint = __('The online payment button is hidden: Stripe is not set up yet (Member Fees → Settings → Stripe secret key).', 'fair-member-fees');
+		} elseif (!$famefe_my_row || $famefe_my_row['member_type'] !== 'regular') {
+			$famefe_hint = __('The online payment button is shown only to logged-in regular members who have a fee to pay.', 'fair-member-fees');
+		} else {
+			$famefe_hint = '';
+		}
+		if ($famefe_hint !== '') :
+			?>
+			<p class="famefe-hint"><?php echo esc_html($famefe_hint); ?> <?php esc_html_e('(Visible only to administrators and editors.)', 'fair-member-fees'); ?></p>
+		<?php endif; ?>
 	<?php endif; ?>
 
 	<?php

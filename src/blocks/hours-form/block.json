@@ -8,23 +8,69 @@
 	"title": "Volunteer hours form",
 	"icon": "clock",
 	"description": "Logged-in members record the hours they volunteered.",
-	"keywords": [ "hours", "fair member fees", "volunteer", "work", "form" ],
+	"keywords": [
+		"hours",
+		"fair member fees",
+		"volunteer",
+		"work",
+		"form"
+	],
 	"attributes": {
-		"blockId": { "type": "string", "default": "" },
-		"maxHours": { "type": "number", "default": 8 },
-		"step": { "type": "number", "default": 0.5 },
-		"daysBack": { "type": "number", "default": 30 },
-		"requireDescription": { "type": "boolean", "default": true },
-		"buttonText": { "type": "string", "default": "" },
-		"showRecent": { "type": "boolean", "default": true },
-		"recentCount": { "type": "number", "default": 5 }
+		"blockId": {
+			"type": "string",
+			"default": ""
+		},
+		"maxHours": {
+			"type": "number",
+			"default": 8
+		},
+		"step": {
+			"type": "number",
+			"default": 0.5
+		},
+		"allowDateChange": {
+			"type": "boolean",
+			"default": false
+		},
+		"daysBack": {
+			"type": "number",
+			"default": 30
+		},
+		"requireDescription": {
+			"type": "boolean",
+			"default": true
+		},
+		"buttonText": {
+			"type": "string",
+			"default": ""
+		},
+		"showRecent": {
+			"type": "boolean",
+			"default": true
+		},
+		"recentCount": {
+			"type": "number",
+			"default": 5
+		}
 	},
 	"supports": {
 		"html": false,
-		"align": [ "wide", "full" ],
-		"color": { "background": true, "text": true, "link": true },
-		"spacing": { "margin": true, "padding": true },
-		"typography": { "fontSize": true }
+		"align": [
+			"wide",
+			"full"
+		],
+		"color": {
+			"background": true,
+			"text": true,
+			"link": true
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"typography": {
+			"fontSize": true
+		}
 	},
 	"editorScript": "file:./index.js",
 	"style": "famefe-blocks",

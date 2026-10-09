@@ -274,7 +274,8 @@ function famefe_service_add_hours(array $data, array $limits = []): array|WP_Err
 	} elseif ($own && $own->status === 'active') {
 		$row['member_id'] = intval($own->id);
 		$row['user_id'] = $user_id;
-	} elseif (famefe_settings('hours_non_members')) {
+	} elseif (famefe_settings('hours_non_members') || famefe_can_manage()) {
+		// Own hours of a non-member (allowed by the settings, or an administrator/editor); they count only in the totals.
 		$row['user_id'] = $user_id;
 	} else {
 		return famefe_error('not_member');

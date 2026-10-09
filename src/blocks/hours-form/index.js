@@ -3,7 +3,7 @@
  */
 import { registerBlockType } from '@wordpress/blocks';
 import { InspectorControls } from '@wordpress/block-editor';
-import { PanelBody, TextControl } from '@wordpress/components';
+import { PanelBody, TextControl, ToggleControl } from '@wordpress/components';
 import { __ } from '@wordpress/i18n';
 
 import metadata from './block.json';
@@ -40,24 +40,41 @@ function Edit( props ) {
 							} )
 						}
 					/>
-					<NumberControl
-						min={ 0 }
-						max={ 366 }
-						label={ __( 'Days back', 'fair-member-fees' ) }
-						help={ __(
-							'How old the date of the work may be. 0 = only today.',
+					<ToggleControl
+						__nextHasNoMarginBottom
+						label={ __(
+							'Members may change the date',
 							'fair-member-fees'
 						) }
-						value={ attributes.daysBack }
-						onChange={ ( daysBack ) =>
-							setAttributes( {
-								daysBack: Math.min(
-									366,
-									Math.max( 0, Math.round( daysBack ) )
-								),
-							} )
+						help={ __(
+							'Off: hours are always recorded for today, so nobody can add hours to the past or change a closed period. Administrators and editors can always choose the date.',
+							'fair-member-fees'
+						) }
+						checked={ attributes.allowDateChange }
+						onChange={ ( allowDateChange ) =>
+							setAttributes( { allowDateChange } )
 						}
 					/>
+					{ attributes.allowDateChange && (
+						<NumberControl
+							min={ 0 }
+							max={ 366 }
+							label={ __( 'Days back', 'fair-member-fees' ) }
+							help={ __(
+								'How old the date of the work may be. 0 = only today.',
+								'fair-member-fees'
+							) }
+							value={ attributes.daysBack }
+							onChange={ ( daysBack ) =>
+								setAttributes( {
+									daysBack: Math.min(
+										366,
+										Math.max( 0, Math.round( daysBack ) )
+									),
+								} )
+							}
+						/>
+					) }
 					<TextControl
 						__next40pxDefaultSize
 						__nextHasNoMarginBottom

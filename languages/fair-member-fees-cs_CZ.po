@@ -39,7 +39,8 @@ msgstr "1. Členové a jejich hodiny"
 
 #: build/blocks/fee-explanation/render.php:58
 #: build/blocks/fee-explanation/render.php:128
-#: build/blocks/hours-form/render.php:52
+#: build/blocks/hours-form/render.php:55
+#: build/blocks/hours-form/render.php:67
 #: includes/famefe-admin-tables.php:235
 #: includes/famefe-admin.php:350
 #: includes/famefe-admin.php:371
@@ -58,8 +59,8 @@ msgstr "Typ"
 
 #: build/blocks/fee-explanation/render.php:60
 #: build/blocks/fee-explanation/render.php:129
-#: build/blocks/hours-form/render.php:71
-#: build/blocks/hours-form/render.php:92
+#: build/blocks/hours-form/render.php:89
+#: build/blocks/hours-form/render.php:110
 #: build/blocks/hours-list/render.php:47
 #: build/blocks/membership-fees/render.php:33
 #: includes/famefe-admin-tables.php:150
@@ -70,6 +71,7 @@ msgstr "Hodiny"
 
 #: build/blocks/fee-explanation/render.php:74
 #: build/blocks/fee-explanation/render.php:161
+#: build/blocks/membership-fees/render.php:112
 msgid "Total"
 msgstr "Celkem"
 
@@ -149,35 +151,32 @@ msgstr "Kdo nepracuje, platí víc než základní příspěvek: zaplatit místo
 msgid "Add hours"
 msgstr "Přidat hodiny"
 
-#: build/blocks/hours-form/render.php:29
+#: build/blocks/hours-form/render.php:32
 msgid "Log in to record your volunteer hours."
 msgstr "Pro zápis brigádnických hodin se přihlaste."
 
-#: build/blocks/hours-form/render.php:31
+#: build/blocks/hours-form/render.php:34
 #: build/blocks/hours-list/render.php:21
 #: build/blocks/members-list/render.php:21
 msgid "Log in"
 msgstr "Přihlásit se"
 
-#: build/blocks/hours-form/render.php:36
+#: build/blocks/hours-form/render.php:39
 #: includes/famefe-notices.php:46
 msgid "Only members can record volunteer hours."
 msgstr "Brigádnické hodiny mohou zapisovat jen členové."
 
-#: build/blocks/hours-form/render.php:55
-msgid "Myself"
-msgstr "Já"
-
-#: build/blocks/hours-form/render.php:64
-#: build/blocks/hours-form/render.php:91
+#: build/blocks/hours-form/render.php:73
+#: build/blocks/hours-form/render.php:79
+#: build/blocks/hours-form/render.php:109
 #: build/blocks/hours-list/render.php:43
 #: includes/famefe-admin-tables.php:148
 #: includes/famefe-admin.php:358
 msgid "Date"
 msgstr "Datum"
 
-#: build/blocks/hours-form/render.php:79
-#: build/blocks/hours-form/render.php:93
+#: build/blocks/hours-form/render.php:97
+#: build/blocks/hours-form/render.php:111
 #: build/blocks/hours-list/render.php:49
 #: includes/famefe-admin-tables.php:151
 #: includes/famefe-admin.php:360
@@ -185,7 +184,7 @@ msgstr "Datum"
 msgid "Work done"
 msgstr "Náplň práce"
 
-#: build/blocks/hours-form/render.php:86
+#: build/blocks/hours-form/render.php:104
 msgid "My recent entries"
 msgstr "Moje poslední zápisy"
 
@@ -255,101 +254,118 @@ msgstr "Datum změny"
 msgid "Recorded by"
 msgstr "Změnu zapsal"
 
-#: build/blocks/members-list/render.php:56
+#: build/blocks/members-list/render.php:57
 #: includes/famefe-admin-tables.php:78
 msgid "No members found."
 msgstr "Žádní členové."
 
-#: build/blocks/members-list/render.php:74
+#: build/blocks/members-list/render.php:62
+msgid "Search by name…"
+msgstr "Hledat podle jména…"
+
+#: build/blocks/members-list/render.php:63
+#: build/blocks/members-list/index.js:1
+msgid "Search by name"
+msgstr "Hledat podle jména"
+
+#: build/blocks/members-list/render.php:79
 #: includes/famefe-admin-tables.php:92
 #: includes/famefe-admin.php:300
 msgid "Former member"
 msgstr "Bývalý člen"
 
 #: build/blocks/membership-fees/render.php:47
-#: build/blocks/membership-fees/render.php:248
+#: build/blocks/membership-fees/render.php:276
 #: includes/famefe-admin-tables.php:234
 #: includes/famefe-admin.php:423
 #: build/blocks/membership-fees/index.js:2
 msgid "Paid on"
 msgstr "Zaplaceno"
 
+#. translators: %d: number of regular members.
+#: build/blocks/membership-fees/render.php:86
+msgid "Regular members (%d)"
+msgstr "Řádní členové (%d)"
+
+#. translators: 1: number of members who paid, 2: number of regular members.
+#: build/blocks/membership-fees/render.php:94
+msgid "%1$d of %2$d"
+msgstr "%1$d z %2$d"
+
+#. translators: %d: number of honorary members.
+#: build/blocks/membership-fees/render.php:99
+msgid "Honorary members (%d)"
+msgstr "Čestní členové (%d)"
+
+#: build/blocks/membership-fees/render.php:106
+msgid "Non-members and former members"
+msgstr "Nečlenové a bývalí členové"
+
 #. translators: 1: first day of the period, 2: last day of the period.
-#: build/blocks/membership-fees/render.php:75
+#: build/blocks/membership-fees/render.php:122
 msgid "%1$s – %2$s"
 msgstr "%1$s – %2$s"
 
 #. translators: 1: period (from – to), 2: base fee with currency.
-#: build/blocks/membership-fees/render.php:88
+#: build/blocks/membership-fees/render.php:135
 msgid "Membership fees for %1$s. Base fee: %2$s."
 msgstr "Členské příspěvky za období %1$s. Základní příspěvek: %2$s."
 
-#: build/blocks/membership-fees/render.php:97
+#: build/blocks/membership-fees/render.php:144
 msgid "There are no members in this period."
 msgstr "V tomto období nejsou žádní členové."
 
-#. translators: 1: number of regular members, 2: base fee, 3: expected total.
-#: build/blocks/membership-fees/render.php:127
-msgid "%1$d regular member × %2$s = expected total %3$s"
-msgid_plural "%1$d regular members × %2$s = expected total %3$s"
-msgstr[0] "%1$d řádný člen × %2$s = očekávaný součet %3$s"
-msgstr[1] "%1$d řádní členové × %2$s = očekávaný součet %3$s"
-msgstr[2] "%1$d řádných členů × %2$s = očekávaný součet %3$s"
-
-#. translators: 1: hours of all, 2: hours of regular members, 3: hours of honorary members and others.
-#: build/blocks/membership-fees/render.php:138
-msgid "Volunteer hours: %1$s in total, %2$s of regular members, %3$s of honorary members and others"
-msgstr "Brigádnické hodiny: celkem %1$s, řádní členové %2$s, čestní členové a ostatní %3$s"
-
-#. translators: 1: number of members with the discount, 2: share of members in percent, 3: discount in percent, 4: total discount.
-#: build/blocks/membership-fees/render.php:150
-msgid "Discount: %1$d members with the lowest fees (%2$s %%) pay %3$s %% less, together %4$s"
-msgstr "Sleva: %1$d členů s nejnižšími příspěvky (%2$s %%) platí o %3$s %% méně, dohromady %4$s"
-
-#. translators: %s: sum of all fees to pay.
-#: build/blocks/membership-fees/render.php:163
-msgid "Fees to pay in total: %s"
-msgstr "K úhradě celkem: %s"
-
 #. translators: 1: amount, 2: date.
-#: build/blocks/membership-fees/render.php:183
+#: build/blocks/membership-fees/render.php:195
 msgid "You paid %1$s on %2$s. Thank you!"
 msgstr "Zaplatili jste %1$s dne %2$s. Děkujeme!"
 
-#: build/blocks/membership-fees/render.php:190
+#: build/blocks/membership-fees/render.php:202
 msgid "You do not need to pay a membership fee for this period. Thank you for your work!"
 msgstr "Za toto období členský příspěvek platit nemusíte. Děkujeme za vaši práci!"
 
 #. translators: %s: amount.
-#: build/blocks/membership-fees/render.php:196
+#: build/blocks/membership-fees/render.php:208
 msgid "Your membership fee: %s"
 msgstr "Váš členský příspěvek: %s"
 
 #. translators: %s: amount.
-#: build/blocks/membership-fees/render.php:207
+#: build/blocks/membership-fees/render.php:219
 msgid "Pay %s online"
 msgstr "Zaplatit %s online"
 
-#: build/blocks/membership-fees/render.php:229
+#: build/blocks/membership-fees/render.php:232
+msgid "The online payment button is hidden: Stripe is not set up yet (Member Fees → Settings → Stripe secret key)."
+msgstr "Tlačítko platby online je skryté: Stripe zatím není nastaven (Členské příspěvky → Nastavení → tajný klíč Stripe)."
+
+#: build/blocks/membership-fees/render.php:234
+msgid "The online payment button is shown only to logged-in regular members who have a fee to pay."
+msgstr "Tlačítko platby online vidí jen přihlášení řádní členové, kteří mají co platit."
+
+#: build/blocks/membership-fees/render.php:240
+msgid "(Visible only to administrators and editors.)"
+msgstr "(Vidí jen administrátoři a editoři.)"
+
+#: build/blocks/membership-fees/render.php:257
 msgid "Record a cash or bank payment (administrators and editors)"
 msgstr "Zapsat platbu hotově nebo převodem (administrátoři a editoři)"
 
-#: build/blocks/membership-fees/render.php:233
+#: build/blocks/membership-fees/render.php:261
 msgid "Member and fee"
 msgstr "Člen a příspěvek"
 
-#: build/blocks/membership-fees/render.php:241
+#: build/blocks/membership-fees/render.php:269
 #: includes/famefe-admin-tables.php:238
 #: includes/famefe-admin.php:417
 msgid "Method"
 msgstr "Způsob"
 
-#: build/blocks/membership-fees/render.php:251
+#: build/blocks/membership-fees/render.php:279
 #: includes/famefe-admin.php:425
 msgid "Record payment"
 msgstr "Zapsat platbu"
 
-#: build/blocks/membership-fees/render.php:252
+#: build/blocks/membership-fees/render.php:280
 msgid "Only administrators and editors see this form. The amount is the calculated fee of the member."
 msgstr "Tento formulář vidí jen administrátoři a editoři. Částka je vypočtený příspěvek člena."
 
@@ -1062,6 +1078,14 @@ msgid "Step of the hours"
 msgstr "Krok hodin"
 
 #: build/blocks/hours-form/index.js:1
+msgid "Members may change the date"
+msgstr "Členové mohou měnit datum"
+
+#: build/blocks/hours-form/index.js:1
+msgid "Off: hours are always recorded for today, so nobody can add hours to the past or change a closed period. Administrators and editors can always choose the date."
+msgstr "Vypnuto: hodiny se vždy zapíší na dnešek, takže nikdo nemůže dopisovat hodiny do minulosti ani měnit uzavřené období. Administrátoři a editoři mohou datum zvolit vždy."
+
+#: build/blocks/hours-form/index.js:1
 msgid "Days back"
 msgstr "Dní zpětně"
 
@@ -1168,8 +1192,8 @@ msgid "Period and base fee above the table"
 msgstr "Období a základní příspěvek nad tabulkou"
 
 #: build/blocks/membership-fees/index.js:2
-msgid "Totals below the table"
-msgstr "Souhrn pod tabulkou"
+msgid "Totals rows at the end of the table"
+msgstr "Součtové řádky na konci tabulky"
 
 #: build/blocks/membership-fees/index.js:2
 msgid "Highlight the logged-in member"

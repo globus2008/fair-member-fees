@@ -17,6 +17,8 @@ function famefe_register_blocks(): void
 {
 	// One stylesheet for all blocks ("style": "famefe-blocks" in block.json).
 	wp_register_style('famefe-blocks', FAMEFE_URL . 'assets/blocks.css', [], FAMEFE_VERSION);
+	// Sorting and searching of the tables ("viewScript": "famefe-tables"); the tables work without it.
+	wp_register_script('famefe-tables', FAMEFE_URL . 'assets/tables.js', [], FAMEFE_VERSION, ['strategy' => 'defer', 'in_footer' => true]);
 	foreach ((array) glob(FAMEFE_PATH . 'build/blocks/*/block.json') as $metadata) {
 		$block = register_block_type(dirname($metadata));
 		if ($block) {
@@ -112,15 +114,20 @@ function famefe_fees_block_args(array $attrs): array
 }
 
 /**
- * Limits of an Hours form block for famefe_service_add_hours().
+ * Limits of an Hours form block for famefe_service_add_hours(). Members record hours only for today
+ * unless the block allows another date (then at most daysBack days back); administrators and editors
+ * may choose any past date.
  */
 function famefe_hours_block_limits(array $attrs): array
 {
-	return [
+	$limits = [
 		'max_hours' => min(24, max(0.5, floatval($attrs['maxHours'] ?? 8))),
-		'days_back' => max(0, intval($attrs['daysBack'] ?? 30)),
 		'require_description' => $attrs['requireDescription'] ?? true,
 	];
+	if (!famefe_can_manage()) {
+		$limits['days_back'] = empty($attrs['allowDateChange']) ? 0 : max(0, intval($attrs['daysBack'] ?? 30));
+	}
+	return $limits;
 }
 
 /**
