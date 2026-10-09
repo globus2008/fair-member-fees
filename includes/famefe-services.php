@@ -117,7 +117,19 @@ function famefe_service_save_member(array $data, int $id = 0): array|WP_Error
 	$row['user_id'] = $user_id > 0 ? $user_id : null;
 
 	if ($old) {
+		// A wrong "member since" can be corrected; the correction is kept in the history.
+		$since = famefe_valid_date($data['member_since'] ?? '');
+		$correct_since = $since !== '' && $since !== $old->member_since;
+		if ($correct_since && $old->left_on && $since > $old->left_on) {
+			return famefe_error('invalid_since');
+		}
+		if ($correct_since) {
+			$row['member_since'] = $since;
+		}
 		$wpdb->update(famefe_table('members'), $row, ['id' => $id]);
+		if ($correct_since) {
+			famefe_correct_member_since_log($id, $old->member_since, $since);
+		}
 		famefe_flush_member_cache($old);
 		famefe_flush_member_cache((object) $row);
 		return famefe_ok('member_saved', ['id' => $id]);
@@ -246,6 +258,24 @@ function famefe_service_add_member_with_account(array $data, bool $send_link): a
 	}
 	$result['code'] = $send_link ? 'member_account_sent' : 'member_account_added';
 	return $result;
+}
+
+/**
+ * After a correction of "member since": move the history entry that started the membership
+ * (the latest joined/rejoined entry) to the new date and record the correction itself.
+ */
+function famefe_correct_member_since_log(int $member_id, string $old_since, string $new_since): void
+{
+	global $wpdb;
+	$log = famefe_table('member_log');
+	$entry = $wpdb->get_var($wpdb->prepare(
+		"SELECT id FROM $log WHERE member_id = %d AND change_type IN ('joined', 'rejoined') ORDER BY change_date DESC, id DESC LIMIT 1",
+		$member_id
+	));
+	if ($entry) {
+		$wpdb->update($log, ['change_date' => $new_since], ['id' => intval($entry)]);
+	}
+	famefe_log_change($member_id, 'since_corrected', famefe_today(), $old_since, $new_since);
 }
 
 /**

@@ -39,6 +39,7 @@ function famefe_notice_text(string $code): string
 		'invalid_name' => __('Enter the first or the last name.', 'fair-member-fees'),
 		'invalid_date' => __('Enter a valid date.', 'fair-member-fees'),
 		'invalid_type' => __('Choose a valid membership type.', 'fair-member-fees'),
+		'invalid_since' => __('"Member since" cannot be after the end of the membership.', 'fair-member-fees'),
 		'invalid_change' => __('This change is not possible for the member (check the status and the date).', 'fair-member-fees'),
 		'invalid_email' => __('Enter a valid e-mail address.', 'fair-member-fees'),
 		'email_taken' => __('This e-mail address is already used by another user account.', 'fair-member-fees'),

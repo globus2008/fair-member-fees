@@ -268,11 +268,16 @@ function famefe_page_member_edit(?object $member): void
 							<p class="description"><?php esc_html_e('Regular members pay the membership fee, honorary members do not.', 'fair-member-fees'); ?></p>
 						</td>
 					</tr>
-					<tr>
-						<th scope="row"><label for="famefe-since"><?php esc_html_e('Member since', 'fair-member-fees'); ?></label></th>
-						<td><input type="date" id="famefe-since" name="member_since" required value="<?php echo esc_attr(famefe_today()); ?>"></td>
-					</tr>
 				<?php endif; ?>
+				<tr>
+					<th scope="row"><label for="famefe-since"><?php esc_html_e('Member since', 'fair-member-fees'); ?></label></th>
+					<td>
+						<input type="date" id="famefe-since" name="member_since" required value="<?php echo esc_attr($is_new ? famefe_today() : $member->member_since); ?>">
+						<?php if (!$is_new) : ?>
+							<p class="description"><?php esc_html_e('Only to correct a mistake; the correction is recorded in the history. Membership changes go below.', 'fair-member-fees'); ?></p>
+						<?php endif; ?>
+					</td>
+				</tr>
 				<tr>
 					<th scope="row"><label for="famefe-note"><?php esc_html_e('Note', 'fair-member-fees'); ?></label></th>
 					<td><textarea id="famefe-note" name="note" rows="3" class="large-text"><?php echo esc_textarea($member->note ?? ''); ?></textarea></td>
@@ -351,7 +356,7 @@ function famefe_member_history(object $member): void
 {
 	$types = famefe_member_types();
 	$changes = famefe_change_types();
-	$value = fn(string $v) => $types[$v] ?? ($v === 'active' ? __('Active', 'fair-member-fees') : ($v === 'left' ? __('Former member', 'fair-member-fees') : $v));
+	$value = fn(string $v) => $types[$v] ?? ($v === 'active' ? __('Active', 'fair-member-fees') : ($v === 'left' ? __('Former member', 'fair-member-fees') : (famefe_valid_date($v) !== '' ? famefe_format_date($v) : $v)));
 	?>
 	<div class="famefe-card">
 		<h2><?php esc_html_e('History', 'fair-member-fees'); ?></h2>

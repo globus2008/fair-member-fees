@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-09T17:42:32+00:00\n"
+"POT-Creation-Date: 2026-10-09T17:59:38+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: fair-member-fees\n"
@@ -48,10 +48,10 @@ msgstr ""
 #: build/blocks/fee-explanation/render.php:128
 #: build/blocks/hours-form/render.php:56
 #: includes/famefe-admin-tables.php:235
-#: includes/famefe-admin.php:398
-#: includes/famefe-admin.php:419
-#: includes/famefe-admin.php:453
-#: includes/famefe-admin.php:477
+#: includes/famefe-admin.php:409
+#: includes/famefe-admin.php:430
+#: includes/famefe-admin.php:464
+#: includes/famefe-admin.php:488
 #: includes/famefe-users.php:83
 #: includes/famefe-users.php:139
 msgid "Member"
@@ -72,7 +72,7 @@ msgstr ""
 #: build/blocks/hours-list/render.php:64
 #: build/blocks/membership-fees/render.php:33
 #: includes/famefe-admin-tables.php:150
-#: includes/famefe-admin.php:407
+#: includes/famefe-admin.php:418
 #: build/blocks/membership-fees/index.js:2
 msgid "Hours"
 msgstr ""
@@ -159,7 +159,7 @@ msgid "Whoever does not volunteer pays more than the base fee: paying instead of
 msgstr ""
 
 #: build/blocks/hours-form/render.php:22
-#: includes/famefe-admin.php:409
+#: includes/famefe-admin.php:420
 #: build/blocks/hours-form/index.js:1
 msgid "Add hours"
 msgstr ""
@@ -175,7 +175,7 @@ msgid "Log in"
 msgstr ""
 
 #: build/blocks/hours-form/render.php:39
-#: includes/famefe-notices.php:51
+#: includes/famefe-notices.php:52
 msgid "Only members can record volunteer hours."
 msgstr ""
 
@@ -183,7 +183,7 @@ msgstr ""
 #: build/blocks/hours-form/render.php:123
 #: build/blocks/hours-list/render.php:60
 #: includes/famefe-admin-tables.php:148
-#: includes/famefe-admin.php:406
+#: includes/famefe-admin.php:417
 msgid "Date"
 msgstr ""
 
@@ -191,7 +191,7 @@ msgstr ""
 #: build/blocks/hours-form/render.php:125
 #: build/blocks/hours-list/render.php:66
 #: includes/famefe-admin-tables.php:151
-#: includes/famefe-admin.php:408
+#: includes/famefe-admin.php:419
 #: build/blocks/hours-list/index.js:1
 msgid "Work done"
 msgstr ""
@@ -229,19 +229,19 @@ msgstr ""
 msgid "Actions"
 msgstr ""
 
-#: build/blocks/hours-list/render.php:95
+#: build/blocks/hours-list/render.php:94
 #: includes/famefe-admin-tables.php:187
 msgid "Delete these hours?"
 msgstr ""
 
-#: build/blocks/hours-list/render.php:95
+#: build/blocks/hours-list/render.php:94
 #: includes/famefe-admin-tables.php:188
 #: includes/famefe-admin-tables.php:267
 msgid "Delete"
 msgstr ""
 
 #. translators: 1: number of hours, 2: number of entries.
-#: build/blocks/hours-list/render.php:113
+#: build/blocks/hours-list/render.php:112
 #, php-format
 msgid "Total: %1$s hours in %2$d entry"
 msgid_plural "Total: %1$s hours in %2$d entries"
@@ -254,7 +254,7 @@ msgstr ""
 
 #: build/blocks/members-list/render.php:42
 #: includes/famefe-admin-tables.php:34
-#: includes/famefe-admin.php:266
+#: includes/famefe-admin.php:273
 #: build/blocks/members-list/index.js:1
 msgid "Member since"
 msgstr ""
@@ -267,7 +267,7 @@ msgstr ""
 
 #: build/blocks/members-list/render.php:44
 #: includes/famefe-admin-tables.php:36
-#: includes/famefe-admin.php:355
+#: includes/famefe-admin.php:366
 #: build/blocks/members-list/index.js:1
 msgid "Change date"
 msgstr ""
@@ -276,7 +276,7 @@ msgstr ""
 #: includes/famefe-admin-tables.php:37
 #: includes/famefe-admin-tables.php:152
 #: includes/famefe-admin-tables.php:240
-#: includes/famefe-admin.php:360
+#: includes/famefe-admin.php:371
 #: build/blocks/members-list/index.js:1
 msgid "Recorded by"
 msgstr ""
@@ -297,7 +297,7 @@ msgstr ""
 
 #: build/blocks/members-list/render.php:79
 #: includes/famefe-admin-tables.php:92
-#: includes/famefe-admin.php:348
+#: includes/famefe-admin.php:359
 #: includes/famefe-users.php:159
 msgid "Former member"
 msgstr ""
@@ -305,7 +305,7 @@ msgstr ""
 #: build/blocks/membership-fees/render.php:47
 #: build/blocks/membership-fees/render.php:276
 #: includes/famefe-admin-tables.php:234
-#: includes/famefe-admin.php:471
+#: includes/famefe-admin.php:482
 #: build/blocks/membership-fees/index.js:2
 msgid "Paid on"
 msgstr ""
@@ -392,12 +392,12 @@ msgstr ""
 
 #: build/blocks/membership-fees/render.php:269
 #: includes/famefe-admin-tables.php:238
-#: includes/famefe-admin.php:465
+#: includes/famefe-admin.php:476
 msgid "Method"
 msgstr ""
 
 #: build/blocks/membership-fees/render.php:279
-#: includes/famefe-admin.php:473
+#: includes/famefe-admin.php:484
 msgid "Record payment"
 msgstr ""
 
@@ -406,19 +406,19 @@ msgid "Only administrators and editors see this form. The amount is the calculat
 msgstr ""
 
 #: includes/famefe-admin-tables.php:38
-#: includes/famefe-admin.php:206
+#: includes/famefe-admin.php:212
 msgid "User account"
 msgstr ""
 
 #: includes/famefe-admin-tables.php:39
-#: includes/famefe-admin.php:241
+#: includes/famefe-admin.php:247
 msgid "Email"
 msgstr ""
 
 #: includes/famefe-admin-tables.php:59
 #: includes/famefe-admin.php:29
 #: includes/famefe-admin.php:98
-#: includes/famefe-admin.php:141
+#: includes/famefe-admin.php:153
 #: build/blocks/members-list/index.js:1
 msgid "Members"
 msgstr ""
@@ -430,8 +430,8 @@ msgid "Former members"
 msgstr ""
 
 #: includes/famefe-admin-tables.php:61
-#: includes/famefe-admin.php:421
-#: includes/famefe-admin.php:479
+#: includes/famefe-admin.php:432
+#: includes/famefe-admin.php:490
 msgid "All"
 msgstr ""
 
@@ -463,10 +463,10 @@ msgid "Amount"
 msgstr ""
 
 #: includes/famefe-admin-tables.php:239
-#: includes/famefe-admin.php:271
-#: includes/famefe-admin.php:334
-#: includes/famefe-admin.php:359
-#: includes/famefe-admin.php:472
+#: includes/famefe-admin.php:282
+#: includes/famefe-admin.php:345
+#: includes/famefe-admin.php:370
+#: includes/famefe-admin.php:483
 msgid "Note"
 msgstr ""
 
@@ -483,12 +483,12 @@ msgid "Member Fees"
 msgstr ""
 
 #: includes/famefe-admin.php:30
-#: includes/famefe-admin.php:393
+#: includes/famefe-admin.php:404
 msgid "Volunteer hours"
 msgstr ""
 
 #: includes/famefe-admin.php:31
-#: includes/famefe-admin.php:448
+#: includes/famefe-admin.php:459
 msgid "Payments"
 msgstr ""
 
@@ -512,449 +512,453 @@ msgstr ""
 msgid "%1$s on %2$s"
 msgstr ""
 
-#: includes/famefe-admin.php:142
-#: includes/famefe-admin.php:170
-#: includes/famefe-admin.php:275
+#: includes/famefe-admin.php:131
+msgid "Search accounts by name or login…"
+msgstr ""
+
+#: includes/famefe-admin.php:132
+msgid "Search user accounts"
+msgstr ""
+
+#: includes/famefe-admin.php:154
+#: includes/famefe-admin.php:182
+#: includes/famefe-admin.php:286
 msgid "Add member"
 msgstr ""
 
-#: includes/famefe-admin.php:153
+#: includes/famefe-admin.php:165
 msgid "Search members"
 msgstr ""
 
-#: includes/famefe-admin.php:171
+#: includes/famefe-admin.php:183
 msgid "Back to the members"
 msgstr ""
 
-#: includes/famefe-admin.php:176
-#: includes/famefe-notices.php:45
+#: includes/famefe-admin.php:188
+#: includes/famefe-notices.php:46
 msgid "This user account already belongs to another member."
 msgstr ""
 
 #. translators: %d: number of user accounts found.
-#: includes/famefe-admin.php:178
+#: includes/famefe-admin.php:190
 #, php-format
 msgid "Found: %d"
 msgstr ""
 
-#: includes/famefe-admin.php:179
+#: includes/famefe-admin.php:191
 msgid "No account found."
 msgstr ""
 
-#: includes/famefe-admin.php:182
+#: includes/famefe-admin.php:194
 msgid "Details"
 msgstr ""
 
-#: includes/famefe-admin.php:193
-msgid "Search accounts by name or login…"
-msgstr ""
-
-#: includes/famefe-admin.php:194
-msgid "Search user accounts"
-msgstr ""
-
-#: includes/famefe-admin.php:200
+#: includes/famefe-admin.php:206
 msgid "— No account —"
 msgstr ""
 
-#: includes/famefe-admin.php:210
+#: includes/famefe-admin.php:216
 msgid "Existing user account"
 msgstr ""
 
-#: includes/famefe-admin.php:213
+#: includes/famefe-admin.php:219
 msgid "Create a new user account"
 msgstr ""
 
-#: includes/famefe-admin.php:215
+#: includes/famefe-admin.php:221
 msgid "Send the member an e-mail with a link for setting the password"
 msgstr ""
 
-#: includes/famefe-admin.php:216
+#: includes/famefe-admin.php:222
 msgid "The account gets the default role of the site; the e-mail address is required."
 msgstr ""
 
-#: includes/famefe-admin.php:219
+#: includes/famefe-admin.php:225
 msgid "Without a user account"
 msgstr ""
 
-#: includes/famefe-admin.php:221
+#: includes/famefe-admin.php:227
 msgid "Members with an account can record their hours and pay online. The name and e-mail of a linked member are those of the account."
 msgstr ""
 
-#: includes/famefe-admin.php:226
+#: includes/famefe-admin.php:232
 msgid "Open the profile"
 msgstr ""
 
-#: includes/famefe-admin.php:228
+#: includes/famefe-admin.php:234
 msgid "Members with an account can record their hours and pay online."
 msgstr ""
 
-#: includes/famefe-admin.php:233
+#: includes/famefe-admin.php:239
 msgid "First name"
 msgstr ""
 
-#: includes/famefe-admin.php:237
+#: includes/famefe-admin.php:243
 msgid "Last name"
 msgstr ""
 
-#: includes/famefe-admin.php:245
+#: includes/famefe-admin.php:251
 msgid "The name and e-mail come from the user account, which you are not allowed to edit."
 msgstr ""
 
-#: includes/famefe-admin.php:247
+#: includes/famefe-admin.php:253
 msgid "Changes of the name and e-mail are saved to the user account too."
 msgstr ""
 
-#: includes/famefe-admin.php:249
+#: includes/famefe-admin.php:255
 msgid "For an existing account, the name and e-mail of the account are used; these fields only fill in what the account lacks."
 msgstr ""
 
-#: includes/famefe-admin.php:255
+#: includes/famefe-admin.php:261
 #: build/blocks/membership-fees/index.js:2
 msgid "Membership type"
 msgstr ""
 
-#: includes/famefe-admin.php:262
+#: includes/famefe-admin.php:268
 msgid "Regular members pay the membership fee, honorary members do not."
 msgstr ""
 
-#: includes/famefe-admin.php:275
+#: includes/famefe-admin.php:277
+msgid "Only to correct a mistake; the correction is recorded in the history. Membership changes go below."
+msgstr ""
+
+#: includes/famefe-admin.php:286
 msgid "Save details"
 msgstr ""
 
-#: includes/famefe-admin.php:289
+#: includes/famefe-admin.php:300
 msgid "Delete this member? Use this only for a member entered by mistake."
 msgstr ""
 
-#: includes/famefe-admin.php:289
+#: includes/famefe-admin.php:300
 msgid "Delete member entered by mistake"
 msgstr ""
 
 #. translators: 1: membership type, 2: date.
-#: includes/famefe-admin.php:303
+#: includes/famefe-admin.php:314
 #: includes/famefe-users.php:113
 #, php-format
 msgid "%1$s member since %2$s"
 msgstr ""
 
 #. translators: %s: date.
-#: includes/famefe-admin.php:305
+#: includes/famefe-admin.php:316
 #: includes/famefe-users.php:110
 #, php-format
 msgid "Membership ended on %s"
 msgstr ""
 
-#: includes/famefe-admin.php:308
+#: includes/famefe-admin.php:319
 #: includes/famefe-users.php:80
 msgid "Membership"
 msgstr ""
 
-#: includes/famefe-admin.php:314
-#: includes/famefe-admin.php:356
+#: includes/famefe-admin.php:325
+#: includes/famefe-admin.php:367
 msgid "Change"
 msgstr ""
 
 #. translators: %s: membership type (Regular, Honorary).
-#: includes/famefe-admin.php:321
+#: includes/famefe-admin.php:332
 #, php-format
 msgid "Change type to: %s"
 msgstr ""
 
-#: includes/famefe-admin.php:326
+#: includes/famefe-admin.php:337
 msgid "End the membership"
 msgstr ""
 
-#: includes/famefe-admin.php:331
+#: includes/famefe-admin.php:342
 msgid "Rejoin"
 msgstr ""
 
-#: includes/famefe-admin.php:333
+#: includes/famefe-admin.php:344
 msgid "Valid from"
 msgstr ""
 
-#: includes/famefe-admin.php:335
+#: includes/famefe-admin.php:346
 msgid "Record the change"
 msgstr ""
 
-#: includes/famefe-admin.php:348
+#: includes/famefe-admin.php:359
 msgid "Active"
 msgstr ""
 
-#: includes/famefe-admin.php:351
+#: includes/famefe-admin.php:362
 msgid "History"
 msgstr ""
 
-#: includes/famefe-admin.php:357
-#: includes/famefe-admin.php:417
+#: includes/famefe-admin.php:368
+#: includes/famefe-admin.php:428
 #: build/blocks/hours-list/index.js:1
 #: build/blocks/membership-fees/index.js:1
 msgid "From"
 msgstr ""
 
-#: includes/famefe-admin.php:358
-#: includes/famefe-admin.php:418
+#: includes/famefe-admin.php:369
+#: includes/famefe-admin.php:429
 #: build/blocks/hours-list/index.js:1
 #: build/blocks/membership-fees/index.js:1
 msgid "To"
 msgstr ""
 
-#: includes/famefe-admin.php:397
+#: includes/famefe-admin.php:408
 msgid "Edit hours"
 msgstr ""
 
-#: includes/famefe-admin.php:397
+#: includes/famefe-admin.php:408
 msgid "Record hours for a member"
 msgstr ""
 
-#: includes/famefe-admin.php:409
+#: includes/famefe-admin.php:420
 msgid "Save"
 msgstr ""
 
-#: includes/famefe-admin.php:411
+#: includes/famefe-admin.php:422
 msgid "Cancel"
 msgstr ""
 
-#: includes/famefe-admin.php:425
-#: includes/famefe-admin.php:483
+#: includes/famefe-admin.php:436
+#: includes/famefe-admin.php:494
 msgid "Filter"
 msgstr ""
 
 #. translators: %s: number of hours.
-#: includes/famefe-admin.php:429
+#: includes/famefe-admin.php:440
 #, php-format
 msgid "Total: %s hours"
 msgstr ""
 
-#: includes/famefe-admin.php:451
+#: includes/famefe-admin.php:462
 msgid "Record a payment"
 msgstr ""
 
-#: includes/famefe-admin.php:452
+#: includes/famefe-admin.php:463
 msgid "Cash and bank payments. The period must be the same as in the Membership fees block, otherwise the block does not show the member as paid. Card payments are recorded automatically."
 msgstr ""
 
-#: includes/famefe-admin.php:456
+#: includes/famefe-admin.php:467
 msgid "Period from"
 msgstr ""
 
-#: includes/famefe-admin.php:457
+#: includes/famefe-admin.php:468
 msgid "to"
 msgstr ""
 
 #. translators: %s: currency code.
-#: includes/famefe-admin.php:461
+#: includes/famefe-admin.php:472
 #, php-format
 msgid "Amount (%s)"
 msgstr ""
 
-#: includes/famefe-admin.php:515
+#: includes/famefe-admin.php:526
 msgid "Fair Member Fees settings"
 msgstr ""
 
-#: includes/famefe-admin.php:517
+#: includes/famefe-admin.php:528
 msgid "The season (period), the base fee and the discount are set in the Membership fees block on your page."
 msgstr ""
 
-#: includes/famefe-admin.php:520
+#: includes/famefe-admin.php:531
 msgid "Money"
 msgstr ""
 
-#: includes/famefe-admin.php:523
+#: includes/famefe-admin.php:534
 msgid "Currency"
 msgstr ""
 
-#: includes/famefe-admin.php:526
+#: includes/famefe-admin.php:537
 msgid "Three-letter ISO code, e.g. CZK, EUR, USD."
 msgstr ""
 
-#: includes/famefe-admin.php:530
+#: includes/famefe-admin.php:541
 msgid "Decimal places"
 msgstr ""
 
-#: includes/famefe-admin.php:533
+#: includes/famefe-admin.php:544
 msgid "Fees are rounded to this number of decimals. Leave empty to use the usual number of the currency (CZK 0, EUR and USD 2)."
 msgstr ""
 
-#: includes/famefe-admin.php:538
+#: includes/famefe-admin.php:549
 msgid "Stripe"
 msgstr ""
 
-#: includes/famefe-admin.php:539
+#: includes/famefe-admin.php:550
 msgid "Members pay on the Stripe payment page. Fill in the secret key of the mode you use; without it the Membership fees block shows no payment button."
 msgstr ""
 
-#: includes/famefe-admin.php:542
+#: includes/famefe-admin.php:553
 msgid "Mode"
 msgstr ""
 
-#: includes/famefe-admin.php:544
+#: includes/famefe-admin.php:555
 msgid "Test (no real money)"
 msgstr ""
 
-#: includes/famefe-admin.php:545
+#: includes/famefe-admin.php:556
 msgid "Live"
 msgstr ""
 
-#: includes/famefe-admin.php:550
+#: includes/famefe-admin.php:561
 msgid "Test secret key"
 msgstr ""
 
-#: includes/famefe-admin.php:551
+#: includes/famefe-admin.php:562
 msgid "Test webhook signing secret"
 msgstr ""
 
-#: includes/famefe-admin.php:552
+#: includes/famefe-admin.php:563
 msgid "Live secret key"
 msgstr ""
 
-#: includes/famefe-admin.php:553
+#: includes/famefe-admin.php:564
 msgid "Live webhook signing secret"
 msgstr ""
 
-#: includes/famefe-admin.php:563
+#: includes/famefe-admin.php:574
 msgid "Webhook endpoint"
 msgstr ""
 
-#: includes/famefe-admin.php:566
+#: includes/famefe-admin.php:577
 msgid "Add this address in Stripe (Developers → Webhooks) with the events checkout.session.completed and checkout.session.async_payment_succeeded, then copy its signing secret here. Payments are recorded even when a member closes the browser before returning to your site."
 msgstr ""
 
-#: includes/famefe-admin.php:571
+#: includes/famefe-admin.php:582
 msgid "Volunteer hours and names"
 msgstr ""
 
-#: includes/famefe-admin.php:574
+#: includes/famefe-admin.php:585
 msgid "Hours of non-members"
 msgstr ""
 
-#: includes/famefe-admin.php:575
+#: includes/famefe-admin.php:586
 msgid "Logged-in users who are not members may record their hours too (they count only in the totals)."
 msgstr ""
 
-#: includes/famefe-admin.php:578
+#: includes/famefe-admin.php:589
 msgid "Names in blocks"
 msgstr ""
 
-#: includes/famefe-admin.php:585
+#: includes/famefe-admin.php:596
 msgid "Default for all blocks; each block can override it."
 msgstr ""
 
-#: includes/famefe-admin.php:590
+#: includes/famefe-admin.php:601
 msgid "Uninstall"
 msgstr ""
 
-#: includes/famefe-admin.php:593
+#: includes/famefe-admin.php:604
 msgid "Delete data"
 msgstr ""
 
-#: includes/famefe-admin.php:594
+#: includes/famefe-admin.php:605
 msgid "Delete all members, hours, payments and settings when the plugin is deleted."
 msgstr ""
 
-#: includes/famefe-admin.php:609
+#: includes/famefe-admin.php:620
 #: build/blocks/hours-list/index.js:1
 #: build/blocks/members-list/index.js:1
 #: build/blocks/membership-fees/index.js:1
 msgid "Full name (Jane Smith)"
 msgstr ""
 
-#: includes/famefe-admin.php:610
+#: includes/famefe-admin.php:621
 #: build/blocks/hours-list/index.js:1
 #: build/blocks/members-list/index.js:1
 #: build/blocks/membership-fees/index.js:1
 msgid "First name and initial (Jane S.)"
 msgstr ""
 
-#: includes/famefe-admin.php:611
+#: includes/famefe-admin.php:622
 #: build/blocks/hours-list/index.js:1
 #: build/blocks/members-list/index.js:1
 #: build/blocks/membership-fees/index.js:1
 msgid "Initials (J. S.)"
 msgstr ""
 
-#: includes/famefe-admin.php:612
+#: includes/famefe-admin.php:623
 #: build/blocks/hours-list/index.js:1
 #: build/blocks/members-list/index.js:1
 #: build/blocks/membership-fees/index.js:1
 msgid "Display name of the user account"
 msgstr ""
 
-#: includes/famefe-admin.php:613
+#: includes/famefe-admin.php:624
 #: build/blocks/hours-list/index.js:1
 #: build/blocks/members-list/index.js:1
 #: build/blocks/membership-fees/index.js:1
 msgid "Shortened for data protection: first 4 and last 4 characters (Janaková)"
 msgstr ""
 
-#: includes/famefe-admin.php:623
+#: includes/famefe-admin.php:634
 msgid "Membership fees"
 msgstr ""
 
-#: includes/famefe-admin.php:623
+#: includes/famefe-admin.php:634
 msgid "The table of fees for a period. Set the period, the base fee and the optional discount in the block settings. Members pay their fee with the button; administrators and editors can record cash and bank payments right there."
 msgstr ""
 
-#: includes/famefe-admin.php:624
+#: includes/famefe-admin.php:635
 msgid "Volunteer hours form"
 msgstr ""
 
-#: includes/famefe-admin.php:624
+#: includes/famefe-admin.php:635
 msgid "Members record their own hours. Set the maximum hours per entry, how many days back a date may be, and whether a description is required."
 msgstr ""
 
-#: includes/famefe-admin.php:625
+#: includes/famefe-admin.php:636
 msgid "Volunteer hours list"
 msgstr ""
 
-#: includes/famefe-admin.php:625
+#: includes/famefe-admin.php:636
 msgid "Recorded hours for a period, all or only the visitor’s own."
 msgstr ""
 
-#: includes/famefe-admin.php:626
+#: includes/famefe-admin.php:637
 msgid "Members list"
 msgstr ""
 
-#: includes/famefe-admin.php:626
+#: includes/famefe-admin.php:637
 msgid "The membership register with the date of the last change and who recorded it; visible to logged-in users by default."
 msgstr ""
 
-#: includes/famefe-admin.php:627
+#: includes/famefe-admin.php:638
 msgid "Fee calculation explained"
 msgstr ""
 
-#: includes/famefe-admin.php:627
+#: includes/famefe-admin.php:638
 msgid "Explains the calculation on an example with your numbers."
 msgstr ""
 
-#: includes/famefe-admin.php:631
+#: includes/famefe-admin.php:642
 msgid "Fair Member Fees help"
 msgstr ""
 
-#: includes/famefe-admin.php:633
+#: includes/famefe-admin.php:644
 msgid "Getting started"
 msgstr ""
 
-#: includes/famefe-admin.php:635
+#: includes/famefe-admin.php:646
 msgid "Add your members (Members → Add member) and link them to their user accounts."
 msgstr ""
 
-#: includes/famefe-admin.php:636
+#: includes/famefe-admin.php:647
 msgid "Set the currency, and Stripe if you want online payments (Settings)."
 msgstr ""
 
-#: includes/famefe-admin.php:637
+#: includes/famefe-admin.php:648
 msgid "Add the blocks to your pages: search for \"Fair Member Fees\" in the block inserter."
 msgstr ""
 
-#: includes/famefe-admin.php:641
+#: includes/famefe-admin.php:652
 msgid "Blocks"
 msgstr ""
 
-#: includes/famefe-admin.php:650
+#: includes/famefe-admin.php:661
 msgid "How the fee is calculated"
 msgstr ""
 
-#: includes/famefe-admin.php:651
+#: includes/famefe-admin.php:662
 msgid "All regular members of the period together pay the base fee times their number (the expected total). Each member’s share of the volunteer hours of all regular members lowers the fee; what is collected above the expected total is taken off everybody equally, and no fee goes below zero. Honorary members pay nothing. With the optional discount, the given share of members with the lowest fees pays the given percentage less; nothing is moved to the others."
 msgstr ""
 
@@ -982,23 +986,27 @@ msgstr ""
 msgid "Rejoined"
 msgstr ""
 
-#: includes/famefe-data.php:48
-msgid "Card (Stripe)"
+#: includes/famefe-data.php:39
+msgid "\"Member since\" corrected"
 msgstr ""
 
 #: includes/famefe-data.php:49
-msgid "Cash"
+msgid "Card (Stripe)"
 msgstr ""
 
 #: includes/famefe-data.php:50
+msgid "Cash"
+msgstr ""
+
+#: includes/famefe-data.php:51
 msgid "Bank transfer"
 msgstr ""
 
-#: includes/famefe-data.php:165
+#: includes/famefe-data.php:166
 msgid "Unknown name"
 msgstr ""
 
-#: includes/famefe-data.php:215
+#: includes/famefe-data.php:216
 msgid "Deleted user"
 msgstr ""
 
@@ -1087,70 +1095,74 @@ msgid "Choose a valid membership type."
 msgstr ""
 
 #: includes/famefe-notices.php:42
-msgid "This change is not possible for the member (check the status and the date)."
+msgid "\"Member since\" cannot be after the end of the membership."
 msgstr ""
 
 #: includes/famefe-notices.php:43
-msgid "Enter a valid e-mail address."
+msgid "This change is not possible for the member (check the status and the date)."
 msgstr ""
 
 #: includes/famefe-notices.php:44
+msgid "Enter a valid e-mail address."
+msgstr ""
+
+#: includes/famefe-notices.php:45
 msgid "This e-mail address is already used by another user account."
 msgstr ""
 
-#: includes/famefe-notices.php:46
+#: includes/famefe-notices.php:47
 msgid "The member has hours or payments and cannot be deleted. End the membership instead."
 msgstr ""
 
-#: includes/famefe-notices.php:47
+#: includes/famefe-notices.php:48
 msgid "Enter a valid number of hours."
 msgstr ""
 
-#: includes/famefe-notices.php:48
+#: includes/famefe-notices.php:49
 msgid "These hours can no longer be deleted here; the time limit has passed."
 msgstr ""
 
-#: includes/famefe-notices.php:49
+#: includes/famefe-notices.php:50
 msgid "Hours cannot be recorded for this date any more."
 msgstr ""
 
-#: includes/famefe-notices.php:50
+#: includes/famefe-notices.php:51
 msgid "Describe the work, please."
 msgstr ""
 
-#: includes/famefe-notices.php:52
+#: includes/famefe-notices.php:53
 msgid "Enter a valid amount."
 msgstr ""
 
-#: includes/famefe-notices.php:53
+#: includes/famefe-notices.php:54
 msgid "Choose a valid payment method."
 msgstr ""
 
-#: includes/famefe-notices.php:54
+#: includes/famefe-notices.php:55
 msgid "The membership fee for this period has already been paid."
 msgstr ""
 
-#: includes/famefe-notices.php:55
+#: includes/famefe-notices.php:56
 msgid "There is nothing to pay."
 msgstr ""
 
-#: includes/famefe-notices.php:56
+#: includes/famefe-notices.php:57
 msgid "The block of this form was not found on the page. Please reload the page."
 msgstr ""
 
-#: includes/famefe-notices.php:57
+#: includes/famefe-notices.php:58
 msgid "Online payment is not set up."
 msgstr ""
 
-#: includes/famefe-notices.php:58
+#: includes/famefe-notices.php:59
 msgid "The payment service could not be reached. Please try again later."
 msgstr ""
 
-#: includes/famefe-notices.php:59
+#: includes/famefe-notices.php:60
 msgid "The payment has not been confirmed yet. If you paid, it will appear shortly."
 msgstr ""
 
-#: includes/famefe-notices.php:60
+#: includes/famefe-notices.php:61
 msgid "The data could not be saved. Please try again."
 msgstr ""
 

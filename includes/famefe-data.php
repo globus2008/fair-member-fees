@@ -36,6 +36,7 @@ function famefe_change_types(): array
 		'type_changed' => __('Membership type changed', 'fair-member-fees'),
 		'left' => __('Membership ended', 'fair-member-fees'),
 		'rejoined' => __('Rejoined', 'fair-member-fees'),
+		'since_corrected' => __('"Member since" corrected', 'fair-member-fees'),
 	];
 }
 
