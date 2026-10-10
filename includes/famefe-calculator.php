@@ -2,19 +2,23 @@
 /**
  * Calculation of the membership fees. Pure functions without database access.
  *
- * Method (all regular members of the period together pay the expected total):
+ * Method:
  * - expected_total = base_fee × regular_count
  * - hours_share    = hours of the member / hours of all regular members
  * - gross_fee      = expected_total × (1 − hours_share)
- * - calculated_fee = gross_fee − (Σ gross_fee − expected_total) / regular_count
- * A fee never goes below 0: such a member pays 0 and the same formula is applied again to the
- * others (their Σ gross_fee and count), so the calculated fees always add up to expected_total.
- * Without any hours every regular member pays the base fee (the formulas give exactly that).
+ * - A regular member without any hours in the period always pays 2 × base_fee (owner 2026-10-10).
+ * - The members with hours share the rest: calculated_fee = gross_fee − k, where k makes their fees add up
+ *   to expected_total − 2 × base_fee × (members without hours). Without any fee below zero this is exactly
+ *   the original formula gross_fee − (Σ gross_fee − expected_total) / regular_count, which itself gives
+ *   2 × base_fee for a member without hours.
+ * - A fee never goes below 0: such a member pays 0 and k is computed again for the others.
+ *   The regular members then pay expected_total together, except when the members without hours
+ *   alone pay more than that (their double fee is never reduced).
  * Honorary members pay nothing; their hours (and hours of non-members) are only counted in the totals.
  *
- * Optional discount: the regular members with the lowest calculated fees (discount_share % of them,
- * rounded up; ties with the last one included) pay discount_rate % less. The discount only reduces,
- * nothing is moved to the other members.
+ * Optional discount: the regular members with the lowest calculated fees (discount_share % of all regular
+ * members, rounded up; ties with the last one included) pay discount_rate % less. Members without hours
+ * never get it. The discount only reduces, nothing is moved to the other members.
  *
  * @package fair-member-fees
  */
@@ -76,16 +80,22 @@ function famefe_calculate_fees(array $rows, float $base_fee, array $opts = []): 
 		];
 	}
 
-	// What the gross fees collect above the expected total is taken off everybody equally.
-	// A member whose fee would go below zero pays 0 and the rest is shared by the others,
-	// so the regular members always pay the expected total together.
-	$paying = $regular;
+	// Members without hours pay twice the base fee, always.
+	$without_hours = array_values(array_filter($regular, fn($id) => $result[$id]['hours'] <= 0));
+	foreach ($without_hours as $id) {
+		$result[$id]['calculated_fee'] = 2 * $base_fee;
+	}
+	// The members with hours pay the rest of the expected total: what their gross fees collect above it
+	// is taken off them equally. A member whose fee would go below zero pays 0 and the rest is shared by the others.
+	$target = $expected - 2 * $base_fee * count($without_hours);
+	$paying = array_values(array_diff($regular, $without_hours));
+	$surplus_each = 0.0;
 	do {
 		$gross_paying = 0.0;
 		foreach ($paying as $id) {
 			$gross_paying += $result[$id]['gross_fee'];
 		}
-		$surplus_each = $paying ? ($gross_paying - $expected) / count($paying) : 0.0;
+		$surplus_each = $paying ? ($gross_paying - $target) / count($paying) : 0.0;
 		$below_zero = array_values(array_filter($paying, fn($id) => $result[$id]['gross_fee'] - $surplus_each < 0));
 		$paying = array_values(array_diff($paying, $below_zero));
 	} while ($below_zero && $paying);
@@ -93,16 +103,18 @@ function famefe_calculate_fees(array $rows, float $base_fee, array $opts = []): 
 		$result[$id]['calculated_fee'] = max(0.0, $result[$id]['gross_fee'] - $surplus_each);
 	}
 
-	// Discount for the lowest calculated fees (compared as displayed, so equal amounts tie).
+	// Discount for the lowest calculated fees (compared as displayed, so equal amounts tie);
+	// the share counts all regular members, members without hours never get it.
 	$discounted = [];
-	if ($count > 0 && $share > 0 && $rate > 0) {
+	$candidates = array_values(array_diff($regular, $without_hours));
+	if ($candidates && $share > 0 && $rate > 0) {
 		$fees = [];
-		foreach ($regular as $id) {
+		foreach ($candidates as $id) {
 			$fees[$id] = round($result[$id]['calculated_fee'], $decimals);
 		}
 		asort($fees);
-		$take = (int) ceil($count * $share / 100);
-		$limit = array_values($fees)[$take - 1];
+		$take = min(count($fees), (int) ceil($count * $share / 100));
+		$limit = array_values($fees)[max(1, $take) - 1];
 		foreach ($fees as $id => $fee) {
 			if ($fee <= $limit) {
 				$discounted[] = $id;
@@ -120,7 +132,8 @@ function famefe_calculate_fees(array $rows, float $base_fee, array $opts = []): 
 		'hours_other' => $hours_total - $hours_regular,
 		'gross_total' => $gross_total,
 		// Amount taken off each unreduced fee (of the members who pay something).
-		'reduction_each' => round($surplus_each ?? 0.0, $decimals),
+		'reduction_each' => round($surplus_each, $decimals),
+		'without_hours_count' => count($without_hours),
 		'calculated_total' => 0.0,
 		'discounted_count' => count($discounted),
 		'discount_total' => 0.0,

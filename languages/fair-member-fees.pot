@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-09T17:59:38+00:00\n"
+"POT-Creation-Date: 2026-10-10T05:14:38+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: fair-member-fees\n"
@@ -112,7 +112,7 @@ msgstr ""
 #. translators: 1: sum of the unreduced fees, 2: expected total, 3: amount taken off each fee.
 #: build/blocks/fee-explanation/render.php:117
 #, php-format
-msgid "The unreduced fees add up to %1$s, more than the expected total of %2$s. The difference is shared equally: each fee is lowered by %3$s, so all fees together give the expected total. No fee goes below zero; if one would, that member pays nothing and the rest is shared by the others."
+msgid "The unreduced fees add up to %1$s, more than the expected total of %2$s. The difference is shared equally: each fee is lowered by %3$s, so all fees together give the expected total. No fee goes below zero; if one would, that member pays nothing and the rest is shared by the members who volunteered."
 msgstr ""
 
 #: build/blocks/fee-explanation/render.php:130
@@ -151,11 +151,13 @@ msgstr ""
 #. translators: 1: share of members in percent, 2: discount in percent, 3: number of members with the discount.
 #: build/blocks/fee-explanation/render.php:181
 #, php-format
-msgid "The %1$s %% of regular members with the lowest calculated fees pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too). The discount is not added to the fees of the others, so the club collects less than the expected total."
+msgid "The %1$s %% of regular members with the lowest calculated fees pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never). The discount is not added to the fees of the others, so the club collects less than the expected total."
 msgstr ""
 
-#: build/blocks/fee-explanation/render.php:190
-msgid "Whoever does not volunteer pays more than the base fee: paying instead of working should never be the cheaper choice."
+#. translators: %s: twice the base fee.
+#: build/blocks/fee-explanation/render.php:194
+#, php-format
+msgid "A member without any volunteer hours in the period always pays twice the base fee, %s: paying instead of working should never be the cheaper choice."
 msgstr ""
 
 #: build/blocks/hours-form/render.php:22
@@ -959,7 +961,7 @@ msgid "How the fee is calculated"
 msgstr ""
 
 #: includes/famefe-admin.php:662
-msgid "All regular members of the period together pay the base fee times their number (the expected total). Each member’s share of the volunteer hours of all regular members lowers the fee; what is collected above the expected total is taken off everybody equally, and no fee goes below zero. Honorary members pay nothing. With the optional discount, the given share of members with the lowest fees pays the given percentage less; nothing is moved to the others."
+msgid "All regular members of the period together pay the base fee times their number (the expected total). Each member’s share of the volunteer hours of all regular members lowers the fee; what is collected above the expected total is taken off everybody equally, and no fee goes below zero. A member without any hours in the period always pays twice the base fee. Honorary members pay nothing. With the optional discount, the given share of members with the lowest fees pays the given percentage less; nothing is moved to the others."
 msgstr ""
 
 #: includes/famefe-data.php:24

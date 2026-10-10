@@ -101,8 +101,8 @@ msgstr "Podíl člena na hodinách všech řádných členů (%s h) snižuje jeh
 
 #. translators: 1: sum of the unreduced fees, 2: expected total, 3: amount taken off each fee.
 #: build/blocks/fee-explanation/render.php:117
-msgid "The unreduced fees add up to %1$s, more than the expected total of %2$s. The difference is shared equally: each fee is lowered by %3$s, so all fees together give the expected total. No fee goes below zero; if one would, that member pays nothing and the rest is shared by the others."
-msgstr "Neredukované příspěvky dávají dohromady %1$s, tedy víc než očekávaných %2$s. Rozdíl se rozdělí rovným dílem: každý příspěvek se sníží o %3$s, takže všechny příspěvky dohromady dají očekávaný součet. Žádný příspěvek neklesne pod nulu; pokud by měl, člen neplatí nic a zbytek se rozdělí mezi ostatní."
+msgid "The unreduced fees add up to %1$s, more than the expected total of %2$s. The difference is shared equally: each fee is lowered by %3$s, so all fees together give the expected total. No fee goes below zero; if one would, that member pays nothing and the rest is shared by the members who volunteered."
+msgstr "Neredukované příspěvky dávají dohromady %1$s, tedy víc než očekávaných %2$s. Rozdíl se rozdělí rovným dílem: každý příspěvek se sníží o %3$s, takže všechny příspěvky dohromady dají očekávaný součet. Žádný příspěvek neklesne pod nulu; pokud by měl, člen neplatí nic a zbytek se rozdělí mezi ostatní členy, kteří pracovali."
 
 #: build/blocks/fee-explanation/render.php:130
 #: build/blocks/membership-fees/render.php:36
@@ -139,12 +139,13 @@ msgstr "4. Sleva"
 
 #. translators: 1: share of members in percent, 2: discount in percent, 3: number of members with the discount.
 #: build/blocks/fee-explanation/render.php:181
-msgid "The %1$s %% of regular members with the lowest calculated fees pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too). The discount is not added to the fees of the others, so the club collects less than the expected total."
-msgstr "%1$s %% řádných členů s nejnižšími vypočtenými příspěvky platí o %2$s %% méně (zde %3$d členů; slevu dostanou i ti se stejným příspěvkem jako poslední z nich). Sleva se nepřičítá ostatním, klub tedy vybere méně než očekávaný součet."
+msgid "The %1$s %% of regular members with the lowest calculated fees pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never). The discount is not added to the fees of the others, so the club collects less than the expected total."
+msgstr "%1$s %% řádných členů s nejnižšími vypočtenými příspěvky platí o %2$s %% méně (zde %3$d členů; slevu dostanou i ti se stejným příspěvkem jako poslední z nich, členové bez hodin nikdy). Sleva se nepřičítá ostatním, klub tedy vybere méně než očekávaný součet."
 
-#: build/blocks/fee-explanation/render.php:190
-msgid "Whoever does not volunteer pays more than the base fee: paying instead of working should never be the cheaper choice."
-msgstr "Kdo nepracuje, platí víc než základní příspěvek: zaplatit místo práce nesmí být nikdy výhodnější."
+#. translators: %s: twice the base fee.
+#: build/blocks/fee-explanation/render.php:194
+msgid "A member without any volunteer hours in the period always pays twice the base fee, %s: paying instead of working should never be the cheaper choice."
+msgstr "Člen bez jediné brigádnické hodiny v období platí vždy dvojnásobek základního příspěvku, tedy %s: zaplatit místo práce nesmí být nikdy výhodnější."
 
 #: build/blocks/hours-form/render.php:22
 #: includes/famefe-admin.php:420
@@ -930,8 +931,8 @@ msgid "How the fee is calculated"
 msgstr "Jak se příspěvek počítá"
 
 #: includes/famefe-admin.php:662
-msgid "All regular members of the period together pay the base fee times their number (the expected total). Each member’s share of the volunteer hours of all regular members lowers the fee; what is collected above the expected total is taken off everybody equally, and no fee goes below zero. Honorary members pay nothing. With the optional discount, the given share of members with the lowest fees pays the given percentage less; nothing is moved to the others."
-msgstr "Řádní členové období zaplatí dohromady základní příspěvek krát jejich počet (očekávaný součet). Podíl člena na brigádnických hodinách všech řádných členů jeho příspěvek snižuje; co se vybere nad očekávaný součet, se všem odečte rovným dílem a žádný příspěvek neklesne pod nulu. Čestní členové neplatí. S volitelnou slevou platí zadaný podíl členů s nejnižšími příspěvky o zadané procento méně; nic se nepřesouvá na ostatní."
+msgid "All regular members of the period together pay the base fee times their number (the expected total). Each member’s share of the volunteer hours of all regular members lowers the fee; what is collected above the expected total is taken off everybody equally, and no fee goes below zero. A member without any hours in the period always pays twice the base fee. Honorary members pay nothing. With the optional discount, the given share of members with the lowest fees pays the given percentage less; nothing is moved to the others."
+msgstr "Řádní členové období zaplatí dohromady základní příspěvek krát jejich počet (očekávaný součet). Podíl člena na brigádnických hodinách všech řádných členů jeho příspěvek snižuje; co se vybere nad očekávaný součet, se všem odečte rovným dílem a žádný příspěvek neklesne pod nulu. Člen bez hodin v období platí vždy dvojnásobek základního příspěvku. Čestní členové neplatí. S volitelnou slevou platí zadaný podíl členů s nejnižšími příspěvky o zadané procento méně; nic se nepřesouvá na ostatní."
 
 #: includes/famefe-data.php:24
 msgid "Regular"

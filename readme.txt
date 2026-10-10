@@ -12,7 +12,7 @@ Membership register, volunteer hours and a fair membership fee: members who volu
 
 == Description ==
 
-Clubs live from the work of their members. Fair Member Fees rewards it: every member records the hours they volunteered, and the membership fee of each member is calculated from them. Whoever works for the club pays less; whoever does not, pays more than the base fee – paying instead of working is never the cheaper choice.
+Clubs live from the work of their members. Fair Member Fees rewards it: every member records the hours they volunteered, and the membership fee of each member is calculated from them. Whoever works for the club pays less; whoever does not, pays twice the base fee – paying instead of working is never the cheaper choice.
 
 **Features**
 
@@ -35,13 +35,14 @@ Clubs live from the work of their members. Fair Member Fees rewards it: every me
 1. Expected total = base fee × number of regular members.
 2. Share of hours = hours of the member / hours of all regular members.
 3. Unreduced fee = expected total × (1 − share of hours).
-4. The unreduced fees add up to more than the expected total; the difference is taken off every fee equally. No fee goes below zero (the rest is shared by the others), so all regular members together always pay the expected total.
+4. The unreduced fees add up to more than the expected total; the difference is taken off every fee equally. No fee goes below zero (the rest is shared by the others).
+5. A member without any recorded hours in the period always pays twice the base fee.
 
-Without any recorded hours everybody pays the base fee. Hours of honorary members and non-members are shown in the totals but do not change the fees.
+Whoever does not volunteer pays twice the base fee, so paying instead of working is never the cheaper choice. Hours of honorary members and non-members are shown in the totals but do not change the fees.
 
 **Discount (optional)**
 
-Set a share of members (e.g. 60 %) and a discount (e.g. 20 %) in the Membership fees block: the given share of regular members with the lowest fees pays the given percentage less. Members with the same fee as the last of them get it too. The discount is not added to the fees of the others.
+Set a share of members (e.g. 60 %) and a discount (e.g. 20 %) in the Membership fees block: the given share of regular members with the lowest fees pays the given percentage less. Members with the same fee as the last of them get it too; members without hours never get it. The discount is not added to the fees of the others.
 
 == External services ==
 

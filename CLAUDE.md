@@ -71,6 +71,9 @@ gross_fee = expected_total × (1 − share); calculated_fee = gross_fee − (Σg
 A fee that would go below 0 becomes 0 and the formula is repeated for the others, so the sum is always expected_total
 (added 2026-10-09; the old plugin only clipped and collected more). Optional discount: the lowest ⌈N × share⌉ fees
 (ties included) × (1 − rate); it only reduces, nothing is redistributed (owner: not volunteering must never be cheap).
+**Members without hours always pay 2 × base_fee** (owner 2026-10-10): the members with hours share
+expected_total − 2 × base_fee × (members without hours) with the same formula (identical results when no fee is
+clipped; the double fee is never reduced, so the total can exceed expected_total) and only they can get the discount.
 Rounding to the currency decimals only at the end. The website example (1000; 0/10/15/20/25 h) gives
 2000/1286/929/571/214 (the old web page rounds to 50).
 

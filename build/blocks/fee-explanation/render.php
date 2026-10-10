@@ -114,7 +114,7 @@ $famefe_member_label = fn(int $n) => sprintf(__('Member %d', 'fair-member-fees')
 		<?php
 		echo esc_html(sprintf(
 			/* translators: 1: sum of the unreduced fees, 2: expected total, 3: amount taken off each fee. */
-			__('The unreduced fees add up to %1$s, more than the expected total of %2$s. The difference is shared equally: each fee is lowered by %3$s, so all fees together give the expected total. No fee goes below zero; if one would, that member pays nothing and the rest is shared by the others.', 'fair-member-fees'),
+			__('The unreduced fees add up to %1$s, more than the expected total of %2$s. The difference is shared equally: each fee is lowered by %3$s, so all fees together give the expected total. No fee goes below zero; if one would, that member pays nothing and the rest is shared by the members who volunteered.', 'fair-member-fees'),
 			$famefe_money($famefe_t['gross_total']),
 			$famefe_money($famefe_t['expected_total']),
 			$famefe_money($famefe_t['reduction_each'])
@@ -178,7 +178,7 @@ $famefe_member_label = fn(int $n) => sprintf(__('Member %d', 'fair-member-fees')
 			<?php
 			echo esc_html(sprintf(
 				/* translators: 1: share of members in percent, 2: discount in percent, 3: number of members with the discount. */
-				__('The %1$s %% of regular members with the lowest calculated fees pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too). The discount is not added to the fees of the others, so the club collects less than the expected total.', 'fair-member-fees'),
+				__('The %1$s %% of regular members with the lowest calculated fees pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never). The discount is not added to the fees of the others, so the club collects less than the expected total.', 'fair-member-fees'),
 				number_format_i18n($famefe_t['discount_share']),
 				number_format_i18n($famefe_t['discount_rate']),
 				$famefe_t['discounted_count']
@@ -187,5 +187,13 @@ $famefe_member_label = fn(int $n) => sprintf(__('Member %d', 'fair-member-fees')
 		</p>
 	<?php endif; ?>
 
-	<p><?php esc_html_e('Whoever does not volunteer pays more than the base fee: paying instead of working should never be the cheaper choice.', 'fair-member-fees'); ?></p>
+	<p>
+		<?php
+		echo esc_html(sprintf(
+			/* translators: %s: twice the base fee. */
+			__('A member without any volunteer hours in the period always pays twice the base fee, %s: paying instead of working should never be the cheaper choice.', 'fair-member-fees'),
+			$famefe_money(2 * $famefe_base)
+		));
+		?>
+	</p>
 </div>

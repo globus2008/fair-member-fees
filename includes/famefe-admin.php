@@ -659,7 +659,7 @@ function famefe_page_help(): void
 		</div>
 		<div class="famefe-card">
 			<h2><?php esc_html_e('How the fee is calculated', 'fair-member-fees'); ?></h2>
-			<p><?php esc_html_e('All regular members of the period together pay the base fee times their number (the expected total). Each member’s share of the volunteer hours of all regular members lowers the fee; what is collected above the expected total is taken off everybody equally, and no fee goes below zero. Honorary members pay nothing. With the optional discount, the given share of members with the lowest fees pays the given percentage less; nothing is moved to the others.', 'fair-member-fees'); ?></p>
+			<p><?php esc_html_e('All regular members of the period together pay the base fee times their number (the expected total). Each member’s share of the volunteer hours of all regular members lowers the fee; what is collected above the expected total is taken off everybody equally, and no fee goes below zero. A member without any hours in the period always pays twice the base fee. Honorary members pay nothing. With the optional discount, the given share of members with the lowest fees pays the given percentage less; nothing is moved to the others.', 'fair-member-fees'); ?></p>
 		</div>
 	</div>
 	<?php
