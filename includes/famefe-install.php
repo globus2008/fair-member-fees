@@ -110,7 +110,21 @@ function famefe_install(): void
 			$role->add_cap(FAMEFE_CAPABILITY);
 		}
 	}
+	famefe_attach_all_user_hours();
 	update_option('famefe_db_version', FAMEFE_DB_VERSION, false);
+}
+
+/**
+ * Repair (1.0.1): hours without a member whose user account is linked to a member get that member.
+ * Hours imported before the members were linked counted as hours of non-members.
+ */
+function famefe_attach_all_user_hours(): void
+{
+	global $wpdb;
+	$hours = famefe_table('hours');
+	$members = famefe_table('members');
+	// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching, WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- plugin tables, no values.
+	$wpdb->query("UPDATE $hours h JOIN $members m ON m.user_id = h.user_id SET h.member_id = m.id WHERE h.member_id IS NULL");
 }
 
 /**

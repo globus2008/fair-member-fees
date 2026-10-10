@@ -4,7 +4,7 @@ Tags: membership, volunteers, membership fee, club, stripe
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.0
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -83,6 +83,10 @@ No. The server always calculates the fee from the saved block settings and the r
 Nothing, unless you turn on "Delete data" in the settings.
 
 == Changelog ==
+
+= 1.0.1 =
+* Hours recorded under a user account count for the member as soon as the account is linked to the member
+  (also hours imported before the link). Existing hours are repaired on update.
 
 = 1.0.0 =
 * First release.
