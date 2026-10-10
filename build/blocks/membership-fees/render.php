@@ -181,7 +181,10 @@ $famefe_period_text = sprintf(
 	<?php endif; ?>
 
 	<?php
-	// Payment of the logged-in member.
+	// Payment of the logged-in member. The payment button is turned on by hand once the volunteer hours
+	// of the period are closed: only then the fee is final. While it is off (the period still runs, or the
+	// club does not collect fees through the plugin) the texts speak of the hours recorded so far.
+	$famefe_final = (bool) $attributes['showPayButton'];
 	$famefe_my_row = $famefe_my_id ? ($famefe_calc['rows'][$famefe_my_id] ?? null) : null;
 	if ($famefe_my_row && $famefe_my_row['member_type'] === 'regular') :
 		$famefe_my_payment = $famefe_fees['payments'][$famefe_my_id] ?? null;
@@ -198,6 +201,28 @@ $famefe_period_text = sprintf(
 					));
 					?>
 				</p>
+			<?php elseif (!$famefe_final) : ?>
+				<p>
+					<?php
+					echo esc_html(sprintf(
+						/* translators: %s: amount. */
+						__('With the volunteer hours recorded so far, your membership fee is %s.', 'fair-member-fees'),
+						$famefe_money($famefe_my_row['final_fee'])
+					));
+					if ($famefe_my_row['final_fee'] <= 0) {
+						echo ' ';
+						esc_html_e('Thank you for your work!', 'fair-member-fees');
+					}
+					if (famefe_stripe_ready()) {
+						echo ' ';
+						if ($famefe_my_row['final_fee'] > 0) {
+							esc_html_e('The fee will be final once the volunteer hours of this period are closed; then you can pay it here.', 'fair-member-fees');
+						} else {
+							esc_html_e('The fee will be final once the volunteer hours of this period are closed.', 'fair-member-fees');
+						}
+					}
+					?>
+				</p>
 			<?php elseif ($famefe_my_row['final_fee'] <= 0) : ?>
 				<p><?php esc_html_e('You do not need to pay a membership fee for this period. Thank you for your work!', 'fair-member-fees'); ?></p>
 			<?php else : ?>
@@ -210,7 +235,7 @@ $famefe_period_text = sprintf(
 					));
 					?>
 				</p>
-				<?php if ($attributes['showPayButton'] && famefe_stripe_ready() && $famefe_block_id !== '') : ?>
+				<?php if (famefe_stripe_ready() && $famefe_block_id !== '') : ?>
 					<form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>">
 						<?php famefe_block_form_fields('famefe_block_checkout', $famefe_block_id); ?>
 						<button type="submit" class="wp-element-button famefe-button">
@@ -226,12 +251,14 @@ $famefe_period_text = sprintf(
 	<?php endif; ?>
 
 	<?php
-	// Why administrators and editors may not see the payment button.
-	if ($attributes['showPayButton'] && famefe_can_manage()) :
-		if (!famefe_stripe_ready()) {
-			$famefe_hint = __('The online payment button is hidden: Stripe is not set up yet (Member Fees → Settings → Stripe secret key).', 'fair-member-fees');
+	// Notes for administrators and editors about the payment button.
+	if (famefe_can_manage()) :
+		if (!$famefe_final) {
+			$famefe_hint = __('The payment button is off: the fees are shown as calculated so far. Turn it on in the block settings ("Payment button") once the volunteer hours of the period are closed and the fees are final. Leave it off if you do not collect fees through this page.', 'fair-member-fees');
+		} elseif (!famefe_stripe_ready()) {
+			$famefe_hint = __('The fees are final, but members cannot pay online: Stripe is not set up yet (Member Fees → Settings → Stripe secret key).', 'fair-member-fees');
 		} elseif (!$famefe_my_row || $famefe_my_row['member_type'] !== 'regular') {
-			$famefe_hint = __('The online payment button is shown only to logged-in regular members who have a fee to pay.', 'fair-member-fees');
+			$famefe_hint = __('The payment button is shown only to logged-in regular members who have a fee to pay.', 'fair-member-fees');
 		} else {
 			$famefe_hint = '';
 		}
@@ -240,7 +267,6 @@ $famefe_period_text = sprintf(
 			<p class="famefe-hint"><?php echo esc_html($famefe_hint); ?> <?php esc_html_e('(Visible only to administrators and editors.)', 'fair-member-fees'); ?></p>
 		<?php endif; ?>
 	<?php endif; ?>
-
 	<?php
 	// Cash and bank payments recorded by administrators and editors.
 	if (famefe_can_manage() && $famefe_block_id !== '') :

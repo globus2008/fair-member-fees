@@ -642,7 +642,7 @@ function famefe_name_modes(): array
 function famefe_page_help(): void
 {
 	$blocks = [
-		[__('Membership fees', 'fair-member-fees'), __('The table of fees for a period. Set the period, the base fee and the optional discount in the block settings. Members pay their fee with the button; administrators and editors can record cash and bank payments right there.', 'fair-member-fees')],
+		[__('Membership fees', 'fair-member-fees'), __('The table of fees for a period. Set the period, the base fee and the optional discount in the block settings. Until the volunteer hours of the period are closed, it shows the fees calculated so far; then turn on its payment button and members can pay their final fee. Administrators and editors can record cash and bank payments right there. Clubs that only keep records of hours leave the button off.', 'fair-member-fees')],
 		[__('Volunteer hours form', 'fair-member-fees'), __('Members record their own hours. Set the maximum hours per entry, how many days back a date may be, and whether a description is required.', 'fair-member-fees')],
 		[__('Volunteer hours list', 'fair-member-fees'), __('Recorded hours for a period, all or only the visitor’s own.', 'fair-member-fees')],
 		[__('Members list', 'fair-member-fees'), __('The membership register with the date of the last change and who recorded it; visible to logged-in users by default.', 'fair-member-fees')],

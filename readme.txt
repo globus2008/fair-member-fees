@@ -23,7 +23,7 @@ Clubs live from the work of their members. Fair Member Fees rewards it: every me
 * Optional discount for the members with the lowest fees.
 * Online payment of the fee through Stripe Checkout; cash and bank payments recorded by administrators and editors.
 * Five blocks, all set up in the block settings – no shortcodes:
-  * **Membership fees** – the fee table of a period with the payment button,
+  * **Membership fees** – the fee table of a period; its payment button is turned on once the hours of the period are closed,
   * **Volunteer hours form**,
   * **Volunteer hours list**,
   * **Members list**,
@@ -65,6 +65,10 @@ The editor scripts in `build/` are compiled from the human-readable sources in `
 4. Add the blocks to your pages (search for "Fair Member Fees" in the block inserter). Set the period, the base fee and the discount in the Membership fees block.
 
 == Frequently Asked Questions ==
+
+= Why do members not see the payment button? =
+
+The button is off until you turn it on in the Membership fees block ("Payment button"). Turn it on once the volunteer hours of the period are closed and the fees are final; until then members see the fee calculated from the hours recorded so far. Online payment also needs the Stripe keys in the settings. If your club only keeps records of hours, simply leave the button off.
 
 = Who can record hours? =
 

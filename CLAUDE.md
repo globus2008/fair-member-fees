@@ -84,6 +84,10 @@ Rounding to the currency decimals only at the end. The website example (1000; 0/
   `blockId` is set in the editor (`useBlockId`, regenerated for copies).
 - Season (period), base fee and discount are attributes of the Membership fees block, not settings (owner decision).
 - Manual payments (cash/transfer) only for `famefe_manage` (administrator, editor).
+- Payment button (`showPayButton`, default **off**, owner 2026-10-10) = "the fees are final": the owner turns it
+  on by hand once the volunteer hours of the period are closed. Off: members see the fee "with the hours recorded
+  so far" (+ "final once the hours are closed" only when Stripe is set up), managers a hint where to turn it on.
+  Other clubs may only keep records of hours and leave it off. The checkout handler treats a missing attribute as off.
 - Membership fees table: sortable columns and totals rows in `<tfoot>` (regular / honorary / non-members and former
   members / total); no sentences with numbers below the table (owner 2026-10-09). Managers see a hint when the
   payment button cannot show (Stripe not set up, or they are not regular members).

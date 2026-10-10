@@ -7,7 +7,7 @@
 	"name": "famefe/membership-fees",
 	"title": "Membership fees",
 	"icon": "money-alt",
-	"description": "Fair membership fees for a period: members who volunteered more pay less. Members pay online; administrators and editors record cash and bank payments.",
+	"description": "Fair membership fees for a period: members who volunteered more pay less. Once the hours of the period are closed, members can pay online; administrators and editors record cash and bank payments.",
 	"keywords": [
 		"fee",
 		"fair member fees",
@@ -90,7 +90,7 @@
 		},
 		"showPayButton": {
 			"type": "boolean",
-			"default": true
+			"default": false
 		}
 	},
 	"supports": {

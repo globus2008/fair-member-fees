@@ -106,7 +106,7 @@ function famefe_handle_block_checkout(): void
 	$fail = fn(string $code) => famefe_redirect_with_result($back, famefe_error($code), ['famefe_block' => $block_id]);
 
 	$member = famefe_get_member(get_current_user_id());
-	if (!$member || empty($attrs['showPayButton'] ?? true)) {
+	if (!$member || empty($attrs['showPayButton'] ?? false)) {
 		$fail('forbidden');
 	}
 	$fees = famefe_period_fees($args['start'], $args['end'], $args['base_fee'], $args['discount_share'], $args['discount_rate']);

@@ -61,6 +61,21 @@ function Edit( props ) {
 						value={ attributes.baseFee }
 						onChange={ ( baseFee ) => setAttributes( { baseFee } ) }
 					/>
+					<ToggleControl
+						__nextHasNoMarginBottom
+						label={ __(
+							'Payment button (the fees are final)',
+							'fair-member-fees'
+						) }
+						help={ __(
+							'Turn on once the volunteer hours of the period are closed: members then see their final fee and can pay it. While it is off, the fees are shown as calculated from the hours recorded so far. Leave it off if you do not collect fees through this page.',
+							'fair-member-fees'
+						) }
+						checked={ attributes.showPayButton }
+						onChange={ ( showPayButton ) =>
+							setAttributes( { showPayButton } )
+						}
+					/>
 				</PanelBody>
 				<PanelBody
 					title={ __( 'Discount', 'fair-member-fees' ) }
@@ -168,10 +183,6 @@ function Edit( props ) {
 							),
 							highlightCurrent: __(
 								'Highlight the logged-in member',
-								'fair-member-fees'
-							),
-							showPayButton: __(
-								'Online payment button',
 								'fair-member-fees'
 							),
 						} }
