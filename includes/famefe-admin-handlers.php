@@ -59,7 +59,11 @@ function famefe_handle_save_member(): void
 		$result = famefe_service_save_member($data, $id);
 	}
 	if (!is_wp_error($result)) {
-		$back = famefe_admin_url('famefe-members', ['action' => 'edit', 'id' => $result['id']]);
+		// A new member: an empty "Add member" form again (the notice links the member just added),
+		// so that the next member is never typed over the previous one.
+		$back = $id
+			? famefe_admin_url('famefe-members', ['action' => 'edit', 'id' => $result['id']])
+			: famefe_admin_url('famefe-members', ['action' => 'new', 'famefe_member' => $result['id']]);
 	}
 	famefe_redirect_with_result($back, $result);
 }

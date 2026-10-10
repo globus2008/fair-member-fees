@@ -57,11 +57,22 @@ function famefe_admin_notice(): void
 	if (!$notice || !$screen || !str_contains((string) $screen->id, 'famefe-')) {
 		return;
 	}
+	// After adding a member: who was added, with a link to the member.
+	// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- only shows a link.
+	$member = !$notice['error'] && isset($_GET['famefe_member']) ? famefe_get_member_by_id(absint($_GET['famefe_member'])) : null;
 	printf(
-		'<div class="notice notice-%1$s is-dismissible"><p>%2$s</p></div>',
-		$notice['error'] ? 'error' : 'success',
+		'<div class="notice notice-%1$s is-dismissible"><p>%2$s',
+		esc_attr($notice['error'] ? 'error' : 'success'),
 		esc_html($notice['text'])
 	);
+	if ($member) {
+		printf(
+			' <a href="%1$s">%2$s</a>',
+			esc_url(famefe_admin_url('famefe-members', ['action' => 'edit', 'id' => $member->id])),
+			esc_html(famefe_member_name($member))
+		);
+	}
+	echo '</p></div>';
 }
 add_action('admin_notices', 'famefe_admin_notice');
 
