@@ -49,7 +49,74 @@ class Famefe_Members_Table extends WP_List_Table
 		$this->status = in_array($status, ['active', 'left', 'all'], true) ? $status : 'active';
 		$this->items = famefe_get_members(['status' => $this->status, 'search' => $search]);
 		$this->last = famefe_last_changes();
-		$this->_column_headers = [$this->get_columns(), [], []];
+		$this->sort_items();
+		$this->_column_headers = [$this->get_columns(), [], $this->get_sortable_columns()];
+	}
+
+	/**
+	 * Sortable columns: column => [orderby value, first click descending].
+	 */
+	protected function get_sortable_columns(): array
+	{
+		return [
+			'name' => ['name', false],
+			'member_type' => ['member_type', false],
+			'member_since' => ['member_since', false],
+			'last_change' => ['last_change', false],
+			'change_date' => ['change_date', true],
+			'recorded' => ['recorded', true],
+		];
+	}
+
+	/**
+	 * Sort the members by ?orderby=&order= (default: name). The register is small, so it is sorted in PHP,
+	 * which also covers the values that come from the history (last change, its date, who recorded it).
+	 */
+	private function sort_items(): void
+	{
+		// phpcs:disable WordPress.Security.NonceVerification.Recommended -- list sorting only.
+		$orderby = isset($_GET['orderby']) ? sanitize_key(wp_unslash($_GET['orderby'])) : 'name';
+		$desc = isset($_GET['order']) && strtolower(sanitize_key(wp_unslash($_GET['order']))) === 'desc';
+		// phpcs:enable
+		$changes = famefe_change_types();
+		$key = function (object $member) use ($orderby, $changes): string {
+			$entry = $this->last[intval($member->id)] ?? null;
+			switch ($orderby) {
+				case 'member_type':
+					// Regular, honorary, then former members.
+					return ($member->status === 'left' ? '2' : ($member->member_type === 'regular' ? '0' : '1'));
+				case 'member_since':
+					return (string) $member->member_since;
+				case 'last_change':
+					return $entry ? ($changes[$entry->change_type] ?? $entry->change_type) : '';
+				case 'change_date':
+					return $entry ? (string) $entry->change_date : '';
+				case 'recorded':
+					return $entry ? (string) $entry->recorded_at : '';
+				default:
+					return '';
+			}
+		};
+		$collator = class_exists('Collator') ? new Collator(get_user_locale()) : null;
+		$compare_names = function (object $a, object $b) use ($collator): int {
+			$x = $a->last_name . ' ' . $a->first_name;
+			$y = $b->last_name . ' ' . $b->first_name;
+			return $collator ? intval($collator->compare($x, $y)) : strcasecmp(remove_accents($x), remove_accents($y));
+		};
+		usort($this->items, function (object $a, object $b) use ($orderby, $key, $compare_names, $collator, $desc): int {
+			if ($orderby === 'name' || !in_array($orderby, ['member_type', 'member_since', 'last_change', 'change_date', 'recorded'], true)) {
+				$order = $compare_names($a, $b);
+			} else {
+				$x = $key($a);
+				$y = $key($b);
+				$order = $orderby === 'last_change' && $collator ? intval($collator->compare($x, $y)) : strcmp($x, $y);
+				// Equal values keep the alphabetical order of the names.
+				if ($order === 0) {
+					return $compare_names($a, $b);
+				}
+			}
+			return $desc ? -$order : $order;
+		});
 	}
 
 	protected function get_views(): array
@@ -64,7 +131,8 @@ class Famefe_Members_Table extends WP_List_Table
 		foreach ($labels as $status => $label) {
 			$views[$status] = sprintf(
 				'<a href="%1$s"%2$s>%3$s <span class="count">(%4$d)</span></a>',
-				esc_url(famefe_admin_url('famefe-members', ['status' => $status])),
+				// The chosen sorting stays when switching between the views.
+				esc_url(add_query_arg(['status' => $status], remove_query_arg(['paged', 'famefe_notice', 'famefe_error']))),
 				$this->status === $status ? ' class="current" aria-current="page"' : '',
 				esc_html($label),
 				$counts[$status]
