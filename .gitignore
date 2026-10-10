@@ -2,4 +2,3 @@ node_modules/
 _temp/
 *.log
 .DS_Store
-*.zip

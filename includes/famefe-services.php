@@ -132,9 +132,6 @@ function famefe_service_save_member(array $data, int $id = 0): array|WP_Error
 		}
 		famefe_flush_member_cache($old);
 		famefe_flush_member_cache((object) $row);
-		if ($user_id > 0) {
-			famefe_attach_user_hours($id, $user_id);
-		}
 		return famefe_ok('member_saved', ['id' => $id]);
 	}
 
@@ -153,9 +150,6 @@ function famefe_service_save_member(array $data, int $id = 0): array|WP_Error
 	$id = intval($wpdb->insert_id);
 	famefe_log_change($id, 'joined', $since, '', $type);
 	famefe_flush_member_cache((object) $row);
-	if ($user_id > 0) {
-		famefe_attach_user_hours($id, $user_id);
-	}
 	return famefe_ok('member_added', ['id' => $id]);
 }
 
@@ -282,23 +276,6 @@ function famefe_correct_member_since_log(int $member_id, string $old_since, stri
 		$wpdb->update($log, ['change_date' => $new_since], ['id' => intval($entry)]);
 	}
 	famefe_log_change($member_id, 'since_corrected', famefe_today(), $old_since, $new_since);
-}
-
-/**
- * Hours recorded under a user account before it was linked to the member (e.g. imported hours, or own hours
- * of a non-member who joined later) become hours of the member, so that they count in the fee calculation.
- *
- * @return int Number of entries attached.
- */
-function famefe_attach_user_hours(int $member_id, int $user_id): int
-{
-	global $wpdb;
-	$hours = famefe_table('hours');
-	return intval($wpdb->query($wpdb->prepare(
-		"UPDATE $hours SET member_id = %d WHERE user_id = %d AND member_id IS NULL",
-		$member_id,
-		$user_id
-	)));
 }
 
 /**

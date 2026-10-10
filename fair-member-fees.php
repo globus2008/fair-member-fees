@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Fair Member Fees
  * Description:       Membership register with a change history, volunteer hours and a fair membership fee: members who volunteer more pay less. Optional discount and payment through Stripe. Built with blocks.
- * Version:           1.0.1
+ * Version:           1.0.0
  * Requires at least: 6.6
  * Requires PHP:      8.0
  * Author:            globus2008
@@ -18,9 +18,9 @@ if (!defined('ABSPATH')) {
 	exit;
 }
 
-define('FAMEFE_VERSION', '1.0.1');
+define('FAMEFE_VERSION', '1.0.0');
 // Bump whenever a CREATE TABLE statement in famefe_install() changes.
-define('FAMEFE_DB_VERSION', '1.0.1');
+define('FAMEFE_DB_VERSION', '1.0.0');
 define('FAMEFE_FILE', __FILE__);
 define('FAMEFE_PATH', plugin_dir_path(__FILE__));
 define('FAMEFE_URL', plugin_dir_url(__FILE__));
