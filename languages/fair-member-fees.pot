@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-11T17:53:27+00:00\n"
+"POT-Creation-Date: 2026-10-11T18:12:15+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: fair-member-fees\n"
@@ -45,7 +45,7 @@ msgid "1. Members and their hours"
 msgstr ""
 
 #: build/blocks/fee-explanation/render.php:58
-#: build/blocks/fee-explanation/render.php:128
+#: build/blocks/fee-explanation/render.php:130
 #: build/blocks/hours-form/render.php:56
 #: includes/famefe-admin-tables.php:303
 #: includes/famefe-admin.php:420
@@ -66,7 +66,7 @@ msgid "Type"
 msgstr ""
 
 #: build/blocks/fee-explanation/render.php:60
-#: build/blocks/fee-explanation/render.php:129
+#: build/blocks/fee-explanation/render.php:131
 #: build/blocks/hours-form/render.php:58
 #: build/blocks/hours-form/render.php:124
 #: build/blocks/hours-list/render.php:64
@@ -78,84 +78,100 @@ msgid "Hours"
 msgstr ""
 
 #: build/blocks/fee-explanation/render.php:74
-#: build/blocks/fee-explanation/render.php:161
+#: build/blocks/fee-explanation/render.php:163
 #: build/blocks/membership-fees/render.php:112
 msgid "Total"
 msgstr ""
 
-#. translators: 1: number of regular members, 2: number of honorary members.
+#. translators: 1: "5 regular members", 2: "1 honorary member".
 #: build/blocks/fee-explanation/render.php:84
 #, php-format
-msgid "There are %1$d regular members and %2$d honorary members. Honorary members do not pay a membership fee, and their hours do not count in the calculation."
+msgid "Members in the example: %1$s and %2$s. Honorary members do not pay a membership fee, and their hours do not count in the calculation."
 msgstr ""
 
-#: build/blocks/fee-explanation/render.php:91
+#. translators: %d: number of regular members.
+#: build/blocks/fee-explanation/render.php:86
+#, php-format
+msgid "%d regular member"
+msgid_plural "%d regular members"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of honorary members.
+#: build/blocks/fee-explanation/render.php:88
+#, php-format
+msgid "%d honorary member"
+msgid_plural "%d honorary members"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/blocks/fee-explanation/render.php:93
 msgid "2. Expected total"
 msgstr ""
 
 #. translators: 1: base fee, 2: number of regular members, 3: base fee again, 4: expected total.
-#: build/blocks/fee-explanation/render.php:96
+#: build/blocks/fee-explanation/render.php:98
 #, php-format
 msgid "The base fee is %1$s. Together, the %2$d regular members are expected to pay %3$s × %2$d = %4$s."
 msgstr ""
 
-#: build/blocks/fee-explanation/render.php:105
+#: build/blocks/fee-explanation/render.php:107
 msgid "3. Fee of each member"
 msgstr ""
 
 #. translators: %s: hours of all regular members.
-#: build/blocks/fee-explanation/render.php:110
+#: build/blocks/fee-explanation/render.php:112
 #, php-format
 msgid "Each regular member’s share of the hours of all regular members (%s hours) lowers the unreduced fee: unreduced fee = expected total × (1 − share of hours)."
 msgstr ""
 
 #. translators: 1: sum of the unreduced fees, 2: expected total, 3: amount taken off each fee.
-#: build/blocks/fee-explanation/render.php:117
+#: build/blocks/fee-explanation/render.php:119
 #, php-format
 msgid "The unreduced fees add up to %1$s, more than the expected total of %2$s. The difference is shared equally: each fee is lowered by %3$s, so all fees together give the expected total. No fee goes below zero; if one would, that member pays nothing and the rest is shared by the members who volunteered."
 msgstr ""
 
-#: build/blocks/fee-explanation/render.php:130
+#: build/blocks/fee-explanation/render.php:132
 #: build/blocks/membership-fees/render.php:36
 #: build/blocks/membership-fees/index.js:2
 msgid "Share of hours"
 msgstr ""
 
-#: build/blocks/fee-explanation/render.php:131
+#: build/blocks/fee-explanation/render.php:133
 #: build/blocks/membership-fees/render.php:39
 #: build/blocks/membership-fees/index.js:2
 msgid "Unreduced fee"
 msgstr ""
 
-#: build/blocks/fee-explanation/render.php:132
+#: build/blocks/fee-explanation/render.php:134
 #: build/blocks/membership-fees/render.php:42
 msgid "Calculated fee"
 msgstr ""
 
-#: build/blocks/fee-explanation/render.php:134
+#: build/blocks/fee-explanation/render.php:136
 #: build/blocks/membership-fees/render.php:43
 #: build/blocks/fee-explanation/index.js:2
 #: build/blocks/membership-fees/index.js:2
 msgid "Discount"
 msgstr ""
 
-#: build/blocks/fee-explanation/render.php:135
+#: build/blocks/fee-explanation/render.php:137
 #: build/blocks/membership-fees/render.php:45
 msgid "Fee to pay"
 msgstr ""
 
-#: build/blocks/fee-explanation/render.php:176
+#: build/blocks/fee-explanation/render.php:178
 msgid "4. Discount"
 msgstr ""
 
 #. translators: 1: share of members in percent, 2: discount in percent, 3: number of members with the discount.
-#: build/blocks/fee-explanation/render.php:181
+#: build/blocks/fee-explanation/render.php:183
 #, php-format
 msgid "The %1$s %% of regular members with the lowest calculated fees pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never). The discount is not added to the fees of the others, so the club collects less than the expected total."
 msgstr ""
 
 #. translators: %s: twice the base fee.
-#: build/blocks/fee-explanation/render.php:194
+#: build/blocks/fee-explanation/render.php:196
 #, php-format
 msgid "A member without any volunteer hours in the period always pays twice the base fee, %s: paying instead of working should never be the cheaper choice."
 msgstr ""

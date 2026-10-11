@@ -80,10 +80,12 @@ $famefe_member_label = fn(int $n) => sprintf(__('Member %d', 'fair-member-fees')
 	<p>
 		<?php
 		echo esc_html(sprintf(
-			/* translators: 1: number of regular members, 2: number of honorary members. */
-			__('There are %1$d regular members and %2$d honorary members. Honorary members do not pay a membership fee, and their hours do not count in the calculation.', 'fair-member-fees'),
-			$famefe_t['regular_count'],
-			$famefe_t['honorary_count']
+			/* translators: 1: "5 regular members", 2: "1 honorary member". */
+			__('Members in the example: %1$s and %2$s. Honorary members do not pay a membership fee, and their hours do not count in the calculation.', 'fair-member-fees'),
+			/* translators: %d: number of regular members. */
+			sprintf(_n('%d regular member', '%d regular members', $famefe_t['regular_count'], 'fair-member-fees'), $famefe_t['regular_count']),
+			/* translators: %d: number of honorary members. */
+			sprintf(_n('%d honorary member', '%d honorary members', $famefe_t['honorary_count'], 'fair-member-fees'), $famefe_t['honorary_count'])
 		));
 		?>
 	</p>

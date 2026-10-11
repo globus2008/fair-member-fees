@@ -86,6 +86,18 @@ No. The server always calculates the fee from the saved block settings and the r
 
 Nothing, unless you turn on "Delete data" in the settings.
 
+== Screenshots ==
+
+1. The Membership fees block: the fee of every member calculated from the volunteer hours, with the optional discount and the totals rows.
+2. The Members list block with the totals of regular and honorary members.
+3. The Volunteer hours form and list: members record their own hours, administrators and editors record them for anybody.
+4. The Fee calculation explained block shows the method on an example with your own base fee and discount.
+5. All options of the blocks are in the block settings: the period, the base fee, the discount, the payment button, columns, names and table colours.
+6. Member Fees → Members: the membership register.
+7. Every change of a membership is kept in the history with the date of the change, who recorded it and when.
+8. Member Fees → Volunteer hours: all recorded hours with filters.
+9. Member Fees → Settings: currency and Stripe keys for online payments.
+
 == Changelog ==
 
 = 1.0.0 =
