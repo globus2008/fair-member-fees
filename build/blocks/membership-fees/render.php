@@ -124,7 +124,7 @@ $famefe_period_text = sprintf(
 	famefe_format_date($famefe_args['end'])
 );
 ?>
-<div <?php echo get_block_wrapper_attributes(['class' => 'famefe-block famefe-fees']); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
+<div <?php echo get_block_wrapper_attributes(['class' => 'famefe-block famefe-fees', 'style' => famefe_table_colors_style($attributes)]); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
 	<?php famefe_block_notice($famefe_block_id); ?>
 
 	<?php if ($attributes['summaryAbove']) : ?>

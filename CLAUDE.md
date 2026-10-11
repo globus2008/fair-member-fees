@@ -63,7 +63,10 @@
   `famefe_service_change_member()`. Rejoining sets a new member_since.
 - `famefe_hours`: member_id (NULL for non-members) + user_id. Max 24 h per entry.
 - `famefe_payments`: per member and period (exact period_start/period_end of the block); unique `stripe_session_id`.
-- A member counts in a period when member_since <= end and (left_on IS NULL or left_on >= start); the current type decides.
+- Fees of a period: the members on its reference day pay (owner 2026-10-11) = today while the period runs, else its last
+  day (before it starts, its first day) – `famefe_period_reference_date()`; member on a day = member_since <= day and
+  (left_on IS NULL or left_on > day). The type on that day decides too (`famefe_members_on()` undoes later
+  `type_changed` entries of the history). Hours of others count as "non-members and former members".
 
 ## Fee calculation (owner's method, see ltcchrast.cz "Postup výpočtu výše členského příspěvku")
 expected_total = base_fee × regular_count; hours_share = hours / hours of regular members;
@@ -88,7 +91,7 @@ Rounding to the currency decimals only at the end. The website example (1000; 0/
   on by hand once the volunteer hours of the period are closed. Off: members see the fee "with the hours recorded
   so far" (+ "final once the hours are closed" only when Stripe is set up), managers a hint where to turn it on.
   Other clubs may only keep records of hours and leave it off. The checkout handler treats a missing attribute as off.
-- Membership fees table: sortable columns and totals rows in `<tfoot>` (regular / honorary / non-members and former
+- Membership fees table: honorary members hidden by default (`showHonorary` off, owner 2026-10-11), sortable columns and totals rows in `<tfoot>` (shaded, double rule above; header and totals colours are block attributes → CSS variables `--famefe-head-bg` etc., `famefe_table_colors_style()`, hex only) (regular / honorary / non-members and former
   members / total); no sentences with numbers below the table (owner 2026-10-09). Managers see a hint when the
   payment button cannot show (Stripe not set up, or they are not regular members).
 - Hours form: members record hours only for today unless `allowDateChange` is on (default off, owner 2026-10-09:

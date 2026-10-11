@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-10T06:30:00+00:00\n"
+"POT-Creation-Date: 2026-10-11T17:41:50+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: fair-member-fees\n"
@@ -1026,11 +1026,11 @@ msgstr ""
 msgid "Bank transfer"
 msgstr ""
 
-#: includes/famefe-data.php:166
+#: includes/famefe-data.php:191
 msgid "Unknown name"
 msgstr ""
 
-#: includes/famefe-data.php:216
+#: includes/famefe-data.php:241
 msgid "Deleted user"
 msgstr ""
 
@@ -1425,6 +1425,26 @@ msgstr ""
 
 #: build/blocks/membership-fees/index.js:2
 msgid "Highlight the logged-in member"
+msgstr ""
+
+#: build/blocks/membership-fees/index.js:2
+msgid "Table colours"
+msgstr ""
+
+#: build/blocks/membership-fees/index.js:2
+msgid "Header background"
+msgstr ""
+
+#: build/blocks/membership-fees/index.js:2
+msgid "Header text"
+msgstr ""
+
+#: build/blocks/membership-fees/index.js:2
+msgid "Totals rows background"
+msgstr ""
+
+#: build/blocks/membership-fees/index.js:2
+msgid "Totals rows text"
 msgstr ""
 
 #: build/blocks/fee-explanation/block.json

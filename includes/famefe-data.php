@@ -141,18 +141,43 @@ function famefe_count_members(): array
 }
 
 /**
- * Members who were members at some time of the period (joined before its end, not left before its start).
- * Their current type decides whether they pay.
+ * Members on a day: joined on or before it and not left on or before it (left_on is the first day
+ * without membership). member_type is the type they had on that day: type changes recorded with a
+ * later date are undone from the newest one back, so the oldest of them gives its old value.
  */
-function famefe_members_in_period(string $start, string $end): array
+function famefe_members_on(string $date): array
 {
 	global $wpdb;
 	$table = famefe_table('members');
-	return $wpdb->get_results($wpdb->prepare(
-		"SELECT * FROM $table WHERE member_since <= %s AND (left_on IS NULL OR left_on >= %s) ORDER BY last_name, first_name, id",
-		$end,
-		$start
+	$log = famefe_table('member_log');
+	$members = $wpdb->get_results($wpdb->prepare(
+		"SELECT * FROM $table WHERE member_since <= %s AND (left_on IS NULL OR left_on > %s) ORDER BY last_name, first_name, id",
+		$date,
+		$date
 	));
+	$later = $wpdb->get_results($wpdb->prepare(
+		"SELECT member_id, old_value FROM $log WHERE change_type = 'type_changed' AND change_date > %s ORDER BY change_date DESC, id DESC",
+		$date
+	));
+	$types = [];
+	foreach ($later as $change) {
+		$types[intval($change->member_id)] = $change->old_value;
+	}
+	foreach ($members as $member) {
+		if (isset($types[intval($member->id)], famefe_member_types()[$types[intval($member->id)]])) {
+			$member->member_type = $types[intval($member->id)];
+		}
+	}
+	return $members;
+}
+
+/**
+ * Day whose members pay the fees of a period: today while the period runs, otherwise its last
+ * (or, before it starts, its first) day.
+ */
+function famefe_period_reference_date(string $start, string $end): string
+{
+	return min(max(famefe_today(), $start), $end);
 }
 
 /**
@@ -461,7 +486,7 @@ function famefe_period_fees(string $start, string $end, float $base_fee, float $
 	$members = [];
 	$rows = [];
 	$hours = famefe_hours_by_member($start, $end);
-	foreach (famefe_members_in_period($start, $end) as $member) {
+	foreach (famefe_members_on(famefe_period_reference_date($start, $end)) as $member) {
 		$id = intval($member->id);
 		$members[$id] = $member;
 		$rows[] = ['member_id' => $id, 'member_type' => $member->member_type, 'hours' => $hours['members'][$id] ?? 0];

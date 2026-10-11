@@ -2,7 +2,7 @@
  * Editor side of the "Membership fees" block (rendered by render.php).
  */
 import { registerBlockType } from '@wordpress/blocks';
-import { InspectorControls } from '@wordpress/block-editor';
+import { InspectorControls, PanelColorSettings } from '@wordpress/block-editor';
 import { PanelBody, ToggleControl } from '@wordpress/components';
 import { useEffect } from '@wordpress/element';
 import { __, sprintf } from '@wordpress/i18n';
@@ -118,7 +118,10 @@ function Edit( props ) {
 							<NumberControl
 								min={ 0 }
 								max={ 100 }
-								label={ __( 'Discount (%)', 'fair-member-fees' ) }
+								label={ __(
+									'Discount (%)',
+									'fair-member-fees'
+								) }
 								value={ attributes.discountRate }
 								onChange={ ( discountRate ) =>
 									setAttributes( {
@@ -145,8 +148,14 @@ function Edit( props ) {
 								'fair-member-fees'
 							),
 							showHours: __( 'Hours', 'fair-member-fees' ),
-							showShare: __( 'Share of hours', 'fair-member-fees' ),
-							showGross: __( 'Unreduced fee', 'fair-member-fees' ),
+							showShare: __(
+								'Share of hours',
+								'fair-member-fees'
+							),
+							showGross: __(
+								'Unreduced fee',
+								'fair-member-fees'
+							),
 							showDiscount: __(
 								'Calculated fee and discount (when the discount is on)',
 								'fair-member-fees'
@@ -188,6 +197,35 @@ function Edit( props ) {
 						} }
 					/>
 				</PanelBody>
+			</InspectorControls>
+			<InspectorControls group="styles">
+				<PanelColorSettings
+					title={ __( 'Table colours', 'fair-member-fees' ) }
+					initialOpen={ false }
+					colorSettings={ [
+						[
+							'headerBackground',
+							__( 'Header background', 'fair-member-fees' ),
+						],
+						[
+							'headerText',
+							__( 'Header text', 'fair-member-fees' ),
+						],
+						[
+							'totalsBackground',
+							__( 'Totals rows background', 'fair-member-fees' ),
+						],
+						[
+							'totalsText',
+							__( 'Totals rows text', 'fair-member-fees' ),
+						],
+					].map( ( [ key, label ] ) => ( {
+						label,
+						value: attributes[ key ] || undefined,
+						onChange: ( value ) =>
+							setAttributes( { [ key ]: value || '' } ),
+					} ) ) }
+				/>
 			</InspectorControls>
 		</ServerPreview>
 	);

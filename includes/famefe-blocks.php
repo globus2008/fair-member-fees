@@ -150,6 +150,28 @@ function famefe_block_id(array $attrs): string
 }
 
 /**
+ * Inline style with the table colours chosen in the block (CSS variables of assets/blocks.css).
+ * Only hex colours are accepted; an empty or invalid one keeps the theme-based default.
+ */
+function famefe_table_colors_style(array $attrs): string
+{
+	$vars = [
+		'headerBackground' => '--famefe-head-bg',
+		'headerText' => '--famefe-head-text',
+		'totalsBackground' => '--famefe-totals-bg',
+		'totalsText' => '--famefe-totals-text',
+	];
+	$style = '';
+	foreach ($vars as $key => $var) {
+		$color = (string) ($attrs[$key] ?? '');
+		if (preg_match('/^#(?:[0-9a-f]{3,4}|[0-9a-f]{6}|[0-9a-f]{8})$/i', $color)) {
+			$style .= $var . ':' . $color . ';';
+		}
+	}
+	return $style;
+}
+
+/**
  * Hidden fields that tell a block form handler which block sent it.
  */
 function famefe_block_form_fields(string $action, string $block_id): void

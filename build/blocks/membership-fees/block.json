@@ -50,7 +50,7 @@
     },
     "showHonorary": {
       "type": "boolean",
-      "default": true
+      "default": false
     },
     "showHours": {
       "type": "boolean",
@@ -83,6 +83,22 @@
     "nameDisplay": {
       "type": "string",
       "default": "default"
+    },
+    "headerBackground": {
+      "type": "string",
+      "default": ""
+    },
+    "headerText": {
+      "type": "string",
+      "default": ""
+    },
+    "totalsBackground": {
+      "type": "string",
+      "default": ""
+    },
+    "totalsText": {
+      "type": "string",
+      "default": ""
     },
     "highlightCurrent": {
       "type": "boolean",
