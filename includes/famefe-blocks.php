@@ -23,7 +23,7 @@ function famefe_register_blocks(): void
 		$block = register_block_type(dirname($metadata));
 		if ($block) {
 			foreach ($block->editor_script_handles as $handle) {
-				wp_set_script_translations($handle, 'fair-member-fees', FAMEFE_PATH . 'languages');
+				wp_set_script_translations($handle, 'fair-member-fees');
 			}
 		}
 	}

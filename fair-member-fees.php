@@ -41,15 +41,5 @@ if (is_admin()) {
 	require_once FAMEFE_PATH . 'includes/famefe-admin-handlers.php';
 }
 
-/**
- * Translations shipped with the plugin (languages/); language packs from translate.wordpress.org
- * in wp-content/languages take precedence.
- */
-function famefe_load_textdomain(): void
-{
-	load_plugin_textdomain('fair-member-fees', false, dirname(plugin_basename(__FILE__)) . '/languages');
-}
-add_action('init', 'famefe_load_textdomain');
-
 register_activation_hook(__FILE__, 'famefe_install');
 add_action('plugins_loaded', 'famefe_maybe_upgrade');
