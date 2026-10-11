@@ -283,21 +283,21 @@ msgstr "Datum změny"
 msgid "Recorded by"
 msgstr "Změnu zapsal"
 
-#: build/blocks/members-list/render.php:57
+#: build/blocks/members-list/render.php:77
 #: includes/famefe-admin-tables.php:146
 msgid "No members found."
 msgstr "Žádní členové."
 
-#: build/blocks/members-list/render.php:62
+#: build/blocks/members-list/render.php:82
 msgid "Search by name…"
 msgstr "Hledat podle jména…"
 
-#: build/blocks/members-list/render.php:63
+#: build/blocks/members-list/render.php:83
 #: build/blocks/members-list/index.js:1
 msgid "Search by name"
 msgstr "Hledat podle jména"
 
-#: build/blocks/members-list/render.php:79
+#: build/blocks/members-list/render.php:99
 #: includes/famefe-admin-tables.php:160
 #: includes/famefe-admin.php:370
 #: includes/famefe-users.php:159
@@ -313,6 +313,7 @@ msgid "Paid on"
 msgstr "Zaplaceno"
 
 #. translators: %d: number of regular members.
+#: build/blocks/members-list/render.php:64
 #: build/blocks/membership-fees/render.php:86
 #, php-format
 msgid "Regular members (%d)"
@@ -325,6 +326,7 @@ msgid "%1$d of %2$d"
 msgstr "%1$d z %2$d"
 
 #. translators: %d: number of honorary members.
+#: build/blocks/members-list/render.php:66
 #: build/blocks/membership-fees/render.php:99
 #, php-format
 msgid "Honorary members (%d)"
@@ -1419,6 +1421,7 @@ msgstr "Zobrazit čestné členy"
 msgid "Period and base fee above the table"
 msgstr "Období a základní příspěvek nad tabulkou"
 
+#: build/blocks/members-list/index.js:1
 #: build/blocks/membership-fees/index.js:2
 msgid "Totals rows at the end of the table"
 msgstr "Součtové řádky na konci tabulky"
@@ -1556,22 +1559,39 @@ msgctxt "block keyword"
 msgid "payment"
 msgstr "platba"
 
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/members-list/index.js:1
+#: build/blocks/membership-fees/index.js:1
 msgid "Table colours"
 msgstr "Barvy tabulky"
 
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/members-list/index.js:1
+#: build/blocks/membership-fees/index.js:1
 msgid "Header background"
 msgstr "Pozadí záhlaví"
 
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/members-list/index.js:1
+#: build/blocks/membership-fees/index.js:1
 msgid "Header text"
 msgstr "Text záhlaví"
 
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/members-list/index.js:1
+#: build/blocks/membership-fees/index.js:1
 msgid "Totals rows background"
 msgstr "Pozadí souhrnných řádků"
 
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/members-list/index.js:1
+#: build/blocks/membership-fees/index.js:1
 msgid "Totals rows text"
 msgstr "Text souhrnných řádků"
+
+#. translators: %d: number of former members.
+#: build/blocks/members-list/render.php:69
+#, php-format
+msgid "Former members (%d)"
+msgstr "Bývalí členové (%d)"
+
+#. translators: %d: number of current members.
+#: build/blocks/members-list/render.php:72
+#, php-format
+msgid "Current members (%d)"
+msgstr "Současní členové celkem (%d)"

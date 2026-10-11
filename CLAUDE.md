@@ -97,6 +97,9 @@ Rounding to the currency decimals only at the end. The website example (1000; 0/
 - Hours form: members record hours only for today unless `allowDateChange` is on (default off, owner 2026-10-09:
   no invented hours in the past, no change of a closed period); enforced in `famefe_hours_block_limits()`.
   Managers always choose the date and the member (their own name preselected, also when they are not members).
+- Members list: totals rows in `<tfoot>` (`showTotals`, default on, owner 2026-10-11) with the current regular and honorary
+  members (always all of them, whatever the list shows), former members when listed, current members in total;
+  the same table colours as the fees block (`TableColors` in `src/blocks/shared.js`).
 - Hours list: deleting in the block (owner 2026-10-09) – members only entries they recorded for themselves,
   managers any entry; both within days after `recorded_at` set in the block (default 7/7), checked on the server
   (`famefe_hours_delete_denied()`). The admin page Volunteer hours deletes without a time limit.

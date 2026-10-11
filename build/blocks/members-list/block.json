@@ -62,6 +62,26 @@
     "showSearch": {
       "type": "boolean",
       "default": true
+    },
+    "showTotals": {
+      "type": "boolean",
+      "default": true
+    },
+    "headerBackground": {
+      "type": "string",
+      "default": ""
+    },
+    "headerText": {
+      "type": "string",
+      "default": ""
+    },
+    "totalsBackground": {
+      "type": "string",
+      "default": ""
+    },
+    "totalsText": {
+      "type": "string",
+      "default": ""
     }
   },
   "supports": {

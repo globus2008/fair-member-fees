@@ -51,8 +51,28 @@ foreach ($famefe_optional as $famefe_attr => [$famefe_key, $famefe_label]) {
 	}
 }
 $famefe_table_id = wp_unique_id('famefe-members-');
+
+// Totals in the table footer: current regular and honorary members (whatever the list shows),
+// former members when they are listed.
+$famefe_footer = [];
+if ($attributes['showTotals'] && $famefe_members) {
+	$famefe_count = ['regular' => 0, 'honorary' => 0];
+	foreach (famefe_get_members(['status' => 'active']) as $famefe_member) {
+		$famefe_count[$famefe_member->member_type] = ($famefe_count[$famefe_member->member_type] ?? 0) + 1;
+	}
+	/* translators: %d: number of regular members. */
+	$famefe_footer[] = [sprintf(__('Regular members (%d)', 'fair-member-fees'), $famefe_count['regular']), ''];
+	/* translators: %d: number of honorary members. */
+	$famefe_footer[] = [sprintf(__('Honorary members (%d)', 'fair-member-fees'), $famefe_count['honorary']), ''];
+	if ($attributes['showFormer']) {
+		/* translators: %d: number of former members. */
+		$famefe_footer[] = [sprintf(__('Former members (%d)', 'fair-member-fees'), famefe_count_members()['left']), ''];
+	}
+	/* translators: %d: number of current members. */
+	$famefe_footer[] = [sprintf(__('Current members (%d)', 'fair-member-fees'), array_sum($famefe_count)), 'famefe-total-row'];
+}
 ?>
-<div <?php echo get_block_wrapper_attributes(['class' => 'famefe-block famefe-members']); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
+<div <?php echo get_block_wrapper_attributes(['class' => 'famefe-block famefe-members', 'style' => famefe_table_colors_style($attributes)]); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
 	<?php if (!$famefe_members) : ?>
 		<p><?php esc_html_e('No members found.', 'fair-member-fees'); ?></p>
 	<?php else : ?>
@@ -96,6 +116,15 @@ $famefe_table_id = wp_unique_id('famefe-members-');
 						</tr>
 					<?php endforeach; ?>
 				</tbody>
+				<?php if ($famefe_footer) : ?>
+					<tfoot>
+						<?php foreach ($famefe_footer as [$famefe_label, $famefe_class]) : ?>
+							<tr<?php echo $famefe_class !== '' ? ' class="' . esc_attr($famefe_class) . '"' : ''; ?>>
+								<th scope="row" colspan="<?php echo count($famefe_columns); ?>"><?php echo esc_html($famefe_label); ?></th>
+							</tr>
+						<?php endforeach; ?>
+					</tfoot>
+				<?php endif; ?>
 			</table>
 		</div>
 	<?php endif; ?>

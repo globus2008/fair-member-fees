@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-11T17:41:50+00:00\n"
+"POT-Creation-Date: 2026-10-11T17:53:27+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: fair-member-fees\n"
@@ -283,21 +283,47 @@ msgstr ""
 msgid "Recorded by"
 msgstr ""
 
-#: build/blocks/members-list/render.php:57
+#. translators: %d: number of regular members.
+#: build/blocks/members-list/render.php:64
+#: build/blocks/membership-fees/render.php:86
+#, php-format
+msgid "Regular members (%d)"
+msgstr ""
+
+#. translators: %d: number of honorary members.
+#: build/blocks/members-list/render.php:66
+#: build/blocks/membership-fees/render.php:99
+#, php-format
+msgid "Honorary members (%d)"
+msgstr ""
+
+#. translators: %d: number of former members.
+#: build/blocks/members-list/render.php:69
+#, php-format
+msgid "Former members (%d)"
+msgstr ""
+
+#. translators: %d: number of current members.
+#: build/blocks/members-list/render.php:72
+#, php-format
+msgid "Current members (%d)"
+msgstr ""
+
+#: build/blocks/members-list/render.php:77
 #: includes/famefe-admin-tables.php:146
 msgid "No members found."
 msgstr ""
 
-#: build/blocks/members-list/render.php:62
+#: build/blocks/members-list/render.php:82
 msgid "Search by name…"
 msgstr ""
 
-#: build/blocks/members-list/render.php:63
+#: build/blocks/members-list/render.php:83
 #: build/blocks/members-list/index.js:1
 msgid "Search by name"
 msgstr ""
 
-#: build/blocks/members-list/render.php:79
+#: build/blocks/members-list/render.php:99
 #: includes/famefe-admin-tables.php:160
 #: includes/famefe-admin.php:370
 #: includes/famefe-users.php:159
@@ -312,22 +338,10 @@ msgstr ""
 msgid "Paid on"
 msgstr ""
 
-#. translators: %d: number of regular members.
-#: build/blocks/membership-fees/render.php:86
-#, php-format
-msgid "Regular members (%d)"
-msgstr ""
-
 #. translators: 1: number of members who paid, 2: number of regular members.
 #: build/blocks/membership-fees/render.php:94
 #, php-format
 msgid "%1$d of %2$d"
-msgstr ""
-
-#. translators: %d: number of honorary members.
-#: build/blocks/membership-fees/render.php:99
-#, php-format
-msgid "Honorary members (%d)"
 msgstr ""
 
 #: build/blocks/membership-fees/render.php:106
@@ -1363,11 +1377,41 @@ msgid "They may delete any entry within this time. Older entries can still be de
 msgstr ""
 
 #: build/blocks/members-list/index.js:1
+#: build/blocks/membership-fees/index.js:1
+msgid "Table colours"
+msgstr ""
+
+#: build/blocks/members-list/index.js:1
+#: build/blocks/membership-fees/index.js:1
+msgid "Header background"
+msgstr ""
+
+#: build/blocks/members-list/index.js:1
+#: build/blocks/membership-fees/index.js:1
+msgid "Header text"
+msgstr ""
+
+#: build/blocks/members-list/index.js:1
+#: build/blocks/membership-fees/index.js:1
+msgid "Totals rows background"
+msgstr ""
+
+#: build/blocks/members-list/index.js:1
+#: build/blocks/membership-fees/index.js:1
+msgid "Totals rows text"
+msgstr ""
+
+#: build/blocks/members-list/index.js:1
 msgid "Regular members"
 msgstr ""
 
 #: build/blocks/members-list/index.js:1
 msgid "Honorary members"
+msgstr ""
+
+#: build/blocks/members-list/index.js:1
+#: build/blocks/membership-fees/index.js:2
+msgid "Totals rows at the end of the table"
 msgstr ""
 
 #: build/blocks/members-list/index.js:1
@@ -1420,31 +1464,7 @@ msgid "Period and base fee above the table"
 msgstr ""
 
 #: build/blocks/membership-fees/index.js:2
-msgid "Totals rows at the end of the table"
-msgstr ""
-
-#: build/blocks/membership-fees/index.js:2
 msgid "Highlight the logged-in member"
-msgstr ""
-
-#: build/blocks/membership-fees/index.js:2
-msgid "Table colours"
-msgstr ""
-
-#: build/blocks/membership-fees/index.js:2
-msgid "Header background"
-msgstr ""
-
-#: build/blocks/membership-fees/index.js:2
-msgid "Header text"
-msgstr ""
-
-#: build/blocks/membership-fees/index.js:2
-msgid "Totals rows background"
-msgstr ""
-
-#: build/blocks/membership-fees/index.js:2
-msgid "Totals rows text"
 msgstr ""
 
 #: build/blocks/fee-explanation/block.json

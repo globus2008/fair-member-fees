@@ -3,7 +3,11 @@
  */
 import { useEffect } from '@wordpress/element';
 import { useSelect } from '@wordpress/data';
-import { useBlockProps } from '@wordpress/block-editor';
+import {
+	useBlockProps,
+	InspectorControls,
+	PanelColorSettings,
+} from '@wordpress/block-editor';
 import {
 	SelectControl,
 	TextControl,
@@ -87,7 +91,10 @@ export function NameDisplayControl( { value, onChange } ) {
 			options={ [
 				{
 					value: 'default',
-					label: __( 'As in the plugin settings', 'fair-member-fees' ),
+					label: __(
+						'As in the plugin settings',
+						'fair-member-fees'
+					),
 				},
 				{
 					value: 'full',
@@ -141,7 +148,9 @@ export function PeriodControls( { attributes, setAttributes, help } ) {
 				type="date"
 				label={ __( 'From', 'fair-member-fees' ) }
 				value={ attributes.periodStart }
-				onChange={ ( value ) => setAttributes( { periodStart: value } ) }
+				onChange={ ( value ) =>
+					setAttributes( { periodStart: value } )
+				}
 			/>
 			<TextControl
 				__next40pxDefaultSize
@@ -217,5 +226,43 @@ export function ServerPreview( { name, attributes, children } ) {
 				/>
 			</Disabled>
 		</div>
+	);
+}
+
+/**
+ * "Table colours" panel in the Styles tab: header and totals rows (famefe_table_colors_style()).
+ *
+ * @param {Object}   props               Props.
+ * @param {Object}   props.attributes    Attributes with headerBackground, headerText, totalsBackground, totalsText.
+ * @param {Function} props.setAttributes Setter.
+ */
+export function TableColors( { attributes, setAttributes } ) {
+	return (
+		<InspectorControls group="styles">
+			<PanelColorSettings
+				title={ __( 'Table colours', 'fair-member-fees' ) }
+				initialOpen={ false }
+				colorSettings={ [
+					[
+						'headerBackground',
+						__( 'Header background', 'fair-member-fees' ),
+					],
+					[ 'headerText', __( 'Header text', 'fair-member-fees' ) ],
+					[
+						'totalsBackground',
+						__( 'Totals rows background', 'fair-member-fees' ),
+					],
+					[
+						'totalsText',
+						__( 'Totals rows text', 'fair-member-fees' ),
+					],
+				].map( ( [ key, label ] ) => ( {
+					label,
+					value: attributes[ key ] || undefined,
+					onChange: ( value ) =>
+						setAttributes( { [ key ]: value || '' } ),
+				} ) ) }
+			/>
+		</InspectorControls>
 	);
 }

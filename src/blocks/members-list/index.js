@@ -7,7 +7,12 @@ import { PanelBody } from '@wordpress/components';
 import { __ } from '@wordpress/i18n';
 
 import metadata from './block.json';
-import { NameDisplayControl, ServerPreview, Toggles } from '../shared';
+import {
+	NameDisplayControl,
+	ServerPreview,
+	TableColors,
+	Toggles,
+} from '../shared';
 
 function Edit( { attributes, setAttributes } ) {
 	return (
@@ -18,14 +23,24 @@ function Edit( { attributes, setAttributes } ) {
 						attributes={ attributes }
 						setAttributes={ setAttributes }
 						toggles={ {
-							showRegular: __( 'Regular members', 'fair-member-fees' ),
+							showRegular: __(
+								'Regular members',
+								'fair-member-fees'
+							),
 							showHonorary: __(
 								'Honorary members',
 								'fair-member-fees'
 							),
-							showFormer: __( 'Former members', 'fair-member-fees' ),
+							showFormer: __(
+								'Former members',
+								'fair-member-fees'
+							),
 							showSearch: __(
 								'Search by name',
+								'fair-member-fees'
+							),
+							showTotals: __(
+								'Totals rows at the end of the table',
 								'fair-member-fees'
 							),
 							onlyLoggedIn: __(
@@ -54,14 +69,30 @@ function Edit( { attributes, setAttributes } ) {
 								'Member since',
 								'fair-member-fees'
 							),
-							showLastChange: __( 'Last change', 'fair-member-fees' ),
-							showChangeDate: __( 'Change date', 'fair-member-fees' ),
-							showRecordedBy: __( 'Recorded by', 'fair-member-fees' ),
-							showRecordedAt: __( 'Recorded on', 'fair-member-fees' ),
+							showLastChange: __(
+								'Last change',
+								'fair-member-fees'
+							),
+							showChangeDate: __(
+								'Change date',
+								'fair-member-fees'
+							),
+							showRecordedBy: __(
+								'Recorded by',
+								'fair-member-fees'
+							),
+							showRecordedAt: __(
+								'Recorded on',
+								'fair-member-fees'
+							),
 						} }
 					/>
 				</PanelBody>
 			</InspectorControls>
+			<TableColors
+				attributes={ attributes }
+				setAttributes={ setAttributes }
+			/>
 		</ServerPreview>
 	);
 }
