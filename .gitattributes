@@ -4,3 +4,4 @@
 /.wordpress-org export-ignore
 /CLAUDE.md export-ignore
 /tools export-ignore
+/languages/*-cs_CZ* export-ignore
