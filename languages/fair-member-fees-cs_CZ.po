@@ -30,21 +30,21 @@ msgid "globus2008"
 msgstr "globus2008"
 
 #. translators: %d: number of the member in the example.
-#: build/blocks/fee-explanation/render.php:48
+#: build/blocks/fee-explanation/render.php:52
 #, php-format
 msgid "Member %d"
 msgstr "Člen %d"
 
-#: build/blocks/fee-explanation/render.php:51
+#: build/blocks/fee-explanation/render.php:55
 msgid "The membership fee depends on how much each member volunteered for the club, measured in the recorded hours. Members only need to record their hours; the fees are calculated from them. The following example shows how."
 msgstr "Výše členského příspěvku se odvíjí od brigádnického nasazení každého člena, měřeného zapsanými hodinami. Členové pouze zapisují své odpracované hodiny, příspěvky se z nich vypočtou. Jak, ukazuje následující příklad."
 
-#: build/blocks/fee-explanation/render.php:53
+#: build/blocks/fee-explanation/render.php:57
 msgid "1. Members and their hours"
 msgstr "1. Členové a jejich hodiny"
 
-#: build/blocks/fee-explanation/render.php:58
-#: build/blocks/fee-explanation/render.php:130
+#: build/blocks/fee-explanation/render.php:62
+#: build/blocks/fee-explanation/render.php:134
 #: build/blocks/hours-form/render.php:56
 #: includes/famefe-admin-tables.php:303
 #: includes/famefe-admin.php:420
@@ -56,7 +56,7 @@ msgstr "1. Členové a jejich hodiny"
 msgid "Member"
 msgstr "Člen"
 
-#: build/blocks/fee-explanation/render.php:59
+#: build/blocks/fee-explanation/render.php:63
 #: build/blocks/members-list/render.php:41
 #: build/blocks/membership-fees/render.php:30
 #: includes/famefe-admin-tables.php:33
@@ -64,91 +64,91 @@ msgstr "Člen"
 msgid "Type"
 msgstr "Typ"
 
-#: build/blocks/fee-explanation/render.php:60
-#: build/blocks/fee-explanation/render.php:131
+#: build/blocks/fee-explanation/render.php:64
+#: build/blocks/fee-explanation/render.php:135
 #: build/blocks/hours-form/render.php:58
 #: build/blocks/hours-form/render.php:124
 #: build/blocks/hours-list/render.php:64
 #: build/blocks/membership-fees/render.php:33
 #: includes/famefe-admin-tables.php:218
 #: includes/famefe-admin.php:429
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/membership-fees/index.js:3
 msgid "Hours"
 msgstr "Hodiny"
 
-#: build/blocks/fee-explanation/render.php:74
-#: build/blocks/fee-explanation/render.php:163
+#: build/blocks/fee-explanation/render.php:78
+#: build/blocks/fee-explanation/render.php:167
 #: build/blocks/membership-fees/render.php:112
 msgid "Total"
 msgstr "Celkem"
 
-#: build/blocks/fee-explanation/render.php:93
+#: build/blocks/fee-explanation/render.php:97
 msgid "2. Expected total"
 msgstr "2. Očekávaný součet plateb"
 
 #. translators: 1: base fee, 2: number of regular members, 3: base fee again, 4: expected total.
-#: build/blocks/fee-explanation/render.php:98
+#: build/blocks/fee-explanation/render.php:102
 #, php-format
 msgid "The base fee is %1$s. Together, the %2$d regular members are expected to pay %3$s × %2$d = %4$s."
 msgstr "Základní členský příspěvek je %1$s. Od %2$d řádných členů se tedy dohromady očekává %3$s × %2$d = %4$s."
 
-#: build/blocks/fee-explanation/render.php:107
+#: build/blocks/fee-explanation/render.php:111
 msgid "3. Fee of each member"
 msgstr "3. Příspěvek každého člena"
 
 #. translators: %s: hours of all regular members.
-#: build/blocks/fee-explanation/render.php:112
+#: build/blocks/fee-explanation/render.php:116
 #, php-format
 msgid "Each regular member’s share of the hours of all regular members (%s hours) lowers the unreduced fee: unreduced fee = expected total × (1 − share of hours)."
 msgstr "Podíl člena na hodinách všech řádných členů (%s h) snižuje jeho neredukovaný příspěvek: neredukovaný příspěvek = očekávaný součet × (1 − podíl hodin)."
 
 #. translators: 1: sum of the unreduced fees, 2: expected total, 3: amount taken off each fee.
-#: build/blocks/fee-explanation/render.php:119
+#: build/blocks/fee-explanation/render.php:123
 #, php-format
 msgid "The unreduced fees add up to %1$s, more than the expected total of %2$s. The difference is shared equally: each fee is lowered by %3$s, so all fees together give the expected total. No fee goes below zero; if one would, that member pays nothing and the rest is shared by the members who volunteered."
 msgstr "Neredukované příspěvky dávají dohromady %1$s, tedy víc než očekávaných %2$s. Rozdíl se rozdělí rovným dílem: každý příspěvek se sníží o %3$s, takže všechny příspěvky dohromady dají očekávaný součet. Žádný příspěvek neklesne pod nulu; pokud by měl, člen neplatí nic a zbytek se rozdělí mezi ostatní členy, kteří pracovali."
 
-#: build/blocks/fee-explanation/render.php:132
+#: build/blocks/fee-explanation/render.php:136
 #: build/blocks/membership-fees/render.php:36
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/membership-fees/index.js:3
 msgid "Share of hours"
 msgstr "Podíl hodin"
 
-#: build/blocks/fee-explanation/render.php:133
+#: build/blocks/fee-explanation/render.php:137
 #: build/blocks/membership-fees/render.php:39
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/membership-fees/index.js:3
 msgid "Unreduced fee"
 msgstr "Neredukovaný příspěvek"
 
-#: build/blocks/fee-explanation/render.php:134
+#: build/blocks/fee-explanation/render.php:138
 #: build/blocks/membership-fees/render.php:42
 msgid "Calculated fee"
 msgstr "Vypočtený příspěvek"
 
-#: build/blocks/fee-explanation/render.php:136
+#: build/blocks/fee-explanation/render.php:140
 #: build/blocks/membership-fees/render.php:43
-#: build/blocks/fee-explanation/index.js:2
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/fee-explanation/index.js:3
+#: build/blocks/membership-fees/index.js:3
 msgid "Discount"
 msgstr "Sleva"
 
-#: build/blocks/fee-explanation/render.php:137
+#: build/blocks/fee-explanation/render.php:141
 #: build/blocks/membership-fees/render.php:45
 msgid "Fee to pay"
 msgstr "K úhradě"
 
-#: build/blocks/fee-explanation/render.php:178
+#: build/blocks/fee-explanation/render.php:182
 msgid "4. Discount"
 msgstr "4. Sleva"
 
 #. translators: 1: share of members in percent, 2: discount in percent, 3: number of members with the discount.
-#: build/blocks/fee-explanation/render.php:183
+#: build/blocks/fee-explanation/render.php:203
 #, php-format
 msgid "The %1$s %% of regular members with the lowest calculated fees pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never). The discount is not added to the fees of the others, so the club collects less than the expected total."
 msgstr "%1$s %% řádných členů s nejnižšími vypočtenými příspěvky platí o %2$s %% méně (zde %3$d členů; slevu dostanou i ti se stejným příspěvkem jako poslední z nich, členové bez hodin nikdy). Sleva se nepřičítá ostatním, klub tedy vybere méně než očekávaný součet."
 
 #. translators: %s: twice the base fee.
-#: build/blocks/fee-explanation/render.php:196
+#: build/blocks/fee-explanation/render.php:219
 #, php-format
 msgid "A member without any volunteer hours in the period always pays twice the base fee, %s: paying instead of working should never be the cheaper choice."
 msgstr "Člen bez jediné brigádnické hodiny v období platí vždy dvojnásobek základního příspěvku, tedy %s: zaplatit místo práce nesmí být nikdy výhodnější."
@@ -302,7 +302,7 @@ msgstr "Bývalý člen"
 #: build/blocks/membership-fees/render.php:302
 #: includes/famefe-admin-tables.php:302
 #: includes/famefe-admin.php:493
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/membership-fees/index.js:3
 msgid "Paid on"
 msgstr "Zaplaceno"
 
@@ -630,7 +630,7 @@ msgid "For an existing account, the name and e-mail of the account are used; the
 msgstr "U existujícího účtu se použije jméno a e-mail z účtu; tato pole doplní jen to, co účtu chybí."
 
 #: includes/famefe-admin.php:272
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/membership-fees/index.js:3
 msgid "Membership type"
 msgstr "Typ členství"
 
@@ -978,10 +978,6 @@ msgstr "Bloky"
 msgid "How the fee is calculated"
 msgstr "Jak se příspěvek počítá"
 
-#: includes/famefe-admin.php:673
-msgid "All regular members of the period together pay the base fee times their number (the expected total). Each member’s share of the volunteer hours of all regular members lowers the fee; what is collected above the expected total is taken off everybody equally, and no fee goes below zero. A member without any hours in the period always pays twice the base fee. Honorary members pay nothing. With the optional discount, the given share of members with the lowest fees pays the given percentage less; nothing is moved to the others."
-msgstr "Řádní členové období zaplatí dohromady základní příspěvek krát jejich počet (očekávaný součet). Podíl člena na brigádnických hodinách všech řádných členů jeho příspěvek snižuje; co se vybere nad očekávaný součet, se všem odečte rovným dílem a žádný příspěvek neklesne pod nulu. Člen bez hodin v období platí vždy dvojnásobek základního příspěvku. Čestní členové neplatí. S volitelnou slevou platí zadaný podíl členů s nejnižšími příspěvky o zadané procento méně; nic se nepřesouvá na ostatní."
-
 #: includes/famefe-data.php:24
 msgid "Regular"
 msgstr "Řádný"
@@ -1220,35 +1216,35 @@ msgstr "Jméno, příjmení a e-mail tohoto profilu jsou zároveň údaji člena
 msgid "These accounts belong to members: %s. The members, their history, hours and payments stay in the register; only the link to the account is removed. To end a membership, use Member Fees → Members."
 msgstr "Tyto účty patří členům: %s. Členové, jejich historie, hodiny a platby zůstanou v evidenci; odstraní se jen propojení s účtem. Členství ukončíte v Členské příspěvky → Členové."
 
-#: build/blocks/fee-explanation/index.js:1
+#: build/blocks/fee-explanation/index.js:2
 msgid "Example"
 msgstr "Příklad"
 
 #. translators: %s: currency code.
-#: build/blocks/fee-explanation/index.js:2
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/fee-explanation/index.js:3
+#: build/blocks/membership-fees/index.js:3
 #, js-format
 msgid "Base fee (%s)"
 msgstr "Základní příspěvek (%s)"
 
-#: build/blocks/fee-explanation/index.js:2
+#: build/blocks/fee-explanation/index.js:3
 msgid "Hours of the regular members"
 msgstr "Hodiny řádných členů"
 
-#: build/blocks/fee-explanation/index.js:2
+#: build/blocks/fee-explanation/index.js:3
 msgid "One number per member, separated by commas or spaces."
 msgstr "Jedno číslo za člena, oddělená čárkami nebo mezerami."
 
-#: build/blocks/fee-explanation/index.js:2
+#: build/blocks/fee-explanation/index.js:3
 msgid "Hours of the honorary members"
 msgstr "Hodiny čestných členů"
 
-#: build/blocks/fee-explanation/index.js:2
+#: build/blocks/fee-explanation/index.js:3
 msgid "Explain the discount"
 msgstr "Vysvětlit slevu"
 
-#: build/blocks/fee-explanation/index.js:2
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/fee-explanation/index.js:1
+#: build/blocks/membership-fees/index.js:1
 msgid "Share of members with the lowest fees (%)"
 msgstr "Podíl členů s nejnižšími příspěvky (%)"
 
@@ -1326,7 +1322,7 @@ msgid "Only the hours of the logged-in visitor"
 msgstr "Jen hodiny přihlášeného návštěvníka"
 
 #: build/blocks/hours-list/index.js:1
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/membership-fees/index.js:3
 msgid "Display"
 msgstr "Zobrazení"
 
@@ -1371,56 +1367,56 @@ msgid "Only for logged-in visitors"
 msgstr "Jen pro přihlášené návštěvníky"
 
 #: build/blocks/members-list/index.js:1
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/membership-fees/index.js:3
 msgid "Columns"
 msgstr "Sloupce"
 
-#: build/blocks/membership-fees/index.js:1
+#: build/blocks/membership-fees/index.js:2
 msgid "Period and fee"
 msgstr "Období a příspěvek"
 
-#: build/blocks/membership-fees/index.js:1
+#: build/blocks/membership-fees/index.js:2
 msgid "Members of this period pay; their hours of this period lower the fee. Payments are recorded for exactly this period."
 msgstr "Platí členové tohoto období; jejich hodiny z tohoto období příspěvek snižují. Platby se zapisují přesně pro toto období."
 
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/membership-fees/index.js:3
 msgid "The fee of a regular member when nobody volunteers. All regular members together pay the base fee times their number."
 msgstr "Příspěvek řádného člena, když nikdo nepracuje. Všichni řádní členové dohromady zaplatí základní příspěvek krát jejich počet."
 
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/membership-fees/index.js:3
 msgid "Payment button (the fees are final)"
 msgstr "Tlačítko platby (příspěvky jsou konečné)"
 
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/membership-fees/index.js:3
 msgid "Turn on once the volunteer hours of the period are closed: members then see their final fee and can pay it. While it is off, the fees are shown as calculated from the hours recorded so far. Leave it off if you do not collect fees through this page."
 msgstr "Zapněte, až budou brigádnické hodiny za období uzavřené: členové pak uvidí konečný příspěvek a mohou ho zaplatit. Dokud je vypnuté, příspěvky se zobrazují podle dosud zapsaných hodin. Pokud příspěvky přes tuto stránku nevybíráte, nechte ho vypnuté."
 
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/membership-fees/index.js:3
 msgid "Discount for the lowest fees"
 msgstr "Sleva pro nejnižší příspěvky"
 
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/membership-fees/index.js:3
 msgid "Members who volunteered the most pay even less. The discount is not added to the fees of the others."
 msgstr "Kdo odpracoval nejvíc, zaplatí ještě méně. Sleva se nepřičítá k příspěvkům ostatních."
 
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/membership-fees/index.js:3
 msgid "Calculated fee and discount (when the discount is on)"
 msgstr "Vypočtený příspěvek a sleva (je-li sleva zapnutá)"
 
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/membership-fees/index.js:3
 msgid "List honorary members"
 msgstr "Zobrazit čestné členy"
 
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/membership-fees/index.js:3
 msgid "Period and base fee above the table"
 msgstr "Období a základní příspěvek nad tabulkou"
 
 #: build/blocks/members-list/index.js:1
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/membership-fees/index.js:3
 msgid "Totals rows at the end of the table"
 msgstr "Součtové řádky na konci tabulky"
 
-#: build/blocks/membership-fees/index.js:2
+#: build/blocks/membership-fees/index.js:3
 msgid "Highlight the logged-in member"
 msgstr "Zvýraznit přihlášeného člena"
 
@@ -1554,27 +1550,27 @@ msgid "payment"
 msgstr "platba"
 
 #: build/blocks/members-list/index.js:1
-#: build/blocks/membership-fees/index.js:1
+#: build/blocks/membership-fees/index.js:2
 msgid "Table colours"
 msgstr "Barvy tabulky"
 
 #: build/blocks/members-list/index.js:1
-#: build/blocks/membership-fees/index.js:1
+#: build/blocks/membership-fees/index.js:2
 msgid "Header background"
 msgstr "Pozadí záhlaví"
 
 #: build/blocks/members-list/index.js:1
-#: build/blocks/membership-fees/index.js:1
+#: build/blocks/membership-fees/index.js:2
 msgid "Header text"
 msgstr "Text záhlaví"
 
 #: build/blocks/members-list/index.js:1
-#: build/blocks/membership-fees/index.js:1
+#: build/blocks/membership-fees/index.js:2
 msgid "Totals rows background"
 msgstr "Pozadí souhrnných řádků"
 
 #: build/blocks/members-list/index.js:1
-#: build/blocks/membership-fees/index.js:1
+#: build/blocks/membership-fees/index.js:2
 msgid "Totals rows text"
 msgstr "Text souhrnných řádků"
 
@@ -1591,13 +1587,13 @@ msgid "Current members (%d)"
 msgstr "Současní členové celkem (%d)"
 
 #. translators: 1: "5 regular members", 2: "1 honorary member".
-#: build/blocks/fee-explanation/render.php:84
+#: build/blocks/fee-explanation/render.php:88
 #, php-format
 msgid "Members in the example: %1$s and %2$s. Honorary members do not pay a membership fee, and their hours do not count in the calculation."
 msgstr "Členové v příkladu: %1$s a %2$s. Čestní členové členský příspěvek neplatí a jejich hodiny se do výpočtu nezapočítávají."
 
 #. translators: %d: number of regular members.
-#: build/blocks/fee-explanation/render.php:86
+#: build/blocks/fee-explanation/render.php:90
 #, php-format
 msgid "%d regular member"
 msgid_plural "%d regular members"
@@ -1606,10 +1602,57 @@ msgstr[1] "%d řádní členové"
 msgstr[2] "%d řádných členů"
 
 #. translators: %d: number of honorary members.
-#: build/blocks/fee-explanation/render.php:88
+#: build/blocks/fee-explanation/render.php:92
 #, php-format
 msgid "%d honorary member"
 msgid_plural "%d honorary members"
 msgstr[0] "%d čestný člen"
 msgstr[1] "%d čestní členové"
 msgstr[2] "%d čestných členů"
+
+#. translators: %s: total the regular members should pay.
+#: build/blocks/fee-explanation/render.php:188
+#, php-format
+msgid "The regular members should pay %s together."
+msgstr "Řádní členové mají zaplatit dohromady %s."
+
+#. translators: 1: share of members in percent, 2: calculated discount in percent, 3: number of members with the discount.
+#: build/blocks/fee-explanation/render.php:195
+#, php-format
+msgid "The %1$s %% of regular members with the lowest calculated fees therefore pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never)."
+msgstr "%1$s %% řádných členů s nejnižšími vypočtenými příspěvky proto platí o %2$s %% méně (zde %3$d členů; slevu dostanou i ti se stejným příspěvkem jako poslední z nich, členové bez hodin nikdy)."
+
+#: build/blocks/fee-explanation/render.php:209
+msgid "The calculated fees do not exceed it, so there is no discount."
+msgstr "Vypočtené příspěvky tuto částku nepřesahují, sleva tedy není."
+
+#: includes/famefe-admin.php:673
+msgid "All regular members of the period together pay the base fee times their number (the expected total). Each member’s share of the volunteer hours of all regular members lowers the fee; what is collected above the expected total is taken off everybody equally, and no fee goes below zero. A member without any hours in the period always pays twice the base fee. Honorary members pay nothing. With the optional discount, the given share of members with the lowest fees pays the given percentage less, or as much less as needed for the given total to collect; nothing is moved to the others."
+msgstr "Řádní členové období zaplatí dohromady základní příspěvek krát jejich počet (očekávaný součet). Podíl člena na brigádnických hodinách všech řádných členů jeho příspěvek snižuje; co se vybere nad očekávaný součet, se všem odečte rovným dílem a žádný příspěvek neklesne pod nulu. Člen bez hodin v období platí vždy dvojnásobek základního příspěvku. Čestní členové neplatí. S volitelnou slevou platí zadaný podíl členů s nejnižšími příspěvky o zadané procento méně, nebo o tolik méně, kolik je potřeba pro zadanou cílovou částku; nic se nepřesouvá na ostatní."
+
+#: build/blocks/fee-explanation/index.js:1
+#: build/blocks/membership-fees/index.js:1
+msgid "Discount given by"
+msgstr "Sleva zadaná jako"
+
+#: build/blocks/fee-explanation/index.js:1
+#: build/blocks/membership-fees/index.js:1
+msgid "Percentage"
+msgstr "Procento"
+
+#: build/blocks/fee-explanation/index.js:1
+#: build/blocks/membership-fees/index.js:1
+msgid "Total to collect"
+msgstr "Cílová částka k vybrání"
+
+#. translators: %s: currency code.
+#: build/blocks/fee-explanation/index.js:2
+#: build/blocks/membership-fees/index.js:2
+#, js-format
+msgid "Total to collect (%s)"
+msgstr "Cílová částka k vybrání (%s)"
+
+#: build/blocks/fee-explanation/index.js:2
+#: build/blocks/membership-fees/index.js:2
+msgid "The discount is calculated so that the regular members pay this amount together. If their calculated fees do not exceed it, there is no discount."
+msgstr "Sleva se dopočítá tak, aby řádní členové zaplatili dohromady tuto částku. Pokud ji jejich vypočtené příspěvky nepřesahují, sleva není."

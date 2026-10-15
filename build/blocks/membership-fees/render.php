@@ -14,11 +14,11 @@ if (!defined('ABSPATH')) {
 
 $famefe_args = famefe_fees_block_args($attributes);
 $famefe_block_id = famefe_block_id($attributes);
-$famefe_fees = famefe_period_fees($famefe_args['start'], $famefe_args['end'], $famefe_args['base_fee'], $famefe_args['discount_share'], $famefe_args['discount_rate']);
+$famefe_fees = famefe_period_fees($famefe_args['start'], $famefe_args['end'], $famefe_args['base_fee'], $famefe_args);
 $famefe_calc = $famefe_fees['calc'];
 $famefe_totals = $famefe_calc['totals'];
 $famefe_names = famefe_name_mode((string) $attributes['nameDisplay']);
-$famefe_discount = $famefe_args['discount_share'] > 0 && $famefe_args['discount_rate'] > 0;
+$famefe_discount = $famefe_args['discount_share'] > 0 && ($famefe_args['discount_rate'] > 0 || $famefe_args['discount_target'] !== null);
 $famefe_types = famefe_member_types();
 $famefe_me = famefe_get_member(get_current_user_id());
 $famefe_my_id = $famefe_me ? intval($famefe_me->id) : 0;

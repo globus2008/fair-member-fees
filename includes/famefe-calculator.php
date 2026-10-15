@@ -19,6 +19,11 @@
  * Optional discount: the regular members with the lowest calculated fees (discount_share % of all regular
  * members, rounded up; ties with the last one included) pay discount_rate % less. Members without hours
  * never get it. The discount only reduces, nothing is moved to the other members.
+ * Instead of the rate, a discount_target can be given: the total that the regular members should pay together.
+ * The rate is then calculated for the same members, and the rounded fees are adjusted by the smallest unit
+ * so that they add up to the target exactly (members with equal fees always stay equal, so a tie can leave
+ * a small difference). A target the calculated fees do not exceed means no discount; a target that even
+ * a 100 % discount cannot reach leaves the discounted members at zero.
  *
  * @package fair-member-fees
  */
@@ -32,7 +37,8 @@ if (!defined('ABSPATH')) {
  *
  * @param array $rows     List of ['member_id' => int, 'member_type' => 'regular'|'honorary', 'hours' => float].
  * @param float $base_fee Base fee of a regular member.
- * @param array $opts     'discount_share' (0-100 %), 'discount_rate' (0-100 %), 'decimals' (rounding of the results),
+ * @param array $opts     'discount_share' (0-100 %), 'discount_rate' (0-100 %), 'discount_target' (total to collect,
+ *                        replaces discount_rate; null = not used), 'decimals' (rounding of the results),
  *                        'other_hours' (hours of people who are not members).
  * @return array ['rows' => [member_id => row], 'totals' => [...]]. Every row gets hours, hours_share, gross_fee,
  *               calculated_fee, discounted, discount and final_fee (honorary members: zeros, hours_share null).
@@ -42,6 +48,7 @@ function famefe_calculate_fees(array $rows, float $base_fee, array $opts = []): 
 	$decimals = max(0, intval($opts['decimals'] ?? 0));
 	$share = min(100, max(0, floatval($opts['discount_share'] ?? 0)));
 	$rate = min(100, max(0, floatval($opts['discount_rate'] ?? 0)));
+	$target_total = isset($opts['discount_target']) ? max(0, floatval($opts['discount_target'])) : null;
 	$base_fee = max(0, $base_fee);
 
 	$regular = [];
@@ -107,7 +114,7 @@ function famefe_calculate_fees(array $rows, float $base_fee, array $opts = []): 
 	// the share counts all regular members, members without hours never get it.
 	$discounted = [];
 	$candidates = array_values(array_diff($regular, $without_hours));
-	if ($candidates && $share > 0 && $rate > 0) {
+	if ($candidates && $share > 0 && ($rate > 0 || $target_total !== null)) {
 		$fees = [];
 		foreach ($candidates as $id) {
 			$fees[$id] = round($result[$id]['calculated_fee'], $decimals);
@@ -119,6 +126,25 @@ function famefe_calculate_fees(array $rows, float $base_fee, array $opts = []): 
 			if ($fee <= $limit) {
 				$discounted[] = $id;
 			}
+		}
+	}
+	// Discount given by the total to collect: the rate that brings the fees to the target.
+	$final_fees = [];
+	if ($discounted && $target_total !== null) {
+		$others_total = 0.0;
+		$discounted_total = 0.0;
+		foreach ($regular as $id) {
+			if (in_array($id, $discounted, true)) {
+				$discounted_total += $result[$id]['calculated_fee'];
+			} else {
+				$others_total += round($result[$id]['calculated_fee'], $decimals);
+			}
+		}
+		$rate = $discounted_total > 0 ? min(100, max(0, 100 * (1 - ($target_total - $others_total) / $discounted_total))) : 0.0;
+		if ($rate <= 0) {
+			$discounted = [];
+		} elseif ($rate < 100) {
+			$final_fees = famefe_fees_to_total($discounted, $result, $rate, $target_total - $others_total, $decimals);
 		}
 	}
 
@@ -140,12 +166,13 @@ function famefe_calculate_fees(array $rows, float $base_fee, array $opts = []): 
 		'final_total' => 0.0,
 		'discount_share' => $share,
 		'discount_rate' => $rate,
+		'discount_target' => $target_total,
 	];
 	foreach ($regular as $id) {
 		$calculated = round($result[$id]['calculated_fee'], $decimals);
 		$final = $calculated;
 		if (in_array($id, $discounted, true)) {
-			$final = round($result[$id]['calculated_fee'] * (1 - $rate / 100), $decimals);
+			$final = $final_fees[$id] ?? round($result[$id]['calculated_fee'] * (1 - $rate / 100), $decimals);
 			$result[$id]['discounted'] = true;
 		}
 		$result[$id]['calculated_fee'] = $calculated;
@@ -162,4 +189,41 @@ function famefe_calculate_fees(array $rows, float $base_fee, array $opts = []): 
 	$totals['gross_total'] = round($gross_total, $decimals);
 
 	return ['rows' => $result, 'totals' => $totals];
+}
+
+/**
+ * Discounted fees rounded so that they add up to $total: rounded as usual, then the fees whose rounding
+ * went most the other way move by the smallest unit (largest remainder method). Members with the same
+ * fee move together or not at all.
+ *
+ * @return array [member_id => final fee].
+ */
+function famefe_fees_to_total(array $ids, array $result, float $rate, float $total, int $decimals): array
+{
+	$unit = 10 ** -$decimals;
+	$fees = [];
+	$groups = [];
+	foreach ($ids as $id) {
+		$exact = $result[$id]['calculated_fee'] * (1 - $rate / 100);
+		$fees[$id] = round($exact, $decimals);
+		$key = (string) round($exact, $decimals + 4);
+		$groups[$key]['ids'][] = $id;
+		// How far the exact fee is above the rounded one, in units (-0.5 to 0.5).
+		$groups[$key]['remainder'] = ($exact - $fees[$id]) / $unit;
+	}
+	$missing = (int) round(($total - array_sum($fees)) / $unit);
+	$step = $missing > 0 ? 1 : -1;
+	// Rounding up first the fees that were rounded down the most, or the other way round.
+	uasort($groups, fn($a, $b) => $step * ($b['remainder'] <=> $a['remainder']));
+	foreach ($groups as $group) {
+		$size = count($group['ids']);
+		if ($missing === 0 || $size > abs($missing)) {
+			continue;
+		}
+		foreach ($group['ids'] as $id) {
+			$fees[$id] = max(0.0, round($fees[$id] + $step * $unit, $decimals));
+		}
+		$missing -= $step * $size;
+	}
+	return $fees;
 }

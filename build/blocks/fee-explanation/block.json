@@ -39,6 +39,18 @@
     "discountRate": {
       "type": "number",
       "default": 20
+    },
+    "discountMode": {
+      "type": "string",
+      "enum": [
+        "rate",
+        "total"
+      ],
+      "default": "rate"
+    },
+    "discountTarget": {
+      "type": "number",
+      "default": 0
     }
   },
   "supports": {

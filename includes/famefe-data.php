@@ -478,10 +478,12 @@ function famefe_get_payments(array $args = [], bool $count_only = false): array|
 /**
  * Everything the Membership fees block and the payment need for one period.
  *
+ * @param array $discount 'discount_share', 'discount_rate', 'discount_target' as in famefe_calculate_fees()
+ *                        (other keys are ignored, so famefe_fees_block_args() can be passed as it is).
  * @return array 'members' => [id => member], 'calc' => famefe_calculate_fees() result,
  *               'payments' => [member_id => payment], 'start', 'end'.
  */
-function famefe_period_fees(string $start, string $end, float $base_fee, float $discount_share = 0, float $discount_rate = 0): array
+function famefe_period_fees(string $start, string $end, float $base_fee, array $discount = []): array
 {
 	$members = [];
 	$rows = [];
@@ -499,8 +501,9 @@ function famefe_period_fees(string $start, string $end, float $base_fee, float $
 		}
 	}
 	$calc = famefe_calculate_fees($rows, $base_fee, [
-		'discount_share' => $discount_share,
-		'discount_rate' => $discount_rate,
+		'discount_share' => $discount['discount_share'] ?? 0,
+		'discount_rate' => $discount['discount_rate'] ?? 0,
+		'discount_target' => $discount['discount_target'] ?? null,
 		'decimals' => intval(famefe_settings('decimals')),
 		'other_hours' => $others,
 	]);

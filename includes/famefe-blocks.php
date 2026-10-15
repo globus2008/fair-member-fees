@@ -93,7 +93,8 @@ function famefe_find_block_in(array $blocks, string $name, string $block_id, int
  * Period and fee parameters of a Membership fees block, with the defaults of block.json
  * (period = the current calendar year when not set).
  *
- * @return array start, end, base_fee, discount_share, discount_rate.
+ * @return array start, end, base_fee, discount_share, discount_rate, discount_target (total to collect
+ *               when the discount is given by the total, else null).
  */
 function famefe_fees_block_args(array $attrs): array
 {
@@ -110,6 +111,7 @@ function famefe_fees_block_args(array $attrs): array
 		'base_fee' => max(0, floatval($attrs['baseFee'] ?? 1000)),
 		'discount_share' => $discount ? min(100, max(0, floatval($attrs['discountShare'] ?? 60))) : 0,
 		'discount_rate' => $discount ? min(100, max(0, floatval($attrs['discountRate'] ?? 20))) : 0,
+		'discount_target' => $discount && ($attrs['discountMode'] ?? 'rate') === 'total' ? max(0, floatval($attrs['discountTarget'] ?? 0)) : null,
 	];
 }
 

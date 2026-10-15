@@ -39,11 +39,15 @@ $famefe_calc = famefe_calculate_fees($famefe_rows, $famefe_base, [
 	'decimals' => intval(famefe_settings('decimals')),
 	'discount_share' => $famefe_discount ? floatval($attributes['discountShare']) : 0,
 	'discount_rate' => $famefe_discount ? floatval($attributes['discountRate']) : 0,
+	'discount_target' => $famefe_discount && $attributes['discountMode'] === 'total' ? floatval($attributes['discountTarget']) : null,
 ]);
 $famefe_t = $famefe_calc['totals'];
 $famefe_money = fn(float $amount) => famefe_format_money($amount);
 $famefe_types = famefe_member_types();
-$famefe_has_discount = $famefe_t['discount_share'] > 0 && $famefe_t['discount_rate'] > 0;
+$famefe_has_discount = $famefe_t['discount_share'] > 0 && ($famefe_t['discount_rate'] > 0 || $famefe_t['discount_target'] !== null);
+// A calculated rate is shown with one decimal place, a whole number without it.
+$famefe_rate = round($famefe_t['discount_rate'], 1);
+$famefe_rate_text = number_format_i18n($famefe_rate, floor($famefe_rate) == $famefe_rate ? 0 : 1);
 /* translators: %d: number of the member in the example. */
 $famefe_member_label = fn(int $n) => sprintf(__('Member %d', 'fair-member-fees'), $n);
 ?>
@@ -178,13 +182,32 @@ $famefe_member_label = fn(int $n) => sprintf(__('Member %d', 'fair-member-fees')
 		<h4><?php esc_html_e('4. Discount', 'fair-member-fees'); ?></h4>
 		<p>
 			<?php
-			echo esc_html(sprintf(
-				/* translators: 1: share of members in percent, 2: discount in percent, 3: number of members with the discount. */
-				__('The %1$s %% of regular members with the lowest calculated fees pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never). The discount is not added to the fees of the others, so the club collects less than the expected total.', 'fair-member-fees'),
-				number_format_i18n($famefe_t['discount_share']),
-				number_format_i18n($famefe_t['discount_rate']),
-				$famefe_t['discounted_count']
-			));
+			if ($famefe_t['discount_target'] !== null) {
+				echo esc_html(sprintf(
+					/* translators: %s: total the regular members should pay. */
+					__('The regular members should pay %s together.', 'fair-member-fees'),
+					$famefe_money($famefe_t['discount_target'])
+				)) . ' ';
+			}
+			if ($famefe_t['discounted_count'] > 0 && $famefe_t['discount_target'] !== null) {
+				echo esc_html(sprintf(
+					/* translators: 1: share of members in percent, 2: calculated discount in percent, 3: number of members with the discount. */
+					__('The %1$s %% of regular members with the lowest calculated fees therefore pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never).', 'fair-member-fees'),
+					number_format_i18n($famefe_t['discount_share']),
+					$famefe_rate_text,
+					$famefe_t['discounted_count']
+				));
+			} elseif ($famefe_t['discounted_count'] > 0) {
+				echo esc_html(sprintf(
+					/* translators: 1: share of members in percent, 2: discount in percent, 3: number of members with the discount. */
+					__('The %1$s %% of regular members with the lowest calculated fees pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never). The discount is not added to the fees of the others, so the club collects less than the expected total.', 'fair-member-fees'),
+					number_format_i18n($famefe_t['discount_share']),
+					$famefe_rate_text,
+					$famefe_t['discounted_count']
+				));
+			} else {
+				esc_html_e('The calculated fees do not exceed it, so there is no discount.', 'fair-member-fees');
+			}
 			?>
 		</p>
 	<?php endif; ?>

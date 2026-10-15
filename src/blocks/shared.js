@@ -14,7 +14,7 @@ import {
 	ToggleControl,
 	Disabled,
 } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
+import { __, sprintf } from '@wordpress/i18n';
 import ServerSideRender from '@wordpress/server-side-render';
 
 /**
@@ -202,6 +202,109 @@ export function NumberControl( { value, onChange, ...props } ) {
 			value={ value }
 			onChange={ ( next ) => onChange( parseFloat( next ) || 0 ) }
 		/>
+	);
+}
+
+/**
+ * Discount settings (discountEnabled, discountShare, discountMode, discountRate, discountTarget)
+ * of the Membership fees and Fee calculation explained blocks.
+ *
+ * @param {Object}   props               Props.
+ * @param {Object}   props.attributes    Attributes.
+ * @param {Function} props.setAttributes Setter.
+ * @param {string}   props.currency      Currency code.
+ * @param {string}   props.label         Label of the toggle.
+ * @param {string}   props.help          Help of the toggle.
+ */
+export function DiscountControls( {
+	attributes,
+	setAttributes,
+	currency,
+	label,
+	help,
+} ) {
+	const percent = ( key ) => ( value ) =>
+		setAttributes( { [ key ]: Math.min( 100, Math.max( 0, value ) ) } );
+	return (
+		<>
+			<ToggleControl
+				__nextHasNoMarginBottom
+				label={ label }
+				help={ help }
+				checked={ attributes.discountEnabled }
+				onChange={ ( discountEnabled ) =>
+					setAttributes( { discountEnabled } )
+				}
+			/>
+			{ attributes.discountEnabled && (
+				<>
+					<NumberControl
+						min={ 0 }
+						max={ 100 }
+						label={ __(
+							'Share of members with the lowest fees (%)',
+							'fair-member-fees'
+						) }
+						value={ attributes.discountShare }
+						onChange={ percent( 'discountShare' ) }
+					/>
+					<SelectControl
+						__next40pxDefaultSize
+						__nextHasNoMarginBottom
+						label={ __( 'Discount given by', 'fair-member-fees' ) }
+						value={ attributes.discountMode }
+						options={ [
+							{
+								value: 'rate',
+								label: __( 'Percentage', 'fair-member-fees' ),
+							},
+							{
+								value: 'total',
+								label: __(
+									'Total to collect',
+									'fair-member-fees'
+								),
+							},
+						] }
+						onChange={ ( discountMode ) =>
+							setAttributes( { discountMode } )
+						}
+					/>
+					{ attributes.discountMode === 'total' ? (
+						<NumberControl
+							min={ 0 }
+							step="any"
+							label={ sprintf(
+								/* translators: %s: currency code. */
+								__( 'Total to collect (%s)', 'fair-member-fees' ),
+								currency
+							) }
+							help={ __(
+								'The discount is calculated so that the regular members pay this amount together. If their calculated fees do not exceed it, there is no discount.',
+								'fair-member-fees'
+							) }
+							value={ attributes.discountTarget }
+							onChange={ ( discountTarget ) =>
+								setAttributes( {
+									discountTarget: Math.max(
+										0,
+										discountTarget
+									),
+								} )
+							}
+						/>
+					) : (
+						<NumberControl
+							min={ 0 }
+							max={ 100 }
+							label={ __( 'Discount (%)', 'fair-member-fees' ) }
+							value={ attributes.discountRate }
+							onChange={ percent( 'discountRate' ) }
+						/>
+					) }
+				</>
+			) }
+		</>
 	);
 }
 

@@ -75,7 +75,7 @@ function famefe_handle_block_payment(): void
 	$method = isset($_POST['method']) ? sanitize_key(wp_unslash($_POST['method'])) : '';
 	$paid_on = isset($_POST['paid_on']) ? sanitize_text_field(wp_unslash($_POST['paid_on'])) : '';
 	// phpcs:enable
-	$fees = famefe_period_fees($args['start'], $args['end'], $args['base_fee'], $args['discount_share'], $args['discount_rate']);
+	$fees = famefe_period_fees($args['start'], $args['end'], $args['base_fee'], $args);
 	$row = $fees['calc']['rows'][$member_id] ?? null;
 	if (!famefe_can_manage()) {
 		$result = famefe_error('forbidden');
@@ -109,7 +109,7 @@ function famefe_handle_block_checkout(): void
 	if (!$member || empty($attrs['showPayButton'] ?? false)) {
 		$fail('forbidden');
 	}
-	$fees = famefe_period_fees($args['start'], $args['end'], $args['base_fee'], $args['discount_share'], $args['discount_rate']);
+	$fees = famefe_period_fees($args['start'], $args['end'], $args['base_fee'], $args);
 	$row = $fees['calc']['rows'][intval($member->id)] ?? null;
 	if (!$row || $row['member_type'] !== 'regular') {
 		$fail('forbidden');

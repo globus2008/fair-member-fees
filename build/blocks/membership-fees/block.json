@@ -44,6 +44,18 @@
       "type": "number",
       "default": 20
     },
+    "discountMode": {
+      "type": "string",
+      "enum": [
+        "rate",
+        "total"
+      ],
+      "default": "rate"
+    },
+    "discountTarget": {
+      "type": "number",
+      "default": 0
+    },
     "showMemberType": {
       "type": "boolean",
       "default": true

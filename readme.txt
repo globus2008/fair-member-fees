@@ -44,6 +44,8 @@ Whoever does not volunteer pays twice the base fee, so paying instead of working
 
 Set a share of members (e.g. 60 %) and a discount (e.g. 20 %) in the Membership fees block: the given share of regular members with the lowest fees pays the given percentage less. Members with the same fee as the last of them get it too; members without hours never get it. The discount is not added to the fees of the others.
 
+Instead of the percentage, you can set the total to collect: the discount of the same members is then calculated so that all regular members pay exactly this amount together (for example to give back what the double fees of members without hours brought above the expected total).
+
 == External services ==
 
 This plugin connects to **Stripe** (https://stripe.com) to let members pay their membership fee by card. It is used only when you enter a Stripe secret key in the plugin settings.

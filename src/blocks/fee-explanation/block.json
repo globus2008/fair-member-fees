@@ -15,7 +15,9 @@
 		"honoraryHours": { "type": "string", "default": "20" },
 		"discountEnabled": { "type": "boolean", "default": false },
 		"discountShare": { "type": "number", "default": 60 },
-		"discountRate": { "type": "number", "default": 20 }
+		"discountRate": { "type": "number", "default": 20 },
+		"discountMode": { "type": "string", "enum": [ "rate", "total" ], "default": "rate" },
+		"discountTarget": { "type": "number", "default": 0 }
 	},
 	"supports": {
 		"html": false,

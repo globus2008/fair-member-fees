@@ -11,6 +11,7 @@ import metadata from './block.json';
 import {
 	useEditorSettings,
 	useBlockId,
+	DiscountControls,
 	NameDisplayControl,
 	NumberControl,
 	PeriodControls,
@@ -82,8 +83,10 @@ function Edit( props ) {
 					title={ __( 'Discount', 'fair-member-fees' ) }
 					initialOpen={ attributes.discountEnabled }
 				>
-					<ToggleControl
-						__nextHasNoMarginBottom
+					<DiscountControls
+						attributes={ attributes }
+						setAttributes={ setAttributes }
+						currency={ settings.currency }
 						label={ __(
 							'Discount for the lowest fees',
 							'fair-member-fees'
@@ -92,49 +95,7 @@ function Edit( props ) {
 							'Members who volunteered the most pay even less. The discount is not added to the fees of the others.',
 							'fair-member-fees'
 						) }
-						checked={ attributes.discountEnabled }
-						onChange={ ( discountEnabled ) =>
-							setAttributes( { discountEnabled } )
-						}
 					/>
-					{ attributes.discountEnabled && (
-						<>
-							<NumberControl
-								min={ 0 }
-								max={ 100 }
-								label={ __(
-									'Share of members with the lowest fees (%)',
-									'fair-member-fees'
-								) }
-								value={ attributes.discountShare }
-								onChange={ ( discountShare ) =>
-									setAttributes( {
-										discountShare: Math.min(
-											100,
-											Math.max( 0, discountShare )
-										),
-									} )
-								}
-							/>
-							<NumberControl
-								min={ 0 }
-								max={ 100 }
-								label={ __(
-									'Discount (%)',
-									'fair-member-fees'
-								) }
-								value={ attributes.discountRate }
-								onChange={ ( discountRate ) =>
-									setAttributes( {
-										discountRate: Math.min(
-											100,
-											Math.max( 0, discountRate )
-										),
-									} )
-								}
-							/>
-						</>
-					) }
 				</PanelBody>
 				<PanelBody
 					title={ __( 'Columns', 'fair-member-fees' ) }
