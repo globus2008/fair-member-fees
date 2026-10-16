@@ -1,0 +1,247 @@
+# Translation of Plugins - Fair Member Fees - Development Readme (trunk) in Arabic
+# This file is distributed under the same license as the Plugins - Fair Member Fees - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Fair Member Fees - Development Readme (trunk)\n"
+"PO-Revision-Date: 2026-10-16 12:00:00+0000\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));\n"
+"X-Generator: GlotPress/4.1.0\n"
+
+#. Short description.
+#, gp-priority: high
+msgid "Membership register, volunteer hours and a fair membership fee: members who volunteer more pay less. Optional discount and Stripe payments."
+msgstr "سجل أعضاء وساعات تطوع ورسوم عضوية عادلة: الأعضاء الذين يتطوعون أكثر يدفعون أقل. خصم اختياري ودفعات عبر Stripe."
+
+#. Plugin name.
+#, gp-priority: high
+msgid "Fair Member Fees"
+msgstr "Fair Member Fees"
+
+#. Found in faq paragraph.
+msgid "Nothing, unless you turn on \"Delete data\" in the settings."
+msgstr "لا شيء، ما لم تفعّل «حذف البيانات» في الإعدادات."
+
+#. Found in faq paragraph.
+msgid "No. The server always calculates the fee from the saved block settings and the recorded hours."
+msgstr "لا. يحسب الخادم الرسم دائمًا من إعدادات المكوّن المحفوظة والساعات المسجلة."
+
+#. Found in faq paragraph.
+msgid "Only administrators and editors (the capability <code>famefe_manage</code>)."
+msgstr "المديرون والمحررون فقط (الصلاحية <code>famefe_manage</code>)."
+
+#. Found in faq paragraph.
+msgid "Every logged-in member records own hours. Administrators and editors can record hours for any member. In the settings you can allow logged-in non-members to record hours too; their hours count only in the totals."
+msgstr "يسجل كل عضو مسجل دخوله ساعاته بنفسه. ويمكن للمديرين والمحررين تسجيل ساعات لأي عضو. ويمكنك في الإعدادات السماح أيضًا لغير الأعضاء المسجلين دخولهم بتسجيل الساعات؛ وتُحتسب ساعاتهم في المجاميع فقط."
+
+#. Found in faq paragraph.
+msgid "The button is off until you turn it on in the Membership fees block (\"Payment button\"). Turn it on once the volunteer hours of the period are closed and the fees are final; until then members see the fee calculated from the hours recorded so far. Online payment also needs the Stripe keys in the settings. If your club only keeps records of hours, simply leave the button off."
+msgstr "يبقى الزر معطلًا إلى أن تفعّله في مكوّن رسوم العضوية («زر الدفع»). فعّله بعد إغلاق ساعات التطوع للفترة وصيرورة الرسوم نهائية؛ وحتى ذلك الحين يرى الأعضاء الرسم المحسوب من الساعات المسجلة حتى الآن. يحتاج الدفع عبر الإنترنت أيضًا إلى مفاتيح Stripe في الإعدادات. إذا كان ناديك يكتفي بتسجيل الساعات فاترك الزر معطلًا ببساطة."
+
+#. Found in faq header.
+msgid "What happens with the data when I delete the plugin?"
+msgstr "ماذا يحدث للبيانات عند حذف الإضافة؟"
+
+#. Found in faq header.
+msgid "Can the amount to pay be changed in the browser?"
+msgstr "هل يمكن تغيير المبلغ المطلوب دفعه في المتصفح؟"
+
+#. Found in faq header.
+msgid "Who sees the form for cash payments?"
+msgstr "من يرى نموذج الدفعات النقدية؟"
+
+#. Found in faq header.
+msgid "Who can record hours?"
+msgstr "من يمكنه تسجيل الساعات؟"
+
+#. Found in faq header.
+msgid "Why do members not see the payment button?"
+msgstr "لماذا لا يرى الأعضاء زر الدفع؟"
+
+#. Found in installation list item.
+msgid "Add the blocks to your pages (search for \"Fair Member Fees\" in the block inserter). Set the period, the base fee and the discount in the Membership fees block."
+msgstr "أضف المكوّنات إلى صفحاتك (ابحث عن «Fair Member Fees» في أداة إدراج المكوّنات). اضبط الفترة والرسم الأساسي والخصم في مكوّن رسوم العضوية."
+
+#. Found in installation list item.
+msgid "In <strong>Member Fees → Settings</strong> set the currency and, for online payments, your Stripe keys and the webhook."
+msgstr "في <strong>رسوم العضوية ← الإعدادات</strong> اضبط العملة، وللدفع عبر الإنترنت مفاتيح Stripe وWebhook."
+
+#. Found in installation list item.
+msgid "Go to <strong>Member Fees → Members</strong> and add your members; link them to their user accounts so that they can record hours and pay online."
+msgstr "انتقل إلى <strong>رسوم العضوية ← الأعضاء</strong> وأضف أعضاءك؛ واربطهم بحسابات المستخدمين الخاصة بهم ليتمكنوا من تسجيل الساعات والدفع عبر الإنترنت."
+
+#. Found in installation list item.
+msgid "Install and activate the plugin."
+msgstr "ثبّت الإضافة وفعّلها."
+
+#. Found in description paragraph.
+msgid "The editor scripts in <code>build/</code> are compiled from the human-readable sources in <code>src/</code> (included in the plugin) with <code>@wordpress/scripts</code> (<code>npm install</code>, <code>npm run build</code>). The development repository is public: https://github.com/globus2008/fair-member-fees"
+msgstr "سكربتات المحرر في <code>build/</code> مُجمَّعة من المصادر المقروءة في <code>src/</code> (المضمّنة في الإضافة) باستخدام <code>@wordpress/scripts</code> (<code>npm install</code>، <code>npm run build</code>). مستودع التطوير عام: https://github.com/globus2008/fair-member-fees"
+
+#. Found in description paragraph.
+msgid "Stripe terms of service: https://stripe.com/legal/ssa – Stripe privacy policy: https://stripe.com/privacy"
+msgstr "شروط خدمة Stripe: https://stripe.com/legal/ssa – سياسة خصوصية Stripe: https://stripe.com/privacy"
+
+#. Found in description paragraph.
+msgid "This plugin connects to <strong>Stripe</strong> (https://stripe.com) to let members pay their membership fee by card. It is used only when you enter a Stripe secret key in the plugin settings."
+msgstr "تتصل هذه الإضافة بـ <strong>Stripe</strong> (https://stripe.com) لتمكين الأعضاء من دفع رسوم العضوية بالبطاقة. ولا تُستخدم إلا عند إدخال مفتاح Stripe السري في إعدادات الإضافة."
+
+#. Found in description paragraph.
+msgid "Instead of the percentage, you can set the total to collect: the discount of the same members is then calculated so that all regular members pay exactly this amount together (for example to give back what the double fees of members without hours brought above the expected total)."
+msgstr "بدلًا من النسبة المئوية يمكنك تحديد المجموع المطلوب تحصيله: عندها يُحسب خصم الأعضاء أنفسهم بحيث يدفع جميع الأعضاء العاملين معًا هذا المبلغ بالضبط (مثلًا لإعادة ما جلبته الرسوم المضاعفة للأعضاء بلا ساعات فوق المجموع المتوقع)."
+
+#. Found in description paragraph.
+msgid "Set a share of members (e.g. 60 %) and a discount (e.g. 20 %) in the Membership fees block: the given share of regular members with the lowest fees pays the given percentage less. Members with the same fee as the last of them get it too; members without hours never get it. The discount is not added to the fees of the others."
+msgstr "حدد في مكوّن رسوم العضوية نسبة من الأعضاء (مثلًا 60 %) وخصمًا (مثلًا 20 %): تدفع النسبة المحددة من الأعضاء العاملين ذوي أدنى الرسوم أقل بالنسبة المئوية المحددة. ويحصل عليه أيضًا الأعضاء الذين لهم نفس رسم آخرهم؛ ولا يحصل عليه أبدًا الأعضاء بلا ساعات. لا يُضاف الخصم إلى رسوم الآخرين."
+
+#. Found in description paragraph.
+msgid "<strong>Discount (optional)</strong>"
+msgstr "<strong>الخصم (اختياري)</strong>"
+
+#. Found in description paragraph.
+msgid "Whoever does not volunteer pays twice the base fee, so paying instead of working is never the cheaper choice. Hours of honorary members and non-members are shown in the totals but do not change the fees."
+msgstr "من لا يتطوع يدفع ضعف الرسم الأساسي، فلا يكون الدفع بدلًا من العمل هو الخيار الأرخص أبدًا. تظهر ساعات الأعضاء الفخريين وغير الأعضاء في المجاميع لكنها لا تغيّر الرسوم."
+
+#. Found in description paragraph.
+msgid "<strong>How the fee is calculated</strong>"
+msgstr "<strong>كيف يُحسب الرسم</strong>"
+
+#. Found in description paragraph.
+msgid "<strong>Features</strong>"
+msgstr "<strong>الميزات</strong>"
+
+#. Found in description paragraph.
+msgid "Clubs live from the work of their members. Fair Member Fees rewards it: every member records the hours they volunteered, and the membership fee of each member is calculated from them. Whoever works for the club pays less; whoever does not, pays twice the base fee – paying instead of working is never the cheaper choice."
+msgstr "تعيش الأندية من عمل أعضائها. وFair Member Fees يكافئ هذا العمل: يسجل كل عضو ساعات التطوع التي قدمها، ومنها تُحسب رسوم عضوية كل عضو. من يعمل للنادي يدفع أقل؛ ومن لا يعمل يدفع ضعف الرسم الأساسي – فالدفع بدلًا من العمل ليس الخيار الأرخص أبدًا."
+
+#. Found in description list item.
+msgid "When the member returns, the plugin asks Stripe whether the payment was completed. Stripe also sends the result to the webhook address of the plugin."
+msgstr "عند عودة العضو تسأل الإضافة Stripe عمّا إذا اكتمل الدفع. ويرسل Stripe النتيجة أيضًا إلى عنوان Webhook الخاص بالإضافة."
+
+#. Found in description list item.
+msgid "When a member clicks the payment button, the plugin sends to Stripe: the amount and currency, the name of the payment (\"Membership fee\" and the period), the member's e-mail address, the member ID and the period, and the addresses of your page to return to. The member then enters the card details directly on the Stripe payment page."
+msgstr "عندما ينقر عضو على زر الدفع ترسل الإضافة إلى Stripe: المبلغ والعملة، واسم الدفعة («رسوم العضوية» والفترة)، وعنوان البريد الإلكتروني للعضو، ومعرّف العضو والفترة، وعناوين صفحتك للعودة إليها. ثم يُدخل العضو بيانات البطاقة مباشرة في صفحة الدفع الخاصة بـ Stripe."
+
+#. Found in description list item.
+msgid "A member without any recorded hours in the period always pays twice the base fee."
+msgstr "العضو الذي ليس له أي ساعات مسجلة في الفترة يدفع دائمًا ضعف الرسم الأساسي."
+
+#. Found in description list item.
+msgid "The unreduced fees add up to more than the expected total; the difference is taken off every fee equally. No fee goes below zero (the rest is shared by the others)."
+msgstr "مجموع الرسوم قبل التسوية أكبر من المجموع المتوقع؛ ويُخصم الفرق من كل رسم بالتساوي. لا ينزل أي رسم عن الصفر (ويتقاسم الآخرون الباقي)."
+
+#. Found in description list item.
+msgid "Unreduced fee = expected total × (1 − share of hours)."
+msgstr "الرسم قبل التسوية = المجموع المتوقع × (1 − حصة الساعات)."
+
+#. Found in description list item.
+msgid "Share of hours = hours of the member / hours of all regular members."
+msgstr "حصة الساعات = ساعات العضو / ساعات جميع الأعضاء العاملين."
+
+#. Found in description list item.
+msgid "Expected total = base fee × number of regular members."
+msgstr "المجموع المتوقع = الرسم الأساسي × عدد الأعضاء العاملين."
+
+#. Found in description list item.
+msgid "Ready for translation."
+msgstr "جاهزة للترجمة."
+
+#. Found in description list item.
+msgid "<strong>Fee calculation explained</strong> – the method on an example with your own numbers."
+msgstr "<strong>شرح حساب الرسوم</strong> – الطريقة بمثال يستخدم أرقامك أنت."
+
+#. Found in description list item.
+msgid "<strong>Members list</strong>,"
+msgstr "<strong>قائمة الأعضاء</strong>،"
+
+#. Found in description list item.
+msgid "<strong>Volunteer hours list</strong>,"
+msgstr "<strong>قائمة ساعات التطوع</strong>،"
+
+#. Found in description list item.
+msgid "<strong>Volunteer hours form</strong>,"
+msgstr "<strong>نموذج ساعات التطوع</strong>،"
+
+#. Found in description list item.
+msgid "<strong>Membership fees</strong> – the fee table of a period; its payment button is turned on once the hours of the period are closed,"
+msgstr "<strong>رسوم العضوية</strong> – جدول الرسوم لفترة؛ يُفعَّل زر الدفع فيه بعد إغلاق ساعات الفترة،"
+
+#. Found in description list item.
+msgid "Five blocks, all set up in the block settings – no shortcodes:"
+msgstr "خمسة مكوّنات، كلها تُضبط في إعدادات المكوّن – بلا رموز قصيرة:"
+
+#. Found in description list item.
+msgid "Online payment of the fee through Stripe Checkout; cash and bank payments recorded by administrators and editors."
+msgstr "دفع الرسوم عبر الإنترنت من خلال Stripe Checkout؛ ويسجل المديرون والمحررون الدفعات النقدية والتحويلات المصرفية."
+
+#. Found in description list item.
+msgid "Optional discount for the members with the lowest fees."
+msgstr "خصم اختياري للأعضاء ذوي أدنى الرسوم."
+
+#. Found in description list item.
+msgid "Fair calculation of the fees for any period (season), see below."
+msgstr "حساب عادل للرسوم لأي فترة (موسم)، انظر أدناه."
+
+#. Found in description list item.
+msgid "Volunteer hours recorded by the members themselves, or by administrators and editors for anybody."
+msgstr "ساعات تطوع يسجلها الأعضاء بأنفسهم، أو يسجلها المديرون والمحررون لأي شخص."
+
+#. Found in description list item.
+msgid "Full history of every member: joined, membership type changed, membership ended, rejoined – each with the date of the change, who recorded it and when."
+msgstr "سجل كامل لكل عضو: الانضمام، تغيير نوع العضوية، انتهاء العضوية، إعادة الانضمام – كلٌّ مع تاريخ التغيير ومن سجّله ومتى."
+
+#. Found in description list item.
+msgid "Membership register with regular and honorary members (honorary members pay no fee)."
+msgstr "سجل أعضاء يضم أعضاء عاملين وفخريين (الأعضاء الفخريون لا يدفعون رسومًا)."
+
+#. Found in description header.
+msgid "Source code"
+msgstr "الشيفرة المصدرية"
+
+#. Found in description header.
+msgid "External services"
+msgstr "الخدمات الخارجية"
+
+#. Screenshot description.
+msgid "Member Fees → Settings: currency and Stripe keys for online payments."
+msgstr "رسوم العضوية ← الإعدادات: العملة ومفاتيح Stripe للدفع عبر الإنترنت."
+
+#. Screenshot description.
+msgid "Member Fees → Volunteer hours: all recorded hours with filters."
+msgstr "رسوم العضوية ← ساعات التطوع: كل الساعات المسجلة مع عوامل تصفية."
+
+#. Screenshot description.
+msgid "Every change of a membership is kept in the history with the date of the change, who recorded it and when."
+msgstr "يُحفظ كل تغيير في العضوية في السجل مع تاريخ التغيير ومن سجّله ومتى."
+
+#. Screenshot description.
+msgid "Member Fees → Members: the membership register."
+msgstr "رسوم العضوية ← الأعضاء: سجل الأعضاء."
+
+#. Screenshot description.
+msgid "All options of the blocks are in the block settings: the period, the base fee, the discount, the payment button, columns, names and table colours."
+msgstr "جميع خيارات المكوّنات موجودة في إعدادات المكوّن: الفترة والرسم الأساسي والخصم وزر الدفع والأعمدة والأسماء وألوان الجدول."
+
+#. Screenshot description.
+msgid "The Fee calculation explained block shows the method on an example with your own base fee and discount."
+msgstr "يعرض مكوّن شرح حساب الرسوم الطريقة بمثال يستخدم رسمك الأساسي وخصمك أنت."
+
+#. Screenshot description.
+msgid "The Volunteer hours form and list: members record their own hours, administrators and editors record them for anybody."
+msgstr "نموذج ساعات التطوع وقائمتها: يسجل الأعضاء ساعاتهم بأنفسهم، ويسجلها المديرون والمحررون لأي شخص."
+
+#. Screenshot description.
+msgid "The Members list block with the totals of regular and honorary members."
+msgstr "مكوّن قائمة الأعضاء مع مجاميع الأعضاء العاملين والفخريين."
+
+#. Screenshot description.
+msgid "The Membership fees block: the fee of every member calculated from the volunteer hours, with the optional discount and the totals rows."
+msgstr "مكوّن رسوم العضوية: رسم كل عضو محسوبًا من ساعات التطوع، مع الخصم الاختياري وصفوف المجاميع."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "First release."
+msgstr "الإصدار الأول."

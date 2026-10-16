@@ -1,0 +1,1461 @@
+# Translation of Plugins - Fair Member Fees - Development (trunk) in Polish
+# This file is distributed under the same license as the Plugins - Fair Member Fees - Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Fair Member Fees - Development (trunk)\n"
+"PO-Revision-Date: 2026-10-16 12:00:00+0000\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.1.0\n"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "payment"
+msgstr "płatność"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block description"
+msgid "Fair membership fees for a period: members who volunteered more pay less. Once the hours of the period are closed, members can pay online; administrators and editors record cash and bank payments."
+msgstr "Sprawiedliwe składki członkowskie za okres: członkowie, którzy przepracują więcej godzin wolontariatu, płacą mniej. Po zamknięciu godzin okresu członkowie mogą zapłacić online; administratorzy i redaktorzy rejestrują wpłaty gotówkowe i przelewy."
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block title"
+msgid "Membership fees"
+msgstr "Składki członkowskie"
+
+#: build/blocks/members-list/block.json build/blocks/membership-fees/block.json src/blocks/members-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "membership"
+msgstr "członkostwo"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block keyword"
+msgid "register"
+msgstr "rejestr"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block keyword"
+msgid "members"
+msgstr "członkowie"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block description"
+msgid "The membership register: members, their type, membership changes and who recorded them."
+msgstr "Rejestr członków: członkowie, ich rodzaj, zmiany członkostwa i kto je zarejestrował."
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block title"
+msgid "Members list"
+msgstr "Lista członków"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr "lista"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block description"
+msgid "Recorded volunteer hours of a period."
+msgstr "Zarejestrowane godziny wolontariatu w okresie."
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block title"
+msgid "Volunteer hours list"
+msgstr "Lista godzin wolontariatu"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "formularz"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block keyword"
+msgid "work"
+msgstr "praca"
+
+#: build/blocks/hours-form/block.json build/blocks/hours-list/block.json build/blocks/membership-fees/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "volunteer"
+msgstr "wolontariat"
+
+#: build/blocks/hours-form/block.json build/blocks/hours-list/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json
+msgctxt "block keyword"
+msgid "hours"
+msgstr "godziny"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block description"
+msgid "Logged-in members record the hours they volunteered."
+msgstr "Zalogowani członkowie rejestrują przepracowane godziny wolontariatu."
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block title"
+msgid "Volunteer hours form"
+msgstr "Formularz godzin wolontariatu"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "help"
+msgstr "pomoc"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "example"
+msgstr "przykład"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "calculation"
+msgstr "obliczenie"
+
+#: build/blocks/fee-explanation/block.json build/blocks/hours-form/block.json build/blocks/hours-list/block.json build/blocks/members-list/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json src/blocks/members-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "fair member fees"
+msgstr "fair member fees"
+
+#: build/blocks/fee-explanation/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "fee"
+msgstr "składka"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block description"
+msgid "Explains on an example how the fair membership fee is calculated."
+msgstr "Wyjaśnia na przykładzie, jak obliczana jest sprawiedliwa składka członkowska."
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block title"
+msgid "Fee calculation explained"
+msgstr "Wyjaśnienie obliczania składki"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:155
+msgid "Highlight the logged-in member"
+msgstr "Wyróżnij zalogowanego członka"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:147
+msgid "Period and base fee above the table"
+msgstr "Okres i składka podstawowa nad tabelą"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:143
+msgid "List honorary members"
+msgstr "Pokaż członków honorowych"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:121
+msgid "Calculated fee and discount (when the discount is on)"
+msgstr "Obliczona składka i zniżka (gdy zniżka jest włączona)"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:94
+msgid "Members who volunteered the most pay even less. The discount is not added to the fees of the others."
+msgstr "Członkowie, którzy przepracowali najwięcej, płacą jeszcze mniej. Zniżka nie jest doliczana do składek pozostałych."
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:90
+msgid "Discount for the lowest fees"
+msgstr "Zniżka dla najniższych składek"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:72
+msgid "Turn on once the volunteer hours of the period are closed: members then see their final fee and can pay it. While it is off, the fees are shown as calculated from the hours recorded so far. Leave it off if you do not collect fees through this page."
+msgstr "Włącz, gdy godziny wolontariatu okresu zostaną zamknięte: członkowie zobaczą wtedy swoją ostateczną składkę i będą mogli ją zapłacić. Dopóki jest wyłączony, składki są pokazywane jako obliczone z godzin zarejestrowanych do tej pory. Pozostaw wyłączony, jeśli nie pobierasz składek przez tę stronę."
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:68
+msgid "Payment button (the fees are final)"
+msgstr "Przycisk płatności (składki są ostateczne)"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:59
+msgid "The fee of a regular member when nobody volunteers. All regular members together pay the base fee times their number."
+msgstr "Składka członka zwyczajnego, gdy nikt nie przepracuje godzin wolontariatu. Wszyscy członkowie zwyczajni razem płacą składkę podstawową pomnożoną przez ich liczbę."
+
+#: build/blocks/membership-fees/index.js:2 src/blocks/membership-fees/index.js:46
+msgid "Members of this period pay; their hours of this period lower the fee. Payments are recorded for exactly this period."
+msgstr "Płacą członkowie tego okresu; ich godziny w tym okresie obniżają składkę. Płatności są rejestrowane dokładnie dla tego okresu."
+
+#: build/blocks/membership-fees/index.js:2 src/blocks/membership-fees/index.js:42
+msgid "Period and fee"
+msgstr "Okres i składka"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/members-list/index.js:54 src/blocks/membership-fees/index.js:101
+msgid "Columns"
+msgstr "Kolumny"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:46
+msgid "Only for logged-in visitors"
+msgstr "Tylko dla zalogowanych odwiedzających"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/members-list/index.js:42 src/blocks/membership-fees/index.js:151
+msgid "Totals rows at the end of the table"
+msgstr "Wiersze sum na końcu tabeli"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:30
+msgid "Honorary members"
+msgstr "Członkowie honorowi"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:26
+msgid "Regular members"
+msgstr "Członkowie zwyczajni"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:360
+msgid "Totals rows text"
+msgstr "Tekst wierszy sum"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:356
+msgid "Totals rows background"
+msgstr "Tło wierszy sum"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:353
+msgid "Header text"
+msgstr "Tekst nagłówka"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:351
+msgid "Header background"
+msgstr "Tło nagłówka"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:346
+msgid "Table colours"
+msgstr "Kolory tabeli"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:127
+msgid "They may delete any entry within this time. Older entries can still be deleted in Member Fees → Volunteer hours."
+msgstr "W tym czasie mogą usunąć dowolny wpis. Starsze wpisy nadal można usunąć w Składki członkowskie → Godziny wolontariatu."
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:123
+msgid "Administrators and editors: days after recording"
+msgstr "Administratorzy i redaktorzy: dni po zarejestrowaniu"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:106
+msgid "Members delete only hours they recorded themselves, e.g. after a mistake. 0 = only on the day of recording."
+msgstr "Członkowie usuwają tylko godziny, które sami zarejestrowali, np. po pomyłce. 0 = tylko w dniu zarejestrowania."
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:102
+msgid "Members: days after recording"
+msgstr "Członkowie: dni po zarejestrowaniu"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:91
+msgid "Allow deleting hours"
+msgstr "Zezwól na usuwanie godzin"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:84
+msgid "Deleting"
+msgstr "Usuwanie"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:79
+msgid "Total below"
+msgstr "Suma poniżej"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/hours-list/index.js:60 src/blocks/membership-fees/index.js:130
+msgid "Display"
+msgstr "Wyświetlanie"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:52
+msgid "Only the hours of the logged-in visitor"
+msgstr "Tylko godziny zalogowanego odwiedzającego"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:37
+msgid "Maximum entries"
+msgstr "Maksymalna liczba wpisów"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:29
+msgid "Leave empty for no limit."
+msgstr "Pozostaw puste, aby nie było limitu."
+
+#: build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:94
+msgid "As in the plugin settings"
+msgstr "Jak w ustawieniach wtyczki"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:89
+msgid "Names"
+msgstr "Imiona i nazwiska"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:106
+msgid "Number of recent entries"
+msgstr "Liczba ostatnich wpisów"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:96
+msgid "Show my recent entries"
+msgstr "Pokaż moje ostatnie wpisy"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:92
+msgid "Description of the work is required"
+msgstr "Opis pracy jest wymagany"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:81
+msgid "Button text"
+msgstr "Tekst przycisku"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:63
+msgid "How old the date of the work may be. 0 = only today."
+msgstr "Jak dawna może być data pracy. 0 = tylko dzisiaj."
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:62
+msgid "Days back"
+msgstr "Dni wstecz"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:49
+msgid "Off: hours are always recorded for today, so nobody can add hours to the past or change a closed period. Administrators and editors can always choose the date."
+msgstr "Wyłączone: godziny są zawsze rejestrowane na dzisiaj, więc nikt nie może dodać godzin w przeszłości ani zmienić zamkniętego okresu. Administratorzy i redaktorzy zawsze mogą wybrać datę."
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:45
+msgid "Members may change the date"
+msgstr "Członkowie mogą zmienić datę"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:35
+msgid "Step of the hours"
+msgstr "Krok godzin"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:23
+msgid "Maximum hours per entry"
+msgstr "Maksymalna liczba godzin na wpis"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:18
+msgid "Form"
+msgstr "Formularz"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:71
+msgid "Explain the discount"
+msgstr "Wyjaśnij zniżkę"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:53
+msgid "Hours of the honorary members"
+msgstr "Godziny członków honorowych"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:41
+msgid "One number per member, separated by commas or spaces."
+msgstr "Jedna liczba na członka, oddzielone przecinkami lub spacjami."
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:37
+msgid "Hours of the regular members"
+msgstr "Godziny członków zwyczajnych"
+
+#. translators: %s: currency code.
+#: build/blocks/fee-explanation/index.js:3 build/blocks/membership-fees/index.js:3 src/blocks/fee-explanation/index.js:28 src/blocks/membership-fees/index.js:56
+msgid "Base fee (%s)"
+msgstr "Składka podstawowa (%s)"
+
+#: build/blocks/fee-explanation/index.js:2 src/blocks/fee-explanation/index.js:22
+msgid "Example"
+msgstr "Przykład"
+
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:300
+msgid "Discount (%)"
+msgstr "Zniżka (%)"
+
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:282
+msgid "The discount is calculated so that the regular members pay this amount together. If their calculated fees do not exceed it, there is no discount."
+msgstr "Zniżka jest obliczana tak, aby członkowie zwyczajni razem zapłacili tę kwotę. Jeśli ich obliczone składki jej nie przekraczają, zniżki nie ma."
+
+#. translators: %s: currency code.
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:279
+msgid "Total to collect (%s)"
+msgstr "Suma do zebrania (%s)"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:263
+msgid "Total to collect"
+msgstr "Suma do zebrania"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:259
+msgid "Percentage"
+msgstr "Procent"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:254
+msgid "Discount given by"
+msgstr "Zniżka określona przez"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:244
+msgid "Share of members with the lowest fees (%)"
+msgstr "Udział członków z najniższymi składkami (%)"
+
+#. translators: %s: list of member names.
+#: includes/famefe-users.php:190
+msgid "These accounts belong to members: %s. The members, their history, hours and payments stay in the register; only the link to the account is removed. To end a membership, use Member Fees → Members."
+msgstr "Te konta należą do członków: %s. Członkowie, ich historia, godziny i płatności pozostają w rejestrze; usuwane jest tylko powiązanie z kontem. Aby zakończyć członkostwo, użyj Składki członkowskie → Członkowie."
+
+#: includes/famefe-users.php:93
+msgid "The first name, last name and e-mail of this profile are also the details of the member."
+msgstr "Imię, nazwisko i e-mail tego profilu są też danymi członka."
+
+#: includes/famefe-users.php:91
+msgid "Membership and history"
+msgstr "Członkostwo i historia"
+
+#: includes/famefe-users.php:87
+msgid "Add as member"
+msgstr "Dodaj jako członka"
+
+#: includes/famefe-users.php:86
+msgid "Not a member."
+msgstr "Nie jest członkiem."
+
+#. translators: 1: first day of the period, 2: last day of the period.
+#: includes/famefe-stripe.php:122
+msgid "Membership fee %1$s – %2$s"
+msgstr "Składka członkowska %1$s – %2$s"
+
+#. translators: 1: amount, 2: currency symbol or code (Kč, €, USD).
+#: includes/famefe-settings.php:95
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: includes/famefe-notices.php:61
+msgid "The data could not be saved. Please try again."
+msgstr "Nie udało się zapisać danych. Spróbuj ponownie."
+
+#: includes/famefe-notices.php:60
+msgid "The payment has not been confirmed yet. If you paid, it will appear shortly."
+msgstr "Płatność nie została jeszcze potwierdzona. Jeśli zapłacono, pojawi się wkrótce."
+
+#: includes/famefe-notices.php:59
+msgid "The payment service could not be reached. Please try again later."
+msgstr "Nie udało się połączyć z usługą płatności. Spróbuj ponownie później."
+
+#: includes/famefe-notices.php:58
+msgid "Online payment is not set up."
+msgstr "Płatność online nie jest skonfigurowana."
+
+#: includes/famefe-notices.php:57
+msgid "The block of this form was not found on the page. Please reload the page."
+msgstr "Nie znaleziono bloku tego formularza na stronie. Odśwież stronę."
+
+#: includes/famefe-notices.php:56
+msgid "There is nothing to pay."
+msgstr "Nie ma nic do zapłaty."
+
+#: includes/famefe-notices.php:55
+msgid "The membership fee for this period has already been paid."
+msgstr "Składka członkowska za ten okres została już zapłacona."
+
+#: includes/famefe-notices.php:54
+msgid "Choose a valid payment method."
+msgstr "Wybierz prawidłową metodę płatności."
+
+#: includes/famefe-notices.php:53
+msgid "Enter a valid amount."
+msgstr "Wpisz prawidłową kwotę."
+
+#: includes/famefe-notices.php:51
+msgid "Describe the work, please."
+msgstr "Opisz, proszę, wykonaną pracę."
+
+#: includes/famefe-notices.php:50
+msgid "Hours cannot be recorded for this date any more."
+msgstr "Dla tej daty nie można już rejestrować godzin."
+
+#: includes/famefe-notices.php:49
+msgid "These hours can no longer be deleted here; the time limit has passed."
+msgstr "Tych godzin nie można już tu usunąć; termin minął."
+
+#: includes/famefe-notices.php:48
+msgid "Enter a valid number of hours."
+msgstr "Wpisz prawidłową liczbę godzin."
+
+#: includes/famefe-notices.php:47
+msgid "The member has hours or payments and cannot be deleted. End the membership instead."
+msgstr "Członek ma godziny lub płatności i nie może zostać usunięty. Zamiast tego zakończ członkostwo."
+
+#: includes/famefe-notices.php:45
+msgid "This e-mail address is already used by another user account."
+msgstr "Ten adres e-mail jest już używany przez inne konto użytkownika."
+
+#: includes/famefe-notices.php:44
+msgid "Enter a valid e-mail address."
+msgstr "Wpisz prawidłowy adres e-mail."
+
+#: includes/famefe-notices.php:43
+msgid "This change is not possible for the member (check the status and the date)."
+msgstr "Ta zmiana nie jest możliwa dla tego członka (sprawdź status i datę)."
+
+#: includes/famefe-notices.php:42
+msgid "\"Member since\" cannot be after the end of the membership."
+msgstr "„Członek od” nie może być późniejsze niż koniec członkostwa."
+
+#: includes/famefe-notices.php:41
+msgid "Choose a valid membership type."
+msgstr "Wybierz prawidłowy rodzaj członkostwa."
+
+#: includes/famefe-notices.php:40
+msgid "Enter a valid date."
+msgstr "Wpisz prawidłową datę."
+
+#: includes/famefe-notices.php:39
+msgid "Enter the first or the last name."
+msgstr "Wpisz imię lub nazwisko."
+
+#: includes/famefe-notices.php:38
+msgid "The record was not found."
+msgstr "Nie znaleziono wpisu."
+
+#: includes/famefe-notices.php:37
+msgid "The form has expired. Please reload the page and try again."
+msgstr "Formularz wygasł. Odśwież stronę i spróbuj ponownie."
+
+#: includes/famefe-notices.php:36
+msgid "Please log in first."
+msgstr "Najpierw się zaloguj."
+
+#: includes/famefe-notices.php:35
+msgid "You are not allowed to do this."
+msgstr "Nie masz uprawnień do wykonania tej czynności."
+
+#: includes/famefe-notices.php:33
+msgid "The settings were saved."
+msgstr "Ustawienia zostały zapisane."
+
+#: includes/famefe-notices.php:32
+msgid "The payment was cancelled. You can try again at any time."
+msgstr "Płatność została anulowana. Możesz spróbować ponownie w dowolnym momencie."
+
+#: includes/famefe-notices.php:31
+msgid "Thank you, your membership fee was paid."
+msgstr "Dziękujemy, Twoja składka członkowska została zapłacona."
+
+#: includes/famefe-notices.php:30
+msgid "The payment was deleted."
+msgstr "Płatność została usunięta."
+
+#: includes/famefe-notices.php:29
+msgid "The payment was recorded."
+msgstr "Płatność została zarejestrowana."
+
+#: includes/famefe-notices.php:28
+msgid "The hours were deleted."
+msgstr "Godziny zostały usunięte."
+
+#: includes/famefe-notices.php:27
+msgid "The hours were saved."
+msgstr "Godziny zostały zapisane."
+
+#: includes/famefe-notices.php:26
+msgid "Thank you, your hours were recorded."
+msgstr "Dziękujemy, Twoje godziny zostały zarejestrowane."
+
+#: includes/famefe-notices.php:25
+msgid "The member was deleted."
+msgstr "Członek został usunięty."
+
+#: includes/famefe-notices.php:24
+msgid "The change of the membership was recorded."
+msgstr "Zmiana członkostwa została zarejestrowana."
+
+#: includes/famefe-notices.php:23
+msgid "The member was saved."
+msgstr "Członek został zapisany."
+
+#: includes/famefe-notices.php:22
+msgid "The member and the user account were created. The member got an e-mail with a link for setting the password."
+msgstr "Członek i konto użytkownika zostały utworzone. Członek otrzymał e-mail z odnośnikiem do ustawienia hasła."
+
+#: includes/famefe-notices.php:21
+msgid "The member and the user account were created."
+msgstr "Członek i konto użytkownika zostały utworzone."
+
+#: includes/famefe-notices.php:20
+msgid "The member was added."
+msgstr "Członek został dodany."
+
+#: includes/famefe-data.php:241
+msgid "Deleted user"
+msgstr "Usunięty użytkownik"
+
+#: includes/famefe-data.php:191
+msgid "Unknown name"
+msgstr "Nieznane imię i nazwisko"
+
+#: includes/famefe-data.php:51
+msgid "Bank transfer"
+msgstr "Przelew bankowy"
+
+#: includes/famefe-data.php:50
+msgid "Cash"
+msgstr "Gotówka"
+
+#: includes/famefe-data.php:49
+msgid "Card (Stripe)"
+msgstr "Karta (Stripe)"
+
+#: includes/famefe-data.php:39
+msgid "\"Member since\" corrected"
+msgstr "Poprawiono „Członek od”"
+
+#: includes/famefe-data.php:38
+msgid "Rejoined"
+msgstr "Ponowne przyjęcie"
+
+#: includes/famefe-data.php:37
+msgid "Membership ended"
+msgstr "Zakończenie członkostwa"
+
+#: includes/famefe-data.php:36
+msgid "Membership type changed"
+msgstr "Zmiana rodzaju członkostwa"
+
+#: includes/famefe-data.php:35
+msgid "Joined"
+msgstr "Przyjęcie"
+
+#: includes/famefe-data.php:25
+msgid "Honorary"
+msgstr "Honorowy"
+
+#: includes/famefe-data.php:24
+msgid "Regular"
+msgstr "Zwyczajny"
+
+#: includes/famefe-admin.php:673
+msgid "All regular members of the period together pay the base fee times their number (the expected total). Each member’s share of the volunteer hours of all regular members lowers the fee; what is collected above the expected total is taken off everybody equally, and no fee goes below zero. A member without any hours in the period always pays twice the base fee. Honorary members pay nothing. With the optional discount, the given share of members with the lowest fees pays the given percentage less, or as much less as needed for the given total to collect; nothing is moved to the others."
+msgstr "Wszyscy członkowie zwyczajni okresu razem płacą składkę podstawową pomnożoną przez ich liczbę (oczekiwana suma). Udział każdego członka w godzinach wolontariatu wszystkich członków zwyczajnych obniża jego składkę; to, co zebrano ponad oczekiwaną sumę, jest odejmowane wszystkim po równo, a żadna składka nie spada poniżej zera. Członek bez godzin w okresie zawsze płaci podwójną składkę podstawową. Członkowie honorowi nie płacą nic. Przy opcjonalnej zniżce podany udział członków z najniższymi składkami płaci o podany procent mniej albo o tyle mniej, ile trzeba dla podanej sumy do zebrania; nic nie jest przenoszone na pozostałych."
+
+#: includes/famefe-admin.php:672
+msgid "How the fee is calculated"
+msgstr "Jak obliczana jest składka"
+
+#: includes/famefe-admin.php:663
+msgid "Blocks"
+msgstr "Bloki"
+
+#: includes/famefe-admin.php:659
+msgid "Add the blocks to your pages: search for \"Fair Member Fees\" in the block inserter."
+msgstr "Dodaj bloki do swoich stron: wyszukaj „Fair Member Fees” w narzędziu do wstawiania bloków."
+
+#: includes/famefe-admin.php:658
+msgid "Set the currency, and Stripe if you want online payments (Settings)."
+msgstr "Ustaw walutę oraz, jeśli chcesz płatności online, Stripe (Ustawienia)."
+
+#: includes/famefe-admin.php:657
+msgid "Add your members (Members → Add member) and link them to their user accounts."
+msgstr "Dodaj swoich członków (Członkowie → Dodaj członka) i powiąż ich z ich kontami użytkowników."
+
+#: includes/famefe-admin.php:655
+msgid "Getting started"
+msgstr "Pierwsze kroki"
+
+#: includes/famefe-admin.php:653
+msgid "Fair Member Fees help"
+msgstr "Pomoc Fair Member Fees"
+
+#: includes/famefe-admin.php:649
+msgid "Explains the calculation on an example with your numbers."
+msgstr "Wyjaśnia obliczenie na przykładzie z Twoimi liczbami."
+
+#: includes/famefe-admin.php:649
+msgid "Fee calculation explained"
+msgstr "Wyjaśnienie obliczania składki"
+
+#: includes/famefe-admin.php:648
+msgid "The membership register with the date of the last change and who recorded it; visible to logged-in users by default."
+msgstr "Rejestr członków z datą ostatniej zmiany i osobą, która ją zarejestrowała; domyślnie widoczny dla zalogowanych użytkowników."
+
+#: includes/famefe-admin.php:648
+msgid "Members list"
+msgstr "Lista członków"
+
+#: includes/famefe-admin.php:647
+msgid "Recorded hours for a period, all or only the visitor’s own."
+msgstr "Zarejestrowane godziny w okresie, wszystkie lub tylko własne odwiedzającego."
+
+#: includes/famefe-admin.php:647
+msgid "Volunteer hours list"
+msgstr "Lista godzin wolontariatu"
+
+#: includes/famefe-admin.php:646
+msgid "Members record their own hours. Set the maximum hours per entry, how many days back a date may be, and whether a description is required."
+msgstr "Członkowie rejestrują własne godziny. Ustaw maksymalną liczbę godzin na wpis, ile dni wstecz może być data i czy opis jest wymagany."
+
+#: includes/famefe-admin.php:646
+msgid "Volunteer hours form"
+msgstr "Formularz godzin wolontariatu"
+
+#: includes/famefe-admin.php:645
+msgid "The table of fees for a period. Set the period, the base fee and the optional discount in the block settings. Until the volunteer hours of the period are closed, it shows the fees calculated so far; then turn on its payment button and members can pay their final fee. Administrators and editors can record cash and bank payments right there. Clubs that only keep records of hours leave the button off."
+msgstr "Tabela składek za okres. Okres, składkę podstawową i opcjonalną zniżkę ustawiasz w ustawieniach bloku. Dopóki godziny wolontariatu okresu nie zostaną zamknięte, pokazuje dotychczas obliczone składki; potem włącz jej przycisk płatności, a członkowie będą mogli zapłacić ostateczną składkę. Administratorzy i redaktorzy mogą tam od razu rejestrować wpłaty gotówkowe i przelewy. Kluby, które tylko ewidencjonują godziny, pozostawiają przycisk wyłączony."
+
+#: includes/famefe-admin.php:645
+msgid "Membership fees"
+msgstr "Składki członkowskie"
+
+#: includes/famefe-admin.php:635 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:123
+msgid "Shortened for data protection: first 4 and last 4 characters (Janaková)"
+msgstr "Skrócone ze względu na ochronę danych: pierwsze 4 i ostatnie 4 znaki (Annalska)"
+
+#: includes/famefe-admin.php:634 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:116
+msgid "Display name of the user account"
+msgstr "Nazwa wyświetlana konta użytkownika"
+
+#: includes/famefe-admin.php:633 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:112
+msgid "Initials (J. S.)"
+msgstr "Inicjały (A. K.)"
+
+#: includes/famefe-admin.php:632 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:105
+msgid "First name and initial (Jane S.)"
+msgstr "Imię i inicjał (Anna K.)"
+
+#: includes/famefe-admin.php:631 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:101
+msgid "Full name (Jane Smith)"
+msgstr "Imię i nazwisko (Anna Kowalska)"
+
+#: includes/famefe-admin.php:616
+msgid "Delete all members, hours, payments and settings when the plugin is deleted."
+msgstr "Usuń wszystkich członków, godziny, płatności i ustawienia podczas usuwania wtyczki."
+
+#: includes/famefe-admin.php:615
+msgid "Delete data"
+msgstr "Usuń dane"
+
+#: includes/famefe-admin.php:612
+msgid "Uninstall"
+msgstr "Odinstalowanie"
+
+#: includes/famefe-admin.php:607
+msgid "Default for all blocks; each block can override it."
+msgstr "Domyślne dla wszystkich bloków; każdy blok może to zmienić."
+
+#: includes/famefe-admin.php:600
+msgid "Names in blocks"
+msgstr "Imiona i nazwiska w blokach"
+
+#: includes/famefe-admin.php:597
+msgid "Logged-in users who are not members may record their hours too (they count only in the totals)."
+msgstr "Zalogowani użytkownicy, którzy nie są członkami, także mogą rejestrować swoje godziny (liczą się tylko w sumach)."
+
+#: includes/famefe-admin.php:596
+msgid "Hours of non-members"
+msgstr "Godziny osób niebędących członkami"
+
+#: includes/famefe-admin.php:593
+msgid "Volunteer hours and names"
+msgstr "Godziny wolontariatu i imiona"
+
+#: includes/famefe-admin.php:588
+msgid "Add this address in Stripe (Developers → Webhooks) with the events checkout.session.completed and checkout.session.async_payment_succeeded, then copy its signing secret here. Payments are recorded even when a member closes the browser before returning to your site."
+msgstr "Dodaj ten adres w Stripe (Developers → Webhooks) ze zdarzeniami checkout.session.completed i checkout.session.async_payment_succeeded, a następnie skopiuj tutaj jego sekret podpisu. Płatności są rejestrowane nawet wtedy, gdy członek zamknie przeglądarkę przed powrotem na Twoją stronę."
+
+#: includes/famefe-admin.php:585
+msgid "Webhook endpoint"
+msgstr "Punkt końcowy webhooka"
+
+#: includes/famefe-admin.php:575
+msgid "Live webhook signing secret"
+msgstr "Sekret podpisu webhooka (produkcyjny)"
+
+#: includes/famefe-admin.php:574
+msgid "Live secret key"
+msgstr "Tajny klucz produkcyjny"
+
+#: includes/famefe-admin.php:573
+msgid "Test webhook signing secret"
+msgstr "Sekret podpisu webhooka (testowy)"
+
+#: includes/famefe-admin.php:572
+msgid "Test secret key"
+msgstr "Tajny klucz testowy"
+
+#: includes/famefe-admin.php:567
+msgid "Live"
+msgstr "Produkcyjny"
+
+#: includes/famefe-admin.php:566
+msgid "Test (no real money)"
+msgstr "Testowy (bez prawdziwych pieniędzy)"
+
+#: includes/famefe-admin.php:564
+msgid "Mode"
+msgstr "Tryb"
+
+#: includes/famefe-admin.php:561
+msgid "Members pay on the Stripe payment page. Fill in the secret key of the mode you use; without it the Membership fees block shows no payment button."
+msgstr "Członkowie płacą na stronie płatności Stripe. Wpisz tajny klucz używanego trybu; bez niego blok Składki członkowskie nie pokazuje przycisku płatności."
+
+#: includes/famefe-admin.php:560
+msgid "Stripe"
+msgstr "Stripe"
+
+#: includes/famefe-admin.php:555
+msgid "Fees are rounded to this number of decimals. Leave empty to use the usual number of the currency (CZK 0, EUR and USD 2)."
+msgstr "Składki są zaokrąglane do tej liczby miejsc po przecinku. Pozostaw puste, aby użyć zwykłej liczby dla waluty (CZK 0, EUR i USD 2)."
+
+#: includes/famefe-admin.php:552
+msgid "Decimal places"
+msgstr "Miejsca po przecinku"
+
+#: includes/famefe-admin.php:548
+msgid "Three-letter ISO code, e.g. CZK, EUR, USD."
+msgstr "Trzyliterowy kod ISO, np. CZK, EUR, USD."
+
+#: includes/famefe-admin.php:545
+msgid "Currency"
+msgstr "Waluta"
+
+#: includes/famefe-admin.php:542
+msgid "Money"
+msgstr "Pieniądze"
+
+#: includes/famefe-admin.php:539
+msgid "The season (period), the base fee and the discount are set in the Membership fees block on your page."
+msgstr "Sezon (okres), składkę podstawową i zniżkę ustawia się w bloku Składki członkowskie na Twojej stronie."
+
+#: includes/famefe-admin.php:537
+msgid "Fair Member Fees settings"
+msgstr "Ustawienia Fair Member Fees"
+
+#. translators: %s: currency code.
+#: includes/famefe-admin.php:483
+msgid "Amount (%s)"
+msgstr "Kwota (%s)"
+
+#: includes/famefe-admin.php:479
+msgid "to"
+msgstr "do"
+
+#: includes/famefe-admin.php:478
+msgid "Period from"
+msgstr "Okres od"
+
+#: includes/famefe-admin.php:474
+msgid "Cash and bank payments. The period must be the same as in the Membership fees block, otherwise the block does not show the member as paid. Card payments are recorded automatically."
+msgstr "Wpłaty gotówkowe i przelewy. Okres musi być taki sam jak w bloku Składki członkowskie, w przeciwnym razie blok nie pokaże członka jako opłaconego. Płatności kartą są rejestrowane automatycznie."
+
+#: includes/famefe-admin.php:473
+msgid "Record a payment"
+msgstr "Zarejestruj płatność"
+
+#. translators: %s: number of hours.
+#: includes/famefe-admin.php:451
+msgid "Total: %s hours"
+msgstr "Suma: %s godz."
+
+#: includes/famefe-admin.php:447 includes/famefe-admin.php:505
+msgid "Filter"
+msgstr "Filtruj"
+
+#: includes/famefe-admin.php:433
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: includes/famefe-admin.php:431
+msgid "Save"
+msgstr "Zapisz"
+
+#: includes/famefe-admin.php:419
+msgid "Record hours for a member"
+msgstr "Zarejestruj godziny dla członka"
+
+#: includes/famefe-admin.php:419
+msgid "Edit hours"
+msgstr "Edytuj godziny"
+
+#: includes/famefe-admin.php:380 includes/famefe-admin.php:440 build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:159
+msgid "To"
+msgstr "Do"
+
+#: includes/famefe-admin.php:379 includes/famefe-admin.php:439 build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:149
+msgid "From"
+msgstr "Od"
+
+#: includes/famefe-admin.php:373
+msgid "History"
+msgstr "Historia"
+
+#: includes/famefe-admin.php:370
+msgid "Active"
+msgstr "Aktywny"
+
+#: includes/famefe-admin.php:357
+msgid "Record the change"
+msgstr "Zarejestruj zmianę"
+
+#: includes/famefe-admin.php:355
+msgid "Valid from"
+msgstr "Ważne od"
+
+#: includes/famefe-admin.php:353
+msgid "Rejoin"
+msgstr "Przyjmij ponownie"
+
+#: includes/famefe-admin.php:348
+msgid "End the membership"
+msgstr "Zakończ członkostwo"
+
+#. translators: %s: membership type (Regular, Honorary).
+#: includes/famefe-admin.php:343
+msgid "Change type to: %s"
+msgstr "Zmień rodzaj na: %s"
+
+#: includes/famefe-admin.php:336 includes/famefe-admin.php:378
+msgid "Change"
+msgstr "Zmień"
+
+#: includes/famefe-admin.php:330 includes/famefe-users.php:80
+msgid "Membership"
+msgstr "Członkostwo"
+
+#. translators: %s: date.
+#: includes/famefe-admin.php:327 includes/famefe-users.php:110
+msgid "Membership ended on %s"
+msgstr "Członkostwo zakończone %s"
+
+#. translators: 1: membership type, 2: date.
+#: includes/famefe-admin.php:325 includes/famefe-users.php:113
+msgid "%1$s member since %2$s"
+msgstr "%1$s członek od %2$s"
+
+#: includes/famefe-admin.php:311
+msgid "Delete member entered by mistake"
+msgstr "Usuń członka dodanego przez pomyłkę"
+
+#: includes/famefe-admin.php:311
+msgid "Delete this member? Use this only for a member entered by mistake."
+msgstr "Usunąć tego członka? Używaj tego tylko dla członka dodanego przez pomyłkę."
+
+#: includes/famefe-admin.php:297
+msgid "Save details"
+msgstr "Zapisz dane"
+
+#: includes/famefe-admin.php:288
+msgid "Only to correct a mistake; the correction is recorded in the history. Membership changes go below."
+msgstr "Tylko do poprawienia błędu; poprawka jest zapisywana w historii. Zmiany członkostwa znajdują się poniżej."
+
+#: includes/famefe-admin.php:279
+msgid "Regular members pay the membership fee, honorary members do not."
+msgstr "Członkowie zwyczajni płacą składkę członkowską, członkowie honorowi nie."
+
+#: includes/famefe-admin.php:272 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:108
+msgid "Membership type"
+msgstr "Rodzaj członkostwa"
+
+#: includes/famefe-admin.php:266
+msgid "For an existing account, the name and e-mail of the account are used; these fields only fill in what the account lacks."
+msgstr "W przypadku istniejącego konta używane są imię i nazwisko oraz e-mail konta; te pola uzupełniają tylko to, czego brakuje w koncie."
+
+#: includes/famefe-admin.php:264
+msgid "Changes of the name and e-mail are saved to the user account too."
+msgstr "Zmiany imienia i nazwiska oraz e-maila są zapisywane także w koncie użytkownika."
+
+#: includes/famefe-admin.php:262
+msgid "The name and e-mail come from the user account, which you are not allowed to edit."
+msgstr "Imię i nazwisko oraz e-mail pochodzą z konta użytkownika, którego nie możesz edytować."
+
+#: includes/famefe-admin.php:254
+msgid "Last name"
+msgstr "Nazwisko"
+
+#: includes/famefe-admin.php:250
+msgid "First name"
+msgstr "Imię"
+
+#: includes/famefe-admin.php:245
+msgid "Members with an account can record their hours and pay online."
+msgstr "Członkowie z kontem mogą rejestrować swoje godziny i płacić online."
+
+#: includes/famefe-admin.php:243
+msgid "Open the profile"
+msgstr "Otwórz profil"
+
+#: includes/famefe-admin.php:238
+msgid "Members with an account can record their hours and pay online. The name and e-mail of a linked member are those of the account."
+msgstr "Członkowie z kontem mogą rejestrować swoje godziny i płacić online. Imię i nazwisko oraz e-mail powiązanego członka pochodzą z konta."
+
+#: includes/famefe-admin.php:236
+msgid "Without a user account"
+msgstr "Bez konta użytkownika"
+
+#: includes/famefe-admin.php:233
+msgid "The account gets the default role of the site; the e-mail address is required."
+msgstr "Konto otrzymuje domyślną rolę witryny; adres e-mail jest wymagany."
+
+#: includes/famefe-admin.php:232
+msgid "Send the member an e-mail with a link for setting the password"
+msgstr "Wyślij członkowi e-mail z odnośnikiem do ustawienia hasła"
+
+#: includes/famefe-admin.php:230
+msgid "Create a new user account"
+msgstr "Utwórz nowe konto użytkownika"
+
+#: includes/famefe-admin.php:227
+msgid "Existing user account"
+msgstr "Istniejące konto użytkownika"
+
+#: includes/famefe-admin.php:217
+msgid "— No account —"
+msgstr "— Bez konta —"
+
+#: includes/famefe-admin.php:205
+msgid "Details"
+msgstr "Dane"
+
+#: includes/famefe-admin.php:202
+msgid "No account found."
+msgstr "Nie znaleziono konta."
+
+#. translators: %d: number of user accounts found.
+#: includes/famefe-admin.php:201
+msgid "Found: %d"
+msgstr "Znaleziono: %d"
+
+#: includes/famefe-admin.php:199 includes/famefe-notices.php:46
+msgid "This user account already belongs to another member."
+msgstr "To konto użytkownika należy już do innego członka."
+
+#: includes/famefe-admin.php:194
+msgid "Back to the members"
+msgstr "Powrót do członków"
+
+#: includes/famefe-admin.php:176
+msgid "Search members"
+msgstr "Szukaj członków"
+
+#: includes/famefe-admin.php:165 includes/famefe-admin.php:193 includes/famefe-admin.php:297
+msgid "Add member"
+msgstr "Dodaj członka"
+
+#: includes/famefe-admin.php:143
+msgid "Search user accounts"
+msgstr "Szukaj kont użytkowników"
+
+#: includes/famefe-admin.php:142
+msgid "Search accounts by name or login…"
+msgstr "Szukaj kont według nazwy lub loginu…"
+
+#. translators: 1: name of the person, 2: date and time.
+#: includes/famefe-admin.php:132
+msgid "%1$s on %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: %s: date and time.
+#: includes/famefe-admin.php:129
+msgid "automatically on %s"
+msgstr "automatycznie, %s"
+
+#: includes/famefe-admin.php:33
+msgid "Help"
+msgstr "Pomoc"
+
+#: includes/famefe-admin.php:32
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: includes/famefe-admin.php:31 includes/famefe-admin.php:470
+msgid "Payments"
+msgstr "Płatności"
+
+#: includes/famefe-admin.php:30 includes/famefe-admin.php:415
+msgid "Volunteer hours"
+msgstr "Godziny wolontariatu"
+
+#: includes/famefe-admin.php:22
+msgid "Member Fees"
+msgstr "Składki członkowskie"
+
+#: includes/famefe-admin-tables.php:334
+msgid "Delete this payment? The member will be shown as unpaid."
+msgstr "Usunąć tę płatność? Członek będzie pokazany jako nieopłacony."
+
+#: includes/famefe-admin-tables.php:324
+msgid "No payments recorded."
+msgstr "Brak zarejestrowanych płatności."
+
+#: includes/famefe-admin-tables.php:307 includes/famefe-admin.php:293 includes/famefe-admin.php:356 includes/famefe-admin.php:381 includes/famefe-admin.php:494
+msgid "Note"
+msgstr "Notatka"
+
+#: includes/famefe-admin-tables.php:305
+msgid "Amount"
+msgstr "Kwota"
+
+#: includes/famefe-admin-tables.php:304 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:25
+msgid "Period"
+msgstr "Okres"
+
+#. translators: %s: name of a user who is not a member.
+#: includes/famefe-admin-tables.php:266
+msgid "%s (not a member)"
+msgstr "%s (nie jest członkiem)"
+
+#: includes/famefe-admin-tables.php:251
+msgid "Edit"
+msgstr "Edytuj"
+
+#: includes/famefe-admin-tables.php:154
+msgid "Edit and history"
+msgstr "Edycja i historia"
+
+#: includes/famefe-admin-tables.php:152
+msgid "(no name)"
+msgstr "(bez nazwy)"
+
+#: includes/famefe-admin-tables.php:128 includes/famefe-admin.php:443 includes/famefe-admin.php:501
+msgid "All"
+msgstr "Wszyscy"
+
+#: includes/famefe-admin-tables.php:127 includes/famefe-admin.php:109 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:34
+msgid "Former members"
+msgstr "Byli członkowie"
+
+#: includes/famefe-admin-tables.php:126 includes/famefe-admin.php:29 includes/famefe-admin.php:109 includes/famefe-admin.php:164 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:21
+msgid "Members"
+msgstr "Członkowie"
+
+#: includes/famefe-admin-tables.php:39 includes/famefe-admin.php:258
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/famefe-admin-tables.php:38 includes/famefe-admin.php:223
+msgid "User account"
+msgstr "Konto użytkownika"
+
+#: build/blocks/membership-fees/render.php:306 src/blocks/membership-fees/render.php:306
+msgid "Only administrators and editors see this form. The amount is the calculated fee of the member."
+msgstr "Ten formularz widzą tylko administratorzy i redaktorzy. Kwota to obliczona składka członka."
+
+#: build/blocks/membership-fees/render.php:305 includes/famefe-admin.php:495 src/blocks/membership-fees/render.php:305
+msgid "Record payment"
+msgstr "Zarejestruj płatność"
+
+#: build/blocks/membership-fees/render.php:295 includes/famefe-admin-tables.php:306 includes/famefe-admin.php:487 src/blocks/membership-fees/render.php:295
+msgid "Method"
+msgstr "Metoda"
+
+#: build/blocks/membership-fees/render.php:287 src/blocks/membership-fees/render.php:287
+msgid "Member and fee"
+msgstr "Członek i składka"
+
+#: build/blocks/membership-fees/render.php:283 src/blocks/membership-fees/render.php:283
+msgid "Record a cash or bank payment (administrators and editors)"
+msgstr "Zarejestruj wpłatę gotówkową lub przelew (administratorzy i redaktorzy)"
+
+#: build/blocks/membership-fees/render.php:267 src/blocks/membership-fees/render.php:267
+msgid "(Visible only to administrators and editors.)"
+msgstr "(Widoczne tylko dla administratorów i redaktorów.)"
+
+#: build/blocks/membership-fees/render.php:261 src/blocks/membership-fees/render.php:261
+msgid "The payment button is shown only to logged-in regular members who have a fee to pay."
+msgstr "Przycisk płatności jest pokazywany tylko zalogowanym członkom zwyczajnym, którzy mają składkę do zapłaty."
+
+#: build/blocks/membership-fees/render.php:259 src/blocks/membership-fees/render.php:259
+msgid "The fees are final, but members cannot pay online: Stripe is not set up yet (Member Fees → Settings → Stripe secret key)."
+msgstr "Składki są ostateczne, ale członkowie nie mogą zapłacić online: Stripe nie jest jeszcze skonfigurowany (Składki członkowskie → Ustawienia → tajny klucz Stripe)."
+
+#: build/blocks/membership-fees/render.php:257 src/blocks/membership-fees/render.php:257
+msgid "The payment button is off: the fees are shown as calculated so far. Turn it on in the block settings (\"Payment button\") once the volunteer hours of the period are closed and the fees are final. Leave it off if you do not collect fees through this page."
+msgstr "Przycisk płatności jest wyłączony: składki są pokazywane tak, jak obliczono je do tej pory. Włącz go w ustawieniach bloku („Przycisk płatności”), gdy godziny wolontariatu okresu zostaną zamknięte, a składki będą ostateczne. Pozostaw go wyłączony, jeśli nie pobierasz składek przez tę stronę."
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:244 src/blocks/membership-fees/render.php:244
+msgid "Pay %s online"
+msgstr "Zapłać %s online"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:233 src/blocks/membership-fees/render.php:233
+msgid "Your membership fee: %s"
+msgstr "Twoja składka członkowska: %s"
+
+#: build/blocks/membership-fees/render.php:227 src/blocks/membership-fees/render.php:227
+msgid "You do not need to pay a membership fee for this period. Thank you for your work!"
+msgstr "W tym okresie nie musisz płacić składki członkowskiej. Dziękujemy za Twoją pracę!"
+
+#: build/blocks/membership-fees/render.php:221 src/blocks/membership-fees/render.php:221
+msgid "The fee will be final once the volunteer hours of this period are closed."
+msgstr "Składka będzie ostateczna, gdy godziny wolontariatu tego okresu zostaną zamknięte."
+
+#: build/blocks/membership-fees/render.php:219 src/blocks/membership-fees/render.php:219
+msgid "The fee will be final once the volunteer hours of this period are closed; then you can pay it here."
+msgstr "Składka będzie ostateczna, gdy godziny wolontariatu tego okresu zostaną zamknięte; wtedy możesz ją tu zapłacić."
+
+#: build/blocks/membership-fees/render.php:214 src/blocks/membership-fees/render.php:214
+msgid "Thank you for your work!"
+msgstr "Dziękujemy za Twoją pracę!"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:209 src/blocks/membership-fees/render.php:209
+msgid "With the volunteer hours recorded so far, your membership fee is %s."
+msgstr "Przy zarejestrowanych dotąd godzinach wolontariatu Twoja składka członkowska wynosi %s."
+
+#. translators: 1: amount, 2: date.
+#: build/blocks/membership-fees/render.php:198 src/blocks/membership-fees/render.php:198
+msgid "You paid %1$s on %2$s. Thank you!"
+msgstr "Zapłacono %1$s dnia %2$s. Dziękujemy!"
+
+#: build/blocks/membership-fees/render.php:144 src/blocks/membership-fees/render.php:144
+msgid "There are no members in this period."
+msgstr "W tym okresie nie ma członków."
+
+#. translators: 1: period (from – to), 2: base fee with currency.
+#: build/blocks/membership-fees/render.php:135 src/blocks/membership-fees/render.php:135
+msgid "Membership fees for %1$s. Base fee: %2$s."
+msgstr "Składki członkowskie za %1$s. Składka podstawowa: %2$s."
+
+#. translators: 1: first day of the period, 2: last day of the period.
+#: build/blocks/membership-fees/render.php:122 src/blocks/membership-fees/render.php:122
+msgid "%1$s – %2$s"
+msgstr "%1$s – %2$s"
+
+#: build/blocks/membership-fees/render.php:106 src/blocks/membership-fees/render.php:106
+msgid "Non-members and former members"
+msgstr "Osoby niebędące członkami i byli członkowie"
+
+#. translators: 1: number of members who paid, 2: number of regular members.
+#: build/blocks/membership-fees/render.php:94 src/blocks/membership-fees/render.php:94
+msgid "%1$d of %2$d"
+msgstr "%1$d z %2$d"
+
+#: build/blocks/membership-fees/render.php:47 build/blocks/membership-fees/render.php:302 includes/famefe-admin-tables.php:302 includes/famefe-admin.php:493 src/blocks/membership-fees/render.php:47 src/blocks/membership-fees/render.php:302 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:125
+msgid "Paid on"
+msgstr "Data zapłaty"
+
+#: build/blocks/members-list/render.php:99 includes/famefe-admin-tables.php:160 includes/famefe-admin.php:370 includes/famefe-users.php:159 src/blocks/members-list/render.php:99
+msgid "Former member"
+msgstr "Były członek"
+
+#: build/blocks/members-list/render.php:83 src/blocks/members-list/render.php:83 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:38
+msgid "Search by name"
+msgstr "Szukaj według nazwiska"
+
+#: build/blocks/members-list/render.php:82 src/blocks/members-list/render.php:82
+msgid "Search by name…"
+msgstr "Szukaj według nazwiska…"
+
+#: build/blocks/members-list/render.php:77 includes/famefe-admin-tables.php:146 src/blocks/members-list/render.php:77
+msgid "No members found."
+msgstr "Nie znaleziono członków."
+
+#. translators: %d: number of current members.
+#: build/blocks/members-list/render.php:72 src/blocks/members-list/render.php:72
+msgid "Current members (%d)"
+msgstr "Obecni członkowie (%d)"
+
+#. translators: %d: number of former members.
+#: build/blocks/members-list/render.php:69 src/blocks/members-list/render.php:69
+msgid "Former members (%d)"
+msgstr "Byli członkowie (%d)"
+
+#. translators: %d: number of honorary members.
+#: build/blocks/members-list/render.php:66 build/blocks/membership-fees/render.php:99 src/blocks/members-list/render.php:66 src/blocks/membership-fees/render.php:99
+msgid "Honorary members (%d)"
+msgstr "Członkowie honorowi (%d)"
+
+#. translators: %d: number of regular members.
+#: build/blocks/members-list/render.php:64 build/blocks/membership-fees/render.php:86 src/blocks/members-list/render.php:64 src/blocks/membership-fees/render.php:86
+msgid "Regular members (%d)"
+msgstr "Członkowie zwyczajni (%d)"
+
+#: build/blocks/members-list/render.php:45 includes/famefe-admin-tables.php:37 includes/famefe-admin-tables.php:220 includes/famefe-admin-tables.php:308 includes/famefe-admin.php:382 src/blocks/members-list/render.php:45 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:80
+msgid "Recorded by"
+msgstr "Zarejestrował(a)"
+
+#: build/blocks/members-list/render.php:44 includes/famefe-admin-tables.php:36 includes/famefe-admin.php:377 src/blocks/members-list/render.php:44 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:76
+msgid "Change date"
+msgstr "Data zmiany"
+
+#: build/blocks/members-list/render.php:43 includes/famefe-admin-tables.php:35 src/blocks/members-list/render.php:43 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:72
+msgid "Last change"
+msgstr "Ostatnia zmiana"
+
+#: build/blocks/members-list/render.php:42 includes/famefe-admin-tables.php:34 includes/famefe-admin.php:284 src/blocks/members-list/render.php:42 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:68
+msgid "Member since"
+msgstr "Członek od"
+
+#: build/blocks/members-list/render.php:19 src/blocks/members-list/render.php:19
+msgid "The list of members is available to logged-in users."
+msgstr "Lista członków jest dostępna dla zalogowanych użytkowników."
+
+#. translators: 1: number of hours, 2: number of entries.
+#: build/blocks/hours-list/render.php:112 src/blocks/hours-list/render.php:112
+msgid "Total: %1$s hours in %2$d entry"
+msgid_plural "Total: %1$s hours in %2$d entries"
+msgstr[0] "Suma: %1$s godz. w %2$d wpisie"
+msgstr[1] "Suma: %1$s godz. w %2$d wpisach"
+msgstr[2] "Suma: %1$s godz. w %2$d wpisach"
+
+#: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:256 includes/famefe-admin-tables.php:335 src/blocks/hours-list/render.php:94
+msgid "Delete"
+msgstr "Usuń"
+
+#: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:255 src/blocks/hours-list/render.php:94
+msgid "Delete these hours?"
+msgstr "Usunąć te godziny?"
+
+#: build/blocks/hours-list/render.php:72 src/blocks/hours-list/render.php:72
+msgid "Actions"
+msgstr "Działania"
+
+#: build/blocks/hours-list/render.php:69 build/blocks/members-list/render.php:46 src/blocks/hours-list/render.php:69 src/blocks/members-list/render.php:46 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 src/blocks/hours-list/index.js:75 src/blocks/members-list/index.js:84
+msgid "Recorded on"
+msgstr "Data zarejestrowania"
+
+#: build/blocks/hours-list/render.php:62 build/blocks/members-list/render.php:39 build/blocks/membership-fees/render.php:28 includes/famefe-admin-tables.php:32 includes/famefe-admin-tables.php:217 src/blocks/hours-list/render.php:62 src/blocks/members-list/render.php:39 src/blocks/membership-fees/render.php:28 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:73
+msgid "Name"
+msgstr "Imię i nazwisko"
+
+#: build/blocks/hours-list/render.php:50 includes/famefe-admin-tables.php:243 src/blocks/hours-list/render.php:50
+msgid "No hours recorded."
+msgstr "Brak zarejestrowanych godzin."
+
+#: build/blocks/hours-list/render.php:19 src/blocks/hours-list/render.php:19
+msgid "Log in to see your volunteer hours."
+msgstr "Zaloguj się, aby zobaczyć swoje godziny wolontariatu."
+
+#: build/blocks/hours-form/render.php:118 src/blocks/hours-form/render.php:118
+msgid "My recent entries"
+msgstr "Moje ostatnie wpisy"
+
+#: build/blocks/hours-form/render.php:59 build/blocks/hours-form/render.php:125 build/blocks/hours-list/render.php:66 includes/famefe-admin-tables.php:219 includes/famefe-admin.php:430 src/blocks/hours-form/render.php:59 src/blocks/hours-form/render.php:125 src/blocks/hours-list/render.php:66 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:74
+msgid "Work done"
+msgstr "Wykonana praca"
+
+#: build/blocks/hours-form/render.php:57 build/blocks/hours-form/render.php:123 build/blocks/hours-list/render.php:60 includes/famefe-admin-tables.php:216 includes/famefe-admin.php:428 src/blocks/hours-form/render.php:57 src/blocks/hours-form/render.php:123 src/blocks/hours-list/render.php:60
+msgid "Date"
+msgstr "Data"
+
+#: build/blocks/hours-form/render.php:39 includes/famefe-notices.php:52 src/blocks/hours-form/render.php:39
+msgid "Only members can record volunteer hours."
+msgstr "Tylko członkowie mogą rejestrować godziny wolontariatu."
+
+#: build/blocks/hours-form/render.php:34 build/blocks/hours-list/render.php:21 build/blocks/members-list/render.php:21 src/blocks/hours-form/render.php:34 src/blocks/hours-list/render.php:21 src/blocks/members-list/render.php:21
+msgid "Log in"
+msgstr "Zaloguj się"
+
+#: build/blocks/hours-form/render.php:32 src/blocks/hours-form/render.php:32
+msgid "Log in to record your volunteer hours."
+msgstr "Zaloguj się, aby zarejestrować swoje godziny wolontariatu."
+
+#: build/blocks/hours-form/render.php:22 includes/famefe-admin.php:431 src/blocks/hours-form/render.php:22 build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:82
+msgid "Add hours"
+msgstr "Dodaj godziny"
+
+#. translators: %s: twice the base fee.
+#: build/blocks/fee-explanation/render.php:219 src/blocks/fee-explanation/render.php:219
+msgid "A member without any volunteer hours in the period always pays twice the base fee, %s: paying instead of working should never be the cheaper choice."
+msgstr "Członek bez godzin wolontariatu w okresie zawsze płaci podwójną składkę podstawową, %s: płacenie zamiast pracy nigdy nie powinno być tańszym wyborem."
+
+#: build/blocks/fee-explanation/render.php:209 src/blocks/fee-explanation/render.php:209
+msgid "The calculated fees do not exceed it, so there is no discount."
+msgstr "Obliczone składki jej nie przekraczają, więc zniżki nie ma."
+
+#. translators: 1: share of members in percent, 2: discount in percent, 3:
+#. number of members with the discount.
+#: build/blocks/fee-explanation/render.php:203 src/blocks/fee-explanation/render.php:203
+msgid "The %1$s %% of regular members with the lowest calculated fees pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never). The discount is not added to the fees of the others, so the club collects less than the expected total."
+msgstr "%1$s %% członków zwyczajnych z najniższymi obliczonymi składkami płaci o %2$s %% mniej (tutaj %3$d członków; członkowie z taką samą składką jak ostatni z nich też ją otrzymują, członkowie bez godzin nigdy). Zniżka nie jest doliczana do składek pozostałych, więc klub zbiera mniej niż oczekiwana suma."
+
+#. translators: 1: share of members in percent, 2: calculated discount in
+#. percent, 3: number of members with the discount.
+#: build/blocks/fee-explanation/render.php:195 src/blocks/fee-explanation/render.php:195
+msgid "The %1$s %% of regular members with the lowest calculated fees therefore pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never)."
+msgstr "%1$s %% członków zwyczajnych z najniższymi obliczonymi składkami płaci zatem o %2$s %% mniej (tutaj %3$d członków; członkowie z taką samą składką jak ostatni z nich też ją otrzymują, członkowie bez godzin nigdy)."
+
+#. translators: %s: total the regular members should pay.
+#: build/blocks/fee-explanation/render.php:188 src/blocks/fee-explanation/render.php:188
+msgid "The regular members should pay %s together."
+msgstr "Członkowie zwyczajni powinni razem zapłacić %s."
+
+#: build/blocks/fee-explanation/render.php:182 src/blocks/fee-explanation/render.php:182
+msgid "4. Discount"
+msgstr "4. Zniżka"
+
+#: build/blocks/fee-explanation/render.php:141 build/blocks/membership-fees/render.php:45 src/blocks/fee-explanation/render.php:141 src/blocks/membership-fees/render.php:45
+msgid "Fee to pay"
+msgstr "Składka do zapłaty"
+
+#: build/blocks/fee-explanation/render.php:140 build/blocks/membership-fees/render.php:43 src/blocks/fee-explanation/render.php:140 src/blocks/membership-fees/render.php:43 build/blocks/fee-explanation/index.js:3 build/blocks/membership-fees/index.js:3 src/blocks/fee-explanation/index.js:64 src/blocks/membership-fees/index.js:83
+msgid "Discount"
+msgstr "Zniżka"
+
+#: build/blocks/fee-explanation/render.php:138 build/blocks/membership-fees/render.php:42 src/blocks/fee-explanation/render.php:138 src/blocks/membership-fees/render.php:42
+msgid "Calculated fee"
+msgstr "Obliczona składka"
+
+#: build/blocks/fee-explanation/render.php:137 build/blocks/membership-fees/render.php:39 src/blocks/fee-explanation/render.php:137 src/blocks/membership-fees/render.php:39 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:117
+msgid "Unreduced fee"
+msgstr "Składka przed wyrównaniem"
+
+#: build/blocks/fee-explanation/render.php:136 build/blocks/membership-fees/render.php:36 src/blocks/fee-explanation/render.php:136 src/blocks/membership-fees/render.php:36 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:113
+msgid "Share of hours"
+msgstr "Udział w godzinach"
+
+#. translators: 1: sum of the unreduced fees, 2: expected total, 3: amount
+#. taken off each fee.
+#: build/blocks/fee-explanation/render.php:123 src/blocks/fee-explanation/render.php:123
+msgid "The unreduced fees add up to %1$s, more than the expected total of %2$s. The difference is shared equally: each fee is lowered by %3$s, so all fees together give the expected total. No fee goes below zero; if one would, that member pays nothing and the rest is shared by the members who volunteered."
+msgstr "Składki przed wyrównaniem dają razem %1$s, więcej niż oczekiwana suma %2$s. Różnica jest dzielona po równo: każda składka jest obniżona o %3$s, więc wszystkie składki razem dają oczekiwaną sumę. Żadna składka nie spada poniżej zera; gdyby tak się stało, ten członek nie płaci nic, a resztę dzielą między siebie członkowie, którzy przepracowali godziny."
+
+#. translators: %s: hours of all regular members.
+#: build/blocks/fee-explanation/render.php:116 src/blocks/fee-explanation/render.php:116
+msgid "Each regular member’s share of the hours of all regular members (%s hours) lowers the unreduced fee: unreduced fee = expected total × (1 − share of hours)."
+msgstr "Udział każdego członka zwyczajnego w godzinach wszystkich członków zwyczajnych (%s godz.) obniża składkę przed wyrównaniem: składka przed wyrównaniem = oczekiwana suma × (1 − udział w godzinach)."
+
+#: build/blocks/fee-explanation/render.php:111 src/blocks/fee-explanation/render.php:111
+msgid "3. Fee of each member"
+msgstr "3. Składka każdego członka"
+
+#. translators: 1: base fee, 2: number of regular members, 3: base fee again,
+#. 4: expected total.
+#: build/blocks/fee-explanation/render.php:102 src/blocks/fee-explanation/render.php:102
+msgid "The base fee is %1$s. Together, the %2$d regular members are expected to pay %3$s × %2$d = %4$s."
+msgstr "Składka podstawowa wynosi %1$s. Razem %2$d członków zwyczajnych powinno zapłacić %3$s × %2$d = %4$s."
+
+#: build/blocks/fee-explanation/render.php:97 src/blocks/fee-explanation/render.php:97
+msgid "2. Expected total"
+msgstr "2. Oczekiwana suma"
+
+#. translators: %d: number of honorary members.
+#: build/blocks/fee-explanation/render.php:92 src/blocks/fee-explanation/render.php:92
+msgid "%d honorary member"
+msgid_plural "%d honorary members"
+msgstr[0] "%d członek honorowy"
+msgstr[1] "%d członków honorowych"
+msgstr[2] "%d członków honorowych"
+
+#. translators: %d: number of regular members.
+#: build/blocks/fee-explanation/render.php:90 src/blocks/fee-explanation/render.php:90
+msgid "%d regular member"
+msgid_plural "%d regular members"
+msgstr[0] "%d członek zwyczajny"
+msgstr[1] "%d członków zwyczajnych"
+msgstr[2] "%d członków zwyczajnych"
+
+#. translators: 1: "5 regular members", 2: "1 honorary member".
+#: build/blocks/fee-explanation/render.php:88 src/blocks/fee-explanation/render.php:88
+msgid "Members in the example: %1$s and %2$s. Honorary members do not pay a membership fee, and their hours do not count in the calculation."
+msgstr "Członkowie w przykładzie: %1$s i %2$s. Członkowie honorowi nie płacą składki członkowskiej, a ich godziny nie liczą się w obliczeniu."
+
+#: build/blocks/fee-explanation/render.php:78 build/blocks/fee-explanation/render.php:167 build/blocks/membership-fees/render.php:112 src/blocks/fee-explanation/render.php:78 src/blocks/fee-explanation/render.php:167 src/blocks/membership-fees/render.php:112
+msgid "Total"
+msgstr "Suma"
+
+#: build/blocks/fee-explanation/render.php:64 build/blocks/fee-explanation/render.php:135 build/blocks/hours-form/render.php:58 build/blocks/hours-form/render.php:124 build/blocks/hours-list/render.php:64 build/blocks/membership-fees/render.php:33 includes/famefe-admin-tables.php:218 includes/famefe-admin.php:429 src/blocks/fee-explanation/render.php:64 src/blocks/fee-explanation/render.php:135 src/blocks/hours-form/render.php:58 src/blocks/hours-form/render.php:124 src/blocks/hours-list/render.php:64 src/blocks/membership-fees/render.php:33 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:112
+msgid "Hours"
+msgstr "Godziny"
+
+#: build/blocks/fee-explanation/render.php:63 build/blocks/members-list/render.php:41 build/blocks/membership-fees/render.php:30 includes/famefe-admin-tables.php:33 src/blocks/fee-explanation/render.php:63 src/blocks/members-list/render.php:41 src/blocks/membership-fees/render.php:30 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:67
+msgid "Type"
+msgstr "Rodzaj"
+
+#: build/blocks/fee-explanation/render.php:62 build/blocks/fee-explanation/render.php:134 build/blocks/hours-form/render.php:56 includes/famefe-admin-tables.php:303 includes/famefe-admin.php:420 includes/famefe-admin.php:441 includes/famefe-admin.php:475 includes/famefe-admin.php:499 includes/famefe-users.php:83 includes/famefe-users.php:139 src/blocks/fee-explanation/render.php:62 src/blocks/fee-explanation/render.php:134 src/blocks/hours-form/render.php:56
+msgid "Member"
+msgstr "Członek"
+
+#: build/blocks/fee-explanation/render.php:57 src/blocks/fee-explanation/render.php:57
+msgid "1. Members and their hours"
+msgstr "1. Członkowie i ich godziny"
+
+#: build/blocks/fee-explanation/render.php:55 src/blocks/fee-explanation/render.php:55
+msgid "The membership fee depends on how much each member volunteered for the club, measured in the recorded hours. Members only need to record their hours; the fees are calculated from them. The following example shows how."
+msgstr "Składka członkowska zależy od tego, ile każdy członek przepracował dla klubu w ramach wolontariatu, mierzone w zarejestrowanych godzinach. Członkowie muszą tylko rejestrować swoje godziny; składki są z nich obliczane. Poniższy przykład pokazuje, jak to działa."
+
+#. translators: %d: number of the member in the example.
+#: build/blocks/fee-explanation/render.php:52 src/blocks/fee-explanation/render.php:52
+msgid "Member %d"
+msgstr "Członek %d"
+
+#. Author of the plugin
+#: fair-member-fees.php
+msgid "globus2008"
+msgstr "globus2008"
+
+#. Description of the plugin
+#: fair-member-fees.php
+msgid "Membership register with a change history, volunteer hours and a fair membership fee: members who volunteer more pay less. Optional discount and payment through Stripe. Built with blocks."
+msgstr "Rejestr członków z historią zmian, godziny wolontariatu i sprawiedliwa składka członkowska: członkowie, którzy więcej pracują jako wolontariusze, płacą mniej. Opcjonalna zniżka i płatność przez Stripe. Zbudowana z bloków."
+
+#. Plugin Name of the plugin
+#: fair-member-fees.php includes/famefe-admin.php:21
+msgid "Fair Member Fees"
+msgstr "Fair Member Fees"

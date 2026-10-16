@@ -1,0 +1,247 @@
+# Translation of Plugins - Fair Member Fees - Development Readme (trunk) in Indonesian
+# This file is distributed under the same license as the Plugins - Fair Member Fees - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Fair Member Fees - Development Readme (trunk)\n"
+"PO-Revision-Date: 2026-10-16 12:00:00+0000\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+
+#. Short description.
+#, gp-priority: high
+msgid "Membership register, volunteer hours and a fair membership fee: members who volunteer more pay less. Optional discount and Stripe payments."
+msgstr "Daftar anggota, jam sukarela, dan iuran anggota yang adil: anggota yang lebih banyak bekerja sukarela membayar lebih sedikit. Potongan opsional dan pembayaran melalui Stripe."
+
+#. Plugin name.
+#, gp-priority: high
+msgid "Fair Member Fees"
+msgstr "Fair Member Fees"
+
+#. Found in faq paragraph.
+msgid "Nothing, unless you turn on \"Delete data\" in the settings."
+msgstr "Tidak ada, kecuali Anda mengaktifkan \"Hapus data\" di pengaturan."
+
+#. Found in faq paragraph.
+msgid "No. The server always calculates the fee from the saved block settings and the recorded hours."
+msgstr "Tidak. Server selalu menghitung iuran dari pengaturan blok yang tersimpan dan jam yang tercatat."
+
+#. Found in faq paragraph.
+msgid "Only administrators and editors (the capability <code>famefe_manage</code>)."
+msgstr "Hanya administrator dan editor (kapabilitas <code>famefe_manage</code>)."
+
+#. Found in faq paragraph.
+msgid "Every logged-in member records own hours. Administrators and editors can record hours for any member. In the settings you can allow logged-in non-members to record hours too; their hours count only in the totals."
+msgstr "Setiap anggota yang sudah masuk mencatat jamnya sendiri. Administrator dan editor dapat mencatat jam untuk anggota mana pun. Di pengaturan, Anda juga dapat mengizinkan bukan anggota yang sudah masuk untuk mencatat jam; jam mereka hanya dihitung dalam total."
+
+#. Found in faq paragraph.
+msgid "The button is off until you turn it on in the Membership fees block (\"Payment button\"). Turn it on once the volunteer hours of the period are closed and the fees are final; until then members see the fee calculated from the hours recorded so far. Online payment also needs the Stripe keys in the settings. If your club only keeps records of hours, simply leave the button off."
+msgstr "Tombol nonaktif sampai Anda mengaktifkannya di blok Iuran anggota (\"Tombol pembayaran\"). Aktifkan setelah jam sukarela periode ditutup dan iuran sudah final; sampai saat itu anggota melihat iuran yang dihitung dari jam yang tercatat sejauh ini. Pembayaran daring juga memerlukan kunci Stripe di pengaturan. Jika klub Anda hanya mencatat jam, biarkan saja tombol nonaktif."
+
+#. Found in faq header.
+msgid "What happens with the data when I delete the plugin?"
+msgstr "Apa yang terjadi pada data saat saya menghapus plugin?"
+
+#. Found in faq header.
+msgid "Can the amount to pay be changed in the browser?"
+msgstr "Apakah jumlah yang harus dibayar bisa diubah di peramban?"
+
+#. Found in faq header.
+msgid "Who sees the form for cash payments?"
+msgstr "Siapa yang melihat formulir pembayaran tunai?"
+
+#. Found in faq header.
+msgid "Who can record hours?"
+msgstr "Siapa yang dapat mencatat jam?"
+
+#. Found in faq header.
+msgid "Why do members not see the payment button?"
+msgstr "Mengapa anggota tidak melihat tombol pembayaran?"
+
+#. Found in installation list item.
+msgid "Add the blocks to your pages (search for \"Fair Member Fees\" in the block inserter). Set the period, the base fee and the discount in the Membership fees block."
+msgstr "Tambahkan blok ke halaman Anda (cari \"Fair Member Fees\" di penyisip blok). Atur periode, iuran dasar, dan potongan di blok Iuran anggota."
+
+#. Found in installation list item.
+msgid "In <strong>Member Fees → Settings</strong> set the currency and, for online payments, your Stripe keys and the webhook."
+msgstr "Di <strong>Iuran anggota → Pengaturan</strong> atur mata uang dan, untuk pembayaran daring, kunci Stripe serta webhook Anda."
+
+#. Found in installation list item.
+msgid "Go to <strong>Member Fees → Members</strong> and add your members; link them to their user accounts so that they can record hours and pay online."
+msgstr "Buka <strong>Iuran anggota → Anggota</strong> dan tambahkan anggota Anda; tautkan mereka dengan akun pengguna mereka agar dapat mencatat jam dan membayar secara daring."
+
+#. Found in installation list item.
+msgid "Install and activate the plugin."
+msgstr "Pasang dan aktifkan plugin."
+
+#. Found in description paragraph.
+msgid "The editor scripts in <code>build/</code> are compiled from the human-readable sources in <code>src/</code> (included in the plugin) with <code>@wordpress/scripts</code> (<code>npm install</code>, <code>npm run build</code>). The development repository is public: https://github.com/globus2008/fair-member-fees"
+msgstr "Skrip editor di <code>build/</code> dikompilasi dari sumber yang dapat dibaca di <code>src/</code> (disertakan dalam plugin) dengan <code>@wordpress/scripts</code> (<code>npm install</code>, <code>npm run build</code>). Repositori pengembangan bersifat publik: https://github.com/globus2008/fair-member-fees"
+
+#. Found in description paragraph.
+msgid "Stripe terms of service: https://stripe.com/legal/ssa – Stripe privacy policy: https://stripe.com/privacy"
+msgstr "Ketentuan layanan Stripe: https://stripe.com/legal/ssa – Kebijakan privasi Stripe: https://stripe.com/privacy"
+
+#. Found in description paragraph.
+msgid "This plugin connects to <strong>Stripe</strong> (https://stripe.com) to let members pay their membership fee by card. It is used only when you enter a Stripe secret key in the plugin settings."
+msgstr "Plugin ini terhubung ke <strong>Stripe</strong> (https://stripe.com) agar anggota dapat membayar iuran dengan kartu. Plugin hanya menggunakannya jika Anda memasukkan kunci rahasia Stripe di pengaturan plugin."
+
+#. Found in description paragraph.
+msgid "Instead of the percentage, you can set the total to collect: the discount of the same members is then calculated so that all regular members pay exactly this amount together (for example to give back what the double fees of members without hours brought above the expected total)."
+msgstr "Alih-alih persentase, Anda dapat menentukan total yang ditarik: potongan untuk anggota yang sama kemudian dihitung agar semua anggota biasa bersama-sama membayar tepat jumlah ini (misalnya untuk mengembalikan kelebihan di atas total yang diharapkan yang berasal dari iuran ganda anggota tanpa jam)."
+
+#. Found in description paragraph.
+msgid "Set a share of members (e.g. 60 %) and a discount (e.g. 20 %) in the Membership fees block: the given share of regular members with the lowest fees pays the given percentage less. Members with the same fee as the last of them get it too; members without hours never get it. The discount is not added to the fees of the others."
+msgstr "Tentukan bagian anggota (mis. 60 %) dan potongan (mis. 20 %) di blok Iuran anggota: bagian anggota biasa yang ditentukan dengan iuran terendah membayar lebih sedikit sebesar persentase yang ditentukan. Anggota dengan iuran yang sama dengan yang terakhir di antara mereka juga mendapatkannya; anggota tanpa jam tidak pernah mendapatkannya. Potongan tidak dibebankan ke iuran anggota lain."
+
+#. Found in description paragraph.
+msgid "<strong>Discount (optional)</strong>"
+msgstr "<strong>Potongan (opsional)</strong>"
+
+#. Found in description paragraph.
+msgid "Whoever does not volunteer pays twice the base fee, so paying instead of working is never the cheaper choice. Hours of honorary members and non-members are shown in the totals but do not change the fees."
+msgstr "Siapa pun yang tidak bekerja sukarela membayar dua kali iuran dasar, sehingga membayar alih-alih bekerja tidak pernah menjadi pilihan yang lebih murah. Jam anggota kehormatan dan bukan anggota ditampilkan dalam total tetapi tidak mengubah iuran."
+
+#. Found in description paragraph.
+msgid "<strong>How the fee is calculated</strong>"
+msgstr "<strong>Cara menghitung iuran</strong>"
+
+#. Found in description paragraph.
+msgid "<strong>Features</strong>"
+msgstr "<strong>Fitur</strong>"
+
+#. Found in description paragraph.
+msgid "Clubs live from the work of their members. Fair Member Fees rewards it: every member records the hours they volunteered, and the membership fee of each member is calculated from them. Whoever works for the club pays less; whoever does not, pays twice the base fee – paying instead of working is never the cheaper choice."
+msgstr "Klub hidup dari kerja anggotanya. Fair Member Fees menghargainya: setiap anggota mencatat jam sukarela yang telah dilakukan, dan iuran setiap anggota dihitung dari jam tersebut. Siapa yang bekerja untuk klub membayar lebih sedikit; yang tidak, membayar dua kali iuran dasar – membayar alih-alih bekerja tidak pernah menjadi pilihan yang lebih murah."
+
+#. Found in description list item.
+msgid "When the member returns, the plugin asks Stripe whether the payment was completed. Stripe also sends the result to the webhook address of the plugin."
+msgstr "Saat anggota kembali, plugin menanyakan kepada Stripe apakah pembayaran sudah selesai. Stripe juga mengirimkan hasilnya ke alamat webhook plugin."
+
+#. Found in description list item.
+msgid "When a member clicks the payment button, the plugin sends to Stripe: the amount and currency, the name of the payment (\"Membership fee\" and the period), the member's e-mail address, the member ID and the period, and the addresses of your page to return to. The member then enters the card details directly on the Stripe payment page."
+msgstr "Saat anggota mengeklik tombol pembayaran, plugin mengirimkan ke Stripe: jumlah dan mata uang, nama pembayaran (\"Iuran anggota\" dan periodenya), alamat email anggota, ID anggota dan periode, serta alamat halaman Anda untuk kembali. Anggota kemudian memasukkan data kartu langsung di halaman pembayaran Stripe."
+
+#. Found in description list item.
+msgid "A member without any recorded hours in the period always pays twice the base fee."
+msgstr "Anggota tanpa satu pun jam tercatat dalam periode selalu membayar dua kali iuran dasar."
+
+#. Found in description list item.
+msgid "The unreduced fees add up to more than the expected total; the difference is taken off every fee equally. No fee goes below zero (the rest is shared by the others)."
+msgstr "Iuran sebelum penyesuaian berjumlah lebih besar dari total yang diharapkan; selisihnya dikurangkan dari setiap iuran secara merata. Tidak ada iuran yang turun di bawah nol (sisanya ditanggung anggota lain)."
+
+#. Found in description list item.
+msgid "Unreduced fee = expected total × (1 − share of hours)."
+msgstr "Iuran sebelum penyesuaian = total yang diharapkan × (1 − bagian jam)."
+
+#. Found in description list item.
+msgid "Share of hours = hours of the member / hours of all regular members."
+msgstr "Bagian jam = jam anggota / jam semua anggota biasa."
+
+#. Found in description list item.
+msgid "Expected total = base fee × number of regular members."
+msgstr "Total yang diharapkan = iuran dasar × jumlah anggota biasa."
+
+#. Found in description list item.
+msgid "Ready for translation."
+msgstr "Siap diterjemahkan."
+
+#. Found in description list item.
+msgid "<strong>Fee calculation explained</strong> – the method on an example with your own numbers."
+msgstr "<strong>Penjelasan perhitungan iuran</strong> – metodenya dengan contoh menggunakan angka Anda sendiri."
+
+#. Found in description list item.
+msgid "<strong>Members list</strong>,"
+msgstr "<strong>Daftar anggota</strong>,"
+
+#. Found in description list item.
+msgid "<strong>Volunteer hours list</strong>,"
+msgstr "<strong>Daftar jam sukarela</strong>,"
+
+#. Found in description list item.
+msgid "<strong>Volunteer hours form</strong>,"
+msgstr "<strong>Formulir jam sukarela</strong>,"
+
+#. Found in description list item.
+msgid "<strong>Membership fees</strong> – the fee table of a period; its payment button is turned on once the hours of the period are closed,"
+msgstr "<strong>Iuran anggota</strong> – tabel iuran satu periode; tombol pembayarannya diaktifkan setelah jam periode ditutup,"
+
+#. Found in description list item.
+msgid "Five blocks, all set up in the block settings – no shortcodes:"
+msgstr "Lima blok, semuanya diatur di pengaturan blok – tanpa kode pendek:"
+
+#. Found in description list item.
+msgid "Online payment of the fee through Stripe Checkout; cash and bank payments recorded by administrators and editors."
+msgstr "Pembayaran iuran secara daring melalui Stripe Checkout; pembayaran tunai dan transfer dicatat oleh administrator dan editor."
+
+#. Found in description list item.
+msgid "Optional discount for the members with the lowest fees."
+msgstr "Potongan opsional untuk anggota dengan iuran terendah."
+
+#. Found in description list item.
+msgid "Fair calculation of the fees for any period (season), see below."
+msgstr "Perhitungan iuran yang adil untuk periode (musim) apa pun, lihat di bawah."
+
+#. Found in description list item.
+msgid "Volunteer hours recorded by the members themselves, or by administrators and editors for anybody."
+msgstr "Jam sukarela dicatat oleh anggota sendiri, atau oleh administrator dan editor untuk siapa pun."
+
+#. Found in description list item.
+msgid "Full history of every member: joined, membership type changed, membership ended, rejoined – each with the date of the change, who recorded it and when."
+msgstr "Riwayat lengkap setiap anggota: bergabung, jenis keanggotaan diubah, keanggotaan berakhir, bergabung kembali – masing-masing dengan tanggal perubahan, siapa yang mencatat, dan kapan."
+
+#. Found in description list item.
+msgid "Membership register with regular and honorary members (honorary members pay no fee)."
+msgstr "Daftar anggota dengan anggota biasa dan anggota kehormatan (anggota kehormatan tidak membayar iuran)."
+
+#. Found in description header.
+msgid "Source code"
+msgstr "Kode sumber"
+
+#. Found in description header.
+msgid "External services"
+msgstr "Layanan eksternal"
+
+#. Screenshot description.
+msgid "Member Fees → Settings: currency and Stripe keys for online payments."
+msgstr "Iuran anggota → Pengaturan: mata uang dan kunci Stripe untuk pembayaran daring."
+
+#. Screenshot description.
+msgid "Member Fees → Volunteer hours: all recorded hours with filters."
+msgstr "Iuran anggota → Jam sukarela: semua jam yang tercatat dengan penyaring."
+
+#. Screenshot description.
+msgid "Every change of a membership is kept in the history with the date of the change, who recorded it and when."
+msgstr "Setiap perubahan keanggotaan disimpan dalam riwayat dengan tanggal perubahan, siapa yang mencatat, dan kapan."
+
+#. Screenshot description.
+msgid "Member Fees → Members: the membership register."
+msgstr "Iuran anggota → Anggota: daftar anggota."
+
+#. Screenshot description.
+msgid "All options of the blocks are in the block settings: the period, the base fee, the discount, the payment button, columns, names and table colours."
+msgstr "Semua opsi blok ada di pengaturan blok: periode, iuran dasar, potongan, tombol pembayaran, kolom, nama, dan warna tabel."
+
+#. Screenshot description.
+msgid "The Fee calculation explained block shows the method on an example with your own base fee and discount."
+msgstr "Blok Penjelasan perhitungan iuran menunjukkan metodenya dengan contoh menggunakan iuran dasar dan potongan Anda sendiri."
+
+#. Screenshot description.
+msgid "The Volunteer hours form and list: members record their own hours, administrators and editors record them for anybody."
+msgstr "Formulir dan daftar jam sukarela: anggota mencatat jam mereka sendiri, administrator dan editor mencatatnya untuk siapa pun."
+
+#. Screenshot description.
+msgid "The Members list block with the totals of regular and honorary members."
+msgstr "Blok Daftar anggota dengan total anggota biasa dan anggota kehormatan."
+
+#. Screenshot description.
+msgid "The Membership fees block: the fee of every member calculated from the volunteer hours, with the optional discount and the totals rows."
+msgstr "Blok Iuran anggota: iuran setiap anggota yang dihitung dari jam sukarela, dengan potongan opsional dan baris total."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "First release."
+msgstr "Rilis pertama."

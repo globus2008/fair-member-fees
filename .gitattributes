@@ -5,3 +5,4 @@
 /CLAUDE.md export-ignore
 /tools export-ignore
 /languages/*-cs_CZ* export-ignore
+/languages/*/** export-ignore

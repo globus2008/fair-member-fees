@@ -1,0 +1,247 @@
+# Translation of Plugins - Fair Member Fees - Development Readme (trunk) in Czech
+# This file is distributed under the same license as the Plugins - Fair Member Fees - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Fair Member Fees - Development Readme (trunk)\n"
+"PO-Revision-Date: 2026-10-16 12:00:00+0000\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.1.0\n"
+
+#. Short description.
+#, gp-priority: high
+msgid "Membership register, volunteer hours and a fair membership fee: members who volunteer more pay less. Optional discount and Stripe payments."
+msgstr "Evidence členů, brigádnické hodiny a spravedlivý členský příspěvek: kdo pro klub odpracuje víc, platí méně. Volitelná sleva a platby přes Stripe."
+
+#. Plugin name.
+#, gp-priority: high
+msgid "Fair Member Fees"
+msgstr "Fair Member Fees"
+
+#. Found in faq paragraph.
+msgid "Nothing, unless you turn on \"Delete data\" in the settings."
+msgstr "Nic, pokud v nastavení nezapnete „Smazat data“."
+
+#. Found in faq paragraph.
+msgid "No. The server always calculates the fee from the saved block settings and the recorded hours."
+msgstr "Ne. Server příspěvek vždy počítá z uložených nastavení bloku a zapsaných hodin."
+
+#. Found in faq paragraph.
+msgid "Only administrators and editors (the capability <code>famefe_manage</code>)."
+msgstr "Jen administrátoři a editoři (oprávnění <code>famefe_manage</code>)."
+
+#. Found in faq paragraph.
+msgid "Every logged-in member records own hours. Administrators and editors can record hours for any member. In the settings you can allow logged-in non-members to record hours too; their hours count only in the totals."
+msgstr "Každý přihlášený člen zapisuje své hodiny. Administrátoři a editoři mohou zapsat hodiny komukoli. V nastavení můžete zapisování hodin povolit i přihlášeným nečlenům; jejich hodiny se počítají jen do součtů."
+
+#. Found in faq paragraph.
+msgid "The button is off until you turn it on in the Membership fees block (\"Payment button\"). Turn it on once the volunteer hours of the period are closed and the fees are final; until then members see the fee calculated from the hours recorded so far. Online payment also needs the Stripe keys in the settings. If your club only keeps records of hours, simply leave the button off."
+msgstr "Tlačítko je vypnuté, dokud ho nezapnete v bloku Členské příspěvky („Tlačítko platby“). Zapněte ho, až budou brigádnické hodiny období uzavřené a příspěvky konečné; do té doby členové vidí příspěvek vypočtený z dosud zapsaných hodin. Online platba navíc potřebuje klíče Stripe v nastavení. Pokud klub vede jen evidenci hodin, nechte tlačítko vypnuté."
+
+#. Found in faq header.
+msgid "What happens with the data when I delete the plugin?"
+msgstr "Co se stane s daty, když plugin smažu?"
+
+#. Found in faq header.
+msgid "Can the amount to pay be changed in the browser?"
+msgstr "Dá se částka k zaplacení změnit v prohlížeči?"
+
+#. Found in faq header.
+msgid "Who sees the form for cash payments?"
+msgstr "Kdo vidí formulář pro platby v hotovosti?"
+
+#. Found in faq header.
+msgid "Who can record hours?"
+msgstr "Kdo může zapisovat hodiny?"
+
+#. Found in faq header.
+msgid "Why do members not see the payment button?"
+msgstr "Proč členové nevidí tlačítko platby?"
+
+#. Found in installation list item.
+msgid "Add the blocks to your pages (search for \"Fair Member Fees\" in the block inserter). Set the period, the base fee and the discount in the Membership fees block."
+msgstr "Vložte bloky do svých stránek (v nabídce bloků hledejte „Fair Member Fees“). Období, základní příspěvek a slevu nastavte v bloku Členské příspěvky."
+
+#. Found in installation list item.
+msgid "In <strong>Member Fees → Settings</strong> set the currency and, for online payments, your Stripe keys and the webhook."
+msgstr "V <strong>Členské příspěvky → Nastavení</strong> nastavte měnu a pro online platby klíče Stripe a webhook."
+
+#. Found in installation list item.
+msgid "Go to <strong>Member Fees → Members</strong> and add your members; link them to their user accounts so that they can record hours and pay online."
+msgstr "V <strong>Členské příspěvky → Členové</strong> přidejte své členy a propojte je s jejich uživatelskými účty, aby mohli zapisovat hodiny a platit online."
+
+#. Found in installation list item.
+msgid "Install and activate the plugin."
+msgstr "Nainstalujte a aktivujte plugin."
+
+#. Found in description paragraph.
+msgid "The editor scripts in <code>build/</code> are compiled from the human-readable sources in <code>src/</code> (included in the plugin) with <code>@wordpress/scripts</code> (<code>npm install</code>, <code>npm run build</code>). The development repository is public: https://github.com/globus2008/fair-member-fees"
+msgstr "Skripty editoru v <code>build/</code> jsou sestavené z čitelných zdrojů v <code>src/</code> (jsou součástí pluginu) pomocí <code>@wordpress/scripts</code> (<code>npm install</code>, <code>npm run build</code>). Vývojový repozitář je veřejný: https://github.com/globus2008/fair-member-fees"
+
+#. Found in description paragraph.
+msgid "Stripe terms of service: https://stripe.com/legal/ssa – Stripe privacy policy: https://stripe.com/privacy"
+msgstr "Obchodní podmínky Stripe: https://stripe.com/legal/ssa – zásady ochrany osobních údajů Stripe: https://stripe.com/privacy"
+
+#. Found in description paragraph.
+msgid "This plugin connects to <strong>Stripe</strong> (https://stripe.com) to let members pay their membership fee by card. It is used only when you enter a Stripe secret key in the plugin settings."
+msgstr "Plugin se připojuje ke službě <strong>Stripe</strong> (https://stripe.com), aby členové mohli zaplatit členský příspěvek kartou. Používá se jen tehdy, když v nastavení pluginu zadáte tajný klíč Stripe."
+
+#. Found in description paragraph.
+msgid "Instead of the percentage, you can set the total to collect: the discount of the same members is then calculated so that all regular members pay exactly this amount together (for example to give back what the double fees of members without hours brought above the expected total)."
+msgstr "Místo procenta můžete zadat cílovou částku k vybrání: sleva týchž členů se pak vypočte tak, aby všichni řádní členové zaplatili dohromady přesně tuto částku (například aby se vrátilo to, co dvojnásobné příspěvky členů bez hodin vybraly nad očekávaný součet)."
+
+#. Found in description paragraph.
+msgid "Set a share of members (e.g. 60 %) and a discount (e.g. 20 %) in the Membership fees block: the given share of regular members with the lowest fees pays the given percentage less. Members with the same fee as the last of them get it too; members without hours never get it. The discount is not added to the fees of the others."
+msgstr "V bloku Členské příspěvky nastavte podíl členů (např. 60 %) a slevu (např. 20 %): zadaný podíl řádných členů s nejnižšími příspěvky zaplatí o zadané procento méně. Členové se stejným příspěvkem jako poslední z nich ji dostanou také; členové bez hodin ji nedostanou nikdy. Sleva se nepřičítá k příspěvkům ostatních."
+
+#. Found in description paragraph.
+msgid "<strong>Discount (optional)</strong>"
+msgstr "<strong>Sleva (volitelná)</strong>"
+
+#. Found in description paragraph.
+msgid "Whoever does not volunteer pays twice the base fee, so paying instead of working is never the cheaper choice. Hours of honorary members and non-members are shown in the totals but do not change the fees."
+msgstr "Kdo nebrigádničí, platí dvojnásobek základního příspěvku, takže zaplatit místo práce nikdy nevyjde levněji. Hodiny čestných členů a nečlenů jsou vidět v součtech, ale příspěvky nemění."
+
+#. Found in description paragraph.
+msgid "<strong>How the fee is calculated</strong>"
+msgstr "<strong>Jak se příspěvek počítá</strong>"
+
+#. Found in description paragraph.
+msgid "<strong>Features</strong>"
+msgstr "<strong>Funkce</strong>"
+
+#. Found in description paragraph.
+msgid "Clubs live from the work of their members. Fair Member Fees rewards it: every member records the hours they volunteered, and the membership fee of each member is calculated from them. Whoever works for the club pays less; whoever does not, pays twice the base fee – paying instead of working is never the cheaper choice."
+msgstr "Kluby žijí z práce svých členů. Fair Member Fees ji odměňuje: každý člen zapisuje hodiny, které pro klub odpracoval, a z nich se vypočte členský příspěvek každého člena. Kdo pro klub pracuje, platí méně; kdo ne, platí dvojnásobek základního příspěvku – zaplatit místo práce nikdy nevyjde levněji."
+
+#. Found in description list item.
+msgid "When the member returns, the plugin asks Stripe whether the payment was completed. Stripe also sends the result to the webhook address of the plugin."
+msgstr "Když se člen vrátí, plugin se Stripe zeptá, zda byla platba dokončena. Stripe navíc výsledek pošle na adresu webhooku pluginu."
+
+#. Found in description list item.
+msgid "When a member clicks the payment button, the plugin sends to Stripe: the amount and currency, the name of the payment (\"Membership fee\" and the period), the member's e-mail address, the member ID and the period, and the addresses of your page to return to. The member then enters the card details directly on the Stripe payment page."
+msgstr "Když člen klikne na tlačítko platby, plugin pošle do Stripe: částku a měnu, název platby („Členský příspěvek“ a období), e-mailovou adresu člena, ID člena a období a adresy vaší stránky pro návrat. Údaje karty pak člen zadává přímo na platební stránce Stripe."
+
+#. Found in description list item.
+msgid "A member without any recorded hours in the period always pays twice the base fee."
+msgstr "Člen bez jediné zapsané hodiny v období platí vždy dvojnásobek základního příspěvku."
+
+#. Found in description list item.
+msgid "The unreduced fees add up to more than the expected total; the difference is taken off every fee equally. No fee goes below zero (the rest is shared by the others)."
+msgstr "Neredukované příspěvky dají dohromady víc než očekávaný součet; rozdíl se od všech příspěvků odečte rovným dílem. Žádný příspěvek neklesne pod nulu (zbytek rozdělí ostatní)."
+
+#. Found in description list item.
+msgid "Unreduced fee = expected total × (1 − share of hours)."
+msgstr "Neredukovaný příspěvek = očekávaný součet × (1 − podíl hodin)."
+
+#. Found in description list item.
+msgid "Share of hours = hours of the member / hours of all regular members."
+msgstr "Podíl hodin = hodiny člena / hodiny všech řádných členů."
+
+#. Found in description list item.
+msgid "Expected total = base fee × number of regular members."
+msgstr "Očekávaný součet = základní příspěvek × počet řádných členů."
+
+#. Found in description list item.
+msgid "Ready for translation."
+msgstr "Připraveno k překladu."
+
+#. Found in description list item.
+msgid "<strong>Fee calculation explained</strong> – the method on an example with your own numbers."
+msgstr "<strong>Postup výpočtu příspěvku</strong> – metoda na příkladu s vašimi čísly."
+
+#. Found in description list item.
+msgid "<strong>Members list</strong>,"
+msgstr "<strong>Seznam členů</strong>,"
+
+#. Found in description list item.
+msgid "<strong>Volunteer hours list</strong>,"
+msgstr "<strong>Seznam brigádnických hodin</strong>,"
+
+#. Found in description list item.
+msgid "<strong>Volunteer hours form</strong>,"
+msgstr "<strong>Formulář brigádnických hodin</strong>,"
+
+#. Found in description list item.
+msgid "<strong>Membership fees</strong> – the fee table of a period; its payment button is turned on once the hours of the period are closed,"
+msgstr "<strong>Členské příspěvky</strong> – tabulka příspěvků za období; jeho tlačítko platby se zapne, až budou hodiny období uzavřené,"
+
+#. Found in description list item.
+msgid "Five blocks, all set up in the block settings – no shortcodes:"
+msgstr "Pět bloků, vše se nastavuje v nastavení bloku – žádné shortcody:"
+
+#. Found in description list item.
+msgid "Online payment of the fee through Stripe Checkout; cash and bank payments recorded by administrators and editors."
+msgstr "Online platba příspěvku přes Stripe Checkout; platby v hotovosti a převodem zapisují administrátoři a editoři."
+
+#. Found in description list item.
+msgid "Optional discount for the members with the lowest fees."
+msgstr "Volitelná sleva pro členy s nejnižšími příspěvky."
+
+#. Found in description list item.
+msgid "Fair calculation of the fees for any period (season), see below."
+msgstr "Spravedlivý výpočet příspěvků pro libovolné období (sezónu), viz níže."
+
+#. Found in description list item.
+msgid "Volunteer hours recorded by the members themselves, or by administrators and editors for anybody."
+msgstr "Brigádnické hodiny zapisují sami členové, nebo administrátoři a editoři za kohokoli."
+
+#. Found in description list item.
+msgid "Full history of every member: joined, membership type changed, membership ended, rejoined – each with the date of the change, who recorded it and when."
+msgstr "Úplná historie každého člena: přijetí, změna typu členství, ukončení členství, opětovné přijetí – vždy s datem změny, kdo ji zapsal a kdy."
+
+#. Found in description list item.
+msgid "Membership register with regular and honorary members (honorary members pay no fee)."
+msgstr "Evidence členů s řádnými a čestnými členy (čestní členové příspěvek neplatí)."
+
+#. Found in description header.
+msgid "Source code"
+msgstr "Zdrojový kód"
+
+#. Found in description header.
+msgid "External services"
+msgstr "Externí služby"
+
+#. Screenshot description.
+msgid "Member Fees → Settings: currency and Stripe keys for online payments."
+msgstr "Členské příspěvky → Nastavení: měna a klíče Stripe pro online platby."
+
+#. Screenshot description.
+msgid "Member Fees → Volunteer hours: all recorded hours with filters."
+msgstr "Členské příspěvky → Brigádnické hodiny: všechny zapsané hodiny s filtry."
+
+#. Screenshot description.
+msgid "Every change of a membership is kept in the history with the date of the change, who recorded it and when."
+msgstr "Každá změna členství se uchovává v historii s datem změny, kdo ji zapsal a kdy."
+
+#. Screenshot description.
+msgid "Member Fees → Members: the membership register."
+msgstr "Členské příspěvky → Členové: evidence členů."
+
+#. Screenshot description.
+msgid "All options of the blocks are in the block settings: the period, the base fee, the discount, the payment button, columns, names and table colours."
+msgstr "Všechny volby bloků jsou v nastavení bloku: období, základní příspěvek, sleva, tlačítko platby, sloupce, jména a barvy tabulky."
+
+#. Screenshot description.
+msgid "The Fee calculation explained block shows the method on an example with your own base fee and discount."
+msgstr "Blok Postup výpočtu příspěvku ukazuje metodu na příkladu s vaším základním příspěvkem a slevou."
+
+#. Screenshot description.
+msgid "The Volunteer hours form and list: members record their own hours, administrators and editors record them for anybody."
+msgstr "Formulář a seznam brigádnických hodin: členové zapisují své hodiny, administrátoři a editoři je zapisují za kohokoli."
+
+#. Screenshot description.
+msgid "The Members list block with the totals of regular and honorary members."
+msgstr "Blok Seznam členů se součty řádných a čestných členů."
+
+#. Screenshot description.
+msgid "The Membership fees block: the fee of every member calculated from the volunteer hours, with the optional discount and the totals rows."
+msgstr "Blok Členské příspěvky: příspěvek každého člena vypočtený z brigádnických hodin, s volitelnou slevou a řádky součtů."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "First release."
+msgstr "První vydání."

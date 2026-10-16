@@ -1,0 +1,1455 @@
+# Translation of Plugins - Fair Member Fees - Development (trunk) in Japanese
+# This file is distributed under the same license as the Plugins - Fair Member Fees - Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Fair Member Fees - Development (trunk)\n"
+"PO-Revision-Date: 2026-10-16 12:00:00+0000\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.1.0\n"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "payment"
+msgstr "支払い"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block description"
+msgid "Fair membership fees for a period: members who volunteered more pay less. Once the hours of the period are closed, members can pay online; administrators and editors record cash and bank payments."
+msgstr "期間ごとの公平な会費: ボランティア時間が多い会員ほど支払いが少なくなります。期間の時間が締め切られると、会員はオンラインで支払えます。現金や銀行振込の支払いは管理者と編集者が記録します。"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block title"
+msgid "Membership fees"
+msgstr "会費"
+
+#: build/blocks/members-list/block.json build/blocks/membership-fees/block.json src/blocks/members-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "membership"
+msgstr "会員資格"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block keyword"
+msgid "register"
+msgstr "名簿"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block keyword"
+msgid "members"
+msgstr "会員"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block description"
+msgid "The membership register: members, their type, membership changes and who recorded them."
+msgstr "会員名簿: 会員、その種別、会員資格の変更と、それを記録した人。"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block title"
+msgid "Members list"
+msgstr "会員リスト"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr "リスト"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block description"
+msgid "Recorded volunteer hours of a period."
+msgstr "期間内に記録されたボランティア時間。"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block title"
+msgid "Volunteer hours list"
+msgstr "ボランティア時間リスト"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "フォーム"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block keyword"
+msgid "work"
+msgstr "作業"
+
+#: build/blocks/hours-form/block.json build/blocks/hours-list/block.json build/blocks/membership-fees/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "volunteer"
+msgstr "ボランティア"
+
+#: build/blocks/hours-form/block.json build/blocks/hours-list/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json
+msgctxt "block keyword"
+msgid "hours"
+msgstr "時間"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block description"
+msgid "Logged-in members record the hours they volunteered."
+msgstr "ログインした会員が、行ったボランティア時間を記録します。"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block title"
+msgid "Volunteer hours form"
+msgstr "ボランティア時間フォーム"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "help"
+msgstr "ヘルプ"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "example"
+msgstr "例"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "calculation"
+msgstr "計算"
+
+#: build/blocks/fee-explanation/block.json build/blocks/hours-form/block.json build/blocks/hours-list/block.json build/blocks/members-list/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json src/blocks/members-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "fair member fees"
+msgstr "fair member fees"
+
+#: build/blocks/fee-explanation/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "fee"
+msgstr "会費"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block description"
+msgid "Explains on an example how the fair membership fee is calculated."
+msgstr "公平な会費の計算方法を例で説明します。"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block title"
+msgid "Fee calculation explained"
+msgstr "会費の計算方法"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:155
+msgid "Highlight the logged-in member"
+msgstr "ログイン中の会員を強調表示"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:147
+msgid "Period and base fee above the table"
+msgstr "表の上に期間と基本会費を表示"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:143
+msgid "List honorary members"
+msgstr "名誉会員を表示"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:121
+msgid "Calculated fee and discount (when the discount is on)"
+msgstr "計算された会費と割引 (割引が有効な場合)"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:94
+msgid "Members who volunteered the most pay even less. The discount is not added to the fees of the others."
+msgstr "最も多くボランティアをした会員はさらに支払いが少なくなります。割引分は他の会員の会費に上乗せされません。"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:90
+msgid "Discount for the lowest fees"
+msgstr "最も低い会費への割引"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:72
+msgid "Turn on once the volunteer hours of the period are closed: members then see their final fee and can pay it. While it is off, the fees are shown as calculated from the hours recorded so far. Leave it off if you do not collect fees through this page."
+msgstr "期間のボランティア時間が締め切られたらオンにしてください。会員は確定した会費を確認して支払えるようになります。オフの間は、これまでに記録された時間から計算した会費が表示されます。このページで会費を集めない場合はオフのままにしてください。"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:68
+msgid "Payment button (the fees are final)"
+msgstr "支払いボタン (会費確定)"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:59
+msgid "The fee of a regular member when nobody volunteers. All regular members together pay the base fee times their number."
+msgstr "誰もボランティアをしない場合の正会員の会費。正会員全員で、基本会費 × 人数を支払います。"
+
+#: build/blocks/membership-fees/index.js:2 src/blocks/membership-fees/index.js:46
+msgid "Members of this period pay; their hours of this period lower the fee. Payments are recorded for exactly this period."
+msgstr "この期間の会員が支払います。この期間の時間が会費を下げます。支払いはこの期間に対して正確に記録されます。"
+
+#: build/blocks/membership-fees/index.js:2 src/blocks/membership-fees/index.js:42
+msgid "Period and fee"
+msgstr "期間と会費"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/members-list/index.js:54 src/blocks/membership-fees/index.js:101
+msgid "Columns"
+msgstr "列"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:46
+msgid "Only for logged-in visitors"
+msgstr "ログインした訪問者のみ"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/members-list/index.js:42 src/blocks/membership-fees/index.js:151
+msgid "Totals rows at the end of the table"
+msgstr "表の最後に合計行"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:30
+msgid "Honorary members"
+msgstr "名誉会員"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:26
+msgid "Regular members"
+msgstr "正会員"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:360
+msgid "Totals rows text"
+msgstr "合計行の文字色"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:356
+msgid "Totals rows background"
+msgstr "合計行の背景色"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:353
+msgid "Header text"
+msgstr "見出しの文字色"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:351
+msgid "Header background"
+msgstr "見出しの背景色"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:346
+msgid "Table colours"
+msgstr "表の色"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:127
+msgid "They may delete any entry within this time. Older entries can still be deleted in Member Fees → Volunteer hours."
+msgstr "この期間内であればどのエントリーも削除できます。それより古いエントリーは「会費 → ボランティア時間」で削除できます。"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:123
+msgid "Administrators and editors: days after recording"
+msgstr "管理者と編集者: 記録後の日数"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:106
+msgid "Members delete only hours they recorded themselves, e.g. after a mistake. 0 = only on the day of recording."
+msgstr "会員は自分で記録した時間のみ削除できます (例: 入力ミスの後)。0 = 記録した当日のみ。"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:102
+msgid "Members: days after recording"
+msgstr "会員: 記録後の日数"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:91
+msgid "Allow deleting hours"
+msgstr "時間の削除を許可"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:84
+msgid "Deleting"
+msgstr "削除"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:79
+msgid "Total below"
+msgstr "下に合計を表示"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/hours-list/index.js:60 src/blocks/membership-fees/index.js:130
+msgid "Display"
+msgstr "表示"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:52
+msgid "Only the hours of the logged-in visitor"
+msgstr "ログイン中の訪問者の時間のみ"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:37
+msgid "Maximum entries"
+msgstr "最大エントリー数"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:29
+msgid "Leave empty for no limit."
+msgstr "制限しない場合は空欄にしてください。"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:94
+msgid "As in the plugin settings"
+msgstr "プラグイン設定に従う"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:89
+msgid "Names"
+msgstr "名前"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:106
+msgid "Number of recent entries"
+msgstr "最近のエントリー数"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:96
+msgid "Show my recent entries"
+msgstr "自分の最近のエントリーを表示"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:92
+msgid "Description of the work is required"
+msgstr "作業内容の説明を必須にする"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:81
+msgid "Button text"
+msgstr "ボタンのテキスト"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:63
+msgid "How old the date of the work may be. 0 = only today."
+msgstr "作業日をどれだけ過去にできるか。0 = 今日のみ。"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:62
+msgid "Days back"
+msgstr "さかのぼれる日数"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:49
+msgid "Off: hours are always recorded for today, so nobody can add hours to the past or change a closed period. Administrators and editors can always choose the date."
+msgstr "オフ: 時間は常に今日の日付で記録されるため、過去に時間を追加したり締め切った期間を変更したりできません。管理者と編集者はいつでも日付を選べます。"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:45
+msgid "Members may change the date"
+msgstr "会員が日付を変更できる"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:35
+msgid "Step of the hours"
+msgstr "時間の刻み"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:23
+msgid "Maximum hours per entry"
+msgstr "1エントリーあたりの最大時間"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:18
+msgid "Form"
+msgstr "フォーム"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:71
+msgid "Explain the discount"
+msgstr "割引を説明"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:53
+msgid "Hours of the honorary members"
+msgstr "名誉会員の時間"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:41
+msgid "One number per member, separated by commas or spaces."
+msgstr "会員ごとに1つの数値をカンマまたはスペースで区切って入力します。"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:37
+msgid "Hours of the regular members"
+msgstr "正会員の時間"
+
+#. translators: %s: currency code.
+#: build/blocks/fee-explanation/index.js:3 build/blocks/membership-fees/index.js:3 src/blocks/fee-explanation/index.js:28 src/blocks/membership-fees/index.js:56
+msgid "Base fee (%s)"
+msgstr "基本会費 (%s)"
+
+#: build/blocks/fee-explanation/index.js:2 src/blocks/fee-explanation/index.js:22
+msgid "Example"
+msgstr "例"
+
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:300
+msgid "Discount (%)"
+msgstr "割引 (%)"
+
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:282
+msgid "The discount is calculated so that the regular members pay this amount together. If their calculated fees do not exceed it, there is no discount."
+msgstr "正会員全員でこの金額を支払うように割引が計算されます。計算された会費がこの金額を超えない場合、割引はありません。"
+
+#. translators: %s: currency code.
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:279
+msgid "Total to collect (%s)"
+msgstr "徴収総額 (%s)"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:263
+msgid "Total to collect"
+msgstr "徴収総額"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:259
+msgid "Percentage"
+msgstr "割合"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:254
+msgid "Discount given by"
+msgstr "割引の指定方法"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:244
+msgid "Share of members with the lowest fees (%)"
+msgstr "会費が最も低い会員の割合 (%)"
+
+#. translators: %s: list of member names.
+#: includes/famefe-users.php:190
+msgid "These accounts belong to members: %s. The members, their history, hours and payments stay in the register; only the link to the account is removed. To end a membership, use Member Fees → Members."
+msgstr "これらのアカウントは会員のものです: %s。会員とその履歴、時間、支払いは名簿に残り、アカウントとのリンクだけが削除されます。会員資格を終了するには「会費 → 会員」を使用してください。"
+
+#: includes/famefe-users.php:93
+msgid "The first name, last name and e-mail of this profile are also the details of the member."
+msgstr "このプロフィールの名、姓、メールアドレスは会員の情報でもあります。"
+
+#: includes/famefe-users.php:91
+msgid "Membership and history"
+msgstr "会員資格と履歴"
+
+#: includes/famefe-users.php:87
+msgid "Add as member"
+msgstr "会員として追加"
+
+#: includes/famefe-users.php:86
+msgid "Not a member."
+msgstr "会員ではありません。"
+
+#. translators: 1: first day of the period, 2: last day of the period.
+#: includes/famefe-stripe.php:122
+msgid "Membership fee %1$s – %2$s"
+msgstr "会費 %1$s – %2$s"
+
+#. translators: 1: amount, 2: currency symbol or code (Kč, €, USD).
+#: includes/famefe-settings.php:95
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: includes/famefe-notices.php:61
+msgid "The data could not be saved. Please try again."
+msgstr "データを保存できませんでした。もう一度お試しください。"
+
+#: includes/famefe-notices.php:60
+msgid "The payment has not been confirmed yet. If you paid, it will appear shortly."
+msgstr "支払いはまだ確認されていません。支払い済みの場合は、まもなく表示されます。"
+
+#: includes/famefe-notices.php:59
+msgid "The payment service could not be reached. Please try again later."
+msgstr "決済サービスに接続できませんでした。しばらくしてからもう一度お試しください。"
+
+#: includes/famefe-notices.php:58
+msgid "Online payment is not set up."
+msgstr "オンライン決済が設定されていません。"
+
+#: includes/famefe-notices.php:57
+msgid "The block of this form was not found on the page. Please reload the page."
+msgstr "このフォームのブロックがページ上に見つかりません。ページを再読み込みしてください。"
+
+#: includes/famefe-notices.php:56
+msgid "There is nothing to pay."
+msgstr "支払うものはありません。"
+
+#: includes/famefe-notices.php:55
+msgid "The membership fee for this period has already been paid."
+msgstr "この期間の会費はすでに支払われています。"
+
+#: includes/famefe-notices.php:54
+msgid "Choose a valid payment method."
+msgstr "有効な支払い方法を選択してください。"
+
+#: includes/famefe-notices.php:53
+msgid "Enter a valid amount."
+msgstr "有効な金額を入力してください。"
+
+#: includes/famefe-notices.php:51
+msgid "Describe the work, please."
+msgstr "作業内容を記入してください。"
+
+#: includes/famefe-notices.php:50
+msgid "Hours cannot be recorded for this date any more."
+msgstr "この日付にはもう時間を記録できません。"
+
+#: includes/famefe-notices.php:49
+msgid "These hours can no longer be deleted here; the time limit has passed."
+msgstr "この時間はここではもう削除できません。期限が過ぎています。"
+
+#: includes/famefe-notices.php:48
+msgid "Enter a valid number of hours."
+msgstr "有効な時間数を入力してください。"
+
+#: includes/famefe-notices.php:47
+msgid "The member has hours or payments and cannot be deleted. End the membership instead."
+msgstr "この会員には時間または支払いの記録があるため削除できません。代わりに会員資格を終了してください。"
+
+#: includes/famefe-notices.php:45
+msgid "This e-mail address is already used by another user account."
+msgstr "このメールアドレスは別のユーザーアカウントで使用されています。"
+
+#: includes/famefe-notices.php:44
+msgid "Enter a valid e-mail address."
+msgstr "有効なメールアドレスを入力してください。"
+
+#: includes/famefe-notices.php:43
+msgid "This change is not possible for the member (check the status and the date)."
+msgstr "この会員にはこの変更を行えません (状態と日付を確認してください)。"
+
+#: includes/famefe-notices.php:42
+msgid "\"Member since\" cannot be after the end of the membership."
+msgstr "「入会日」を会員資格の終了日より後にすることはできません。"
+
+#: includes/famefe-notices.php:41
+msgid "Choose a valid membership type."
+msgstr "有効な会員種別を選択してください。"
+
+#: includes/famefe-notices.php:40
+msgid "Enter a valid date."
+msgstr "有効な日付を入力してください。"
+
+#: includes/famefe-notices.php:39
+msgid "Enter the first or the last name."
+msgstr "名または姓を入力してください。"
+
+#: includes/famefe-notices.php:38
+msgid "The record was not found."
+msgstr "記録が見つかりません。"
+
+#: includes/famefe-notices.php:37
+msgid "The form has expired. Please reload the page and try again."
+msgstr "フォームの有効期限が切れました。ページを再読み込みして、もう一度お試しください。"
+
+#: includes/famefe-notices.php:36
+msgid "Please log in first."
+msgstr "先にログインしてください。"
+
+#: includes/famefe-notices.php:35
+msgid "You are not allowed to do this."
+msgstr "この操作を行う権限がありません。"
+
+#: includes/famefe-notices.php:33
+msgid "The settings were saved."
+msgstr "設定を保存しました。"
+
+#: includes/famefe-notices.php:32
+msgid "The payment was cancelled. You can try again at any time."
+msgstr "支払いがキャンセルされました。いつでもやり直せます。"
+
+#: includes/famefe-notices.php:31
+msgid "Thank you, your membership fee was paid."
+msgstr "ありがとうございます。会費の支払いが完了しました。"
+
+#: includes/famefe-notices.php:30
+msgid "The payment was deleted."
+msgstr "支払いを削除しました。"
+
+#: includes/famefe-notices.php:29
+msgid "The payment was recorded."
+msgstr "支払いを記録しました。"
+
+#: includes/famefe-notices.php:28
+msgid "The hours were deleted."
+msgstr "時間を削除しました。"
+
+#: includes/famefe-notices.php:27
+msgid "The hours were saved."
+msgstr "時間を保存しました。"
+
+#: includes/famefe-notices.php:26
+msgid "Thank you, your hours were recorded."
+msgstr "ありがとうございます。時間を記録しました。"
+
+#: includes/famefe-notices.php:25
+msgid "The member was deleted."
+msgstr "会員を削除しました。"
+
+#: includes/famefe-notices.php:24
+msgid "The change of the membership was recorded."
+msgstr "会員資格の変更を記録しました。"
+
+#: includes/famefe-notices.php:23
+msgid "The member was saved."
+msgstr "会員を保存しました。"
+
+#: includes/famefe-notices.php:22
+msgid "The member and the user account were created. The member got an e-mail with a link for setting the password."
+msgstr "会員とユーザーアカウントを作成しました。会員にはパスワード設定用リンクを記載したメールが送信されました。"
+
+#: includes/famefe-notices.php:21
+msgid "The member and the user account were created."
+msgstr "会員とユーザーアカウントを作成しました。"
+
+#: includes/famefe-notices.php:20
+msgid "The member was added."
+msgstr "会員を追加しました。"
+
+#: includes/famefe-data.php:241
+msgid "Deleted user"
+msgstr "削除済みユーザー"
+
+#: includes/famefe-data.php:191
+msgid "Unknown name"
+msgstr "不明な名前"
+
+#: includes/famefe-data.php:51
+msgid "Bank transfer"
+msgstr "銀行振込"
+
+#: includes/famefe-data.php:50
+msgid "Cash"
+msgstr "現金"
+
+#: includes/famefe-data.php:49
+msgid "Card (Stripe)"
+msgstr "カード (Stripe)"
+
+#: includes/famefe-data.php:39
+msgid "\"Member since\" corrected"
+msgstr "「入会日」を修正"
+
+#: includes/famefe-data.php:38
+msgid "Rejoined"
+msgstr "再入会"
+
+#: includes/famefe-data.php:37
+msgid "Membership ended"
+msgstr "退会"
+
+#: includes/famefe-data.php:36
+msgid "Membership type changed"
+msgstr "会員種別を変更"
+
+#: includes/famefe-data.php:35
+msgid "Joined"
+msgstr "入会"
+
+#: includes/famefe-data.php:25
+msgid "Honorary"
+msgstr "名誉"
+
+#: includes/famefe-data.php:24
+msgid "Regular"
+msgstr "正"
+
+#: includes/famefe-admin.php:673
+msgid "All regular members of the period together pay the base fee times their number (the expected total). Each member’s share of the volunteer hours of all regular members lowers the fee; what is collected above the expected total is taken off everybody equally, and no fee goes below zero. A member without any hours in the period always pays twice the base fee. Honorary members pay nothing. With the optional discount, the given share of members with the lowest fees pays the given percentage less, or as much less as needed for the given total to collect; nothing is moved to the others."
+msgstr "期間内の正会員全員で、基本会費 × 人数 (予定総額) を支払います。正会員全員のボランティア時間に占める各会員の割合に応じて、その会員の会費が下がります。予定総額を超えて集まる分は全員から均等に差し引かれ、会費が0を下回ることはありません。期間内に時間がない会員は、常に基本会費の2倍を支払います。名誉会員は支払いません。任意の割引を使うと、会費が最も低い会員のうち指定した割合が、指定した割合だけ、または指定した徴収総額に必要な分だけ安くなります。他の会員に上乗せされることはありません。"
+
+#: includes/famefe-admin.php:672
+msgid "How the fee is calculated"
+msgstr "会費の計算方法"
+
+#: includes/famefe-admin.php:663
+msgid "Blocks"
+msgstr "ブロック"
+
+#: includes/famefe-admin.php:659
+msgid "Add the blocks to your pages: search for \"Fair Member Fees\" in the block inserter."
+msgstr "ブロックをページに追加します: ブロック挿入ツールで「Fair Member Fees」を検索してください。"
+
+#: includes/famefe-admin.php:658
+msgid "Set the currency, and Stripe if you want online payments (Settings)."
+msgstr "通貨と、オンライン決済を行う場合は Stripe を設定します (設定)。"
+
+#: includes/famefe-admin.php:657
+msgid "Add your members (Members → Add member) and link them to their user accounts."
+msgstr "会員を追加し (会員 → 会員を追加)、ユーザーアカウントとリンクします。"
+
+#: includes/famefe-admin.php:655
+msgid "Getting started"
+msgstr "はじめに"
+
+#: includes/famefe-admin.php:653
+msgid "Fair Member Fees help"
+msgstr "Fair Member Fees ヘルプ"
+
+#: includes/famefe-admin.php:649
+msgid "Explains the calculation on an example with your numbers."
+msgstr "あなたの数値を使った例で計算を説明します。"
+
+#: includes/famefe-admin.php:649
+msgid "Fee calculation explained"
+msgstr "会費の計算方法"
+
+#: includes/famefe-admin.php:648
+msgid "The membership register with the date of the last change and who recorded it; visible to logged-in users by default."
+msgstr "最終変更日とそれを記録した人を含む会員名簿。初期設定ではログインしたユーザーに表示されます。"
+
+#: includes/famefe-admin.php:648
+msgid "Members list"
+msgstr "会員リスト"
+
+#: includes/famefe-admin.php:647
+msgid "Recorded hours for a period, all or only the visitor’s own."
+msgstr "期間内に記録された時間 (すべて、または訪問者自身の分のみ)。"
+
+#: includes/famefe-admin.php:647
+msgid "Volunteer hours list"
+msgstr "ボランティア時間リスト"
+
+#: includes/famefe-admin.php:646
+msgid "Members record their own hours. Set the maximum hours per entry, how many days back a date may be, and whether a description is required."
+msgstr "会員が自分の時間を記録します。1エントリーあたりの最大時間、何日前までの日付を許可するか、説明を必須にするかを設定します。"
+
+#: includes/famefe-admin.php:646
+msgid "Volunteer hours form"
+msgstr "ボランティア時間フォーム"
+
+#: includes/famefe-admin.php:645
+msgid "The table of fees for a period. Set the period, the base fee and the optional discount in the block settings. Until the volunteer hours of the period are closed, it shows the fees calculated so far; then turn on its payment button and members can pay their final fee. Administrators and editors can record cash and bank payments right there. Clubs that only keep records of hours leave the button off."
+msgstr "期間の会費表です。期間、基本会費、任意の割引はブロック設定で指定します。期間のボランティア時間が締め切られるまでは、それまでに計算された会費を表示します。その後支払いボタンをオンにすると、会員は確定した会費を支払えます。管理者と編集者はその場で現金や銀行振込の支払いを記録できます。時間の記録だけを行うクラブはボタンをオフのままにします。"
+
+#: includes/famefe-admin.php:645
+msgid "Membership fees"
+msgstr "会費"
+
+#: includes/famefe-admin.php:635 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:123
+msgid "Shortened for data protection: first 4 and last 4 characters (Janaková)"
+msgstr "データ保護のため短縮: 最初の4文字と最後の4文字 (Janemith)"
+
+#: includes/famefe-admin.php:634 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:116
+msgid "Display name of the user account"
+msgstr "ユーザーアカウントの表示名"
+
+#: includes/famefe-admin.php:633 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:112
+msgid "Initials (J. S.)"
+msgstr "イニシャル (J. S.)"
+
+#: includes/famefe-admin.php:632 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:105
+msgid "First name and initial (Jane S.)"
+msgstr "名とイニシャル (Jane S.)"
+
+#: includes/famefe-admin.php:631 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:101
+msgid "Full name (Jane Smith)"
+msgstr "フルネーム (Jane Smith)"
+
+#: includes/famefe-admin.php:616
+msgid "Delete all members, hours, payments and settings when the plugin is deleted."
+msgstr "プラグインの削除時に、すべての会員、時間、支払い、設定を削除する。"
+
+#: includes/famefe-admin.php:615
+msgid "Delete data"
+msgstr "データを削除"
+
+#: includes/famefe-admin.php:612
+msgid "Uninstall"
+msgstr "アンインストール"
+
+#: includes/famefe-admin.php:607
+msgid "Default for all blocks; each block can override it."
+msgstr "すべてのブロックの初期値です。各ブロックで変更できます。"
+
+#: includes/famefe-admin.php:600
+msgid "Names in blocks"
+msgstr "ブロック内の名前"
+
+#: includes/famefe-admin.php:597
+msgid "Logged-in users who are not members may record their hours too (they count only in the totals)."
+msgstr "会員ではないログインユーザーも自分の時間を記録できます (合計にのみ反映されます)。"
+
+#: includes/famefe-admin.php:596
+msgid "Hours of non-members"
+msgstr "非会員の時間"
+
+#: includes/famefe-admin.php:593
+msgid "Volunteer hours and names"
+msgstr "ボランティア時間と名前"
+
+#: includes/famefe-admin.php:588
+msgid "Add this address in Stripe (Developers → Webhooks) with the events checkout.session.completed and checkout.session.async_payment_succeeded, then copy its signing secret here. Payments are recorded even when a member closes the browser before returning to your site."
+msgstr "このアドレスを Stripe (Developers → Webhooks) に checkout.session.completed と checkout.session.async_payment_succeeded のイベントで追加し、署名シークレットをここにコピーしてください。会員がサイトに戻る前にブラウザーを閉じても、支払いは記録されます。"
+
+#: includes/famefe-admin.php:585
+msgid "Webhook endpoint"
+msgstr "Webhook エンドポイント"
+
+#: includes/famefe-admin.php:575
+msgid "Live webhook signing secret"
+msgstr "本番 Webhook 署名シークレット"
+
+#: includes/famefe-admin.php:574
+msgid "Live secret key"
+msgstr "本番シークレットキー"
+
+#: includes/famefe-admin.php:573
+msgid "Test webhook signing secret"
+msgstr "テスト Webhook 署名シークレット"
+
+#: includes/famefe-admin.php:572
+msgid "Test secret key"
+msgstr "テストシークレットキー"
+
+#: includes/famefe-admin.php:567
+msgid "Live"
+msgstr "本番"
+
+#: includes/famefe-admin.php:566
+msgid "Test (no real money)"
+msgstr "テスト (実際のお金は動きません)"
+
+#: includes/famefe-admin.php:564
+msgid "Mode"
+msgstr "モード"
+
+#: includes/famefe-admin.php:561
+msgid "Members pay on the Stripe payment page. Fill in the secret key of the mode you use; without it the Membership fees block shows no payment button."
+msgstr "会員は Stripe の決済ページで支払います。使用するモードのシークレットキーを入力してください。キーがない場合、会費ブロックに支払いボタンは表示されません。"
+
+#: includes/famefe-admin.php:560
+msgid "Stripe"
+msgstr "Stripe"
+
+#: includes/famefe-admin.php:555
+msgid "Fees are rounded to this number of decimals. Leave empty to use the usual number of the currency (CZK 0, EUR and USD 2)."
+msgstr "会費はこの小数点以下の桁数に丸められます。空欄の場合は通貨の通常の桁数を使用します (CZK 0、EUR と USD 2)。"
+
+#: includes/famefe-admin.php:552
+msgid "Decimal places"
+msgstr "小数点以下の桁数"
+
+#: includes/famefe-admin.php:548
+msgid "Three-letter ISO code, e.g. CZK, EUR, USD."
+msgstr "3文字の ISO コード (例: CZK、EUR、USD)。"
+
+#: includes/famefe-admin.php:545
+msgid "Currency"
+msgstr "通貨"
+
+#: includes/famefe-admin.php:542
+msgid "Money"
+msgstr "お金"
+
+#: includes/famefe-admin.php:539
+msgid "The season (period), the base fee and the discount are set in the Membership fees block on your page."
+msgstr "シーズン (期間)、基本会費、割引はページ上の会費ブロックで設定します。"
+
+#: includes/famefe-admin.php:537
+msgid "Fair Member Fees settings"
+msgstr "Fair Member Fees 設定"
+
+#. translators: %s: currency code.
+#: includes/famefe-admin.php:483
+msgid "Amount (%s)"
+msgstr "金額 (%s)"
+
+#: includes/famefe-admin.php:479
+msgid "to"
+msgstr "～"
+
+#: includes/famefe-admin.php:478
+msgid "Period from"
+msgstr "期間の開始"
+
+#: includes/famefe-admin.php:474
+msgid "Cash and bank payments. The period must be the same as in the Membership fees block, otherwise the block does not show the member as paid. Card payments are recorded automatically."
+msgstr "現金と銀行振込の支払い。期間は会費ブロックと同じにする必要があります。異なると、ブロックでその会員が支払い済みと表示されません。カード払いは自動的に記録されます。"
+
+#: includes/famefe-admin.php:473
+msgid "Record a payment"
+msgstr "支払いを記録"
+
+#. translators: %s: number of hours.
+#: includes/famefe-admin.php:451
+msgid "Total: %s hours"
+msgstr "合計: %s 時間"
+
+#: includes/famefe-admin.php:447 includes/famefe-admin.php:505
+msgid "Filter"
+msgstr "絞り込み"
+
+#: includes/famefe-admin.php:433
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: includes/famefe-admin.php:431
+msgid "Save"
+msgstr "保存"
+
+#: includes/famefe-admin.php:419
+msgid "Record hours for a member"
+msgstr "会員の時間を記録"
+
+#: includes/famefe-admin.php:419
+msgid "Edit hours"
+msgstr "時間を編集"
+
+#: includes/famefe-admin.php:380 includes/famefe-admin.php:440 build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:159
+msgid "To"
+msgstr "終了"
+
+#: includes/famefe-admin.php:379 includes/famefe-admin.php:439 build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:149
+msgid "From"
+msgstr "開始"
+
+#: includes/famefe-admin.php:373
+msgid "History"
+msgstr "履歴"
+
+#: includes/famefe-admin.php:370
+msgid "Active"
+msgstr "有効"
+
+#: includes/famefe-admin.php:357
+msgid "Record the change"
+msgstr "変更を記録"
+
+#: includes/famefe-admin.php:355
+msgid "Valid from"
+msgstr "適用開始日"
+
+#: includes/famefe-admin.php:353
+msgid "Rejoin"
+msgstr "再入会させる"
+
+#: includes/famefe-admin.php:348
+msgid "End the membership"
+msgstr "会員資格を終了"
+
+#. translators: %s: membership type (Regular, Honorary).
+#: includes/famefe-admin.php:343
+msgid "Change type to: %s"
+msgstr "種別を変更: %s"
+
+#: includes/famefe-admin.php:336 includes/famefe-admin.php:378
+msgid "Change"
+msgstr "変更"
+
+#: includes/famefe-admin.php:330 includes/famefe-users.php:80
+msgid "Membership"
+msgstr "会員資格"
+
+#. translators: %s: date.
+#: includes/famefe-admin.php:327 includes/famefe-users.php:110
+msgid "Membership ended on %s"
+msgstr "%s に退会"
+
+#. translators: 1: membership type, 2: date.
+#: includes/famefe-admin.php:325 includes/famefe-users.php:113
+msgid "%1$s member since %2$s"
+msgstr "%1$s会員 (%2$s から)"
+
+#: includes/famefe-admin.php:311
+msgid "Delete member entered by mistake"
+msgstr "誤って登録した会員を削除"
+
+#: includes/famefe-admin.php:311
+msgid "Delete this member? Use this only for a member entered by mistake."
+msgstr "この会員を削除しますか？ 誤って登録した会員にのみ使用してください。"
+
+#: includes/famefe-admin.php:297
+msgid "Save details"
+msgstr "情報を保存"
+
+#: includes/famefe-admin.php:288
+msgid "Only to correct a mistake; the correction is recorded in the history. Membership changes go below."
+msgstr "誤りの修正専用です。修正は履歴に記録されます。会員資格の変更は下にあります。"
+
+#: includes/famefe-admin.php:279
+msgid "Regular members pay the membership fee, honorary members do not."
+msgstr "正会員は会費を支払い、名誉会員は支払いません。"
+
+#: includes/famefe-admin.php:272 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:108
+msgid "Membership type"
+msgstr "会員種別"
+
+#: includes/famefe-admin.php:266
+msgid "For an existing account, the name and e-mail of the account are used; these fields only fill in what the account lacks."
+msgstr "既存のアカウントの場合はアカウントの名前とメールアドレスが使用されます。これらの項目はアカウントに不足している情報を補うだけです。"
+
+#: includes/famefe-admin.php:264
+msgid "Changes of the name and e-mail are saved to the user account too."
+msgstr "名前とメールアドレスの変更はユーザーアカウントにも保存されます。"
+
+#: includes/famefe-admin.php:262
+msgid "The name and e-mail come from the user account, which you are not allowed to edit."
+msgstr "名前とメールアドレスは、あなたに編集権限のないユーザーアカウントのものです。"
+
+#: includes/famefe-admin.php:254
+msgid "Last name"
+msgstr "姓"
+
+#: includes/famefe-admin.php:250
+msgid "First name"
+msgstr "名"
+
+#: includes/famefe-admin.php:245
+msgid "Members with an account can record their hours and pay online."
+msgstr "アカウントを持つ会員は時間を記録し、オンラインで支払えます。"
+
+#: includes/famefe-admin.php:243
+msgid "Open the profile"
+msgstr "プロフィールを開く"
+
+#: includes/famefe-admin.php:238
+msgid "Members with an account can record their hours and pay online. The name and e-mail of a linked member are those of the account."
+msgstr "アカウントを持つ会員は時間を記録し、オンラインで支払えます。リンクされた会員の名前とメールアドレスはアカウントのものが使われます。"
+
+#: includes/famefe-admin.php:236
+msgid "Without a user account"
+msgstr "ユーザーアカウントなし"
+
+#: includes/famefe-admin.php:233
+msgid "The account gets the default role of the site; the e-mail address is required."
+msgstr "アカウントにはサイトの初期設定の権限グループが割り当てられます。メールアドレスは必須です。"
+
+#: includes/famefe-admin.php:232
+msgid "Send the member an e-mail with a link for setting the password"
+msgstr "パスワード設定用リンクを記載したメールを会員に送信"
+
+#: includes/famefe-admin.php:230
+msgid "Create a new user account"
+msgstr "新しいユーザーアカウントを作成"
+
+#: includes/famefe-admin.php:227
+msgid "Existing user account"
+msgstr "既存のユーザーアカウント"
+
+#: includes/famefe-admin.php:217
+msgid "— No account —"
+msgstr "— アカウントなし —"
+
+#: includes/famefe-admin.php:205
+msgid "Details"
+msgstr "情報"
+
+#: includes/famefe-admin.php:202
+msgid "No account found."
+msgstr "アカウントが見つかりません。"
+
+#. translators: %d: number of user accounts found.
+#: includes/famefe-admin.php:201
+msgid "Found: %d"
+msgstr "見つかった件数: %d"
+
+#: includes/famefe-admin.php:199 includes/famefe-notices.php:46
+msgid "This user account already belongs to another member."
+msgstr "このユーザーアカウントはすでに別の会員のものです。"
+
+#: includes/famefe-admin.php:194
+msgid "Back to the members"
+msgstr "会員一覧へ戻る"
+
+#: includes/famefe-admin.php:176
+msgid "Search members"
+msgstr "会員を検索"
+
+#: includes/famefe-admin.php:165 includes/famefe-admin.php:193 includes/famefe-admin.php:297
+msgid "Add member"
+msgstr "会員を追加"
+
+#: includes/famefe-admin.php:143
+msgid "Search user accounts"
+msgstr "ユーザーアカウントを検索"
+
+#: includes/famefe-admin.php:142
+msgid "Search accounts by name or login…"
+msgstr "名前またはログイン名でアカウントを検索…"
+
+#. translators: 1: name of the person, 2: date and time.
+#: includes/famefe-admin.php:132
+msgid "%1$s on %2$s"
+msgstr "%1$s (%2$s)"
+
+#. translators: %s: date and time.
+#: includes/famefe-admin.php:129
+msgid "automatically on %s"
+msgstr "自動 (%s)"
+
+#: includes/famefe-admin.php:33
+msgid "Help"
+msgstr "ヘルプ"
+
+#: includes/famefe-admin.php:32
+msgid "Settings"
+msgstr "設定"
+
+#: includes/famefe-admin.php:31 includes/famefe-admin.php:470
+msgid "Payments"
+msgstr "支払い"
+
+#: includes/famefe-admin.php:30 includes/famefe-admin.php:415
+msgid "Volunteer hours"
+msgstr "ボランティア時間"
+
+#: includes/famefe-admin.php:22
+msgid "Member Fees"
+msgstr "会費"
+
+#: includes/famefe-admin-tables.php:334
+msgid "Delete this payment? The member will be shown as unpaid."
+msgstr "この支払いを削除しますか？ 会員は未払いと表示されます。"
+
+#: includes/famefe-admin-tables.php:324
+msgid "No payments recorded."
+msgstr "記録された支払いはありません。"
+
+#: includes/famefe-admin-tables.php:307 includes/famefe-admin.php:293 includes/famefe-admin.php:356 includes/famefe-admin.php:381 includes/famefe-admin.php:494
+msgid "Note"
+msgstr "メモ"
+
+#: includes/famefe-admin-tables.php:305
+msgid "Amount"
+msgstr "金額"
+
+#: includes/famefe-admin-tables.php:304 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:25
+msgid "Period"
+msgstr "期間"
+
+#. translators: %s: name of a user who is not a member.
+#: includes/famefe-admin-tables.php:266
+msgid "%s (not a member)"
+msgstr "%s (非会員)"
+
+#: includes/famefe-admin-tables.php:251
+msgid "Edit"
+msgstr "編集"
+
+#: includes/famefe-admin-tables.php:154
+msgid "Edit and history"
+msgstr "編集と履歴"
+
+#: includes/famefe-admin-tables.php:152
+msgid "(no name)"
+msgstr "(名前なし)"
+
+#: includes/famefe-admin-tables.php:128 includes/famefe-admin.php:443 includes/famefe-admin.php:501
+msgid "All"
+msgstr "すべて"
+
+#: includes/famefe-admin-tables.php:127 includes/famefe-admin.php:109 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:34
+msgid "Former members"
+msgstr "元会員"
+
+#: includes/famefe-admin-tables.php:126 includes/famefe-admin.php:29 includes/famefe-admin.php:109 includes/famefe-admin.php:164 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:21
+msgid "Members"
+msgstr "会員"
+
+#: includes/famefe-admin-tables.php:39 includes/famefe-admin.php:258
+msgid "Email"
+msgstr "メール"
+
+#: includes/famefe-admin-tables.php:38 includes/famefe-admin.php:223
+msgid "User account"
+msgstr "ユーザーアカウント"
+
+#: build/blocks/membership-fees/render.php:306 src/blocks/membership-fees/render.php:306
+msgid "Only administrators and editors see this form. The amount is the calculated fee of the member."
+msgstr "このフォームは管理者と編集者にのみ表示されます。金額はその会員の計算された会費です。"
+
+#: build/blocks/membership-fees/render.php:305 includes/famefe-admin.php:495 src/blocks/membership-fees/render.php:305
+msgid "Record payment"
+msgstr "支払いを記録"
+
+#: build/blocks/membership-fees/render.php:295 includes/famefe-admin-tables.php:306 includes/famefe-admin.php:487 src/blocks/membership-fees/render.php:295
+msgid "Method"
+msgstr "方法"
+
+#: build/blocks/membership-fees/render.php:287 src/blocks/membership-fees/render.php:287
+msgid "Member and fee"
+msgstr "会員と会費"
+
+#: build/blocks/membership-fees/render.php:283 src/blocks/membership-fees/render.php:283
+msgid "Record a cash or bank payment (administrators and editors)"
+msgstr "現金または銀行振込の支払いを記録 (管理者と編集者)"
+
+#: build/blocks/membership-fees/render.php:267 src/blocks/membership-fees/render.php:267
+msgid "(Visible only to administrators and editors.)"
+msgstr "(管理者と編集者にのみ表示されます。)"
+
+#: build/blocks/membership-fees/render.php:261 src/blocks/membership-fees/render.php:261
+msgid "The payment button is shown only to logged-in regular members who have a fee to pay."
+msgstr "支払いボタンは、支払うべき会費があるログイン中の正会員にのみ表示されます。"
+
+#: build/blocks/membership-fees/render.php:259 src/blocks/membership-fees/render.php:259
+msgid "The fees are final, but members cannot pay online: Stripe is not set up yet (Member Fees → Settings → Stripe secret key)."
+msgstr "会費は確定していますが、会員はオンラインで支払えません: Stripe がまだ設定されていません (会費 → 設定 → Stripe シークレットキー)。"
+
+#: build/blocks/membership-fees/render.php:257 src/blocks/membership-fees/render.php:257
+msgid "The payment button is off: the fees are shown as calculated so far. Turn it on in the block settings (\"Payment button\") once the volunteer hours of the period are closed and the fees are final. Leave it off if you do not collect fees through this page."
+msgstr "支払いボタンはオフです: 会費はこれまでの計算結果のとおりに表示されます。期間のボランティア時間が締め切られ、会費が確定したら、ブロック設定 (「支払いボタン」) でオンにしてください。このページで会費を集めない場合はオフのままにしてください。"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:244 src/blocks/membership-fees/render.php:244
+msgid "Pay %s online"
+msgstr "%s をオンラインで支払う"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:233 src/blocks/membership-fees/render.php:233
+msgid "Your membership fee: %s"
+msgstr "あなたの会費: %s"
+
+#: build/blocks/membership-fees/render.php:227 src/blocks/membership-fees/render.php:227
+msgid "You do not need to pay a membership fee for this period. Thank you for your work!"
+msgstr "この期間は会費を支払う必要はありません。ご協力ありがとうございます！"
+
+#: build/blocks/membership-fees/render.php:221 src/blocks/membership-fees/render.php:221
+msgid "The fee will be final once the volunteer hours of this period are closed."
+msgstr "この期間のボランティア時間が締め切られると、会費が確定します。"
+
+#: build/blocks/membership-fees/render.php:219 src/blocks/membership-fees/render.php:219
+msgid "The fee will be final once the volunteer hours of this period are closed; then you can pay it here."
+msgstr "この期間のボランティア時間が締め切られると会費が確定し、ここで支払えるようになります。"
+
+#: build/blocks/membership-fees/render.php:214 src/blocks/membership-fees/render.php:214
+msgid "Thank you for your work!"
+msgstr "ご協力ありがとうございます！"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:209 src/blocks/membership-fees/render.php:209
+msgid "With the volunteer hours recorded so far, your membership fee is %s."
+msgstr "これまでに記録されたボランティア時間に基づくと、あなたの会費は %s です。"
+
+#. translators: 1: amount, 2: date.
+#: build/blocks/membership-fees/render.php:198 src/blocks/membership-fees/render.php:198
+msgid "You paid %1$s on %2$s. Thank you!"
+msgstr "%2$s に %1$s を支払いました。ありがとうございます！"
+
+#: build/blocks/membership-fees/render.php:144 src/blocks/membership-fees/render.php:144
+msgid "There are no members in this period."
+msgstr "この期間の会員はいません。"
+
+#. translators: 1: period (from – to), 2: base fee with currency.
+#: build/blocks/membership-fees/render.php:135 src/blocks/membership-fees/render.php:135
+msgid "Membership fees for %1$s. Base fee: %2$s."
+msgstr "%1$s の会費。基本会費: %2$s。"
+
+#. translators: 1: first day of the period, 2: last day of the period.
+#: build/blocks/membership-fees/render.php:122 src/blocks/membership-fees/render.php:122
+msgid "%1$s – %2$s"
+msgstr "%1$s – %2$s"
+
+#: build/blocks/membership-fees/render.php:106 src/blocks/membership-fees/render.php:106
+msgid "Non-members and former members"
+msgstr "非会員と元会員"
+
+#. translators: 1: number of members who paid, 2: number of regular members.
+#: build/blocks/membership-fees/render.php:94 src/blocks/membership-fees/render.php:94
+msgid "%1$d of %2$d"
+msgstr "%1$d / %2$d"
+
+#: build/blocks/membership-fees/render.php:47 build/blocks/membership-fees/render.php:302 includes/famefe-admin-tables.php:302 includes/famefe-admin.php:493 src/blocks/membership-fees/render.php:47 src/blocks/membership-fees/render.php:302 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:125
+msgid "Paid on"
+msgstr "支払日"
+
+#: build/blocks/members-list/render.php:99 includes/famefe-admin-tables.php:160 includes/famefe-admin.php:370 includes/famefe-users.php:159 src/blocks/members-list/render.php:99
+msgid "Former member"
+msgstr "元会員"
+
+#: build/blocks/members-list/render.php:83 src/blocks/members-list/render.php:83 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:38
+msgid "Search by name"
+msgstr "名前で検索"
+
+#: build/blocks/members-list/render.php:82 src/blocks/members-list/render.php:82
+msgid "Search by name…"
+msgstr "名前で検索…"
+
+#: build/blocks/members-list/render.php:77 includes/famefe-admin-tables.php:146 src/blocks/members-list/render.php:77
+msgid "No members found."
+msgstr "会員が見つかりません。"
+
+#. translators: %d: number of current members.
+#: build/blocks/members-list/render.php:72 src/blocks/members-list/render.php:72
+msgid "Current members (%d)"
+msgstr "現会員 (%d)"
+
+#. translators: %d: number of former members.
+#: build/blocks/members-list/render.php:69 src/blocks/members-list/render.php:69
+msgid "Former members (%d)"
+msgstr "元会員 (%d)"
+
+#. translators: %d: number of honorary members.
+#: build/blocks/members-list/render.php:66 build/blocks/membership-fees/render.php:99 src/blocks/members-list/render.php:66 src/blocks/membership-fees/render.php:99
+msgid "Honorary members (%d)"
+msgstr "名誉会員 (%d)"
+
+#. translators: %d: number of regular members.
+#: build/blocks/members-list/render.php:64 build/blocks/membership-fees/render.php:86 src/blocks/members-list/render.php:64 src/blocks/membership-fees/render.php:86
+msgid "Regular members (%d)"
+msgstr "正会員 (%d)"
+
+#: build/blocks/members-list/render.php:45 includes/famefe-admin-tables.php:37 includes/famefe-admin-tables.php:220 includes/famefe-admin-tables.php:308 includes/famefe-admin.php:382 src/blocks/members-list/render.php:45 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:80
+msgid "Recorded by"
+msgstr "記録者"
+
+#: build/blocks/members-list/render.php:44 includes/famefe-admin-tables.php:36 includes/famefe-admin.php:377 src/blocks/members-list/render.php:44 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:76
+msgid "Change date"
+msgstr "変更日"
+
+#: build/blocks/members-list/render.php:43 includes/famefe-admin-tables.php:35 src/blocks/members-list/render.php:43 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:72
+msgid "Last change"
+msgstr "最終変更"
+
+#: build/blocks/members-list/render.php:42 includes/famefe-admin-tables.php:34 includes/famefe-admin.php:284 src/blocks/members-list/render.php:42 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:68
+msgid "Member since"
+msgstr "入会日"
+
+#: build/blocks/members-list/render.php:19 src/blocks/members-list/render.php:19
+msgid "The list of members is available to logged-in users."
+msgstr "会員リストはログインしたユーザーが閲覧できます。"
+
+#. translators: 1: number of hours, 2: number of entries.
+#: build/blocks/hours-list/render.php:112 src/blocks/hours-list/render.php:112
+msgid "Total: %1$s hours in %2$d entry"
+msgid_plural "Total: %1$s hours in %2$d entries"
+msgstr[0] "合計: %2$d 件で %1$s 時間"
+
+#: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:256 includes/famefe-admin-tables.php:335 src/blocks/hours-list/render.php:94
+msgid "Delete"
+msgstr "削除"
+
+#: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:255 src/blocks/hours-list/render.php:94
+msgid "Delete these hours?"
+msgstr "この時間を削除しますか？"
+
+#: build/blocks/hours-list/render.php:72 src/blocks/hours-list/render.php:72
+msgid "Actions"
+msgstr "操作"
+
+#: build/blocks/hours-list/render.php:69 build/blocks/members-list/render.php:46 src/blocks/hours-list/render.php:69 src/blocks/members-list/render.php:46 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 src/blocks/hours-list/index.js:75 src/blocks/members-list/index.js:84
+msgid "Recorded on"
+msgstr "記録日"
+
+#: build/blocks/hours-list/render.php:62 build/blocks/members-list/render.php:39 build/blocks/membership-fees/render.php:28 includes/famefe-admin-tables.php:32 includes/famefe-admin-tables.php:217 src/blocks/hours-list/render.php:62 src/blocks/members-list/render.php:39 src/blocks/membership-fees/render.php:28 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:73
+msgid "Name"
+msgstr "名前"
+
+#: build/blocks/hours-list/render.php:50 includes/famefe-admin-tables.php:243 src/blocks/hours-list/render.php:50
+msgid "No hours recorded."
+msgstr "記録された時間はありません。"
+
+#: build/blocks/hours-list/render.php:19 src/blocks/hours-list/render.php:19
+msgid "Log in to see your volunteer hours."
+msgstr "ボランティア時間を見るにはログインしてください。"
+
+#: build/blocks/hours-form/render.php:118 src/blocks/hours-form/render.php:118
+msgid "My recent entries"
+msgstr "自分の最近のエントリー"
+
+#: build/blocks/hours-form/render.php:59 build/blocks/hours-form/render.php:125 build/blocks/hours-list/render.php:66 includes/famefe-admin-tables.php:219 includes/famefe-admin.php:430 src/blocks/hours-form/render.php:59 src/blocks/hours-form/render.php:125 src/blocks/hours-list/render.php:66 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:74
+msgid "Work done"
+msgstr "作業内容"
+
+#: build/blocks/hours-form/render.php:57 build/blocks/hours-form/render.php:123 build/blocks/hours-list/render.php:60 includes/famefe-admin-tables.php:216 includes/famefe-admin.php:428 src/blocks/hours-form/render.php:57 src/blocks/hours-form/render.php:123 src/blocks/hours-list/render.php:60
+msgid "Date"
+msgstr "日付"
+
+#: build/blocks/hours-form/render.php:39 includes/famefe-notices.php:52 src/blocks/hours-form/render.php:39
+msgid "Only members can record volunteer hours."
+msgstr "ボランティア時間を記録できるのは会員のみです。"
+
+#: build/blocks/hours-form/render.php:34 build/blocks/hours-list/render.php:21 build/blocks/members-list/render.php:21 src/blocks/hours-form/render.php:34 src/blocks/hours-list/render.php:21 src/blocks/members-list/render.php:21
+msgid "Log in"
+msgstr "ログイン"
+
+#: build/blocks/hours-form/render.php:32 src/blocks/hours-form/render.php:32
+msgid "Log in to record your volunteer hours."
+msgstr "ボランティア時間を記録するにはログインしてください。"
+
+#: build/blocks/hours-form/render.php:22 includes/famefe-admin.php:431 src/blocks/hours-form/render.php:22 build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:82
+msgid "Add hours"
+msgstr "時間を追加"
+
+#. translators: %s: twice the base fee.
+#: build/blocks/fee-explanation/render.php:219 src/blocks/fee-explanation/render.php:219
+msgid "A member without any volunteer hours in the period always pays twice the base fee, %s: paying instead of working should never be the cheaper choice."
+msgstr "期間内にボランティア時間がない会員は、常に基本会費の2倍 (%s) を支払います。働く代わりに支払う方が安くなることがあってはなりません。"
+
+#: build/blocks/fee-explanation/render.php:209 src/blocks/fee-explanation/render.php:209
+msgid "The calculated fees do not exceed it, so there is no discount."
+msgstr "計算された会費はこの金額を超えないため、割引はありません。"
+
+#. translators: 1: share of members in percent, 2: discount in percent, 3:
+#. number of members with the discount.
+#: build/blocks/fee-explanation/render.php:203 src/blocks/fee-explanation/render.php:203
+msgid "The %1$s %% of regular members with the lowest calculated fees pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never). The discount is not added to the fees of the others, so the club collects less than the expected total."
+msgstr "計算された会費が最も低い正会員の %1$s %% は %2$s %% 安くなります (ここでは %3$d 人。その最後の会員と同じ会費の会員も対象で、時間のない会員は対象外です)。割引分は他の会員の会費に上乗せされないため、クラブの徴収額は予定総額を下回ります。"
+
+#. translators: 1: share of members in percent, 2: calculated discount in
+#. percent, 3: number of members with the discount.
+#: build/blocks/fee-explanation/render.php:195 src/blocks/fee-explanation/render.php:195
+msgid "The %1$s %% of regular members with the lowest calculated fees therefore pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never)."
+msgstr "そのため、計算された会費が最も低い正会員の %1$s %% は %2$s %% 安くなります (ここでは %3$d 人。その最後の会員と同じ会費の会員も対象で、時間のない会員は対象外です)。"
+
+#. translators: %s: total the regular members should pay.
+#: build/blocks/fee-explanation/render.php:188 src/blocks/fee-explanation/render.php:188
+msgid "The regular members should pay %s together."
+msgstr "正会員全員で %s を支払う必要があります。"
+
+#: build/blocks/fee-explanation/render.php:182 src/blocks/fee-explanation/render.php:182
+msgid "4. Discount"
+msgstr "4. 割引"
+
+#: build/blocks/fee-explanation/render.php:141 build/blocks/membership-fees/render.php:45 src/blocks/fee-explanation/render.php:141 src/blocks/membership-fees/render.php:45
+msgid "Fee to pay"
+msgstr "支払う会費"
+
+#: build/blocks/fee-explanation/render.php:140 build/blocks/membership-fees/render.php:43 src/blocks/fee-explanation/render.php:140 src/blocks/membership-fees/render.php:43 build/blocks/fee-explanation/index.js:3 build/blocks/membership-fees/index.js:3 src/blocks/fee-explanation/index.js:64 src/blocks/membership-fees/index.js:83
+msgid "Discount"
+msgstr "割引"
+
+#: build/blocks/fee-explanation/render.php:138 build/blocks/membership-fees/render.php:42 src/blocks/fee-explanation/render.php:138 src/blocks/membership-fees/render.php:42
+msgid "Calculated fee"
+msgstr "計算された会費"
+
+#: build/blocks/fee-explanation/render.php:137 build/blocks/membership-fees/render.php:39 src/blocks/fee-explanation/render.php:137 src/blocks/membership-fees/render.php:39 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:117
+msgid "Unreduced fee"
+msgstr "調整前の会費"
+
+#: build/blocks/fee-explanation/render.php:136 build/blocks/membership-fees/render.php:36 src/blocks/fee-explanation/render.php:136 src/blocks/membership-fees/render.php:36 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:113
+msgid "Share of hours"
+msgstr "時間の割合"
+
+#. translators: 1: sum of the unreduced fees, 2: expected total, 3: amount
+#. taken off each fee.
+#: build/blocks/fee-explanation/render.php:123 src/blocks/fee-explanation/render.php:123
+msgid "The unreduced fees add up to %1$s, more than the expected total of %2$s. The difference is shared equally: each fee is lowered by %3$s, so all fees together give the expected total. No fee goes below zero; if one would, that member pays nothing and the rest is shared by the members who volunteered."
+msgstr "調整前の会費の合計は %1$s で、予定総額 %2$s を上回っています。差額は均等に分けられ、各会費から %3$s ずつ差し引かれるので、すべての会費の合計が予定総額になります。会費が0を下回ることはありません。下回る場合、その会員は支払わず、残りはボランティアをした会員で分担します。"
+
+#. translators: %s: hours of all regular members.
+#: build/blocks/fee-explanation/render.php:116 src/blocks/fee-explanation/render.php:116
+msgid "Each regular member’s share of the hours of all regular members (%s hours) lowers the unreduced fee: unreduced fee = expected total × (1 − share of hours)."
+msgstr "正会員全員の時間 (%s 時間) に占める各正会員の割合が調整前の会費を下げます: 調整前の会費 = 予定総額 × (1 − 時間の割合)。"
+
+#: build/blocks/fee-explanation/render.php:111 src/blocks/fee-explanation/render.php:111
+msgid "3. Fee of each member"
+msgstr "3. 各会員の会費"
+
+#. translators: 1: base fee, 2: number of regular members, 3: base fee again,
+#. 4: expected total.
+#: build/blocks/fee-explanation/render.php:102 src/blocks/fee-explanation/render.php:102
+msgid "The base fee is %1$s. Together, the %2$d regular members are expected to pay %3$s × %2$d = %4$s."
+msgstr "基本会費は %1$s です。%2$d 人の正会員全員で %3$s × %2$d = %4$s を支払う予定です。"
+
+#: build/blocks/fee-explanation/render.php:97 src/blocks/fee-explanation/render.php:97
+msgid "2. Expected total"
+msgstr "2. 予定総額"
+
+#. translators: %d: number of honorary members.
+#: build/blocks/fee-explanation/render.php:92 src/blocks/fee-explanation/render.php:92
+msgid "%d honorary member"
+msgid_plural "%d honorary members"
+msgstr[0] "名誉会員 %d 人"
+
+#. translators: %d: number of regular members.
+#: build/blocks/fee-explanation/render.php:90 src/blocks/fee-explanation/render.php:90
+msgid "%d regular member"
+msgid_plural "%d regular members"
+msgstr[0] "正会員 %d 人"
+
+#. translators: 1: "5 regular members", 2: "1 honorary member".
+#: build/blocks/fee-explanation/render.php:88 src/blocks/fee-explanation/render.php:88
+msgid "Members in the example: %1$s and %2$s. Honorary members do not pay a membership fee, and their hours do not count in the calculation."
+msgstr "例の会員: %1$sと%2$s。名誉会員は会費を支払わず、その時間は計算に含まれません。"
+
+#: build/blocks/fee-explanation/render.php:78 build/blocks/fee-explanation/render.php:167 build/blocks/membership-fees/render.php:112 src/blocks/fee-explanation/render.php:78 src/blocks/fee-explanation/render.php:167 src/blocks/membership-fees/render.php:112
+msgid "Total"
+msgstr "合計"
+
+#: build/blocks/fee-explanation/render.php:64 build/blocks/fee-explanation/render.php:135 build/blocks/hours-form/render.php:58 build/blocks/hours-form/render.php:124 build/blocks/hours-list/render.php:64 build/blocks/membership-fees/render.php:33 includes/famefe-admin-tables.php:218 includes/famefe-admin.php:429 src/blocks/fee-explanation/render.php:64 src/blocks/fee-explanation/render.php:135 src/blocks/hours-form/render.php:58 src/blocks/hours-form/render.php:124 src/blocks/hours-list/render.php:64 src/blocks/membership-fees/render.php:33 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:112
+msgid "Hours"
+msgstr "時間"
+
+#: build/blocks/fee-explanation/render.php:63 build/blocks/members-list/render.php:41 build/blocks/membership-fees/render.php:30 includes/famefe-admin-tables.php:33 src/blocks/fee-explanation/render.php:63 src/blocks/members-list/render.php:41 src/blocks/membership-fees/render.php:30 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:67
+msgid "Type"
+msgstr "種別"
+
+#: build/blocks/fee-explanation/render.php:62 build/blocks/fee-explanation/render.php:134 build/blocks/hours-form/render.php:56 includes/famefe-admin-tables.php:303 includes/famefe-admin.php:420 includes/famefe-admin.php:441 includes/famefe-admin.php:475 includes/famefe-admin.php:499 includes/famefe-users.php:83 includes/famefe-users.php:139 src/blocks/fee-explanation/render.php:62 src/blocks/fee-explanation/render.php:134 src/blocks/hours-form/render.php:56
+msgid "Member"
+msgstr "会員"
+
+#: build/blocks/fee-explanation/render.php:57 src/blocks/fee-explanation/render.php:57
+msgid "1. Members and their hours"
+msgstr "1. 会員とその時間"
+
+#: build/blocks/fee-explanation/render.php:55 src/blocks/fee-explanation/render.php:55
+msgid "The membership fee depends on how much each member volunteered for the club, measured in the recorded hours. Members only need to record their hours; the fees are calculated from them. The following example shows how."
+msgstr "会費は、各会員がクラブのためにどれだけボランティアをしたか (記録された時間) によって決まります。会員は時間を記録するだけで、会費はそこから計算されます。次の例でその方法を示します。"
+
+#. translators: %d: number of the member in the example.
+#: build/blocks/fee-explanation/render.php:52 src/blocks/fee-explanation/render.php:52
+msgid "Member %d"
+msgstr "会員 %d"
+
+#. Author of the plugin
+#: fair-member-fees.php
+msgid "globus2008"
+msgstr "globus2008"
+
+#. Description of the plugin
+#: fair-member-fees.php
+msgid "Membership register with a change history, volunteer hours and a fair membership fee: members who volunteer more pay less. Optional discount and payment through Stripe. Built with blocks."
+msgstr "変更履歴付きの会員名簿、ボランティア時間、公平な会費: ボランティアを多く行う会員ほど支払いが少なくなります。任意の割引と Stripe による支払い。ブロックで構築。"
+
+#. Plugin Name of the plugin
+#: fair-member-fees.php includes/famefe-admin.php:21
+msgid "Fair Member Fees"
+msgstr "Fair Member Fees"

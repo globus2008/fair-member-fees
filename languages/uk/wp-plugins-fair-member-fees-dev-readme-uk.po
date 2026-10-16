@@ -1,0 +1,247 @@
+# Translation of Plugins - Fair Member Fees - Development Readme (trunk) in Ukrainian
+# This file is distributed under the same license as the Plugins - Fair Member Fees - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Fair Member Fees - Development Readme (trunk)\n"
+"PO-Revision-Date: 2026-10-16 12:00:00+0000\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.1.0\n"
+
+#. Short description.
+#, gp-priority: high
+msgid "Membership register, volunteer hours and a fair membership fee: members who volunteer more pay less. Optional discount and Stripe payments."
+msgstr "Реєстр членів, волонтерські години та справедливий членський внесок: хто більше працює волонтером, платить менше. Необов'язкова знижка й оплата через Stripe."
+
+#. Plugin name.
+#, gp-priority: high
+msgid "Fair Member Fees"
+msgstr "Fair Member Fees"
+
+#. Found in faq paragraph.
+msgid "Nothing, unless you turn on \"Delete data\" in the settings."
+msgstr "Нічого, якщо ви не ввімкнете «Видалити дані» в налаштуваннях."
+
+#. Found in faq paragraph.
+msgid "No. The server always calculates the fee from the saved block settings and the recorded hours."
+msgstr "Ні. Сервер завжди розраховує внесок за збереженими налаштуваннями блока і записаними годинами."
+
+#. Found in faq paragraph.
+msgid "Only administrators and editors (the capability <code>famefe_manage</code>)."
+msgstr "Лише адміністратори й редактори (право <code>famefe_manage</code>)."
+
+#. Found in faq paragraph.
+msgid "Every logged-in member records own hours. Administrators and editors can record hours for any member. In the settings you can allow logged-in non-members to record hours too; their hours count only in the totals."
+msgstr "Кожен член, що увійшов, записує свої години сам. Адміністратори й редактори можуть записувати години за будь-якого члена. У налаштуваннях можна дозволити записувати години й користувачам, що увійшли й не є членами; їхні години враховуються лише в підсумках."
+
+#. Found in faq paragraph.
+msgid "The button is off until you turn it on in the Membership fees block (\"Payment button\"). Turn it on once the volunteer hours of the period are closed and the fees are final; until then members see the fee calculated from the hours recorded so far. Online payment also needs the Stripe keys in the settings. If your club only keeps records of hours, simply leave the button off."
+msgstr "Кнопку вимкнено, доки ви не ввімкнете її в блоці «Членські внески» («Кнопка оплати»). Увімкніть її, коли волонтерські години за період буде закрито і внески стануть остаточними; до того члени бачать внесок, розрахований за годинами, записаними на цей момент. Для онлайн-оплати також потрібні ключі Stripe у налаштуваннях. Якщо ваш клуб лише обліковує години, просто залиште кнопку вимкненою."
+
+#. Found in faq header.
+msgid "What happens with the data when I delete the plugin?"
+msgstr "Що відбувається з даними, коли я видаляю плагін?"
+
+#. Found in faq header.
+msgid "Can the amount to pay be changed in the browser?"
+msgstr "Чи можна змінити суму до сплати в браузері?"
+
+#. Found in faq header.
+msgid "Who sees the form for cash payments?"
+msgstr "Хто бачить форму для платежів готівкою?"
+
+#. Found in faq header.
+msgid "Who can record hours?"
+msgstr "Хто може записувати години?"
+
+#. Found in faq header.
+msgid "Why do members not see the payment button?"
+msgstr "Чому члени не бачать кнопку оплати?"
+
+#. Found in installation list item.
+msgid "Add the blocks to your pages (search for \"Fair Member Fees\" in the block inserter). Set the period, the base fee and the discount in the Membership fees block."
+msgstr "Додайте блоки на свої сторінки (знайдіть «Fair Member Fees» у вікні вставлення блоків). Задайте період, базовий внесок і знижку в блоці «Членські внески»."
+
+#. Found in installation list item.
+msgid "In <strong>Member Fees → Settings</strong> set the currency and, for online payments, your Stripe keys and the webhook."
+msgstr "У розділі <strong>Членські внески → Налаштування</strong> вкажіть валюту, а для онлайн-оплати — ваші ключі Stripe і вебхук."
+
+#. Found in installation list item.
+msgid "Go to <strong>Member Fees → Members</strong> and add your members; link them to their user accounts so that they can record hours and pay online."
+msgstr "Перейдіть до <strong>Членські внески → Члени</strong> і додайте своїх членів; зв'яжіть їх з їхніми обліковими записами, щоб вони могли записувати години й платити онлайн."
+
+#. Found in installation list item.
+msgid "Install and activate the plugin."
+msgstr "Встановіть і активуйте плагін."
+
+#. Found in description paragraph.
+msgid "The editor scripts in <code>build/</code> are compiled from the human-readable sources in <code>src/</code> (included in the plugin) with <code>@wordpress/scripts</code> (<code>npm install</code>, <code>npm run build</code>). The development repository is public: https://github.com/globus2008/fair-member-fees"
+msgstr "Скрипти редактора в <code>build/</code> зібрано з читабельних вихідних файлів у <code>src/</code> (входять до плагіна) за допомогою <code>@wordpress/scripts</code> (<code>npm install</code>, <code>npm run build</code>). Репозиторій розробки відкритий: https://github.com/globus2008/fair-member-fees"
+
+#. Found in description paragraph.
+msgid "Stripe terms of service: https://stripe.com/legal/ssa – Stripe privacy policy: https://stripe.com/privacy"
+msgstr "Умови використання Stripe: https://stripe.com/legal/ssa – Політика конфіденційності Stripe: https://stripe.com/privacy"
+
+#. Found in description paragraph.
+msgid "This plugin connects to <strong>Stripe</strong> (https://stripe.com) to let members pay their membership fee by card. It is used only when you enter a Stripe secret key in the plugin settings."
+msgstr "Цей плагін підключається до <strong>Stripe</strong> (https://stripe.com), щоб члени могли сплатити членський внесок карткою. Він використовується, лише якщо ви вкажете секретний ключ Stripe у налаштуваннях плагіна."
+
+#. Found in description paragraph.
+msgid "Instead of the percentage, you can set the total to collect: the discount of the same members is then calculated so that all regular members pay exactly this amount together (for example to give back what the double fees of members without hours brought above the expected total)."
+msgstr "Замість відсотка можна задати суму до збору: тоді знижка тих самих членів розраховується так, щоб усі дійсні члени разом сплатили саме цю суму (наприклад, щоб повернути те, що подвійні внески членів без годин принесли понад очікувану суму)."
+
+#. Found in description paragraph.
+msgid "Set a share of members (e.g. 60 %) and a discount (e.g. 20 %) in the Membership fees block: the given share of regular members with the lowest fees pays the given percentage less. Members with the same fee as the last of them get it too; members without hours never get it. The discount is not added to the fees of the others."
+msgstr "Задайте в блоці «Членські внески» частку членів (наприклад, 60 %) і знижку (наприклад, 20 %): вказана частка дійсних членів із найнижчими внесками платить на вказаний відсоток менше. Члени з таким самим внеском, як в останнього з них, теж її отримують; члени без годин не отримують її ніколи. Знижка не додається до внесків інших."
+
+#. Found in description paragraph.
+msgid "<strong>Discount (optional)</strong>"
+msgstr "<strong>Знижка (необов'язково)</strong>"
+
+#. Found in description paragraph.
+msgid "Whoever does not volunteer pays twice the base fee, so paying instead of working is never the cheaper choice. Hours of honorary members and non-members are shown in the totals but do not change the fees."
+msgstr "Хто не працює волонтером, платить подвійний базовий внесок, тож платити замість роботи ніколи не дешевше. Години почесних членів і не членів показуються в підсумках, але не змінюють внесків."
+
+#. Found in description paragraph.
+msgid "<strong>How the fee is calculated</strong>"
+msgstr "<strong>Як розраховується внесок</strong>"
+
+#. Found in description paragraph.
+msgid "<strong>Features</strong>"
+msgstr "<strong>Можливості</strong>"
+
+#. Found in description paragraph.
+msgid "Clubs live from the work of their members. Fair Member Fees rewards it: every member records the hours they volunteered, and the membership fee of each member is calculated from them. Whoever works for the club pays less; whoever does not, pays twice the base fee – paying instead of working is never the cheaper choice."
+msgstr "Клуби живуть працею своїх членів. Fair Member Fees її винагороджує: кожен член записує години, відпрацьовані волонтером, і за ними розраховується членський внесок кожного. Хто працює на клуб, платить менше; хто ні, платить подвійний базовий внесок – платити замість роботи ніколи не дешевше."
+
+#. Found in description list item.
+msgid "When the member returns, the plugin asks Stripe whether the payment was completed. Stripe also sends the result to the webhook address of the plugin."
+msgstr "Коли член повертається, плагін запитує в Stripe, чи завершено платіж. Stripe також надсилає результат на адресу вебхука плагіна."
+
+#. Found in description list item.
+msgid "When a member clicks the payment button, the plugin sends to Stripe: the amount and currency, the name of the payment (\"Membership fee\" and the period), the member's e-mail address, the member ID and the period, and the addresses of your page to return to. The member then enters the card details directly on the Stripe payment page."
+msgstr "Коли член натискає кнопку оплати, плагін надсилає до Stripe: суму й валюту, назву платежу («Членський внесок» і період), адресу e-mail члена, ID члена і період, а також адреси вашої сторінки для повернення. Потім член вводить дані картки безпосередньо на платіжній сторінці Stripe."
+
+#. Found in description list item.
+msgid "A member without any recorded hours in the period always pays twice the base fee."
+msgstr "Член без жодної записаної години в періоді завжди платить подвійний базовий внесок."
+
+#. Found in description list item.
+msgid "The unreduced fees add up to more than the expected total; the difference is taken off every fee equally. No fee goes below zero (the rest is shared by the others)."
+msgstr "Початкові внески разом дають більше за очікувану суму; різниця віднімається від кожного внеску порівну. Жоден внесок не опускається нижче нуля (залишок ділять інші)."
+
+#. Found in description list item.
+msgid "Unreduced fee = expected total × (1 − share of hours)."
+msgstr "Початковий внесок = очікувана сума × (1 − частка годин)."
+
+#. Found in description list item.
+msgid "Share of hours = hours of the member / hours of all regular members."
+msgstr "Частка годин = години члена / години всіх дійсних членів."
+
+#. Found in description list item.
+msgid "Expected total = base fee × number of regular members."
+msgstr "Очікувана сума = базовий внесок × кількість дійсних членів."
+
+#. Found in description list item.
+msgid "Ready for translation."
+msgstr "Готовий до перекладу."
+
+#. Found in description list item.
+msgid "<strong>Fee calculation explained</strong> – the method on an example with your own numbers."
+msgstr "<strong>Як розраховується внесок</strong> – метод на прикладі з вашими власними числами."
+
+#. Found in description list item.
+msgid "<strong>Members list</strong>,"
+msgstr "<strong>Список членів</strong>,"
+
+#. Found in description list item.
+msgid "<strong>Volunteer hours list</strong>,"
+msgstr "<strong>Список волонтерських годин</strong>,"
+
+#. Found in description list item.
+msgid "<strong>Volunteer hours form</strong>,"
+msgstr "<strong>Форма волонтерських годин</strong>,"
+
+#. Found in description list item.
+msgid "<strong>Membership fees</strong> – the fee table of a period; its payment button is turned on once the hours of the period are closed,"
+msgstr "<strong>Членські внески</strong> – таблиця внесків за період; її кнопка оплати вмикається, коли години за період закрито,"
+
+#. Found in description list item.
+msgid "Five blocks, all set up in the block settings – no shortcodes:"
+msgstr "П'ять блоків, усі налаштовуються в налаштуваннях блока – без шорткодів:"
+
+#. Found in description list item.
+msgid "Online payment of the fee through Stripe Checkout; cash and bank payments recorded by administrators and editors."
+msgstr "Онлайн-оплата внеску через Stripe Checkout; платежі готівкою та переказом записують адміністратори й редактори."
+
+#. Found in description list item.
+msgid "Optional discount for the members with the lowest fees."
+msgstr "Необов'язкова знижка для членів із найнижчими внесками."
+
+#. Found in description list item.
+msgid "Fair calculation of the fees for any period (season), see below."
+msgstr "Справедливий розрахунок внесків за будь-який період (сезон), див. нижче."
+
+#. Found in description list item.
+msgid "Volunteer hours recorded by the members themselves, or by administrators and editors for anybody."
+msgstr "Волонтерські години записують самі члени або адміністратори й редактори за будь-кого."
+
+#. Found in description list item.
+msgid "Full history of every member: joined, membership type changed, membership ended, rejoined – each with the date of the change, who recorded it and when."
+msgstr "Повна історія кожного члена: прийнятий, тип членства змінено, членство припинено, повторно прийнятий – щоразу з датою зміни, тим, хто її записав, і часом запису."
+
+#. Found in description list item.
+msgid "Membership register with regular and honorary members (honorary members pay no fee)."
+msgstr "Реєстр членів із дійсними й почесними членами (почесні члени не платять внесок)."
+
+#. Found in description header.
+msgid "Source code"
+msgstr "Вихідний код"
+
+#. Found in description header.
+msgid "External services"
+msgstr "Зовнішні сервіси"
+
+#. Screenshot description.
+msgid "Member Fees → Settings: currency and Stripe keys for online payments."
+msgstr "Членські внески → Налаштування: валюта й ключі Stripe для онлайн-оплати."
+
+#. Screenshot description.
+msgid "Member Fees → Volunteer hours: all recorded hours with filters."
+msgstr "Членські внески → Волонтерські години: усі записані години з фільтрами."
+
+#. Screenshot description.
+msgid "Every change of a membership is kept in the history with the date of the change, who recorded it and when."
+msgstr "Кожна зміна членства зберігається в історії з датою зміни, тим, хто її записав, і часом запису."
+
+#. Screenshot description.
+msgid "Member Fees → Members: the membership register."
+msgstr "Членські внески → Члени: реєстр членів."
+
+#. Screenshot description.
+msgid "All options of the blocks are in the block settings: the period, the base fee, the discount, the payment button, columns, names and table colours."
+msgstr "Усі параметри блоків розміщено в налаштуваннях блока: період, базовий внесок, знижка, кнопка оплати, стовпці, імена та кольори таблиці."
+
+#. Screenshot description.
+msgid "The Fee calculation explained block shows the method on an example with your own base fee and discount."
+msgstr "Блок «Як розраховується внесок» показує метод на прикладі з вашим базовим внеском і знижкою."
+
+#. Screenshot description.
+msgid "The Volunteer hours form and list: members record their own hours, administrators and editors record them for anybody."
+msgstr "Форма і список волонтерських годин: члени записують свої години самі, адміністратори й редактори — за будь-кого."
+
+#. Screenshot description.
+msgid "The Members list block with the totals of regular and honorary members."
+msgstr "Блок «Список членів» із підсумками дійсних і почесних членів."
+
+#. Screenshot description.
+msgid "The Membership fees block: the fee of every member calculated from the volunteer hours, with the optional discount and the totals rows."
+msgstr "Блок «Членські внески»: внесок кожного члена, розрахований за волонтерськими годинами, з необов'язковою знижкою та підсумковими рядками."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "First release."
+msgstr "Перший випуск."

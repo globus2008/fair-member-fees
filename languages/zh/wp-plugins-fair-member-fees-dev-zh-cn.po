@@ -1,0 +1,1455 @@
+# Translation of Plugins - Fair Member Fees - Development (trunk) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Fair Member Fees - Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Fair Member Fees - Development (trunk)\n"
+"PO-Revision-Date: 2026-10-16 12:00:00+0000\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.1.0\n"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "payment"
+msgstr "付款"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block description"
+msgid "Fair membership fees for a period: members who volunteered more pay less. Once the hours of the period are closed, members can pay online; administrators and editors record cash and bank payments."
+msgstr "按周期计算的公平会费：志愿时长越多的会员缴费越少。周期的时长关闭后，会员可以在线付款；管理员和编辑记录现金和银行转账付款。"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block title"
+msgid "Membership fees"
+msgstr "会费"
+
+#: build/blocks/members-list/block.json build/blocks/membership-fees/block.json src/blocks/members-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "membership"
+msgstr "会籍"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block keyword"
+msgid "register"
+msgstr "名册"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block keyword"
+msgid "members"
+msgstr "会员"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block description"
+msgid "The membership register: members, their type, membership changes and who recorded them."
+msgstr "会员名册：会员、会员类型、会籍变更以及记录人。"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block title"
+msgid "Members list"
+msgstr "会员列表"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr "列表"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block description"
+msgid "Recorded volunteer hours of a period."
+msgstr "某一周期内记录的志愿时长。"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block title"
+msgid "Volunteer hours list"
+msgstr "志愿时长列表"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "表单"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block keyword"
+msgid "work"
+msgstr "工作"
+
+#: build/blocks/hours-form/block.json build/blocks/hours-list/block.json build/blocks/membership-fees/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "volunteer"
+msgstr "志愿"
+
+#: build/blocks/hours-form/block.json build/blocks/hours-list/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json
+msgctxt "block keyword"
+msgid "hours"
+msgstr "时长"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block description"
+msgid "Logged-in members record the hours they volunteered."
+msgstr "已登录的会员记录自己的志愿时长。"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block title"
+msgid "Volunteer hours form"
+msgstr "志愿时长表单"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "help"
+msgstr "帮助"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "example"
+msgstr "示例"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "calculation"
+msgstr "计算"
+
+#: build/blocks/fee-explanation/block.json build/blocks/hours-form/block.json build/blocks/hours-list/block.json build/blocks/members-list/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json src/blocks/members-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "fair member fees"
+msgstr "fair member fees"
+
+#: build/blocks/fee-explanation/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "fee"
+msgstr "会费"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block description"
+msgid "Explains on an example how the fair membership fee is calculated."
+msgstr "通过示例说明公平会费的计算方法。"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block title"
+msgid "Fee calculation explained"
+msgstr "会费计算说明"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:155
+msgid "Highlight the logged-in member"
+msgstr "突出显示已登录的会员"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:147
+msgid "Period and base fee above the table"
+msgstr "在表格上方显示周期和基本会费"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:143
+msgid "List honorary members"
+msgstr "列出荣誉会员"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:121
+msgid "Calculated fee and discount (when the discount is on)"
+msgstr "计算出的会费和减免（启用减免时）"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:94
+msgid "Members who volunteered the most pay even less. The discount is not added to the fees of the others."
+msgstr "志愿时长最多的会员缴费更少。减免金额不会加到其他会员的会费上。"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:90
+msgid "Discount for the lowest fees"
+msgstr "对最低会费的减免"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:72
+msgid "Turn on once the volunteer hours of the period are closed: members then see their final fee and can pay it. While it is off, the fees are shown as calculated from the hours recorded so far. Leave it off if you do not collect fees through this page."
+msgstr "在周期的志愿时长关闭后启用：会员随后会看到最终会费并可以支付。关闭期间，会费按目前已记录的时长计算显示。如果您不通过此页面收取会费，请保持关闭。"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:68
+msgid "Payment button (the fees are final)"
+msgstr "付款按钮（会费已确定）"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:59
+msgid "The fee of a regular member when nobody volunteers. All regular members together pay the base fee times their number."
+msgstr "无人提供志愿服务时一名正式会员的会费。全体正式会员合计缴纳基本会费乘以人数。"
+
+#: build/blocks/membership-fees/index.js:2 src/blocks/membership-fees/index.js:46
+msgid "Members of this period pay; their hours of this period lower the fee. Payments are recorded for exactly this period."
+msgstr "本周期的会员缴费；他们在本周期的时长会降低会费。付款精确记录到本周期。"
+
+#: build/blocks/membership-fees/index.js:2 src/blocks/membership-fees/index.js:42
+msgid "Period and fee"
+msgstr "周期和会费"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/members-list/index.js:54 src/blocks/membership-fees/index.js:101
+msgid "Columns"
+msgstr "列"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:46
+msgid "Only for logged-in visitors"
+msgstr "仅限已登录的访客"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/members-list/index.js:42 src/blocks/membership-fees/index.js:151
+msgid "Totals rows at the end of the table"
+msgstr "表格末尾的合计行"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:30
+msgid "Honorary members"
+msgstr "荣誉会员"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:26
+msgid "Regular members"
+msgstr "正式会员"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:360
+msgid "Totals rows text"
+msgstr "合计行文字"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:356
+msgid "Totals rows background"
+msgstr "合计行背景"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:353
+msgid "Header text"
+msgstr "表头文字"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:351
+msgid "Header background"
+msgstr "表头背景"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:346
+msgid "Table colours"
+msgstr "表格颜色"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:127
+msgid "They may delete any entry within this time. Older entries can still be deleted in Member Fees → Volunteer hours."
+msgstr "他们可以在此期限内删除任何条目。更早的条目仍可在“会费 → 志愿时长”中删除。"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:123
+msgid "Administrators and editors: days after recording"
+msgstr "管理员和编辑：记录后的天数"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:106
+msgid "Members delete only hours they recorded themselves, e.g. after a mistake. 0 = only on the day of recording."
+msgstr "会员只能删除自己记录的时长，例如出错后。0 = 仅限记录当天。"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:102
+msgid "Members: days after recording"
+msgstr "会员：记录后的天数"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:91
+msgid "Allow deleting hours"
+msgstr "允许删除时长"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:84
+msgid "Deleting"
+msgstr "删除"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:79
+msgid "Total below"
+msgstr "下方显示合计"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/hours-list/index.js:60 src/blocks/membership-fees/index.js:130
+msgid "Display"
+msgstr "显示"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:52
+msgid "Only the hours of the logged-in visitor"
+msgstr "仅显示已登录访客的时长"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:37
+msgid "Maximum entries"
+msgstr "最多条目数"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:29
+msgid "Leave empty for no limit."
+msgstr "留空表示不限制。"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:94
+msgid "As in the plugin settings"
+msgstr "与插件设置相同"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:89
+msgid "Names"
+msgstr "姓名"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:106
+msgid "Number of recent entries"
+msgstr "最近条目数"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:96
+msgid "Show my recent entries"
+msgstr "显示我最近的条目"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:92
+msgid "Description of the work is required"
+msgstr "必须填写工作描述"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:81
+msgid "Button text"
+msgstr "按钮文字"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:63
+msgid "How old the date of the work may be. 0 = only today."
+msgstr "工作日期最多可以早于今天多少天。0 = 仅限今天。"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:62
+msgid "Days back"
+msgstr "向前天数"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:49
+msgid "Off: hours are always recorded for today, so nobody can add hours to the past or change a closed period. Administrators and editors can always choose the date."
+msgstr "关闭：时长始终记录为今天，因此没有人能补记过去的时长或修改已关闭的周期。管理员和编辑始终可以选择日期。"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:45
+msgid "Members may change the date"
+msgstr "会员可以修改日期"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:35
+msgid "Step of the hours"
+msgstr "时长步进"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:23
+msgid "Maximum hours per entry"
+msgstr "每个条目的最多时长"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:18
+msgid "Form"
+msgstr "表单"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:71
+msgid "Explain the discount"
+msgstr "说明减免"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:53
+msgid "Hours of the honorary members"
+msgstr "荣誉会员的时长"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:41
+msgid "One number per member, separated by commas or spaces."
+msgstr "每位会员一个数字，用逗号或空格分隔。"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:37
+msgid "Hours of the regular members"
+msgstr "正式会员的时长"
+
+#. translators: %s: currency code.
+#: build/blocks/fee-explanation/index.js:3 build/blocks/membership-fees/index.js:3 src/blocks/fee-explanation/index.js:28 src/blocks/membership-fees/index.js:56
+msgid "Base fee (%s)"
+msgstr "基本会费（%s）"
+
+#: build/blocks/fee-explanation/index.js:2 src/blocks/fee-explanation/index.js:22
+msgid "Example"
+msgstr "示例"
+
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:300
+msgid "Discount (%)"
+msgstr "减免（%）"
+
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:282
+msgid "The discount is calculated so that the regular members pay this amount together. If their calculated fees do not exceed it, there is no discount."
+msgstr "减免按正式会员合计缴纳此金额来计算。如果他们计算出的会费未超过此金额，则不减免。"
+
+#. translators: %s: currency code.
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:279
+msgid "Total to collect (%s)"
+msgstr "应收总额（%s）"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:263
+msgid "Total to collect"
+msgstr "应收总额"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:259
+msgid "Percentage"
+msgstr "百分比"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:254
+msgid "Discount given by"
+msgstr "减免方式"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:244
+msgid "Share of members with the lowest fees (%)"
+msgstr "最低会费会员的比例（%）"
+
+#. translators: %s: list of member names.
+#: includes/famefe-users.php:190
+msgid "These accounts belong to members: %s. The members, their history, hours and payments stay in the register; only the link to the account is removed. To end a membership, use Member Fees → Members."
+msgstr "这些账户属于会员：%s。会员及其历史、时长和付款记录保留在名册中；只会移除与账户的关联。要终止会籍，请使用“会费 → 会员”。"
+
+#: includes/famefe-users.php:93
+msgid "The first name, last name and e-mail of this profile are also the details of the member."
+msgstr "此个人资料的名字、姓氏和电子邮件也是该会员的信息。"
+
+#: includes/famefe-users.php:91
+msgid "Membership and history"
+msgstr "会籍和历史"
+
+#: includes/famefe-users.php:87
+msgid "Add as member"
+msgstr "添加为会员"
+
+#: includes/famefe-users.php:86
+msgid "Not a member."
+msgstr "不是会员。"
+
+#. translators: 1: first day of the period, 2: last day of the period.
+#: includes/famefe-stripe.php:122
+msgid "Membership fee %1$s – %2$s"
+msgstr "会费 %1$s – %2$s"
+
+#. translators: 1: amount, 2: currency symbol or code (Kč, €, USD).
+#: includes/famefe-settings.php:95
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: includes/famefe-notices.php:61
+msgid "The data could not be saved. Please try again."
+msgstr "无法保存数据。请重试。"
+
+#: includes/famefe-notices.php:60
+msgid "The payment has not been confirmed yet. If you paid, it will appear shortly."
+msgstr "付款尚未确认。如果您已付款，稍后就会显示。"
+
+#: includes/famefe-notices.php:59
+msgid "The payment service could not be reached. Please try again later."
+msgstr "无法连接支付服务。请稍后重试。"
+
+#: includes/famefe-notices.php:58
+msgid "Online payment is not set up."
+msgstr "未设置在线支付。"
+
+#: includes/famefe-notices.php:57
+msgid "The block of this form was not found on the page. Please reload the page."
+msgstr "在页面上找不到此表单的区块。请重新加载页面。"
+
+#: includes/famefe-notices.php:56
+msgid "There is nothing to pay."
+msgstr "没有需要支付的款项。"
+
+#: includes/famefe-notices.php:55
+msgid "The membership fee for this period has already been paid."
+msgstr "本周期的会费已经付清。"
+
+#: includes/famefe-notices.php:54
+msgid "Choose a valid payment method."
+msgstr "请选择有效的付款方式。"
+
+#: includes/famefe-notices.php:53
+msgid "Enter a valid amount."
+msgstr "请输入有效的金额。"
+
+#: includes/famefe-notices.php:51
+msgid "Describe the work, please."
+msgstr "请描述工作内容。"
+
+#: includes/famefe-notices.php:50
+msgid "Hours cannot be recorded for this date any more."
+msgstr "此日期已不能再记录时长。"
+
+#: includes/famefe-notices.php:49
+msgid "These hours can no longer be deleted here; the time limit has passed."
+msgstr "这些时长已不能在此删除；已超过期限。"
+
+#: includes/famefe-notices.php:48
+msgid "Enter a valid number of hours."
+msgstr "请输入有效的时长。"
+
+#: includes/famefe-notices.php:47
+msgid "The member has hours or payments and cannot be deleted. End the membership instead."
+msgstr "该会员有时长或付款记录，无法删除。请改为终止其会籍。"
+
+#: includes/famefe-notices.php:45
+msgid "This e-mail address is already used by another user account."
+msgstr "此电子邮件地址已被另一个用户账户使用。"
+
+#: includes/famefe-notices.php:44
+msgid "Enter a valid e-mail address."
+msgstr "请输入有效的电子邮件地址。"
+
+#: includes/famefe-notices.php:43
+msgid "This change is not possible for the member (check the status and the date)."
+msgstr "无法对该会员进行此更改（请检查状态和日期）。"
+
+#: includes/famefe-notices.php:42
+msgid "\"Member since\" cannot be after the end of the membership."
+msgstr "“入会日期”不能晚于会籍终止日期。"
+
+#: includes/famefe-notices.php:41
+msgid "Choose a valid membership type."
+msgstr "请选择有效的会员类型。"
+
+#: includes/famefe-notices.php:40
+msgid "Enter a valid date."
+msgstr "请输入有效的日期。"
+
+#: includes/famefe-notices.php:39
+msgid "Enter the first or the last name."
+msgstr "请输入名字或姓氏。"
+
+#: includes/famefe-notices.php:38
+msgid "The record was not found."
+msgstr "未找到该记录。"
+
+#: includes/famefe-notices.php:37
+msgid "The form has expired. Please reload the page and try again."
+msgstr "表单已过期。请重新加载页面后重试。"
+
+#: includes/famefe-notices.php:36
+msgid "Please log in first."
+msgstr "请先登录。"
+
+#: includes/famefe-notices.php:35
+msgid "You are not allowed to do this."
+msgstr "您无权执行此操作。"
+
+#: includes/famefe-notices.php:33
+msgid "The settings were saved."
+msgstr "设置已保存。"
+
+#: includes/famefe-notices.php:32
+msgid "The payment was cancelled. You can try again at any time."
+msgstr "付款已取消。您可以随时重试。"
+
+#: includes/famefe-notices.php:31
+msgid "Thank you, your membership fee was paid."
+msgstr "谢谢，您的会费已付清。"
+
+#: includes/famefe-notices.php:30
+msgid "The payment was deleted."
+msgstr "付款已删除。"
+
+#: includes/famefe-notices.php:29
+msgid "The payment was recorded."
+msgstr "付款已记录。"
+
+#: includes/famefe-notices.php:28
+msgid "The hours were deleted."
+msgstr "时长已删除。"
+
+#: includes/famefe-notices.php:27
+msgid "The hours were saved."
+msgstr "时长已保存。"
+
+#: includes/famefe-notices.php:26
+msgid "Thank you, your hours were recorded."
+msgstr "谢谢，您的时长已记录。"
+
+#: includes/famefe-notices.php:25
+msgid "The member was deleted."
+msgstr "会员已删除。"
+
+#: includes/famefe-notices.php:24
+msgid "The change of the membership was recorded."
+msgstr "会籍变更已记录。"
+
+#: includes/famefe-notices.php:23
+msgid "The member was saved."
+msgstr "会员已保存。"
+
+#: includes/famefe-notices.php:22
+msgid "The member and the user account were created. The member got an e-mail with a link for setting the password."
+msgstr "会员和用户账户已创建。会员已收到一封包含设置密码链接的电子邮件。"
+
+#: includes/famefe-notices.php:21
+msgid "The member and the user account were created."
+msgstr "会员和用户账户已创建。"
+
+#: includes/famefe-notices.php:20
+msgid "The member was added."
+msgstr "会员已添加。"
+
+#: includes/famefe-data.php:241
+msgid "Deleted user"
+msgstr "已删除的用户"
+
+#: includes/famefe-data.php:191
+msgid "Unknown name"
+msgstr "未知姓名"
+
+#: includes/famefe-data.php:51
+msgid "Bank transfer"
+msgstr "银行转账"
+
+#: includes/famefe-data.php:50
+msgid "Cash"
+msgstr "现金"
+
+#: includes/famefe-data.php:49
+msgid "Card (Stripe)"
+msgstr "银行卡（Stripe）"
+
+#: includes/famefe-data.php:39
+msgid "\"Member since\" corrected"
+msgstr "已更正“入会日期”"
+
+#: includes/famefe-data.php:38
+msgid "Rejoined"
+msgstr "重新入会"
+
+#: includes/famefe-data.php:37
+msgid "Membership ended"
+msgstr "会籍终止"
+
+#: includes/famefe-data.php:36
+msgid "Membership type changed"
+msgstr "会员类型变更"
+
+#: includes/famefe-data.php:35
+msgid "Joined"
+msgstr "入会"
+
+#: includes/famefe-data.php:25
+msgid "Honorary"
+msgstr "荣誉"
+
+#: includes/famefe-data.php:24
+msgid "Regular"
+msgstr "正式"
+
+#: includes/famefe-admin.php:673
+msgid "All regular members of the period together pay the base fee times their number (the expected total). Each member’s share of the volunteer hours of all regular members lowers the fee; what is collected above the expected total is taken off everybody equally, and no fee goes below zero. A member without any hours in the period always pays twice the base fee. Honorary members pay nothing. With the optional discount, the given share of members with the lowest fees pays the given percentage less, or as much less as needed for the given total to collect; nothing is moved to the others."
+msgstr "本周期全体正式会员合计缴纳基本会费乘以人数（预期总额）。每位会员在全体正式会员志愿时长中所占的比例会降低其会费；超出预期总额的部分由所有人平均扣减，任何会费都不会低于零。在本周期内没有任何时长的会员始终缴纳两倍的基本会费。荣誉会员无需缴费。使用可选减免时，会费最低的指定比例会员少缴指定的百分比，或少缴达到指定应收总额所需的金额；不会转嫁给其他会员。"
+
+#: includes/famefe-admin.php:672
+msgid "How the fee is calculated"
+msgstr "会费如何计算"
+
+#: includes/famefe-admin.php:663
+msgid "Blocks"
+msgstr "区块"
+
+#: includes/famefe-admin.php:659
+msgid "Add the blocks to your pages: search for \"Fair Member Fees\" in the block inserter."
+msgstr "将区块添加到页面：在区块插入器中搜索“Fair Member Fees”。"
+
+#: includes/famefe-admin.php:658
+msgid "Set the currency, and Stripe if you want online payments (Settings)."
+msgstr "设置货币；如需在线付款，还需设置 Stripe（设置）。"
+
+#: includes/famefe-admin.php:657
+msgid "Add your members (Members → Add member) and link them to their user accounts."
+msgstr "添加会员（会员 → 添加会员）并将其关联到各自的用户账户。"
+
+#: includes/famefe-admin.php:655
+msgid "Getting started"
+msgstr "入门"
+
+#: includes/famefe-admin.php:653
+msgid "Fair Member Fees help"
+msgstr "Fair Member Fees 帮助"
+
+#: includes/famefe-admin.php:649
+msgid "Explains the calculation on an example with your numbers."
+msgstr "用您的数字通过示例说明计算方法。"
+
+#: includes/famefe-admin.php:649
+msgid "Fee calculation explained"
+msgstr "会费计算说明"
+
+#: includes/famefe-admin.php:648
+msgid "The membership register with the date of the last change and who recorded it; visible to logged-in users by default."
+msgstr "会员名册，包含最近一次变更的日期和记录人；默认对已登录用户可见。"
+
+#: includes/famefe-admin.php:648
+msgid "Members list"
+msgstr "会员列表"
+
+#: includes/famefe-admin.php:647
+msgid "Recorded hours for a period, all or only the visitor’s own."
+msgstr "某一周期记录的时长，可显示全部或仅访客本人的时长。"
+
+#: includes/famefe-admin.php:647
+msgid "Volunteer hours list"
+msgstr "志愿时长列表"
+
+#: includes/famefe-admin.php:646
+msgid "Members record their own hours. Set the maximum hours per entry, how many days back a date may be, and whether a description is required."
+msgstr "会员自行记录时长。可设置每个条目的最多时长、日期最多可向前多少天，以及是否必须填写描述。"
+
+#: includes/famefe-admin.php:646
+msgid "Volunteer hours form"
+msgstr "志愿时长表单"
+
+#: includes/famefe-admin.php:645
+msgid "The table of fees for a period. Set the period, the base fee and the optional discount in the block settings. Until the volunteer hours of the period are closed, it shows the fees calculated so far; then turn on its payment button and members can pay their final fee. Administrators and editors can record cash and bank payments right there. Clubs that only keep records of hours leave the button off."
+msgstr "某一周期的会费表。在区块设置中设定周期、基本会费和可选减免。在周期的志愿时长关闭之前，它显示目前计算出的会费；之后启用其付款按钮，会员即可支付最终会费。管理员和编辑可以直接在此记录现金和银行转账付款。只记录时长的俱乐部可以保持按钮关闭。"
+
+#: includes/famefe-admin.php:645
+msgid "Membership fees"
+msgstr "会费"
+
+#: includes/famefe-admin.php:635 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:123
+msgid "Shortened for data protection: first 4 and last 4 characters (Janaková)"
+msgstr "为保护数据而缩写：前 4 个和后 4 个字符（Janemith）"
+
+#: includes/famefe-admin.php:634 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:116
+msgid "Display name of the user account"
+msgstr "用户账户的显示名称"
+
+#: includes/famefe-admin.php:633 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:112
+msgid "Initials (J. S.)"
+msgstr "首字母（J. S.）"
+
+#: includes/famefe-admin.php:632 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:105
+msgid "First name and initial (Jane S.)"
+msgstr "名字和姓氏首字母（Jane S.）"
+
+#: includes/famefe-admin.php:631 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:101
+msgid "Full name (Jane Smith)"
+msgstr "全名（Jane Smith）"
+
+#: includes/famefe-admin.php:616
+msgid "Delete all members, hours, payments and settings when the plugin is deleted."
+msgstr "删除插件时删除所有会员、时长、付款和设置。"
+
+#: includes/famefe-admin.php:615
+msgid "Delete data"
+msgstr "删除数据"
+
+#: includes/famefe-admin.php:612
+msgid "Uninstall"
+msgstr "卸载"
+
+#: includes/famefe-admin.php:607
+msgid "Default for all blocks; each block can override it."
+msgstr "所有区块的默认值；每个区块都可以更改。"
+
+#: includes/famefe-admin.php:600
+msgid "Names in blocks"
+msgstr "区块中的姓名"
+
+#: includes/famefe-admin.php:597
+msgid "Logged-in users who are not members may record their hours too (they count only in the totals)."
+msgstr "已登录但不是会员的用户也可以记录自己的时长（仅计入合计）。"
+
+#: includes/famefe-admin.php:596
+msgid "Hours of non-members"
+msgstr "非会员的时长"
+
+#: includes/famefe-admin.php:593
+msgid "Volunteer hours and names"
+msgstr "志愿时长和姓名"
+
+#: includes/famefe-admin.php:588
+msgid "Add this address in Stripe (Developers → Webhooks) with the events checkout.session.completed and checkout.session.async_payment_succeeded, then copy its signing secret here. Payments are recorded even when a member closes the browser before returning to your site."
+msgstr "在 Stripe（Developers → Webhooks）中添加此地址，并选择 checkout.session.completed 和 checkout.session.async_payment_succeeded 事件，然后将其签名密钥复制到这里。即使会员在返回您的网站前关闭了浏览器，付款也会被记录。"
+
+#: includes/famefe-admin.php:585
+msgid "Webhook endpoint"
+msgstr "Webhook 端点"
+
+#: includes/famefe-admin.php:575
+msgid "Live webhook signing secret"
+msgstr "正式环境 Webhook 签名密钥"
+
+#: includes/famefe-admin.php:574
+msgid "Live secret key"
+msgstr "正式环境密钥"
+
+#: includes/famefe-admin.php:573
+msgid "Test webhook signing secret"
+msgstr "测试环境 Webhook 签名密钥"
+
+#: includes/famefe-admin.php:572
+msgid "Test secret key"
+msgstr "测试环境密钥"
+
+#: includes/famefe-admin.php:567
+msgid "Live"
+msgstr "正式"
+
+#: includes/famefe-admin.php:566
+msgid "Test (no real money)"
+msgstr "测试（不涉及真实资金）"
+
+#: includes/famefe-admin.php:564
+msgid "Mode"
+msgstr "模式"
+
+#: includes/famefe-admin.php:561
+msgid "Members pay on the Stripe payment page. Fill in the secret key of the mode you use; without it the Membership fees block shows no payment button."
+msgstr "会员在 Stripe 支付页面付款。请填写所用模式的密钥；没有密钥时，会费区块不显示付款按钮。"
+
+#: includes/famefe-admin.php:560
+msgid "Stripe"
+msgstr "Stripe"
+
+#: includes/famefe-admin.php:555
+msgid "Fees are rounded to this number of decimals. Leave empty to use the usual number of the currency (CZK 0, EUR and USD 2)."
+msgstr "会费四舍五入到此小数位数。留空则使用该货币的常用位数（CZK 0，EUR 和 USD 2）。"
+
+#: includes/famefe-admin.php:552
+msgid "Decimal places"
+msgstr "小数位数"
+
+#: includes/famefe-admin.php:548
+msgid "Three-letter ISO code, e.g. CZK, EUR, USD."
+msgstr "三个字母的 ISO 代码，例如 CZK、EUR、USD。"
+
+#: includes/famefe-admin.php:545
+msgid "Currency"
+msgstr "货币"
+
+#: includes/famefe-admin.php:542
+msgid "Money"
+msgstr "资金"
+
+#: includes/famefe-admin.php:539
+msgid "The season (period), the base fee and the discount are set in the Membership fees block on your page."
+msgstr "赛季（周期）、基本会费和减免在您页面上的会费区块中设置。"
+
+#: includes/famefe-admin.php:537
+msgid "Fair Member Fees settings"
+msgstr "Fair Member Fees 设置"
+
+#. translators: %s: currency code.
+#: includes/famefe-admin.php:483
+msgid "Amount (%s)"
+msgstr "金额（%s）"
+
+#: includes/famefe-admin.php:479
+msgid "to"
+msgstr "至"
+
+#: includes/famefe-admin.php:478
+msgid "Period from"
+msgstr "周期开始"
+
+#: includes/famefe-admin.php:474
+msgid "Cash and bank payments. The period must be the same as in the Membership fees block, otherwise the block does not show the member as paid. Card payments are recorded automatically."
+msgstr "现金和银行转账付款。周期必须与会费区块中的相同，否则区块不会将该会员显示为已付款。银行卡付款会自动记录。"
+
+#: includes/famefe-admin.php:473
+msgid "Record a payment"
+msgstr "记录付款"
+
+#. translators: %s: number of hours.
+#: includes/famefe-admin.php:451
+msgid "Total: %s hours"
+msgstr "合计：%s 小时"
+
+#: includes/famefe-admin.php:447 includes/famefe-admin.php:505
+msgid "Filter"
+msgstr "筛选"
+
+#: includes/famefe-admin.php:433
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/famefe-admin.php:431
+msgid "Save"
+msgstr "保存"
+
+#: includes/famefe-admin.php:419
+msgid "Record hours for a member"
+msgstr "为会员记录时长"
+
+#: includes/famefe-admin.php:419
+msgid "Edit hours"
+msgstr "编辑时长"
+
+#: includes/famefe-admin.php:380 includes/famefe-admin.php:440 build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:159
+msgid "To"
+msgstr "至"
+
+#: includes/famefe-admin.php:379 includes/famefe-admin.php:439 build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:149
+msgid "From"
+msgstr "从"
+
+#: includes/famefe-admin.php:373
+msgid "History"
+msgstr "历史"
+
+#: includes/famefe-admin.php:370
+msgid "Active"
+msgstr "有效"
+
+#: includes/famefe-admin.php:357
+msgid "Record the change"
+msgstr "记录变更"
+
+#: includes/famefe-admin.php:355
+msgid "Valid from"
+msgstr "生效日期"
+
+#: includes/famefe-admin.php:353
+msgid "Rejoin"
+msgstr "重新入会"
+
+#: includes/famefe-admin.php:348
+msgid "End the membership"
+msgstr "终止会籍"
+
+#. translators: %s: membership type (Regular, Honorary).
+#: includes/famefe-admin.php:343
+msgid "Change type to: %s"
+msgstr "将类型改为：%s"
+
+#: includes/famefe-admin.php:336 includes/famefe-admin.php:378
+msgid "Change"
+msgstr "更改"
+
+#: includes/famefe-admin.php:330 includes/famefe-users.php:80
+msgid "Membership"
+msgstr "会籍"
+
+#. translators: %s: date.
+#: includes/famefe-admin.php:327 includes/famefe-users.php:110
+msgid "Membership ended on %s"
+msgstr "会籍于 %s 终止"
+
+#. translators: 1: membership type, 2: date.
+#: includes/famefe-admin.php:325 includes/famefe-users.php:113
+msgid "%1$s member since %2$s"
+msgstr "%1$s会员，自 %2$s 起"
+
+#: includes/famefe-admin.php:311
+msgid "Delete member entered by mistake"
+msgstr "删除误录入的会员"
+
+#: includes/famefe-admin.php:311
+msgid "Delete this member? Use this only for a member entered by mistake."
+msgstr "要删除此会员吗？仅用于误录入的会员。"
+
+#: includes/famefe-admin.php:297
+msgid "Save details"
+msgstr "保存信息"
+
+#: includes/famefe-admin.php:288
+msgid "Only to correct a mistake; the correction is recorded in the history. Membership changes go below."
+msgstr "仅用于更正错误；更正会记录在历史中。会籍变更在下方。"
+
+#: includes/famefe-admin.php:279
+msgid "Regular members pay the membership fee, honorary members do not."
+msgstr "正式会员缴纳会费，荣誉会员不缴纳。"
+
+#: includes/famefe-admin.php:272 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:108
+msgid "Membership type"
+msgstr "会员类型"
+
+#: includes/famefe-admin.php:266
+msgid "For an existing account, the name and e-mail of the account are used; these fields only fill in what the account lacks."
+msgstr "对于已有账户，使用账户的姓名和电子邮件；这些字段只补充账户缺少的信息。"
+
+#: includes/famefe-admin.php:264
+msgid "Changes of the name and e-mail are saved to the user account too."
+msgstr "姓名和电子邮件的更改也会保存到用户账户。"
+
+#: includes/famefe-admin.php:262
+msgid "The name and e-mail come from the user account, which you are not allowed to edit."
+msgstr "姓名和电子邮件来自您无权编辑的用户账户。"
+
+#: includes/famefe-admin.php:254
+msgid "Last name"
+msgstr "姓氏"
+
+#: includes/famefe-admin.php:250
+msgid "First name"
+msgstr "名字"
+
+#: includes/famefe-admin.php:245
+msgid "Members with an account can record their hours and pay online."
+msgstr "有账户的会员可以记录时长并在线付款。"
+
+#: includes/famefe-admin.php:243
+msgid "Open the profile"
+msgstr "打开个人资料"
+
+#: includes/famefe-admin.php:238
+msgid "Members with an account can record their hours and pay online. The name and e-mail of a linked member are those of the account."
+msgstr "有账户的会员可以记录时长并在线付款。已关联会员的姓名和电子邮件取自其账户。"
+
+#: includes/famefe-admin.php:236
+msgid "Without a user account"
+msgstr "无用户账户"
+
+#: includes/famefe-admin.php:233
+msgid "The account gets the default role of the site; the e-mail address is required."
+msgstr "该账户将获得网站的默认角色；必须填写电子邮件地址。"
+
+#: includes/famefe-admin.php:232
+msgid "Send the member an e-mail with a link for setting the password"
+msgstr "向会员发送包含设置密码链接的电子邮件"
+
+#: includes/famefe-admin.php:230
+msgid "Create a new user account"
+msgstr "创建新用户账户"
+
+#: includes/famefe-admin.php:227
+msgid "Existing user account"
+msgstr "已有用户账户"
+
+#: includes/famefe-admin.php:217
+msgid "— No account —"
+msgstr "— 无账户 —"
+
+#: includes/famefe-admin.php:205
+msgid "Details"
+msgstr "信息"
+
+#: includes/famefe-admin.php:202
+msgid "No account found."
+msgstr "未找到账户。"
+
+#. translators: %d: number of user accounts found.
+#: includes/famefe-admin.php:201
+msgid "Found: %d"
+msgstr "找到：%d"
+
+#: includes/famefe-admin.php:199 includes/famefe-notices.php:46
+msgid "This user account already belongs to another member."
+msgstr "此用户账户已属于另一位会员。"
+
+#: includes/famefe-admin.php:194
+msgid "Back to the members"
+msgstr "返回会员"
+
+#: includes/famefe-admin.php:176
+msgid "Search members"
+msgstr "搜索会员"
+
+#: includes/famefe-admin.php:165 includes/famefe-admin.php:193 includes/famefe-admin.php:297
+msgid "Add member"
+msgstr "添加会员"
+
+#: includes/famefe-admin.php:143
+msgid "Search user accounts"
+msgstr "搜索用户账户"
+
+#: includes/famefe-admin.php:142
+msgid "Search accounts by name or login…"
+msgstr "按姓名或登录名搜索账户…"
+
+#. translators: 1: name of the person, 2: date and time.
+#: includes/famefe-admin.php:132
+msgid "%1$s on %2$s"
+msgstr "%1$s，%2$s"
+
+#. translators: %s: date and time.
+#: includes/famefe-admin.php:129
+msgid "automatically on %s"
+msgstr "自动，%s"
+
+#: includes/famefe-admin.php:33
+msgid "Help"
+msgstr "帮助"
+
+#: includes/famefe-admin.php:32
+msgid "Settings"
+msgstr "设置"
+
+#: includes/famefe-admin.php:31 includes/famefe-admin.php:470
+msgid "Payments"
+msgstr "付款"
+
+#: includes/famefe-admin.php:30 includes/famefe-admin.php:415
+msgid "Volunteer hours"
+msgstr "志愿时长"
+
+#: includes/famefe-admin.php:22
+msgid "Member Fees"
+msgstr "会费"
+
+#: includes/famefe-admin-tables.php:334
+msgid "Delete this payment? The member will be shown as unpaid."
+msgstr "要删除此付款吗？该会员将显示为未付款。"
+
+#: includes/famefe-admin-tables.php:324
+msgid "No payments recorded."
+msgstr "没有付款记录。"
+
+#: includes/famefe-admin-tables.php:307 includes/famefe-admin.php:293 includes/famefe-admin.php:356 includes/famefe-admin.php:381 includes/famefe-admin.php:494
+msgid "Note"
+msgstr "备注"
+
+#: includes/famefe-admin-tables.php:305
+msgid "Amount"
+msgstr "金额"
+
+#: includes/famefe-admin-tables.php:304 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:25
+msgid "Period"
+msgstr "周期"
+
+#. translators: %s: name of a user who is not a member.
+#: includes/famefe-admin-tables.php:266
+msgid "%s (not a member)"
+msgstr "%s（非会员）"
+
+#: includes/famefe-admin-tables.php:251
+msgid "Edit"
+msgstr "编辑"
+
+#: includes/famefe-admin-tables.php:154
+msgid "Edit and history"
+msgstr "编辑和历史"
+
+#: includes/famefe-admin-tables.php:152
+msgid "(no name)"
+msgstr "（无姓名）"
+
+#: includes/famefe-admin-tables.php:128 includes/famefe-admin.php:443 includes/famefe-admin.php:501
+msgid "All"
+msgstr "全部"
+
+#: includes/famefe-admin-tables.php:127 includes/famefe-admin.php:109 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:34
+msgid "Former members"
+msgstr "前会员"
+
+#: includes/famefe-admin-tables.php:126 includes/famefe-admin.php:29 includes/famefe-admin.php:109 includes/famefe-admin.php:164 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:21
+msgid "Members"
+msgstr "会员"
+
+#: includes/famefe-admin-tables.php:39 includes/famefe-admin.php:258
+msgid "Email"
+msgstr "电子邮件"
+
+#: includes/famefe-admin-tables.php:38 includes/famefe-admin.php:223
+msgid "User account"
+msgstr "用户账户"
+
+#: build/blocks/membership-fees/render.php:306 src/blocks/membership-fees/render.php:306
+msgid "Only administrators and editors see this form. The amount is the calculated fee of the member."
+msgstr "只有管理员和编辑能看到此表单。金额为该会员计算出的会费。"
+
+#: build/blocks/membership-fees/render.php:305 includes/famefe-admin.php:495 src/blocks/membership-fees/render.php:305
+msgid "Record payment"
+msgstr "记录付款"
+
+#: build/blocks/membership-fees/render.php:295 includes/famefe-admin-tables.php:306 includes/famefe-admin.php:487 src/blocks/membership-fees/render.php:295
+msgid "Method"
+msgstr "方式"
+
+#: build/blocks/membership-fees/render.php:287 src/blocks/membership-fees/render.php:287
+msgid "Member and fee"
+msgstr "会员和会费"
+
+#: build/blocks/membership-fees/render.php:283 src/blocks/membership-fees/render.php:283
+msgid "Record a cash or bank payment (administrators and editors)"
+msgstr "记录现金或银行转账付款（管理员和编辑）"
+
+#: build/blocks/membership-fees/render.php:267 src/blocks/membership-fees/render.php:267
+msgid "(Visible only to administrators and editors.)"
+msgstr "（仅管理员和编辑可见。）"
+
+#: build/blocks/membership-fees/render.php:261 src/blocks/membership-fees/render.php:261
+msgid "The payment button is shown only to logged-in regular members who have a fee to pay."
+msgstr "付款按钮只对有待缴会费的已登录正式会员显示。"
+
+#: build/blocks/membership-fees/render.php:259 src/blocks/membership-fees/render.php:259
+msgid "The fees are final, but members cannot pay online: Stripe is not set up yet (Member Fees → Settings → Stripe secret key)."
+msgstr "会费已确定，但会员无法在线付款：尚未设置 Stripe（会费 → 设置 → Stripe 密钥）。"
+
+#: build/blocks/membership-fees/render.php:257 src/blocks/membership-fees/render.php:257
+msgid "The payment button is off: the fees are shown as calculated so far. Turn it on in the block settings (\"Payment button\") once the volunteer hours of the period are closed and the fees are final. Leave it off if you do not collect fees through this page."
+msgstr "付款按钮已关闭：会费按目前的计算结果显示。在周期的志愿时长关闭且会费确定后，请在区块设置中启用它（“付款按钮”）。如果您不通过此页面收取会费，请保持关闭。"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:244 src/blocks/membership-fees/render.php:244
+msgid "Pay %s online"
+msgstr "在线支付 %s"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:233 src/blocks/membership-fees/render.php:233
+msgid "Your membership fee: %s"
+msgstr "您的会费：%s"
+
+#: build/blocks/membership-fees/render.php:227 src/blocks/membership-fees/render.php:227
+msgid "You do not need to pay a membership fee for this period. Thank you for your work!"
+msgstr "本周期您无需缴纳会费。感谢您的付出！"
+
+#: build/blocks/membership-fees/render.php:221 src/blocks/membership-fees/render.php:221
+msgid "The fee will be final once the volunteer hours of this period are closed."
+msgstr "本周期的志愿时长关闭后，会费才会确定。"
+
+#: build/blocks/membership-fees/render.php:219 src/blocks/membership-fees/render.php:219
+msgid "The fee will be final once the volunteer hours of this period are closed; then you can pay it here."
+msgstr "本周期的志愿时长关闭后，会费才会确定；届时您可以在此支付。"
+
+#: build/blocks/membership-fees/render.php:214 src/blocks/membership-fees/render.php:214
+msgid "Thank you for your work!"
+msgstr "感谢您的付出！"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:209 src/blocks/membership-fees/render.php:209
+msgid "With the volunteer hours recorded so far, your membership fee is %s."
+msgstr "根据目前已记录的志愿时长，您的会费为 %s。"
+
+#. translators: 1: amount, 2: date.
+#: build/blocks/membership-fees/render.php:198 src/blocks/membership-fees/render.php:198
+msgid "You paid %1$s on %2$s. Thank you!"
+msgstr "您已于 %2$s 支付 %1$s。谢谢！"
+
+#: build/blocks/membership-fees/render.php:144 src/blocks/membership-fees/render.php:144
+msgid "There are no members in this period."
+msgstr "本周期没有会员。"
+
+#. translators: 1: period (from – to), 2: base fee with currency.
+#: build/blocks/membership-fees/render.php:135 src/blocks/membership-fees/render.php:135
+msgid "Membership fees for %1$s. Base fee: %2$s."
+msgstr "%1$s 的会费。基本会费：%2$s。"
+
+#. translators: 1: first day of the period, 2: last day of the period.
+#: build/blocks/membership-fees/render.php:122 src/blocks/membership-fees/render.php:122
+msgid "%1$s – %2$s"
+msgstr "%1$s – %2$s"
+
+#: build/blocks/membership-fees/render.php:106 src/blocks/membership-fees/render.php:106
+msgid "Non-members and former members"
+msgstr "非会员和前会员"
+
+#. translators: 1: number of members who paid, 2: number of regular members.
+#: build/blocks/membership-fees/render.php:94 src/blocks/membership-fees/render.php:94
+msgid "%1$d of %2$d"
+msgstr "%1$d / %2$d"
+
+#: build/blocks/membership-fees/render.php:47 build/blocks/membership-fees/render.php:302 includes/famefe-admin-tables.php:302 includes/famefe-admin.php:493 src/blocks/membership-fees/render.php:47 src/blocks/membership-fees/render.php:302 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:125
+msgid "Paid on"
+msgstr "付款日期"
+
+#: build/blocks/members-list/render.php:99 includes/famefe-admin-tables.php:160 includes/famefe-admin.php:370 includes/famefe-users.php:159 src/blocks/members-list/render.php:99
+msgid "Former member"
+msgstr "前会员"
+
+#: build/blocks/members-list/render.php:83 src/blocks/members-list/render.php:83 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:38
+msgid "Search by name"
+msgstr "按姓名搜索"
+
+#: build/blocks/members-list/render.php:82 src/blocks/members-list/render.php:82
+msgid "Search by name…"
+msgstr "按姓名搜索…"
+
+#: build/blocks/members-list/render.php:77 includes/famefe-admin-tables.php:146 src/blocks/members-list/render.php:77
+msgid "No members found."
+msgstr "未找到会员。"
+
+#. translators: %d: number of current members.
+#: build/blocks/members-list/render.php:72 src/blocks/members-list/render.php:72
+msgid "Current members (%d)"
+msgstr "现有会员（%d）"
+
+#. translators: %d: number of former members.
+#: build/blocks/members-list/render.php:69 src/blocks/members-list/render.php:69
+msgid "Former members (%d)"
+msgstr "前会员（%d）"
+
+#. translators: %d: number of honorary members.
+#: build/blocks/members-list/render.php:66 build/blocks/membership-fees/render.php:99 src/blocks/members-list/render.php:66 src/blocks/membership-fees/render.php:99
+msgid "Honorary members (%d)"
+msgstr "荣誉会员（%d）"
+
+#. translators: %d: number of regular members.
+#: build/blocks/members-list/render.php:64 build/blocks/membership-fees/render.php:86 src/blocks/members-list/render.php:64 src/blocks/membership-fees/render.php:86
+msgid "Regular members (%d)"
+msgstr "正式会员（%d）"
+
+#: build/blocks/members-list/render.php:45 includes/famefe-admin-tables.php:37 includes/famefe-admin-tables.php:220 includes/famefe-admin-tables.php:308 includes/famefe-admin.php:382 src/blocks/members-list/render.php:45 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:80
+msgid "Recorded by"
+msgstr "记录人"
+
+#: build/blocks/members-list/render.php:44 includes/famefe-admin-tables.php:36 includes/famefe-admin.php:377 src/blocks/members-list/render.php:44 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:76
+msgid "Change date"
+msgstr "变更日期"
+
+#: build/blocks/members-list/render.php:43 includes/famefe-admin-tables.php:35 src/blocks/members-list/render.php:43 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:72
+msgid "Last change"
+msgstr "最近变更"
+
+#: build/blocks/members-list/render.php:42 includes/famefe-admin-tables.php:34 includes/famefe-admin.php:284 src/blocks/members-list/render.php:42 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:68
+msgid "Member since"
+msgstr "入会日期"
+
+#: build/blocks/members-list/render.php:19 src/blocks/members-list/render.php:19
+msgid "The list of members is available to logged-in users."
+msgstr "已登录用户可以查看会员列表。"
+
+#. translators: 1: number of hours, 2: number of entries.
+#: build/blocks/hours-list/render.php:112 src/blocks/hours-list/render.php:112
+msgid "Total: %1$s hours in %2$d entry"
+msgid_plural "Total: %1$s hours in %2$d entries"
+msgstr[0] "合计：%2$d 个条目共 %1$s 小时"
+
+#: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:256 includes/famefe-admin-tables.php:335 src/blocks/hours-list/render.php:94
+msgid "Delete"
+msgstr "删除"
+
+#: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:255 src/blocks/hours-list/render.php:94
+msgid "Delete these hours?"
+msgstr "要删除这些时长吗？"
+
+#: build/blocks/hours-list/render.php:72 src/blocks/hours-list/render.php:72
+msgid "Actions"
+msgstr "操作"
+
+#: build/blocks/hours-list/render.php:69 build/blocks/members-list/render.php:46 src/blocks/hours-list/render.php:69 src/blocks/members-list/render.php:46 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 src/blocks/hours-list/index.js:75 src/blocks/members-list/index.js:84
+msgid "Recorded on"
+msgstr "记录日期"
+
+#: build/blocks/hours-list/render.php:62 build/blocks/members-list/render.php:39 build/blocks/membership-fees/render.php:28 includes/famefe-admin-tables.php:32 includes/famefe-admin-tables.php:217 src/blocks/hours-list/render.php:62 src/blocks/members-list/render.php:39 src/blocks/membership-fees/render.php:28 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:73
+msgid "Name"
+msgstr "姓名"
+
+#: build/blocks/hours-list/render.php:50 includes/famefe-admin-tables.php:243 src/blocks/hours-list/render.php:50
+msgid "No hours recorded."
+msgstr "没有记录的时长。"
+
+#: build/blocks/hours-list/render.php:19 src/blocks/hours-list/render.php:19
+msgid "Log in to see your volunteer hours."
+msgstr "登录后查看您的志愿时长。"
+
+#: build/blocks/hours-form/render.php:118 src/blocks/hours-form/render.php:118
+msgid "My recent entries"
+msgstr "我最近的条目"
+
+#: build/blocks/hours-form/render.php:59 build/blocks/hours-form/render.php:125 build/blocks/hours-list/render.php:66 includes/famefe-admin-tables.php:219 includes/famefe-admin.php:430 src/blocks/hours-form/render.php:59 src/blocks/hours-form/render.php:125 src/blocks/hours-list/render.php:66 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:74
+msgid "Work done"
+msgstr "完成的工作"
+
+#: build/blocks/hours-form/render.php:57 build/blocks/hours-form/render.php:123 build/blocks/hours-list/render.php:60 includes/famefe-admin-tables.php:216 includes/famefe-admin.php:428 src/blocks/hours-form/render.php:57 src/blocks/hours-form/render.php:123 src/blocks/hours-list/render.php:60
+msgid "Date"
+msgstr "日期"
+
+#: build/blocks/hours-form/render.php:39 includes/famefe-notices.php:52 src/blocks/hours-form/render.php:39
+msgid "Only members can record volunteer hours."
+msgstr "只有会员可以记录志愿时长。"
+
+#: build/blocks/hours-form/render.php:34 build/blocks/hours-list/render.php:21 build/blocks/members-list/render.php:21 src/blocks/hours-form/render.php:34 src/blocks/hours-list/render.php:21 src/blocks/members-list/render.php:21
+msgid "Log in"
+msgstr "登录"
+
+#: build/blocks/hours-form/render.php:32 src/blocks/hours-form/render.php:32
+msgid "Log in to record your volunteer hours."
+msgstr "登录后记录您的志愿时长。"
+
+#: build/blocks/hours-form/render.php:22 includes/famefe-admin.php:431 src/blocks/hours-form/render.php:22 build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:82
+msgid "Add hours"
+msgstr "添加时长"
+
+#. translators: %s: twice the base fee.
+#: build/blocks/fee-explanation/render.php:219 src/blocks/fee-explanation/render.php:219
+msgid "A member without any volunteer hours in the period always pays twice the base fee, %s: paying instead of working should never be the cheaper choice."
+msgstr "在本周期内没有任何志愿时长的会员始终缴纳两倍的基本会费，即 %s：用缴费代替工作绝不应是更便宜的选择。"
+
+#: build/blocks/fee-explanation/render.php:209 src/blocks/fee-explanation/render.php:209
+msgid "The calculated fees do not exceed it, so there is no discount."
+msgstr "计算出的会费未超过此金额，因此不减免。"
+
+#. translators: 1: share of members in percent, 2: discount in percent, 3:
+#. number of members with the discount.
+#: build/blocks/fee-explanation/render.php:203 src/blocks/fee-explanation/render.php:203
+msgid "The %1$s %% of regular members with the lowest calculated fees pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never). The discount is not added to the fees of the others, so the club collects less than the expected total."
+msgstr "计算出的会费最低的 %1$s %% 正式会员少缴 %2$s %%（此处为 %3$d 名会员；与其中最后一位会费相同的会员也享受减免，没有时长的会员则不享受）。减免金额不会加到其他会员的会费上，因此俱乐部收取的金额少于预期总额。"
+
+#. translators: 1: share of members in percent, 2: calculated discount in
+#. percent, 3: number of members with the discount.
+#: build/blocks/fee-explanation/render.php:195 src/blocks/fee-explanation/render.php:195
+msgid "The %1$s %% of regular members with the lowest calculated fees therefore pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never)."
+msgstr "因此，计算出的会费最低的 %1$s %% 正式会员少缴 %2$s %%（此处为 %3$d 名会员；与其中最后一位会费相同的会员也享受减免，没有时长的会员则不享受）。"
+
+#. translators: %s: total the regular members should pay.
+#: build/blocks/fee-explanation/render.php:188 src/blocks/fee-explanation/render.php:188
+msgid "The regular members should pay %s together."
+msgstr "正式会员应合计缴纳 %s。"
+
+#: build/blocks/fee-explanation/render.php:182 src/blocks/fee-explanation/render.php:182
+msgid "4. Discount"
+msgstr "4. 减免"
+
+#: build/blocks/fee-explanation/render.php:141 build/blocks/membership-fees/render.php:45 src/blocks/fee-explanation/render.php:141 src/blocks/membership-fees/render.php:45
+msgid "Fee to pay"
+msgstr "应缴会费"
+
+#: build/blocks/fee-explanation/render.php:140 build/blocks/membership-fees/render.php:43 src/blocks/fee-explanation/render.php:140 src/blocks/membership-fees/render.php:43 build/blocks/fee-explanation/index.js:3 build/blocks/membership-fees/index.js:3 src/blocks/fee-explanation/index.js:64 src/blocks/membership-fees/index.js:83
+msgid "Discount"
+msgstr "减免"
+
+#: build/blocks/fee-explanation/render.php:138 build/blocks/membership-fees/render.php:42 src/blocks/fee-explanation/render.php:138 src/blocks/membership-fees/render.php:42
+msgid "Calculated fee"
+msgstr "计算出的会费"
+
+#: build/blocks/fee-explanation/render.php:137 build/blocks/membership-fees/render.php:39 src/blocks/fee-explanation/render.php:137 src/blocks/membership-fees/render.php:39 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:117
+msgid "Unreduced fee"
+msgstr "调整前会费"
+
+#: build/blocks/fee-explanation/render.php:136 build/blocks/membership-fees/render.php:36 src/blocks/fee-explanation/render.php:136 src/blocks/membership-fees/render.php:36 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:113
+msgid "Share of hours"
+msgstr "时长比例"
+
+#. translators: 1: sum of the unreduced fees, 2: expected total, 3: amount
+#. taken off each fee.
+#: build/blocks/fee-explanation/render.php:123 src/blocks/fee-explanation/render.php:123
+msgid "The unreduced fees add up to %1$s, more than the expected total of %2$s. The difference is shared equally: each fee is lowered by %3$s, so all fees together give the expected total. No fee goes below zero; if one would, that member pays nothing and the rest is shared by the members who volunteered."
+msgstr "调整前会费合计为 %1$s，超过预期总额 %2$s。差额平均分摊：每笔会费减少 %3$s，使所有会费合计等于预期总额。任何会费都不会低于零；如果出现这种情况，该会员不缴费，其余部分由提供了志愿服务的会员分摊。"
+
+#. translators: %s: hours of all regular members.
+#: build/blocks/fee-explanation/render.php:116 src/blocks/fee-explanation/render.php:116
+msgid "Each regular member’s share of the hours of all regular members (%s hours) lowers the unreduced fee: unreduced fee = expected total × (1 − share of hours)."
+msgstr "每位正式会员在全体正式会员时长（%s 小时）中所占的比例会降低其调整前会费：调整前会费 = 预期总额 × (1 − 时长比例)。"
+
+#: build/blocks/fee-explanation/render.php:111 src/blocks/fee-explanation/render.php:111
+msgid "3. Fee of each member"
+msgstr "3. 每位会员的会费"
+
+#. translators: 1: base fee, 2: number of regular members, 3: base fee again,
+#. 4: expected total.
+#: build/blocks/fee-explanation/render.php:102 src/blocks/fee-explanation/render.php:102
+msgid "The base fee is %1$s. Together, the %2$d regular members are expected to pay %3$s × %2$d = %4$s."
+msgstr "基本会费为 %1$s。%2$d 名正式会员预计合计缴纳 %3$s × %2$d = %4$s。"
+
+#: build/blocks/fee-explanation/render.php:97 src/blocks/fee-explanation/render.php:97
+msgid "2. Expected total"
+msgstr "2. 预期总额"
+
+#. translators: %d: number of honorary members.
+#: build/blocks/fee-explanation/render.php:92 src/blocks/fee-explanation/render.php:92
+msgid "%d honorary member"
+msgid_plural "%d honorary members"
+msgstr[0] "%d 名荣誉会员"
+
+#. translators: %d: number of regular members.
+#: build/blocks/fee-explanation/render.php:90 src/blocks/fee-explanation/render.php:90
+msgid "%d regular member"
+msgid_plural "%d regular members"
+msgstr[0] "%d 名正式会员"
+
+#. translators: 1: "5 regular members", 2: "1 honorary member".
+#: build/blocks/fee-explanation/render.php:88 src/blocks/fee-explanation/render.php:88
+msgid "Members in the example: %1$s and %2$s. Honorary members do not pay a membership fee, and their hours do not count in the calculation."
+msgstr "示例中的会员：%1$s和%2$s。荣誉会员无需缴纳会费，其时长也不计入计算。"
+
+#: build/blocks/fee-explanation/render.php:78 build/blocks/fee-explanation/render.php:167 build/blocks/membership-fees/render.php:112 src/blocks/fee-explanation/render.php:78 src/blocks/fee-explanation/render.php:167 src/blocks/membership-fees/render.php:112
+msgid "Total"
+msgstr "合计"
+
+#: build/blocks/fee-explanation/render.php:64 build/blocks/fee-explanation/render.php:135 build/blocks/hours-form/render.php:58 build/blocks/hours-form/render.php:124 build/blocks/hours-list/render.php:64 build/blocks/membership-fees/render.php:33 includes/famefe-admin-tables.php:218 includes/famefe-admin.php:429 src/blocks/fee-explanation/render.php:64 src/blocks/fee-explanation/render.php:135 src/blocks/hours-form/render.php:58 src/blocks/hours-form/render.php:124 src/blocks/hours-list/render.php:64 src/blocks/membership-fees/render.php:33 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:112
+msgid "Hours"
+msgstr "时长"
+
+#: build/blocks/fee-explanation/render.php:63 build/blocks/members-list/render.php:41 build/blocks/membership-fees/render.php:30 includes/famefe-admin-tables.php:33 src/blocks/fee-explanation/render.php:63 src/blocks/members-list/render.php:41 src/blocks/membership-fees/render.php:30 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:67
+msgid "Type"
+msgstr "类型"
+
+#: build/blocks/fee-explanation/render.php:62 build/blocks/fee-explanation/render.php:134 build/blocks/hours-form/render.php:56 includes/famefe-admin-tables.php:303 includes/famefe-admin.php:420 includes/famefe-admin.php:441 includes/famefe-admin.php:475 includes/famefe-admin.php:499 includes/famefe-users.php:83 includes/famefe-users.php:139 src/blocks/fee-explanation/render.php:62 src/blocks/fee-explanation/render.php:134 src/blocks/hours-form/render.php:56
+msgid "Member"
+msgstr "会员"
+
+#: build/blocks/fee-explanation/render.php:57 src/blocks/fee-explanation/render.php:57
+msgid "1. Members and their hours"
+msgstr "1. 会员及其时长"
+
+#: build/blocks/fee-explanation/render.php:55 src/blocks/fee-explanation/render.php:55
+msgid "The membership fee depends on how much each member volunteered for the club, measured in the recorded hours. Members only need to record their hours; the fees are calculated from them. The following example shows how."
+msgstr "会费取决于每位会员为俱乐部提供了多少志愿服务，以记录的时长衡量。会员只需记录自己的时长，会费会据此计算。下面的示例展示了计算方法。"
+
+#. translators: %d: number of the member in the example.
+#: build/blocks/fee-explanation/render.php:52 src/blocks/fee-explanation/render.php:52
+msgid "Member %d"
+msgstr "会员 %d"
+
+#. Author of the plugin
+#: fair-member-fees.php
+msgid "globus2008"
+msgstr "globus2008"
+
+#. Description of the plugin
+#: fair-member-fees.php
+msgid "Membership register with a change history, volunteer hours and a fair membership fee: members who volunteer more pay less. Optional discount and payment through Stripe. Built with blocks."
+msgstr "带变更历史的会员名册、志愿时长和公平会费：志愿服务越多的会员缴费越少。可选减免和通过 Stripe 付款。基于区块构建。"
+
+#. Plugin Name of the plugin
+#: fair-member-fees.php includes/famefe-admin.php:21
+msgid "Fair Member Fees"
+msgstr "Fair Member Fees"

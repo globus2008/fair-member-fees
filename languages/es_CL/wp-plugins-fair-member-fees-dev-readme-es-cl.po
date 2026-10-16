@@ -1,0 +1,247 @@
+# Translation of Plugins - Fair Member Fees - Development Readme (trunk) in Spanish (Chile)
+# This file is distributed under the same license as the Plugins - Fair Member Fees - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Fair Member Fees - Development Readme (trunk)\n"
+"PO-Revision-Date: 2026-10-16 12:00:00+0000\n"
+"Language: es_CL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+
+#. Short description.
+#, gp-priority: high
+msgid "Membership register, volunteer hours and a fair membership fee: members who volunteer more pay less. Optional discount and Stripe payments."
+msgstr "Registro de socios, horas de voluntariado y una cuota de socio justa: los socios que hacen más voluntariado pagan menos. Descuento opcional y pagos con Stripe."
+
+#. Plugin name.
+#, gp-priority: high
+msgid "Fair Member Fees"
+msgstr "Fair Member Fees"
+
+#. Found in faq paragraph.
+msgid "Nothing, unless you turn on \"Delete data\" in the settings."
+msgstr "Nada, a menos que actives “Borrar datos” en los ajustes."
+
+#. Found in faq paragraph.
+msgid "No. The server always calculates the fee from the saved block settings and the recorded hours."
+msgstr "No. El servidor siempre calcula la cuota a partir de los ajustes guardados del bloque y de las horas registradas."
+
+#. Found in faq paragraph.
+msgid "Only administrators and editors (the capability <code>famefe_manage</code>)."
+msgstr "Solo los administradores y editores (la capacidad <code>famefe_manage</code>)."
+
+#. Found in faq paragraph.
+msgid "Every logged-in member records own hours. Administrators and editors can record hours for any member. In the settings you can allow logged-in non-members to record hours too; their hours count only in the totals."
+msgstr "Cada socio conectado registra sus propias horas. Los administradores y editores pueden registrar horas para cualquier socio. En los ajustes puedes permitir que también los no socios conectados registren horas; sus horas solo cuentan en los totales."
+
+#. Found in faq paragraph.
+msgid "The button is off until you turn it on in the Membership fees block (\"Payment button\"). Turn it on once the volunteer hours of the period are closed and the fees are final; until then members see the fee calculated from the hours recorded so far. Online payment also needs the Stripe keys in the settings. If your club only keeps records of hours, simply leave the button off."
+msgstr "El botón está desactivado hasta que lo actives en el bloque Cuotas de socio (“Botón de pago”). Actívalo cuando se cierren las horas de voluntariado del periodo y las cuotas sean definitivas; hasta entonces, los socios ven la cuota calculada con las horas registradas hasta ese momento. El pago en línea también necesita las claves de Stripe en los ajustes. Si tu club solo lleva el registro de horas, simplemente deja el botón desactivado."
+
+#. Found in faq header.
+msgid "What happens with the data when I delete the plugin?"
+msgstr "¿Qué pasa con los datos cuando borro el plugin?"
+
+#. Found in faq header.
+msgid "Can the amount to pay be changed in the browser?"
+msgstr "¿Se puede cambiar en el navegador el importe a pagar?"
+
+#. Found in faq header.
+msgid "Who sees the form for cash payments?"
+msgstr "¿Quién ve el formulario de pagos en efectivo?"
+
+#. Found in faq header.
+msgid "Who can record hours?"
+msgstr "¿Quién puede registrar horas?"
+
+#. Found in faq header.
+msgid "Why do members not see the payment button?"
+msgstr "¿Por qué los socios no ven el botón de pago?"
+
+#. Found in installation list item.
+msgid "Add the blocks to your pages (search for \"Fair Member Fees\" in the block inserter). Set the period, the base fee and the discount in the Membership fees block."
+msgstr "Añade los bloques a tus páginas (busca “Fair Member Fees” en el insertador de bloques). Configura el periodo, la cuota base y el descuento en el bloque Cuotas de socio."
+
+#. Found in installation list item.
+msgid "In <strong>Member Fees → Settings</strong> set the currency and, for online payments, your Stripe keys and the webhook."
+msgstr "En <strong>Cuotas de socio → Ajustes</strong> configura la moneda y, para los pagos en línea, tus claves de Stripe y el webhook."
+
+#. Found in installation list item.
+msgid "Go to <strong>Member Fees → Members</strong> and add your members; link them to their user accounts so that they can record hours and pay online."
+msgstr "Ve a <strong>Cuotas de socio → Socios</strong> y añade a tus socios; vincúlalos con sus cuentas de usuario para que puedan registrar horas y pagar en línea."
+
+#. Found in installation list item.
+msgid "Install and activate the plugin."
+msgstr "Instala y activa el plugin."
+
+#. Found in description paragraph.
+msgid "The editor scripts in <code>build/</code> are compiled from the human-readable sources in <code>src/</code> (included in the plugin) with <code>@wordpress/scripts</code> (<code>npm install</code>, <code>npm run build</code>). The development repository is public: https://github.com/globus2008/fair-member-fees"
+msgstr "Los scripts del editor en <code>build/</code> se compilan a partir de las fuentes legibles en <code>src/</code> (incluidas en el plugin) con <code>@wordpress/scripts</code> (<code>npm install</code>, <code>npm run build</code>). El repositorio de desarrollo es público: https://github.com/globus2008/fair-member-fees"
+
+#. Found in description paragraph.
+msgid "Stripe terms of service: https://stripe.com/legal/ssa – Stripe privacy policy: https://stripe.com/privacy"
+msgstr "Condiciones del servicio de Stripe: https://stripe.com/legal/ssa – Política de privacidad de Stripe: https://stripe.com/privacy"
+
+#. Found in description paragraph.
+msgid "This plugin connects to <strong>Stripe</strong> (https://stripe.com) to let members pay their membership fee by card. It is used only when you enter a Stripe secret key in the plugin settings."
+msgstr "Este plugin se conecta a <strong>Stripe</strong> (https://stripe.com) para que los socios puedan pagar su cuota con tarjeta. Solo se usa cuando ingresas una clave secreta de Stripe en los ajustes del plugin."
+
+#. Found in description paragraph.
+msgid "Instead of the percentage, you can set the total to collect: the discount of the same members is then calculated so that all regular members pay exactly this amount together (for example to give back what the double fees of members without hours brought above the expected total)."
+msgstr "En lugar del porcentaje, puedes indicar el total a recaudar: el descuento de esos mismos socios se calcula entonces para que todos los socios ordinarios paguen juntos exactamente ese importe (por ejemplo, para devolver lo que las cuotas dobles de los socios sin horas recaudaron por encima del total previsto)."
+
+#. Found in description paragraph.
+msgid "Set a share of members (e.g. 60 %) and a discount (e.g. 20 %) in the Membership fees block: the given share of regular members with the lowest fees pays the given percentage less. Members with the same fee as the last of them get it too; members without hours never get it. The discount is not added to the fees of the others."
+msgstr "Indica una proporción de socios (p. ej., 60 %) y un descuento (p. ej., 20 %) en el bloque Cuotas de socio: la proporción indicada de socios ordinarios con las cuotas más bajas paga el porcentaje indicado menos. Los socios con la misma cuota que el último de ellos también lo reciben; los socios sin horas nunca lo reciben. El descuento no se añade a las cuotas de los demás."
+
+#. Found in description paragraph.
+msgid "<strong>Discount (optional)</strong>"
+msgstr "<strong>Descuento (opcional)</strong>"
+
+#. Found in description paragraph.
+msgid "Whoever does not volunteer pays twice the base fee, so paying instead of working is never the cheaper choice. Hours of honorary members and non-members are shown in the totals but do not change the fees."
+msgstr "Quien no hace voluntariado paga el doble de la cuota base, así que pagar en lugar de trabajar nunca es la opción más barata. Las horas de los socios de honor y de los no socios se muestran en los totales, pero no cambian las cuotas."
+
+#. Found in description paragraph.
+msgid "<strong>How the fee is calculated</strong>"
+msgstr "<strong>Cómo se calcula la cuota</strong>"
+
+#. Found in description paragraph.
+msgid "<strong>Features</strong>"
+msgstr "<strong>Características</strong>"
+
+#. Found in description paragraph.
+msgid "Clubs live from the work of their members. Fair Member Fees rewards it: every member records the hours they volunteered, and the membership fee of each member is calculated from them. Whoever works for the club pays less; whoever does not, pays twice the base fee – paying instead of working is never the cheaper choice."
+msgstr "Los clubes viven del trabajo de sus socios. Fair Member Fees lo recompensa: cada socio registra las horas de voluntariado que ha hecho y con ellas se calcula la cuota de cada socio. Quien trabaja para el club paga menos; quien no, paga el doble de la cuota base: pagar en lugar de trabajar nunca es la opción más barata."
+
+#. Found in description list item.
+msgid "When the member returns, the plugin asks Stripe whether the payment was completed. Stripe also sends the result to the webhook address of the plugin."
+msgstr "Cuando el socio vuelve, el plugin pregunta a Stripe si el pago se completó. Stripe también envía el resultado a la dirección del webhook del plugin."
+
+#. Found in description list item.
+msgid "When a member clicks the payment button, the plugin sends to Stripe: the amount and currency, the name of the payment (\"Membership fee\" and the period), the member's e-mail address, the member ID and the period, and the addresses of your page to return to. The member then enters the card details directly on the Stripe payment page."
+msgstr "Cuando un socio hace clic en el botón de pago, el plugin envía a Stripe: el importe y la moneda, el nombre del pago (“Cuota de socio” y el periodo), la dirección de correo electrónico del socio, el ID del socio y el periodo, y las direcciones de tu página a las que volver. Después, el socio ingresa los datos de la tarjeta directamente en la página de pago de Stripe."
+
+#. Found in description list item.
+msgid "A member without any recorded hours in the period always pays twice the base fee."
+msgstr "Un socio sin ninguna hora registrada en el periodo siempre paga el doble de la cuota base."
+
+#. Found in description list item.
+msgid "The unreduced fees add up to more than the expected total; the difference is taken off every fee equally. No fee goes below zero (the rest is shared by the others)."
+msgstr "Las cuotas sin reducir suman más que el total previsto; la diferencia se descuenta de cada cuota a partes iguales. Ninguna cuota baja de cero (el resto lo reparten los demás)."
+
+#. Found in description list item.
+msgid "Unreduced fee = expected total × (1 − share of hours)."
+msgstr "Cuota sin reducir = total previsto × (1 − proporción de horas)."
+
+#. Found in description list item.
+msgid "Share of hours = hours of the member / hours of all regular members."
+msgstr "Proporción de horas = horas del socio / horas de todos los socios ordinarios."
+
+#. Found in description list item.
+msgid "Expected total = base fee × number of regular members."
+msgstr "Total previsto = cuota base × número de socios ordinarios."
+
+#. Found in description list item.
+msgid "Ready for translation."
+msgstr "Listo para traducir."
+
+#. Found in description list item.
+msgid "<strong>Fee calculation explained</strong> – the method on an example with your own numbers."
+msgstr "<strong>Cálculo de la cuota explicado</strong>: el método con un ejemplo con tus propios números."
+
+#. Found in description list item.
+msgid "<strong>Members list</strong>,"
+msgstr "<strong>Lista de socios</strong>,"
+
+#. Found in description list item.
+msgid "<strong>Volunteer hours list</strong>,"
+msgstr "<strong>Lista de horas de voluntariado</strong>,"
+
+#. Found in description list item.
+msgid "<strong>Volunteer hours form</strong>,"
+msgstr "<strong>Formulario de horas de voluntariado</strong>,"
+
+#. Found in description list item.
+msgid "<strong>Membership fees</strong> – the fee table of a period; its payment button is turned on once the hours of the period are closed,"
+msgstr "<strong>Cuotas de socio</strong>: la tabla de cuotas de un periodo; su botón de pago se activa cuando se cierran las horas del periodo,"
+
+#. Found in description list item.
+msgid "Five blocks, all set up in the block settings – no shortcodes:"
+msgstr "Cinco bloques, todos configurados en los ajustes del bloque, sin shortcodes:"
+
+#. Found in description list item.
+msgid "Online payment of the fee through Stripe Checkout; cash and bank payments recorded by administrators and editors."
+msgstr "Pago en línea de la cuota con Stripe Checkout; los pagos en efectivo y por transferencia los registran los administradores y editores."
+
+#. Found in description list item.
+msgid "Optional discount for the members with the lowest fees."
+msgstr "Descuento opcional para los socios con las cuotas más bajas."
+
+#. Found in description list item.
+msgid "Fair calculation of the fees for any period (season), see below."
+msgstr "Cálculo justo de las cuotas para cualquier periodo (temporada), ver más abajo."
+
+#. Found in description list item.
+msgid "Volunteer hours recorded by the members themselves, or by administrators and editors for anybody."
+msgstr "Horas de voluntariado registradas por los propios socios o por los administradores y editores para cualquiera."
+
+#. Found in description list item.
+msgid "Full history of every member: joined, membership type changed, membership ended, rejoined – each with the date of the change, who recorded it and when."
+msgstr "Historial completo de cada socio: alta, cambio de tipo de socio, baja, readmisión, cada uno con la fecha del cambio, quién lo registró y cuándo."
+
+#. Found in description list item.
+msgid "Membership register with regular and honorary members (honorary members pay no fee)."
+msgstr "Registro de socios con socios ordinarios y de honor (los socios de honor no pagan cuota)."
+
+#. Found in description header.
+msgid "Source code"
+msgstr "Código fuente"
+
+#. Found in description header.
+msgid "External services"
+msgstr "Servicios externos"
+
+#. Screenshot description.
+msgid "Member Fees → Settings: currency and Stripe keys for online payments."
+msgstr "Cuotas de socio → Ajustes: moneda y claves de Stripe para los pagos en línea."
+
+#. Screenshot description.
+msgid "Member Fees → Volunteer hours: all recorded hours with filters."
+msgstr "Cuotas de socio → Horas de voluntariado: todas las horas registradas con filtros."
+
+#. Screenshot description.
+msgid "Every change of a membership is kept in the history with the date of the change, who recorded it and when."
+msgstr "Cada cambio de una membresía se guarda en el historial con la fecha del cambio, quién lo registró y cuándo."
+
+#. Screenshot description.
+msgid "Member Fees → Members: the membership register."
+msgstr "Cuotas de socio → Socios: el registro de socios."
+
+#. Screenshot description.
+msgid "All options of the blocks are in the block settings: the period, the base fee, the discount, the payment button, columns, names and table colours."
+msgstr "Todas las opciones de los bloques están en los ajustes del bloque: el periodo, la cuota base, el descuento, el botón de pago, las columnas, los nombres y los colores de la tabla."
+
+#. Screenshot description.
+msgid "The Fee calculation explained block shows the method on an example with your own base fee and discount."
+msgstr "El bloque Cálculo de la cuota explicado muestra el método con un ejemplo con tu propia cuota base y tu descuento."
+
+#. Screenshot description.
+msgid "The Volunteer hours form and list: members record their own hours, administrators and editors record them for anybody."
+msgstr "El formulario y la lista de horas de voluntariado: los socios registran sus propias horas; los administradores y editores las registran para cualquiera."
+
+#. Screenshot description.
+msgid "The Members list block with the totals of regular and honorary members."
+msgstr "El bloque Lista de socios con los totales de socios ordinarios y de honor."
+
+#. Screenshot description.
+msgid "The Membership fees block: the fee of every member calculated from the volunteer hours, with the optional discount and the totals rows."
+msgstr "El bloque Cuotas de socio: la cuota de cada socio calculada a partir de las horas de voluntariado, con el descuento opcional y las filas de totales."
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "First release."
+msgstr "Primera versión."

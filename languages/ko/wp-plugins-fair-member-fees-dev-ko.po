@@ -1,0 +1,1455 @@
+# Translation of Plugins - Fair Member Fees - Development (trunk) in Korean
+# This file is distributed under the same license as the Plugins - Fair Member Fees - Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Fair Member Fees - Development (trunk)\n"
+"PO-Revision-Date: 2026-10-16 12:00:00+0000\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.1.0\n"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "payment"
+msgstr "결제"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block description"
+msgid "Fair membership fees for a period: members who volunteered more pay less. Once the hours of the period are closed, members can pay online; administrators and editors record cash and bank payments."
+msgstr "기간별 공정한 회비: 봉사 시간이 많은 회원일수록 회비를 적게 냅니다. 기간의 시간이 마감되면 회원은 온라인으로 결제할 수 있고, 관리자와 편집자는 현금 및 계좌 이체 납부를 기록합니다."
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block title"
+msgid "Membership fees"
+msgstr "회비"
+
+#: build/blocks/members-list/block.json build/blocks/membership-fees/block.json src/blocks/members-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "membership"
+msgstr "회원 자격"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block keyword"
+msgid "register"
+msgstr "명부"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block keyword"
+msgid "members"
+msgstr "회원"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block description"
+msgid "The membership register: members, their type, membership changes and who recorded them."
+msgstr "회원 명부: 회원, 회원 유형, 회원 자격 변경 내역과 이를 기록한 사람."
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block title"
+msgid "Members list"
+msgstr "회원 목록"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr "목록"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block description"
+msgid "Recorded volunteer hours of a period."
+msgstr "기간 동안 기록된 봉사 시간."
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block title"
+msgid "Volunteer hours list"
+msgstr "봉사 시간 목록"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "양식"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block keyword"
+msgid "work"
+msgstr "작업"
+
+#: build/blocks/hours-form/block.json build/blocks/hours-list/block.json build/blocks/membership-fees/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "volunteer"
+msgstr "봉사"
+
+#: build/blocks/hours-form/block.json build/blocks/hours-list/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json
+msgctxt "block keyword"
+msgid "hours"
+msgstr "시간"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block description"
+msgid "Logged-in members record the hours they volunteered."
+msgstr "로그인한 회원이 자신이 한 봉사 시간을 기록합니다."
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block title"
+msgid "Volunteer hours form"
+msgstr "봉사 시간 양식"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "help"
+msgstr "도움말"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "example"
+msgstr "예시"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "calculation"
+msgstr "계산"
+
+#: build/blocks/fee-explanation/block.json build/blocks/hours-form/block.json build/blocks/hours-list/block.json build/blocks/members-list/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json src/blocks/members-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "fair member fees"
+msgstr "fair member fees"
+
+#: build/blocks/fee-explanation/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "fee"
+msgstr "회비"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block description"
+msgid "Explains on an example how the fair membership fee is calculated."
+msgstr "공정한 회비가 어떻게 계산되는지 예시로 설명합니다."
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block title"
+msgid "Fee calculation explained"
+msgstr "회비 계산 방법 설명"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:155
+msgid "Highlight the logged-in member"
+msgstr "로그인한 회원 강조 표시"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:147
+msgid "Period and base fee above the table"
+msgstr "표 위에 기간과 기본 회비 표시"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:143
+msgid "List honorary members"
+msgstr "명예회원 표시"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:121
+msgid "Calculated fee and discount (when the discount is on)"
+msgstr "계산된 회비와 할인 (할인이 켜져 있을 때)"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:94
+msgid "Members who volunteered the most pay even less. The discount is not added to the fees of the others."
+msgstr "봉사를 가장 많이 한 회원은 더 적게 냅니다. 할인액은 다른 회원의 회비에 더해지지 않습니다."
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:90
+msgid "Discount for the lowest fees"
+msgstr "가장 낮은 회비에 대한 할인"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:72
+msgid "Turn on once the volunteer hours of the period are closed: members then see their final fee and can pay it. While it is off, the fees are shown as calculated from the hours recorded so far. Leave it off if you do not collect fees through this page."
+msgstr "기간의 봉사 시간이 마감되면 켜세요. 그러면 회원은 확정된 회비를 보고 결제할 수 있습니다. 꺼져 있는 동안에는 지금까지 기록된 시간으로 계산한 회비가 표시됩니다. 이 페이지에서 회비를 걷지 않는다면 끈 상태로 두세요."
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:68
+msgid "Payment button (the fees are final)"
+msgstr "결제 버튼 (회비 확정)"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:59
+msgid "The fee of a regular member when nobody volunteers. All regular members together pay the base fee times their number."
+msgstr "아무도 봉사하지 않을 때 정회원 한 명의 회비입니다. 정회원 전체가 함께 기본 회비 × 인원수를 냅니다."
+
+#: build/blocks/membership-fees/index.js:2 src/blocks/membership-fees/index.js:46
+msgid "Members of this period pay; their hours of this period lower the fee. Payments are recorded for exactly this period."
+msgstr "이 기간의 회원이 회비를 냅니다. 이 기간의 봉사 시간이 회비를 낮춥니다. 납부는 정확히 이 기간에 대해 기록됩니다."
+
+#: build/blocks/membership-fees/index.js:2 src/blocks/membership-fees/index.js:42
+msgid "Period and fee"
+msgstr "기간과 회비"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/members-list/index.js:54 src/blocks/membership-fees/index.js:101
+msgid "Columns"
+msgstr "열"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:46
+msgid "Only for logged-in visitors"
+msgstr "로그인한 방문자에게만"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/members-list/index.js:42 src/blocks/membership-fees/index.js:151
+msgid "Totals rows at the end of the table"
+msgstr "표 끝의 합계 행"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:30
+msgid "Honorary members"
+msgstr "명예회원"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:26
+msgid "Regular members"
+msgstr "정회원"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:360
+msgid "Totals rows text"
+msgstr "합계 행 글자색"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:356
+msgid "Totals rows background"
+msgstr "합계 행 배경색"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:353
+msgid "Header text"
+msgstr "머리글 글자색"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:351
+msgid "Header background"
+msgstr "머리글 배경색"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:346
+msgid "Table colours"
+msgstr "표 색상"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:127
+msgid "They may delete any entry within this time. Older entries can still be deleted in Member Fees → Volunteer hours."
+msgstr "이 기간 안에는 어떤 항목이든 삭제할 수 있습니다. 더 오래된 항목은 회비 → 봉사 시간에서 계속 삭제할 수 있습니다."
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:123
+msgid "Administrators and editors: days after recording"
+msgstr "관리자와 편집자: 기록 후 일수"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:106
+msgid "Members delete only hours they recorded themselves, e.g. after a mistake. 0 = only on the day of recording."
+msgstr "회원은 자신이 기록한 시간만 삭제할 수 있습니다(예: 잘못 입력한 경우). 0 = 기록한 당일만."
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:102
+msgid "Members: days after recording"
+msgstr "회원: 기록 후 일수"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:91
+msgid "Allow deleting hours"
+msgstr "시간 삭제 허용"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:84
+msgid "Deleting"
+msgstr "삭제"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:79
+msgid "Total below"
+msgstr "아래에 합계 표시"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/hours-list/index.js:60 src/blocks/membership-fees/index.js:130
+msgid "Display"
+msgstr "표시"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:52
+msgid "Only the hours of the logged-in visitor"
+msgstr "로그인한 방문자의 시간만"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:37
+msgid "Maximum entries"
+msgstr "최대 항목 수"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:29
+msgid "Leave empty for no limit."
+msgstr "제한하지 않으려면 비워 두세요."
+
+#: build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:94
+msgid "As in the plugin settings"
+msgstr "플러그인 설정에 따름"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:89
+msgid "Names"
+msgstr "이름"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:106
+msgid "Number of recent entries"
+msgstr "최근 항목 수"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:96
+msgid "Show my recent entries"
+msgstr "내 최근 항목 표시"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:92
+msgid "Description of the work is required"
+msgstr "작업 설명 필수"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:81
+msgid "Button text"
+msgstr "버튼 텍스트"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:63
+msgid "How old the date of the work may be. 0 = only today."
+msgstr "작업 날짜를 얼마나 이전으로 할 수 있는지. 0 = 오늘만."
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:62
+msgid "Days back"
+msgstr "이전 일수"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:49
+msgid "Off: hours are always recorded for today, so nobody can add hours to the past or change a closed period. Administrators and editors can always choose the date."
+msgstr "끔: 시간은 항상 오늘 날짜로 기록되므로 아무도 과거에 시간을 추가하거나 마감된 기간을 변경할 수 없습니다. 관리자와 편집자는 언제든지 날짜를 선택할 수 있습니다."
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:45
+msgid "Members may change the date"
+msgstr "회원이 날짜를 변경할 수 있음"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:35
+msgid "Step of the hours"
+msgstr "시간 단위"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:23
+msgid "Maximum hours per entry"
+msgstr "항목당 최대 시간"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:18
+msgid "Form"
+msgstr "양식"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:71
+msgid "Explain the discount"
+msgstr "할인 설명"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:53
+msgid "Hours of the honorary members"
+msgstr "명예회원의 시간"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:41
+msgid "One number per member, separated by commas or spaces."
+msgstr "회원당 숫자 하나, 쉼표나 공백으로 구분합니다."
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:37
+msgid "Hours of the regular members"
+msgstr "정회원의 시간"
+
+#. translators: %s: currency code.
+#: build/blocks/fee-explanation/index.js:3 build/blocks/membership-fees/index.js:3 src/blocks/fee-explanation/index.js:28 src/blocks/membership-fees/index.js:56
+msgid "Base fee (%s)"
+msgstr "기본 회비 (%s)"
+
+#: build/blocks/fee-explanation/index.js:2 src/blocks/fee-explanation/index.js:22
+msgid "Example"
+msgstr "예시"
+
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:300
+msgid "Discount (%)"
+msgstr "할인 (%)"
+
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:282
+msgid "The discount is calculated so that the regular members pay this amount together. If their calculated fees do not exceed it, there is no discount."
+msgstr "정회원 전체가 함께 이 금액을 내도록 할인이 계산됩니다. 계산된 회비가 이 금액을 넘지 않으면 할인이 없습니다."
+
+#. translators: %s: currency code.
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:279
+msgid "Total to collect (%s)"
+msgstr "징수 총액 (%s)"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:263
+msgid "Total to collect"
+msgstr "징수 총액"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:259
+msgid "Percentage"
+msgstr "비율"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:254
+msgid "Discount given by"
+msgstr "할인 지정 방식"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:244
+msgid "Share of members with the lowest fees (%)"
+msgstr "회비가 가장 낮은 회원의 비율 (%)"
+
+#. translators: %s: list of member names.
+#: includes/famefe-users.php:190
+msgid "These accounts belong to members: %s. The members, their history, hours and payments stay in the register; only the link to the account is removed. To end a membership, use Member Fees → Members."
+msgstr "이 계정들은 회원의 것입니다: %s. 회원과 그들의 이력, 시간, 납부 내역은 명부에 남고 계정과의 연결만 제거됩니다. 회원 자격을 종료하려면 회비 → 회원을 사용하세요."
+
+#: includes/famefe-users.php:93
+msgid "The first name, last name and e-mail of this profile are also the details of the member."
+msgstr "이 프로필의 이름, 성, 이메일은 회원 정보이기도 합니다."
+
+#: includes/famefe-users.php:91
+msgid "Membership and history"
+msgstr "회원 자격과 이력"
+
+#: includes/famefe-users.php:87
+msgid "Add as member"
+msgstr "회원으로 추가"
+
+#: includes/famefe-users.php:86
+msgid "Not a member."
+msgstr "회원이 아닙니다."
+
+#. translators: 1: first day of the period, 2: last day of the period.
+#: includes/famefe-stripe.php:122
+msgid "Membership fee %1$s – %2$s"
+msgstr "회비 %1$s – %2$s"
+
+#. translators: 1: amount, 2: currency symbol or code (Kč, €, USD).
+#: includes/famefe-settings.php:95
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: includes/famefe-notices.php:61
+msgid "The data could not be saved. Please try again."
+msgstr "데이터를 저장할 수 없습니다. 다시 시도해 주세요."
+
+#: includes/famefe-notices.php:60
+msgid "The payment has not been confirmed yet. If you paid, it will appear shortly."
+msgstr "납부가 아직 확인되지 않았습니다. 결제하셨다면 곧 표시됩니다."
+
+#: includes/famefe-notices.php:59
+msgid "The payment service could not be reached. Please try again later."
+msgstr "결제 서비스에 연결할 수 없습니다. 나중에 다시 시도해 주세요."
+
+#: includes/famefe-notices.php:58
+msgid "Online payment is not set up."
+msgstr "온라인 결제가 설정되지 않았습니다."
+
+#: includes/famefe-notices.php:57
+msgid "The block of this form was not found on the page. Please reload the page."
+msgstr "이 양식의 블록을 페이지에서 찾을 수 없습니다. 페이지를 새로 고쳐 주세요."
+
+#: includes/famefe-notices.php:56
+msgid "There is nothing to pay."
+msgstr "낼 금액이 없습니다."
+
+#: includes/famefe-notices.php:55
+msgid "The membership fee for this period has already been paid."
+msgstr "이 기간의 회비는 이미 납부되었습니다."
+
+#: includes/famefe-notices.php:54
+msgid "Choose a valid payment method."
+msgstr "유효한 결제 방법을 선택하세요."
+
+#: includes/famefe-notices.php:53
+msgid "Enter a valid amount."
+msgstr "유효한 금액을 입력하세요."
+
+#: includes/famefe-notices.php:51
+msgid "Describe the work, please."
+msgstr "작업 내용을 설명해 주세요."
+
+#: includes/famefe-notices.php:50
+msgid "Hours cannot be recorded for this date any more."
+msgstr "이 날짜에는 더 이상 시간을 기록할 수 없습니다."
+
+#: includes/famefe-notices.php:49
+msgid "These hours can no longer be deleted here; the time limit has passed."
+msgstr "이 시간은 여기에서 더 이상 삭제할 수 없습니다. 기한이 지났습니다."
+
+#: includes/famefe-notices.php:48
+msgid "Enter a valid number of hours."
+msgstr "유효한 시간을 입력하세요."
+
+#: includes/famefe-notices.php:47
+msgid "The member has hours or payments and cannot be deleted. End the membership instead."
+msgstr "이 회원은 시간 또는 납부 기록이 있어 삭제할 수 없습니다. 대신 회원 자격을 종료하세요."
+
+#: includes/famefe-notices.php:45
+msgid "This e-mail address is already used by another user account."
+msgstr "이 이메일 주소는 이미 다른 사용자 계정에서 사용 중입니다."
+
+#: includes/famefe-notices.php:44
+msgid "Enter a valid e-mail address."
+msgstr "유효한 이메일 주소를 입력하세요."
+
+#: includes/famefe-notices.php:43
+msgid "This change is not possible for the member (check the status and the date)."
+msgstr "이 회원에게는 이 변경을 할 수 없습니다(상태와 날짜를 확인하세요)."
+
+#: includes/famefe-notices.php:42
+msgid "\"Member since\" cannot be after the end of the membership."
+msgstr "\"가입일\"은 회원 자격 종료일보다 늦을 수 없습니다."
+
+#: includes/famefe-notices.php:41
+msgid "Choose a valid membership type."
+msgstr "유효한 회원 유형을 선택하세요."
+
+#: includes/famefe-notices.php:40
+msgid "Enter a valid date."
+msgstr "유효한 날짜를 입력하세요."
+
+#: includes/famefe-notices.php:39
+msgid "Enter the first or the last name."
+msgstr "이름 또는 성을 입력하세요."
+
+#: includes/famefe-notices.php:38
+msgid "The record was not found."
+msgstr "기록을 찾을 수 없습니다."
+
+#: includes/famefe-notices.php:37
+msgid "The form has expired. Please reload the page and try again."
+msgstr "양식이 만료되었습니다. 페이지를 새로 고친 후 다시 시도하세요."
+
+#: includes/famefe-notices.php:36
+msgid "Please log in first."
+msgstr "먼저 로그인하세요."
+
+#: includes/famefe-notices.php:35
+msgid "You are not allowed to do this."
+msgstr "이 작업을 할 권한이 없습니다."
+
+#: includes/famefe-notices.php:33
+msgid "The settings were saved."
+msgstr "설정을 저장했습니다."
+
+#: includes/famefe-notices.php:32
+msgid "The payment was cancelled. You can try again at any time."
+msgstr "결제가 취소되었습니다. 언제든지 다시 시도할 수 있습니다."
+
+#: includes/famefe-notices.php:31
+msgid "Thank you, your membership fee was paid."
+msgstr "감사합니다. 회비가 납부되었습니다."
+
+#: includes/famefe-notices.php:30
+msgid "The payment was deleted."
+msgstr "납부 기록을 삭제했습니다."
+
+#: includes/famefe-notices.php:29
+msgid "The payment was recorded."
+msgstr "납부를 기록했습니다."
+
+#: includes/famefe-notices.php:28
+msgid "The hours were deleted."
+msgstr "시간을 삭제했습니다."
+
+#: includes/famefe-notices.php:27
+msgid "The hours were saved."
+msgstr "시간을 저장했습니다."
+
+#: includes/famefe-notices.php:26
+msgid "Thank you, your hours were recorded."
+msgstr "감사합니다. 시간이 기록되었습니다."
+
+#: includes/famefe-notices.php:25
+msgid "The member was deleted."
+msgstr "회원을 삭제했습니다."
+
+#: includes/famefe-notices.php:24
+msgid "The change of the membership was recorded."
+msgstr "회원 자격 변경을 기록했습니다."
+
+#: includes/famefe-notices.php:23
+msgid "The member was saved."
+msgstr "회원을 저장했습니다."
+
+#: includes/famefe-notices.php:22
+msgid "The member and the user account were created. The member got an e-mail with a link for setting the password."
+msgstr "회원과 사용자 계정을 만들었습니다. 회원에게 비밀번호 설정 링크가 담긴 이메일이 발송되었습니다."
+
+#: includes/famefe-notices.php:21
+msgid "The member and the user account were created."
+msgstr "회원과 사용자 계정을 만들었습니다."
+
+#: includes/famefe-notices.php:20
+msgid "The member was added."
+msgstr "회원을 추가했습니다."
+
+#: includes/famefe-data.php:241
+msgid "Deleted user"
+msgstr "삭제된 사용자"
+
+#: includes/famefe-data.php:191
+msgid "Unknown name"
+msgstr "알 수 없는 이름"
+
+#: includes/famefe-data.php:51
+msgid "Bank transfer"
+msgstr "계좌 이체"
+
+#: includes/famefe-data.php:50
+msgid "Cash"
+msgstr "현금"
+
+#: includes/famefe-data.php:49
+msgid "Card (Stripe)"
+msgstr "카드 (Stripe)"
+
+#: includes/famefe-data.php:39
+msgid "\"Member since\" corrected"
+msgstr "\"가입일\" 수정"
+
+#: includes/famefe-data.php:38
+msgid "Rejoined"
+msgstr "재가입"
+
+#: includes/famefe-data.php:37
+msgid "Membership ended"
+msgstr "회원 자격 종료"
+
+#: includes/famefe-data.php:36
+msgid "Membership type changed"
+msgstr "회원 유형 변경"
+
+#: includes/famefe-data.php:35
+msgid "Joined"
+msgstr "가입"
+
+#: includes/famefe-data.php:25
+msgid "Honorary"
+msgstr "명예"
+
+#: includes/famefe-data.php:24
+msgid "Regular"
+msgstr "정"
+
+#: includes/famefe-admin.php:673
+msgid "All regular members of the period together pay the base fee times their number (the expected total). Each member’s share of the volunteer hours of all regular members lowers the fee; what is collected above the expected total is taken off everybody equally, and no fee goes below zero. A member without any hours in the period always pays twice the base fee. Honorary members pay nothing. With the optional discount, the given share of members with the lowest fees pays the given percentage less, or as much less as needed for the given total to collect; nothing is moved to the others."
+msgstr "기간 내 정회원 전체가 함께 기본 회비 × 인원수(예상 총액)를 냅니다. 정회원 전체의 봉사 시간 중 각 회원이 차지하는 비율만큼 그 회원의 회비가 낮아집니다. 예상 총액을 넘어 걷힌 금액은 모두에게서 똑같이 빼며, 어떤 회비도 0 아래로 내려가지 않습니다. 기간 중 시간이 전혀 없는 회원은 항상 기본 회비의 두 배를 냅니다. 명예회원은 아무것도 내지 않습니다. 선택 사항인 할인을 사용하면 회비가 가장 낮은 회원 중 지정한 비율이 지정한 비율만큼, 또는 지정한 징수 총액에 필요한 만큼 덜 냅니다. 다른 회원에게 넘기는 금액은 없습니다."
+
+#: includes/famefe-admin.php:672
+msgid "How the fee is calculated"
+msgstr "회비 계산 방법"
+
+#: includes/famefe-admin.php:663
+msgid "Blocks"
+msgstr "블록"
+
+#: includes/famefe-admin.php:659
+msgid "Add the blocks to your pages: search for \"Fair Member Fees\" in the block inserter."
+msgstr "페이지에 블록을 추가하세요: 블록 삽입기에서 \"Fair Member Fees\"를 검색하세요."
+
+#: includes/famefe-admin.php:658
+msgid "Set the currency, and Stripe if you want online payments (Settings)."
+msgstr "통화를 설정하고, 온라인 결제를 원하면 Stripe도 설정하세요(설정)."
+
+#: includes/famefe-admin.php:657
+msgid "Add your members (Members → Add member) and link them to their user accounts."
+msgstr "회원을 추가하고(회원 → 회원 추가) 사용자 계정과 연결하세요."
+
+#: includes/famefe-admin.php:655
+msgid "Getting started"
+msgstr "시작하기"
+
+#: includes/famefe-admin.php:653
+msgid "Fair Member Fees help"
+msgstr "Fair Member Fees 도움말"
+
+#: includes/famefe-admin.php:649
+msgid "Explains the calculation on an example with your numbers."
+msgstr "입력한 숫자로 만든 예시로 계산을 설명합니다."
+
+#: includes/famefe-admin.php:649
+msgid "Fee calculation explained"
+msgstr "회비 계산 방법 설명"
+
+#: includes/famefe-admin.php:648
+msgid "The membership register with the date of the last change and who recorded it; visible to logged-in users by default."
+msgstr "마지막 변경 날짜와 기록자를 포함한 회원 명부. 기본적으로 로그인한 사용자에게 표시됩니다."
+
+#: includes/famefe-admin.php:648
+msgid "Members list"
+msgstr "회원 목록"
+
+#: includes/famefe-admin.php:647
+msgid "Recorded hours for a period, all or only the visitor’s own."
+msgstr "기간 동안 기록된 시간(전체 또는 방문자 본인의 시간만)."
+
+#: includes/famefe-admin.php:647
+msgid "Volunteer hours list"
+msgstr "봉사 시간 목록"
+
+#: includes/famefe-admin.php:646
+msgid "Members record their own hours. Set the maximum hours per entry, how many days back a date may be, and whether a description is required."
+msgstr "회원이 직접 자신의 시간을 기록합니다. 항목당 최대 시간, 며칠 전까지의 날짜를 허용할지, 설명이 필수인지를 설정하세요."
+
+#: includes/famefe-admin.php:646
+msgid "Volunteer hours form"
+msgstr "봉사 시간 양식"
+
+#: includes/famefe-admin.php:645
+msgid "The table of fees for a period. Set the period, the base fee and the optional discount in the block settings. Until the volunteer hours of the period are closed, it shows the fees calculated so far; then turn on its payment button and members can pay their final fee. Administrators and editors can record cash and bank payments right there. Clubs that only keep records of hours leave the button off."
+msgstr "기간의 회비 표입니다. 기간, 기본 회비, 선택 사항인 할인은 블록 설정에서 지정합니다. 기간의 봉사 시간이 마감될 때까지는 지금까지 계산된 회비를 보여 줍니다. 그다음 결제 버튼을 켜면 회원이 확정된 회비를 낼 수 있습니다. 관리자와 편집자는 그 자리에서 현금 및 계좌 이체 납부를 기록할 수 있습니다. 시간 기록만 하는 클럽은 버튼을 꺼 둡니다."
+
+#: includes/famefe-admin.php:645
+msgid "Membership fees"
+msgstr "회비"
+
+#: includes/famefe-admin.php:635 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:123
+msgid "Shortened for data protection: first 4 and last 4 characters (Janaková)"
+msgstr "개인정보 보호를 위해 줄임: 처음 4자와 마지막 4자 (Janemith)"
+
+#: includes/famefe-admin.php:634 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:116
+msgid "Display name of the user account"
+msgstr "사용자 계정의 표시 이름"
+
+#: includes/famefe-admin.php:633 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:112
+msgid "Initials (J. S.)"
+msgstr "이니셜 (J. S.)"
+
+#: includes/famefe-admin.php:632 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:105
+msgid "First name and initial (Jane S.)"
+msgstr "이름과 이니셜 (Jane S.)"
+
+#: includes/famefe-admin.php:631 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:101
+msgid "Full name (Jane Smith)"
+msgstr "전체 이름 (Jane Smith)"
+
+#: includes/famefe-admin.php:616
+msgid "Delete all members, hours, payments and settings when the plugin is deleted."
+msgstr "플러그인을 삭제할 때 모든 회원, 시간, 납부 기록, 설정을 삭제합니다."
+
+#: includes/famefe-admin.php:615
+msgid "Delete data"
+msgstr "데이터 삭제"
+
+#: includes/famefe-admin.php:612
+msgid "Uninstall"
+msgstr "제거"
+
+#: includes/famefe-admin.php:607
+msgid "Default for all blocks; each block can override it."
+msgstr "모든 블록의 기본값이며, 각 블록에서 변경할 수 있습니다."
+
+#: includes/famefe-admin.php:600
+msgid "Names in blocks"
+msgstr "블록의 이름"
+
+#: includes/famefe-admin.php:597
+msgid "Logged-in users who are not members may record their hours too (they count only in the totals)."
+msgstr "회원이 아닌 로그인 사용자도 자신의 시간을 기록할 수 있습니다(합계에만 반영됩니다)."
+
+#: includes/famefe-admin.php:596
+msgid "Hours of non-members"
+msgstr "비회원의 시간"
+
+#: includes/famefe-admin.php:593
+msgid "Volunteer hours and names"
+msgstr "봉사 시간과 이름"
+
+#: includes/famefe-admin.php:588
+msgid "Add this address in Stripe (Developers → Webhooks) with the events checkout.session.completed and checkout.session.async_payment_succeeded, then copy its signing secret here. Payments are recorded even when a member closes the browser before returning to your site."
+msgstr "이 주소를 Stripe(Developers → Webhooks)에 checkout.session.completed 및 checkout.session.async_payment_succeeded 이벤트로 추가한 다음, 서명 비밀 키를 여기에 복사하세요. 회원이 사이트로 돌아오기 전에 브라우저를 닫아도 납부가 기록됩니다."
+
+#: includes/famefe-admin.php:585
+msgid "Webhook endpoint"
+msgstr "웹훅 엔드포인트"
+
+#: includes/famefe-admin.php:575
+msgid "Live webhook signing secret"
+msgstr "실제 웹훅 서명 비밀 키"
+
+#: includes/famefe-admin.php:574
+msgid "Live secret key"
+msgstr "실제 비밀 키"
+
+#: includes/famefe-admin.php:573
+msgid "Test webhook signing secret"
+msgstr "테스트 웹훅 서명 비밀 키"
+
+#: includes/famefe-admin.php:572
+msgid "Test secret key"
+msgstr "테스트 비밀 키"
+
+#: includes/famefe-admin.php:567
+msgid "Live"
+msgstr "실제"
+
+#: includes/famefe-admin.php:566
+msgid "Test (no real money)"
+msgstr "테스트 (실제 돈 없음)"
+
+#: includes/famefe-admin.php:564
+msgid "Mode"
+msgstr "모드"
+
+#: includes/famefe-admin.php:561
+msgid "Members pay on the Stripe payment page. Fill in the secret key of the mode you use; without it the Membership fees block shows no payment button."
+msgstr "회원은 Stripe 결제 페이지에서 결제합니다. 사용하는 모드의 비밀 키를 입력하세요. 키가 없으면 회비 블록에 결제 버튼이 표시되지 않습니다."
+
+#: includes/famefe-admin.php:560
+msgid "Stripe"
+msgstr "Stripe"
+
+#: includes/famefe-admin.php:555
+msgid "Fees are rounded to this number of decimals. Leave empty to use the usual number of the currency (CZK 0, EUR and USD 2)."
+msgstr "회비는 이 소수 자릿수로 반올림됩니다. 비워 두면 통화의 일반적인 자릿수를 사용합니다(CZK 0, EUR 및 USD 2)."
+
+#: includes/famefe-admin.php:552
+msgid "Decimal places"
+msgstr "소수 자릿수"
+
+#: includes/famefe-admin.php:548
+msgid "Three-letter ISO code, e.g. CZK, EUR, USD."
+msgstr "세 글자 ISO 코드(예: CZK, EUR, USD)."
+
+#: includes/famefe-admin.php:545
+msgid "Currency"
+msgstr "통화"
+
+#: includes/famefe-admin.php:542
+msgid "Money"
+msgstr "금액"
+
+#: includes/famefe-admin.php:539
+msgid "The season (period), the base fee and the discount are set in the Membership fees block on your page."
+msgstr "시즌(기간), 기본 회비, 할인은 페이지의 회비 블록에서 설정합니다."
+
+#: includes/famefe-admin.php:537
+msgid "Fair Member Fees settings"
+msgstr "Fair Member Fees 설정"
+
+#. translators: %s: currency code.
+#: includes/famefe-admin.php:483
+msgid "Amount (%s)"
+msgstr "금액 (%s)"
+
+#: includes/famefe-admin.php:479
+msgid "to"
+msgstr "~"
+
+#: includes/famefe-admin.php:478
+msgid "Period from"
+msgstr "기간 시작"
+
+#: includes/famefe-admin.php:474
+msgid "Cash and bank payments. The period must be the same as in the Membership fees block, otherwise the block does not show the member as paid. Card payments are recorded automatically."
+msgstr "현금 및 계좌 이체 납부. 기간은 회비 블록과 같아야 하며, 다르면 블록에서 해당 회원이 납부한 것으로 표시되지 않습니다. 카드 결제는 자동으로 기록됩니다."
+
+#: includes/famefe-admin.php:473
+msgid "Record a payment"
+msgstr "납부 기록"
+
+#. translators: %s: number of hours.
+#: includes/famefe-admin.php:451
+msgid "Total: %s hours"
+msgstr "합계: %s시간"
+
+#: includes/famefe-admin.php:447 includes/famefe-admin.php:505
+msgid "Filter"
+msgstr "필터"
+
+#: includes/famefe-admin.php:433
+msgid "Cancel"
+msgstr "취소"
+
+#: includes/famefe-admin.php:431
+msgid "Save"
+msgstr "저장"
+
+#: includes/famefe-admin.php:419
+msgid "Record hours for a member"
+msgstr "회원의 시간 기록"
+
+#: includes/famefe-admin.php:419
+msgid "Edit hours"
+msgstr "시간 편집"
+
+#: includes/famefe-admin.php:380 includes/famefe-admin.php:440 build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:159
+msgid "To"
+msgstr "종료"
+
+#: includes/famefe-admin.php:379 includes/famefe-admin.php:439 build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:149
+msgid "From"
+msgstr "시작"
+
+#: includes/famefe-admin.php:373
+msgid "History"
+msgstr "이력"
+
+#: includes/famefe-admin.php:370
+msgid "Active"
+msgstr "활성"
+
+#: includes/famefe-admin.php:357
+msgid "Record the change"
+msgstr "변경 기록"
+
+#: includes/famefe-admin.php:355
+msgid "Valid from"
+msgstr "적용 시작일"
+
+#: includes/famefe-admin.php:353
+msgid "Rejoin"
+msgstr "재가입 처리"
+
+#: includes/famefe-admin.php:348
+msgid "End the membership"
+msgstr "회원 자격 종료"
+
+#. translators: %s: membership type (Regular, Honorary).
+#: includes/famefe-admin.php:343
+msgid "Change type to: %s"
+msgstr "유형 변경: %s"
+
+#: includes/famefe-admin.php:336 includes/famefe-admin.php:378
+msgid "Change"
+msgstr "변경"
+
+#: includes/famefe-admin.php:330 includes/famefe-users.php:80
+msgid "Membership"
+msgstr "회원 자격"
+
+#. translators: %s: date.
+#: includes/famefe-admin.php:327 includes/famefe-users.php:110
+msgid "Membership ended on %s"
+msgstr "%s에 회원 자격 종료"
+
+#. translators: 1: membership type, 2: date.
+#: includes/famefe-admin.php:325 includes/famefe-users.php:113
+msgid "%1$s member since %2$s"
+msgstr "%1$s회원 (%2$s부터)"
+
+#: includes/famefe-admin.php:311
+msgid "Delete member entered by mistake"
+msgstr "실수로 입력한 회원 삭제"
+
+#: includes/famefe-admin.php:311
+msgid "Delete this member? Use this only for a member entered by mistake."
+msgstr "이 회원을 삭제할까요? 실수로 입력한 회원에만 사용하세요."
+
+#: includes/famefe-admin.php:297
+msgid "Save details"
+msgstr "정보 저장"
+
+#: includes/famefe-admin.php:288
+msgid "Only to correct a mistake; the correction is recorded in the history. Membership changes go below."
+msgstr "실수를 바로잡는 용도로만 사용하세요. 수정 내역은 이력에 기록됩니다. 회원 자격 변경은 아래에 있습니다."
+
+#: includes/famefe-admin.php:279
+msgid "Regular members pay the membership fee, honorary members do not."
+msgstr "정회원은 회비를 내고 명예회원은 내지 않습니다."
+
+#: includes/famefe-admin.php:272 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:108
+msgid "Membership type"
+msgstr "회원 유형"
+
+#: includes/famefe-admin.php:266
+msgid "For an existing account, the name and e-mail of the account are used; these fields only fill in what the account lacks."
+msgstr "기존 계정의 경우 계정의 이름과 이메일이 사용되며, 이 필드는 계정에 없는 정보만 채웁니다."
+
+#: includes/famefe-admin.php:264
+msgid "Changes of the name and e-mail are saved to the user account too."
+msgstr "이름과 이메일 변경 사항은 사용자 계정에도 저장됩니다."
+
+#: includes/famefe-admin.php:262
+msgid "The name and e-mail come from the user account, which you are not allowed to edit."
+msgstr "이름과 이메일은 편집 권한이 없는 사용자 계정에서 가져옵니다."
+
+#: includes/famefe-admin.php:254
+msgid "Last name"
+msgstr "성"
+
+#: includes/famefe-admin.php:250
+msgid "First name"
+msgstr "이름"
+
+#: includes/famefe-admin.php:245
+msgid "Members with an account can record their hours and pay online."
+msgstr "계정이 있는 회원은 자신의 시간을 기록하고 온라인으로 결제할 수 있습니다."
+
+#: includes/famefe-admin.php:243
+msgid "Open the profile"
+msgstr "프로필 열기"
+
+#: includes/famefe-admin.php:238
+msgid "Members with an account can record their hours and pay online. The name and e-mail of a linked member are those of the account."
+msgstr "계정이 있는 회원은 자신의 시간을 기록하고 온라인으로 결제할 수 있습니다. 연결된 회원의 이름과 이메일은 계정의 정보를 따릅니다."
+
+#: includes/famefe-admin.php:236
+msgid "Without a user account"
+msgstr "사용자 계정 없음"
+
+#: includes/famefe-admin.php:233
+msgid "The account gets the default role of the site; the e-mail address is required."
+msgstr "계정에는 사이트의 기본 역할이 부여되며, 이메일 주소는 필수입니다."
+
+#: includes/famefe-admin.php:232
+msgid "Send the member an e-mail with a link for setting the password"
+msgstr "회원에게 비밀번호 설정 링크가 담긴 이메일 보내기"
+
+#: includes/famefe-admin.php:230
+msgid "Create a new user account"
+msgstr "새 사용자 계정 만들기"
+
+#: includes/famefe-admin.php:227
+msgid "Existing user account"
+msgstr "기존 사용자 계정"
+
+#: includes/famefe-admin.php:217
+msgid "— No account —"
+msgstr "— 계정 없음 —"
+
+#: includes/famefe-admin.php:205
+msgid "Details"
+msgstr "정보"
+
+#: includes/famefe-admin.php:202
+msgid "No account found."
+msgstr "계정을 찾을 수 없습니다."
+
+#. translators: %d: number of user accounts found.
+#: includes/famefe-admin.php:201
+msgid "Found: %d"
+msgstr "찾은 계정: %d"
+
+#: includes/famefe-admin.php:199 includes/famefe-notices.php:46
+msgid "This user account already belongs to another member."
+msgstr "이 사용자 계정은 이미 다른 회원의 것입니다."
+
+#: includes/famefe-admin.php:194
+msgid "Back to the members"
+msgstr "회원으로 돌아가기"
+
+#: includes/famefe-admin.php:176
+msgid "Search members"
+msgstr "회원 검색"
+
+#: includes/famefe-admin.php:165 includes/famefe-admin.php:193 includes/famefe-admin.php:297
+msgid "Add member"
+msgstr "회원 추가"
+
+#: includes/famefe-admin.php:143
+msgid "Search user accounts"
+msgstr "사용자 계정 검색"
+
+#: includes/famefe-admin.php:142
+msgid "Search accounts by name or login…"
+msgstr "이름 또는 로그인으로 계정 검색…"
+
+#. translators: 1: name of the person, 2: date and time.
+#: includes/famefe-admin.php:132
+msgid "%1$s on %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: %s: date and time.
+#: includes/famefe-admin.php:129
+msgid "automatically on %s"
+msgstr "자동, %s"
+
+#: includes/famefe-admin.php:33
+msgid "Help"
+msgstr "도움말"
+
+#: includes/famefe-admin.php:32
+msgid "Settings"
+msgstr "설정"
+
+#: includes/famefe-admin.php:31 includes/famefe-admin.php:470
+msgid "Payments"
+msgstr "납부"
+
+#: includes/famefe-admin.php:30 includes/famefe-admin.php:415
+msgid "Volunteer hours"
+msgstr "봉사 시간"
+
+#: includes/famefe-admin.php:22
+msgid "Member Fees"
+msgstr "회비"
+
+#: includes/famefe-admin-tables.php:334
+msgid "Delete this payment? The member will be shown as unpaid."
+msgstr "이 납부 기록을 삭제할까요? 회원은 미납으로 표시됩니다."
+
+#: includes/famefe-admin-tables.php:324
+msgid "No payments recorded."
+msgstr "기록된 납부가 없습니다."
+
+#: includes/famefe-admin-tables.php:307 includes/famefe-admin.php:293 includes/famefe-admin.php:356 includes/famefe-admin.php:381 includes/famefe-admin.php:494
+msgid "Note"
+msgstr "메모"
+
+#: includes/famefe-admin-tables.php:305
+msgid "Amount"
+msgstr "금액"
+
+#: includes/famefe-admin-tables.php:304 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:25
+msgid "Period"
+msgstr "기간"
+
+#. translators: %s: name of a user who is not a member.
+#: includes/famefe-admin-tables.php:266
+msgid "%s (not a member)"
+msgstr "%s (비회원)"
+
+#: includes/famefe-admin-tables.php:251
+msgid "Edit"
+msgstr "편집"
+
+#: includes/famefe-admin-tables.php:154
+msgid "Edit and history"
+msgstr "편집 및 이력"
+
+#: includes/famefe-admin-tables.php:152
+msgid "(no name)"
+msgstr "(이름 없음)"
+
+#: includes/famefe-admin-tables.php:128 includes/famefe-admin.php:443 includes/famefe-admin.php:501
+msgid "All"
+msgstr "전체"
+
+#: includes/famefe-admin-tables.php:127 includes/famefe-admin.php:109 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:34
+msgid "Former members"
+msgstr "전 회원"
+
+#: includes/famefe-admin-tables.php:126 includes/famefe-admin.php:29 includes/famefe-admin.php:109 includes/famefe-admin.php:164 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:21
+msgid "Members"
+msgstr "회원"
+
+#: includes/famefe-admin-tables.php:39 includes/famefe-admin.php:258
+msgid "Email"
+msgstr "이메일"
+
+#: includes/famefe-admin-tables.php:38 includes/famefe-admin.php:223
+msgid "User account"
+msgstr "사용자 계정"
+
+#: build/blocks/membership-fees/render.php:306 src/blocks/membership-fees/render.php:306
+msgid "Only administrators and editors see this form. The amount is the calculated fee of the member."
+msgstr "이 양식은 관리자와 편집자에게만 표시됩니다. 금액은 해당 회원의 계산된 회비입니다."
+
+#: build/blocks/membership-fees/render.php:305 includes/famefe-admin.php:495 src/blocks/membership-fees/render.php:305
+msgid "Record payment"
+msgstr "납부 기록"
+
+#: build/blocks/membership-fees/render.php:295 includes/famefe-admin-tables.php:306 includes/famefe-admin.php:487 src/blocks/membership-fees/render.php:295
+msgid "Method"
+msgstr "방법"
+
+#: build/blocks/membership-fees/render.php:287 src/blocks/membership-fees/render.php:287
+msgid "Member and fee"
+msgstr "회원과 회비"
+
+#: build/blocks/membership-fees/render.php:283 src/blocks/membership-fees/render.php:283
+msgid "Record a cash or bank payment (administrators and editors)"
+msgstr "현금 또는 계좌 이체 납부 기록 (관리자와 편집자)"
+
+#: build/blocks/membership-fees/render.php:267 src/blocks/membership-fees/render.php:267
+msgid "(Visible only to administrators and editors.)"
+msgstr "(관리자와 편집자에게만 표시됩니다.)"
+
+#: build/blocks/membership-fees/render.php:261 src/blocks/membership-fees/render.php:261
+msgid "The payment button is shown only to logged-in regular members who have a fee to pay."
+msgstr "결제 버튼은 낼 회비가 있는 로그인한 정회원에게만 표시됩니다."
+
+#: build/blocks/membership-fees/render.php:259 src/blocks/membership-fees/render.php:259
+msgid "The fees are final, but members cannot pay online: Stripe is not set up yet (Member Fees → Settings → Stripe secret key)."
+msgstr "회비가 확정되었지만 회원은 온라인으로 결제할 수 없습니다: Stripe가 아직 설정되지 않았습니다(회비 → 설정 → Stripe 비밀 키)."
+
+#: build/blocks/membership-fees/render.php:257 src/blocks/membership-fees/render.php:257
+msgid "The payment button is off: the fees are shown as calculated so far. Turn it on in the block settings (\"Payment button\") once the volunteer hours of the period are closed and the fees are final. Leave it off if you do not collect fees through this page."
+msgstr "결제 버튼이 꺼져 있습니다: 회비는 지금까지 계산된 대로 표시됩니다. 기간의 봉사 시간이 마감되고 회비가 확정되면 블록 설정(\"결제 버튼\")에서 켜세요. 이 페이지에서 회비를 걷지 않는다면 끈 상태로 두세요."
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:244 src/blocks/membership-fees/render.php:244
+msgid "Pay %s online"
+msgstr "%s 온라인 결제"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:233 src/blocks/membership-fees/render.php:233
+msgid "Your membership fee: %s"
+msgstr "내 회비: %s"
+
+#: build/blocks/membership-fees/render.php:227 src/blocks/membership-fees/render.php:227
+msgid "You do not need to pay a membership fee for this period. Thank you for your work!"
+msgstr "이 기간에는 회비를 낼 필요가 없습니다. 수고해 주셔서 감사합니다!"
+
+#: build/blocks/membership-fees/render.php:221 src/blocks/membership-fees/render.php:221
+msgid "The fee will be final once the volunteer hours of this period are closed."
+msgstr "이 기간의 봉사 시간이 마감되면 회비가 확정됩니다."
+
+#: build/blocks/membership-fees/render.php:219 src/blocks/membership-fees/render.php:219
+msgid "The fee will be final once the volunteer hours of this period are closed; then you can pay it here."
+msgstr "이 기간의 봉사 시간이 마감되면 회비가 확정되며, 그때 여기에서 결제할 수 있습니다."
+
+#: build/blocks/membership-fees/render.php:214 src/blocks/membership-fees/render.php:214
+msgid "Thank you for your work!"
+msgstr "수고해 주셔서 감사합니다!"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:209 src/blocks/membership-fees/render.php:209
+msgid "With the volunteer hours recorded so far, your membership fee is %s."
+msgstr "지금까지 기록된 봉사 시간으로 계산한 회원님의 회비는 %s입니다."
+
+#. translators: 1: amount, 2: date.
+#: build/blocks/membership-fees/render.php:198 src/blocks/membership-fees/render.php:198
+msgid "You paid %1$s on %2$s. Thank you!"
+msgstr "%2$s에 %1$s을(를) 납부하셨습니다. 감사합니다!"
+
+#: build/blocks/membership-fees/render.php:144 src/blocks/membership-fees/render.php:144
+msgid "There are no members in this period."
+msgstr "이 기간에는 회원이 없습니다."
+
+#. translators: 1: period (from – to), 2: base fee with currency.
+#: build/blocks/membership-fees/render.php:135 src/blocks/membership-fees/render.php:135
+msgid "Membership fees for %1$s. Base fee: %2$s."
+msgstr "%1$s 회비. 기본 회비: %2$s."
+
+#. translators: 1: first day of the period, 2: last day of the period.
+#: build/blocks/membership-fees/render.php:122 src/blocks/membership-fees/render.php:122
+msgid "%1$s – %2$s"
+msgstr "%1$s – %2$s"
+
+#: build/blocks/membership-fees/render.php:106 src/blocks/membership-fees/render.php:106
+msgid "Non-members and former members"
+msgstr "비회원 및 전 회원"
+
+#. translators: 1: number of members who paid, 2: number of regular members.
+#: build/blocks/membership-fees/render.php:94 src/blocks/membership-fees/render.php:94
+msgid "%1$d of %2$d"
+msgstr "%1$d / %2$d"
+
+#: build/blocks/membership-fees/render.php:47 build/blocks/membership-fees/render.php:302 includes/famefe-admin-tables.php:302 includes/famefe-admin.php:493 src/blocks/membership-fees/render.php:47 src/blocks/membership-fees/render.php:302 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:125
+msgid "Paid on"
+msgstr "납부일"
+
+#: build/blocks/members-list/render.php:99 includes/famefe-admin-tables.php:160 includes/famefe-admin.php:370 includes/famefe-users.php:159 src/blocks/members-list/render.php:99
+msgid "Former member"
+msgstr "전 회원"
+
+#: build/blocks/members-list/render.php:83 src/blocks/members-list/render.php:83 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:38
+msgid "Search by name"
+msgstr "이름으로 검색"
+
+#: build/blocks/members-list/render.php:82 src/blocks/members-list/render.php:82
+msgid "Search by name…"
+msgstr "이름으로 검색…"
+
+#: build/blocks/members-list/render.php:77 includes/famefe-admin-tables.php:146 src/blocks/members-list/render.php:77
+msgid "No members found."
+msgstr "회원을 찾을 수 없습니다."
+
+#. translators: %d: number of current members.
+#: build/blocks/members-list/render.php:72 src/blocks/members-list/render.php:72
+msgid "Current members (%d)"
+msgstr "현재 회원 (%d)"
+
+#. translators: %d: number of former members.
+#: build/blocks/members-list/render.php:69 src/blocks/members-list/render.php:69
+msgid "Former members (%d)"
+msgstr "전 회원 (%d)"
+
+#. translators: %d: number of honorary members.
+#: build/blocks/members-list/render.php:66 build/blocks/membership-fees/render.php:99 src/blocks/members-list/render.php:66 src/blocks/membership-fees/render.php:99
+msgid "Honorary members (%d)"
+msgstr "명예회원 (%d)"
+
+#. translators: %d: number of regular members.
+#: build/blocks/members-list/render.php:64 build/blocks/membership-fees/render.php:86 src/blocks/members-list/render.php:64 src/blocks/membership-fees/render.php:86
+msgid "Regular members (%d)"
+msgstr "정회원 (%d)"
+
+#: build/blocks/members-list/render.php:45 includes/famefe-admin-tables.php:37 includes/famefe-admin-tables.php:220 includes/famefe-admin-tables.php:308 includes/famefe-admin.php:382 src/blocks/members-list/render.php:45 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:80
+msgid "Recorded by"
+msgstr "기록자"
+
+#: build/blocks/members-list/render.php:44 includes/famefe-admin-tables.php:36 includes/famefe-admin.php:377 src/blocks/members-list/render.php:44 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:76
+msgid "Change date"
+msgstr "변경일"
+
+#: build/blocks/members-list/render.php:43 includes/famefe-admin-tables.php:35 src/blocks/members-list/render.php:43 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:72
+msgid "Last change"
+msgstr "마지막 변경"
+
+#: build/blocks/members-list/render.php:42 includes/famefe-admin-tables.php:34 includes/famefe-admin.php:284 src/blocks/members-list/render.php:42 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:68
+msgid "Member since"
+msgstr "가입일"
+
+#: build/blocks/members-list/render.php:19 src/blocks/members-list/render.php:19
+msgid "The list of members is available to logged-in users."
+msgstr "회원 목록은 로그인한 사용자가 볼 수 있습니다."
+
+#. translators: 1: number of hours, 2: number of entries.
+#: build/blocks/hours-list/render.php:112 src/blocks/hours-list/render.php:112
+msgid "Total: %1$s hours in %2$d entry"
+msgid_plural "Total: %1$s hours in %2$d entries"
+msgstr[0] "합계: %2$d개 항목, %1$s시간"
+
+#: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:256 includes/famefe-admin-tables.php:335 src/blocks/hours-list/render.php:94
+msgid "Delete"
+msgstr "삭제"
+
+#: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:255 src/blocks/hours-list/render.php:94
+msgid "Delete these hours?"
+msgstr "이 시간을 삭제할까요?"
+
+#: build/blocks/hours-list/render.php:72 src/blocks/hours-list/render.php:72
+msgid "Actions"
+msgstr "작업"
+
+#: build/blocks/hours-list/render.php:69 build/blocks/members-list/render.php:46 src/blocks/hours-list/render.php:69 src/blocks/members-list/render.php:46 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 src/blocks/hours-list/index.js:75 src/blocks/members-list/index.js:84
+msgid "Recorded on"
+msgstr "기록일"
+
+#: build/blocks/hours-list/render.php:62 build/blocks/members-list/render.php:39 build/blocks/membership-fees/render.php:28 includes/famefe-admin-tables.php:32 includes/famefe-admin-tables.php:217 src/blocks/hours-list/render.php:62 src/blocks/members-list/render.php:39 src/blocks/membership-fees/render.php:28 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:73
+msgid "Name"
+msgstr "이름"
+
+#: build/blocks/hours-list/render.php:50 includes/famefe-admin-tables.php:243 src/blocks/hours-list/render.php:50
+msgid "No hours recorded."
+msgstr "기록된 시간이 없습니다."
+
+#: build/blocks/hours-list/render.php:19 src/blocks/hours-list/render.php:19
+msgid "Log in to see your volunteer hours."
+msgstr "봉사 시간을 보려면 로그인하세요."
+
+#: build/blocks/hours-form/render.php:118 src/blocks/hours-form/render.php:118
+msgid "My recent entries"
+msgstr "내 최근 항목"
+
+#: build/blocks/hours-form/render.php:59 build/blocks/hours-form/render.php:125 build/blocks/hours-list/render.php:66 includes/famefe-admin-tables.php:219 includes/famefe-admin.php:430 src/blocks/hours-form/render.php:59 src/blocks/hours-form/render.php:125 src/blocks/hours-list/render.php:66 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:74
+msgid "Work done"
+msgstr "한 작업"
+
+#: build/blocks/hours-form/render.php:57 build/blocks/hours-form/render.php:123 build/blocks/hours-list/render.php:60 includes/famefe-admin-tables.php:216 includes/famefe-admin.php:428 src/blocks/hours-form/render.php:57 src/blocks/hours-form/render.php:123 src/blocks/hours-list/render.php:60
+msgid "Date"
+msgstr "날짜"
+
+#: build/blocks/hours-form/render.php:39 includes/famefe-notices.php:52 src/blocks/hours-form/render.php:39
+msgid "Only members can record volunteer hours."
+msgstr "회원만 봉사 시간을 기록할 수 있습니다."
+
+#: build/blocks/hours-form/render.php:34 build/blocks/hours-list/render.php:21 build/blocks/members-list/render.php:21 src/blocks/hours-form/render.php:34 src/blocks/hours-list/render.php:21 src/blocks/members-list/render.php:21
+msgid "Log in"
+msgstr "로그인"
+
+#: build/blocks/hours-form/render.php:32 src/blocks/hours-form/render.php:32
+msgid "Log in to record your volunteer hours."
+msgstr "봉사 시간을 기록하려면 로그인하세요."
+
+#: build/blocks/hours-form/render.php:22 includes/famefe-admin.php:431 src/blocks/hours-form/render.php:22 build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:82
+msgid "Add hours"
+msgstr "시간 추가"
+
+#. translators: %s: twice the base fee.
+#: build/blocks/fee-explanation/render.php:219 src/blocks/fee-explanation/render.php:219
+msgid "A member without any volunteer hours in the period always pays twice the base fee, %s: paying instead of working should never be the cheaper choice."
+msgstr "기간 중 봉사 시간이 없는 회원은 항상 기본 회비의 두 배인 %s을(를) 냅니다. 일하는 대신 돈을 내는 것이 더 저렴한 선택이 되어서는 안 됩니다."
+
+#: build/blocks/fee-explanation/render.php:209 src/blocks/fee-explanation/render.php:209
+msgid "The calculated fees do not exceed it, so there is no discount."
+msgstr "계산된 회비가 이 금액을 넘지 않으므로 할인이 없습니다."
+
+#. translators: 1: share of members in percent, 2: discount in percent, 3:
+#. number of members with the discount.
+#: build/blocks/fee-explanation/render.php:203 src/blocks/fee-explanation/render.php:203
+msgid "The %1$s %% of regular members with the lowest calculated fees pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never). The discount is not added to the fees of the others, so the club collects less than the expected total."
+msgstr "계산된 회비가 가장 낮은 정회원 %1$s %%는 %2$s %% 덜 냅니다(여기서는 %3$d명. 그중 마지막 회원과 같은 회비인 회원도 받으며, 시간이 없는 회원은 받지 못합니다). 할인액은 다른 회원의 회비에 더해지지 않으므로 클럽은 예상 총액보다 적게 걷습니다."
+
+#. translators: 1: share of members in percent, 2: calculated discount in
+#. percent, 3: number of members with the discount.
+#: build/blocks/fee-explanation/render.php:195 src/blocks/fee-explanation/render.php:195
+msgid "The %1$s %% of regular members with the lowest calculated fees therefore pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never)."
+msgstr "따라서 계산된 회비가 가장 낮은 정회원 %1$s %%는 %2$s %% 덜 냅니다(여기서는 %3$d명. 그중 마지막 회원과 같은 회비인 회원도 받으며, 시간이 없는 회원은 받지 못합니다)."
+
+#. translators: %s: total the regular members should pay.
+#: build/blocks/fee-explanation/render.php:188 src/blocks/fee-explanation/render.php:188
+msgid "The regular members should pay %s together."
+msgstr "정회원 전체가 함께 %s을(를) 내야 합니다."
+
+#: build/blocks/fee-explanation/render.php:182 src/blocks/fee-explanation/render.php:182
+msgid "4. Discount"
+msgstr "4. 할인"
+
+#: build/blocks/fee-explanation/render.php:141 build/blocks/membership-fees/render.php:45 src/blocks/fee-explanation/render.php:141 src/blocks/membership-fees/render.php:45
+msgid "Fee to pay"
+msgstr "낼 회비"
+
+#: build/blocks/fee-explanation/render.php:140 build/blocks/membership-fees/render.php:43 src/blocks/fee-explanation/render.php:140 src/blocks/membership-fees/render.php:43 build/blocks/fee-explanation/index.js:3 build/blocks/membership-fees/index.js:3 src/blocks/fee-explanation/index.js:64 src/blocks/membership-fees/index.js:83
+msgid "Discount"
+msgstr "할인"
+
+#: build/blocks/fee-explanation/render.php:138 build/blocks/membership-fees/render.php:42 src/blocks/fee-explanation/render.php:138 src/blocks/membership-fees/render.php:42
+msgid "Calculated fee"
+msgstr "계산된 회비"
+
+#: build/blocks/fee-explanation/render.php:137 build/blocks/membership-fees/render.php:39 src/blocks/fee-explanation/render.php:137 src/blocks/membership-fees/render.php:39 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:117
+msgid "Unreduced fee"
+msgstr "조정 전 회비"
+
+#: build/blocks/fee-explanation/render.php:136 build/blocks/membership-fees/render.php:36 src/blocks/fee-explanation/render.php:136 src/blocks/membership-fees/render.php:36 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:113
+msgid "Share of hours"
+msgstr "시간 비율"
+
+#. translators: 1: sum of the unreduced fees, 2: expected total, 3: amount
+#. taken off each fee.
+#: build/blocks/fee-explanation/render.php:123 src/blocks/fee-explanation/render.php:123
+msgid "The unreduced fees add up to %1$s, more than the expected total of %2$s. The difference is shared equally: each fee is lowered by %3$s, so all fees together give the expected total. No fee goes below zero; if one would, that member pays nothing and the rest is shared by the members who volunteered."
+msgstr "조정 전 회비의 합계는 %1$s로 예상 총액 %2$s보다 많습니다. 차액은 똑같이 나눕니다. 각 회비에서 %3$s씩 빼므로 모든 회비의 합이 예상 총액이 됩니다. 어떤 회비도 0 아래로 내려가지 않습니다. 그런 경우 해당 회원은 내지 않고, 나머지는 봉사한 회원들이 나누어 냅니다."
+
+#. translators: %s: hours of all regular members.
+#: build/blocks/fee-explanation/render.php:116 src/blocks/fee-explanation/render.php:116
+msgid "Each regular member’s share of the hours of all regular members (%s hours) lowers the unreduced fee: unreduced fee = expected total × (1 − share of hours)."
+msgstr "정회원 전체의 시간(%s시간) 중 각 정회원이 차지하는 비율이 조정 전 회비를 낮춥니다: 조정 전 회비 = 예상 총액 × (1 − 시간 비율)."
+
+#: build/blocks/fee-explanation/render.php:111 src/blocks/fee-explanation/render.php:111
+msgid "3. Fee of each member"
+msgstr "3. 회원별 회비"
+
+#. translators: 1: base fee, 2: number of regular members, 3: base fee again,
+#. 4: expected total.
+#: build/blocks/fee-explanation/render.php:102 src/blocks/fee-explanation/render.php:102
+msgid "The base fee is %1$s. Together, the %2$d regular members are expected to pay %3$s × %2$d = %4$s."
+msgstr "기본 회비는 %1$s입니다. 정회원 %2$d명이 함께 %3$s × %2$d = %4$s을(를) 낼 것으로 예상됩니다."
+
+#: build/blocks/fee-explanation/render.php:97 src/blocks/fee-explanation/render.php:97
+msgid "2. Expected total"
+msgstr "2. 예상 총액"
+
+#. translators: %d: number of honorary members.
+#: build/blocks/fee-explanation/render.php:92 src/blocks/fee-explanation/render.php:92
+msgid "%d honorary member"
+msgid_plural "%d honorary members"
+msgstr[0] "명예회원 %d명"
+
+#. translators: %d: number of regular members.
+#: build/blocks/fee-explanation/render.php:90 src/blocks/fee-explanation/render.php:90
+msgid "%d regular member"
+msgid_plural "%d regular members"
+msgstr[0] "정회원 %d명"
+
+#. translators: 1: "5 regular members", 2: "1 honorary member".
+#: build/blocks/fee-explanation/render.php:88 src/blocks/fee-explanation/render.php:88
+msgid "Members in the example: %1$s and %2$s. Honorary members do not pay a membership fee, and their hours do not count in the calculation."
+msgstr "예시의 회원: %1$s, %2$s. 명예회원은 회비를 내지 않으며 그들의 시간은 계산에 포함되지 않습니다."
+
+#: build/blocks/fee-explanation/render.php:78 build/blocks/fee-explanation/render.php:167 build/blocks/membership-fees/render.php:112 src/blocks/fee-explanation/render.php:78 src/blocks/fee-explanation/render.php:167 src/blocks/membership-fees/render.php:112
+msgid "Total"
+msgstr "합계"
+
+#: build/blocks/fee-explanation/render.php:64 build/blocks/fee-explanation/render.php:135 build/blocks/hours-form/render.php:58 build/blocks/hours-form/render.php:124 build/blocks/hours-list/render.php:64 build/blocks/membership-fees/render.php:33 includes/famefe-admin-tables.php:218 includes/famefe-admin.php:429 src/blocks/fee-explanation/render.php:64 src/blocks/fee-explanation/render.php:135 src/blocks/hours-form/render.php:58 src/blocks/hours-form/render.php:124 src/blocks/hours-list/render.php:64 src/blocks/membership-fees/render.php:33 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:112
+msgid "Hours"
+msgstr "시간"
+
+#: build/blocks/fee-explanation/render.php:63 build/blocks/members-list/render.php:41 build/blocks/membership-fees/render.php:30 includes/famefe-admin-tables.php:33 src/blocks/fee-explanation/render.php:63 src/blocks/members-list/render.php:41 src/blocks/membership-fees/render.php:30 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:67
+msgid "Type"
+msgstr "유형"
+
+#: build/blocks/fee-explanation/render.php:62 build/blocks/fee-explanation/render.php:134 build/blocks/hours-form/render.php:56 includes/famefe-admin-tables.php:303 includes/famefe-admin.php:420 includes/famefe-admin.php:441 includes/famefe-admin.php:475 includes/famefe-admin.php:499 includes/famefe-users.php:83 includes/famefe-users.php:139 src/blocks/fee-explanation/render.php:62 src/blocks/fee-explanation/render.php:134 src/blocks/hours-form/render.php:56
+msgid "Member"
+msgstr "회원"
+
+#: build/blocks/fee-explanation/render.php:57 src/blocks/fee-explanation/render.php:57
+msgid "1. Members and their hours"
+msgstr "1. 회원과 시간"
+
+#: build/blocks/fee-explanation/render.php:55 src/blocks/fee-explanation/render.php:55
+msgid "The membership fee depends on how much each member volunteered for the club, measured in the recorded hours. Members only need to record their hours; the fees are calculated from them. The following example shows how."
+msgstr "회비는 각 회원이 클럽을 위해 얼마나 봉사했는지(기록된 시간)에 따라 정해집니다. 회원은 시간만 기록하면 되고, 회비는 그로부터 계산됩니다. 다음 예시에서 방법을 보여 줍니다."
+
+#. translators: %d: number of the member in the example.
+#: build/blocks/fee-explanation/render.php:52 src/blocks/fee-explanation/render.php:52
+msgid "Member %d"
+msgstr "회원 %d"
+
+#. Author of the plugin
+#: fair-member-fees.php
+msgid "globus2008"
+msgstr "globus2008"
+
+#. Description of the plugin
+#: fair-member-fees.php
+msgid "Membership register with a change history, volunteer hours and a fair membership fee: members who volunteer more pay less. Optional discount and payment through Stripe. Built with blocks."
+msgstr "변경 이력이 있는 회원 명부, 봉사 시간, 공정한 회비: 봉사를 많이 하는 회원일수록 회비를 적게 냅니다. 선택 사항인 할인과 Stripe 결제. 블록으로 제작."
+
+#. Plugin Name of the plugin
+#: fair-member-fees.php includes/famefe-admin.php:21
+msgid "Fair Member Fees"
+msgstr "Fair Member Fees"

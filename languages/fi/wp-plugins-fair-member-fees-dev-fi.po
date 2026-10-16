@@ -1,0 +1,1458 @@
+# Translation of Plugins - Fair Member Fees - Development (trunk) in Finnish
+# This file is distributed under the same license as the Plugins - Fair Member Fees - Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Fair Member Fees - Development (trunk)\n"
+"PO-Revision-Date: 2026-10-16 12:00:00+0000\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "payment"
+msgstr "maksu"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block description"
+msgid "Fair membership fees for a period: members who volunteered more pay less. Once the hours of the period are closed, members can pay online; administrators and editors record cash and bank payments."
+msgstr "Reilut jäsenmaksut jaksolle: jäsenet, jotka tekevät enemmän talkootunteja, maksavat vähemmän. Kun jakson tunnit on suljettu, jäsenet voivat maksaa verkossa; ylläpitäjät ja päätoimittajat kirjaavat käteis- ja tilisiirtomaksut."
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block title"
+msgid "Membership fees"
+msgstr "Jäsenmaksut"
+
+#: build/blocks/members-list/block.json build/blocks/membership-fees/block.json src/blocks/members-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "membership"
+msgstr "jäsenyys"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block keyword"
+msgid "register"
+msgstr "rekisteri"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block keyword"
+msgid "members"
+msgstr "jäsenet"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block description"
+msgid "The membership register: members, their type, membership changes and who recorded them."
+msgstr "Jäsenrekisteri: jäsenet, heidän tyyppinsä, jäsenyyden muutokset ja kuka ne kirjasi."
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block title"
+msgid "Members list"
+msgstr "Jäsenluettelo"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr "luettelo"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block description"
+msgid "Recorded volunteer hours of a period."
+msgstr "Jakson kirjatut talkootunnit."
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block title"
+msgid "Volunteer hours list"
+msgstr "Talkootuntien luettelo"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "lomake"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block keyword"
+msgid "work"
+msgstr "työ"
+
+#: build/blocks/hours-form/block.json build/blocks/hours-list/block.json build/blocks/membership-fees/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "volunteer"
+msgstr "talkoot"
+
+#: build/blocks/hours-form/block.json build/blocks/hours-list/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json
+msgctxt "block keyword"
+msgid "hours"
+msgstr "tunnit"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block description"
+msgid "Logged-in members record the hours they volunteered."
+msgstr "Kirjautuneet jäsenet kirjaavat tekemänsä talkootunnit."
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block title"
+msgid "Volunteer hours form"
+msgstr "Talkootuntien lomake"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "help"
+msgstr "ohje"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "example"
+msgstr "esimerkki"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "calculation"
+msgstr "laskenta"
+
+#: build/blocks/fee-explanation/block.json build/blocks/hours-form/block.json build/blocks/hours-list/block.json build/blocks/members-list/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json src/blocks/members-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "fair member fees"
+msgstr "fair member fees"
+
+#: build/blocks/fee-explanation/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "fee"
+msgstr "maksu"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block description"
+msgid "Explains on an example how the fair membership fee is calculated."
+msgstr "Selittää esimerkin avulla, miten reilu jäsenmaksu lasketaan."
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block title"
+msgid "Fee calculation explained"
+msgstr "Jäsenmaksun laskenta selitettynä"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:155
+msgid "Highlight the logged-in member"
+msgstr "Korosta kirjautunutta jäsentä"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:147
+msgid "Period and base fee above the table"
+msgstr "Jakso ja perusmaksu taulukon yläpuolella"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:143
+msgid "List honorary members"
+msgstr "Näytä kunniajäsenet"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:121
+msgid "Calculated fee and discount (when the discount is on)"
+msgstr "Laskettu maksu ja alennus (kun alennus on käytössä)"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:94
+msgid "Members who volunteered the most pay even less. The discount is not added to the fees of the others."
+msgstr "Eniten talkootunteja tehneet jäsenet maksavat vielä vähemmän. Alennusta ei lisätä muiden maksuihin."
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:90
+msgid "Discount for the lowest fees"
+msgstr "Alennus pienimmille maksuille"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:72
+msgid "Turn on once the volunteer hours of the period are closed: members then see their final fee and can pay it. While it is off, the fees are shown as calculated from the hours recorded so far. Leave it off if you do not collect fees through this page."
+msgstr "Ota käyttöön, kun jakson talkootunnit on suljettu: jäsenet näkevät silloin lopullisen maksunsa ja voivat maksaa sen. Niin kauan kuin se ei ole käytössä, maksut näytetään tähän mennessä kirjattujen tuntien perusteella laskettuina. Jätä se pois käytöstä, jos et peri maksuja tämän sivun kautta."
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:68
+msgid "Payment button (the fees are final)"
+msgstr "Maksupainike (maksut ovat lopullisia)"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:59
+msgid "The fee of a regular member when nobody volunteers. All regular members together pay the base fee times their number."
+msgstr "Varsinaisen jäsenen maksu, kun kukaan ei tee talkootunteja. Kaikki varsinaiset jäsenet maksavat yhteensä perusmaksun kerrottuna jäsenten määrällä."
+
+#: build/blocks/membership-fees/index.js:2 src/blocks/membership-fees/index.js:46
+msgid "Members of this period pay; their hours of this period lower the fee. Payments are recorded for exactly this period."
+msgstr "Tämän jakson jäsenet maksavat; heidän tuntinsa tällä jaksolla pienentävät maksua. Maksut kirjataan juuri tälle jaksolle."
+
+#: build/blocks/membership-fees/index.js:2 src/blocks/membership-fees/index.js:42
+msgid "Period and fee"
+msgstr "Jakso ja maksu"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/members-list/index.js:54 src/blocks/membership-fees/index.js:101
+msgid "Columns"
+msgstr "Sarakkeet"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:46
+msgid "Only for logged-in visitors"
+msgstr "Vain kirjautuneille vierailijoille"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/members-list/index.js:42 src/blocks/membership-fees/index.js:151
+msgid "Totals rows at the end of the table"
+msgstr "Summarivit taulukon lopussa"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:30
+msgid "Honorary members"
+msgstr "Kunniajäsenet"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:26
+msgid "Regular members"
+msgstr "Varsinaiset jäsenet"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:360
+msgid "Totals rows text"
+msgstr "Summarivien teksti"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:356
+msgid "Totals rows background"
+msgstr "Summarivien tausta"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:353
+msgid "Header text"
+msgstr "Otsikkorivin teksti"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:351
+msgid "Header background"
+msgstr "Otsikkorivin tausta"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:346
+msgid "Table colours"
+msgstr "Taulukon värit"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:127
+msgid "They may delete any entry within this time. Older entries can still be deleted in Member Fees → Volunteer hours."
+msgstr "He voivat poistaa minkä tahansa merkinnän tämän ajan kuluessa. Vanhempia merkintöjä voi edelleen poistaa kohdassa Jäsenmaksut → Talkootunnit."
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:123
+msgid "Administrators and editors: days after recording"
+msgstr "Ylläpitäjät ja päätoimittajat: päiviä kirjaamisesta"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:106
+msgid "Members delete only hours they recorded themselves, e.g. after a mistake. 0 = only on the day of recording."
+msgstr "Jäsenet poistavat vain itse kirjaamiaan tunteja, esim. virheen jälkeen. 0 = vain kirjaamispäivänä."
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:102
+msgid "Members: days after recording"
+msgstr "Jäsenet: päiviä kirjaamisesta"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:91
+msgid "Allow deleting hours"
+msgstr "Salli tuntien poistaminen"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:84
+msgid "Deleting"
+msgstr "Poistaminen"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:79
+msgid "Total below"
+msgstr "Summa alla"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/hours-list/index.js:60 src/blocks/membership-fees/index.js:130
+msgid "Display"
+msgstr "Näyttö"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:52
+msgid "Only the hours of the logged-in visitor"
+msgstr "Vain kirjautuneen vierailijan tunnit"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:37
+msgid "Maximum entries"
+msgstr "Merkintöjen enimmäismäärä"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:29
+msgid "Leave empty for no limit."
+msgstr "Jätä tyhjäksi, jos rajaa ei ole."
+
+#: build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:94
+msgid "As in the plugin settings"
+msgstr "Kuten lisäosan asetuksissa"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:89
+msgid "Names"
+msgstr "Nimet"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:106
+msgid "Number of recent entries"
+msgstr "Viimeisimpien merkintöjen määrä"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:96
+msgid "Show my recent entries"
+msgstr "Näytä viimeisimmät merkintäni"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:92
+msgid "Description of the work is required"
+msgstr "Työn kuvaus on pakollinen"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:81
+msgid "Button text"
+msgstr "Painikkeen teksti"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:63
+msgid "How old the date of the work may be. 0 = only today."
+msgstr "Kuinka vanha työn päivämäärä saa olla. 0 = vain tänään."
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:62
+msgid "Days back"
+msgstr "Päiviä taaksepäin"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:49
+msgid "Off: hours are always recorded for today, so nobody can add hours to the past or change a closed period. Administrators and editors can always choose the date."
+msgstr "Pois: tunnit kirjataan aina tälle päivälle, joten kukaan ei voi lisätä tunteja menneisyyteen tai muuttaa suljettua jaksoa. Ylläpitäjät ja päätoimittajat voivat aina valita päivämäärän."
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:45
+msgid "Members may change the date"
+msgstr "Jäsenet voivat muuttaa päivämäärää"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:35
+msgid "Step of the hours"
+msgstr "Tuntien askel"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:23
+msgid "Maximum hours per entry"
+msgstr "Tuntien enimmäismäärä merkintää kohden"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:18
+msgid "Form"
+msgstr "Lomake"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:71
+msgid "Explain the discount"
+msgstr "Selitä alennus"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:53
+msgid "Hours of the honorary members"
+msgstr "Kunniajäsenten tunnit"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:41
+msgid "One number per member, separated by commas or spaces."
+msgstr "Yksi luku jäsentä kohden, pilkuilla tai välilyönneillä erotettuina."
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:37
+msgid "Hours of the regular members"
+msgstr "Varsinaisten jäsenten tunnit"
+
+#. translators: %s: currency code.
+#: build/blocks/fee-explanation/index.js:3 build/blocks/membership-fees/index.js:3 src/blocks/fee-explanation/index.js:28 src/blocks/membership-fees/index.js:56
+msgid "Base fee (%s)"
+msgstr "Perusmaksu (%s)"
+
+#: build/blocks/fee-explanation/index.js:2 src/blocks/fee-explanation/index.js:22
+msgid "Example"
+msgstr "Esimerkki"
+
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:300
+msgid "Discount (%)"
+msgstr "Alennus (%)"
+
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:282
+msgid "The discount is calculated so that the regular members pay this amount together. If their calculated fees do not exceed it, there is no discount."
+msgstr "Alennus lasketaan niin, että varsinaiset jäsenet maksavat yhteensä tämän summan. Jos heidän lasketut maksunsa eivät ylitä sitä, alennusta ei ole."
+
+#. translators: %s: currency code.
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:279
+msgid "Total to collect (%s)"
+msgstr "Kerättävä kokonaissumma (%s)"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:263
+msgid "Total to collect"
+msgstr "Kerättävä kokonaissumma"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:259
+msgid "Percentage"
+msgstr "Prosentti"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:254
+msgid "Discount given by"
+msgstr "Alennuksen määrittää"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:244
+msgid "Share of members with the lowest fees (%)"
+msgstr "Pienimmän maksun jäsenten osuus (%)"
+
+#. translators: %s: list of member names.
+#: includes/famefe-users.php:190
+msgid "These accounts belong to members: %s. The members, their history, hours and payments stay in the register; only the link to the account is removed. To end a membership, use Member Fees → Members."
+msgstr "Nämä tilit kuuluvat jäsenille: %s. Jäsenet, heidän historiansa, tuntinsa ja maksunsa säilyvät rekisterissä; vain linkki tiliin poistetaan. Lopeta jäsenyys kohdassa Jäsenmaksut → Jäsenet."
+
+#: includes/famefe-users.php:93
+msgid "The first name, last name and e-mail of this profile are also the details of the member."
+msgstr "Tämän profiilin etunimi, sukunimi ja sähköposti ovat myös jäsenen tiedot."
+
+#: includes/famefe-users.php:91
+msgid "Membership and history"
+msgstr "Jäsenyys ja historia"
+
+#: includes/famefe-users.php:87
+msgid "Add as member"
+msgstr "Lisää jäseneksi"
+
+#: includes/famefe-users.php:86
+msgid "Not a member."
+msgstr "Ei jäsen."
+
+#. translators: 1: first day of the period, 2: last day of the period.
+#: includes/famefe-stripe.php:122
+msgid "Membership fee %1$s – %2$s"
+msgstr "Jäsenmaksu %1$s – %2$s"
+
+#. translators: 1: amount, 2: currency symbol or code (Kč, €, USD).
+#: includes/famefe-settings.php:95
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: includes/famefe-notices.php:61
+msgid "The data could not be saved. Please try again."
+msgstr "Tietoja ei voitu tallentaa. Yritä uudelleen."
+
+#: includes/famefe-notices.php:60
+msgid "The payment has not been confirmed yet. If you paid, it will appear shortly."
+msgstr "Maksua ei ole vielä vahvistettu. Jos maksoit, se näkyy pian."
+
+#: includes/famefe-notices.php:59
+msgid "The payment service could not be reached. Please try again later."
+msgstr "Maksupalveluun ei saatu yhteyttä. Yritä myöhemmin uudelleen."
+
+#: includes/famefe-notices.php:58
+msgid "Online payment is not set up."
+msgstr "Verkkomaksua ei ole määritetty."
+
+#: includes/famefe-notices.php:57
+msgid "The block of this form was not found on the page. Please reload the page."
+msgstr "Tämän lomakkeen lohkoa ei löytynyt sivulta. Lataa sivu uudelleen."
+
+#: includes/famefe-notices.php:56
+msgid "There is nothing to pay."
+msgstr "Ei mitään maksettavaa."
+
+#: includes/famefe-notices.php:55
+msgid "The membership fee for this period has already been paid."
+msgstr "Tämän jakson jäsenmaksu on jo maksettu."
+
+#: includes/famefe-notices.php:54
+msgid "Choose a valid payment method."
+msgstr "Valitse kelvollinen maksutapa."
+
+#: includes/famefe-notices.php:53
+msgid "Enter a valid amount."
+msgstr "Anna kelvollinen summa."
+
+#: includes/famefe-notices.php:51
+msgid "Describe the work, please."
+msgstr "Kuvaile työ, kiitos."
+
+#: includes/famefe-notices.php:50
+msgid "Hours cannot be recorded for this date any more."
+msgstr "Tälle päivämäärälle ei voi enää kirjata tunteja."
+
+#: includes/famefe-notices.php:49
+msgid "These hours can no longer be deleted here; the time limit has passed."
+msgstr "Näitä tunteja ei voi enää poistaa täällä; määräaika on umpeutunut."
+
+#: includes/famefe-notices.php:48
+msgid "Enter a valid number of hours."
+msgstr "Anna kelvollinen tuntimäärä."
+
+#: includes/famefe-notices.php:47
+msgid "The member has hours or payments and cannot be deleted. End the membership instead."
+msgstr "Jäsenellä on tunteja tai maksuja, eikä häntä voi poistaa. Lopeta sen sijaan jäsenyys."
+
+#: includes/famefe-notices.php:45
+msgid "This e-mail address is already used by another user account."
+msgstr "Tämä sähköpostiosoite on jo toisen käyttäjätilin käytössä."
+
+#: includes/famefe-notices.php:44
+msgid "Enter a valid e-mail address."
+msgstr "Anna kelvollinen sähköpostiosoite."
+
+#: includes/famefe-notices.php:43
+msgid "This change is not possible for the member (check the status and the date)."
+msgstr "Tämä muutos ei ole mahdollinen jäsenelle (tarkista tila ja päivämäärä)."
+
+#: includes/famefe-notices.php:42
+msgid "\"Member since\" cannot be after the end of the membership."
+msgstr "”Jäsen alkaen” ei voi olla jäsenyyden päättymisen jälkeen."
+
+#: includes/famefe-notices.php:41
+msgid "Choose a valid membership type."
+msgstr "Valitse kelvollinen jäsentyyppi."
+
+#: includes/famefe-notices.php:40
+msgid "Enter a valid date."
+msgstr "Anna kelvollinen päivämäärä."
+
+#: includes/famefe-notices.php:39
+msgid "Enter the first or the last name."
+msgstr "Anna etunimi tai sukunimi."
+
+#: includes/famefe-notices.php:38
+msgid "The record was not found."
+msgstr "Tietuetta ei löytynyt."
+
+#: includes/famefe-notices.php:37
+msgid "The form has expired. Please reload the page and try again."
+msgstr "Lomake on vanhentunut. Lataa sivu uudelleen ja yritä uudestaan."
+
+#: includes/famefe-notices.php:36
+msgid "Please log in first."
+msgstr "Kirjaudu ensin sisään."
+
+#: includes/famefe-notices.php:35
+msgid "You are not allowed to do this."
+msgstr "Sinulla ei ole oikeutta tehdä tätä."
+
+#: includes/famefe-notices.php:33
+msgid "The settings were saved."
+msgstr "Asetukset tallennettiin."
+
+#: includes/famefe-notices.php:32
+msgid "The payment was cancelled. You can try again at any time."
+msgstr "Maksu peruttiin. Voit yrittää uudelleen milloin tahansa."
+
+#: includes/famefe-notices.php:31
+msgid "Thank you, your membership fee was paid."
+msgstr "Kiitos, jäsenmaksusi on maksettu."
+
+#: includes/famefe-notices.php:30
+msgid "The payment was deleted."
+msgstr "Maksu poistettiin."
+
+#: includes/famefe-notices.php:29
+msgid "The payment was recorded."
+msgstr "Maksu kirjattiin."
+
+#: includes/famefe-notices.php:28
+msgid "The hours were deleted."
+msgstr "Tunnit poistettiin."
+
+#: includes/famefe-notices.php:27
+msgid "The hours were saved."
+msgstr "Tunnit tallennettiin."
+
+#: includes/famefe-notices.php:26
+msgid "Thank you, your hours were recorded."
+msgstr "Kiitos, tuntisi on kirjattu."
+
+#: includes/famefe-notices.php:25
+msgid "The member was deleted."
+msgstr "Jäsen poistettiin."
+
+#: includes/famefe-notices.php:24
+msgid "The change of the membership was recorded."
+msgstr "Jäsenyyden muutos kirjattiin."
+
+#: includes/famefe-notices.php:23
+msgid "The member was saved."
+msgstr "Jäsen tallennettiin."
+
+#: includes/famefe-notices.php:22
+msgid "The member and the user account were created. The member got an e-mail with a link for setting the password."
+msgstr "Jäsen ja käyttäjätili luotiin. Jäsen sai sähköpostin, jossa on linkki salasanan asettamiseen."
+
+#: includes/famefe-notices.php:21
+msgid "The member and the user account were created."
+msgstr "Jäsen ja käyttäjätili luotiin."
+
+#: includes/famefe-notices.php:20
+msgid "The member was added."
+msgstr "Jäsen lisättiin."
+
+#: includes/famefe-data.php:241
+msgid "Deleted user"
+msgstr "Poistettu käyttäjä"
+
+#: includes/famefe-data.php:191
+msgid "Unknown name"
+msgstr "Tuntematon nimi"
+
+#: includes/famefe-data.php:51
+msgid "Bank transfer"
+msgstr "Tilisiirto"
+
+#: includes/famefe-data.php:50
+msgid "Cash"
+msgstr "Käteinen"
+
+#: includes/famefe-data.php:49
+msgid "Card (Stripe)"
+msgstr "Kortti (Stripe)"
+
+#: includes/famefe-data.php:39
+msgid "\"Member since\" corrected"
+msgstr "”Jäsen alkaen” korjattu"
+
+#: includes/famefe-data.php:38
+msgid "Rejoined"
+msgstr "Liittyi uudelleen"
+
+#: includes/famefe-data.php:37
+msgid "Membership ended"
+msgstr "Jäsenyys päättyi"
+
+#: includes/famefe-data.php:36
+msgid "Membership type changed"
+msgstr "Jäsentyyppi muutettu"
+
+#: includes/famefe-data.php:35
+msgid "Joined"
+msgstr "Liittyi"
+
+#: includes/famefe-data.php:25
+msgid "Honorary"
+msgstr "Kunniajäsen"
+
+#: includes/famefe-data.php:24
+msgid "Regular"
+msgstr "Varsinainen"
+
+#: includes/famefe-admin.php:673
+msgid "All regular members of the period together pay the base fee times their number (the expected total). Each member’s share of the volunteer hours of all regular members lowers the fee; what is collected above the expected total is taken off everybody equally, and no fee goes below zero. A member without any hours in the period always pays twice the base fee. Honorary members pay nothing. With the optional discount, the given share of members with the lowest fees pays the given percentage less, or as much less as needed for the given total to collect; nothing is moved to the others."
+msgstr "Kaikki jakson varsinaiset jäsenet maksavat yhteensä perusmaksun kerrottuna jäsenten määrällä (odotettu kokonaissumma). Kunkin jäsenen osuus kaikkien varsinaisten jäsenten talkootunneista pienentää hänen maksuaan; odotetun kokonaissumman ylittävä osa vähennetään kaikilta tasan, eikä mikään maksu laske alle nollan. Jäsen, jolla ei ole jaksolla tunteja, maksaa aina kaksinkertaisen perusmaksun. Kunniajäsenet eivät maksa mitään. Valinnaisella alennuksella pienimmän maksun jäsenten annettu osuus maksaa annetun prosentin verran vähemmän tai niin paljon vähemmän kuin annettu kerättävä kokonaissumma edellyttää; mitään ei siirretä muille."
+
+#: includes/famefe-admin.php:672
+msgid "How the fee is calculated"
+msgstr "Miten maksu lasketaan"
+
+#: includes/famefe-admin.php:663
+msgid "Blocks"
+msgstr "Lohkot"
+
+#: includes/famefe-admin.php:659
+msgid "Add the blocks to your pages: search for \"Fair Member Fees\" in the block inserter."
+msgstr "Lisää lohkot sivuillesi: hae lohkojen lisäämisessä ”Fair Member Fees”."
+
+#: includes/famefe-admin.php:658
+msgid "Set the currency, and Stripe if you want online payments (Settings)."
+msgstr "Määritä valuutta ja, jos haluat verkkomaksut, Stripe (Asetukset)."
+
+#: includes/famefe-admin.php:657
+msgid "Add your members (Members → Add member) and link them to their user accounts."
+msgstr "Lisää jäsenesi (Jäsenet → Lisää jäsen) ja yhdistä heidät käyttäjätileihinsä."
+
+#: includes/famefe-admin.php:655
+msgid "Getting started"
+msgstr "Aloitus"
+
+#: includes/famefe-admin.php:653
+msgid "Fair Member Fees help"
+msgstr "Fair Member Fees -ohje"
+
+#: includes/famefe-admin.php:649
+msgid "Explains the calculation on an example with your numbers."
+msgstr "Selittää laskennan esimerkillä, jossa on sinun lukusi."
+
+#: includes/famefe-admin.php:649
+msgid "Fee calculation explained"
+msgstr "Jäsenmaksun laskenta selitettynä"
+
+#: includes/famefe-admin.php:648
+msgid "The membership register with the date of the last change and who recorded it; visible to logged-in users by default."
+msgstr "Jäsenrekisteri, jossa on viimeisimmän muutoksen päivämäärä ja sen kirjaaja; oletuksena kirjautuneiden käyttäjien nähtävissä."
+
+#: includes/famefe-admin.php:648
+msgid "Members list"
+msgstr "Jäsenluettelo"
+
+#: includes/famefe-admin.php:647
+msgid "Recorded hours for a period, all or only the visitor’s own."
+msgstr "Jakson kirjatut tunnit, kaikki tai vain vierailijan omat."
+
+#: includes/famefe-admin.php:647
+msgid "Volunteer hours list"
+msgstr "Talkootuntien luettelo"
+
+#: includes/famefe-admin.php:646
+msgid "Members record their own hours. Set the maximum hours per entry, how many days back a date may be, and whether a description is required."
+msgstr "Jäsenet kirjaavat omat tuntinsa. Määritä tuntien enimmäismäärä merkintää kohden, kuinka monta päivää taaksepäin päivämäärä saa olla ja onko kuvaus pakollinen."
+
+#: includes/famefe-admin.php:646
+msgid "Volunteer hours form"
+msgstr "Talkootuntien lomake"
+
+#: includes/famefe-admin.php:645
+msgid "The table of fees for a period. Set the period, the base fee and the optional discount in the block settings. Until the volunteer hours of the period are closed, it shows the fees calculated so far; then turn on its payment button and members can pay their final fee. Administrators and editors can record cash and bank payments right there. Clubs that only keep records of hours leave the button off."
+msgstr "Jakson maksutaulukko. Määritä jakso, perusmaksu ja valinnainen alennus lohkon asetuksissa. Kunnes jakson talkootunnit on suljettu, se näyttää tähän mennessä lasketut maksut; ota sitten sen maksupainike käyttöön, niin jäsenet voivat maksaa lopullisen maksunsa. Ylläpitäjät ja päätoimittajat voivat kirjata käteis- ja tilisiirtomaksut suoraan siinä. Seurat, jotka vain kirjaavat tunteja, jättävät painikkeen pois käytöstä."
+
+#: includes/famefe-admin.php:645
+msgid "Membership fees"
+msgstr "Jäsenmaksut"
+
+#: includes/famefe-admin.php:635 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:123
+msgid "Shortened for data protection: first 4 and last 4 characters (Janaková)"
+msgstr "Lyhennetty tietosuojan vuoksi: 4 ensimmäistä ja 4 viimeistä merkkiä (Annaanen)"
+
+#: includes/famefe-admin.php:634 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:116
+msgid "Display name of the user account"
+msgstr "Käyttäjätilin näyttönimi"
+
+#: includes/famefe-admin.php:633 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:112
+msgid "Initials (J. S.)"
+msgstr "Nimikirjaimet (A. V.)"
+
+#: includes/famefe-admin.php:632 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:105
+msgid "First name and initial (Jane S.)"
+msgstr "Etunimi ja nimikirjain (Anna V.)"
+
+#: includes/famefe-admin.php:631 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:101
+msgid "Full name (Jane Smith)"
+msgstr "Koko nimi (Anna Virtanen)"
+
+#: includes/famefe-admin.php:616
+msgid "Delete all members, hours, payments and settings when the plugin is deleted."
+msgstr "Poista kaikki jäsenet, tunnit, maksut ja asetukset, kun lisäosa poistetaan."
+
+#: includes/famefe-admin.php:615
+msgid "Delete data"
+msgstr "Poista tiedot"
+
+#: includes/famefe-admin.php:612
+msgid "Uninstall"
+msgstr "Poisto"
+
+#: includes/famefe-admin.php:607
+msgid "Default for all blocks; each block can override it."
+msgstr "Oletus kaikille lohkoille; kukin lohko voi muuttaa sitä."
+
+#: includes/famefe-admin.php:600
+msgid "Names in blocks"
+msgstr "Nimet lohkoissa"
+
+#: includes/famefe-admin.php:597
+msgid "Logged-in users who are not members may record their hours too (they count only in the totals)."
+msgstr "Kirjautuneet käyttäjät, jotka eivät ole jäseniä, voivat myös kirjata tuntinsa (ne lasketaan vain summiin)."
+
+#: includes/famefe-admin.php:596
+msgid "Hours of non-members"
+msgstr "Muiden kuin jäsenten tunnit"
+
+#: includes/famefe-admin.php:593
+msgid "Volunteer hours and names"
+msgstr "Talkootunnit ja nimet"
+
+#: includes/famefe-admin.php:588
+msgid "Add this address in Stripe (Developers → Webhooks) with the events checkout.session.completed and checkout.session.async_payment_succeeded, then copy its signing secret here. Payments are recorded even when a member closes the browser before returning to your site."
+msgstr "Lisää tämä osoite Stripeen (Developers → Webhooks) tapahtumilla checkout.session.completed ja checkout.session.async_payment_succeeded ja kopioi sitten sen allekirjoitussalaisuus tähän. Maksut kirjataan, vaikka jäsen sulkisi selaimen ennen paluuta sivustollesi."
+
+#: includes/famefe-admin.php:585
+msgid "Webhook endpoint"
+msgstr "Webhookin päätepiste"
+
+#: includes/famefe-admin.php:575
+msgid "Live webhook signing secret"
+msgstr "Tuotannon webhookin allekirjoitussalaisuus"
+
+#: includes/famefe-admin.php:574
+msgid "Live secret key"
+msgstr "Tuotannon salainen avain"
+
+#: includes/famefe-admin.php:573
+msgid "Test webhook signing secret"
+msgstr "Testin webhookin allekirjoitussalaisuus"
+
+#: includes/famefe-admin.php:572
+msgid "Test secret key"
+msgstr "Testin salainen avain"
+
+#: includes/famefe-admin.php:567
+msgid "Live"
+msgstr "Tuotanto"
+
+#: includes/famefe-admin.php:566
+msgid "Test (no real money)"
+msgstr "Testi (ei oikeaa rahaa)"
+
+#: includes/famefe-admin.php:564
+msgid "Mode"
+msgstr "Tila"
+
+#: includes/famefe-admin.php:561
+msgid "Members pay on the Stripe payment page. Fill in the secret key of the mode you use; without it the Membership fees block shows no payment button."
+msgstr "Jäsenet maksavat Stripen maksusivulla. Täytä käyttämäsi tilan salainen avain; ilman sitä Jäsenmaksut-lohko ei näytä maksupainiketta."
+
+#: includes/famefe-admin.php:560
+msgid "Stripe"
+msgstr "Stripe"
+
+#: includes/famefe-admin.php:555
+msgid "Fees are rounded to this number of decimals. Leave empty to use the usual number of the currency (CZK 0, EUR and USD 2)."
+msgstr "Maksut pyöristetään tähän desimaalien määrään. Jätä tyhjäksi, jos haluat käyttää valuutan tavallista määrää (CZK 0, EUR ja USD 2)."
+
+#: includes/famefe-admin.php:552
+msgid "Decimal places"
+msgstr "Desimaalit"
+
+#: includes/famefe-admin.php:548
+msgid "Three-letter ISO code, e.g. CZK, EUR, USD."
+msgstr "Kolmikirjaiminen ISO-koodi, esim. CZK, EUR, USD."
+
+#: includes/famefe-admin.php:545
+msgid "Currency"
+msgstr "Valuutta"
+
+#: includes/famefe-admin.php:542
+msgid "Money"
+msgstr "Raha"
+
+#: includes/famefe-admin.php:539
+msgid "The season (period), the base fee and the discount are set in the Membership fees block on your page."
+msgstr "Kausi (jakso), perusmaksu ja alennus määritetään sivusi Jäsenmaksut-lohkossa."
+
+#: includes/famefe-admin.php:537
+msgid "Fair Member Fees settings"
+msgstr "Fair Member Fees -asetukset"
+
+#. translators: %s: currency code.
+#: includes/famefe-admin.php:483
+msgid "Amount (%s)"
+msgstr "Summa (%s)"
+
+#: includes/famefe-admin.php:479
+msgid "to"
+msgstr "–"
+
+#: includes/famefe-admin.php:478
+msgid "Period from"
+msgstr "Jakso alkaen"
+
+#: includes/famefe-admin.php:474
+msgid "Cash and bank payments. The period must be the same as in the Membership fees block, otherwise the block does not show the member as paid. Card payments are recorded automatically."
+msgstr "Käteis- ja tilisiirtomaksut. Jakson on oltava sama kuin Jäsenmaksut-lohkossa, muuten lohko ei näytä jäsentä maksaneeksi. Korttimaksut kirjataan automaattisesti."
+
+#: includes/famefe-admin.php:473
+msgid "Record a payment"
+msgstr "Kirjaa maksu"
+
+#. translators: %s: number of hours.
+#: includes/famefe-admin.php:451
+msgid "Total: %s hours"
+msgstr "Yhteensä: %s tuntia"
+
+#: includes/famefe-admin.php:447 includes/famefe-admin.php:505
+msgid "Filter"
+msgstr "Suodata"
+
+#: includes/famefe-admin.php:433
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: includes/famefe-admin.php:431
+msgid "Save"
+msgstr "Tallenna"
+
+#: includes/famefe-admin.php:419
+msgid "Record hours for a member"
+msgstr "Kirjaa tunnit jäsenelle"
+
+#: includes/famefe-admin.php:419
+msgid "Edit hours"
+msgstr "Muokkaa tunteja"
+
+#: includes/famefe-admin.php:380 includes/famefe-admin.php:440 build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:159
+msgid "To"
+msgstr "Päättyen"
+
+#: includes/famefe-admin.php:379 includes/famefe-admin.php:439 build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:149
+msgid "From"
+msgstr "Alkaen"
+
+#: includes/famefe-admin.php:373
+msgid "History"
+msgstr "Historia"
+
+#: includes/famefe-admin.php:370
+msgid "Active"
+msgstr "Aktiivinen"
+
+#: includes/famefe-admin.php:357
+msgid "Record the change"
+msgstr "Kirjaa muutos"
+
+#: includes/famefe-admin.php:355
+msgid "Valid from"
+msgstr "Voimassa alkaen"
+
+#: includes/famefe-admin.php:353
+msgid "Rejoin"
+msgstr "Liitä uudelleen"
+
+#: includes/famefe-admin.php:348
+msgid "End the membership"
+msgstr "Päätä jäsenyys"
+
+#. translators: %s: membership type (Regular, Honorary).
+#: includes/famefe-admin.php:343
+msgid "Change type to: %s"
+msgstr "Muuta tyypiksi: %s"
+
+#: includes/famefe-admin.php:336 includes/famefe-admin.php:378
+msgid "Change"
+msgstr "Muuta"
+
+#: includes/famefe-admin.php:330 includes/famefe-users.php:80
+msgid "Membership"
+msgstr "Jäsenyys"
+
+#. translators: %s: date.
+#: includes/famefe-admin.php:327 includes/famefe-users.php:110
+msgid "Membership ended on %s"
+msgstr "Jäsenyys päättyi %s"
+
+#. translators: 1: membership type, 2: date.
+#: includes/famefe-admin.php:325 includes/famefe-users.php:113
+msgid "%1$s member since %2$s"
+msgstr "%1$s jäsen alkaen %2$s"
+
+#: includes/famefe-admin.php:311
+msgid "Delete member entered by mistake"
+msgstr "Poista vahingossa lisätty jäsen"
+
+#: includes/famefe-admin.php:311
+msgid "Delete this member? Use this only for a member entered by mistake."
+msgstr "Poistetaanko tämä jäsen? Käytä tätä vain vahingossa lisätylle jäsenelle."
+
+#: includes/famefe-admin.php:297
+msgid "Save details"
+msgstr "Tallenna tiedot"
+
+#: includes/famefe-admin.php:288
+msgid "Only to correct a mistake; the correction is recorded in the history. Membership changes go below."
+msgstr "Vain virheen korjaamiseen; korjaus kirjataan historiaan. Jäsenyyden muutokset ovat alempana."
+
+#: includes/famefe-admin.php:279
+msgid "Regular members pay the membership fee, honorary members do not."
+msgstr "Varsinaiset jäsenet maksavat jäsenmaksun, kunniajäsenet eivät."
+
+#: includes/famefe-admin.php:272 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:108
+msgid "Membership type"
+msgstr "Jäsentyyppi"
+
+#: includes/famefe-admin.php:266
+msgid "For an existing account, the name and e-mail of the account are used; these fields only fill in what the account lacks."
+msgstr "Olemassa olevalle tilille käytetään tilin nimeä ja sähköpostia; nämä kentät täydentävät vain sen, mitä tililtä puuttuu."
+
+#: includes/famefe-admin.php:264
+msgid "Changes of the name and e-mail are saved to the user account too."
+msgstr "Nimen ja sähköpostin muutokset tallennetaan myös käyttäjätiliin."
+
+#: includes/famefe-admin.php:262
+msgid "The name and e-mail come from the user account, which you are not allowed to edit."
+msgstr "Nimi ja sähköposti tulevat käyttäjätililtä, jota sinulla ei ole oikeutta muokata."
+
+#: includes/famefe-admin.php:254
+msgid "Last name"
+msgstr "Sukunimi"
+
+#: includes/famefe-admin.php:250
+msgid "First name"
+msgstr "Etunimi"
+
+#: includes/famefe-admin.php:245
+msgid "Members with an account can record their hours and pay online."
+msgstr "Jäsenet, joilla on tili, voivat kirjata tuntinsa ja maksaa verkossa."
+
+#: includes/famefe-admin.php:243
+msgid "Open the profile"
+msgstr "Avaa profiili"
+
+#: includes/famefe-admin.php:238
+msgid "Members with an account can record their hours and pay online. The name and e-mail of a linked member are those of the account."
+msgstr "Jäsenet, joilla on tili, voivat kirjata tuntinsa ja maksaa verkossa. Yhdistetyn jäsenen nimi ja sähköposti ovat tilin tiedot."
+
+#: includes/famefe-admin.php:236
+msgid "Without a user account"
+msgstr "Ilman käyttäjätiliä"
+
+#: includes/famefe-admin.php:233
+msgid "The account gets the default role of the site; the e-mail address is required."
+msgstr "Tili saa sivuston oletusroolin; sähköpostiosoite on pakollinen."
+
+#: includes/famefe-admin.php:232
+msgid "Send the member an e-mail with a link for setting the password"
+msgstr "Lähetä jäsenelle sähköposti, jossa on linkki salasanan asettamiseen"
+
+#: includes/famefe-admin.php:230
+msgid "Create a new user account"
+msgstr "Luo uusi käyttäjätili"
+
+#: includes/famefe-admin.php:227
+msgid "Existing user account"
+msgstr "Olemassa oleva käyttäjätili"
+
+#: includes/famefe-admin.php:217
+msgid "— No account —"
+msgstr "— Ei tiliä —"
+
+#: includes/famefe-admin.php:205
+msgid "Details"
+msgstr "Tiedot"
+
+#: includes/famefe-admin.php:202
+msgid "No account found."
+msgstr "Tiliä ei löytynyt."
+
+#. translators: %d: number of user accounts found.
+#: includes/famefe-admin.php:201
+msgid "Found: %d"
+msgstr "Löytyi: %d"
+
+#: includes/famefe-admin.php:199 includes/famefe-notices.php:46
+msgid "This user account already belongs to another member."
+msgstr "Tämä käyttäjätili kuuluu jo toiselle jäsenelle."
+
+#: includes/famefe-admin.php:194
+msgid "Back to the members"
+msgstr "Takaisin jäseniin"
+
+#: includes/famefe-admin.php:176
+msgid "Search members"
+msgstr "Hae jäseniä"
+
+#: includes/famefe-admin.php:165 includes/famefe-admin.php:193 includes/famefe-admin.php:297
+msgid "Add member"
+msgstr "Lisää jäsen"
+
+#: includes/famefe-admin.php:143
+msgid "Search user accounts"
+msgstr "Hae käyttäjätilejä"
+
+#: includes/famefe-admin.php:142
+msgid "Search accounts by name or login…"
+msgstr "Hae tilejä nimellä tai käyttäjätunnuksella…"
+
+#. translators: 1: name of the person, 2: date and time.
+#: includes/famefe-admin.php:132
+msgid "%1$s on %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: %s: date and time.
+#: includes/famefe-admin.php:129
+msgid "automatically on %s"
+msgstr "automaattisesti %s"
+
+#: includes/famefe-admin.php:33
+msgid "Help"
+msgstr "Ohje"
+
+#: includes/famefe-admin.php:32
+msgid "Settings"
+msgstr "Asetukset"
+
+#: includes/famefe-admin.php:31 includes/famefe-admin.php:470
+msgid "Payments"
+msgstr "Maksut"
+
+#: includes/famefe-admin.php:30 includes/famefe-admin.php:415
+msgid "Volunteer hours"
+msgstr "Talkootunnit"
+
+#: includes/famefe-admin.php:22
+msgid "Member Fees"
+msgstr "Jäsenmaksut"
+
+#: includes/famefe-admin-tables.php:334
+msgid "Delete this payment? The member will be shown as unpaid."
+msgstr "Poistetaanko tämä maksu? Jäsen näytetään maksamattomana."
+
+#: includes/famefe-admin-tables.php:324
+msgid "No payments recorded."
+msgstr "Ei kirjattuja maksuja."
+
+#: includes/famefe-admin-tables.php:307 includes/famefe-admin.php:293 includes/famefe-admin.php:356 includes/famefe-admin.php:381 includes/famefe-admin.php:494
+msgid "Note"
+msgstr "Huomautus"
+
+#: includes/famefe-admin-tables.php:305
+msgid "Amount"
+msgstr "Summa"
+
+#: includes/famefe-admin-tables.php:304 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:25
+msgid "Period"
+msgstr "Jakso"
+
+#. translators: %s: name of a user who is not a member.
+#: includes/famefe-admin-tables.php:266
+msgid "%s (not a member)"
+msgstr "%s (ei jäsen)"
+
+#: includes/famefe-admin-tables.php:251
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: includes/famefe-admin-tables.php:154
+msgid "Edit and history"
+msgstr "Muokkaa ja historia"
+
+#: includes/famefe-admin-tables.php:152
+msgid "(no name)"
+msgstr "(ei nimeä)"
+
+#: includes/famefe-admin-tables.php:128 includes/famefe-admin.php:443 includes/famefe-admin.php:501
+msgid "All"
+msgstr "Kaikki"
+
+#: includes/famefe-admin-tables.php:127 includes/famefe-admin.php:109 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:34
+msgid "Former members"
+msgstr "Entiset jäsenet"
+
+#: includes/famefe-admin-tables.php:126 includes/famefe-admin.php:29 includes/famefe-admin.php:109 includes/famefe-admin.php:164 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:21
+msgid "Members"
+msgstr "Jäsenet"
+
+#: includes/famefe-admin-tables.php:39 includes/famefe-admin.php:258
+msgid "Email"
+msgstr "Sähköposti"
+
+#: includes/famefe-admin-tables.php:38 includes/famefe-admin.php:223
+msgid "User account"
+msgstr "Käyttäjätili"
+
+#: build/blocks/membership-fees/render.php:306 src/blocks/membership-fees/render.php:306
+msgid "Only administrators and editors see this form. The amount is the calculated fee of the member."
+msgstr "Vain ylläpitäjät ja päätoimittajat näkevät tämän lomakkeen. Summa on jäsenen laskettu maksu."
+
+#: build/blocks/membership-fees/render.php:305 includes/famefe-admin.php:495 src/blocks/membership-fees/render.php:305
+msgid "Record payment"
+msgstr "Kirjaa maksu"
+
+#: build/blocks/membership-fees/render.php:295 includes/famefe-admin-tables.php:306 includes/famefe-admin.php:487 src/blocks/membership-fees/render.php:295
+msgid "Method"
+msgstr "Tapa"
+
+#: build/blocks/membership-fees/render.php:287 src/blocks/membership-fees/render.php:287
+msgid "Member and fee"
+msgstr "Jäsen ja maksu"
+
+#: build/blocks/membership-fees/render.php:283 src/blocks/membership-fees/render.php:283
+msgid "Record a cash or bank payment (administrators and editors)"
+msgstr "Kirjaa käteis- tai tilisiirtomaksu (ylläpitäjät ja päätoimittajat)"
+
+#: build/blocks/membership-fees/render.php:267 src/blocks/membership-fees/render.php:267
+msgid "(Visible only to administrators and editors.)"
+msgstr "(Näkyy vain ylläpitäjille ja päätoimittajille.)"
+
+#: build/blocks/membership-fees/render.php:261 src/blocks/membership-fees/render.php:261
+msgid "The payment button is shown only to logged-in regular members who have a fee to pay."
+msgstr "Maksupainike näytetään vain kirjautuneille varsinaisille jäsenille, joilla on maksettavaa."
+
+#: build/blocks/membership-fees/render.php:259 src/blocks/membership-fees/render.php:259
+msgid "The fees are final, but members cannot pay online: Stripe is not set up yet (Member Fees → Settings → Stripe secret key)."
+msgstr "Maksut ovat lopullisia, mutta jäsenet eivät voi maksaa verkossa: Stripeä ei ole vielä määritetty (Jäsenmaksut → Asetukset → Stripen salainen avain)."
+
+#: build/blocks/membership-fees/render.php:257 src/blocks/membership-fees/render.php:257
+msgid "The payment button is off: the fees are shown as calculated so far. Turn it on in the block settings (\"Payment button\") once the volunteer hours of the period are closed and the fees are final. Leave it off if you do not collect fees through this page."
+msgstr "Maksupainike ei ole käytössä: maksut näytetään tähän mennessä laskettuina. Ota se käyttöön lohkon asetuksissa (”Maksupainike”), kun jakson talkootunnit on suljettu ja maksut ovat lopullisia. Jätä se pois käytöstä, jos et peri maksuja tämän sivun kautta."
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:244 src/blocks/membership-fees/render.php:244
+msgid "Pay %s online"
+msgstr "Maksa %s verkossa"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:233 src/blocks/membership-fees/render.php:233
+msgid "Your membership fee: %s"
+msgstr "Jäsenmaksusi: %s"
+
+#: build/blocks/membership-fees/render.php:227 src/blocks/membership-fees/render.php:227
+msgid "You do not need to pay a membership fee for this period. Thank you for your work!"
+msgstr "Sinun ei tarvitse maksaa jäsenmaksua tältä jaksolta. Kiitos työstäsi!"
+
+#: build/blocks/membership-fees/render.php:221 src/blocks/membership-fees/render.php:221
+msgid "The fee will be final once the volunteer hours of this period are closed."
+msgstr "Maksu on lopullinen, kun tämän jakson talkootunnit on suljettu."
+
+#: build/blocks/membership-fees/render.php:219 src/blocks/membership-fees/render.php:219
+msgid "The fee will be final once the volunteer hours of this period are closed; then you can pay it here."
+msgstr "Maksu on lopullinen, kun tämän jakson talkootunnit on suljettu; silloin voit maksaa sen täällä."
+
+#: build/blocks/membership-fees/render.php:214 src/blocks/membership-fees/render.php:214
+msgid "Thank you for your work!"
+msgstr "Kiitos työstäsi!"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:209 src/blocks/membership-fees/render.php:209
+msgid "With the volunteer hours recorded so far, your membership fee is %s."
+msgstr "Tähän mennessä kirjattujen talkootuntien perusteella jäsenmaksusi on %s."
+
+#. translators: 1: amount, 2: date.
+#: build/blocks/membership-fees/render.php:198 src/blocks/membership-fees/render.php:198
+msgid "You paid %1$s on %2$s. Thank you!"
+msgstr "Maksoit %1$s %2$s. Kiitos!"
+
+#: build/blocks/membership-fees/render.php:144 src/blocks/membership-fees/render.php:144
+msgid "There are no members in this period."
+msgstr "Tällä jaksolla ei ole jäseniä."
+
+#. translators: 1: period (from – to), 2: base fee with currency.
+#: build/blocks/membership-fees/render.php:135 src/blocks/membership-fees/render.php:135
+msgid "Membership fees for %1$s. Base fee: %2$s."
+msgstr "Jäsenmaksut jaksolle %1$s. Perusmaksu: %2$s."
+
+#. translators: 1: first day of the period, 2: last day of the period.
+#: build/blocks/membership-fees/render.php:122 src/blocks/membership-fees/render.php:122
+msgid "%1$s – %2$s"
+msgstr "%1$s – %2$s"
+
+#: build/blocks/membership-fees/render.php:106 src/blocks/membership-fees/render.php:106
+msgid "Non-members and former members"
+msgstr "Muut kuin jäsenet ja entiset jäsenet"
+
+#. translators: 1: number of members who paid, 2: number of regular members.
+#: build/blocks/membership-fees/render.php:94 src/blocks/membership-fees/render.php:94
+msgid "%1$d of %2$d"
+msgstr "%1$d / %2$d"
+
+#: build/blocks/membership-fees/render.php:47 build/blocks/membership-fees/render.php:302 includes/famefe-admin-tables.php:302 includes/famefe-admin.php:493 src/blocks/membership-fees/render.php:47 src/blocks/membership-fees/render.php:302 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:125
+msgid "Paid on"
+msgstr "Maksettu"
+
+#: build/blocks/members-list/render.php:99 includes/famefe-admin-tables.php:160 includes/famefe-admin.php:370 includes/famefe-users.php:159 src/blocks/members-list/render.php:99
+msgid "Former member"
+msgstr "Entinen jäsen"
+
+#: build/blocks/members-list/render.php:83 src/blocks/members-list/render.php:83 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:38
+msgid "Search by name"
+msgstr "Hae nimellä"
+
+#: build/blocks/members-list/render.php:82 src/blocks/members-list/render.php:82
+msgid "Search by name…"
+msgstr "Hae nimellä…"
+
+#: build/blocks/members-list/render.php:77 includes/famefe-admin-tables.php:146 src/blocks/members-list/render.php:77
+msgid "No members found."
+msgstr "Jäseniä ei löytynyt."
+
+#. translators: %d: number of current members.
+#: build/blocks/members-list/render.php:72 src/blocks/members-list/render.php:72
+msgid "Current members (%d)"
+msgstr "Nykyiset jäsenet (%d)"
+
+#. translators: %d: number of former members.
+#: build/blocks/members-list/render.php:69 src/blocks/members-list/render.php:69
+msgid "Former members (%d)"
+msgstr "Entiset jäsenet (%d)"
+
+#. translators: %d: number of honorary members.
+#: build/blocks/members-list/render.php:66 build/blocks/membership-fees/render.php:99 src/blocks/members-list/render.php:66 src/blocks/membership-fees/render.php:99
+msgid "Honorary members (%d)"
+msgstr "Kunniajäsenet (%d)"
+
+#. translators: %d: number of regular members.
+#: build/blocks/members-list/render.php:64 build/blocks/membership-fees/render.php:86 src/blocks/members-list/render.php:64 src/blocks/membership-fees/render.php:86
+msgid "Regular members (%d)"
+msgstr "Varsinaiset jäsenet (%d)"
+
+#: build/blocks/members-list/render.php:45 includes/famefe-admin-tables.php:37 includes/famefe-admin-tables.php:220 includes/famefe-admin-tables.php:308 includes/famefe-admin.php:382 src/blocks/members-list/render.php:45 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:80
+msgid "Recorded by"
+msgstr "Kirjaaja"
+
+#: build/blocks/members-list/render.php:44 includes/famefe-admin-tables.php:36 includes/famefe-admin.php:377 src/blocks/members-list/render.php:44 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:76
+msgid "Change date"
+msgstr "Muutoksen päivämäärä"
+
+#: build/blocks/members-list/render.php:43 includes/famefe-admin-tables.php:35 src/blocks/members-list/render.php:43 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:72
+msgid "Last change"
+msgstr "Viimeisin muutos"
+
+#: build/blocks/members-list/render.php:42 includes/famefe-admin-tables.php:34 includes/famefe-admin.php:284 src/blocks/members-list/render.php:42 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:68
+msgid "Member since"
+msgstr "Jäsen alkaen"
+
+#: build/blocks/members-list/render.php:19 src/blocks/members-list/render.php:19
+msgid "The list of members is available to logged-in users."
+msgstr "Jäsenluettelo on kirjautuneiden käyttäjien käytettävissä."
+
+#. translators: 1: number of hours, 2: number of entries.
+#: build/blocks/hours-list/render.php:112 src/blocks/hours-list/render.php:112
+msgid "Total: %1$s hours in %2$d entry"
+msgid_plural "Total: %1$s hours in %2$d entries"
+msgstr[0] "Yhteensä: %1$s tuntia %2$d merkinnässä"
+msgstr[1] "Yhteensä: %1$s tuntia %2$d merkinnässä"
+
+#: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:256 includes/famefe-admin-tables.php:335 src/blocks/hours-list/render.php:94
+msgid "Delete"
+msgstr "Poista"
+
+#: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:255 src/blocks/hours-list/render.php:94
+msgid "Delete these hours?"
+msgstr "Poistetaanko nämä tunnit?"
+
+#: build/blocks/hours-list/render.php:72 src/blocks/hours-list/render.php:72
+msgid "Actions"
+msgstr "Toiminnot"
+
+#: build/blocks/hours-list/render.php:69 build/blocks/members-list/render.php:46 src/blocks/hours-list/render.php:69 src/blocks/members-list/render.php:46 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 src/blocks/hours-list/index.js:75 src/blocks/members-list/index.js:84
+msgid "Recorded on"
+msgstr "Kirjattu"
+
+#: build/blocks/hours-list/render.php:62 build/blocks/members-list/render.php:39 build/blocks/membership-fees/render.php:28 includes/famefe-admin-tables.php:32 includes/famefe-admin-tables.php:217 src/blocks/hours-list/render.php:62 src/blocks/members-list/render.php:39 src/blocks/membership-fees/render.php:28 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:73
+msgid "Name"
+msgstr "Nimi"
+
+#: build/blocks/hours-list/render.php:50 includes/famefe-admin-tables.php:243 src/blocks/hours-list/render.php:50
+msgid "No hours recorded."
+msgstr "Ei kirjattuja tunteja."
+
+#: build/blocks/hours-list/render.php:19 src/blocks/hours-list/render.php:19
+msgid "Log in to see your volunteer hours."
+msgstr "Kirjaudu sisään nähdäksesi talkootuntisi."
+
+#: build/blocks/hours-form/render.php:118 src/blocks/hours-form/render.php:118
+msgid "My recent entries"
+msgstr "Viimeisimmät merkintäni"
+
+#: build/blocks/hours-form/render.php:59 build/blocks/hours-form/render.php:125 build/blocks/hours-list/render.php:66 includes/famefe-admin-tables.php:219 includes/famefe-admin.php:430 src/blocks/hours-form/render.php:59 src/blocks/hours-form/render.php:125 src/blocks/hours-list/render.php:66 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:74
+msgid "Work done"
+msgstr "Tehty työ"
+
+#: build/blocks/hours-form/render.php:57 build/blocks/hours-form/render.php:123 build/blocks/hours-list/render.php:60 includes/famefe-admin-tables.php:216 includes/famefe-admin.php:428 src/blocks/hours-form/render.php:57 src/blocks/hours-form/render.php:123 src/blocks/hours-list/render.php:60
+msgid "Date"
+msgstr "Päivämäärä"
+
+#: build/blocks/hours-form/render.php:39 includes/famefe-notices.php:52 src/blocks/hours-form/render.php:39
+msgid "Only members can record volunteer hours."
+msgstr "Vain jäsenet voivat kirjata talkootunteja."
+
+#: build/blocks/hours-form/render.php:34 build/blocks/hours-list/render.php:21 build/blocks/members-list/render.php:21 src/blocks/hours-form/render.php:34 src/blocks/hours-list/render.php:21 src/blocks/members-list/render.php:21
+msgid "Log in"
+msgstr "Kirjaudu sisään"
+
+#: build/blocks/hours-form/render.php:32 src/blocks/hours-form/render.php:32
+msgid "Log in to record your volunteer hours."
+msgstr "Kirjaudu sisään kirjataksesi talkootuntisi."
+
+#: build/blocks/hours-form/render.php:22 includes/famefe-admin.php:431 src/blocks/hours-form/render.php:22 build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:82
+msgid "Add hours"
+msgstr "Lisää tunnit"
+
+#. translators: %s: twice the base fee.
+#: build/blocks/fee-explanation/render.php:219 src/blocks/fee-explanation/render.php:219
+msgid "A member without any volunteer hours in the period always pays twice the base fee, %s: paying instead of working should never be the cheaper choice."
+msgstr "Jäsen, jolla ei ole jaksolla talkootunteja, maksaa aina kaksinkertaisen perusmaksun, %s: maksaminen työn sijaan ei saa koskaan olla edullisempi vaihtoehto."
+
+#: build/blocks/fee-explanation/render.php:209 src/blocks/fee-explanation/render.php:209
+msgid "The calculated fees do not exceed it, so there is no discount."
+msgstr "Lasketut maksut eivät ylitä sitä, joten alennusta ei ole."
+
+#. translators: 1: share of members in percent, 2: discount in percent, 3:
+#. number of members with the discount.
+#: build/blocks/fee-explanation/render.php:203 src/blocks/fee-explanation/render.php:203
+msgid "The %1$s %% of regular members with the lowest calculated fees pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never). The discount is not added to the fees of the others, so the club collects less than the expected total."
+msgstr "Varsinaisista jäsenistä %1$s %%, joilla on pienimmät lasketut maksut, maksaa %2$s %% vähemmän (tässä %3$d jäsentä; myös jäsenet, joilla on sama maksu kuin heistä viimeisellä, saavat sen, jäsenet ilman tunteja eivät koskaan). Alennusta ei lisätä muiden maksuihin, joten seura kerää vähemmän kuin odotetun kokonaissumman."
+
+#. translators: 1: share of members in percent, 2: calculated discount in
+#. percent, 3: number of members with the discount.
+#: build/blocks/fee-explanation/render.php:195 src/blocks/fee-explanation/render.php:195
+msgid "The %1$s %% of regular members with the lowest calculated fees therefore pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never)."
+msgstr "Varsinaisista jäsenistä %1$s %%, joilla on pienimmät lasketut maksut, maksaa siksi %2$s %% vähemmän (tässä %3$d jäsentä; myös jäsenet, joilla on sama maksu kuin heistä viimeisellä, saavat sen, jäsenet ilman tunteja eivät koskaan)."
+
+#. translators: %s: total the regular members should pay.
+#: build/blocks/fee-explanation/render.php:188 src/blocks/fee-explanation/render.php:188
+msgid "The regular members should pay %s together."
+msgstr "Varsinaisten jäsenten pitäisi maksaa yhteensä %s."
+
+#: build/blocks/fee-explanation/render.php:182 src/blocks/fee-explanation/render.php:182
+msgid "4. Discount"
+msgstr "4. Alennus"
+
+#: build/blocks/fee-explanation/render.php:141 build/blocks/membership-fees/render.php:45 src/blocks/fee-explanation/render.php:141 src/blocks/membership-fees/render.php:45
+msgid "Fee to pay"
+msgstr "Maksettava"
+
+#: build/blocks/fee-explanation/render.php:140 build/blocks/membership-fees/render.php:43 src/blocks/fee-explanation/render.php:140 src/blocks/membership-fees/render.php:43 build/blocks/fee-explanation/index.js:3 build/blocks/membership-fees/index.js:3 src/blocks/fee-explanation/index.js:64 src/blocks/membership-fees/index.js:83
+msgid "Discount"
+msgstr "Alennus"
+
+#: build/blocks/fee-explanation/render.php:138 build/blocks/membership-fees/render.php:42 src/blocks/fee-explanation/render.php:138 src/blocks/membership-fees/render.php:42
+msgid "Calculated fee"
+msgstr "Laskettu maksu"
+
+#: build/blocks/fee-explanation/render.php:137 build/blocks/membership-fees/render.php:39 src/blocks/fee-explanation/render.php:137 src/blocks/membership-fees/render.php:39 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:117
+msgid "Unreduced fee"
+msgstr "Alentamaton maksu"
+
+#: build/blocks/fee-explanation/render.php:136 build/blocks/membership-fees/render.php:36 src/blocks/fee-explanation/render.php:136 src/blocks/membership-fees/render.php:36 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:113
+msgid "Share of hours"
+msgstr "Tuntien osuus"
+
+#. translators: 1: sum of the unreduced fees, 2: expected total, 3: amount
+#. taken off each fee.
+#: build/blocks/fee-explanation/render.php:123 src/blocks/fee-explanation/render.php:123
+msgid "The unreduced fees add up to %1$s, more than the expected total of %2$s. The difference is shared equally: each fee is lowered by %3$s, so all fees together give the expected total. No fee goes below zero; if one would, that member pays nothing and the rest is shared by the members who volunteered."
+msgstr "Alentamattomat maksut ovat yhteensä %1$s, enemmän kuin odotettu kokonaissumma %2$s. Erotus jaetaan tasan: kutakin maksua pienennetään summalla %3$s, joten kaikki maksut yhteensä vastaavat odotettua kokonaissummaa. Mikään maksu ei laske alle nollan; jos niin kävisi, kyseinen jäsen ei maksa mitään ja loput jaetaan talkootunteja tehneiden jäsenten kesken."
+
+#. translators: %s: hours of all regular members.
+#: build/blocks/fee-explanation/render.php:116 src/blocks/fee-explanation/render.php:116
+msgid "Each regular member’s share of the hours of all regular members (%s hours) lowers the unreduced fee: unreduced fee = expected total × (1 − share of hours)."
+msgstr "Kunkin varsinaisen jäsenen osuus kaikkien varsinaisten jäsenten tunneista (%s tuntia) pienentää alentamatonta maksua: alentamaton maksu = odotettu kokonaissumma × (1 − tuntien osuus)."
+
+#: build/blocks/fee-explanation/render.php:111 src/blocks/fee-explanation/render.php:111
+msgid "3. Fee of each member"
+msgstr "3. Kunkin jäsenen maksu"
+
+#. translators: 1: base fee, 2: number of regular members, 3: base fee again,
+#. 4: expected total.
+#: build/blocks/fee-explanation/render.php:102 src/blocks/fee-explanation/render.php:102
+msgid "The base fee is %1$s. Together, the %2$d regular members are expected to pay %3$s × %2$d = %4$s."
+msgstr "Perusmaksu on %1$s. Yhteensä %2$d varsinaisen jäsenen odotetaan maksavan %3$s × %2$d = %4$s."
+
+#: build/blocks/fee-explanation/render.php:97 src/blocks/fee-explanation/render.php:97
+msgid "2. Expected total"
+msgstr "2. Odotettu kokonaissumma"
+
+#. translators: %d: number of honorary members.
+#: build/blocks/fee-explanation/render.php:92 src/blocks/fee-explanation/render.php:92
+msgid "%d honorary member"
+msgid_plural "%d honorary members"
+msgstr[0] "%d kunniajäsen"
+msgstr[1] "%d kunniajäsentä"
+
+#. translators: %d: number of regular members.
+#: build/blocks/fee-explanation/render.php:90 src/blocks/fee-explanation/render.php:90
+msgid "%d regular member"
+msgid_plural "%d regular members"
+msgstr[0] "%d varsinainen jäsen"
+msgstr[1] "%d varsinaista jäsentä"
+
+#. translators: 1: "5 regular members", 2: "1 honorary member".
+#: build/blocks/fee-explanation/render.php:88 src/blocks/fee-explanation/render.php:88
+msgid "Members in the example: %1$s and %2$s. Honorary members do not pay a membership fee, and their hours do not count in the calculation."
+msgstr "Esimerkin jäsenet: %1$s ja %2$s. Kunniajäsenet eivät maksa jäsenmaksua, eikä heidän tuntejaan lasketa mukaan laskentaan."
+
+#: build/blocks/fee-explanation/render.php:78 build/blocks/fee-explanation/render.php:167 build/blocks/membership-fees/render.php:112 src/blocks/fee-explanation/render.php:78 src/blocks/fee-explanation/render.php:167 src/blocks/membership-fees/render.php:112
+msgid "Total"
+msgstr "Yhteensä"
+
+#: build/blocks/fee-explanation/render.php:64 build/blocks/fee-explanation/render.php:135 build/blocks/hours-form/render.php:58 build/blocks/hours-form/render.php:124 build/blocks/hours-list/render.php:64 build/blocks/membership-fees/render.php:33 includes/famefe-admin-tables.php:218 includes/famefe-admin.php:429 src/blocks/fee-explanation/render.php:64 src/blocks/fee-explanation/render.php:135 src/blocks/hours-form/render.php:58 src/blocks/hours-form/render.php:124 src/blocks/hours-list/render.php:64 src/blocks/membership-fees/render.php:33 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:112
+msgid "Hours"
+msgstr "Tunnit"
+
+#: build/blocks/fee-explanation/render.php:63 build/blocks/members-list/render.php:41 build/blocks/membership-fees/render.php:30 includes/famefe-admin-tables.php:33 src/blocks/fee-explanation/render.php:63 src/blocks/members-list/render.php:41 src/blocks/membership-fees/render.php:30 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:67
+msgid "Type"
+msgstr "Tyyppi"
+
+#: build/blocks/fee-explanation/render.php:62 build/blocks/fee-explanation/render.php:134 build/blocks/hours-form/render.php:56 includes/famefe-admin-tables.php:303 includes/famefe-admin.php:420 includes/famefe-admin.php:441 includes/famefe-admin.php:475 includes/famefe-admin.php:499 includes/famefe-users.php:83 includes/famefe-users.php:139 src/blocks/fee-explanation/render.php:62 src/blocks/fee-explanation/render.php:134 src/blocks/hours-form/render.php:56
+msgid "Member"
+msgstr "Jäsen"
+
+#: build/blocks/fee-explanation/render.php:57 src/blocks/fee-explanation/render.php:57
+msgid "1. Members and their hours"
+msgstr "1. Jäsenet ja heidän tuntinsa"
+
+#: build/blocks/fee-explanation/render.php:55 src/blocks/fee-explanation/render.php:55
+msgid "The membership fee depends on how much each member volunteered for the club, measured in the recorded hours. Members only need to record their hours; the fees are calculated from them. The following example shows how."
+msgstr "Jäsenmaksu riippuu siitä, kuinka paljon kukin jäsen on tehnyt talkootyötä seuralle, kirjattuina tunteina mitattuna. Jäsenten tarvitsee vain kirjata tuntinsa; maksut lasketaan niiden perusteella. Seuraava esimerkki näyttää miten."
+
+#. translators: %d: number of the member in the example.
+#: build/blocks/fee-explanation/render.php:52 src/blocks/fee-explanation/render.php:52
+msgid "Member %d"
+msgstr "Jäsen %d"
+
+#. Author of the plugin
+#: fair-member-fees.php
+msgid "globus2008"
+msgstr "globus2008"
+
+#. Description of the plugin
+#: fair-member-fees.php
+msgid "Membership register with a change history, volunteer hours and a fair membership fee: members who volunteer more pay less. Optional discount and payment through Stripe. Built with blocks."
+msgstr "Jäsenrekisteri muutoshistorioineen, talkootunnit ja reilu jäsenmaksu: jäsenet, jotka tekevät enemmän talkootyötä, maksavat vähemmän. Valinnainen alennus ja maksu Stripen kautta. Rakennettu lohkoilla."
+
+#. Plugin Name of the plugin
+#: fair-member-fees.php includes/famefe-admin.php:21
+msgid "Fair Member Fees"
+msgstr "Fair Member Fees"

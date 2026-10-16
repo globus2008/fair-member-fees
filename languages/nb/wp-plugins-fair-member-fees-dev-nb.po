@@ -1,0 +1,1458 @@
+# Translation of Plugins - Fair Member Fees - Development (trunk) in Norwegian (Bokmål)
+# This file is distributed under the same license as the Plugins - Fair Member Fees - Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Fair Member Fees - Development (trunk)\n"
+"PO-Revision-Date: 2026-10-16 12:00:00+0000\n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "payment"
+msgstr "betaling"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block description"
+msgid "Fair membership fees for a period: members who volunteered more pay less. Once the hours of the period are closed, members can pay online; administrators and editors record cash and bank payments."
+msgstr "Rettferdige kontingenter for en periode: medlemmer som tar flere dugnadstimer, betaler mindre. Når periodens timer er lukket, kan medlemmene betale på nett; administratorer og redaktører registrerer kontantbetalinger og bankoverføringer."
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block title"
+msgid "Membership fees"
+msgstr "Kontingenter"
+
+#: build/blocks/members-list/block.json build/blocks/membership-fees/block.json src/blocks/members-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "membership"
+msgstr "medlemskap"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block keyword"
+msgid "register"
+msgstr "register"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block keyword"
+msgid "members"
+msgstr "medlemmer"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block description"
+msgid "The membership register: members, their type, membership changes and who recorded them."
+msgstr "Medlemsregisteret: medlemmene, deres type, endringer i medlemskapet og hvem som registrerte dem."
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block title"
+msgid "Members list"
+msgstr "Medlemsliste"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr "liste"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block description"
+msgid "Recorded volunteer hours of a period."
+msgstr "Registrerte dugnadstimer i en periode."
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block title"
+msgid "Volunteer hours list"
+msgstr "Liste over dugnadstimer"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "skjema"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block keyword"
+msgid "work"
+msgstr "arbeid"
+
+#: build/blocks/hours-form/block.json build/blocks/hours-list/block.json build/blocks/membership-fees/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "volunteer"
+msgstr "dugnad"
+
+#: build/blocks/hours-form/block.json build/blocks/hours-list/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json
+msgctxt "block keyword"
+msgid "hours"
+msgstr "timer"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block description"
+msgid "Logged-in members record the hours they volunteered."
+msgstr "Innloggede medlemmer registrerer dugnadstimene de har tatt."
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block title"
+msgid "Volunteer hours form"
+msgstr "Skjema for dugnadstimer"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "help"
+msgstr "hjelp"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "example"
+msgstr "eksempel"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "calculation"
+msgstr "beregning"
+
+#: build/blocks/fee-explanation/block.json build/blocks/hours-form/block.json build/blocks/hours-list/block.json build/blocks/members-list/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json src/blocks/members-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "fair member fees"
+msgstr "fair member fees"
+
+#: build/blocks/fee-explanation/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "fee"
+msgstr "kontingent"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block description"
+msgid "Explains on an example how the fair membership fee is calculated."
+msgstr "Forklarer med et eksempel hvordan det rettferdige kontingentet beregnes."
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block title"
+msgid "Fee calculation explained"
+msgstr "Kontingentberegning forklart"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:155
+msgid "Highlight the logged-in member"
+msgstr "Uthev det innloggede medlemmet"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:147
+msgid "Period and base fee above the table"
+msgstr "Periode og grunnkontingent over tabellen"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:143
+msgid "List honorary members"
+msgstr "Vis æresmedlemmer"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:121
+msgid "Calculated fee and discount (when the discount is on)"
+msgstr "Beregnet kontingent og rabatt (når rabatten er slått på)"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:94
+msgid "Members who volunteered the most pay even less. The discount is not added to the fees of the others."
+msgstr "Medlemmer som har tatt flest dugnadstimer, betaler enda mindre. Rabatten legges ikke på de andres kontingenter."
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:90
+msgid "Discount for the lowest fees"
+msgstr "Rabatt for de laveste kontingentene"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:72
+msgid "Turn on once the volunteer hours of the period are closed: members then see their final fee and can pay it. While it is off, the fees are shown as calculated from the hours recorded so far. Leave it off if you do not collect fees through this page."
+msgstr "Slå den på når periodens dugnadstimer er lukket: medlemmene ser da sitt endelige kontingent og kan betale det. Så lenge den er av, vises kontingentene slik de er beregnet ut fra timene som er registrert så langt. La den være av hvis du ikke krever inn kontingenter via denne siden."
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:68
+msgid "Payment button (the fees are final)"
+msgstr "Betalingsknapp (kontingentene er endelige)"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:59
+msgid "The fee of a regular member when nobody volunteers. All regular members together pay the base fee times their number."
+msgstr "Kontingentet for et ordinært medlem når ingen tar dugnadstimer. Alle ordinære medlemmer betaler til sammen grunnkontingentet ganger antallet deres."
+
+#: build/blocks/membership-fees/index.js:2 src/blocks/membership-fees/index.js:46
+msgid "Members of this period pay; their hours of this period lower the fee. Payments are recorded for exactly this period."
+msgstr "Medlemmer i denne perioden betaler; timene deres i denne perioden senker kontingentet. Betalinger registreres for nøyaktig denne perioden."
+
+#: build/blocks/membership-fees/index.js:2 src/blocks/membership-fees/index.js:42
+msgid "Period and fee"
+msgstr "Periode og kontingent"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/members-list/index.js:54 src/blocks/membership-fees/index.js:101
+msgid "Columns"
+msgstr "Kolonner"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:46
+msgid "Only for logged-in visitors"
+msgstr "Bare for innloggede besøkende"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/members-list/index.js:42 src/blocks/membership-fees/index.js:151
+msgid "Totals rows at the end of the table"
+msgstr "Summeringsrader nederst i tabellen"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:30
+msgid "Honorary members"
+msgstr "Æresmedlemmer"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:26
+msgid "Regular members"
+msgstr "Ordinære medlemmer"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:360
+msgid "Totals rows text"
+msgstr "Tekst i summeringsrader"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:356
+msgid "Totals rows background"
+msgstr "Bakgrunn for summeringsrader"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:353
+msgid "Header text"
+msgstr "Tekst i overskrift"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:351
+msgid "Header background"
+msgstr "Bakgrunn for overskrift"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:346
+msgid "Table colours"
+msgstr "Tabellfarger"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:127
+msgid "They may delete any entry within this time. Older entries can still be deleted in Member Fees → Volunteer hours."
+msgstr "De kan slette hvilken som helst registrering innenfor denne tiden. Eldre registreringer kan fortsatt slettes under Kontingenter → Dugnadstimer."
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:123
+msgid "Administrators and editors: days after recording"
+msgstr "Administratorer og redaktører: dager etter registrering"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:106
+msgid "Members delete only hours they recorded themselves, e.g. after a mistake. 0 = only on the day of recording."
+msgstr "Medlemmer sletter bare timer de selv har registrert, f.eks. etter en feil. 0 = bare på registreringsdagen."
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:102
+msgid "Members: days after recording"
+msgstr "Medlemmer: dager etter registrering"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:91
+msgid "Allow deleting hours"
+msgstr "Tillat sletting av timer"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:84
+msgid "Deleting"
+msgstr "Sletting"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:79
+msgid "Total below"
+msgstr "Sum under"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/hours-list/index.js:60 src/blocks/membership-fees/index.js:130
+msgid "Display"
+msgstr "Visning"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:52
+msgid "Only the hours of the logged-in visitor"
+msgstr "Bare timene til den innloggede besøkende"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:37
+msgid "Maximum entries"
+msgstr "Maksimalt antall registreringer"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:29
+msgid "Leave empty for no limit."
+msgstr "La feltet stå tomt for ingen grense."
+
+#: build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:94
+msgid "As in the plugin settings"
+msgstr "Som i innstillingene for utvidelsen"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:89
+msgid "Names"
+msgstr "Navn"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:106
+msgid "Number of recent entries"
+msgstr "Antall siste registreringer"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:96
+msgid "Show my recent entries"
+msgstr "Vis mine siste registreringer"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:92
+msgid "Description of the work is required"
+msgstr "Beskrivelse av arbeidet er påkrevd"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:81
+msgid "Button text"
+msgstr "Knappetekst"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:63
+msgid "How old the date of the work may be. 0 = only today."
+msgstr "Hvor gammel datoen for arbeidet kan være. 0 = bare i dag."
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:62
+msgid "Days back"
+msgstr "Dager tilbake"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:49
+msgid "Off: hours are always recorded for today, so nobody can add hours to the past or change a closed period. Administrators and editors can always choose the date."
+msgstr "Av: timer registreres alltid for i dag, slik at ingen kan legge til timer bakover i tid eller endre en lukket periode. Administratorer og redaktører kan alltid velge dato."
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:45
+msgid "Members may change the date"
+msgstr "Medlemmer kan endre datoen"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:35
+msgid "Step of the hours"
+msgstr "Steg for timer"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:23
+msgid "Maximum hours per entry"
+msgstr "Maksimalt antall timer per registrering"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:18
+msgid "Form"
+msgstr "Skjema"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:71
+msgid "Explain the discount"
+msgstr "Forklar rabatten"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:53
+msgid "Hours of the honorary members"
+msgstr "Æresmedlemmenes timer"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:41
+msgid "One number per member, separated by commas or spaces."
+msgstr "Ett tall per medlem, skilt med komma eller mellomrom."
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:37
+msgid "Hours of the regular members"
+msgstr "De ordinære medlemmenes timer"
+
+#. translators: %s: currency code.
+#: build/blocks/fee-explanation/index.js:3 build/blocks/membership-fees/index.js:3 src/blocks/fee-explanation/index.js:28 src/blocks/membership-fees/index.js:56
+msgid "Base fee (%s)"
+msgstr "Grunnkontingent (%s)"
+
+#: build/blocks/fee-explanation/index.js:2 src/blocks/fee-explanation/index.js:22
+msgid "Example"
+msgstr "Eksempel"
+
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:300
+msgid "Discount (%)"
+msgstr "Rabatt (%)"
+
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:282
+msgid "The discount is calculated so that the regular members pay this amount together. If their calculated fees do not exceed it, there is no discount."
+msgstr "Rabatten beregnes slik at de ordinære medlemmene til sammen betaler dette beløpet. Hvis de beregnede kontingentene deres ikke overstiger det, blir det ingen rabatt."
+
+#. translators: %s: currency code.
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:279
+msgid "Total to collect (%s)"
+msgstr "Totalsum som skal kreves inn (%s)"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:263
+msgid "Total to collect"
+msgstr "Totalsum som skal kreves inn"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:259
+msgid "Percentage"
+msgstr "Prosentsats"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:254
+msgid "Discount given by"
+msgstr "Rabatt angitt som"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:244
+msgid "Share of members with the lowest fees (%)"
+msgstr "Andel medlemmer med de laveste kontingentene (%)"
+
+#. translators: %s: list of member names.
+#: includes/famefe-users.php:190
+msgid "These accounts belong to members: %s. The members, their history, hours and payments stay in the register; only the link to the account is removed. To end a membership, use Member Fees → Members."
+msgstr "Disse kontoene tilhører medlemmer: %s. Medlemmene, historikken deres, timer og betalinger blir værende i registeret; bare koblingen til kontoen fjernes. Bruk Kontingenter → Medlemmer for å avslutte et medlemskap."
+
+#: includes/famefe-users.php:93
+msgid "The first name, last name and e-mail of this profile are also the details of the member."
+msgstr "Fornavn, etternavn og e-post i denne profilen er også medlemmets opplysninger."
+
+#: includes/famefe-users.php:91
+msgid "Membership and history"
+msgstr "Medlemskap og historikk"
+
+#: includes/famefe-users.php:87
+msgid "Add as member"
+msgstr "Legg til som medlem"
+
+#: includes/famefe-users.php:86
+msgid "Not a member."
+msgstr "Ikke medlem."
+
+#. translators: 1: first day of the period, 2: last day of the period.
+#: includes/famefe-stripe.php:122
+msgid "Membership fee %1$s – %2$s"
+msgstr "Kontingent %1$s – %2$s"
+
+#. translators: 1: amount, 2: currency symbol or code (Kč, €, USD).
+#: includes/famefe-settings.php:95
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: includes/famefe-notices.php:61
+msgid "The data could not be saved. Please try again."
+msgstr "Dataene kunne ikke lagres. Prøv igjen."
+
+#: includes/famefe-notices.php:60
+msgid "The payment has not been confirmed yet. If you paid, it will appear shortly."
+msgstr "Betalingen er ennå ikke bekreftet. Hvis du har betalt, vises den snart."
+
+#: includes/famefe-notices.php:59
+msgid "The payment service could not be reached. Please try again later."
+msgstr "Betalingstjenesten kunne ikke nås. Prøv igjen senere."
+
+#: includes/famefe-notices.php:58
+msgid "Online payment is not set up."
+msgstr "Nettbetaling er ikke satt opp."
+
+#: includes/famefe-notices.php:57
+msgid "The block of this form was not found on the page. Please reload the page."
+msgstr "Blokken til dette skjemaet ble ikke funnet på siden. Last inn siden på nytt."
+
+#: includes/famefe-notices.php:56
+msgid "There is nothing to pay."
+msgstr "Det er ingenting å betale."
+
+#: includes/famefe-notices.php:55
+msgid "The membership fee for this period has already been paid."
+msgstr "Kontingentet for denne perioden er allerede betalt."
+
+#: includes/famefe-notices.php:54
+msgid "Choose a valid payment method."
+msgstr "Velg en gyldig betalingsmåte."
+
+#: includes/famefe-notices.php:53
+msgid "Enter a valid amount."
+msgstr "Skriv inn et gyldig beløp."
+
+#: includes/famefe-notices.php:51
+msgid "Describe the work, please."
+msgstr "Beskriv arbeidet, takk."
+
+#: includes/famefe-notices.php:50
+msgid "Hours cannot be recorded for this date any more."
+msgstr "Det kan ikke lenger registreres timer for denne datoen."
+
+#: includes/famefe-notices.php:49
+msgid "These hours can no longer be deleted here; the time limit has passed."
+msgstr "Disse timene kan ikke lenger slettes her; fristen har gått ut."
+
+#: includes/famefe-notices.php:48
+msgid "Enter a valid number of hours."
+msgstr "Skriv inn et gyldig antall timer."
+
+#: includes/famefe-notices.php:47
+msgid "The member has hours or payments and cannot be deleted. End the membership instead."
+msgstr "Medlemmet har timer eller betalinger og kan ikke slettes. Avslutt heller medlemskapet."
+
+#: includes/famefe-notices.php:45
+msgid "This e-mail address is already used by another user account."
+msgstr "Denne e-postadressen brukes allerede av en annen brukerkonto."
+
+#: includes/famefe-notices.php:44
+msgid "Enter a valid e-mail address."
+msgstr "Skriv inn en gyldig e-postadresse."
+
+#: includes/famefe-notices.php:43
+msgid "This change is not possible for the member (check the status and the date)."
+msgstr "Denne endringen er ikke mulig for medlemmet (sjekk status og dato)."
+
+#: includes/famefe-notices.php:42
+msgid "\"Member since\" cannot be after the end of the membership."
+msgstr "«Medlem siden» kan ikke være etter at medlemskapet ble avsluttet."
+
+#: includes/famefe-notices.php:41
+msgid "Choose a valid membership type."
+msgstr "Velg en gyldig medlemstype."
+
+#: includes/famefe-notices.php:40
+msgid "Enter a valid date."
+msgstr "Skriv inn en gyldig dato."
+
+#: includes/famefe-notices.php:39
+msgid "Enter the first or the last name."
+msgstr "Skriv inn fornavn eller etternavn."
+
+#: includes/famefe-notices.php:38
+msgid "The record was not found."
+msgstr "Oppføringen ble ikke funnet."
+
+#: includes/famefe-notices.php:37
+msgid "The form has expired. Please reload the page and try again."
+msgstr "Skjemaet er utløpt. Last inn siden på nytt og prøv igjen."
+
+#: includes/famefe-notices.php:36
+msgid "Please log in first."
+msgstr "Logg inn først."
+
+#: includes/famefe-notices.php:35
+msgid "You are not allowed to do this."
+msgstr "Du har ikke tillatelse til å gjøre dette."
+
+#: includes/famefe-notices.php:33
+msgid "The settings were saved."
+msgstr "Innstillingene er lagret."
+
+#: includes/famefe-notices.php:32
+msgid "The payment was cancelled. You can try again at any time."
+msgstr "Betalingen ble avbrutt. Du kan prøve igjen når som helst."
+
+#: includes/famefe-notices.php:31
+msgid "Thank you, your membership fee was paid."
+msgstr "Takk, kontingentet ditt er betalt."
+
+#: includes/famefe-notices.php:30
+msgid "The payment was deleted."
+msgstr "Betalingen er slettet."
+
+#: includes/famefe-notices.php:29
+msgid "The payment was recorded."
+msgstr "Betalingen er registrert."
+
+#: includes/famefe-notices.php:28
+msgid "The hours were deleted."
+msgstr "Timene er slettet."
+
+#: includes/famefe-notices.php:27
+msgid "The hours were saved."
+msgstr "Timene er lagret."
+
+#: includes/famefe-notices.php:26
+msgid "Thank you, your hours were recorded."
+msgstr "Takk, timene dine er registrert."
+
+#: includes/famefe-notices.php:25
+msgid "The member was deleted."
+msgstr "Medlemmet er slettet."
+
+#: includes/famefe-notices.php:24
+msgid "The change of the membership was recorded."
+msgstr "Endringen i medlemskapet er registrert."
+
+#: includes/famefe-notices.php:23
+msgid "The member was saved."
+msgstr "Medlemmet er lagret."
+
+#: includes/famefe-notices.php:22
+msgid "The member and the user account were created. The member got an e-mail with a link for setting the password."
+msgstr "Medlemmet og brukerkontoen er opprettet. Medlemmet har fått en e-post med en lenke for å angi passord."
+
+#: includes/famefe-notices.php:21
+msgid "The member and the user account were created."
+msgstr "Medlemmet og brukerkontoen er opprettet."
+
+#: includes/famefe-notices.php:20
+msgid "The member was added."
+msgstr "Medlemmet er lagt til."
+
+#: includes/famefe-data.php:241
+msgid "Deleted user"
+msgstr "Slettet bruker"
+
+#: includes/famefe-data.php:191
+msgid "Unknown name"
+msgstr "Ukjent navn"
+
+#: includes/famefe-data.php:51
+msgid "Bank transfer"
+msgstr "Bankoverføring"
+
+#: includes/famefe-data.php:50
+msgid "Cash"
+msgstr "Kontant"
+
+#: includes/famefe-data.php:49
+msgid "Card (Stripe)"
+msgstr "Kort (Stripe)"
+
+#: includes/famefe-data.php:39
+msgid "\"Member since\" corrected"
+msgstr "«Medlem siden» rettet"
+
+#: includes/famefe-data.php:38
+msgid "Rejoined"
+msgstr "Innmeldt på nytt"
+
+#: includes/famefe-data.php:37
+msgid "Membership ended"
+msgstr "Medlemskap avsluttet"
+
+#: includes/famefe-data.php:36
+msgid "Membership type changed"
+msgstr "Medlemstype endret"
+
+#: includes/famefe-data.php:35
+msgid "Joined"
+msgstr "Innmeldt"
+
+#: includes/famefe-data.php:25
+msgid "Honorary"
+msgstr "Æresmedlem"
+
+#: includes/famefe-data.php:24
+msgid "Regular"
+msgstr "Ordinært"
+
+#: includes/famefe-admin.php:673
+msgid "All regular members of the period together pay the base fee times their number (the expected total). Each member’s share of the volunteer hours of all regular members lowers the fee; what is collected above the expected total is taken off everybody equally, and no fee goes below zero. A member without any hours in the period always pays twice the base fee. Honorary members pay nothing. With the optional discount, the given share of members with the lowest fees pays the given percentage less, or as much less as needed for the given total to collect; nothing is moved to the others."
+msgstr "Alle ordinære medlemmer i perioden betaler til sammen grunnkontingentet ganger antallet deres (den forventede totalsummen). Hvert medlems andel av alle ordinære medlemmers dugnadstimer senker kontingentet; det som kreves inn utover den forventede totalsummen, trekkes likt fra hos alle, og ingen kontingenter går under null. Et medlem uten timer i perioden betaler alltid dobbelt grunnkontingent. Æresmedlemmer betaler ingenting. Med den valgfrie rabatten betaler den angitte andelen medlemmer med de laveste kontingentene den angitte prosentsatsen mindre, eller så mye mindre som trengs for den angitte totalsummen som skal kreves inn; ingenting flyttes over på de andre."
+
+#: includes/famefe-admin.php:672
+msgid "How the fee is calculated"
+msgstr "Slik beregnes kontingentet"
+
+#: includes/famefe-admin.php:663
+msgid "Blocks"
+msgstr "Blokker"
+
+#: includes/famefe-admin.php:659
+msgid "Add the blocks to your pages: search for \"Fair Member Fees\" in the block inserter."
+msgstr "Legg til blokkene på sidene dine: søk etter «Fair Member Fees» i blokkinnsetteren."
+
+#: includes/famefe-admin.php:658
+msgid "Set the currency, and Stripe if you want online payments (Settings)."
+msgstr "Angi valuta og, hvis du vil ha nettbetalinger, Stripe (Innstillinger)."
+
+#: includes/famefe-admin.php:657
+msgid "Add your members (Members → Add member) and link them to their user accounts."
+msgstr "Legg til medlemmene dine (Medlemmer → Legg til medlem) og koble dem til brukerkontoene deres."
+
+#: includes/famefe-admin.php:655
+msgid "Getting started"
+msgstr "Kom i gang"
+
+#: includes/famefe-admin.php:653
+msgid "Fair Member Fees help"
+msgstr "Hjelp for Fair Member Fees"
+
+#: includes/famefe-admin.php:649
+msgid "Explains the calculation on an example with your numbers."
+msgstr "Forklarer beregningen med et eksempel med dine tall."
+
+#: includes/famefe-admin.php:649
+msgid "Fee calculation explained"
+msgstr "Kontingentberegning forklart"
+
+#: includes/famefe-admin.php:648
+msgid "The membership register with the date of the last change and who recorded it; visible to logged-in users by default."
+msgstr "Medlemsregisteret med datoen for siste endring og hvem som registrerte den; som standard synlig for innloggede brukere."
+
+#: includes/famefe-admin.php:648
+msgid "Members list"
+msgstr "Medlemsliste"
+
+#: includes/famefe-admin.php:647
+msgid "Recorded hours for a period, all or only the visitor’s own."
+msgstr "Registrerte timer i en periode, alle eller bare den besøkendes egne."
+
+#: includes/famefe-admin.php:647
+msgid "Volunteer hours list"
+msgstr "Liste over dugnadstimer"
+
+#: includes/famefe-admin.php:646
+msgid "Members record their own hours. Set the maximum hours per entry, how many days back a date may be, and whether a description is required."
+msgstr "Medlemmene registrerer sine egne timer. Angi maksimalt antall timer per registrering, hvor mange dager tilbake en dato kan være, og om beskrivelse er påkrevd."
+
+#: includes/famefe-admin.php:646
+msgid "Volunteer hours form"
+msgstr "Skjema for dugnadstimer"
+
+#: includes/famefe-admin.php:645
+msgid "The table of fees for a period. Set the period, the base fee and the optional discount in the block settings. Until the volunteer hours of the period are closed, it shows the fees calculated so far; then turn on its payment button and members can pay their final fee. Administrators and editors can record cash and bank payments right there. Clubs that only keep records of hours leave the button off."
+msgstr "Kontingenttabellen for en periode. Angi periode, grunnkontingent og valgfri rabatt i blokkinnstillingene. Til periodens dugnadstimer er lukket, viser den kontingentene som er beregnet så langt; slå deretter på betalingsknappen, så kan medlemmene betale det endelige kontingentet. Administratorer og redaktører kan registrere kontantbetalinger og bankoverføringer direkte der. Klubber som bare fører timer, lar knappen være av."
+
+#: includes/famefe-admin.php:645
+msgid "Membership fees"
+msgstr "Kontingenter"
+
+#: includes/famefe-admin.php:635 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:123
+msgid "Shortened for data protection: first 4 and last 4 characters (Janaková)"
+msgstr "Forkortet av hensyn til personvern: de første 4 og de siste 4 tegnene (Karinsen)"
+
+#: includes/famefe-admin.php:634 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:116
+msgid "Display name of the user account"
+msgstr "Visningsnavnet til brukerkontoen"
+
+#: includes/famefe-admin.php:633 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:112
+msgid "Initials (J. S.)"
+msgstr "Initialer (K. H.)"
+
+#: includes/famefe-admin.php:632 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:105
+msgid "First name and initial (Jane S.)"
+msgstr "Fornavn og initial (Kari H.)"
+
+#: includes/famefe-admin.php:631 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:101
+msgid "Full name (Jane Smith)"
+msgstr "Fullt navn (Kari Hansen)"
+
+#: includes/famefe-admin.php:616
+msgid "Delete all members, hours, payments and settings when the plugin is deleted."
+msgstr "Slett alle medlemmer, timer, betalinger og innstillinger når utvidelsen slettes."
+
+#: includes/famefe-admin.php:615
+msgid "Delete data"
+msgstr "Slett data"
+
+#: includes/famefe-admin.php:612
+msgid "Uninstall"
+msgstr "Avinstallering"
+
+#: includes/famefe-admin.php:607
+msgid "Default for all blocks; each block can override it."
+msgstr "Standard for alle blokker; hver blokk kan overstyre den."
+
+#: includes/famefe-admin.php:600
+msgid "Names in blocks"
+msgstr "Navn i blokker"
+
+#: includes/famefe-admin.php:597
+msgid "Logged-in users who are not members may record their hours too (they count only in the totals)."
+msgstr "Innloggede brukere som ikke er medlemmer, kan også registrere timene sine (de teller bare i summene)."
+
+#: includes/famefe-admin.php:596
+msgid "Hours of non-members"
+msgstr "Timer for ikke-medlemmer"
+
+#: includes/famefe-admin.php:593
+msgid "Volunteer hours and names"
+msgstr "Dugnadstimer og navn"
+
+#: includes/famefe-admin.php:588
+msgid "Add this address in Stripe (Developers → Webhooks) with the events checkout.session.completed and checkout.session.async_payment_succeeded, then copy its signing secret here. Payments are recorded even when a member closes the browser before returning to your site."
+msgstr "Legg til denne adressen i Stripe (Developers → Webhooks) med hendelsene checkout.session.completed og checkout.session.async_payment_succeeded, og kopier deretter signeringshemmeligheten hit. Betalinger registreres selv om et medlem lukker nettleseren før det kommer tilbake til nettstedet ditt."
+
+#: includes/famefe-admin.php:585
+msgid "Webhook endpoint"
+msgstr "Webhook-endepunkt"
+
+#: includes/famefe-admin.php:575
+msgid "Live webhook signing secret"
+msgstr "Live signeringshemmelighet for webhook"
+
+#: includes/famefe-admin.php:574
+msgid "Live secret key"
+msgstr "Live hemmelig nøkkel"
+
+#: includes/famefe-admin.php:573
+msgid "Test webhook signing secret"
+msgstr "Test signeringshemmelighet for webhook"
+
+#: includes/famefe-admin.php:572
+msgid "Test secret key"
+msgstr "Test hemmelig nøkkel"
+
+#: includes/famefe-admin.php:567
+msgid "Live"
+msgstr "Live"
+
+#: includes/famefe-admin.php:566
+msgid "Test (no real money)"
+msgstr "Test (ingen ekte penger)"
+
+#: includes/famefe-admin.php:564
+msgid "Mode"
+msgstr "Modus"
+
+#: includes/famefe-admin.php:561
+msgid "Members pay on the Stripe payment page. Fill in the secret key of the mode you use; without it the Membership fees block shows no payment button."
+msgstr "Medlemmene betaler på Stripes betalingsside. Fyll inn den hemmelige nøkkelen for modusen du bruker; uten den viser blokken Kontingenter ingen betalingsknapp."
+
+#: includes/famefe-admin.php:560
+msgid "Stripe"
+msgstr "Stripe"
+
+#: includes/famefe-admin.php:555
+msgid "Fees are rounded to this number of decimals. Leave empty to use the usual number of the currency (CZK 0, EUR and USD 2)."
+msgstr "Kontingenter avrundes til dette antallet desimaler. La feltet stå tomt for å bruke valutaens vanlige antall (CZK 0, EUR og USD 2)."
+
+#: includes/famefe-admin.php:552
+msgid "Decimal places"
+msgstr "Desimaler"
+
+#: includes/famefe-admin.php:548
+msgid "Three-letter ISO code, e.g. CZK, EUR, USD."
+msgstr "ISO-kode på tre bokstaver, f.eks. CZK, EUR, USD."
+
+#: includes/famefe-admin.php:545
+msgid "Currency"
+msgstr "Valuta"
+
+#: includes/famefe-admin.php:542
+msgid "Money"
+msgstr "Penger"
+
+#: includes/famefe-admin.php:539
+msgid "The season (period), the base fee and the discount are set in the Membership fees block on your page."
+msgstr "Sesongen (perioden), grunnkontingentet og rabatten angis i blokken Kontingenter på siden din."
+
+#: includes/famefe-admin.php:537
+msgid "Fair Member Fees settings"
+msgstr "Innstillinger for Fair Member Fees"
+
+#. translators: %s: currency code.
+#: includes/famefe-admin.php:483
+msgid "Amount (%s)"
+msgstr "Beløp (%s)"
+
+#: includes/famefe-admin.php:479
+msgid "to"
+msgstr "til"
+
+#: includes/famefe-admin.php:478
+msgid "Period from"
+msgstr "Periode fra"
+
+#: includes/famefe-admin.php:474
+msgid "Cash and bank payments. The period must be the same as in the Membership fees block, otherwise the block does not show the member as paid. Card payments are recorded automatically."
+msgstr "Kontantbetalinger og bankoverføringer. Perioden må være den samme som i blokken Kontingenter, ellers viser ikke blokken medlemmet som betalt. Kortbetalinger registreres automatisk."
+
+#: includes/famefe-admin.php:473
+msgid "Record a payment"
+msgstr "Registrer en betaling"
+
+#. translators: %s: number of hours.
+#: includes/famefe-admin.php:451
+msgid "Total: %s hours"
+msgstr "Totalt: %s timer"
+
+#: includes/famefe-admin.php:447 includes/famefe-admin.php:505
+msgid "Filter"
+msgstr "Filtrer"
+
+#: includes/famefe-admin.php:433
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: includes/famefe-admin.php:431
+msgid "Save"
+msgstr "Lagre"
+
+#: includes/famefe-admin.php:419
+msgid "Record hours for a member"
+msgstr "Registrer timer for et medlem"
+
+#: includes/famefe-admin.php:419
+msgid "Edit hours"
+msgstr "Rediger timer"
+
+#: includes/famefe-admin.php:380 includes/famefe-admin.php:440 build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:159
+msgid "To"
+msgstr "Til"
+
+#: includes/famefe-admin.php:379 includes/famefe-admin.php:439 build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:149
+msgid "From"
+msgstr "Fra"
+
+#: includes/famefe-admin.php:373
+msgid "History"
+msgstr "Historikk"
+
+#: includes/famefe-admin.php:370
+msgid "Active"
+msgstr "Aktiv"
+
+#: includes/famefe-admin.php:357
+msgid "Record the change"
+msgstr "Registrer endringen"
+
+#: includes/famefe-admin.php:355
+msgid "Valid from"
+msgstr "Gjelder fra"
+
+#: includes/famefe-admin.php:353
+msgid "Rejoin"
+msgstr "Meld inn på nytt"
+
+#: includes/famefe-admin.php:348
+msgid "End the membership"
+msgstr "Avslutt medlemskapet"
+
+#. translators: %s: membership type (Regular, Honorary).
+#: includes/famefe-admin.php:343
+msgid "Change type to: %s"
+msgstr "Endre type til: %s"
+
+#: includes/famefe-admin.php:336 includes/famefe-admin.php:378
+msgid "Change"
+msgstr "Endre"
+
+#: includes/famefe-admin.php:330 includes/famefe-users.php:80
+msgid "Membership"
+msgstr "Medlemskap"
+
+#. translators: %s: date.
+#: includes/famefe-admin.php:327 includes/famefe-users.php:110
+msgid "Membership ended on %s"
+msgstr "Medlemskap avsluttet %s"
+
+#. translators: 1: membership type, 2: date.
+#: includes/famefe-admin.php:325 includes/famefe-users.php:113
+msgid "%1$s member since %2$s"
+msgstr "%1$s medlem siden %2$s"
+
+#: includes/famefe-admin.php:311
+msgid "Delete member entered by mistake"
+msgstr "Slett medlem som ble lagt inn ved en feil"
+
+#: includes/famefe-admin.php:311
+msgid "Delete this member? Use this only for a member entered by mistake."
+msgstr "Slette dette medlemmet? Bruk dette bare for et medlem som ble lagt inn ved en feil."
+
+#: includes/famefe-admin.php:297
+msgid "Save details"
+msgstr "Lagre opplysninger"
+
+#: includes/famefe-admin.php:288
+msgid "Only to correct a mistake; the correction is recorded in the history. Membership changes go below."
+msgstr "Bare for å rette en feil; rettelsen registreres i historikken. Endringer i medlemskapet står lenger ned."
+
+#: includes/famefe-admin.php:279
+msgid "Regular members pay the membership fee, honorary members do not."
+msgstr "Ordinære medlemmer betaler kontingent, æresmedlemmer gjør det ikke."
+
+#: includes/famefe-admin.php:272 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:108
+msgid "Membership type"
+msgstr "Medlemstype"
+
+#: includes/famefe-admin.php:266
+msgid "For an existing account, the name and e-mail of the account are used; these fields only fill in what the account lacks."
+msgstr "For en eksisterende konto brukes kontoens navn og e-post; disse feltene fyller bare inn det kontoen mangler."
+
+#: includes/famefe-admin.php:264
+msgid "Changes of the name and e-mail are saved to the user account too."
+msgstr "Endringer av navn og e-post lagres også i brukerkontoen."
+
+#: includes/famefe-admin.php:262
+msgid "The name and e-mail come from the user account, which you are not allowed to edit."
+msgstr "Navn og e-post kommer fra brukerkontoen, som du ikke har tillatelse til å redigere."
+
+#: includes/famefe-admin.php:254
+msgid "Last name"
+msgstr "Etternavn"
+
+#: includes/famefe-admin.php:250
+msgid "First name"
+msgstr "Fornavn"
+
+#: includes/famefe-admin.php:245
+msgid "Members with an account can record their hours and pay online."
+msgstr "Medlemmer med konto kan registrere timene sine og betale på nett."
+
+#: includes/famefe-admin.php:243
+msgid "Open the profile"
+msgstr "Åpne profilen"
+
+#: includes/famefe-admin.php:238
+msgid "Members with an account can record their hours and pay online. The name and e-mail of a linked member are those of the account."
+msgstr "Medlemmer med konto kan registrere timene sine og betale på nett. Navn og e-post for et koblet medlem er kontoens."
+
+#: includes/famefe-admin.php:236
+msgid "Without a user account"
+msgstr "Uten brukerkonto"
+
+#: includes/famefe-admin.php:233
+msgid "The account gets the default role of the site; the e-mail address is required."
+msgstr "Kontoen får nettstedets standardrolle; e-postadressen er påkrevd."
+
+#: includes/famefe-admin.php:232
+msgid "Send the member an e-mail with a link for setting the password"
+msgstr "Send medlemmet en e-post med en lenke for å angi passord"
+
+#: includes/famefe-admin.php:230
+msgid "Create a new user account"
+msgstr "Opprett en ny brukerkonto"
+
+#: includes/famefe-admin.php:227
+msgid "Existing user account"
+msgstr "Eksisterende brukerkonto"
+
+#: includes/famefe-admin.php:217
+msgid "— No account —"
+msgstr "— Ingen konto —"
+
+#: includes/famefe-admin.php:205
+msgid "Details"
+msgstr "Opplysninger"
+
+#: includes/famefe-admin.php:202
+msgid "No account found."
+msgstr "Ingen konto funnet."
+
+#. translators: %d: number of user accounts found.
+#: includes/famefe-admin.php:201
+msgid "Found: %d"
+msgstr "Funnet: %d"
+
+#: includes/famefe-admin.php:199 includes/famefe-notices.php:46
+msgid "This user account already belongs to another member."
+msgstr "Denne brukerkontoen tilhører allerede et annet medlem."
+
+#: includes/famefe-admin.php:194
+msgid "Back to the members"
+msgstr "Tilbake til medlemmene"
+
+#: includes/famefe-admin.php:176
+msgid "Search members"
+msgstr "Søk etter medlemmer"
+
+#: includes/famefe-admin.php:165 includes/famefe-admin.php:193 includes/famefe-admin.php:297
+msgid "Add member"
+msgstr "Legg til medlem"
+
+#: includes/famefe-admin.php:143
+msgid "Search user accounts"
+msgstr "Søk etter brukerkontoer"
+
+#: includes/famefe-admin.php:142
+msgid "Search accounts by name or login…"
+msgstr "Søk etter kontoer på navn eller brukernavn …"
+
+#. translators: 1: name of the person, 2: date and time.
+#: includes/famefe-admin.php:132
+msgid "%1$s on %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: %s: date and time.
+#: includes/famefe-admin.php:129
+msgid "automatically on %s"
+msgstr "automatisk %s"
+
+#: includes/famefe-admin.php:33
+msgid "Help"
+msgstr "Hjelp"
+
+#: includes/famefe-admin.php:32
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: includes/famefe-admin.php:31 includes/famefe-admin.php:470
+msgid "Payments"
+msgstr "Betalinger"
+
+#: includes/famefe-admin.php:30 includes/famefe-admin.php:415
+msgid "Volunteer hours"
+msgstr "Dugnadstimer"
+
+#: includes/famefe-admin.php:22
+msgid "Member Fees"
+msgstr "Kontingenter"
+
+#: includes/famefe-admin-tables.php:334
+msgid "Delete this payment? The member will be shown as unpaid."
+msgstr "Slette denne betalingen? Medlemmet vises som ikke betalt."
+
+#: includes/famefe-admin-tables.php:324
+msgid "No payments recorded."
+msgstr "Ingen betalinger registrert."
+
+#: includes/famefe-admin-tables.php:307 includes/famefe-admin.php:293 includes/famefe-admin.php:356 includes/famefe-admin.php:381 includes/famefe-admin.php:494
+msgid "Note"
+msgstr "Merknad"
+
+#: includes/famefe-admin-tables.php:305
+msgid "Amount"
+msgstr "Beløp"
+
+#: includes/famefe-admin-tables.php:304 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:25
+msgid "Period"
+msgstr "Periode"
+
+#. translators: %s: name of a user who is not a member.
+#: includes/famefe-admin-tables.php:266
+msgid "%s (not a member)"
+msgstr "%s (ikke medlem)"
+
+#: includes/famefe-admin-tables.php:251
+msgid "Edit"
+msgstr "Rediger"
+
+#: includes/famefe-admin-tables.php:154
+msgid "Edit and history"
+msgstr "Rediger og historikk"
+
+#: includes/famefe-admin-tables.php:152
+msgid "(no name)"
+msgstr "(uten navn)"
+
+#: includes/famefe-admin-tables.php:128 includes/famefe-admin.php:443 includes/famefe-admin.php:501
+msgid "All"
+msgstr "Alle"
+
+#: includes/famefe-admin-tables.php:127 includes/famefe-admin.php:109 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:34
+msgid "Former members"
+msgstr "Tidligere medlemmer"
+
+#: includes/famefe-admin-tables.php:126 includes/famefe-admin.php:29 includes/famefe-admin.php:109 includes/famefe-admin.php:164 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:21
+msgid "Members"
+msgstr "Medlemmer"
+
+#: includes/famefe-admin-tables.php:39 includes/famefe-admin.php:258
+msgid "Email"
+msgstr "E-post"
+
+#: includes/famefe-admin-tables.php:38 includes/famefe-admin.php:223
+msgid "User account"
+msgstr "Brukerkonto"
+
+#: build/blocks/membership-fees/render.php:306 src/blocks/membership-fees/render.php:306
+msgid "Only administrators and editors see this form. The amount is the calculated fee of the member."
+msgstr "Bare administratorer og redaktører ser dette skjemaet. Beløpet er medlemmets beregnede kontingent."
+
+#: build/blocks/membership-fees/render.php:305 includes/famefe-admin.php:495 src/blocks/membership-fees/render.php:305
+msgid "Record payment"
+msgstr "Registrer betaling"
+
+#: build/blocks/membership-fees/render.php:295 includes/famefe-admin-tables.php:306 includes/famefe-admin.php:487 src/blocks/membership-fees/render.php:295
+msgid "Method"
+msgstr "Metode"
+
+#: build/blocks/membership-fees/render.php:287 src/blocks/membership-fees/render.php:287
+msgid "Member and fee"
+msgstr "Medlem og kontingent"
+
+#: build/blocks/membership-fees/render.php:283 src/blocks/membership-fees/render.php:283
+msgid "Record a cash or bank payment (administrators and editors)"
+msgstr "Registrer en kontantbetaling eller bankoverføring (administratorer og redaktører)"
+
+#: build/blocks/membership-fees/render.php:267 src/blocks/membership-fees/render.php:267
+msgid "(Visible only to administrators and editors.)"
+msgstr "(Bare synlig for administratorer og redaktører.)"
+
+#: build/blocks/membership-fees/render.php:261 src/blocks/membership-fees/render.php:261
+msgid "The payment button is shown only to logged-in regular members who have a fee to pay."
+msgstr "Betalingsknappen vises bare for innloggede ordinære medlemmer som har et kontingent å betale."
+
+#: build/blocks/membership-fees/render.php:259 src/blocks/membership-fees/render.php:259
+msgid "The fees are final, but members cannot pay online: Stripe is not set up yet (Member Fees → Settings → Stripe secret key)."
+msgstr "Kontingentene er endelige, men medlemmene kan ikke betale på nett: Stripe er ennå ikke satt opp (Kontingenter → Innstillinger → hemmelig nøkkel for Stripe)."
+
+#: build/blocks/membership-fees/render.php:257 src/blocks/membership-fees/render.php:257
+msgid "The payment button is off: the fees are shown as calculated so far. Turn it on in the block settings (\"Payment button\") once the volunteer hours of the period are closed and the fees are final. Leave it off if you do not collect fees through this page."
+msgstr "Betalingsknappen er av: kontingentene vises slik de er beregnet så langt. Slå den på i blokkinnstillingene («Betalingsknapp») når periodens dugnadstimer er lukket og kontingentene er endelige. La den være av hvis du ikke krever inn kontingenter via denne siden."
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:244 src/blocks/membership-fees/render.php:244
+msgid "Pay %s online"
+msgstr "Betal %s på nett"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:233 src/blocks/membership-fees/render.php:233
+msgid "Your membership fee: %s"
+msgstr "Ditt kontingent: %s"
+
+#: build/blocks/membership-fees/render.php:227 src/blocks/membership-fees/render.php:227
+msgid "You do not need to pay a membership fee for this period. Thank you for your work!"
+msgstr "Du trenger ikke å betale kontingent for denne perioden. Takk for innsatsen!"
+
+#: build/blocks/membership-fees/render.php:221 src/blocks/membership-fees/render.php:221
+msgid "The fee will be final once the volunteer hours of this period are closed."
+msgstr "Kontingentet blir endelig når periodens dugnadstimer er lukket."
+
+#: build/blocks/membership-fees/render.php:219 src/blocks/membership-fees/render.php:219
+msgid "The fee will be final once the volunteer hours of this period are closed; then you can pay it here."
+msgstr "Kontingentet blir endelig når periodens dugnadstimer er lukket; da kan du betale det her."
+
+#: build/blocks/membership-fees/render.php:214 src/blocks/membership-fees/render.php:214
+msgid "Thank you for your work!"
+msgstr "Takk for innsatsen!"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:209 src/blocks/membership-fees/render.php:209
+msgid "With the volunteer hours recorded so far, your membership fee is %s."
+msgstr "Med dugnadstimene som er registrert så langt, er kontingentet ditt %s."
+
+#. translators: 1: amount, 2: date.
+#: build/blocks/membership-fees/render.php:198 src/blocks/membership-fees/render.php:198
+msgid "You paid %1$s on %2$s. Thank you!"
+msgstr "Du betalte %1$s %2$s. Takk!"
+
+#: build/blocks/membership-fees/render.php:144 src/blocks/membership-fees/render.php:144
+msgid "There are no members in this period."
+msgstr "Det er ingen medlemmer i denne perioden."
+
+#. translators: 1: period (from – to), 2: base fee with currency.
+#: build/blocks/membership-fees/render.php:135 src/blocks/membership-fees/render.php:135
+msgid "Membership fees for %1$s. Base fee: %2$s."
+msgstr "Kontingenter for %1$s. Grunnkontingent: %2$s."
+
+#. translators: 1: first day of the period, 2: last day of the period.
+#: build/blocks/membership-fees/render.php:122 src/blocks/membership-fees/render.php:122
+msgid "%1$s – %2$s"
+msgstr "%1$s – %2$s"
+
+#: build/blocks/membership-fees/render.php:106 src/blocks/membership-fees/render.php:106
+msgid "Non-members and former members"
+msgstr "Ikke-medlemmer og tidligere medlemmer"
+
+#. translators: 1: number of members who paid, 2: number of regular members.
+#: build/blocks/membership-fees/render.php:94 src/blocks/membership-fees/render.php:94
+msgid "%1$d of %2$d"
+msgstr "%1$d av %2$d"
+
+#: build/blocks/membership-fees/render.php:47 build/blocks/membership-fees/render.php:302 includes/famefe-admin-tables.php:302 includes/famefe-admin.php:493 src/blocks/membership-fees/render.php:47 src/blocks/membership-fees/render.php:302 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:125
+msgid "Paid on"
+msgstr "Betalt"
+
+#: build/blocks/members-list/render.php:99 includes/famefe-admin-tables.php:160 includes/famefe-admin.php:370 includes/famefe-users.php:159 src/blocks/members-list/render.php:99
+msgid "Former member"
+msgstr "Tidligere medlem"
+
+#: build/blocks/members-list/render.php:83 src/blocks/members-list/render.php:83 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:38
+msgid "Search by name"
+msgstr "Søk etter navn"
+
+#: build/blocks/members-list/render.php:82 src/blocks/members-list/render.php:82
+msgid "Search by name…"
+msgstr "Søk etter navn …"
+
+#: build/blocks/members-list/render.php:77 includes/famefe-admin-tables.php:146 src/blocks/members-list/render.php:77
+msgid "No members found."
+msgstr "Ingen medlemmer funnet."
+
+#. translators: %d: number of current members.
+#: build/blocks/members-list/render.php:72 src/blocks/members-list/render.php:72
+msgid "Current members (%d)"
+msgstr "Nåværende medlemmer (%d)"
+
+#. translators: %d: number of former members.
+#: build/blocks/members-list/render.php:69 src/blocks/members-list/render.php:69
+msgid "Former members (%d)"
+msgstr "Tidligere medlemmer (%d)"
+
+#. translators: %d: number of honorary members.
+#: build/blocks/members-list/render.php:66 build/blocks/membership-fees/render.php:99 src/blocks/members-list/render.php:66 src/blocks/membership-fees/render.php:99
+msgid "Honorary members (%d)"
+msgstr "Æresmedlemmer (%d)"
+
+#. translators: %d: number of regular members.
+#: build/blocks/members-list/render.php:64 build/blocks/membership-fees/render.php:86 src/blocks/members-list/render.php:64 src/blocks/membership-fees/render.php:86
+msgid "Regular members (%d)"
+msgstr "Ordinære medlemmer (%d)"
+
+#: build/blocks/members-list/render.php:45 includes/famefe-admin-tables.php:37 includes/famefe-admin-tables.php:220 includes/famefe-admin-tables.php:308 includes/famefe-admin.php:382 src/blocks/members-list/render.php:45 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:80
+msgid "Recorded by"
+msgstr "Registrert av"
+
+#: build/blocks/members-list/render.php:44 includes/famefe-admin-tables.php:36 includes/famefe-admin.php:377 src/blocks/members-list/render.php:44 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:76
+msgid "Change date"
+msgstr "Dato for endring"
+
+#: build/blocks/members-list/render.php:43 includes/famefe-admin-tables.php:35 src/blocks/members-list/render.php:43 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:72
+msgid "Last change"
+msgstr "Siste endring"
+
+#: build/blocks/members-list/render.php:42 includes/famefe-admin-tables.php:34 includes/famefe-admin.php:284 src/blocks/members-list/render.php:42 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:68
+msgid "Member since"
+msgstr "Medlem siden"
+
+#: build/blocks/members-list/render.php:19 src/blocks/members-list/render.php:19
+msgid "The list of members is available to logged-in users."
+msgstr "Medlemslisten er tilgjengelig for innloggede brukere."
+
+#. translators: 1: number of hours, 2: number of entries.
+#: build/blocks/hours-list/render.php:112 src/blocks/hours-list/render.php:112
+msgid "Total: %1$s hours in %2$d entry"
+msgid_plural "Total: %1$s hours in %2$d entries"
+msgstr[0] "Totalt: %1$s timer i %2$d registrering"
+msgstr[1] "Totalt: %1$s timer i %2$d registreringer"
+
+#: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:256 includes/famefe-admin-tables.php:335 src/blocks/hours-list/render.php:94
+msgid "Delete"
+msgstr "Slett"
+
+#: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:255 src/blocks/hours-list/render.php:94
+msgid "Delete these hours?"
+msgstr "Slette disse timene?"
+
+#: build/blocks/hours-list/render.php:72 src/blocks/hours-list/render.php:72
+msgid "Actions"
+msgstr "Handlinger"
+
+#: build/blocks/hours-list/render.php:69 build/blocks/members-list/render.php:46 src/blocks/hours-list/render.php:69 src/blocks/members-list/render.php:46 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 src/blocks/hours-list/index.js:75 src/blocks/members-list/index.js:84
+msgid "Recorded on"
+msgstr "Registrert"
+
+#: build/blocks/hours-list/render.php:62 build/blocks/members-list/render.php:39 build/blocks/membership-fees/render.php:28 includes/famefe-admin-tables.php:32 includes/famefe-admin-tables.php:217 src/blocks/hours-list/render.php:62 src/blocks/members-list/render.php:39 src/blocks/membership-fees/render.php:28 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:73
+msgid "Name"
+msgstr "Navn"
+
+#: build/blocks/hours-list/render.php:50 includes/famefe-admin-tables.php:243 src/blocks/hours-list/render.php:50
+msgid "No hours recorded."
+msgstr "Ingen timer registrert."
+
+#: build/blocks/hours-list/render.php:19 src/blocks/hours-list/render.php:19
+msgid "Log in to see your volunteer hours."
+msgstr "Logg inn for å se dugnadstimene dine."
+
+#: build/blocks/hours-form/render.php:118 src/blocks/hours-form/render.php:118
+msgid "My recent entries"
+msgstr "Mine siste registreringer"
+
+#: build/blocks/hours-form/render.php:59 build/blocks/hours-form/render.php:125 build/blocks/hours-list/render.php:66 includes/famefe-admin-tables.php:219 includes/famefe-admin.php:430 src/blocks/hours-form/render.php:59 src/blocks/hours-form/render.php:125 src/blocks/hours-list/render.php:66 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:74
+msgid "Work done"
+msgstr "Utført arbeid"
+
+#: build/blocks/hours-form/render.php:57 build/blocks/hours-form/render.php:123 build/blocks/hours-list/render.php:60 includes/famefe-admin-tables.php:216 includes/famefe-admin.php:428 src/blocks/hours-form/render.php:57 src/blocks/hours-form/render.php:123 src/blocks/hours-list/render.php:60
+msgid "Date"
+msgstr "Dato"
+
+#: build/blocks/hours-form/render.php:39 includes/famefe-notices.php:52 src/blocks/hours-form/render.php:39
+msgid "Only members can record volunteer hours."
+msgstr "Bare medlemmer kan registrere dugnadstimer."
+
+#: build/blocks/hours-form/render.php:34 build/blocks/hours-list/render.php:21 build/blocks/members-list/render.php:21 src/blocks/hours-form/render.php:34 src/blocks/hours-list/render.php:21 src/blocks/members-list/render.php:21
+msgid "Log in"
+msgstr "Logg inn"
+
+#: build/blocks/hours-form/render.php:32 src/blocks/hours-form/render.php:32
+msgid "Log in to record your volunteer hours."
+msgstr "Logg inn for å registrere dugnadstimene dine."
+
+#: build/blocks/hours-form/render.php:22 includes/famefe-admin.php:431 src/blocks/hours-form/render.php:22 build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:82
+msgid "Add hours"
+msgstr "Legg til timer"
+
+#. translators: %s: twice the base fee.
+#: build/blocks/fee-explanation/render.php:219 src/blocks/fee-explanation/render.php:219
+msgid "A member without any volunteer hours in the period always pays twice the base fee, %s: paying instead of working should never be the cheaper choice."
+msgstr "Et medlem uten dugnadstimer i perioden betaler alltid dobbelt grunnkontingent, %s: å betale i stedet for å jobbe skal aldri være det billigste valget."
+
+#: build/blocks/fee-explanation/render.php:209 src/blocks/fee-explanation/render.php:209
+msgid "The calculated fees do not exceed it, so there is no discount."
+msgstr "De beregnede kontingentene overstiger det ikke, så det blir ingen rabatt."
+
+#. translators: 1: share of members in percent, 2: discount in percent, 3:
+#. number of members with the discount.
+#: build/blocks/fee-explanation/render.php:203 src/blocks/fee-explanation/render.php:203
+msgid "The %1$s %% of regular members with the lowest calculated fees pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never). The discount is not added to the fees of the others, so the club collects less than the expected total."
+msgstr "De %1$s %% av de ordinære medlemmene med de laveste beregnede kontingentene betaler %2$s %% mindre (her %3$d medlemmer; medlemmer med samme kontingent som den siste av dem får den også, medlemmer uten timer aldri). Rabatten legges ikke på de andres kontingenter, så klubben krever inn mindre enn den forventede totalsummen."
+
+#. translators: 1: share of members in percent, 2: calculated discount in
+#. percent, 3: number of members with the discount.
+#: build/blocks/fee-explanation/render.php:195 src/blocks/fee-explanation/render.php:195
+msgid "The %1$s %% of regular members with the lowest calculated fees therefore pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never)."
+msgstr "De %1$s %% av de ordinære medlemmene med de laveste beregnede kontingentene betaler derfor %2$s %% mindre (her %3$d medlemmer; medlemmer med samme kontingent som den siste av dem får den også, medlemmer uten timer aldri)."
+
+#. translators: %s: total the regular members should pay.
+#: build/blocks/fee-explanation/render.php:188 src/blocks/fee-explanation/render.php:188
+msgid "The regular members should pay %s together."
+msgstr "De ordinære medlemmene skal til sammen betale %s."
+
+#: build/blocks/fee-explanation/render.php:182 src/blocks/fee-explanation/render.php:182
+msgid "4. Discount"
+msgstr "4. Rabatt"
+
+#: build/blocks/fee-explanation/render.php:141 build/blocks/membership-fees/render.php:45 src/blocks/fee-explanation/render.php:141 src/blocks/membership-fees/render.php:45
+msgid "Fee to pay"
+msgstr "Kontingent å betale"
+
+#: build/blocks/fee-explanation/render.php:140 build/blocks/membership-fees/render.php:43 src/blocks/fee-explanation/render.php:140 src/blocks/membership-fees/render.php:43 build/blocks/fee-explanation/index.js:3 build/blocks/membership-fees/index.js:3 src/blocks/fee-explanation/index.js:64 src/blocks/membership-fees/index.js:83
+msgid "Discount"
+msgstr "Rabatt"
+
+#: build/blocks/fee-explanation/render.php:138 build/blocks/membership-fees/render.php:42 src/blocks/fee-explanation/render.php:138 src/blocks/membership-fees/render.php:42
+msgid "Calculated fee"
+msgstr "Beregnet kontingent"
+
+#: build/blocks/fee-explanation/render.php:137 build/blocks/membership-fees/render.php:39 src/blocks/fee-explanation/render.php:137 src/blocks/membership-fees/render.php:39 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:117
+msgid "Unreduced fee"
+msgstr "Uredusert kontingent"
+
+#: build/blocks/fee-explanation/render.php:136 build/blocks/membership-fees/render.php:36 src/blocks/fee-explanation/render.php:136 src/blocks/membership-fees/render.php:36 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:113
+msgid "Share of hours"
+msgstr "Andel av timene"
+
+#. translators: 1: sum of the unreduced fees, 2: expected total, 3: amount
+#. taken off each fee.
+#: build/blocks/fee-explanation/render.php:123 src/blocks/fee-explanation/render.php:123
+msgid "The unreduced fees add up to %1$s, more than the expected total of %2$s. The difference is shared equally: each fee is lowered by %3$s, so all fees together give the expected total. No fee goes below zero; if one would, that member pays nothing and the rest is shared by the members who volunteered."
+msgstr "De ureduserte kontingentene blir til sammen %1$s, mer enn den forventede totalsummen på %2$s. Differansen fordeles likt: hvert kontingent senkes med %3$s, slik at alle kontingentene til sammen gir den forventede totalsummen. Ingen kontingenter går under null; hvis det skulle skje, betaler det medlemmet ingenting, og resten fordeles på medlemmene som har tatt dugnadstimer."
+
+#. translators: %s: hours of all regular members.
+#: build/blocks/fee-explanation/render.php:116 src/blocks/fee-explanation/render.php:116
+msgid "Each regular member’s share of the hours of all regular members (%s hours) lowers the unreduced fee: unreduced fee = expected total × (1 − share of hours)."
+msgstr "Hvert ordinære medlems andel av alle ordinære medlemmers timer (%s timer) senker det ureduserte kontingentet: uredusert kontingent = forventet totalsum × (1 − andel av timene)."
+
+#: build/blocks/fee-explanation/render.php:111 src/blocks/fee-explanation/render.php:111
+msgid "3. Fee of each member"
+msgstr "3. Kontingentet for hvert medlem"
+
+#. translators: 1: base fee, 2: number of regular members, 3: base fee again,
+#. 4: expected total.
+#: build/blocks/fee-explanation/render.php:102 src/blocks/fee-explanation/render.php:102
+msgid "The base fee is %1$s. Together, the %2$d regular members are expected to pay %3$s × %2$d = %4$s."
+msgstr "Grunnkontingentet er %1$s. Til sammen forventes de %2$d ordinære medlemmene å betale %3$s × %2$d = %4$s."
+
+#: build/blocks/fee-explanation/render.php:97 src/blocks/fee-explanation/render.php:97
+msgid "2. Expected total"
+msgstr "2. Forventet totalsum"
+
+#. translators: %d: number of honorary members.
+#: build/blocks/fee-explanation/render.php:92 src/blocks/fee-explanation/render.php:92
+msgid "%d honorary member"
+msgid_plural "%d honorary members"
+msgstr[0] "%d æresmedlem"
+msgstr[1] "%d æresmedlemmer"
+
+#. translators: %d: number of regular members.
+#: build/blocks/fee-explanation/render.php:90 src/blocks/fee-explanation/render.php:90
+msgid "%d regular member"
+msgid_plural "%d regular members"
+msgstr[0] "%d ordinært medlem"
+msgstr[1] "%d ordinære medlemmer"
+
+#. translators: 1: "5 regular members", 2: "1 honorary member".
+#: build/blocks/fee-explanation/render.php:88 src/blocks/fee-explanation/render.php:88
+msgid "Members in the example: %1$s and %2$s. Honorary members do not pay a membership fee, and their hours do not count in the calculation."
+msgstr "Medlemmer i eksempelet: %1$s og %2$s. Æresmedlemmer betaler ikke kontingent, og timene deres teller ikke med i beregningen."
+
+#: build/blocks/fee-explanation/render.php:78 build/blocks/fee-explanation/render.php:167 build/blocks/membership-fees/render.php:112 src/blocks/fee-explanation/render.php:78 src/blocks/fee-explanation/render.php:167 src/blocks/membership-fees/render.php:112
+msgid "Total"
+msgstr "Totalt"
+
+#: build/blocks/fee-explanation/render.php:64 build/blocks/fee-explanation/render.php:135 build/blocks/hours-form/render.php:58 build/blocks/hours-form/render.php:124 build/blocks/hours-list/render.php:64 build/blocks/membership-fees/render.php:33 includes/famefe-admin-tables.php:218 includes/famefe-admin.php:429 src/blocks/fee-explanation/render.php:64 src/blocks/fee-explanation/render.php:135 src/blocks/hours-form/render.php:58 src/blocks/hours-form/render.php:124 src/blocks/hours-list/render.php:64 src/blocks/membership-fees/render.php:33 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:112
+msgid "Hours"
+msgstr "Timer"
+
+#: build/blocks/fee-explanation/render.php:63 build/blocks/members-list/render.php:41 build/blocks/membership-fees/render.php:30 includes/famefe-admin-tables.php:33 src/blocks/fee-explanation/render.php:63 src/blocks/members-list/render.php:41 src/blocks/membership-fees/render.php:30 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:67
+msgid "Type"
+msgstr "Type"
+
+#: build/blocks/fee-explanation/render.php:62 build/blocks/fee-explanation/render.php:134 build/blocks/hours-form/render.php:56 includes/famefe-admin-tables.php:303 includes/famefe-admin.php:420 includes/famefe-admin.php:441 includes/famefe-admin.php:475 includes/famefe-admin.php:499 includes/famefe-users.php:83 includes/famefe-users.php:139 src/blocks/fee-explanation/render.php:62 src/blocks/fee-explanation/render.php:134 src/blocks/hours-form/render.php:56
+msgid "Member"
+msgstr "Medlem"
+
+#: build/blocks/fee-explanation/render.php:57 src/blocks/fee-explanation/render.php:57
+msgid "1. Members and their hours"
+msgstr "1. Medlemmene og timene deres"
+
+#: build/blocks/fee-explanation/render.php:55 src/blocks/fee-explanation/render.php:55
+msgid "The membership fee depends on how much each member volunteered for the club, measured in the recorded hours. Members only need to record their hours; the fees are calculated from them. The following example shows how."
+msgstr "Kontingentet avhenger av hvor mye dugnad hvert medlem har tatt for klubben, målt i registrerte timer. Medlemmene trenger bare å registrere timene sine; kontingentene beregnes ut fra dem. Eksempelet nedenfor viser hvordan."
+
+#. translators: %d: number of the member in the example.
+#: build/blocks/fee-explanation/render.php:52 src/blocks/fee-explanation/render.php:52
+msgid "Member %d"
+msgstr "Medlem %d"
+
+#. Author of the plugin
+#: fair-member-fees.php
+msgid "globus2008"
+msgstr "globus2008"
+
+#. Description of the plugin
+#: fair-member-fees.php
+msgid "Membership register with a change history, volunteer hours and a fair membership fee: members who volunteer more pay less. Optional discount and payment through Stripe. Built with blocks."
+msgstr "Medlemsregister med endringshistorikk, dugnadstimer og et rettferdig kontingent: medlemmer som tar mer dugnad, betaler mindre. Valgfri rabatt og betaling via Stripe. Bygget med blokker."
+
+#. Plugin Name of the plugin
+#: fair-member-fees.php includes/famefe-admin.php:21
+msgid "Fair Member Fees"
+msgstr "Fair Member Fees"

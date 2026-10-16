@@ -1,0 +1,1458 @@
+# Translation of Plugins - Fair Member Fees - Development (trunk) in Hindi
+# This file is distributed under the same license as the Plugins - Fair Member Fees - Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Fair Member Fees - Development (trunk)\n"
+"PO-Revision-Date: 2026-10-16 12:00:00+0000\n"
+"Language: hi_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "payment"
+msgstr "भुगतान"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block description"
+msgid "Fair membership fees for a period: members who volunteered more pay less. Once the hours of the period are closed, members can pay online; administrators and editors record cash and bank payments."
+msgstr "किसी अवधि के लिए उचित सदस्यता शुल्क: जो सदस्य अधिक स्वयंसेवी घंटे देते हैं, वे कम भुगतान करते हैं। अवधि के घंटे बंद होने के बाद सदस्य ऑनलाइन भुगतान कर सकते हैं; व्यवस्थापक और संपादक नकद और बैंक ट्रांसफ़र भुगतान दर्ज करते हैं।"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block title"
+msgid "Membership fees"
+msgstr "सदस्यता शुल्क"
+
+#: build/blocks/members-list/block.json build/blocks/membership-fees/block.json src/blocks/members-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "membership"
+msgstr "सदस्यता"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block keyword"
+msgid "register"
+msgstr "रजिस्टर"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block keyword"
+msgid "members"
+msgstr "सदस्य"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block description"
+msgid "The membership register: members, their type, membership changes and who recorded them."
+msgstr "सदस्य रजिस्टर: सदस्य, उनका प्रकार, सदस्यता में बदलाव और उन्हें किसने दर्ज किया।"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block title"
+msgid "Members list"
+msgstr "सदस्य सूची"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr "सूची"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block description"
+msgid "Recorded volunteer hours of a period."
+msgstr "किसी अवधि में दर्ज स्वयंसेवी घंटे।"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block title"
+msgid "Volunteer hours list"
+msgstr "स्वयंसेवी घंटों की सूची"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "फ़ॉर्म"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block keyword"
+msgid "work"
+msgstr "काम"
+
+#: build/blocks/hours-form/block.json build/blocks/hours-list/block.json build/blocks/membership-fees/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "volunteer"
+msgstr "स्वयंसेवा"
+
+#: build/blocks/hours-form/block.json build/blocks/hours-list/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json
+msgctxt "block keyword"
+msgid "hours"
+msgstr "घंटे"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block description"
+msgid "Logged-in members record the hours they volunteered."
+msgstr "लॉग इन किए हुए सदस्य अपने द्वारा दिए गए स्वयंसेवी घंटे दर्ज करते हैं।"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block title"
+msgid "Volunteer hours form"
+msgstr "स्वयंसेवी घंटों का फ़ॉर्म"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "help"
+msgstr "सहायता"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "example"
+msgstr "उदाहरण"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "calculation"
+msgstr "गणना"
+
+#: build/blocks/fee-explanation/block.json build/blocks/hours-form/block.json build/blocks/hours-list/block.json build/blocks/members-list/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json src/blocks/members-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "fair member fees"
+msgstr "fair member fees"
+
+#: build/blocks/fee-explanation/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "fee"
+msgstr "शुल्क"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block description"
+msgid "Explains on an example how the fair membership fee is calculated."
+msgstr "उदाहरण से समझाता है कि उचित सदस्यता शुल्क की गणना कैसे होती है।"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block title"
+msgid "Fee calculation explained"
+msgstr "शुल्क गणना की व्याख्या"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:155
+msgid "Highlight the logged-in member"
+msgstr "लॉग इन किए हुए सदस्य को हाइलाइट करें"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:147
+msgid "Period and base fee above the table"
+msgstr "तालिका के ऊपर अवधि और मूल शुल्क"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:143
+msgid "List honorary members"
+msgstr "मानद सदस्यों को दिखाएँ"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:121
+msgid "Calculated fee and discount (when the discount is on)"
+msgstr "गणना किया गया शुल्क और छूट (जब छूट चालू हो)"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:94
+msgid "Members who volunteered the most pay even less. The discount is not added to the fees of the others."
+msgstr "जिन सदस्यों ने सबसे अधिक स्वयंसेवा की, वे और भी कम भुगतान करते हैं। छूट दूसरों के शुल्क में नहीं जोड़ी जाती।"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:90
+msgid "Discount for the lowest fees"
+msgstr "सबसे कम शुल्कों के लिए छूट"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:72
+msgid "Turn on once the volunteer hours of the period are closed: members then see their final fee and can pay it. While it is off, the fees are shown as calculated from the hours recorded so far. Leave it off if you do not collect fees through this page."
+msgstr "अवधि के स्वयंसेवी घंटे बंद होने पर इसे चालू करें: तब सदस्य अपना अंतिम शुल्क देखते हैं और उसका भुगतान कर सकते हैं। जब तक यह बंद है, शुल्क अब तक दर्ज घंटों से गणना करके दिखाए जाते हैं। यदि आप इस पेज के ज़रिए शुल्क नहीं लेते, तो इसे बंद ही रहने दें।"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:68
+msgid "Payment button (the fees are final)"
+msgstr "भुगतान बटन (शुल्क अंतिम हैं)"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:59
+msgid "The fee of a regular member when nobody volunteers. All regular members together pay the base fee times their number."
+msgstr "जब कोई स्वयंसेवा न करे, तब एक नियमित सदस्य का शुल्क। सभी नियमित सदस्य मिलकर मूल शुल्क × उनकी संख्या का भुगतान करते हैं।"
+
+#: build/blocks/membership-fees/index.js:2 src/blocks/membership-fees/index.js:46
+msgid "Members of this period pay; their hours of this period lower the fee. Payments are recorded for exactly this period."
+msgstr "इस अवधि के सदस्य भुगतान करते हैं; इस अवधि में उनके घंटे शुल्क घटाते हैं। भुगतान ठीक इसी अवधि के लिए दर्ज किए जाते हैं।"
+
+#: build/blocks/membership-fees/index.js:2 src/blocks/membership-fees/index.js:42
+msgid "Period and fee"
+msgstr "अवधि और शुल्क"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/members-list/index.js:54 src/blocks/membership-fees/index.js:101
+msgid "Columns"
+msgstr "कॉलम"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:46
+msgid "Only for logged-in visitors"
+msgstr "केवल लॉग इन किए हुए आगंतुकों के लिए"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/members-list/index.js:42 src/blocks/membership-fees/index.js:151
+msgid "Totals rows at the end of the table"
+msgstr "तालिका के अंत में कुल पंक्तियाँ"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:30
+msgid "Honorary members"
+msgstr "मानद सदस्य"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:26
+msgid "Regular members"
+msgstr "नियमित सदस्य"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:360
+msgid "Totals rows text"
+msgstr "कुल पंक्तियों का टेक्स्ट"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:356
+msgid "Totals rows background"
+msgstr "कुल पंक्तियों की पृष्ठभूमि"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:353
+msgid "Header text"
+msgstr "हेडर का टेक्स्ट"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:351
+msgid "Header background"
+msgstr "हेडर की पृष्ठभूमि"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:346
+msgid "Table colours"
+msgstr "तालिका के रंग"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:127
+msgid "They may delete any entry within this time. Older entries can still be deleted in Member Fees → Volunteer hours."
+msgstr "वे इस समय के भीतर कोई भी प्रविष्टि हटा सकते हैं। पुरानी प्रविष्टियाँ अब भी सदस्यता शुल्क → स्वयंसेवी घंटे में हटाई जा सकती हैं।"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:123
+msgid "Administrators and editors: days after recording"
+msgstr "व्यवस्थापक और संपादक: दर्ज करने के बाद के दिन"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:106
+msgid "Members delete only hours they recorded themselves, e.g. after a mistake. 0 = only on the day of recording."
+msgstr "सदस्य केवल वही घंटे हटाते हैं जो उन्होंने स्वयं दर्ज किए, जैसे किसी गलती के बाद। 0 = केवल दर्ज करने वाले दिन।"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:102
+msgid "Members: days after recording"
+msgstr "सदस्य: दर्ज करने के बाद के दिन"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:91
+msgid "Allow deleting hours"
+msgstr "घंटे हटाने की अनुमति दें"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:84
+msgid "Deleting"
+msgstr "हटाना"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:79
+msgid "Total below"
+msgstr "नीचे कुल"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/hours-list/index.js:60 src/blocks/membership-fees/index.js:130
+msgid "Display"
+msgstr "प्रदर्शन"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:52
+msgid "Only the hours of the logged-in visitor"
+msgstr "केवल लॉग इन किए हुए आगंतुक के घंटे"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:37
+msgid "Maximum entries"
+msgstr "अधिकतम प्रविष्टियाँ"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:29
+msgid "Leave empty for no limit."
+msgstr "कोई सीमा न रखने के लिए खाली छोड़ें।"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:94
+msgid "As in the plugin settings"
+msgstr "प्लगइन सेटिंग्स के अनुसार"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:89
+msgid "Names"
+msgstr "नाम"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:106
+msgid "Number of recent entries"
+msgstr "हाल की प्रविष्टियों की संख्या"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:96
+msgid "Show my recent entries"
+msgstr "मेरी हाल की प्रविष्टियाँ दिखाएँ"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:92
+msgid "Description of the work is required"
+msgstr "काम का विवरण आवश्यक है"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:81
+msgid "Button text"
+msgstr "बटन का टेक्स्ट"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:63
+msgid "How old the date of the work may be. 0 = only today."
+msgstr "काम की तारीख कितनी पुरानी हो सकती है। 0 = केवल आज।"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:62
+msgid "Days back"
+msgstr "पीछे के दिन"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:49
+msgid "Off: hours are always recorded for today, so nobody can add hours to the past or change a closed period. Administrators and editors can always choose the date."
+msgstr "बंद: घंटे हमेशा आज के लिए दर्ज होते हैं, इसलिए कोई भी पिछली तारीख में घंटे नहीं जोड़ सकता या बंद अवधि नहीं बदल सकता। व्यवस्थापक और संपादक हमेशा तारीख चुन सकते हैं।"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:45
+msgid "Members may change the date"
+msgstr "सदस्य तारीख बदल सकते हैं"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:35
+msgid "Step of the hours"
+msgstr "घंटों का अंतराल"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:23
+msgid "Maximum hours per entry"
+msgstr "प्रति प्रविष्टि अधिकतम घंटे"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:18
+msgid "Form"
+msgstr "फ़ॉर्म"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:71
+msgid "Explain the discount"
+msgstr "छूट समझाएँ"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:53
+msgid "Hours of the honorary members"
+msgstr "मानद सदस्यों के घंटे"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:41
+msgid "One number per member, separated by commas or spaces."
+msgstr "प्रति सदस्य एक संख्या, अल्पविराम या स्पेस से अलग की गई।"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:37
+msgid "Hours of the regular members"
+msgstr "नियमित सदस्यों के घंटे"
+
+#. translators: %s: currency code.
+#: build/blocks/fee-explanation/index.js:3 build/blocks/membership-fees/index.js:3 src/blocks/fee-explanation/index.js:28 src/blocks/membership-fees/index.js:56
+msgid "Base fee (%s)"
+msgstr "मूल शुल्क (%s)"
+
+#: build/blocks/fee-explanation/index.js:2 src/blocks/fee-explanation/index.js:22
+msgid "Example"
+msgstr "उदाहरण"
+
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:300
+msgid "Discount (%)"
+msgstr "छूट (%)"
+
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:282
+msgid "The discount is calculated so that the regular members pay this amount together. If their calculated fees do not exceed it, there is no discount."
+msgstr "छूट की गणना इस तरह की जाती है कि नियमित सदस्य मिलकर यह राशि चुकाएँ। यदि उनके गणना किए गए शुल्क इससे अधिक नहीं हैं, तो कोई छूट नहीं है।"
+
+#. translators: %s: currency code.
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:279
+msgid "Total to collect (%s)"
+msgstr "वसूली जाने वाली कुल राशि (%s)"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:263
+msgid "Total to collect"
+msgstr "वसूली जाने वाली कुल राशि"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:259
+msgid "Percentage"
+msgstr "प्रतिशत"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:254
+msgid "Discount given by"
+msgstr "छूट इसके द्वारा तय"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:244
+msgid "Share of members with the lowest fees (%)"
+msgstr "सबसे कम शुल्क वाले सदस्यों का हिस्सा (%)"
+
+#. translators: %s: list of member names.
+#: includes/famefe-users.php:190
+msgid "These accounts belong to members: %s. The members, their history, hours and payments stay in the register; only the link to the account is removed. To end a membership, use Member Fees → Members."
+msgstr "ये खाते सदस्यों के हैं: %s। सदस्य, उनका इतिहास, घंटे और भुगतान रजिस्टर में बने रहते हैं; केवल खाते से लिंक हटाया जाता है। सदस्यता समाप्त करने के लिए सदस्यता शुल्क → सदस्य का उपयोग करें।"
+
+#: includes/famefe-users.php:93
+msgid "The first name, last name and e-mail of this profile are also the details of the member."
+msgstr "इस प्रोफ़ाइल का पहला नाम, अंतिम नाम और ईमेल सदस्य का विवरण भी है।"
+
+#: includes/famefe-users.php:91
+msgid "Membership and history"
+msgstr "सदस्यता और इतिहास"
+
+#: includes/famefe-users.php:87
+msgid "Add as member"
+msgstr "सदस्य के रूप में जोड़ें"
+
+#: includes/famefe-users.php:86
+msgid "Not a member."
+msgstr "सदस्य नहीं है।"
+
+#. translators: 1: first day of the period, 2: last day of the period.
+#: includes/famefe-stripe.php:122
+msgid "Membership fee %1$s – %2$s"
+msgstr "सदस्यता शुल्क %1$s – %2$s"
+
+#. translators: 1: amount, 2: currency symbol or code (Kč, €, USD).
+#: includes/famefe-settings.php:95
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: includes/famefe-notices.php:61
+msgid "The data could not be saved. Please try again."
+msgstr "डेटा सहेजा नहीं जा सका। कृपया फिर से प्रयास करें।"
+
+#: includes/famefe-notices.php:60
+msgid "The payment has not been confirmed yet. If you paid, it will appear shortly."
+msgstr "भुगतान की अभी पुष्टि नहीं हुई है। यदि आपने भुगतान किया है, तो यह जल्द ही दिखाई देगा।"
+
+#: includes/famefe-notices.php:59
+msgid "The payment service could not be reached. Please try again later."
+msgstr "भुगतान सेवा से संपर्क नहीं हो सका। कृपया बाद में फिर से प्रयास करें।"
+
+#: includes/famefe-notices.php:58
+msgid "Online payment is not set up."
+msgstr "ऑनलाइन भुगतान सेट अप नहीं है।"
+
+#: includes/famefe-notices.php:57
+msgid "The block of this form was not found on the page. Please reload the page."
+msgstr "इस फ़ॉर्म का ब्लॉक पेज पर नहीं मिला। कृपया पेज फिर से लोड करें।"
+
+#: includes/famefe-notices.php:56
+msgid "There is nothing to pay."
+msgstr "भुगतान करने के लिए कुछ नहीं है।"
+
+#: includes/famefe-notices.php:55
+msgid "The membership fee for this period has already been paid."
+msgstr "इस अवधि का सदस्यता शुल्क पहले ही चुकाया जा चुका है।"
+
+#: includes/famefe-notices.php:54
+msgid "Choose a valid payment method."
+msgstr "कोई मान्य भुगतान विधि चुनें।"
+
+#: includes/famefe-notices.php:53
+msgid "Enter a valid amount."
+msgstr "कोई मान्य राशि दर्ज करें।"
+
+#: includes/famefe-notices.php:51
+msgid "Describe the work, please."
+msgstr "कृपया काम का विवरण दें।"
+
+#: includes/famefe-notices.php:50
+msgid "Hours cannot be recorded for this date any more."
+msgstr "इस तारीख के लिए अब घंटे दर्ज नहीं किए जा सकते।"
+
+#: includes/famefe-notices.php:49
+msgid "These hours can no longer be deleted here; the time limit has passed."
+msgstr "ये घंटे अब यहाँ नहीं हटाए जा सकते; समय सीमा बीत चुकी है।"
+
+#: includes/famefe-notices.php:48
+msgid "Enter a valid number of hours."
+msgstr "घंटों की मान्य संख्या दर्ज करें।"
+
+#: includes/famefe-notices.php:47
+msgid "The member has hours or payments and cannot be deleted. End the membership instead."
+msgstr "सदस्य के घंटे या भुगतान हैं, इसलिए उसे हटाया नहीं जा सकता। इसके बजाय सदस्यता समाप्त करें।"
+
+#: includes/famefe-notices.php:45
+msgid "This e-mail address is already used by another user account."
+msgstr "यह ईमेल पता पहले से किसी अन्य उपयोगकर्ता खाते द्वारा उपयोग में है।"
+
+#: includes/famefe-notices.php:44
+msgid "Enter a valid e-mail address."
+msgstr "कोई मान्य ईमेल पता दर्ज करें।"
+
+#: includes/famefe-notices.php:43
+msgid "This change is not possible for the member (check the status and the date)."
+msgstr "यह बदलाव इस सदस्य के लिए संभव नहीं है (स्थिति और तारीख जाँचें)।"
+
+#: includes/famefe-notices.php:42
+msgid "\"Member since\" cannot be after the end of the membership."
+msgstr "\"सदस्य कब से\" सदस्यता समाप्त होने के बाद का नहीं हो सकता।"
+
+#: includes/famefe-notices.php:41
+msgid "Choose a valid membership type."
+msgstr "कोई मान्य सदस्यता प्रकार चुनें।"
+
+#: includes/famefe-notices.php:40
+msgid "Enter a valid date."
+msgstr "कोई मान्य तारीख दर्ज करें।"
+
+#: includes/famefe-notices.php:39
+msgid "Enter the first or the last name."
+msgstr "पहला नाम या अंतिम नाम दर्ज करें।"
+
+#: includes/famefe-notices.php:38
+msgid "The record was not found."
+msgstr "रिकॉर्ड नहीं मिला।"
+
+#: includes/famefe-notices.php:37
+msgid "The form has expired. Please reload the page and try again."
+msgstr "फ़ॉर्म की समय सीमा समाप्त हो गई है। कृपया पेज फिर से लोड करें और फिर से प्रयास करें।"
+
+#: includes/famefe-notices.php:36
+msgid "Please log in first."
+msgstr "कृपया पहले लॉग इन करें।"
+
+#: includes/famefe-notices.php:35
+msgid "You are not allowed to do this."
+msgstr "आपको ऐसा करने की अनुमति नहीं है।"
+
+#: includes/famefe-notices.php:33
+msgid "The settings were saved."
+msgstr "सेटिंग्स सहेज ली गईं।"
+
+#: includes/famefe-notices.php:32
+msgid "The payment was cancelled. You can try again at any time."
+msgstr "भुगतान रद्द कर दिया गया। आप कभी भी फिर से प्रयास कर सकते हैं।"
+
+#: includes/famefe-notices.php:31
+msgid "Thank you, your membership fee was paid."
+msgstr "धन्यवाद, आपका सदस्यता शुल्क चुका दिया गया है।"
+
+#: includes/famefe-notices.php:30
+msgid "The payment was deleted."
+msgstr "भुगतान हटा दिया गया।"
+
+#: includes/famefe-notices.php:29
+msgid "The payment was recorded."
+msgstr "भुगतान दर्ज कर लिया गया।"
+
+#: includes/famefe-notices.php:28
+msgid "The hours were deleted."
+msgstr "घंटे हटा दिए गए।"
+
+#: includes/famefe-notices.php:27
+msgid "The hours were saved."
+msgstr "घंटे सहेज लिए गए।"
+
+#: includes/famefe-notices.php:26
+msgid "Thank you, your hours were recorded."
+msgstr "धन्यवाद, आपके घंटे दर्ज कर लिए गए।"
+
+#: includes/famefe-notices.php:25
+msgid "The member was deleted."
+msgstr "सदस्य हटा दिया गया।"
+
+#: includes/famefe-notices.php:24
+msgid "The change of the membership was recorded."
+msgstr "सदस्यता में बदलाव दर्ज कर लिया गया।"
+
+#: includes/famefe-notices.php:23
+msgid "The member was saved."
+msgstr "सदस्य सहेज लिया गया।"
+
+#: includes/famefe-notices.php:22
+msgid "The member and the user account were created. The member got an e-mail with a link for setting the password."
+msgstr "सदस्य और उपयोगकर्ता खाता बना दिए गए। सदस्य को पासवर्ड सेट करने के लिंक वाला ईमेल मिला है।"
+
+#: includes/famefe-notices.php:21
+msgid "The member and the user account were created."
+msgstr "सदस्य और उपयोगकर्ता खाता बना दिए गए।"
+
+#: includes/famefe-notices.php:20
+msgid "The member was added."
+msgstr "सदस्य जोड़ दिया गया।"
+
+#: includes/famefe-data.php:241
+msgid "Deleted user"
+msgstr "हटाया गया उपयोगकर्ता"
+
+#: includes/famefe-data.php:191
+msgid "Unknown name"
+msgstr "अज्ञात नाम"
+
+#: includes/famefe-data.php:51
+msgid "Bank transfer"
+msgstr "बैंक ट्रांसफ़र"
+
+#: includes/famefe-data.php:50
+msgid "Cash"
+msgstr "नकद"
+
+#: includes/famefe-data.php:49
+msgid "Card (Stripe)"
+msgstr "कार्ड (Stripe)"
+
+#: includes/famefe-data.php:39
+msgid "\"Member since\" corrected"
+msgstr "\"सदस्य कब से\" सुधारा गया"
+
+#: includes/famefe-data.php:38
+msgid "Rejoined"
+msgstr "फिर से शामिल हुए"
+
+#: includes/famefe-data.php:37
+msgid "Membership ended"
+msgstr "सदस्यता समाप्त"
+
+#: includes/famefe-data.php:36
+msgid "Membership type changed"
+msgstr "सदस्यता प्रकार बदला गया"
+
+#: includes/famefe-data.php:35
+msgid "Joined"
+msgstr "शामिल हुए"
+
+#: includes/famefe-data.php:25
+msgid "Honorary"
+msgstr "मानद"
+
+#: includes/famefe-data.php:24
+msgid "Regular"
+msgstr "नियमित"
+
+#: includes/famefe-admin.php:673
+msgid "All regular members of the period together pay the base fee times their number (the expected total). Each member’s share of the volunteer hours of all regular members lowers the fee; what is collected above the expected total is taken off everybody equally, and no fee goes below zero. A member without any hours in the period always pays twice the base fee. Honorary members pay nothing. With the optional discount, the given share of members with the lowest fees pays the given percentage less, or as much less as needed for the given total to collect; nothing is moved to the others."
+msgstr "अवधि के सभी नियमित सदस्य मिलकर मूल शुल्क × उनकी संख्या (अपेक्षित कुल) का भुगतान करते हैं। सभी नियमित सदस्यों के स्वयंसेवी घंटों में प्रत्येक सदस्य का हिस्सा उसका शुल्क घटाता है; अपेक्षित कुल से ऊपर जो वसूला जाता है, वह सभी से बराबर घटाया जाता है, और कोई भी शुल्क शून्य से नीचे नहीं जाता। अवधि में बिना किसी घंटे वाला सदस्य हमेशा मूल शुल्क का दोगुना भुगतान करता है। मानद सदस्य कुछ भी भुगतान नहीं करते। वैकल्पिक छूट के साथ, सबसे कम शुल्क वाले सदस्यों का निर्धारित हिस्सा निर्धारित प्रतिशत कम, या निर्धारित वसूली जाने वाली कुल राशि के लिए जितना ज़रूरी हो उतना कम भुगतान करता है; दूसरों पर कुछ नहीं डाला जाता।"
+
+#: includes/famefe-admin.php:672
+msgid "How the fee is calculated"
+msgstr "शुल्क की गणना कैसे होती है"
+
+#: includes/famefe-admin.php:663
+msgid "Blocks"
+msgstr "ब्लॉक"
+
+#: includes/famefe-admin.php:659
+msgid "Add the blocks to your pages: search for \"Fair Member Fees\" in the block inserter."
+msgstr "अपने पेजों में ब्लॉक जोड़ें: ब्लॉक इंसर्टर में \"Fair Member Fees\" खोजें।"
+
+#: includes/famefe-admin.php:658
+msgid "Set the currency, and Stripe if you want online payments (Settings)."
+msgstr "मुद्रा सेट करें और, यदि आप ऑनलाइन भुगतान चाहते हैं, तो Stripe भी (सेटिंग्स)।"
+
+#: includes/famefe-admin.php:657
+msgid "Add your members (Members → Add member) and link them to their user accounts."
+msgstr "अपने सदस्य जोड़ें (सदस्य → सदस्य जोड़ें) और उन्हें उनके उपयोगकर्ता खातों से लिंक करें।"
+
+#: includes/famefe-admin.php:655
+msgid "Getting started"
+msgstr "शुरुआत करें"
+
+#: includes/famefe-admin.php:653
+msgid "Fair Member Fees help"
+msgstr "Fair Member Fees सहायता"
+
+#: includes/famefe-admin.php:649
+msgid "Explains the calculation on an example with your numbers."
+msgstr "आपकी संख्याओं वाले उदाहरण से गणना समझाता है।"
+
+#: includes/famefe-admin.php:649
+msgid "Fee calculation explained"
+msgstr "शुल्क गणना की व्याख्या"
+
+#: includes/famefe-admin.php:648
+msgid "The membership register with the date of the last change and who recorded it; visible to logged-in users by default."
+msgstr "पिछले बदलाव की तारीख और उसे दर्ज करने वाले के साथ सदस्य रजिस्टर; डिफ़ॉल्ट रूप से लॉग इन किए हुए उपयोगकर्ताओं को दिखाई देता है।"
+
+#: includes/famefe-admin.php:648
+msgid "Members list"
+msgstr "सदस्य सूची"
+
+#: includes/famefe-admin.php:647
+msgid "Recorded hours for a period, all or only the visitor’s own."
+msgstr "किसी अवधि में दर्ज घंटे, सभी या केवल आगंतुक के अपने।"
+
+#: includes/famefe-admin.php:647
+msgid "Volunteer hours list"
+msgstr "स्वयंसेवी घंटों की सूची"
+
+#: includes/famefe-admin.php:646
+msgid "Members record their own hours. Set the maximum hours per entry, how many days back a date may be, and whether a description is required."
+msgstr "सदस्य अपने घंटे स्वयं दर्ज करते हैं। प्रति प्रविष्टि अधिकतम घंटे, तारीख कितने दिन पीछे हो सकती है और क्या विवरण आवश्यक है, यह सेट करें।"
+
+#: includes/famefe-admin.php:646
+msgid "Volunteer hours form"
+msgstr "स्वयंसेवी घंटों का फ़ॉर्म"
+
+#: includes/famefe-admin.php:645
+msgid "The table of fees for a period. Set the period, the base fee and the optional discount in the block settings. Until the volunteer hours of the period are closed, it shows the fees calculated so far; then turn on its payment button and members can pay their final fee. Administrators and editors can record cash and bank payments right there. Clubs that only keep records of hours leave the button off."
+msgstr "किसी अवधि की शुल्क तालिका। ब्लॉक सेटिंग्स में अवधि, मूल शुल्क और वैकल्पिक छूट सेट करें। जब तक अवधि के स्वयंसेवी घंटे बंद नहीं होते, यह अब तक गणना किए गए शुल्क दिखाती है; फिर इसका भुगतान बटन चालू करें और सदस्य अपना अंतिम शुल्क चुका सकते हैं। व्यवस्थापक और संपादक वहीं नकद और बैंक ट्रांसफ़र भुगतान दर्ज कर सकते हैं। जो क्लब केवल घंटों का रिकॉर्ड रखते हैं, वे बटन बंद ही रखते हैं।"
+
+#: includes/famefe-admin.php:645
+msgid "Membership fees"
+msgstr "सदस्यता शुल्क"
+
+#: includes/famefe-admin.php:635 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:123
+msgid "Shortened for data protection: first 4 and last 4 characters (Janaková)"
+msgstr "डेटा सुरक्षा के लिए छोटा किया गया: पहले 4 और अंतिम 4 अक्षर (Janemith)"
+
+#: includes/famefe-admin.php:634 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:116
+msgid "Display name of the user account"
+msgstr "उपयोगकर्ता खाते का प्रदर्शित नाम"
+
+#: includes/famefe-admin.php:633 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:112
+msgid "Initials (J. S.)"
+msgstr "आद्याक्षर (J. S.)"
+
+#: includes/famefe-admin.php:632 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:105
+msgid "First name and initial (Jane S.)"
+msgstr "पहला नाम और आद्याक्षर (Jane S.)"
+
+#: includes/famefe-admin.php:631 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:101
+msgid "Full name (Jane Smith)"
+msgstr "पूरा नाम (Jane Smith)"
+
+#: includes/famefe-admin.php:616
+msgid "Delete all members, hours, payments and settings when the plugin is deleted."
+msgstr "प्लगइन हटाए जाने पर सभी सदस्य, घंटे, भुगतान और सेटिंग्स हटाएँ।"
+
+#: includes/famefe-admin.php:615
+msgid "Delete data"
+msgstr "डेटा हटाएँ"
+
+#: includes/famefe-admin.php:612
+msgid "Uninstall"
+msgstr "अनइंस्टॉल"
+
+#: includes/famefe-admin.php:607
+msgid "Default for all blocks; each block can override it."
+msgstr "सभी ब्लॉकों के लिए डिफ़ॉल्ट; हर ब्लॉक इसे बदल सकता है।"
+
+#: includes/famefe-admin.php:600
+msgid "Names in blocks"
+msgstr "ब्लॉकों में नाम"
+
+#: includes/famefe-admin.php:597
+msgid "Logged-in users who are not members may record their hours too (they count only in the totals)."
+msgstr "लॉग इन किए हुए जो उपयोगकर्ता सदस्य नहीं हैं, वे भी अपने घंटे दर्ज कर सकते हैं (वे केवल कुल में गिने जाते हैं)।"
+
+#: includes/famefe-admin.php:596
+msgid "Hours of non-members"
+msgstr "गैर-सदस्यों के घंटे"
+
+#: includes/famefe-admin.php:593
+msgid "Volunteer hours and names"
+msgstr "स्वयंसेवी घंटे और नाम"
+
+#: includes/famefe-admin.php:588
+msgid "Add this address in Stripe (Developers → Webhooks) with the events checkout.session.completed and checkout.session.async_payment_succeeded, then copy its signing secret here. Payments are recorded even when a member closes the browser before returning to your site."
+msgstr "इस पते को Stripe (Developers → Webhooks) में checkout.session.completed और checkout.session.async_payment_succeeded इवेंट के साथ जोड़ें, फिर इसका साइनिंग सीक्रेट यहाँ कॉपी करें। सदस्य के आपकी साइट पर लौटने से पहले ब्राउज़र बंद कर देने पर भी भुगतान दर्ज हो जाते हैं।"
+
+#: includes/famefe-admin.php:585
+msgid "Webhook endpoint"
+msgstr "Webhook एंडपॉइंट"
+
+#: includes/famefe-admin.php:575
+msgid "Live webhook signing secret"
+msgstr "लाइव Webhook साइनिंग सीक्रेट"
+
+#: includes/famefe-admin.php:574
+msgid "Live secret key"
+msgstr "लाइव सीक्रेट कुंजी"
+
+#: includes/famefe-admin.php:573
+msgid "Test webhook signing secret"
+msgstr "टेस्ट Webhook साइनिंग सीक्रेट"
+
+#: includes/famefe-admin.php:572
+msgid "Test secret key"
+msgstr "टेस्ट सीक्रेट कुंजी"
+
+#: includes/famefe-admin.php:567
+msgid "Live"
+msgstr "लाइव"
+
+#: includes/famefe-admin.php:566
+msgid "Test (no real money)"
+msgstr "टेस्ट (असली पैसे नहीं)"
+
+#: includes/famefe-admin.php:564
+msgid "Mode"
+msgstr "मोड"
+
+#: includes/famefe-admin.php:561
+msgid "Members pay on the Stripe payment page. Fill in the secret key of the mode you use; without it the Membership fees block shows no payment button."
+msgstr "सदस्य Stripe के भुगतान पेज पर भुगतान करते हैं। आप जिस मोड का उपयोग करते हैं उसकी सीक्रेट कुंजी भरें; इसके बिना सदस्यता शुल्क ब्लॉक भुगतान बटन नहीं दिखाता।"
+
+#: includes/famefe-admin.php:560
+msgid "Stripe"
+msgstr "Stripe"
+
+#: includes/famefe-admin.php:555
+msgid "Fees are rounded to this number of decimals. Leave empty to use the usual number of the currency (CZK 0, EUR and USD 2)."
+msgstr "शुल्क दशमलव के इतने अंकों तक पूर्णांकित किए जाते हैं। मुद्रा की सामान्य संख्या उपयोग करने के लिए खाली छोड़ें (CZK 0, EUR और USD 2)।"
+
+#: includes/famefe-admin.php:552
+msgid "Decimal places"
+msgstr "दशमलव अंक"
+
+#: includes/famefe-admin.php:548
+msgid "Three-letter ISO code, e.g. CZK, EUR, USD."
+msgstr "तीन अक्षरों का ISO कोड, जैसे CZK, EUR, USD।"
+
+#: includes/famefe-admin.php:545
+msgid "Currency"
+msgstr "मुद्रा"
+
+#: includes/famefe-admin.php:542
+msgid "Money"
+msgstr "धनराशि"
+
+#: includes/famefe-admin.php:539
+msgid "The season (period), the base fee and the discount are set in the Membership fees block on your page."
+msgstr "सीज़न (अवधि), मूल शुल्क और छूट आपके पेज पर सदस्यता शुल्क ब्लॉक में सेट किए जाते हैं।"
+
+#: includes/famefe-admin.php:537
+msgid "Fair Member Fees settings"
+msgstr "Fair Member Fees सेटिंग्स"
+
+#. translators: %s: currency code.
+#: includes/famefe-admin.php:483
+msgid "Amount (%s)"
+msgstr "राशि (%s)"
+
+#: includes/famefe-admin.php:479
+msgid "to"
+msgstr "से"
+
+#: includes/famefe-admin.php:478
+msgid "Period from"
+msgstr "अवधि आरंभ"
+
+#: includes/famefe-admin.php:474
+msgid "Cash and bank payments. The period must be the same as in the Membership fees block, otherwise the block does not show the member as paid. Card payments are recorded automatically."
+msgstr "नकद और बैंक ट्रांसफ़र भुगतान। अवधि वही होनी चाहिए जो सदस्यता शुल्क ब्लॉक में है, अन्यथा ब्लॉक सदस्य को भुगतान किया हुआ नहीं दिखाता। कार्ड भुगतान स्वचालित रूप से दर्ज होते हैं।"
+
+#: includes/famefe-admin.php:473
+msgid "Record a payment"
+msgstr "भुगतान दर्ज करें"
+
+#. translators: %s: number of hours.
+#: includes/famefe-admin.php:451
+msgid "Total: %s hours"
+msgstr "कुल: %s घंटे"
+
+#: includes/famefe-admin.php:447 includes/famefe-admin.php:505
+msgid "Filter"
+msgstr "फ़िल्टर करें"
+
+#: includes/famefe-admin.php:433
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#: includes/famefe-admin.php:431
+msgid "Save"
+msgstr "सहेजें"
+
+#: includes/famefe-admin.php:419
+msgid "Record hours for a member"
+msgstr "किसी सदस्य के लिए घंटे दर्ज करें"
+
+#: includes/famefe-admin.php:419
+msgid "Edit hours"
+msgstr "घंटे संपादित करें"
+
+#: includes/famefe-admin.php:380 includes/famefe-admin.php:440 build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:159
+msgid "To"
+msgstr "तक"
+
+#: includes/famefe-admin.php:379 includes/famefe-admin.php:439 build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:149
+msgid "From"
+msgstr "से"
+
+#: includes/famefe-admin.php:373
+msgid "History"
+msgstr "इतिहास"
+
+#: includes/famefe-admin.php:370
+msgid "Active"
+msgstr "सक्रिय"
+
+#: includes/famefe-admin.php:357
+msgid "Record the change"
+msgstr "बदलाव दर्ज करें"
+
+#: includes/famefe-admin.php:355
+msgid "Valid from"
+msgstr "से मान्य"
+
+#: includes/famefe-admin.php:353
+msgid "Rejoin"
+msgstr "फिर से शामिल करें"
+
+#: includes/famefe-admin.php:348
+msgid "End the membership"
+msgstr "सदस्यता समाप्त करें"
+
+#. translators: %s: membership type (Regular, Honorary).
+#: includes/famefe-admin.php:343
+msgid "Change type to: %s"
+msgstr "प्रकार बदलकर करें: %s"
+
+#: includes/famefe-admin.php:336 includes/famefe-admin.php:378
+msgid "Change"
+msgstr "बदलें"
+
+#: includes/famefe-admin.php:330 includes/famefe-users.php:80
+msgid "Membership"
+msgstr "सदस्यता"
+
+#. translators: %s: date.
+#: includes/famefe-admin.php:327 includes/famefe-users.php:110
+msgid "Membership ended on %s"
+msgstr "सदस्यता %s को समाप्त हुई"
+
+#. translators: 1: membership type, 2: date.
+#: includes/famefe-admin.php:325 includes/famefe-users.php:113
+msgid "%1$s member since %2$s"
+msgstr "%1$s सदस्य, %2$s से"
+
+#: includes/famefe-admin.php:311
+msgid "Delete member entered by mistake"
+msgstr "गलती से दर्ज सदस्य हटाएँ"
+
+#: includes/famefe-admin.php:311
+msgid "Delete this member? Use this only for a member entered by mistake."
+msgstr "इस सदस्य को हटाएँ? इसका उपयोग केवल गलती से दर्ज सदस्य के लिए करें।"
+
+#: includes/famefe-admin.php:297
+msgid "Save details"
+msgstr "विवरण सहेजें"
+
+#: includes/famefe-admin.php:288
+msgid "Only to correct a mistake; the correction is recorded in the history. Membership changes go below."
+msgstr "केवल गलती सुधारने के लिए; सुधार इतिहास में दर्ज होता है। सदस्यता के बदलाव नीचे हैं।"
+
+#: includes/famefe-admin.php:279
+msgid "Regular members pay the membership fee, honorary members do not."
+msgstr "नियमित सदस्य सदस्यता शुल्क देते हैं, मानद सदस्य नहीं।"
+
+#: includes/famefe-admin.php:272 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:108
+msgid "Membership type"
+msgstr "सदस्यता प्रकार"
+
+#: includes/famefe-admin.php:266
+msgid "For an existing account, the name and e-mail of the account are used; these fields only fill in what the account lacks."
+msgstr "मौजूदा खाते के लिए खाते का नाम और ईमेल उपयोग किया जाता है; ये फ़ील्ड केवल वही भरते हैं जो खाते में नहीं है।"
+
+#: includes/famefe-admin.php:264
+msgid "Changes of the name and e-mail are saved to the user account too."
+msgstr "नाम और ईमेल में बदलाव उपयोगकर्ता खाते में भी सहेजे जाते हैं।"
+
+#: includes/famefe-admin.php:262
+msgid "The name and e-mail come from the user account, which you are not allowed to edit."
+msgstr "नाम और ईमेल उस उपयोगकर्ता खाते से आते हैं जिसे संपादित करने की आपको अनुमति नहीं है।"
+
+#: includes/famefe-admin.php:254
+msgid "Last name"
+msgstr "अंतिम नाम"
+
+#: includes/famefe-admin.php:250
+msgid "First name"
+msgstr "पहला नाम"
+
+#: includes/famefe-admin.php:245
+msgid "Members with an account can record their hours and pay online."
+msgstr "खाते वाले सदस्य अपने घंटे दर्ज कर सकते हैं और ऑनलाइन भुगतान कर सकते हैं।"
+
+#: includes/famefe-admin.php:243
+msgid "Open the profile"
+msgstr "प्रोफ़ाइल खोलें"
+
+#: includes/famefe-admin.php:238
+msgid "Members with an account can record their hours and pay online. The name and e-mail of a linked member are those of the account."
+msgstr "खाते वाले सदस्य अपने घंटे दर्ज कर सकते हैं और ऑनलाइन भुगतान कर सकते हैं। लिंक किए गए सदस्य का नाम और ईमेल खाते के ही होते हैं।"
+
+#: includes/famefe-admin.php:236
+msgid "Without a user account"
+msgstr "उपयोगकर्ता खाते के बिना"
+
+#: includes/famefe-admin.php:233
+msgid "The account gets the default role of the site; the e-mail address is required."
+msgstr "खाते को साइट की डिफ़ॉल्ट भूमिका मिलती है; ईमेल पता आवश्यक है।"
+
+#: includes/famefe-admin.php:232
+msgid "Send the member an e-mail with a link for setting the password"
+msgstr "सदस्य को पासवर्ड सेट करने के लिंक वाला ईमेल भेजें"
+
+#: includes/famefe-admin.php:230
+msgid "Create a new user account"
+msgstr "नया उपयोगकर्ता खाता बनाएँ"
+
+#: includes/famefe-admin.php:227
+msgid "Existing user account"
+msgstr "मौजूदा उपयोगकर्ता खाता"
+
+#: includes/famefe-admin.php:217
+msgid "— No account —"
+msgstr "— कोई खाता नहीं —"
+
+#: includes/famefe-admin.php:205
+msgid "Details"
+msgstr "विवरण"
+
+#: includes/famefe-admin.php:202
+msgid "No account found."
+msgstr "कोई खाता नहीं मिला।"
+
+#. translators: %d: number of user accounts found.
+#: includes/famefe-admin.php:201
+msgid "Found: %d"
+msgstr "मिले: %d"
+
+#: includes/famefe-admin.php:199 includes/famefe-notices.php:46
+msgid "This user account already belongs to another member."
+msgstr "यह उपयोगकर्ता खाता पहले से किसी अन्य सदस्य का है।"
+
+#: includes/famefe-admin.php:194
+msgid "Back to the members"
+msgstr "सदस्यों पर वापस जाएँ"
+
+#: includes/famefe-admin.php:176
+msgid "Search members"
+msgstr "सदस्य खोजें"
+
+#: includes/famefe-admin.php:165 includes/famefe-admin.php:193 includes/famefe-admin.php:297
+msgid "Add member"
+msgstr "सदस्य जोड़ें"
+
+#: includes/famefe-admin.php:143
+msgid "Search user accounts"
+msgstr "उपयोगकर्ता खाते खोजें"
+
+#: includes/famefe-admin.php:142
+msgid "Search accounts by name or login…"
+msgstr "नाम या लॉगिन से खाते खोजें…"
+
+#. translators: 1: name of the person, 2: date and time.
+#: includes/famefe-admin.php:132
+msgid "%1$s on %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: %s: date and time.
+#: includes/famefe-admin.php:129
+msgid "automatically on %s"
+msgstr "स्वचालित रूप से, %s"
+
+#: includes/famefe-admin.php:33
+msgid "Help"
+msgstr "सहायता"
+
+#: includes/famefe-admin.php:32
+msgid "Settings"
+msgstr "सेटिंग्स"
+
+#: includes/famefe-admin.php:31 includes/famefe-admin.php:470
+msgid "Payments"
+msgstr "भुगतान"
+
+#: includes/famefe-admin.php:30 includes/famefe-admin.php:415
+msgid "Volunteer hours"
+msgstr "स्वयंसेवी घंटे"
+
+#: includes/famefe-admin.php:22
+msgid "Member Fees"
+msgstr "सदस्यता शुल्क"
+
+#: includes/famefe-admin-tables.php:334
+msgid "Delete this payment? The member will be shown as unpaid."
+msgstr "यह भुगतान हटाएँ? सदस्य को भुगतान न किया हुआ दिखाया जाएगा।"
+
+#: includes/famefe-admin-tables.php:324
+msgid "No payments recorded."
+msgstr "कोई भुगतान दर्ज नहीं है।"
+
+#: includes/famefe-admin-tables.php:307 includes/famefe-admin.php:293 includes/famefe-admin.php:356 includes/famefe-admin.php:381 includes/famefe-admin.php:494
+msgid "Note"
+msgstr "नोट"
+
+#: includes/famefe-admin-tables.php:305
+msgid "Amount"
+msgstr "राशि"
+
+#: includes/famefe-admin-tables.php:304 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:25
+msgid "Period"
+msgstr "अवधि"
+
+#. translators: %s: name of a user who is not a member.
+#: includes/famefe-admin-tables.php:266
+msgid "%s (not a member)"
+msgstr "%s (सदस्य नहीं)"
+
+#: includes/famefe-admin-tables.php:251
+msgid "Edit"
+msgstr "संपादित करें"
+
+#: includes/famefe-admin-tables.php:154
+msgid "Edit and history"
+msgstr "संपादन और इतिहास"
+
+#: includes/famefe-admin-tables.php:152
+msgid "(no name)"
+msgstr "(कोई नाम नहीं)"
+
+#: includes/famefe-admin-tables.php:128 includes/famefe-admin.php:443 includes/famefe-admin.php:501
+msgid "All"
+msgstr "सभी"
+
+#: includes/famefe-admin-tables.php:127 includes/famefe-admin.php:109 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:34
+msgid "Former members"
+msgstr "पूर्व सदस्य"
+
+#: includes/famefe-admin-tables.php:126 includes/famefe-admin.php:29 includes/famefe-admin.php:109 includes/famefe-admin.php:164 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:21
+msgid "Members"
+msgstr "सदस्य"
+
+#: includes/famefe-admin-tables.php:39 includes/famefe-admin.php:258
+msgid "Email"
+msgstr "ईमेल"
+
+#: includes/famefe-admin-tables.php:38 includes/famefe-admin.php:223
+msgid "User account"
+msgstr "उपयोगकर्ता खाता"
+
+#: build/blocks/membership-fees/render.php:306 src/blocks/membership-fees/render.php:306
+msgid "Only administrators and editors see this form. The amount is the calculated fee of the member."
+msgstr "यह फ़ॉर्म केवल व्यवस्थापक और संपादक देखते हैं। राशि सदस्य का गणना किया गया शुल्क है।"
+
+#: build/blocks/membership-fees/render.php:305 includes/famefe-admin.php:495 src/blocks/membership-fees/render.php:305
+msgid "Record payment"
+msgstr "भुगतान दर्ज करें"
+
+#: build/blocks/membership-fees/render.php:295 includes/famefe-admin-tables.php:306 includes/famefe-admin.php:487 src/blocks/membership-fees/render.php:295
+msgid "Method"
+msgstr "विधि"
+
+#: build/blocks/membership-fees/render.php:287 src/blocks/membership-fees/render.php:287
+msgid "Member and fee"
+msgstr "सदस्य और शुल्क"
+
+#: build/blocks/membership-fees/render.php:283 src/blocks/membership-fees/render.php:283
+msgid "Record a cash or bank payment (administrators and editors)"
+msgstr "नकद या बैंक ट्रांसफ़र भुगतान दर्ज करें (व्यवस्थापक और संपादक)"
+
+#: build/blocks/membership-fees/render.php:267 src/blocks/membership-fees/render.php:267
+msgid "(Visible only to administrators and editors.)"
+msgstr "(केवल व्यवस्थापकों और संपादकों को दिखाई देता है।)"
+
+#: build/blocks/membership-fees/render.php:261 src/blocks/membership-fees/render.php:261
+msgid "The payment button is shown only to logged-in regular members who have a fee to pay."
+msgstr "भुगतान बटन केवल उन लॉग इन किए हुए नियमित सदस्यों को दिखाया जाता है जिन्हें शुल्क चुकाना है।"
+
+#: build/blocks/membership-fees/render.php:259 src/blocks/membership-fees/render.php:259
+msgid "The fees are final, but members cannot pay online: Stripe is not set up yet (Member Fees → Settings → Stripe secret key)."
+msgstr "शुल्क अंतिम हैं, लेकिन सदस्य ऑनलाइन भुगतान नहीं कर सकते: Stripe अभी सेट अप नहीं है (सदस्यता शुल्क → सेटिंग्स → Stripe सीक्रेट कुंजी)।"
+
+#: build/blocks/membership-fees/render.php:257 src/blocks/membership-fees/render.php:257
+msgid "The payment button is off: the fees are shown as calculated so far. Turn it on in the block settings (\"Payment button\") once the volunteer hours of the period are closed and the fees are final. Leave it off if you do not collect fees through this page."
+msgstr "भुगतान बटन बंद है: शुल्क अब तक की गणना के अनुसार दिखाए जाते हैं। अवधि के स्वयंसेवी घंटे बंद होने और शुल्क अंतिम होने पर इसे ब्लॉक सेटिंग्स (\"भुगतान बटन\") में चालू करें। यदि आप इस पेज के ज़रिए शुल्क नहीं लेते, तो इसे बंद ही रहने दें।"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:244 src/blocks/membership-fees/render.php:244
+msgid "Pay %s online"
+msgstr "%s का ऑनलाइन भुगतान करें"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:233 src/blocks/membership-fees/render.php:233
+msgid "Your membership fee: %s"
+msgstr "आपका सदस्यता शुल्क: %s"
+
+#: build/blocks/membership-fees/render.php:227 src/blocks/membership-fees/render.php:227
+msgid "You do not need to pay a membership fee for this period. Thank you for your work!"
+msgstr "इस अवधि के लिए आपको सदस्यता शुल्क नहीं देना है। आपके काम के लिए धन्यवाद!"
+
+#: build/blocks/membership-fees/render.php:221 src/blocks/membership-fees/render.php:221
+msgid "The fee will be final once the volunteer hours of this period are closed."
+msgstr "इस अवधि के स्वयंसेवी घंटे बंद होने पर शुल्क अंतिम होगा।"
+
+#: build/blocks/membership-fees/render.php:219 src/blocks/membership-fees/render.php:219
+msgid "The fee will be final once the volunteer hours of this period are closed; then you can pay it here."
+msgstr "इस अवधि के स्वयंसेवी घंटे बंद होने पर शुल्क अंतिम होगा; तब आप इसका भुगतान यहाँ कर सकेंगे।"
+
+#: build/blocks/membership-fees/render.php:214 src/blocks/membership-fees/render.php:214
+msgid "Thank you for your work!"
+msgstr "आपके काम के लिए धन्यवाद!"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:209 src/blocks/membership-fees/render.php:209
+msgid "With the volunteer hours recorded so far, your membership fee is %s."
+msgstr "अब तक दर्ज स्वयंसेवी घंटों के अनुसार आपका सदस्यता शुल्क %s है।"
+
+#. translators: 1: amount, 2: date.
+#: build/blocks/membership-fees/render.php:198 src/blocks/membership-fees/render.php:198
+msgid "You paid %1$s on %2$s. Thank you!"
+msgstr "आपने %2$s को %1$s का भुगतान किया। धन्यवाद!"
+
+#: build/blocks/membership-fees/render.php:144 src/blocks/membership-fees/render.php:144
+msgid "There are no members in this period."
+msgstr "इस अवधि में कोई सदस्य नहीं है।"
+
+#. translators: 1: period (from – to), 2: base fee with currency.
+#: build/blocks/membership-fees/render.php:135 src/blocks/membership-fees/render.php:135
+msgid "Membership fees for %1$s. Base fee: %2$s."
+msgstr "%1$s के लिए सदस्यता शुल्क। मूल शुल्क: %2$s।"
+
+#. translators: 1: first day of the period, 2: last day of the period.
+#: build/blocks/membership-fees/render.php:122 src/blocks/membership-fees/render.php:122
+msgid "%1$s – %2$s"
+msgstr "%1$s – %2$s"
+
+#: build/blocks/membership-fees/render.php:106 src/blocks/membership-fees/render.php:106
+msgid "Non-members and former members"
+msgstr "गैर-सदस्य और पूर्व सदस्य"
+
+#. translators: 1: number of members who paid, 2: number of regular members.
+#: build/blocks/membership-fees/render.php:94 src/blocks/membership-fees/render.php:94
+msgid "%1$d of %2$d"
+msgstr "%2$d में से %1$d"
+
+#: build/blocks/membership-fees/render.php:47 build/blocks/membership-fees/render.php:302 includes/famefe-admin-tables.php:302 includes/famefe-admin.php:493 src/blocks/membership-fees/render.php:47 src/blocks/membership-fees/render.php:302 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:125
+msgid "Paid on"
+msgstr "भुगतान तिथि"
+
+#: build/blocks/members-list/render.php:99 includes/famefe-admin-tables.php:160 includes/famefe-admin.php:370 includes/famefe-users.php:159 src/blocks/members-list/render.php:99
+msgid "Former member"
+msgstr "पूर्व सदस्य"
+
+#: build/blocks/members-list/render.php:83 src/blocks/members-list/render.php:83 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:38
+msgid "Search by name"
+msgstr "नाम से खोजें"
+
+#: build/blocks/members-list/render.php:82 src/blocks/members-list/render.php:82
+msgid "Search by name…"
+msgstr "नाम से खोजें…"
+
+#: build/blocks/members-list/render.php:77 includes/famefe-admin-tables.php:146 src/blocks/members-list/render.php:77
+msgid "No members found."
+msgstr "कोई सदस्य नहीं मिला।"
+
+#. translators: %d: number of current members.
+#: build/blocks/members-list/render.php:72 src/blocks/members-list/render.php:72
+msgid "Current members (%d)"
+msgstr "वर्तमान सदस्य (%d)"
+
+#. translators: %d: number of former members.
+#: build/blocks/members-list/render.php:69 src/blocks/members-list/render.php:69
+msgid "Former members (%d)"
+msgstr "पूर्व सदस्य (%d)"
+
+#. translators: %d: number of honorary members.
+#: build/blocks/members-list/render.php:66 build/blocks/membership-fees/render.php:99 src/blocks/members-list/render.php:66 src/blocks/membership-fees/render.php:99
+msgid "Honorary members (%d)"
+msgstr "मानद सदस्य (%d)"
+
+#. translators: %d: number of regular members.
+#: build/blocks/members-list/render.php:64 build/blocks/membership-fees/render.php:86 src/blocks/members-list/render.php:64 src/blocks/membership-fees/render.php:86
+msgid "Regular members (%d)"
+msgstr "नियमित सदस्य (%d)"
+
+#: build/blocks/members-list/render.php:45 includes/famefe-admin-tables.php:37 includes/famefe-admin-tables.php:220 includes/famefe-admin-tables.php:308 includes/famefe-admin.php:382 src/blocks/members-list/render.php:45 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:80
+msgid "Recorded by"
+msgstr "दर्ज करने वाले"
+
+#: build/blocks/members-list/render.php:44 includes/famefe-admin-tables.php:36 includes/famefe-admin.php:377 src/blocks/members-list/render.php:44 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:76
+msgid "Change date"
+msgstr "बदलाव की तारीख"
+
+#: build/blocks/members-list/render.php:43 includes/famefe-admin-tables.php:35 src/blocks/members-list/render.php:43 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:72
+msgid "Last change"
+msgstr "पिछला बदलाव"
+
+#: build/blocks/members-list/render.php:42 includes/famefe-admin-tables.php:34 includes/famefe-admin.php:284 src/blocks/members-list/render.php:42 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:68
+msgid "Member since"
+msgstr "सदस्य कब से"
+
+#: build/blocks/members-list/render.php:19 src/blocks/members-list/render.php:19
+msgid "The list of members is available to logged-in users."
+msgstr "सदस्य सूची लॉग इन किए हुए उपयोगकर्ताओं के लिए उपलब्ध है।"
+
+#. translators: 1: number of hours, 2: number of entries.
+#: build/blocks/hours-list/render.php:112 src/blocks/hours-list/render.php:112
+msgid "Total: %1$s hours in %2$d entry"
+msgid_plural "Total: %1$s hours in %2$d entries"
+msgstr[0] "कुल: %2$d प्रविष्टि में %1$s घंटे"
+msgstr[1] "कुल: %2$d प्रविष्टियों में %1$s घंटे"
+
+#: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:256 includes/famefe-admin-tables.php:335 src/blocks/hours-list/render.php:94
+msgid "Delete"
+msgstr "हटाएँ"
+
+#: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:255 src/blocks/hours-list/render.php:94
+msgid "Delete these hours?"
+msgstr "ये घंटे हटाएँ?"
+
+#: build/blocks/hours-list/render.php:72 src/blocks/hours-list/render.php:72
+msgid "Actions"
+msgstr "कार्रवाइयाँ"
+
+#: build/blocks/hours-list/render.php:69 build/blocks/members-list/render.php:46 src/blocks/hours-list/render.php:69 src/blocks/members-list/render.php:46 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 src/blocks/hours-list/index.js:75 src/blocks/members-list/index.js:84
+msgid "Recorded on"
+msgstr "दर्ज करने की तारीख"
+
+#: build/blocks/hours-list/render.php:62 build/blocks/members-list/render.php:39 build/blocks/membership-fees/render.php:28 includes/famefe-admin-tables.php:32 includes/famefe-admin-tables.php:217 src/blocks/hours-list/render.php:62 src/blocks/members-list/render.php:39 src/blocks/membership-fees/render.php:28 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:73
+msgid "Name"
+msgstr "नाम"
+
+#: build/blocks/hours-list/render.php:50 includes/famefe-admin-tables.php:243 src/blocks/hours-list/render.php:50
+msgid "No hours recorded."
+msgstr "कोई घंटे दर्ज नहीं हैं।"
+
+#: build/blocks/hours-list/render.php:19 src/blocks/hours-list/render.php:19
+msgid "Log in to see your volunteer hours."
+msgstr "अपने स्वयंसेवी घंटे देखने के लिए लॉग इन करें।"
+
+#: build/blocks/hours-form/render.php:118 src/blocks/hours-form/render.php:118
+msgid "My recent entries"
+msgstr "मेरी हाल की प्रविष्टियाँ"
+
+#: build/blocks/hours-form/render.php:59 build/blocks/hours-form/render.php:125 build/blocks/hours-list/render.php:66 includes/famefe-admin-tables.php:219 includes/famefe-admin.php:430 src/blocks/hours-form/render.php:59 src/blocks/hours-form/render.php:125 src/blocks/hours-list/render.php:66 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:74
+msgid "Work done"
+msgstr "किया गया काम"
+
+#: build/blocks/hours-form/render.php:57 build/blocks/hours-form/render.php:123 build/blocks/hours-list/render.php:60 includes/famefe-admin-tables.php:216 includes/famefe-admin.php:428 src/blocks/hours-form/render.php:57 src/blocks/hours-form/render.php:123 src/blocks/hours-list/render.php:60
+msgid "Date"
+msgstr "तारीख"
+
+#: build/blocks/hours-form/render.php:39 includes/famefe-notices.php:52 src/blocks/hours-form/render.php:39
+msgid "Only members can record volunteer hours."
+msgstr "केवल सदस्य ही स्वयंसेवी घंटे दर्ज कर सकते हैं।"
+
+#: build/blocks/hours-form/render.php:34 build/blocks/hours-list/render.php:21 build/blocks/members-list/render.php:21 src/blocks/hours-form/render.php:34 src/blocks/hours-list/render.php:21 src/blocks/members-list/render.php:21
+msgid "Log in"
+msgstr "लॉग इन करें"
+
+#: build/blocks/hours-form/render.php:32 src/blocks/hours-form/render.php:32
+msgid "Log in to record your volunteer hours."
+msgstr "अपने स्वयंसेवी घंटे दर्ज करने के लिए लॉग इन करें।"
+
+#: build/blocks/hours-form/render.php:22 includes/famefe-admin.php:431 src/blocks/hours-form/render.php:22 build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:82
+msgid "Add hours"
+msgstr "घंटे जोड़ें"
+
+#. translators: %s: twice the base fee.
+#: build/blocks/fee-explanation/render.php:219 src/blocks/fee-explanation/render.php:219
+msgid "A member without any volunteer hours in the period always pays twice the base fee, %s: paying instead of working should never be the cheaper choice."
+msgstr "अवधि में बिना किसी स्वयंसेवी घंटे वाला सदस्य हमेशा मूल शुल्क का दोगुना, यानी %s, भुगतान करता है: काम के बजाय भुगतान करना कभी भी सस्ता विकल्प नहीं होना चाहिए।"
+
+#: build/blocks/fee-explanation/render.php:209 src/blocks/fee-explanation/render.php:209
+msgid "The calculated fees do not exceed it, so there is no discount."
+msgstr "गणना किए गए शुल्क इससे अधिक नहीं हैं, इसलिए कोई छूट नहीं है।"
+
+#. translators: 1: share of members in percent, 2: discount in percent, 3:
+#. number of members with the discount.
+#: build/blocks/fee-explanation/render.php:203 src/blocks/fee-explanation/render.php:203
+msgid "The %1$s %% of regular members with the lowest calculated fees pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never). The discount is not added to the fees of the others, so the club collects less than the expected total."
+msgstr "सबसे कम गणना किए गए शुल्क वाले %1$s %% नियमित सदस्य %2$s %% कम भुगतान करते हैं (यहाँ %3$d सदस्य; उनमें से अंतिम के बराबर शुल्क वाले सदस्यों को भी यह मिलती है, बिना घंटों वाले सदस्यों को कभी नहीं)। छूट दूसरों के शुल्क में नहीं जोड़ी जाती, इसलिए क्लब अपेक्षित कुल से कम वसूल करता है।"
+
+#. translators: 1: share of members in percent, 2: calculated discount in
+#. percent, 3: number of members with the discount.
+#: build/blocks/fee-explanation/render.php:195 src/blocks/fee-explanation/render.php:195
+msgid "The %1$s %% of regular members with the lowest calculated fees therefore pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never)."
+msgstr "इसलिए सबसे कम गणना किए गए शुल्क वाले %1$s %% नियमित सदस्य %2$s %% कम भुगतान करते हैं (यहाँ %3$d सदस्य; उनमें से अंतिम के बराबर शुल्क वाले सदस्यों को भी यह मिलती है, बिना घंटों वाले सदस्यों को कभी नहीं)।"
+
+#. translators: %s: total the regular members should pay.
+#: build/blocks/fee-explanation/render.php:188 src/blocks/fee-explanation/render.php:188
+msgid "The regular members should pay %s together."
+msgstr "नियमित सदस्यों को मिलकर %s का भुगतान करना चाहिए।"
+
+#: build/blocks/fee-explanation/render.php:182 src/blocks/fee-explanation/render.php:182
+msgid "4. Discount"
+msgstr "4. छूट"
+
+#: build/blocks/fee-explanation/render.php:141 build/blocks/membership-fees/render.php:45 src/blocks/fee-explanation/render.php:141 src/blocks/membership-fees/render.php:45
+msgid "Fee to pay"
+msgstr "देय शुल्क"
+
+#: build/blocks/fee-explanation/render.php:140 build/blocks/membership-fees/render.php:43 src/blocks/fee-explanation/render.php:140 src/blocks/membership-fees/render.php:43 build/blocks/fee-explanation/index.js:3 build/blocks/membership-fees/index.js:3 src/blocks/fee-explanation/index.js:64 src/blocks/membership-fees/index.js:83
+msgid "Discount"
+msgstr "छूट"
+
+#: build/blocks/fee-explanation/render.php:138 build/blocks/membership-fees/render.php:42 src/blocks/fee-explanation/render.php:138 src/blocks/membership-fees/render.php:42
+msgid "Calculated fee"
+msgstr "गणना किया गया शुल्क"
+
+#: build/blocks/fee-explanation/render.php:137 build/blocks/membership-fees/render.php:39 src/blocks/fee-explanation/render.php:137 src/blocks/membership-fees/render.php:39 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:117
+msgid "Unreduced fee"
+msgstr "समायोजन से पहले का शुल्क"
+
+#: build/blocks/fee-explanation/render.php:136 build/blocks/membership-fees/render.php:36 src/blocks/fee-explanation/render.php:136 src/blocks/membership-fees/render.php:36 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:113
+msgid "Share of hours"
+msgstr "घंटों का हिस्सा"
+
+#. translators: 1: sum of the unreduced fees, 2: expected total, 3: amount
+#. taken off each fee.
+#: build/blocks/fee-explanation/render.php:123 src/blocks/fee-explanation/render.php:123
+msgid "The unreduced fees add up to %1$s, more than the expected total of %2$s. The difference is shared equally: each fee is lowered by %3$s, so all fees together give the expected total. No fee goes below zero; if one would, that member pays nothing and the rest is shared by the members who volunteered."
+msgstr "समायोजन से पहले के शुल्कों का योग %1$s है, जो %2$s के अपेक्षित कुल से अधिक है। अंतर बराबर बाँटा जाता है: हर शुल्क %3$s घटाया जाता है, ताकि सभी शुल्क मिलकर अपेक्षित कुल दें। कोई भी शुल्क शून्य से नीचे नहीं जाता; यदि ऐसा होता, तो वह सदस्य कुछ भी भुगतान नहीं करता और शेष राशि स्वयंसेवा करने वाले सदस्यों में बाँटी जाती है।"
+
+#. translators: %s: hours of all regular members.
+#: build/blocks/fee-explanation/render.php:116 src/blocks/fee-explanation/render.php:116
+msgid "Each regular member’s share of the hours of all regular members (%s hours) lowers the unreduced fee: unreduced fee = expected total × (1 − share of hours)."
+msgstr "सभी नियमित सदस्यों के घंटों (%s घंटे) में प्रत्येक नियमित सदस्य का हिस्सा समायोजन से पहले का शुल्क घटाता है: समायोजन से पहले का शुल्क = अपेक्षित कुल × (1 − घंटों का हिस्सा)।"
+
+#: build/blocks/fee-explanation/render.php:111 src/blocks/fee-explanation/render.php:111
+msgid "3. Fee of each member"
+msgstr "3. प्रत्येक सदस्य का शुल्क"
+
+#. translators: 1: base fee, 2: number of regular members, 3: base fee again,
+#. 4: expected total.
+#: build/blocks/fee-explanation/render.php:102 src/blocks/fee-explanation/render.php:102
+msgid "The base fee is %1$s. Together, the %2$d regular members are expected to pay %3$s × %2$d = %4$s."
+msgstr "मूल शुल्क %1$s है। %2$d नियमित सदस्यों से मिलकर %3$s × %2$d = %4$s के भुगतान की अपेक्षा है।"
+
+#: build/blocks/fee-explanation/render.php:97 src/blocks/fee-explanation/render.php:97
+msgid "2. Expected total"
+msgstr "2. अपेक्षित कुल"
+
+#. translators: %d: number of honorary members.
+#: build/blocks/fee-explanation/render.php:92 src/blocks/fee-explanation/render.php:92
+msgid "%d honorary member"
+msgid_plural "%d honorary members"
+msgstr[0] "%d मानद सदस्य"
+msgstr[1] "%d मानद सदस्य"
+
+#. translators: %d: number of regular members.
+#: build/blocks/fee-explanation/render.php:90 src/blocks/fee-explanation/render.php:90
+msgid "%d regular member"
+msgid_plural "%d regular members"
+msgstr[0] "%d नियमित सदस्य"
+msgstr[1] "%d नियमित सदस्य"
+
+#. translators: 1: "5 regular members", 2: "1 honorary member".
+#: build/blocks/fee-explanation/render.php:88 src/blocks/fee-explanation/render.php:88
+msgid "Members in the example: %1$s and %2$s. Honorary members do not pay a membership fee, and their hours do not count in the calculation."
+msgstr "उदाहरण में सदस्य: %1$s और %2$s। मानद सदस्य सदस्यता शुल्क नहीं देते और उनके घंटे गणना में नहीं गिने जाते।"
+
+#: build/blocks/fee-explanation/render.php:78 build/blocks/fee-explanation/render.php:167 build/blocks/membership-fees/render.php:112 src/blocks/fee-explanation/render.php:78 src/blocks/fee-explanation/render.php:167 src/blocks/membership-fees/render.php:112
+msgid "Total"
+msgstr "कुल"
+
+#: build/blocks/fee-explanation/render.php:64 build/blocks/fee-explanation/render.php:135 build/blocks/hours-form/render.php:58 build/blocks/hours-form/render.php:124 build/blocks/hours-list/render.php:64 build/blocks/membership-fees/render.php:33 includes/famefe-admin-tables.php:218 includes/famefe-admin.php:429 src/blocks/fee-explanation/render.php:64 src/blocks/fee-explanation/render.php:135 src/blocks/hours-form/render.php:58 src/blocks/hours-form/render.php:124 src/blocks/hours-list/render.php:64 src/blocks/membership-fees/render.php:33 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:112
+msgid "Hours"
+msgstr "घंटे"
+
+#: build/blocks/fee-explanation/render.php:63 build/blocks/members-list/render.php:41 build/blocks/membership-fees/render.php:30 includes/famefe-admin-tables.php:33 src/blocks/fee-explanation/render.php:63 src/blocks/members-list/render.php:41 src/blocks/membership-fees/render.php:30 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:67
+msgid "Type"
+msgstr "प्रकार"
+
+#: build/blocks/fee-explanation/render.php:62 build/blocks/fee-explanation/render.php:134 build/blocks/hours-form/render.php:56 includes/famefe-admin-tables.php:303 includes/famefe-admin.php:420 includes/famefe-admin.php:441 includes/famefe-admin.php:475 includes/famefe-admin.php:499 includes/famefe-users.php:83 includes/famefe-users.php:139 src/blocks/fee-explanation/render.php:62 src/blocks/fee-explanation/render.php:134 src/blocks/hours-form/render.php:56
+msgid "Member"
+msgstr "सदस्य"
+
+#: build/blocks/fee-explanation/render.php:57 src/blocks/fee-explanation/render.php:57
+msgid "1. Members and their hours"
+msgstr "1. सदस्य और उनके घंटे"
+
+#: build/blocks/fee-explanation/render.php:55 src/blocks/fee-explanation/render.php:55
+msgid "The membership fee depends on how much each member volunteered for the club, measured in the recorded hours. Members only need to record their hours; the fees are calculated from them. The following example shows how."
+msgstr "सदस्यता शुल्क इस पर निर्भर करता है कि हर सदस्य ने क्लब के लिए कितनी स्वयंसेवा की, जिसे दर्ज घंटों से मापा जाता है। सदस्यों को केवल अपने घंटे दर्ज करने होते हैं; शुल्क उन्हीं से गणना किए जाते हैं। निम्न उदाहरण दिखाता है कि कैसे।"
+
+#. translators: %d: number of the member in the example.
+#: build/blocks/fee-explanation/render.php:52 src/blocks/fee-explanation/render.php:52
+msgid "Member %d"
+msgstr "सदस्य %d"
+
+#. Author of the plugin
+#: fair-member-fees.php
+msgid "globus2008"
+msgstr "globus2008"
+
+#. Description of the plugin
+#: fair-member-fees.php
+msgid "Membership register with a change history, volunteer hours and a fair membership fee: members who volunteer more pay less. Optional discount and payment through Stripe. Built with blocks."
+msgstr "बदलाव इतिहास वाला सदस्य रजिस्टर, स्वयंसेवी घंटे और उचित सदस्यता शुल्क: जो सदस्य अधिक स्वयंसेवा करते हैं, वे कम भुगतान करते हैं। वैकल्पिक छूट और Stripe से भुगतान। ब्लॉक से बना।"
+
+#. Plugin Name of the plugin
+#: fair-member-fees.php includes/famefe-admin.php:21
+msgid "Fair Member Fees"
+msgstr "Fair Member Fees"

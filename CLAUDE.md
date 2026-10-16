@@ -40,7 +40,18 @@
 | `includes/famefe-block-forms.php` | admin-post handlers of the block forms (hours, manual payment, checkout) |
 | `includes/famefe-admin*.php` | Admin pages (Members, Volunteer hours, Payments, Settings, Help), list tables, handlers |
 | `src/blocks/*` -> `build/blocks/*` | 5 dynamic blocks; `npm run build`. Shared editor code `src/blocks/shared.js`, CSS `assets/blocks.css` |
-| `languages/` | POT + cs_CZ (.po/.mo/.json). Not loaded by the plugin (no `load_plugin_textdomain`, owner 2026-10-11): translations come only from translate.wordpress.org language packs; the cs_CZ .po is the source to import there. The cs_CZ files are `export-ignore` (wp.org review 2026-10-12: no .po/.mo in the ZIP; the POT may stay). Regenerate: `wp i18n make-pot . languages/fair-member-fees.pot --exclude=node_modules,src,tools` |
+| `languages/` | POT + cs_CZ (.po/.mo/.json). Not loaded by the plugin (no `load_plugin_textdomain`, owner 2026-10-11): translations come only from translate.wordpress.org language packs; the cs_CZ .po is the source to import there. The cs_CZ files are `export-ignore` (wp.org review 2026-10-12: no .po/.mo in the ZIP; the POT may stay). Regenerate: `wp i18n make-pot . languages/fair-member-fees.pot --exclude=node_modules,src,tools`. `languages/<locale>/` (41 locales, same set and folder names as Rotation Tournaments, export-ignored): PO files of the translate.wordpress.org projects `dev` and `dev-readme`, made 2026-10-16 from the en_GB templates of GlotPress, to import there as suggestions |
+
+## Translations (languages/<locale>/, 2026-10-16)
+- The plugin name "Fair Member Fees" and the block keyword "fair member fees" stay untranslated in every locale
+  (the help and readme tell users to search for that name; nl and es_MX editors of Rotation Tournaments wanted it).
+- Name examples of the "Names in blocks" setting use a local name; the masked one is first 4 + last 4 characters of
+  "First Last" including the space (`famefe_mask_name()`), e.g. de "Erika Mustermann" → "Erikmann". The en_US source
+  says "Janaková" next to "Jane Smith"; the en_* files use "Janemith".
+- Variants as in Rotation Tournaments: de = du, de_formal = Sie, de_CH (Sie) and de_CH_informal (du) with ß → ss;
+  es «», es_MX/es_CL “” + "Ingresa", es_AR voseo; en_* copies with "email"; fr no-break spaces before : ; ! ? » %.
+- Terms: volunteer hours = nb "dugnadstimer", fi "talkootunnit", cs/sk "brigádnické hodiny"; fee = de "Mitgliedsbeitrag",
+  fr "cotisation", nl "contributie", da/nb "kontingent", pt_BR "contribuição associativa".
 
 ## Data
 - `famefe_members` (user_id optional + unique, member_type regular|honorary, status active|left, member_since, left_on).

@@ -1,0 +1,1461 @@
+# Translation of Plugins - Fair Member Fees - Development (trunk) in Romanian
+# This file is distributed under the same license as the Plugins - Fair Member Fees - Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Fair Member Fees - Development (trunk)\n"
+"PO-Revision-Date: 2026-10-16 12:00:00+0000\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.1.0\n"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "payment"
+msgstr "plată"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block description"
+msgid "Fair membership fees for a period: members who volunteered more pay less. Once the hours of the period are closed, members can pay online; administrators and editors record cash and bank payments."
+msgstr "Cotizații echitabile pentru o perioadă: membrii care fac mai multe ore de voluntariat plătesc mai puțin. După închiderea orelor perioadei, membrii pot plăti online; administratorii și editorii înregistrează plățile în numerar și prin transfer bancar."
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block title"
+msgid "Membership fees"
+msgstr "Cotizații"
+
+#: build/blocks/members-list/block.json build/blocks/membership-fees/block.json src/blocks/members-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "membership"
+msgstr "calitate de membru"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block keyword"
+msgid "register"
+msgstr "registru"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block keyword"
+msgid "members"
+msgstr "membri"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block description"
+msgid "The membership register: members, their type, membership changes and who recorded them."
+msgstr "Registrul membrilor: membrii, tipul lor, modificările calității de membru și cine le-a înregistrat."
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block title"
+msgid "Members list"
+msgstr "Listă de membri"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr "listă"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block description"
+msgid "Recorded volunteer hours of a period."
+msgstr "Orele de voluntariat înregistrate într-o perioadă."
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block title"
+msgid "Volunteer hours list"
+msgstr "Listă de ore de voluntariat"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "formular"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block keyword"
+msgid "work"
+msgstr "muncă"
+
+#: build/blocks/hours-form/block.json build/blocks/hours-list/block.json build/blocks/membership-fees/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "volunteer"
+msgstr "voluntariat"
+
+#: build/blocks/hours-form/block.json build/blocks/hours-list/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json
+msgctxt "block keyword"
+msgid "hours"
+msgstr "ore"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block description"
+msgid "Logged-in members record the hours they volunteered."
+msgstr "Membrii autentificați înregistrează orele de voluntariat pe care le-au făcut."
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block title"
+msgid "Volunteer hours form"
+msgstr "Formular pentru ore de voluntariat"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "help"
+msgstr "ajutor"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "example"
+msgstr "exemplu"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "calculation"
+msgstr "calcul"
+
+#: build/blocks/fee-explanation/block.json build/blocks/hours-form/block.json build/blocks/hours-list/block.json build/blocks/members-list/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json src/blocks/members-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "fair member fees"
+msgstr "fair member fees"
+
+#: build/blocks/fee-explanation/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "fee"
+msgstr "cotizație"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block description"
+msgid "Explains on an example how the fair membership fee is calculated."
+msgstr "Explică printr-un exemplu cum se calculează cotizația echitabilă."
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block title"
+msgid "Fee calculation explained"
+msgstr "Calculul cotizației explicat"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:155
+msgid "Highlight the logged-in member"
+msgstr "Evidențiază membrul autentificat"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:147
+msgid "Period and base fee above the table"
+msgstr "Perioada și cotizația de bază deasupra tabelului"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:143
+msgid "List honorary members"
+msgstr "Afișează membrii de onoare"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:121
+msgid "Calculated fee and discount (when the discount is on)"
+msgstr "Cotizația calculată și reducerea (când reducerea este activă)"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:94
+msgid "Members who volunteered the most pay even less. The discount is not added to the fees of the others."
+msgstr "Membrii care au făcut cele mai multe ore de voluntariat plătesc și mai puțin. Reducerea nu se adaugă la cotizațiile celorlalți."
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:90
+msgid "Discount for the lowest fees"
+msgstr "Reducere pentru cele mai mici cotizații"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:72
+msgid "Turn on once the volunteer hours of the period are closed: members then see their final fee and can pay it. While it is off, the fees are shown as calculated from the hours recorded so far. Leave it off if you do not collect fees through this page."
+msgstr "Activați-l când orele de voluntariat ale perioadei sunt închise: membrii își văd atunci cotizația finală și o pot plăti. Cât timp este dezactivat, cotizațiile sunt afișate așa cum sunt calculate din orele înregistrate până acum. Lăsați-l dezactivat dacă nu încasați cotizații prin această pagină."
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:68
+msgid "Payment button (the fees are final)"
+msgstr "Buton de plată (cotizațiile sunt finale)"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:59
+msgid "The fee of a regular member when nobody volunteers. All regular members together pay the base fee times their number."
+msgstr "Cotizația unui membru titular când nimeni nu face ore de voluntariat. Toți membrii titulari plătesc împreună cotizația de bază înmulțită cu numărul lor."
+
+#: build/blocks/membership-fees/index.js:2 src/blocks/membership-fees/index.js:46
+msgid "Members of this period pay; their hours of this period lower the fee. Payments are recorded for exactly this period."
+msgstr "Plătesc membrii acestei perioade; orele lor din această perioadă reduc cotizația. Plățile sunt înregistrate exact pentru această perioadă."
+
+#: build/blocks/membership-fees/index.js:2 src/blocks/membership-fees/index.js:42
+msgid "Period and fee"
+msgstr "Perioadă și cotizație"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/members-list/index.js:54 src/blocks/membership-fees/index.js:101
+msgid "Columns"
+msgstr "Coloane"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:46
+msgid "Only for logged-in visitors"
+msgstr "Doar pentru vizitatorii autentificați"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/members-list/index.js:42 src/blocks/membership-fees/index.js:151
+msgid "Totals rows at the end of the table"
+msgstr "Rânduri de totaluri la sfârșitul tabelului"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:30
+msgid "Honorary members"
+msgstr "Membri de onoare"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:26
+msgid "Regular members"
+msgstr "Membri titulari"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:360
+msgid "Totals rows text"
+msgstr "Textul rândurilor de totaluri"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:356
+msgid "Totals rows background"
+msgstr "Fundalul rândurilor de totaluri"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:353
+msgid "Header text"
+msgstr "Textul antetului"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:351
+msgid "Header background"
+msgstr "Fundalul antetului"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:346
+msgid "Table colours"
+msgstr "Culorile tabelului"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:127
+msgid "They may delete any entry within this time. Older entries can still be deleted in Member Fees → Volunteer hours."
+msgstr "Ei pot șterge orice înregistrare în acest interval. Înregistrările mai vechi pot fi șterse în continuare în Cotizații → Ore de voluntariat."
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:123
+msgid "Administrators and editors: days after recording"
+msgstr "Administratori și editori: zile după înregistrare"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:106
+msgid "Members delete only hours they recorded themselves, e.g. after a mistake. 0 = only on the day of recording."
+msgstr "Membrii șterg doar orele pe care le-au înregistrat ei înșiși, de ex. după o greșeală. 0 = doar în ziua înregistrării."
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:102
+msgid "Members: days after recording"
+msgstr "Membri: zile după înregistrare"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:91
+msgid "Allow deleting hours"
+msgstr "Permite ștergerea orelor"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:84
+msgid "Deleting"
+msgstr "Ștergere"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:79
+msgid "Total below"
+msgstr "Total dedesubt"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/hours-list/index.js:60 src/blocks/membership-fees/index.js:130
+msgid "Display"
+msgstr "Afișare"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:52
+msgid "Only the hours of the logged-in visitor"
+msgstr "Doar orele vizitatorului autentificat"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:37
+msgid "Maximum entries"
+msgstr "Număr maxim de înregistrări"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:29
+msgid "Leave empty for no limit."
+msgstr "Lăsați gol pentru nicio limită."
+
+#: build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:94
+msgid "As in the plugin settings"
+msgstr "Ca în setările modulului"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:89
+msgid "Names"
+msgstr "Nume"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:106
+msgid "Number of recent entries"
+msgstr "Numărul de înregistrări recente"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:96
+msgid "Show my recent entries"
+msgstr "Afișează înregistrările mele recente"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:92
+msgid "Description of the work is required"
+msgstr "Descrierea muncii este obligatorie"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:81
+msgid "Button text"
+msgstr "Textul butonului"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:63
+msgid "How old the date of the work may be. 0 = only today."
+msgstr "Cât de veche poate fi data muncii. 0 = doar astăzi."
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:62
+msgid "Days back"
+msgstr "Zile în urmă"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:49
+msgid "Off: hours are always recorded for today, so nobody can add hours to the past or change a closed period. Administrators and editors can always choose the date."
+msgstr "Dezactivat: orele sunt înregistrate mereu pentru astăzi, astfel încât nimeni nu poate adăuga ore în trecut sau modifica o perioadă închisă. Administratorii și editorii pot alege oricând data."
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:45
+msgid "Members may change the date"
+msgstr "Membrii pot schimba data"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:35
+msgid "Step of the hours"
+msgstr "Pasul orelor"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:23
+msgid "Maximum hours per entry"
+msgstr "Numărul maxim de ore per înregistrare"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:18
+msgid "Form"
+msgstr "Formular"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:71
+msgid "Explain the discount"
+msgstr "Explică reducerea"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:53
+msgid "Hours of the honorary members"
+msgstr "Orele membrilor de onoare"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:41
+msgid "One number per member, separated by commas or spaces."
+msgstr "Câte un număr pentru fiecare membru, separate prin virgule sau spații."
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:37
+msgid "Hours of the regular members"
+msgstr "Orele membrilor titulari"
+
+#. translators: %s: currency code.
+#: build/blocks/fee-explanation/index.js:3 build/blocks/membership-fees/index.js:3 src/blocks/fee-explanation/index.js:28 src/blocks/membership-fees/index.js:56
+msgid "Base fee (%s)"
+msgstr "Cotizație de bază (%s)"
+
+#: build/blocks/fee-explanation/index.js:2 src/blocks/fee-explanation/index.js:22
+msgid "Example"
+msgstr "Exemplu"
+
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:300
+msgid "Discount (%)"
+msgstr "Reducere (%)"
+
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:282
+msgid "The discount is calculated so that the regular members pay this amount together. If their calculated fees do not exceed it, there is no discount."
+msgstr "Reducerea este calculată astfel încât membrii titulari să plătească împreună această sumă. Dacă cotizațiile lor calculate nu o depășesc, nu există reducere."
+
+#. translators: %s: currency code.
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:279
+msgid "Total to collect (%s)"
+msgstr "Total de încasat (%s)"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:263
+msgid "Total to collect"
+msgstr "Total de încasat"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:259
+msgid "Percentage"
+msgstr "Procent"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:254
+msgid "Discount given by"
+msgstr "Reducere stabilită prin"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:244
+msgid "Share of members with the lowest fees (%)"
+msgstr "Proporția membrilor cu cele mai mici cotizații (%)"
+
+#. translators: %s: list of member names.
+#: includes/famefe-users.php:190
+msgid "These accounts belong to members: %s. The members, their history, hours and payments stay in the register; only the link to the account is removed. To end a membership, use Member Fees → Members."
+msgstr "Aceste conturi aparțin unor membri: %s. Membrii, istoricul, orele și plățile lor rămân în registru; se elimină doar legătura cu contul. Pentru a încheia calitatea de membru, folosiți Cotizații → Membri."
+
+#: includes/famefe-users.php:93
+msgid "The first name, last name and e-mail of this profile are also the details of the member."
+msgstr "Prenumele, numele și emailul acestui profil sunt și datele membrului."
+
+#: includes/famefe-users.php:91
+msgid "Membership and history"
+msgstr "Calitate de membru și istoric"
+
+#: includes/famefe-users.php:87
+msgid "Add as member"
+msgstr "Adaugă ca membru"
+
+#: includes/famefe-users.php:86
+msgid "Not a member."
+msgstr "Nu este membru."
+
+#. translators: 1: first day of the period, 2: last day of the period.
+#: includes/famefe-stripe.php:122
+msgid "Membership fee %1$s – %2$s"
+msgstr "Cotizație %1$s – %2$s"
+
+#. translators: 1: amount, 2: currency symbol or code (Kč, €, USD).
+#: includes/famefe-settings.php:95
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: includes/famefe-notices.php:61
+msgid "The data could not be saved. Please try again."
+msgstr "Datele nu au putut fi salvate. Vă rugăm să încercați din nou."
+
+#: includes/famefe-notices.php:60
+msgid "The payment has not been confirmed yet. If you paid, it will appear shortly."
+msgstr "Plata nu a fost confirmată încă. Dacă ați plătit, va apărea în curând."
+
+#: includes/famefe-notices.php:59
+msgid "The payment service could not be reached. Please try again later."
+msgstr "Serviciul de plată nu a putut fi contactat. Vă rugăm să încercați mai târziu."
+
+#: includes/famefe-notices.php:58
+msgid "Online payment is not set up."
+msgstr "Plata online nu este configurată."
+
+#: includes/famefe-notices.php:57
+msgid "The block of this form was not found on the page. Please reload the page."
+msgstr "Blocul acestui formular nu a fost găsit pe pagină. Vă rugăm să reîncărcați pagina."
+
+#: includes/famefe-notices.php:56
+msgid "There is nothing to pay."
+msgstr "Nu este nimic de plătit."
+
+#: includes/famefe-notices.php:55
+msgid "The membership fee for this period has already been paid."
+msgstr "Cotizația pentru această perioadă a fost deja plătită."
+
+#: includes/famefe-notices.php:54
+msgid "Choose a valid payment method."
+msgstr "Alegeți o metodă de plată validă."
+
+#: includes/famefe-notices.php:53
+msgid "Enter a valid amount."
+msgstr "Introduceți o sumă validă."
+
+#: includes/famefe-notices.php:51
+msgid "Describe the work, please."
+msgstr "Descrieți munca, vă rog."
+
+#: includes/famefe-notices.php:50
+msgid "Hours cannot be recorded for this date any more."
+msgstr "Pentru această dată nu se mai pot înregistra ore."
+
+#: includes/famefe-notices.php:49
+msgid "These hours can no longer be deleted here; the time limit has passed."
+msgstr "Aceste ore nu mai pot fi șterse aici; termenul a expirat."
+
+#: includes/famefe-notices.php:48
+msgid "Enter a valid number of hours."
+msgstr "Introduceți un număr de ore valid."
+
+#: includes/famefe-notices.php:47
+msgid "The member has hours or payments and cannot be deleted. End the membership instead."
+msgstr "Membrul are ore sau plăți și nu poate fi șters. Încheiați în schimb calitatea de membru."
+
+#: includes/famefe-notices.php:45
+msgid "This e-mail address is already used by another user account."
+msgstr "Această adresă de email este deja folosită de un alt cont de utilizator."
+
+#: includes/famefe-notices.php:44
+msgid "Enter a valid e-mail address."
+msgstr "Introduceți o adresă de email validă."
+
+#: includes/famefe-notices.php:43
+msgid "This change is not possible for the member (check the status and the date)."
+msgstr "Această modificare nu este posibilă pentru membru (verificați starea și data)."
+
+#: includes/famefe-notices.php:42
+msgid "\"Member since\" cannot be after the end of the membership."
+msgstr "„Membru din” nu poate fi după încheierea calității de membru."
+
+#: includes/famefe-notices.php:41
+msgid "Choose a valid membership type."
+msgstr "Alegeți un tip de membru valid."
+
+#: includes/famefe-notices.php:40
+msgid "Enter a valid date."
+msgstr "Introduceți o dată validă."
+
+#: includes/famefe-notices.php:39
+msgid "Enter the first or the last name."
+msgstr "Introduceți prenumele sau numele."
+
+#: includes/famefe-notices.php:38
+msgid "The record was not found."
+msgstr "Înregistrarea nu a fost găsită."
+
+#: includes/famefe-notices.php:37
+msgid "The form has expired. Please reload the page and try again."
+msgstr "Formularul a expirat. Reîncărcați pagina și încercați din nou."
+
+#: includes/famefe-notices.php:36
+msgid "Please log in first."
+msgstr "Mai întâi autentificați-vă."
+
+#: includes/famefe-notices.php:35
+msgid "You are not allowed to do this."
+msgstr "Nu aveți permisiunea să faceți asta."
+
+#: includes/famefe-notices.php:33
+msgid "The settings were saved."
+msgstr "Setările au fost salvate."
+
+#: includes/famefe-notices.php:32
+msgid "The payment was cancelled. You can try again at any time."
+msgstr "Plata a fost anulată. Puteți încerca din nou oricând."
+
+#: includes/famefe-notices.php:31
+msgid "Thank you, your membership fee was paid."
+msgstr "Mulțumim, cotizația dvs. a fost plătită."
+
+#: includes/famefe-notices.php:30
+msgid "The payment was deleted."
+msgstr "Plata a fost ștearsă."
+
+#: includes/famefe-notices.php:29
+msgid "The payment was recorded."
+msgstr "Plata a fost înregistrată."
+
+#: includes/famefe-notices.php:28
+msgid "The hours were deleted."
+msgstr "Orele au fost șterse."
+
+#: includes/famefe-notices.php:27
+msgid "The hours were saved."
+msgstr "Orele au fost salvate."
+
+#: includes/famefe-notices.php:26
+msgid "Thank you, your hours were recorded."
+msgstr "Mulțumim, orele dvs. au fost înregistrate."
+
+#: includes/famefe-notices.php:25
+msgid "The member was deleted."
+msgstr "Membrul a fost șters."
+
+#: includes/famefe-notices.php:24
+msgid "The change of the membership was recorded."
+msgstr "Modificarea calității de membru a fost înregistrată."
+
+#: includes/famefe-notices.php:23
+msgid "The member was saved."
+msgstr "Membrul a fost salvat."
+
+#: includes/famefe-notices.php:22
+msgid "The member and the user account were created. The member got an e-mail with a link for setting the password."
+msgstr "Membrul și contul de utilizator au fost create. Membrul a primit un email cu un link pentru setarea parolei."
+
+#: includes/famefe-notices.php:21
+msgid "The member and the user account were created."
+msgstr "Membrul și contul de utilizator au fost create."
+
+#: includes/famefe-notices.php:20
+msgid "The member was added."
+msgstr "Membrul a fost adăugat."
+
+#: includes/famefe-data.php:241
+msgid "Deleted user"
+msgstr "Utilizator șters"
+
+#: includes/famefe-data.php:191
+msgid "Unknown name"
+msgstr "Nume necunoscut"
+
+#: includes/famefe-data.php:51
+msgid "Bank transfer"
+msgstr "Transfer bancar"
+
+#: includes/famefe-data.php:50
+msgid "Cash"
+msgstr "Numerar"
+
+#: includes/famefe-data.php:49
+msgid "Card (Stripe)"
+msgstr "Card (Stripe)"
+
+#: includes/famefe-data.php:39
+msgid "\"Member since\" corrected"
+msgstr "„Membru din” corectat"
+
+#: includes/famefe-data.php:38
+msgid "Rejoined"
+msgstr "Reprimit"
+
+#: includes/famefe-data.php:37
+msgid "Membership ended"
+msgstr "Calitate de membru încheiată"
+
+#: includes/famefe-data.php:36
+msgid "Membership type changed"
+msgstr "Tip de membru schimbat"
+
+#: includes/famefe-data.php:35
+msgid "Joined"
+msgstr "Primit"
+
+#: includes/famefe-data.php:25
+msgid "Honorary"
+msgstr "De onoare"
+
+#: includes/famefe-data.php:24
+msgid "Regular"
+msgstr "Titular"
+
+#: includes/famefe-admin.php:673
+msgid "All regular members of the period together pay the base fee times their number (the expected total). Each member’s share of the volunteer hours of all regular members lowers the fee; what is collected above the expected total is taken off everybody equally, and no fee goes below zero. A member without any hours in the period always pays twice the base fee. Honorary members pay nothing. With the optional discount, the given share of members with the lowest fees pays the given percentage less, or as much less as needed for the given total to collect; nothing is moved to the others."
+msgstr "Toți membrii titulari ai perioadei plătesc împreună cotizația de bază înmulțită cu numărul lor (totalul așteptat). Proporția fiecărui membru din orele de voluntariat ale tuturor membrilor titulari îi reduce cotizația; ce se încasează peste totalul așteptat se scade tuturor în mod egal și nicio cotizație nu scade sub zero. Un membru fără ore în perioadă plătește întotdeauna dublul cotizației de bază. Membrii de onoare nu plătesc nimic. Cu reducerea opțională, proporția dată de membri cu cele mai mici cotizații plătește procentul dat mai puțin sau cu atât mai puțin cât este nevoie pentru totalul de încasat dat; nimic nu este mutat la ceilalți."
+
+#: includes/famefe-admin.php:672
+msgid "How the fee is calculated"
+msgstr "Cum se calculează cotizația"
+
+#: includes/famefe-admin.php:663
+msgid "Blocks"
+msgstr "Blocuri"
+
+#: includes/famefe-admin.php:659
+msgid "Add the blocks to your pages: search for \"Fair Member Fees\" in the block inserter."
+msgstr "Adăugați blocurile în paginile dvs.: căutați „Fair Member Fees” în inserătorul de blocuri."
+
+#: includes/famefe-admin.php:658
+msgid "Set the currency, and Stripe if you want online payments (Settings)."
+msgstr "Setați moneda și, dacă doriți plăți online, Stripe (Setări)."
+
+#: includes/famefe-admin.php:657
+msgid "Add your members (Members → Add member) and link them to their user accounts."
+msgstr "Adăugați membrii (Membri → Adaugă membru) și legați-i de conturile lor de utilizator."
+
+#: includes/famefe-admin.php:655
+msgid "Getting started"
+msgstr "Primii pași"
+
+#: includes/famefe-admin.php:653
+msgid "Fair Member Fees help"
+msgstr "Ajutor Fair Member Fees"
+
+#: includes/famefe-admin.php:649
+msgid "Explains the calculation on an example with your numbers."
+msgstr "Explică calculul printr-un exemplu cu numerele dvs."
+
+#: includes/famefe-admin.php:649
+msgid "Fee calculation explained"
+msgstr "Calculul cotizației explicat"
+
+#: includes/famefe-admin.php:648
+msgid "The membership register with the date of the last change and who recorded it; visible to logged-in users by default."
+msgstr "Registrul membrilor cu data ultimei modificări și cine a înregistrat-o; implicit vizibil pentru utilizatorii autentificați."
+
+#: includes/famefe-admin.php:648
+msgid "Members list"
+msgstr "Listă de membri"
+
+#: includes/famefe-admin.php:647
+msgid "Recorded hours for a period, all or only the visitor’s own."
+msgstr "Orele înregistrate într-o perioadă, toate sau doar cele ale vizitatorului."
+
+#: includes/famefe-admin.php:647
+msgid "Volunteer hours list"
+msgstr "Listă de ore de voluntariat"
+
+#: includes/famefe-admin.php:646
+msgid "Members record their own hours. Set the maximum hours per entry, how many days back a date may be, and whether a description is required."
+msgstr "Membrii își înregistrează singuri orele. Setați numărul maxim de ore per înregistrare, cu câte zile în urmă poate fi data și dacă descrierea este obligatorie."
+
+#: includes/famefe-admin.php:646
+msgid "Volunteer hours form"
+msgstr "Formular pentru ore de voluntariat"
+
+#: includes/famefe-admin.php:645
+msgid "The table of fees for a period. Set the period, the base fee and the optional discount in the block settings. Until the volunteer hours of the period are closed, it shows the fees calculated so far; then turn on its payment button and members can pay their final fee. Administrators and editors can record cash and bank payments right there. Clubs that only keep records of hours leave the button off."
+msgstr "Tabelul cotizațiilor unei perioade. Setați perioada, cotizația de bază și reducerea opțională în setările blocului. Până la închiderea orelor de voluntariat ale perioadei, afișează cotizațiile calculate până atunci; apoi activați butonul de plată, iar membrii își pot plăti cotizația finală. Administratorii și editorii pot înregistra chiar acolo plățile în numerar și prin transfer. Cluburile care doar țin evidența orelor lasă butonul dezactivat."
+
+#: includes/famefe-admin.php:645
+msgid "Membership fees"
+msgstr "Cotizații"
+
+#: includes/famefe-admin.php:635 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:123
+msgid "Shortened for data protection: first 4 and last 4 characters (Janaková)"
+msgstr "Prescurtat pentru protecția datelor: primele 4 și ultimele 4 caractere (Mariescu)"
+
+#: includes/famefe-admin.php:634 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:116
+msgid "Display name of the user account"
+msgstr "Numele afișat al contului de utilizator"
+
+#: includes/famefe-admin.php:633 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:112
+msgid "Initials (J. S.)"
+msgstr "Inițiale (M. P.)"
+
+#: includes/famefe-admin.php:632 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:105
+msgid "First name and initial (Jane S.)"
+msgstr "Prenume și inițială (Maria P.)"
+
+#: includes/famefe-admin.php:631 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:101
+msgid "Full name (Jane Smith)"
+msgstr "Nume complet (Maria Popescu)"
+
+#: includes/famefe-admin.php:616
+msgid "Delete all members, hours, payments and settings when the plugin is deleted."
+msgstr "Șterge toți membrii, orele, plățile și setările când modulul este șters."
+
+#: includes/famefe-admin.php:615
+msgid "Delete data"
+msgstr "Șterge datele"
+
+#: includes/famefe-admin.php:612
+msgid "Uninstall"
+msgstr "Dezinstalare"
+
+#: includes/famefe-admin.php:607
+msgid "Default for all blocks; each block can override it."
+msgstr "Implicit pentru toate blocurile; fiecare bloc îl poate modifica."
+
+#: includes/famefe-admin.php:600
+msgid "Names in blocks"
+msgstr "Nume în blocuri"
+
+#: includes/famefe-admin.php:597
+msgid "Logged-in users who are not members may record their hours too (they count only in the totals)."
+msgstr "Utilizatorii autentificați care nu sunt membri își pot înregistra și ei orele (acestea contează doar în totaluri)."
+
+#: includes/famefe-admin.php:596
+msgid "Hours of non-members"
+msgstr "Orele nemembrilor"
+
+#: includes/famefe-admin.php:593
+msgid "Volunteer hours and names"
+msgstr "Ore de voluntariat și nume"
+
+#: includes/famefe-admin.php:588
+msgid "Add this address in Stripe (Developers → Webhooks) with the events checkout.session.completed and checkout.session.async_payment_succeeded, then copy its signing secret here. Payments are recorded even when a member closes the browser before returning to your site."
+msgstr "Adăugați această adresă în Stripe (Developers → Webhooks) cu evenimentele checkout.session.completed și checkout.session.async_payment_succeeded, apoi copiați aici secretul ei de semnare. Plățile sunt înregistrate chiar dacă un membru închide browserul înainte de a reveni pe site-ul dvs."
+
+#: includes/famefe-admin.php:585
+msgid "Webhook endpoint"
+msgstr "Endpoint webhook"
+
+#: includes/famefe-admin.php:575
+msgid "Live webhook signing secret"
+msgstr "Secret de semnare webhook live"
+
+#: includes/famefe-admin.php:574
+msgid "Live secret key"
+msgstr "Cheie secretă live"
+
+#: includes/famefe-admin.php:573
+msgid "Test webhook signing secret"
+msgstr "Secret de semnare webhook de test"
+
+#: includes/famefe-admin.php:572
+msgid "Test secret key"
+msgstr "Cheie secretă de test"
+
+#: includes/famefe-admin.php:567
+msgid "Live"
+msgstr "Live"
+
+#: includes/famefe-admin.php:566
+msgid "Test (no real money)"
+msgstr "Test (fără bani reali)"
+
+#: includes/famefe-admin.php:564
+msgid "Mode"
+msgstr "Mod"
+
+#: includes/famefe-admin.php:561
+msgid "Members pay on the Stripe payment page. Fill in the secret key of the mode you use; without it the Membership fees block shows no payment button."
+msgstr "Membrii plătesc pe pagina de plată Stripe. Completați cheia secretă a modului folosit; fără ea, blocul Cotizații nu afișează butonul de plată."
+
+#: includes/famefe-admin.php:560
+msgid "Stripe"
+msgstr "Stripe"
+
+#: includes/famefe-admin.php:555
+msgid "Fees are rounded to this number of decimals. Leave empty to use the usual number of the currency (CZK 0, EUR and USD 2)."
+msgstr "Cotizațiile sunt rotunjite la acest număr de zecimale. Lăsați gol pentru a folosi numărul obișnuit al monedei (CZK 0, EUR și USD 2)."
+
+#: includes/famefe-admin.php:552
+msgid "Decimal places"
+msgstr "Zecimale"
+
+#: includes/famefe-admin.php:548
+msgid "Three-letter ISO code, e.g. CZK, EUR, USD."
+msgstr "Cod ISO din trei litere, de ex. CZK, EUR, USD."
+
+#: includes/famefe-admin.php:545
+msgid "Currency"
+msgstr "Monedă"
+
+#: includes/famefe-admin.php:542
+msgid "Money"
+msgstr "Bani"
+
+#: includes/famefe-admin.php:539
+msgid "The season (period), the base fee and the discount are set in the Membership fees block on your page."
+msgstr "Sezonul (perioada), cotizația de bază și reducerea se setează în blocul Cotizații de pe pagina dvs."
+
+#: includes/famefe-admin.php:537
+msgid "Fair Member Fees settings"
+msgstr "Setări Fair Member Fees"
+
+#. translators: %s: currency code.
+#: includes/famefe-admin.php:483
+msgid "Amount (%s)"
+msgstr "Sumă (%s)"
+
+#: includes/famefe-admin.php:479
+msgid "to"
+msgstr "până la"
+
+#: includes/famefe-admin.php:478
+msgid "Period from"
+msgstr "Perioadă de la"
+
+#: includes/famefe-admin.php:474
+msgid "Cash and bank payments. The period must be the same as in the Membership fees block, otherwise the block does not show the member as paid. Card payments are recorded automatically."
+msgstr "Plăți în numerar și prin transfer. Perioada trebuie să fie aceeași ca în blocul Cotizații, altfel blocul nu afișează membrul ca plătit. Plățile cu cardul sunt înregistrate automat."
+
+#: includes/famefe-admin.php:473
+msgid "Record a payment"
+msgstr "Înregistrează o plată"
+
+#. translators: %s: number of hours.
+#: includes/famefe-admin.php:451
+msgid "Total: %s hours"
+msgstr "Total: %s ore"
+
+#: includes/famefe-admin.php:447 includes/famefe-admin.php:505
+msgid "Filter"
+msgstr "Filtrează"
+
+#: includes/famefe-admin.php:433
+msgid "Cancel"
+msgstr "Anulează"
+
+#: includes/famefe-admin.php:431
+msgid "Save"
+msgstr "Salvează"
+
+#: includes/famefe-admin.php:419
+msgid "Record hours for a member"
+msgstr "Înregistrează ore pentru un membru"
+
+#: includes/famefe-admin.php:419
+msgid "Edit hours"
+msgstr "Editează orele"
+
+#: includes/famefe-admin.php:380 includes/famefe-admin.php:440 build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:159
+msgid "To"
+msgstr "Până la"
+
+#: includes/famefe-admin.php:379 includes/famefe-admin.php:439 build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:149
+msgid "From"
+msgstr "De la"
+
+#: includes/famefe-admin.php:373
+msgid "History"
+msgstr "Istoric"
+
+#: includes/famefe-admin.php:370
+msgid "Active"
+msgstr "Activ"
+
+#: includes/famefe-admin.php:357
+msgid "Record the change"
+msgstr "Înregistrează modificarea"
+
+#: includes/famefe-admin.php:355
+msgid "Valid from"
+msgstr "Valabil de la"
+
+#: includes/famefe-admin.php:353
+msgid "Rejoin"
+msgstr "Reprimește"
+
+#: includes/famefe-admin.php:348
+msgid "End the membership"
+msgstr "Încheie calitatea de membru"
+
+#. translators: %s: membership type (Regular, Honorary).
+#: includes/famefe-admin.php:343
+msgid "Change type to: %s"
+msgstr "Schimbă tipul în: %s"
+
+#: includes/famefe-admin.php:336 includes/famefe-admin.php:378
+msgid "Change"
+msgstr "Schimbă"
+
+#: includes/famefe-admin.php:330 includes/famefe-users.php:80
+msgid "Membership"
+msgstr "Calitate de membru"
+
+#. translators: %s: date.
+#: includes/famefe-admin.php:327 includes/famefe-users.php:110
+msgid "Membership ended on %s"
+msgstr "Calitate de membru încheiată la %s"
+
+#. translators: 1: membership type, 2: date.
+#: includes/famefe-admin.php:325 includes/famefe-users.php:113
+msgid "%1$s member since %2$s"
+msgstr "Membru %1$s din %2$s"
+
+#: includes/famefe-admin.php:311
+msgid "Delete member entered by mistake"
+msgstr "Șterge membrul adăugat din greșeală"
+
+#: includes/famefe-admin.php:311
+msgid "Delete this member? Use this only for a member entered by mistake."
+msgstr "Ștergeți acest membru? Folosiți doar pentru un membru adăugat din greșeală."
+
+#: includes/famefe-admin.php:297
+msgid "Save details"
+msgstr "Salvează datele"
+
+#: includes/famefe-admin.php:288
+msgid "Only to correct a mistake; the correction is recorded in the history. Membership changes go below."
+msgstr "Doar pentru corectarea unei greșeli; corectura este înregistrată în istoric. Modificările calității de membru sunt mai jos."
+
+#: includes/famefe-admin.php:279
+msgid "Regular members pay the membership fee, honorary members do not."
+msgstr "Membrii titulari plătesc cotizația, membrii de onoare nu."
+
+#: includes/famefe-admin.php:272 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:108
+msgid "Membership type"
+msgstr "Tip de membru"
+
+#: includes/famefe-admin.php:266
+msgid "For an existing account, the name and e-mail of the account are used; these fields only fill in what the account lacks."
+msgstr "Pentru un cont existent se folosesc numele și emailul contului; aceste câmpuri completează doar ce lipsește din cont."
+
+#: includes/famefe-admin.php:264
+msgid "Changes of the name and e-mail are saved to the user account too."
+msgstr "Modificările numelui și ale emailului sunt salvate și în contul de utilizator."
+
+#: includes/famefe-admin.php:262
+msgid "The name and e-mail come from the user account, which you are not allowed to edit."
+msgstr "Numele și emailul provin din contul de utilizator, pe care nu aveți permisiunea să îl editați."
+
+#: includes/famefe-admin.php:254
+msgid "Last name"
+msgstr "Nume"
+
+#: includes/famefe-admin.php:250
+msgid "First name"
+msgstr "Prenume"
+
+#: includes/famefe-admin.php:245
+msgid "Members with an account can record their hours and pay online."
+msgstr "Membrii cu cont își pot înregistra orele și pot plăti online."
+
+#: includes/famefe-admin.php:243
+msgid "Open the profile"
+msgstr "Deschide profilul"
+
+#: includes/famefe-admin.php:238
+msgid "Members with an account can record their hours and pay online. The name and e-mail of a linked member are those of the account."
+msgstr "Membrii cu cont își pot înregistra orele și pot plăti online. Numele și emailul unui membru legat sunt cele ale contului."
+
+#: includes/famefe-admin.php:236
+msgid "Without a user account"
+msgstr "Fără cont de utilizator"
+
+#: includes/famefe-admin.php:233
+msgid "The account gets the default role of the site; the e-mail address is required."
+msgstr "Contul primește rolul implicit al site-ului; adresa de email este obligatorie."
+
+#: includes/famefe-admin.php:232
+msgid "Send the member an e-mail with a link for setting the password"
+msgstr "Trimite membrului un email cu un link pentru setarea parolei"
+
+#: includes/famefe-admin.php:230
+msgid "Create a new user account"
+msgstr "Creează un cont de utilizator nou"
+
+#: includes/famefe-admin.php:227
+msgid "Existing user account"
+msgstr "Cont de utilizator existent"
+
+#: includes/famefe-admin.php:217
+msgid "— No account —"
+msgstr "— Fără cont —"
+
+#: includes/famefe-admin.php:205
+msgid "Details"
+msgstr "Date"
+
+#: includes/famefe-admin.php:202
+msgid "No account found."
+msgstr "Nu a fost găsit niciun cont."
+
+#. translators: %d: number of user accounts found.
+#: includes/famefe-admin.php:201
+msgid "Found: %d"
+msgstr "Găsite: %d"
+
+#: includes/famefe-admin.php:199 includes/famefe-notices.php:46
+msgid "This user account already belongs to another member."
+msgstr "Acest cont de utilizator aparține deja altui membru."
+
+#: includes/famefe-admin.php:194
+msgid "Back to the members"
+msgstr "Înapoi la membri"
+
+#: includes/famefe-admin.php:176
+msgid "Search members"
+msgstr "Caută membri"
+
+#: includes/famefe-admin.php:165 includes/famefe-admin.php:193 includes/famefe-admin.php:297
+msgid "Add member"
+msgstr "Adaugă membru"
+
+#: includes/famefe-admin.php:143
+msgid "Search user accounts"
+msgstr "Caută conturi de utilizator"
+
+#: includes/famefe-admin.php:142
+msgid "Search accounts by name or login…"
+msgstr "Caută conturi după nume sau nume de utilizator…"
+
+#. translators: 1: name of the person, 2: date and time.
+#: includes/famefe-admin.php:132
+msgid "%1$s on %2$s"
+msgstr "%1$s pe %2$s"
+
+#. translators: %s: date and time.
+#: includes/famefe-admin.php:129
+msgid "automatically on %s"
+msgstr "automat pe %s"
+
+#: includes/famefe-admin.php:33
+msgid "Help"
+msgstr "Ajutor"
+
+#: includes/famefe-admin.php:32
+msgid "Settings"
+msgstr "Setări"
+
+#: includes/famefe-admin.php:31 includes/famefe-admin.php:470
+msgid "Payments"
+msgstr "Plăți"
+
+#: includes/famefe-admin.php:30 includes/famefe-admin.php:415
+msgid "Volunteer hours"
+msgstr "Ore de voluntariat"
+
+#: includes/famefe-admin.php:22
+msgid "Member Fees"
+msgstr "Cotizații"
+
+#: includes/famefe-admin-tables.php:334
+msgid "Delete this payment? The member will be shown as unpaid."
+msgstr "Ștergeți această plată? Membrul va fi afișat ca neplătit."
+
+#: includes/famefe-admin-tables.php:324
+msgid "No payments recorded."
+msgstr "Nicio plată înregistrată."
+
+#: includes/famefe-admin-tables.php:307 includes/famefe-admin.php:293 includes/famefe-admin.php:356 includes/famefe-admin.php:381 includes/famefe-admin.php:494
+msgid "Note"
+msgstr "Notă"
+
+#: includes/famefe-admin-tables.php:305
+msgid "Amount"
+msgstr "Sumă"
+
+#: includes/famefe-admin-tables.php:304 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:25
+msgid "Period"
+msgstr "Perioadă"
+
+#. translators: %s: name of a user who is not a member.
+#: includes/famefe-admin-tables.php:266
+msgid "%s (not a member)"
+msgstr "%s (nu este membru)"
+
+#: includes/famefe-admin-tables.php:251
+msgid "Edit"
+msgstr "Editează"
+
+#: includes/famefe-admin-tables.php:154
+msgid "Edit and history"
+msgstr "Editare și istoric"
+
+#: includes/famefe-admin-tables.php:152
+msgid "(no name)"
+msgstr "(fără nume)"
+
+#: includes/famefe-admin-tables.php:128 includes/famefe-admin.php:443 includes/famefe-admin.php:501
+msgid "All"
+msgstr "Toți"
+
+#: includes/famefe-admin-tables.php:127 includes/famefe-admin.php:109 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:34
+msgid "Former members"
+msgstr "Foști membri"
+
+#: includes/famefe-admin-tables.php:126 includes/famefe-admin.php:29 includes/famefe-admin.php:109 includes/famefe-admin.php:164 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:21
+msgid "Members"
+msgstr "Membri"
+
+#: includes/famefe-admin-tables.php:39 includes/famefe-admin.php:258
+msgid "Email"
+msgstr "Email"
+
+#: includes/famefe-admin-tables.php:38 includes/famefe-admin.php:223
+msgid "User account"
+msgstr "Cont de utilizator"
+
+#: build/blocks/membership-fees/render.php:306 src/blocks/membership-fees/render.php:306
+msgid "Only administrators and editors see this form. The amount is the calculated fee of the member."
+msgstr "Doar administratorii și editorii văd acest formular. Suma este cotizația calculată a membrului."
+
+#: build/blocks/membership-fees/render.php:305 includes/famefe-admin.php:495 src/blocks/membership-fees/render.php:305
+msgid "Record payment"
+msgstr "Înregistrează plata"
+
+#: build/blocks/membership-fees/render.php:295 includes/famefe-admin-tables.php:306 includes/famefe-admin.php:487 src/blocks/membership-fees/render.php:295
+msgid "Method"
+msgstr "Metodă"
+
+#: build/blocks/membership-fees/render.php:287 src/blocks/membership-fees/render.php:287
+msgid "Member and fee"
+msgstr "Membru și cotizație"
+
+#: build/blocks/membership-fees/render.php:283 src/blocks/membership-fees/render.php:283
+msgid "Record a cash or bank payment (administrators and editors)"
+msgstr "Înregistrează o plată în numerar sau prin transfer (administratori și editori)"
+
+#: build/blocks/membership-fees/render.php:267 src/blocks/membership-fees/render.php:267
+msgid "(Visible only to administrators and editors.)"
+msgstr "(Vizibil doar pentru administratori și editori.)"
+
+#: build/blocks/membership-fees/render.php:261 src/blocks/membership-fees/render.php:261
+msgid "The payment button is shown only to logged-in regular members who have a fee to pay."
+msgstr "Butonul de plată este afișat doar membrilor titulari autentificați care au o cotizație de plătit."
+
+#: build/blocks/membership-fees/render.php:259 src/blocks/membership-fees/render.php:259
+msgid "The fees are final, but members cannot pay online: Stripe is not set up yet (Member Fees → Settings → Stripe secret key)."
+msgstr "Cotizațiile sunt finale, dar membrii nu pot plăti online: Stripe nu este încă configurat (Cotizații → Setări → cheie secretă Stripe)."
+
+#: build/blocks/membership-fees/render.php:257 src/blocks/membership-fees/render.php:257
+msgid "The payment button is off: the fees are shown as calculated so far. Turn it on in the block settings (\"Payment button\") once the volunteer hours of the period are closed and the fees are final. Leave it off if you do not collect fees through this page."
+msgstr "Butonul de plată este dezactivat: cotizațiile sunt afișate așa cum au fost calculate până acum. Activați-l în setările blocului („Buton de plată”) când orele de voluntariat ale perioadei sunt închise și cotizațiile sunt finale. Lăsați-l dezactivat dacă nu încasați cotizații prin această pagină."
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:244 src/blocks/membership-fees/render.php:244
+msgid "Pay %s online"
+msgstr "Plătește %s online"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:233 src/blocks/membership-fees/render.php:233
+msgid "Your membership fee: %s"
+msgstr "Cotizația dvs.: %s"
+
+#: build/blocks/membership-fees/render.php:227 src/blocks/membership-fees/render.php:227
+msgid "You do not need to pay a membership fee for this period. Thank you for your work!"
+msgstr "Nu trebuie să plătiți cotizație pentru această perioadă. Mulțumim pentru munca dvs.!"
+
+#: build/blocks/membership-fees/render.php:221 src/blocks/membership-fees/render.php:221
+msgid "The fee will be final once the volunteer hours of this period are closed."
+msgstr "Cotizația va fi finală după închiderea orelor de voluntariat ale acestei perioade."
+
+#: build/blocks/membership-fees/render.php:219 src/blocks/membership-fees/render.php:219
+msgid "The fee will be final once the volunteer hours of this period are closed; then you can pay it here."
+msgstr "Cotizația va fi finală după închiderea orelor de voluntariat ale acestei perioade; atunci o veți putea plăti aici."
+
+#: build/blocks/membership-fees/render.php:214 src/blocks/membership-fees/render.php:214
+msgid "Thank you for your work!"
+msgstr "Mulțumim pentru munca dvs.!"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:209 src/blocks/membership-fees/render.php:209
+msgid "With the volunteer hours recorded so far, your membership fee is %s."
+msgstr "Cu orele de voluntariat înregistrate până acum, cotizația dvs. este de %s."
+
+#. translators: 1: amount, 2: date.
+#: build/blocks/membership-fees/render.php:198 src/blocks/membership-fees/render.php:198
+msgid "You paid %1$s on %2$s. Thank you!"
+msgstr "Ați plătit %1$s pe %2$s. Mulțumim!"
+
+#: build/blocks/membership-fees/render.php:144 src/blocks/membership-fees/render.php:144
+msgid "There are no members in this period."
+msgstr "Nu există membri în această perioadă."
+
+#. translators: 1: period (from – to), 2: base fee with currency.
+#: build/blocks/membership-fees/render.php:135 src/blocks/membership-fees/render.php:135
+msgid "Membership fees for %1$s. Base fee: %2$s."
+msgstr "Cotizații pentru %1$s. Cotizație de bază: %2$s."
+
+#. translators: 1: first day of the period, 2: last day of the period.
+#: build/blocks/membership-fees/render.php:122 src/blocks/membership-fees/render.php:122
+msgid "%1$s – %2$s"
+msgstr "%1$s – %2$s"
+
+#: build/blocks/membership-fees/render.php:106 src/blocks/membership-fees/render.php:106
+msgid "Non-members and former members"
+msgstr "Nemembri și foști membri"
+
+#. translators: 1: number of members who paid, 2: number of regular members.
+#: build/blocks/membership-fees/render.php:94 src/blocks/membership-fees/render.php:94
+msgid "%1$d of %2$d"
+msgstr "%1$d din %2$d"
+
+#: build/blocks/membership-fees/render.php:47 build/blocks/membership-fees/render.php:302 includes/famefe-admin-tables.php:302 includes/famefe-admin.php:493 src/blocks/membership-fees/render.php:47 src/blocks/membership-fees/render.php:302 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:125
+msgid "Paid on"
+msgstr "Plătit la"
+
+#: build/blocks/members-list/render.php:99 includes/famefe-admin-tables.php:160 includes/famefe-admin.php:370 includes/famefe-users.php:159 src/blocks/members-list/render.php:99
+msgid "Former member"
+msgstr "Fost membru"
+
+#: build/blocks/members-list/render.php:83 src/blocks/members-list/render.php:83 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:38
+msgid "Search by name"
+msgstr "Caută după nume"
+
+#: build/blocks/members-list/render.php:82 src/blocks/members-list/render.php:82
+msgid "Search by name…"
+msgstr "Caută după nume…"
+
+#: build/blocks/members-list/render.php:77 includes/famefe-admin-tables.php:146 src/blocks/members-list/render.php:77
+msgid "No members found."
+msgstr "Nu a fost găsit niciun membru."
+
+#. translators: %d: number of current members.
+#: build/blocks/members-list/render.php:72 src/blocks/members-list/render.php:72
+msgid "Current members (%d)"
+msgstr "Membri actuali (%d)"
+
+#. translators: %d: number of former members.
+#: build/blocks/members-list/render.php:69 src/blocks/members-list/render.php:69
+msgid "Former members (%d)"
+msgstr "Foști membri (%d)"
+
+#. translators: %d: number of honorary members.
+#: build/blocks/members-list/render.php:66 build/blocks/membership-fees/render.php:99 src/blocks/members-list/render.php:66 src/blocks/membership-fees/render.php:99
+msgid "Honorary members (%d)"
+msgstr "Membri de onoare (%d)"
+
+#. translators: %d: number of regular members.
+#: build/blocks/members-list/render.php:64 build/blocks/membership-fees/render.php:86 src/blocks/members-list/render.php:64 src/blocks/membership-fees/render.php:86
+msgid "Regular members (%d)"
+msgstr "Membri titulari (%d)"
+
+#: build/blocks/members-list/render.php:45 includes/famefe-admin-tables.php:37 includes/famefe-admin-tables.php:220 includes/famefe-admin-tables.php:308 includes/famefe-admin.php:382 src/blocks/members-list/render.php:45 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:80
+msgid "Recorded by"
+msgstr "Înregistrat de"
+
+#: build/blocks/members-list/render.php:44 includes/famefe-admin-tables.php:36 includes/famefe-admin.php:377 src/blocks/members-list/render.php:44 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:76
+msgid "Change date"
+msgstr "Data modificării"
+
+#: build/blocks/members-list/render.php:43 includes/famefe-admin-tables.php:35 src/blocks/members-list/render.php:43 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:72
+msgid "Last change"
+msgstr "Ultima modificare"
+
+#: build/blocks/members-list/render.php:42 includes/famefe-admin-tables.php:34 includes/famefe-admin.php:284 src/blocks/members-list/render.php:42 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:68
+msgid "Member since"
+msgstr "Membru din"
+
+#: build/blocks/members-list/render.php:19 src/blocks/members-list/render.php:19
+msgid "The list of members is available to logged-in users."
+msgstr "Lista membrilor este disponibilă pentru utilizatorii autentificați."
+
+#. translators: 1: number of hours, 2: number of entries.
+#: build/blocks/hours-list/render.php:112 src/blocks/hours-list/render.php:112
+msgid "Total: %1$s hours in %2$d entry"
+msgid_plural "Total: %1$s hours in %2$d entries"
+msgstr[0] "Total: %1$s ore în %2$d înregistrare"
+msgstr[1] "Total: %1$s ore în %2$d înregistrări"
+msgstr[2] "Total: %1$s ore în %2$d de înregistrări"
+
+#: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:256 includes/famefe-admin-tables.php:335 src/blocks/hours-list/render.php:94
+msgid "Delete"
+msgstr "Șterge"
+
+#: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:255 src/blocks/hours-list/render.php:94
+msgid "Delete these hours?"
+msgstr "Ștergeți aceste ore?"
+
+#: build/blocks/hours-list/render.php:72 src/blocks/hours-list/render.php:72
+msgid "Actions"
+msgstr "Acțiuni"
+
+#: build/blocks/hours-list/render.php:69 build/blocks/members-list/render.php:46 src/blocks/hours-list/render.php:69 src/blocks/members-list/render.php:46 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 src/blocks/hours-list/index.js:75 src/blocks/members-list/index.js:84
+msgid "Recorded on"
+msgstr "Înregistrat la"
+
+#: build/blocks/hours-list/render.php:62 build/blocks/members-list/render.php:39 build/blocks/membership-fees/render.php:28 includes/famefe-admin-tables.php:32 includes/famefe-admin-tables.php:217 src/blocks/hours-list/render.php:62 src/blocks/members-list/render.php:39 src/blocks/membership-fees/render.php:28 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:73
+msgid "Name"
+msgstr "Nume"
+
+#: build/blocks/hours-list/render.php:50 includes/famefe-admin-tables.php:243 src/blocks/hours-list/render.php:50
+msgid "No hours recorded."
+msgstr "Nicio oră înregistrată."
+
+#: build/blocks/hours-list/render.php:19 src/blocks/hours-list/render.php:19
+msgid "Log in to see your volunteer hours."
+msgstr "Autentificați-vă pentru a vedea orele dvs. de voluntariat."
+
+#: build/blocks/hours-form/render.php:118 src/blocks/hours-form/render.php:118
+msgid "My recent entries"
+msgstr "Înregistrările mele recente"
+
+#: build/blocks/hours-form/render.php:59 build/blocks/hours-form/render.php:125 build/blocks/hours-list/render.php:66 includes/famefe-admin-tables.php:219 includes/famefe-admin.php:430 src/blocks/hours-form/render.php:59 src/blocks/hours-form/render.php:125 src/blocks/hours-list/render.php:66 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:74
+msgid "Work done"
+msgstr "Munca efectuată"
+
+#: build/blocks/hours-form/render.php:57 build/blocks/hours-form/render.php:123 build/blocks/hours-list/render.php:60 includes/famefe-admin-tables.php:216 includes/famefe-admin.php:428 src/blocks/hours-form/render.php:57 src/blocks/hours-form/render.php:123 src/blocks/hours-list/render.php:60
+msgid "Date"
+msgstr "Dată"
+
+#: build/blocks/hours-form/render.php:39 includes/famefe-notices.php:52 src/blocks/hours-form/render.php:39
+msgid "Only members can record volunteer hours."
+msgstr "Doar membrii pot înregistra ore de voluntariat."
+
+#: build/blocks/hours-form/render.php:34 build/blocks/hours-list/render.php:21 build/blocks/members-list/render.php:21 src/blocks/hours-form/render.php:34 src/blocks/hours-list/render.php:21 src/blocks/members-list/render.php:21
+msgid "Log in"
+msgstr "Autentificare"
+
+#: build/blocks/hours-form/render.php:32 src/blocks/hours-form/render.php:32
+msgid "Log in to record your volunteer hours."
+msgstr "Autentificați-vă pentru a înregistra orele dvs. de voluntariat."
+
+#: build/blocks/hours-form/render.php:22 includes/famefe-admin.php:431 src/blocks/hours-form/render.php:22 build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:82
+msgid "Add hours"
+msgstr "Adaugă ore"
+
+#. translators: %s: twice the base fee.
+#: build/blocks/fee-explanation/render.php:219 src/blocks/fee-explanation/render.php:219
+msgid "A member without any volunteer hours in the period always pays twice the base fee, %s: paying instead of working should never be the cheaper choice."
+msgstr "Un membru fără ore de voluntariat în perioadă plătește întotdeauna dublul cotizației de bază, %s: a plăti în loc să muncești nu ar trebui să fie niciodată alegerea mai ieftină."
+
+#: build/blocks/fee-explanation/render.php:209 src/blocks/fee-explanation/render.php:209
+msgid "The calculated fees do not exceed it, so there is no discount."
+msgstr "Cotizațiile calculate nu îl depășesc, deci nu există reducere."
+
+#. translators: 1: share of members in percent, 2: discount in percent, 3:
+#. number of members with the discount.
+#: build/blocks/fee-explanation/render.php:203 src/blocks/fee-explanation/render.php:203
+msgid "The %1$s %% of regular members with the lowest calculated fees pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never). The discount is not added to the fees of the others, so the club collects less than the expected total."
+msgstr "Cei %1$s %% dintre membrii titulari cu cele mai mici cotizații calculate plătesc cu %2$s %% mai puțin (aici %3$d membri; o primesc și membrii cu aceeași cotizație ca ultimul dintre ei, membrii fără ore niciodată). Reducerea nu se adaugă la cotizațiile celorlalți, așa că clubul încasează mai puțin decât totalul așteptat."
+
+#. translators: 1: share of members in percent, 2: calculated discount in
+#. percent, 3: number of members with the discount.
+#: build/blocks/fee-explanation/render.php:195 src/blocks/fee-explanation/render.php:195
+msgid "The %1$s %% of regular members with the lowest calculated fees therefore pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never)."
+msgstr "Prin urmare, cei %1$s %% dintre membrii titulari cu cele mai mici cotizații calculate plătesc cu %2$s %% mai puțin (aici %3$d membri; o primesc și membrii cu aceeași cotizație ca ultimul dintre ei, membrii fără ore niciodată)."
+
+#. translators: %s: total the regular members should pay.
+#: build/blocks/fee-explanation/render.php:188 src/blocks/fee-explanation/render.php:188
+msgid "The regular members should pay %s together."
+msgstr "Membrii titulari ar trebui să plătească împreună %s."
+
+#: build/blocks/fee-explanation/render.php:182 src/blocks/fee-explanation/render.php:182
+msgid "4. Discount"
+msgstr "4. Reducere"
+
+#: build/blocks/fee-explanation/render.php:141 build/blocks/membership-fees/render.php:45 src/blocks/fee-explanation/render.php:141 src/blocks/membership-fees/render.php:45
+msgid "Fee to pay"
+msgstr "Cotizație de plată"
+
+#: build/blocks/fee-explanation/render.php:140 build/blocks/membership-fees/render.php:43 src/blocks/fee-explanation/render.php:140 src/blocks/membership-fees/render.php:43 build/blocks/fee-explanation/index.js:3 build/blocks/membership-fees/index.js:3 src/blocks/fee-explanation/index.js:64 src/blocks/membership-fees/index.js:83
+msgid "Discount"
+msgstr "Reducere"
+
+#: build/blocks/fee-explanation/render.php:138 build/blocks/membership-fees/render.php:42 src/blocks/fee-explanation/render.php:138 src/blocks/membership-fees/render.php:42
+msgid "Calculated fee"
+msgstr "Cotizație calculată"
+
+#: build/blocks/fee-explanation/render.php:137 build/blocks/membership-fees/render.php:39 src/blocks/fee-explanation/render.php:137 src/blocks/membership-fees/render.php:39 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:117
+msgid "Unreduced fee"
+msgstr "Cotizație neredusă"
+
+#: build/blocks/fee-explanation/render.php:136 build/blocks/membership-fees/render.php:36 src/blocks/fee-explanation/render.php:136 src/blocks/membership-fees/render.php:36 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:113
+msgid "Share of hours"
+msgstr "Proporția orelor"
+
+#. translators: 1: sum of the unreduced fees, 2: expected total, 3: amount
+#. taken off each fee.
+#: build/blocks/fee-explanation/render.php:123 src/blocks/fee-explanation/render.php:123
+msgid "The unreduced fees add up to %1$s, more than the expected total of %2$s. The difference is shared equally: each fee is lowered by %3$s, so all fees together give the expected total. No fee goes below zero; if one would, that member pays nothing and the rest is shared by the members who volunteered."
+msgstr "Cotizațiile nereduse însumează %1$s, mai mult decât totalul așteptat de %2$s. Diferența se împarte în mod egal: fiecare cotizație scade cu %3$s, astfel încât toate cotizațiile împreună dau totalul așteptat. Nicio cotizație nu scade sub zero; dacă s-ar întâmpla, acel membru nu plătește nimic, iar restul se împarte între membrii care au făcut voluntariat."
+
+#. translators: %s: hours of all regular members.
+#: build/blocks/fee-explanation/render.php:116 src/blocks/fee-explanation/render.php:116
+msgid "Each regular member’s share of the hours of all regular members (%s hours) lowers the unreduced fee: unreduced fee = expected total × (1 − share of hours)."
+msgstr "Proporția fiecărui membru titular din orele tuturor membrilor titulari (%s ore) reduce cotizația neredusă: cotizație neredusă = total așteptat × (1 − proporția orelor)."
+
+#: build/blocks/fee-explanation/render.php:111 src/blocks/fee-explanation/render.php:111
+msgid "3. Fee of each member"
+msgstr "3. Cotizația fiecărui membru"
+
+#. translators: 1: base fee, 2: number of regular members, 3: base fee again,
+#. 4: expected total.
+#: build/blocks/fee-explanation/render.php:102 src/blocks/fee-explanation/render.php:102
+msgid "The base fee is %1$s. Together, the %2$d regular members are expected to pay %3$s × %2$d = %4$s."
+msgstr "Cotizația de bază este de %1$s. Împreună, cei %2$d membri titulari ar trebui să plătească %3$s × %2$d = %4$s."
+
+#: build/blocks/fee-explanation/render.php:97 src/blocks/fee-explanation/render.php:97
+msgid "2. Expected total"
+msgstr "2. Totalul așteptat"
+
+#. translators: %d: number of honorary members.
+#: build/blocks/fee-explanation/render.php:92 src/blocks/fee-explanation/render.php:92
+msgid "%d honorary member"
+msgid_plural "%d honorary members"
+msgstr[0] "%d membru de onoare"
+msgstr[1] "%d membri de onoare"
+msgstr[2] "%d de membri de onoare"
+
+#. translators: %d: number of regular members.
+#: build/blocks/fee-explanation/render.php:90 src/blocks/fee-explanation/render.php:90
+msgid "%d regular member"
+msgid_plural "%d regular members"
+msgstr[0] "%d membru titular"
+msgstr[1] "%d membri titulari"
+msgstr[2] "%d de membri titulari"
+
+#. translators: 1: "5 regular members", 2: "1 honorary member".
+#: build/blocks/fee-explanation/render.php:88 src/blocks/fee-explanation/render.php:88
+msgid "Members in the example: %1$s and %2$s. Honorary members do not pay a membership fee, and their hours do not count in the calculation."
+msgstr "Membrii din exemplu: %1$s și %2$s. Membrii de onoare nu plătesc cotizație, iar orele lor nu contează în calcul."
+
+#: build/blocks/fee-explanation/render.php:78 build/blocks/fee-explanation/render.php:167 build/blocks/membership-fees/render.php:112 src/blocks/fee-explanation/render.php:78 src/blocks/fee-explanation/render.php:167 src/blocks/membership-fees/render.php:112
+msgid "Total"
+msgstr "Total"
+
+#: build/blocks/fee-explanation/render.php:64 build/blocks/fee-explanation/render.php:135 build/blocks/hours-form/render.php:58 build/blocks/hours-form/render.php:124 build/blocks/hours-list/render.php:64 build/blocks/membership-fees/render.php:33 includes/famefe-admin-tables.php:218 includes/famefe-admin.php:429 src/blocks/fee-explanation/render.php:64 src/blocks/fee-explanation/render.php:135 src/blocks/hours-form/render.php:58 src/blocks/hours-form/render.php:124 src/blocks/hours-list/render.php:64 src/blocks/membership-fees/render.php:33 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:112
+msgid "Hours"
+msgstr "Ore"
+
+#: build/blocks/fee-explanation/render.php:63 build/blocks/members-list/render.php:41 build/blocks/membership-fees/render.php:30 includes/famefe-admin-tables.php:33 src/blocks/fee-explanation/render.php:63 src/blocks/members-list/render.php:41 src/blocks/membership-fees/render.php:30 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:67
+msgid "Type"
+msgstr "Tip"
+
+#: build/blocks/fee-explanation/render.php:62 build/blocks/fee-explanation/render.php:134 build/blocks/hours-form/render.php:56 includes/famefe-admin-tables.php:303 includes/famefe-admin.php:420 includes/famefe-admin.php:441 includes/famefe-admin.php:475 includes/famefe-admin.php:499 includes/famefe-users.php:83 includes/famefe-users.php:139 src/blocks/fee-explanation/render.php:62 src/blocks/fee-explanation/render.php:134 src/blocks/hours-form/render.php:56
+msgid "Member"
+msgstr "Membru"
+
+#: build/blocks/fee-explanation/render.php:57 src/blocks/fee-explanation/render.php:57
+msgid "1. Members and their hours"
+msgstr "1. Membrii și orele lor"
+
+#: build/blocks/fee-explanation/render.php:55 src/blocks/fee-explanation/render.php:55
+msgid "The membership fee depends on how much each member volunteered for the club, measured in the recorded hours. Members only need to record their hours; the fees are calculated from them. The following example shows how."
+msgstr "Cotizația depinde de cât voluntariat a făcut fiecare membru pentru club, măsurat în orele înregistrate. Membrii trebuie doar să își înregistreze orele; cotizațiile se calculează din acestea. Exemplul următor arată cum."
+
+#. translators: %d: number of the member in the example.
+#: build/blocks/fee-explanation/render.php:52 src/blocks/fee-explanation/render.php:52
+msgid "Member %d"
+msgstr "Membrul %d"
+
+#. Author of the plugin
+#: fair-member-fees.php
+msgid "globus2008"
+msgstr "globus2008"
+
+#. Description of the plugin
+#: fair-member-fees.php
+msgid "Membership register with a change history, volunteer hours and a fair membership fee: members who volunteer more pay less. Optional discount and payment through Stripe. Built with blocks."
+msgstr "Registru de membri cu istoric al modificărilor, ore de voluntariat și o cotizație echitabilă: membrii care fac mai mult voluntariat plătesc mai puțin. Reducere opțională și plată prin Stripe. Construit cu blocuri."
+
+#. Plugin Name of the plugin
+#: fair-member-fees.php includes/famefe-admin.php:21
+msgid "Fair Member Fees"
+msgstr "Fair Member Fees"

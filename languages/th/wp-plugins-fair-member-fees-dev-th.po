@@ -1,0 +1,1455 @@
+# Translation of Plugins - Fair Member Fees - Development (trunk) in Thai
+# This file is distributed under the same license as the Plugins - Fair Member Fees - Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Fair Member Fees - Development (trunk)\n"
+"PO-Revision-Date: 2026-10-16 12:00:00+0000\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.1.0\n"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "payment"
+msgstr "ชำระเงิน"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block description"
+msgid "Fair membership fees for a period: members who volunteered more pay less. Once the hours of the period are closed, members can pay online; administrators and editors record cash and bank payments."
+msgstr "ค่าสมาชิกที่เป็นธรรมสำหรับแต่ละรอบ: สมาชิกที่ทำงานอาสามากกว่าจะจ่ายน้อยกว่า เมื่อปิดชั่วโมงของรอบแล้ว สมาชิกสามารถชำระเงินออนไลน์ได้ ส่วนผู้ดูแลระบบและบรรณาธิการบันทึกการชำระด้วยเงินสดและการโอนผ่านธนาคาร"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block title"
+msgid "Membership fees"
+msgstr "ค่าสมาชิก"
+
+#: build/blocks/members-list/block.json build/blocks/membership-fees/block.json src/blocks/members-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "membership"
+msgstr "สถานะสมาชิก"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block keyword"
+msgid "register"
+msgstr "ทะเบียน"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block keyword"
+msgid "members"
+msgstr "สมาชิก"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block description"
+msgid "The membership register: members, their type, membership changes and who recorded them."
+msgstr "ทะเบียนสมาชิก: สมาชิก ประเภทของสมาชิก การเปลี่ยนแปลงสถานะสมาชิก และผู้บันทึก"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block title"
+msgid "Members list"
+msgstr "รายชื่อสมาชิก"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr "รายการ"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block description"
+msgid "Recorded volunteer hours of a period."
+msgstr "ชั่วโมงอาสาที่บันทึกไว้ในรอบหนึ่ง"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block title"
+msgid "Volunteer hours list"
+msgstr "รายการชั่วโมงอาสา"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "แบบฟอร์ม"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block keyword"
+msgid "work"
+msgstr "งาน"
+
+#: build/blocks/hours-form/block.json build/blocks/hours-list/block.json build/blocks/membership-fees/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "volunteer"
+msgstr "อาสา"
+
+#: build/blocks/hours-form/block.json build/blocks/hours-list/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json
+msgctxt "block keyword"
+msgid "hours"
+msgstr "ชั่วโมง"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block description"
+msgid "Logged-in members record the hours they volunteered."
+msgstr "สมาชิกที่เข้าสู่ระบบแล้วบันทึกชั่วโมงอาสาที่ตนทำ"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block title"
+msgid "Volunteer hours form"
+msgstr "แบบฟอร์มชั่วโมงอาสา"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "help"
+msgstr "ความช่วยเหลือ"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "example"
+msgstr "ตัวอย่าง"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "calculation"
+msgstr "การคำนวณ"
+
+#: build/blocks/fee-explanation/block.json build/blocks/hours-form/block.json build/blocks/hours-list/block.json build/blocks/members-list/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json src/blocks/members-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "fair member fees"
+msgstr "fair member fees"
+
+#: build/blocks/fee-explanation/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "fee"
+msgstr "ค่าสมาชิก"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block description"
+msgid "Explains on an example how the fair membership fee is calculated."
+msgstr "อธิบายด้วยตัวอย่างว่าค่าสมาชิกที่เป็นธรรมคำนวณอย่างไร"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block title"
+msgid "Fee calculation explained"
+msgstr "คำอธิบายการคำนวณค่าสมาชิก"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:155
+msgid "Highlight the logged-in member"
+msgstr "เน้นสมาชิกที่เข้าสู่ระบบอยู่"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:147
+msgid "Period and base fee above the table"
+msgstr "รอบและค่าสมาชิกพื้นฐานเหนือตาราง"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:143
+msgid "List honorary members"
+msgstr "แสดงสมาชิกกิตติมศักดิ์"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:121
+msgid "Calculated fee and discount (when the discount is on)"
+msgstr "ค่าสมาชิกที่คำนวณได้และส่วนลด (เมื่อเปิดส่วนลด)"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:94
+msgid "Members who volunteered the most pay even less. The discount is not added to the fees of the others."
+msgstr "สมาชิกที่ทำงานอาสามากที่สุดจะจ่ายน้อยลงอีก ส่วนลดจะไม่ถูกบวกเพิ่มในค่าสมาชิกของคนอื่น"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:90
+msgid "Discount for the lowest fees"
+msgstr "ส่วนลดสำหรับค่าสมาชิกที่ต่ำที่สุด"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:72
+msgid "Turn on once the volunteer hours of the period are closed: members then see their final fee and can pay it. While it is off, the fees are shown as calculated from the hours recorded so far. Leave it off if you do not collect fees through this page."
+msgstr "เปิดเมื่อปิดชั่วโมงอาสาของรอบแล้ว: สมาชิกจะเห็นค่าสมาชิกสุดท้ายและชำระได้ ระหว่างที่ปิดอยู่ ค่าสมาชิกจะแสดงตามการคำนวณจากชั่วโมงที่บันทึกจนถึงตอนนี้ หากคุณไม่เก็บค่าสมาชิกผ่านหน้านี้ ให้ปิดไว้"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:68
+msgid "Payment button (the fees are final)"
+msgstr "ปุ่มชำระเงิน (ค่าสมาชิกเป็นยอดสุดท้าย)"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:59
+msgid "The fee of a regular member when nobody volunteers. All regular members together pay the base fee times their number."
+msgstr "ค่าสมาชิกของสมาชิกสามัญหนึ่งคนเมื่อไม่มีใครทำงานอาสา สมาชิกสามัญทั้งหมดรวมกันจ่ายค่าสมาชิกพื้นฐานคูณจำนวนคน"
+
+#: build/blocks/membership-fees/index.js:2 src/blocks/membership-fees/index.js:46
+msgid "Members of this period pay; their hours of this period lower the fee. Payments are recorded for exactly this period."
+msgstr "สมาชิกของรอบนี้เป็นผู้จ่าย ชั่วโมงของพวกเขาในรอบนี้ช่วยลดค่าสมาชิก การชำระเงินจะบันทึกไว้สำหรับรอบนี้พอดี"
+
+#: build/blocks/membership-fees/index.js:2 src/blocks/membership-fees/index.js:42
+msgid "Period and fee"
+msgstr "รอบและค่าสมาชิก"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/members-list/index.js:54 src/blocks/membership-fees/index.js:101
+msgid "Columns"
+msgstr "คอลัมน์"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:46
+msgid "Only for logged-in visitors"
+msgstr "เฉพาะผู้เยี่ยมชมที่เข้าสู่ระบบแล้ว"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/members-list/index.js:42 src/blocks/membership-fees/index.js:151
+msgid "Totals rows at the end of the table"
+msgstr "แถวผลรวมท้ายตาราง"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:30
+msgid "Honorary members"
+msgstr "สมาชิกกิตติมศักดิ์"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:26
+msgid "Regular members"
+msgstr "สมาชิกสามัญ"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:360
+msgid "Totals rows text"
+msgstr "สีตัวอักษรแถวผลรวม"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:356
+msgid "Totals rows background"
+msgstr "สีพื้นหลังแถวผลรวม"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:353
+msgid "Header text"
+msgstr "สีตัวอักษรส่วนหัว"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:351
+msgid "Header background"
+msgstr "สีพื้นหลังส่วนหัว"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:346
+msgid "Table colours"
+msgstr "สีของตาราง"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:127
+msgid "They may delete any entry within this time. Older entries can still be deleted in Member Fees → Volunteer hours."
+msgstr "พวกเขาสามารถลบรายการใดก็ได้ภายในเวลานี้ รายการที่เก่ากว่ายังลบได้ที่ ค่าสมาชิก → ชั่วโมงอาสา"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:123
+msgid "Administrators and editors: days after recording"
+msgstr "ผู้ดูแลระบบและบรรณาธิการ: จำนวนวันหลังการบันทึก"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:106
+msgid "Members delete only hours they recorded themselves, e.g. after a mistake. 0 = only on the day of recording."
+msgstr "สมาชิกลบได้เฉพาะชั่วโมงที่ตนบันทึกเอง เช่น หลังบันทึกผิด 0 = เฉพาะวันที่บันทึก"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:102
+msgid "Members: days after recording"
+msgstr "สมาชิก: จำนวนวันหลังการบันทึก"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:91
+msgid "Allow deleting hours"
+msgstr "อนุญาตให้ลบชั่วโมง"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:84
+msgid "Deleting"
+msgstr "การลบ"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:79
+msgid "Total below"
+msgstr "ผลรวมด้านล่าง"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/hours-list/index.js:60 src/blocks/membership-fees/index.js:130
+msgid "Display"
+msgstr "การแสดงผล"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:52
+msgid "Only the hours of the logged-in visitor"
+msgstr "เฉพาะชั่วโมงของผู้เยี่ยมชมที่เข้าสู่ระบบอยู่"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:37
+msgid "Maximum entries"
+msgstr "จำนวนรายการสูงสุด"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:29
+msgid "Leave empty for no limit."
+msgstr "เว้นว่างไว้หากไม่จำกัด"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:94
+msgid "As in the plugin settings"
+msgstr "ตามการตั้งค่าปลั๊กอิน"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:89
+msgid "Names"
+msgstr "ชื่อ"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:106
+msgid "Number of recent entries"
+msgstr "จำนวนรายการล่าสุด"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:96
+msgid "Show my recent entries"
+msgstr "แสดงรายการล่าสุดของฉัน"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:92
+msgid "Description of the work is required"
+msgstr "ต้องระบุรายละเอียดงาน"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:81
+msgid "Button text"
+msgstr "ข้อความบนปุ่ม"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:63
+msgid "How old the date of the work may be. 0 = only today."
+msgstr "วันที่ทำงานย้อนหลังได้ไม่เกินกี่วัน 0 = วันนี้เท่านั้น"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:62
+msgid "Days back"
+msgstr "จำนวนวันย้อนหลัง"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:49
+msgid "Off: hours are always recorded for today, so nobody can add hours to the past or change a closed period. Administrators and editors can always choose the date."
+msgstr "ปิด: ชั่วโมงจะบันทึกเป็นวันนี้เสมอ จึงไม่มีใครเพิ่มชั่วโมงย้อนหลังหรือแก้ไขรอบที่ปิดแล้วได้ ผู้ดูแลระบบและบรรณาธิการเลือกวันที่ได้เสมอ"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:45
+msgid "Members may change the date"
+msgstr "สมาชิกเปลี่ยนวันที่ได้"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:35
+msgid "Step of the hours"
+msgstr "ขั้นของชั่วโมง"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:23
+msgid "Maximum hours per entry"
+msgstr "ชั่วโมงสูงสุดต่อรายการ"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:18
+msgid "Form"
+msgstr "แบบฟอร์ม"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:71
+msgid "Explain the discount"
+msgstr "อธิบายส่วนลด"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:53
+msgid "Hours of the honorary members"
+msgstr "ชั่วโมงของสมาชิกกิตติมศักดิ์"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:41
+msgid "One number per member, separated by commas or spaces."
+msgstr "ตัวเลขหนึ่งตัวต่อสมาชิกหนึ่งคน คั่นด้วยจุลภาคหรือเว้นวรรค"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:37
+msgid "Hours of the regular members"
+msgstr "ชั่วโมงของสมาชิกสามัญ"
+
+#. translators: %s: currency code.
+#: build/blocks/fee-explanation/index.js:3 build/blocks/membership-fees/index.js:3 src/blocks/fee-explanation/index.js:28 src/blocks/membership-fees/index.js:56
+msgid "Base fee (%s)"
+msgstr "ค่าสมาชิกพื้นฐาน (%s)"
+
+#: build/blocks/fee-explanation/index.js:2 src/blocks/fee-explanation/index.js:22
+msgid "Example"
+msgstr "ตัวอย่าง"
+
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:300
+msgid "Discount (%)"
+msgstr "ส่วนลด (%)"
+
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:282
+msgid "The discount is calculated so that the regular members pay this amount together. If their calculated fees do not exceed it, there is no discount."
+msgstr "ส่วนลดจะคำนวณให้สมาชิกสามัญรวมกันจ่ายเท่ากับจำนวนนี้ หากค่าสมาชิกที่คำนวณได้ไม่เกินจำนวนนี้ จะไม่มีส่วนลด"
+
+#. translators: %s: currency code.
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:279
+msgid "Total to collect (%s)"
+msgstr "ยอดรวมที่ต้องการเก็บ (%s)"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:263
+msgid "Total to collect"
+msgstr "ยอดรวมที่ต้องการเก็บ"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:259
+msgid "Percentage"
+msgstr "เปอร์เซ็นต์"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:254
+msgid "Discount given by"
+msgstr "กำหนดส่วนลดโดย"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:244
+msgid "Share of members with the lowest fees (%)"
+msgstr "สัดส่วนสมาชิกที่มีค่าสมาชิกต่ำที่สุด (%)"
+
+#. translators: %s: list of member names.
+#: includes/famefe-users.php:190
+msgid "These accounts belong to members: %s. The members, their history, hours and payments stay in the register; only the link to the account is removed. To end a membership, use Member Fees → Members."
+msgstr "บัญชีเหล่านี้เป็นของสมาชิก: %s สมาชิก ประวัติ ชั่วโมง และการชำระเงินของพวกเขายังคงอยู่ในทะเบียน จะลบเฉพาะการเชื่อมโยงกับบัญชีเท่านั้น หากต้องการสิ้นสุดสถานะสมาชิก ให้ใช้ ค่าสมาชิก → สมาชิก"
+
+#: includes/famefe-users.php:93
+msgid "The first name, last name and e-mail of this profile are also the details of the member."
+msgstr "ชื่อ นามสกุล และอีเมลของโปรไฟล์นี้เป็นข้อมูลของสมาชิกด้วย"
+
+#: includes/famefe-users.php:91
+msgid "Membership and history"
+msgstr "สถานะสมาชิกและประวัติ"
+
+#: includes/famefe-users.php:87
+msgid "Add as member"
+msgstr "เพิ่มเป็นสมาชิก"
+
+#: includes/famefe-users.php:86
+msgid "Not a member."
+msgstr "ไม่ใช่สมาชิก"
+
+#. translators: 1: first day of the period, 2: last day of the period.
+#: includes/famefe-stripe.php:122
+msgid "Membership fee %1$s – %2$s"
+msgstr "ค่าสมาชิก %1$s – %2$s"
+
+#. translators: 1: amount, 2: currency symbol or code (Kč, €, USD).
+#: includes/famefe-settings.php:95
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: includes/famefe-notices.php:61
+msgid "The data could not be saved. Please try again."
+msgstr "ไม่สามารถบันทึกข้อมูลได้ โปรดลองอีกครั้ง"
+
+#: includes/famefe-notices.php:60
+msgid "The payment has not been confirmed yet. If you paid, it will appear shortly."
+msgstr "ยังไม่ได้รับการยืนยันการชำระเงิน หากคุณชำระแล้ว จะแสดงในไม่ช้า"
+
+#: includes/famefe-notices.php:59
+msgid "The payment service could not be reached. Please try again later."
+msgstr "ไม่สามารถติดต่อบริการชำระเงินได้ โปรดลองอีกครั้งภายหลัง"
+
+#: includes/famefe-notices.php:58
+msgid "Online payment is not set up."
+msgstr "ยังไม่ได้ตั้งค่าการชำระเงินออนไลน์"
+
+#: includes/famefe-notices.php:57
+msgid "The block of this form was not found on the page. Please reload the page."
+msgstr "ไม่พบบล็อกของแบบฟอร์มนี้ในหน้า โปรดโหลดหน้าใหม่"
+
+#: includes/famefe-notices.php:56
+msgid "There is nothing to pay."
+msgstr "ไม่มียอดที่ต้องชำระ"
+
+#: includes/famefe-notices.php:55
+msgid "The membership fee for this period has already been paid."
+msgstr "ค่าสมาชิกของรอบนี้ชำระแล้ว"
+
+#: includes/famefe-notices.php:54
+msgid "Choose a valid payment method."
+msgstr "เลือกวิธีชำระเงินที่ถูกต้อง"
+
+#: includes/famefe-notices.php:53
+msgid "Enter a valid amount."
+msgstr "ใส่จำนวนเงินที่ถูกต้อง"
+
+#: includes/famefe-notices.php:51
+msgid "Describe the work, please."
+msgstr "โปรดอธิบายงานที่ทำ"
+
+#: includes/famefe-notices.php:50
+msgid "Hours cannot be recorded for this date any more."
+msgstr "ไม่สามารถบันทึกชั่วโมงสำหรับวันที่นี้ได้อีกแล้ว"
+
+#: includes/famefe-notices.php:49
+msgid "These hours can no longer be deleted here; the time limit has passed."
+msgstr "ไม่สามารถลบชั่วโมงเหล่านี้ที่นี่ได้อีกแล้ว เนื่องจากเลยกำหนดเวลา"
+
+#: includes/famefe-notices.php:48
+msgid "Enter a valid number of hours."
+msgstr "ใส่จำนวนชั่วโมงที่ถูกต้อง"
+
+#: includes/famefe-notices.php:47
+msgid "The member has hours or payments and cannot be deleted. End the membership instead."
+msgstr "สมาชิกรายนี้มีชั่วโมงหรือการชำระเงิน จึงลบไม่ได้ ให้สิ้นสุดสถานะสมาชิกแทน"
+
+#: includes/famefe-notices.php:45
+msgid "This e-mail address is already used by another user account."
+msgstr "อีเมลนี้ถูกใช้โดยบัญชีผู้ใช้อื่นแล้ว"
+
+#: includes/famefe-notices.php:44
+msgid "Enter a valid e-mail address."
+msgstr "ใส่ที่อยู่อีเมลที่ถูกต้อง"
+
+#: includes/famefe-notices.php:43
+msgid "This change is not possible for the member (check the status and the date)."
+msgstr "ไม่สามารถเปลี่ยนแปลงสมาชิกรายนี้ได้ (ตรวจสอบสถานะและวันที่)"
+
+#: includes/famefe-notices.php:42
+msgid "\"Member since\" cannot be after the end of the membership."
+msgstr "\"เป็นสมาชิกตั้งแต่\" ต้องไม่อยู่หลังวันสิ้นสุดสถานะสมาชิก"
+
+#: includes/famefe-notices.php:41
+msgid "Choose a valid membership type."
+msgstr "เลือกประเภทสมาชิกที่ถูกต้อง"
+
+#: includes/famefe-notices.php:40
+msgid "Enter a valid date."
+msgstr "ใส่วันที่ที่ถูกต้อง"
+
+#: includes/famefe-notices.php:39
+msgid "Enter the first or the last name."
+msgstr "ใส่ชื่อหรือนามสกุล"
+
+#: includes/famefe-notices.php:38
+msgid "The record was not found."
+msgstr "ไม่พบรายการ"
+
+#: includes/famefe-notices.php:37
+msgid "The form has expired. Please reload the page and try again."
+msgstr "แบบฟอร์มหมดอายุแล้ว โปรดโหลดหน้าใหม่แล้วลองอีกครั้ง"
+
+#: includes/famefe-notices.php:36
+msgid "Please log in first."
+msgstr "โปรดเข้าสู่ระบบก่อน"
+
+#: includes/famefe-notices.php:35
+msgid "You are not allowed to do this."
+msgstr "คุณไม่ได้รับอนุญาตให้ทำสิ่งนี้"
+
+#: includes/famefe-notices.php:33
+msgid "The settings were saved."
+msgstr "บันทึกการตั้งค่าแล้ว"
+
+#: includes/famefe-notices.php:32
+msgid "The payment was cancelled. You can try again at any time."
+msgstr "ยกเลิกการชำระเงินแล้ว คุณลองอีกครั้งได้ทุกเมื่อ"
+
+#: includes/famefe-notices.php:31
+msgid "Thank you, your membership fee was paid."
+msgstr "ขอบคุณ ค่าสมาชิกของคุณชำระแล้ว"
+
+#: includes/famefe-notices.php:30
+msgid "The payment was deleted."
+msgstr "ลบการชำระเงินแล้ว"
+
+#: includes/famefe-notices.php:29
+msgid "The payment was recorded."
+msgstr "บันทึกการชำระเงินแล้ว"
+
+#: includes/famefe-notices.php:28
+msgid "The hours were deleted."
+msgstr "ลบชั่วโมงแล้ว"
+
+#: includes/famefe-notices.php:27
+msgid "The hours were saved."
+msgstr "บันทึกชั่วโมงแล้ว"
+
+#: includes/famefe-notices.php:26
+msgid "Thank you, your hours were recorded."
+msgstr "ขอบคุณ ชั่วโมงของคุณถูกบันทึกแล้ว"
+
+#: includes/famefe-notices.php:25
+msgid "The member was deleted."
+msgstr "ลบสมาชิกแล้ว"
+
+#: includes/famefe-notices.php:24
+msgid "The change of the membership was recorded."
+msgstr "บันทึกการเปลี่ยนแปลงสถานะสมาชิกแล้ว"
+
+#: includes/famefe-notices.php:23
+msgid "The member was saved."
+msgstr "บันทึกสมาชิกแล้ว"
+
+#: includes/famefe-notices.php:22
+msgid "The member and the user account were created. The member got an e-mail with a link for setting the password."
+msgstr "สร้างสมาชิกและบัญชีผู้ใช้แล้ว สมาชิกได้รับอีเมลพร้อมลิงก์สำหรับตั้งรหัสผ่าน"
+
+#: includes/famefe-notices.php:21
+msgid "The member and the user account were created."
+msgstr "สร้างสมาชิกและบัญชีผู้ใช้แล้ว"
+
+#: includes/famefe-notices.php:20
+msgid "The member was added."
+msgstr "เพิ่มสมาชิกแล้ว"
+
+#: includes/famefe-data.php:241
+msgid "Deleted user"
+msgstr "ผู้ใช้ที่ถูกลบ"
+
+#: includes/famefe-data.php:191
+msgid "Unknown name"
+msgstr "ไม่ทราบชื่อ"
+
+#: includes/famefe-data.php:51
+msgid "Bank transfer"
+msgstr "โอนผ่านธนาคาร"
+
+#: includes/famefe-data.php:50
+msgid "Cash"
+msgstr "เงินสด"
+
+#: includes/famefe-data.php:49
+msgid "Card (Stripe)"
+msgstr "บัตร (Stripe)"
+
+#: includes/famefe-data.php:39
+msgid "\"Member since\" corrected"
+msgstr "แก้ไข \"เป็นสมาชิกตั้งแต่\""
+
+#: includes/famefe-data.php:38
+msgid "Rejoined"
+msgstr "กลับเข้าเป็นสมาชิก"
+
+#: includes/famefe-data.php:37
+msgid "Membership ended"
+msgstr "สิ้นสุดสถานะสมาชิก"
+
+#: includes/famefe-data.php:36
+msgid "Membership type changed"
+msgstr "เปลี่ยนประเภทสมาชิก"
+
+#: includes/famefe-data.php:35
+msgid "Joined"
+msgstr "เข้าเป็นสมาชิก"
+
+#: includes/famefe-data.php:25
+msgid "Honorary"
+msgstr "กิตติมศักดิ์"
+
+#: includes/famefe-data.php:24
+msgid "Regular"
+msgstr "สามัญ"
+
+#: includes/famefe-admin.php:673
+msgid "All regular members of the period together pay the base fee times their number (the expected total). Each member’s share of the volunteer hours of all regular members lowers the fee; what is collected above the expected total is taken off everybody equally, and no fee goes below zero. A member without any hours in the period always pays twice the base fee. Honorary members pay nothing. With the optional discount, the given share of members with the lowest fees pays the given percentage less, or as much less as needed for the given total to collect; nothing is moved to the others."
+msgstr "สมาชิกสามัญทั้งหมดของรอบรวมกันจ่ายค่าสมาชิกพื้นฐานคูณจำนวนคน (ยอดรวมที่คาดไว้) สัดส่วนของสมาชิกแต่ละคนในชั่วโมงอาสาของสมาชิกสามัญทั้งหมดจะช่วยลดค่าสมาชิกของคนนั้น ส่วนที่เก็บได้เกินยอดรวมที่คาดไว้จะหักออกจากทุกคนเท่า ๆ กัน และไม่มีค่าสมาชิกใดต่ำกว่าศูนย์ สมาชิกที่ไม่มีชั่วโมงเลยในรอบจะจ่ายสองเท่าของค่าสมาชิกพื้นฐานเสมอ สมาชิกกิตติมศักดิ์ไม่ต้องจ่าย เมื่อใช้ส่วนลดแบบเลือกได้ สมาชิกตามสัดส่วนที่กำหนดซึ่งมีค่าสมาชิกต่ำที่สุดจะจ่ายน้อยลงตามเปอร์เซ็นต์ที่กำหนด หรือน้อยลงเท่าที่จำเป็นเพื่อให้ได้ยอดรวมที่ต้องการเก็บตามที่กำหนด โดยไม่มีการโยกภาระไปให้คนอื่น"
+
+#: includes/famefe-admin.php:672
+msgid "How the fee is calculated"
+msgstr "วิธีคำนวณค่าสมาชิก"
+
+#: includes/famefe-admin.php:663
+msgid "Blocks"
+msgstr "บล็อก"
+
+#: includes/famefe-admin.php:659
+msgid "Add the blocks to your pages: search for \"Fair Member Fees\" in the block inserter."
+msgstr "เพิ่มบล็อกลงในหน้าของคุณ: ค้นหา \"Fair Member Fees\" ในตัวแทรกบล็อก"
+
+#: includes/famefe-admin.php:658
+msgid "Set the currency, and Stripe if you want online payments (Settings)."
+msgstr "ตั้งค่าสกุลเงิน และตั้งค่า Stripe หากต้องการชำระเงินออนไลน์ (การตั้งค่า)"
+
+#: includes/famefe-admin.php:657
+msgid "Add your members (Members → Add member) and link them to their user accounts."
+msgstr "เพิ่มสมาชิกของคุณ (สมาชิก → เพิ่มสมาชิก) และเชื่อมโยงกับบัญชีผู้ใช้ของพวกเขา"
+
+#: includes/famefe-admin.php:655
+msgid "Getting started"
+msgstr "เริ่มต้นใช้งาน"
+
+#: includes/famefe-admin.php:653
+msgid "Fair Member Fees help"
+msgstr "ความช่วยเหลือ Fair Member Fees"
+
+#: includes/famefe-admin.php:649
+msgid "Explains the calculation on an example with your numbers."
+msgstr "อธิบายการคำนวณด้วยตัวอย่างที่ใช้ตัวเลขของคุณ"
+
+#: includes/famefe-admin.php:649
+msgid "Fee calculation explained"
+msgstr "คำอธิบายการคำนวณค่าสมาชิก"
+
+#: includes/famefe-admin.php:648
+msgid "The membership register with the date of the last change and who recorded it; visible to logged-in users by default."
+msgstr "ทะเบียนสมาชิกพร้อมวันที่เปลี่ยนแปลงล่าสุดและผู้บันทึก โดยค่าเริ่มต้นแสดงให้ผู้ใช้ที่เข้าสู่ระบบเห็น"
+
+#: includes/famefe-admin.php:648
+msgid "Members list"
+msgstr "รายชื่อสมาชิก"
+
+#: includes/famefe-admin.php:647
+msgid "Recorded hours for a period, all or only the visitor’s own."
+msgstr "ชั่วโมงที่บันทึกในรอบหนึ่ง ทั้งหมดหรือเฉพาะของผู้เยี่ยมชมเอง"
+
+#: includes/famefe-admin.php:647
+msgid "Volunteer hours list"
+msgstr "รายการชั่วโมงอาสา"
+
+#: includes/famefe-admin.php:646
+msgid "Members record their own hours. Set the maximum hours per entry, how many days back a date may be, and whether a description is required."
+msgstr "สมาชิกบันทึกชั่วโมงของตนเอง ตั้งค่าชั่วโมงสูงสุดต่อรายการ จำนวนวันที่วันที่ย้อนหลังได้ และต้องระบุรายละเอียดหรือไม่"
+
+#: includes/famefe-admin.php:646
+msgid "Volunteer hours form"
+msgstr "แบบฟอร์มชั่วโมงอาสา"
+
+#: includes/famefe-admin.php:645
+msgid "The table of fees for a period. Set the period, the base fee and the optional discount in the block settings. Until the volunteer hours of the period are closed, it shows the fees calculated so far; then turn on its payment button and members can pay their final fee. Administrators and editors can record cash and bank payments right there. Clubs that only keep records of hours leave the button off."
+msgstr "ตารางค่าสมาชิกของรอบหนึ่ง ตั้งรอบ ค่าสมาชิกพื้นฐาน และส่วนลดแบบเลือกได้ในการตั้งค่าบล็อก จนกว่าจะปิดชั่วโมงอาสาของรอบ ตารางจะแสดงค่าสมาชิกที่คำนวณได้จนถึงตอนนี้ จากนั้นเปิดปุ่มชำระเงิน แล้วสมาชิกจะชำระค่าสมาชิกสุดท้ายได้ ผู้ดูแลระบบและบรรณาธิการบันทึกการชำระด้วยเงินสดและการโอนได้ที่นั่นทันที สโมสรที่บันทึกเฉพาะชั่วโมงจะปิดปุ่มไว้"
+
+#: includes/famefe-admin.php:645
+msgid "Membership fees"
+msgstr "ค่าสมาชิก"
+
+#: includes/famefe-admin.php:635 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:123
+msgid "Shortened for data protection: first 4 and last 4 characters (Janaková)"
+msgstr "ย่อเพื่อคุ้มครองข้อมูล: 4 ตัวอักษรแรกและ 4 ตัวอักษรสุดท้าย (Janemith)"
+
+#: includes/famefe-admin.php:634 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:116
+msgid "Display name of the user account"
+msgstr "ชื่อที่แสดงของบัญชีผู้ใช้"
+
+#: includes/famefe-admin.php:633 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:112
+msgid "Initials (J. S.)"
+msgstr "อักษรย่อ (J. S.)"
+
+#: includes/famefe-admin.php:632 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:105
+msgid "First name and initial (Jane S.)"
+msgstr "ชื่อและอักษรย่อ (Jane S.)"
+
+#: includes/famefe-admin.php:631 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:101
+msgid "Full name (Jane Smith)"
+msgstr "ชื่อเต็ม (Jane Smith)"
+
+#: includes/famefe-admin.php:616
+msgid "Delete all members, hours, payments and settings when the plugin is deleted."
+msgstr "ลบสมาชิก ชั่วโมง การชำระเงิน และการตั้งค่าทั้งหมดเมื่อลบปลั๊กอิน"
+
+#: includes/famefe-admin.php:615
+msgid "Delete data"
+msgstr "ลบข้อมูล"
+
+#: includes/famefe-admin.php:612
+msgid "Uninstall"
+msgstr "ถอนการติดตั้ง"
+
+#: includes/famefe-admin.php:607
+msgid "Default for all blocks; each block can override it."
+msgstr "ค่าเริ่มต้นสำหรับทุกบล็อก แต่ละบล็อกเปลี่ยนได้"
+
+#: includes/famefe-admin.php:600
+msgid "Names in blocks"
+msgstr "ชื่อในบล็อก"
+
+#: includes/famefe-admin.php:597
+msgid "Logged-in users who are not members may record their hours too (they count only in the totals)."
+msgstr "ผู้ใช้ที่เข้าสู่ระบบแต่ไม่ใช่สมาชิกก็บันทึกชั่วโมงของตนได้เช่นกัน (นับเฉพาะในผลรวม)"
+
+#: includes/famefe-admin.php:596
+msgid "Hours of non-members"
+msgstr "ชั่วโมงของผู้ที่ไม่ใช่สมาชิก"
+
+#: includes/famefe-admin.php:593
+msgid "Volunteer hours and names"
+msgstr "ชั่วโมงอาสาและชื่อ"
+
+#: includes/famefe-admin.php:588
+msgid "Add this address in Stripe (Developers → Webhooks) with the events checkout.session.completed and checkout.session.async_payment_succeeded, then copy its signing secret here. Payments are recorded even when a member closes the browser before returning to your site."
+msgstr "เพิ่มที่อยู่นี้ใน Stripe (Developers → Webhooks) พร้อมเหตุการณ์ checkout.session.completed และ checkout.session.async_payment_succeeded แล้วคัดลอกรหัสลับสำหรับลงนามมาไว้ที่นี่ การชำระเงินจะถูกบันทึกแม้สมาชิกปิดเบราว์เซอร์ก่อนกลับมาที่เว็บไซต์ของคุณ"
+
+#: includes/famefe-admin.php:585
+msgid "Webhook endpoint"
+msgstr "ปลายทาง Webhook"
+
+#: includes/famefe-admin.php:575
+msgid "Live webhook signing secret"
+msgstr "รหัสลับลงนาม Webhook ใช้งานจริง"
+
+#: includes/famefe-admin.php:574
+msgid "Live secret key"
+msgstr "คีย์ลับใช้งานจริง"
+
+#: includes/famefe-admin.php:573
+msgid "Test webhook signing secret"
+msgstr "รหัสลับลงนาม Webhook ทดสอบ"
+
+#: includes/famefe-admin.php:572
+msgid "Test secret key"
+msgstr "คีย์ลับทดสอบ"
+
+#: includes/famefe-admin.php:567
+msgid "Live"
+msgstr "ใช้งานจริง"
+
+#: includes/famefe-admin.php:566
+msgid "Test (no real money)"
+msgstr "ทดสอบ (ไม่ใช้เงินจริง)"
+
+#: includes/famefe-admin.php:564
+msgid "Mode"
+msgstr "โหมด"
+
+#: includes/famefe-admin.php:561
+msgid "Members pay on the Stripe payment page. Fill in the secret key of the mode you use; without it the Membership fees block shows no payment button."
+msgstr "สมาชิกชำระเงินที่หน้าชำระเงินของ Stripe กรอกคีย์ลับของโหมดที่คุณใช้ หากไม่มีคีย์ บล็อกค่าสมาชิกจะไม่แสดงปุ่มชำระเงิน"
+
+#: includes/famefe-admin.php:560
+msgid "Stripe"
+msgstr "Stripe"
+
+#: includes/famefe-admin.php:555
+msgid "Fees are rounded to this number of decimals. Leave empty to use the usual number of the currency (CZK 0, EUR and USD 2)."
+msgstr "ค่าสมาชิกจะปัดเศษเป็นจำนวนตำแหน่งทศนิยมนี้ เว้นว่างไว้เพื่อใช้จำนวนปกติของสกุลเงิน (CZK 0, EUR และ USD 2)"
+
+#: includes/famefe-admin.php:552
+msgid "Decimal places"
+msgstr "ตำแหน่งทศนิยม"
+
+#: includes/famefe-admin.php:548
+msgid "Three-letter ISO code, e.g. CZK, EUR, USD."
+msgstr "รหัส ISO สามตัวอักษร เช่น CZK, EUR, USD"
+
+#: includes/famefe-admin.php:545
+msgid "Currency"
+msgstr "สกุลเงิน"
+
+#: includes/famefe-admin.php:542
+msgid "Money"
+msgstr "เงิน"
+
+#: includes/famefe-admin.php:539
+msgid "The season (period), the base fee and the discount are set in the Membership fees block on your page."
+msgstr "ฤดูกาล (รอบ) ค่าสมาชิกพื้นฐาน และส่วนลด ตั้งค่าได้ในบล็อกค่าสมาชิกบนหน้าของคุณ"
+
+#: includes/famefe-admin.php:537
+msgid "Fair Member Fees settings"
+msgstr "การตั้งค่า Fair Member Fees"
+
+#. translators: %s: currency code.
+#: includes/famefe-admin.php:483
+msgid "Amount (%s)"
+msgstr "จำนวนเงิน (%s)"
+
+#: includes/famefe-admin.php:479
+msgid "to"
+msgstr "ถึง"
+
+#: includes/famefe-admin.php:478
+msgid "Period from"
+msgstr "รอบตั้งแต่"
+
+#: includes/famefe-admin.php:474
+msgid "Cash and bank payments. The period must be the same as in the Membership fees block, otherwise the block does not show the member as paid. Card payments are recorded automatically."
+msgstr "การชำระด้วยเงินสดและการโอน รอบต้องตรงกับในบล็อกค่าสมาชิก มิฉะนั้นบล็อกจะไม่แสดงว่าสมาชิกชำระแล้ว การชำระด้วยบัตรจะบันทึกโดยอัตโนมัติ"
+
+#: includes/famefe-admin.php:473
+msgid "Record a payment"
+msgstr "บันทึกการชำระเงิน"
+
+#. translators: %s: number of hours.
+#: includes/famefe-admin.php:451
+msgid "Total: %s hours"
+msgstr "รวม: %s ชั่วโมง"
+
+#: includes/famefe-admin.php:447 includes/famefe-admin.php:505
+msgid "Filter"
+msgstr "กรอง"
+
+#: includes/famefe-admin.php:433
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: includes/famefe-admin.php:431
+msgid "Save"
+msgstr "บันทึก"
+
+#: includes/famefe-admin.php:419
+msgid "Record hours for a member"
+msgstr "บันทึกชั่วโมงให้สมาชิก"
+
+#: includes/famefe-admin.php:419
+msgid "Edit hours"
+msgstr "แก้ไขชั่วโมง"
+
+#: includes/famefe-admin.php:380 includes/famefe-admin.php:440 build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:159
+msgid "To"
+msgstr "ถึง"
+
+#: includes/famefe-admin.php:379 includes/famefe-admin.php:439 build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:149
+msgid "From"
+msgstr "ตั้งแต่"
+
+#: includes/famefe-admin.php:373
+msgid "History"
+msgstr "ประวัติ"
+
+#: includes/famefe-admin.php:370
+msgid "Active"
+msgstr "ใช้งานอยู่"
+
+#: includes/famefe-admin.php:357
+msgid "Record the change"
+msgstr "บันทึกการเปลี่ยนแปลง"
+
+#: includes/famefe-admin.php:355
+msgid "Valid from"
+msgstr "มีผลตั้งแต่"
+
+#: includes/famefe-admin.php:353
+msgid "Rejoin"
+msgstr "รับกลับเข้าเป็นสมาชิก"
+
+#: includes/famefe-admin.php:348
+msgid "End the membership"
+msgstr "สิ้นสุดสถานะสมาชิก"
+
+#. translators: %s: membership type (Regular, Honorary).
+#: includes/famefe-admin.php:343
+msgid "Change type to: %s"
+msgstr "เปลี่ยนประเภทเป็น: %s"
+
+#: includes/famefe-admin.php:336 includes/famefe-admin.php:378
+msgid "Change"
+msgstr "เปลี่ยน"
+
+#: includes/famefe-admin.php:330 includes/famefe-users.php:80
+msgid "Membership"
+msgstr "สถานะสมาชิก"
+
+#. translators: %s: date.
+#: includes/famefe-admin.php:327 includes/famefe-users.php:110
+msgid "Membership ended on %s"
+msgstr "สิ้นสุดสถานะสมาชิกเมื่อ %s"
+
+#. translators: 1: membership type, 2: date.
+#: includes/famefe-admin.php:325 includes/famefe-users.php:113
+msgid "%1$s member since %2$s"
+msgstr "สมาชิก%1$sตั้งแต่ %2$s"
+
+#: includes/famefe-admin.php:311
+msgid "Delete member entered by mistake"
+msgstr "ลบสมาชิกที่เพิ่มโดยผิดพลาด"
+
+#: includes/famefe-admin.php:311
+msgid "Delete this member? Use this only for a member entered by mistake."
+msgstr "ลบสมาชิกรายนี้หรือไม่? ใช้กับสมาชิกที่เพิ่มโดยผิดพลาดเท่านั้น"
+
+#: includes/famefe-admin.php:297
+msgid "Save details"
+msgstr "บันทึกข้อมูล"
+
+#: includes/famefe-admin.php:288
+msgid "Only to correct a mistake; the correction is recorded in the history. Membership changes go below."
+msgstr "ใช้สำหรับแก้ไขข้อผิดพลาดเท่านั้น การแก้ไขจะถูกบันทึกในประวัติ การเปลี่ยนแปลงสถานะสมาชิกอยู่ด้านล่าง"
+
+#: includes/famefe-admin.php:279
+msgid "Regular members pay the membership fee, honorary members do not."
+msgstr "สมาชิกสามัญจ่ายค่าสมาชิก สมาชิกกิตติมศักดิ์ไม่ต้องจ่าย"
+
+#: includes/famefe-admin.php:272 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:108
+msgid "Membership type"
+msgstr "ประเภทสมาชิก"
+
+#: includes/famefe-admin.php:266
+msgid "For an existing account, the name and e-mail of the account are used; these fields only fill in what the account lacks."
+msgstr "สำหรับบัญชีที่มีอยู่แล้ว จะใช้ชื่อและอีเมลของบัญชี ช่องเหล่านี้จะเติมเฉพาะข้อมูลที่บัญชียังไม่มี"
+
+#: includes/famefe-admin.php:264
+msgid "Changes of the name and e-mail are saved to the user account too."
+msgstr "การเปลี่ยนชื่อและอีเมลจะบันทึกลงในบัญชีผู้ใช้ด้วย"
+
+#: includes/famefe-admin.php:262
+msgid "The name and e-mail come from the user account, which you are not allowed to edit."
+msgstr "ชื่อและอีเมลมาจากบัญชีผู้ใช้ที่คุณไม่ได้รับอนุญาตให้แก้ไข"
+
+#: includes/famefe-admin.php:254
+msgid "Last name"
+msgstr "นามสกุล"
+
+#: includes/famefe-admin.php:250
+msgid "First name"
+msgstr "ชื่อ"
+
+#: includes/famefe-admin.php:245
+msgid "Members with an account can record their hours and pay online."
+msgstr "สมาชิกที่มีบัญชีบันทึกชั่วโมงและชำระเงินออนไลน์ได้"
+
+#: includes/famefe-admin.php:243
+msgid "Open the profile"
+msgstr "เปิดโปรไฟล์"
+
+#: includes/famefe-admin.php:238
+msgid "Members with an account can record their hours and pay online. The name and e-mail of a linked member are those of the account."
+msgstr "สมาชิกที่มีบัญชีบันทึกชั่วโมงและชำระเงินออนไลน์ได้ ชื่อและอีเมลของสมาชิกที่เชื่อมโยงแล้วจะใช้ตามบัญชี"
+
+#: includes/famefe-admin.php:236
+msgid "Without a user account"
+msgstr "ไม่มีบัญชีผู้ใช้"
+
+#: includes/famefe-admin.php:233
+msgid "The account gets the default role of the site; the e-mail address is required."
+msgstr "บัญชีจะได้รับบทบาทเริ่มต้นของเว็บไซต์ ต้องระบุที่อยู่อีเมล"
+
+#: includes/famefe-admin.php:232
+msgid "Send the member an e-mail with a link for setting the password"
+msgstr "ส่งอีเมลพร้อมลิงก์สำหรับตั้งรหัสผ่านให้สมาชิก"
+
+#: includes/famefe-admin.php:230
+msgid "Create a new user account"
+msgstr "สร้างบัญชีผู้ใช้ใหม่"
+
+#: includes/famefe-admin.php:227
+msgid "Existing user account"
+msgstr "บัญชีผู้ใช้ที่มีอยู่"
+
+#: includes/famefe-admin.php:217
+msgid "— No account —"
+msgstr "— ไม่มีบัญชี —"
+
+#: includes/famefe-admin.php:205
+msgid "Details"
+msgstr "ข้อมูล"
+
+#: includes/famefe-admin.php:202
+msgid "No account found."
+msgstr "ไม่พบบัญชี"
+
+#. translators: %d: number of user accounts found.
+#: includes/famefe-admin.php:201
+msgid "Found: %d"
+msgstr "พบ: %d"
+
+#: includes/famefe-admin.php:199 includes/famefe-notices.php:46
+msgid "This user account already belongs to another member."
+msgstr "บัญชีผู้ใช้นี้เป็นของสมาชิกคนอื่นแล้ว"
+
+#: includes/famefe-admin.php:194
+msgid "Back to the members"
+msgstr "กลับไปที่สมาชิก"
+
+#: includes/famefe-admin.php:176
+msgid "Search members"
+msgstr "ค้นหาสมาชิก"
+
+#: includes/famefe-admin.php:165 includes/famefe-admin.php:193 includes/famefe-admin.php:297
+msgid "Add member"
+msgstr "เพิ่มสมาชิก"
+
+#: includes/famefe-admin.php:143
+msgid "Search user accounts"
+msgstr "ค้นหาบัญชีผู้ใช้"
+
+#: includes/famefe-admin.php:142
+msgid "Search accounts by name or login…"
+msgstr "ค้นหาบัญชีตามชื่อหรือชื่อเข้าระบบ…"
+
+#. translators: 1: name of the person, 2: date and time.
+#: includes/famefe-admin.php:132
+msgid "%1$s on %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: %s: date and time.
+#: includes/famefe-admin.php:129
+msgid "automatically on %s"
+msgstr "อัตโนมัติ, %s"
+
+#: includes/famefe-admin.php:33
+msgid "Help"
+msgstr "ความช่วยเหลือ"
+
+#: includes/famefe-admin.php:32
+msgid "Settings"
+msgstr "การตั้งค่า"
+
+#: includes/famefe-admin.php:31 includes/famefe-admin.php:470
+msgid "Payments"
+msgstr "การชำระเงิน"
+
+#: includes/famefe-admin.php:30 includes/famefe-admin.php:415
+msgid "Volunteer hours"
+msgstr "ชั่วโมงอาสา"
+
+#: includes/famefe-admin.php:22
+msgid "Member Fees"
+msgstr "ค่าสมาชิก"
+
+#: includes/famefe-admin-tables.php:334
+msgid "Delete this payment? The member will be shown as unpaid."
+msgstr "ลบการชำระเงินนี้หรือไม่? สมาชิกจะแสดงเป็นยังไม่ชำระ"
+
+#: includes/famefe-admin-tables.php:324
+msgid "No payments recorded."
+msgstr "ไม่มีการชำระเงินที่บันทึกไว้"
+
+#: includes/famefe-admin-tables.php:307 includes/famefe-admin.php:293 includes/famefe-admin.php:356 includes/famefe-admin.php:381 includes/famefe-admin.php:494
+msgid "Note"
+msgstr "หมายเหตุ"
+
+#: includes/famefe-admin-tables.php:305
+msgid "Amount"
+msgstr "จำนวนเงิน"
+
+#: includes/famefe-admin-tables.php:304 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:25
+msgid "Period"
+msgstr "รอบ"
+
+#. translators: %s: name of a user who is not a member.
+#: includes/famefe-admin-tables.php:266
+msgid "%s (not a member)"
+msgstr "%s (ไม่ใช่สมาชิก)"
+
+#: includes/famefe-admin-tables.php:251
+msgid "Edit"
+msgstr "แก้ไข"
+
+#: includes/famefe-admin-tables.php:154
+msgid "Edit and history"
+msgstr "แก้ไขและประวัติ"
+
+#: includes/famefe-admin-tables.php:152
+msgid "(no name)"
+msgstr "(ไม่มีชื่อ)"
+
+#: includes/famefe-admin-tables.php:128 includes/famefe-admin.php:443 includes/famefe-admin.php:501
+msgid "All"
+msgstr "ทั้งหมด"
+
+#: includes/famefe-admin-tables.php:127 includes/famefe-admin.php:109 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:34
+msgid "Former members"
+msgstr "อดีตสมาชิก"
+
+#: includes/famefe-admin-tables.php:126 includes/famefe-admin.php:29 includes/famefe-admin.php:109 includes/famefe-admin.php:164 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:21
+msgid "Members"
+msgstr "สมาชิก"
+
+#: includes/famefe-admin-tables.php:39 includes/famefe-admin.php:258
+msgid "Email"
+msgstr "อีเมล"
+
+#: includes/famefe-admin-tables.php:38 includes/famefe-admin.php:223
+msgid "User account"
+msgstr "บัญชีผู้ใช้"
+
+#: build/blocks/membership-fees/render.php:306 src/blocks/membership-fees/render.php:306
+msgid "Only administrators and editors see this form. The amount is the calculated fee of the member."
+msgstr "เฉพาะผู้ดูแลระบบและบรรณาธิการเท่านั้นที่เห็นแบบฟอร์มนี้ จำนวนเงินคือค่าสมาชิกที่คำนวณได้ของสมาชิก"
+
+#: build/blocks/membership-fees/render.php:305 includes/famefe-admin.php:495 src/blocks/membership-fees/render.php:305
+msgid "Record payment"
+msgstr "บันทึกการชำระเงิน"
+
+#: build/blocks/membership-fees/render.php:295 includes/famefe-admin-tables.php:306 includes/famefe-admin.php:487 src/blocks/membership-fees/render.php:295
+msgid "Method"
+msgstr "วิธีการ"
+
+#: build/blocks/membership-fees/render.php:287 src/blocks/membership-fees/render.php:287
+msgid "Member and fee"
+msgstr "สมาชิกและค่าสมาชิก"
+
+#: build/blocks/membership-fees/render.php:283 src/blocks/membership-fees/render.php:283
+msgid "Record a cash or bank payment (administrators and editors)"
+msgstr "บันทึกการชำระด้วยเงินสดหรือการโอน (ผู้ดูแลระบบและบรรณาธิการ)"
+
+#: build/blocks/membership-fees/render.php:267 src/blocks/membership-fees/render.php:267
+msgid "(Visible only to administrators and editors.)"
+msgstr "(เห็นเฉพาะผู้ดูแลระบบและบรรณาธิการ)"
+
+#: build/blocks/membership-fees/render.php:261 src/blocks/membership-fees/render.php:261
+msgid "The payment button is shown only to logged-in regular members who have a fee to pay."
+msgstr "ปุ่มชำระเงินจะแสดงเฉพาะสมาชิกสามัญที่เข้าสู่ระบบและมีค่าสมาชิกต้องชำระ"
+
+#: build/blocks/membership-fees/render.php:259 src/blocks/membership-fees/render.php:259
+msgid "The fees are final, but members cannot pay online: Stripe is not set up yet (Member Fees → Settings → Stripe secret key)."
+msgstr "ค่าสมาชิกเป็นยอดสุดท้ายแล้ว แต่สมาชิกยังชำระออนไลน์ไม่ได้: ยังไม่ได้ตั้งค่า Stripe (ค่าสมาชิก → การตั้งค่า → คีย์ลับ Stripe)"
+
+#: build/blocks/membership-fees/render.php:257 src/blocks/membership-fees/render.php:257
+msgid "The payment button is off: the fees are shown as calculated so far. Turn it on in the block settings (\"Payment button\") once the volunteer hours of the period are closed and the fees are final. Leave it off if you do not collect fees through this page."
+msgstr "ปุ่มชำระเงินปิดอยู่: ค่าสมาชิกแสดงตามที่คำนวณได้จนถึงตอนนี้ เปิดปุ่มในการตั้งค่าบล็อก (\"ปุ่มชำระเงิน\") เมื่อปิดชั่วโมงอาสาของรอบและค่าสมาชิกเป็นยอดสุดท้ายแล้ว หากคุณไม่เก็บค่าสมาชิกผ่านหน้านี้ ให้ปิดไว้"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:244 src/blocks/membership-fees/render.php:244
+msgid "Pay %s online"
+msgstr "ชำระ %s ออนไลน์"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:233 src/blocks/membership-fees/render.php:233
+msgid "Your membership fee: %s"
+msgstr "ค่าสมาชิกของคุณ: %s"
+
+#: build/blocks/membership-fees/render.php:227 src/blocks/membership-fees/render.php:227
+msgid "You do not need to pay a membership fee for this period. Thank you for your work!"
+msgstr "คุณไม่ต้องจ่ายค่าสมาชิกในรอบนี้ ขอบคุณสำหรับการทำงานของคุณ!"
+
+#: build/blocks/membership-fees/render.php:221 src/blocks/membership-fees/render.php:221
+msgid "The fee will be final once the volunteer hours of this period are closed."
+msgstr "ค่าสมาชิกจะเป็นยอดสุดท้ายเมื่อปิดชั่วโมงอาสาของรอบนี้"
+
+#: build/blocks/membership-fees/render.php:219 src/blocks/membership-fees/render.php:219
+msgid "The fee will be final once the volunteer hours of this period are closed; then you can pay it here."
+msgstr "ค่าสมาชิกจะเป็นยอดสุดท้ายเมื่อปิดชั่วโมงอาสาของรอบนี้ แล้วคุณจะชำระได้ที่นี่"
+
+#: build/blocks/membership-fees/render.php:214 src/blocks/membership-fees/render.php:214
+msgid "Thank you for your work!"
+msgstr "ขอบคุณสำหรับการทำงานของคุณ!"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:209 src/blocks/membership-fees/render.php:209
+msgid "With the volunteer hours recorded so far, your membership fee is %s."
+msgstr "จากชั่วโมงอาสาที่บันทึกจนถึงตอนนี้ ค่าสมาชิกของคุณคือ %s"
+
+#. translators: 1: amount, 2: date.
+#: build/blocks/membership-fees/render.php:198 src/blocks/membership-fees/render.php:198
+msgid "You paid %1$s on %2$s. Thank you!"
+msgstr "คุณชำระ %1$s เมื่อ %2$s ขอบคุณ!"
+
+#: build/blocks/membership-fees/render.php:144 src/blocks/membership-fees/render.php:144
+msgid "There are no members in this period."
+msgstr "ไม่มีสมาชิกในรอบนี้"
+
+#. translators: 1: period (from – to), 2: base fee with currency.
+#: build/blocks/membership-fees/render.php:135 src/blocks/membership-fees/render.php:135
+msgid "Membership fees for %1$s. Base fee: %2$s."
+msgstr "ค่าสมาชิกสำหรับ %1$s ค่าสมาชิกพื้นฐาน: %2$s"
+
+#. translators: 1: first day of the period, 2: last day of the period.
+#: build/blocks/membership-fees/render.php:122 src/blocks/membership-fees/render.php:122
+msgid "%1$s – %2$s"
+msgstr "%1$s – %2$s"
+
+#: build/blocks/membership-fees/render.php:106 src/blocks/membership-fees/render.php:106
+msgid "Non-members and former members"
+msgstr "ผู้ที่ไม่ใช่สมาชิกและอดีตสมาชิก"
+
+#. translators: 1: number of members who paid, 2: number of regular members.
+#: build/blocks/membership-fees/render.php:94 src/blocks/membership-fees/render.php:94
+msgid "%1$d of %2$d"
+msgstr "%1$d จาก %2$d"
+
+#: build/blocks/membership-fees/render.php:47 build/blocks/membership-fees/render.php:302 includes/famefe-admin-tables.php:302 includes/famefe-admin.php:493 src/blocks/membership-fees/render.php:47 src/blocks/membership-fees/render.php:302 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:125
+msgid "Paid on"
+msgstr "วันที่ชำระ"
+
+#: build/blocks/members-list/render.php:99 includes/famefe-admin-tables.php:160 includes/famefe-admin.php:370 includes/famefe-users.php:159 src/blocks/members-list/render.php:99
+msgid "Former member"
+msgstr "อดีตสมาชิก"
+
+#: build/blocks/members-list/render.php:83 src/blocks/members-list/render.php:83 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:38
+msgid "Search by name"
+msgstr "ค้นหาตามชื่อ"
+
+#: build/blocks/members-list/render.php:82 src/blocks/members-list/render.php:82
+msgid "Search by name…"
+msgstr "ค้นหาตามชื่อ…"
+
+#: build/blocks/members-list/render.php:77 includes/famefe-admin-tables.php:146 src/blocks/members-list/render.php:77
+msgid "No members found."
+msgstr "ไม่พบสมาชิก"
+
+#. translators: %d: number of current members.
+#: build/blocks/members-list/render.php:72 src/blocks/members-list/render.php:72
+msgid "Current members (%d)"
+msgstr "สมาชิกปัจจุบัน (%d)"
+
+#. translators: %d: number of former members.
+#: build/blocks/members-list/render.php:69 src/blocks/members-list/render.php:69
+msgid "Former members (%d)"
+msgstr "อดีตสมาชิก (%d)"
+
+#. translators: %d: number of honorary members.
+#: build/blocks/members-list/render.php:66 build/blocks/membership-fees/render.php:99 src/blocks/members-list/render.php:66 src/blocks/membership-fees/render.php:99
+msgid "Honorary members (%d)"
+msgstr "สมาชิกกิตติมศักดิ์ (%d)"
+
+#. translators: %d: number of regular members.
+#: build/blocks/members-list/render.php:64 build/blocks/membership-fees/render.php:86 src/blocks/members-list/render.php:64 src/blocks/membership-fees/render.php:86
+msgid "Regular members (%d)"
+msgstr "สมาชิกสามัญ (%d)"
+
+#: build/blocks/members-list/render.php:45 includes/famefe-admin-tables.php:37 includes/famefe-admin-tables.php:220 includes/famefe-admin-tables.php:308 includes/famefe-admin.php:382 src/blocks/members-list/render.php:45 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:80
+msgid "Recorded by"
+msgstr "ผู้บันทึก"
+
+#: build/blocks/members-list/render.php:44 includes/famefe-admin-tables.php:36 includes/famefe-admin.php:377 src/blocks/members-list/render.php:44 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:76
+msgid "Change date"
+msgstr "วันที่เปลี่ยนแปลง"
+
+#: build/blocks/members-list/render.php:43 includes/famefe-admin-tables.php:35 src/blocks/members-list/render.php:43 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:72
+msgid "Last change"
+msgstr "การเปลี่ยนแปลงล่าสุด"
+
+#: build/blocks/members-list/render.php:42 includes/famefe-admin-tables.php:34 includes/famefe-admin.php:284 src/blocks/members-list/render.php:42 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:68
+msgid "Member since"
+msgstr "เป็นสมาชิกตั้งแต่"
+
+#: build/blocks/members-list/render.php:19 src/blocks/members-list/render.php:19
+msgid "The list of members is available to logged-in users."
+msgstr "ผู้ใช้ที่เข้าสู่ระบบดูรายชื่อสมาชิกได้"
+
+#. translators: 1: number of hours, 2: number of entries.
+#: build/blocks/hours-list/render.php:112 src/blocks/hours-list/render.php:112
+msgid "Total: %1$s hours in %2$d entry"
+msgid_plural "Total: %1$s hours in %2$d entries"
+msgstr[0] "รวม: %1$s ชั่วโมงใน %2$d รายการ"
+
+#: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:256 includes/famefe-admin-tables.php:335 src/blocks/hours-list/render.php:94
+msgid "Delete"
+msgstr "ลบ"
+
+#: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:255 src/blocks/hours-list/render.php:94
+msgid "Delete these hours?"
+msgstr "ลบชั่วโมงเหล่านี้หรือไม่?"
+
+#: build/blocks/hours-list/render.php:72 src/blocks/hours-list/render.php:72
+msgid "Actions"
+msgstr "การดำเนินการ"
+
+#: build/blocks/hours-list/render.php:69 build/blocks/members-list/render.php:46 src/blocks/hours-list/render.php:69 src/blocks/members-list/render.php:46 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 src/blocks/hours-list/index.js:75 src/blocks/members-list/index.js:84
+msgid "Recorded on"
+msgstr "วันที่บันทึก"
+
+#: build/blocks/hours-list/render.php:62 build/blocks/members-list/render.php:39 build/blocks/membership-fees/render.php:28 includes/famefe-admin-tables.php:32 includes/famefe-admin-tables.php:217 src/blocks/hours-list/render.php:62 src/blocks/members-list/render.php:39 src/blocks/membership-fees/render.php:28 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:73
+msgid "Name"
+msgstr "ชื่อ"
+
+#: build/blocks/hours-list/render.php:50 includes/famefe-admin-tables.php:243 src/blocks/hours-list/render.php:50
+msgid "No hours recorded."
+msgstr "ไม่มีชั่วโมงที่บันทึกไว้"
+
+#: build/blocks/hours-list/render.php:19 src/blocks/hours-list/render.php:19
+msgid "Log in to see your volunteer hours."
+msgstr "เข้าสู่ระบบเพื่อดูชั่วโมงอาสาของคุณ"
+
+#: build/blocks/hours-form/render.php:118 src/blocks/hours-form/render.php:118
+msgid "My recent entries"
+msgstr "รายการล่าสุดของฉัน"
+
+#: build/blocks/hours-form/render.php:59 build/blocks/hours-form/render.php:125 build/blocks/hours-list/render.php:66 includes/famefe-admin-tables.php:219 includes/famefe-admin.php:430 src/blocks/hours-form/render.php:59 src/blocks/hours-form/render.php:125 src/blocks/hours-list/render.php:66 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:74
+msgid "Work done"
+msgstr "งานที่ทำ"
+
+#: build/blocks/hours-form/render.php:57 build/blocks/hours-form/render.php:123 build/blocks/hours-list/render.php:60 includes/famefe-admin-tables.php:216 includes/famefe-admin.php:428 src/blocks/hours-form/render.php:57 src/blocks/hours-form/render.php:123 src/blocks/hours-list/render.php:60
+msgid "Date"
+msgstr "วันที่"
+
+#: build/blocks/hours-form/render.php:39 includes/famefe-notices.php:52 src/blocks/hours-form/render.php:39
+msgid "Only members can record volunteer hours."
+msgstr "เฉพาะสมาชิกเท่านั้นที่บันทึกชั่วโมงอาสาได้"
+
+#: build/blocks/hours-form/render.php:34 build/blocks/hours-list/render.php:21 build/blocks/members-list/render.php:21 src/blocks/hours-form/render.php:34 src/blocks/hours-list/render.php:21 src/blocks/members-list/render.php:21
+msgid "Log in"
+msgstr "เข้าสู่ระบบ"
+
+#: build/blocks/hours-form/render.php:32 src/blocks/hours-form/render.php:32
+msgid "Log in to record your volunteer hours."
+msgstr "เข้าสู่ระบบเพื่อบันทึกชั่วโมงอาสาของคุณ"
+
+#: build/blocks/hours-form/render.php:22 includes/famefe-admin.php:431 src/blocks/hours-form/render.php:22 build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:82
+msgid "Add hours"
+msgstr "เพิ่มชั่วโมง"
+
+#. translators: %s: twice the base fee.
+#: build/blocks/fee-explanation/render.php:219 src/blocks/fee-explanation/render.php:219
+msgid "A member without any volunteer hours in the period always pays twice the base fee, %s: paying instead of working should never be the cheaper choice."
+msgstr "สมาชิกที่ไม่มีชั่วโมงอาสาเลยในรอบจะจ่ายสองเท่าของค่าสมาชิกพื้นฐานเสมอ คือ %s: การจ่ายเงินแทนการทำงานไม่ควรเป็นทางเลือกที่ถูกกว่า"
+
+#: build/blocks/fee-explanation/render.php:209 src/blocks/fee-explanation/render.php:209
+msgid "The calculated fees do not exceed it, so there is no discount."
+msgstr "ค่าสมาชิกที่คำนวณได้ไม่เกินจำนวนนี้ จึงไม่มีส่วนลด"
+
+#. translators: 1: share of members in percent, 2: discount in percent, 3:
+#. number of members with the discount.
+#: build/blocks/fee-explanation/render.php:203 src/blocks/fee-explanation/render.php:203
+msgid "The %1$s %% of regular members with the lowest calculated fees pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never). The discount is not added to the fees of the others, so the club collects less than the expected total."
+msgstr "สมาชิกสามัญ %1$s %% ที่มีค่าสมาชิกที่คำนวณได้ต่ำที่สุดจ่ายน้อยลง %2$s %% (ในที่นี้ %3$d คน สมาชิกที่มีค่าสมาชิกเท่ากับคนสุดท้ายในกลุ่มนี้ได้รับด้วย ส่วนสมาชิกที่ไม่มีชั่วโมงไม่ได้รับเลย) ส่วนลดจะไม่ถูกบวกเพิ่มในค่าสมาชิกของคนอื่น สโมสรจึงเก็บได้น้อยกว่ายอดรวมที่คาดไว้"
+
+#. translators: 1: share of members in percent, 2: calculated discount in
+#. percent, 3: number of members with the discount.
+#: build/blocks/fee-explanation/render.php:195 src/blocks/fee-explanation/render.php:195
+msgid "The %1$s %% of regular members with the lowest calculated fees therefore pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never)."
+msgstr "ดังนั้นสมาชิกสามัญ %1$s %% ที่มีค่าสมาชิกที่คำนวณได้ต่ำที่สุดจึงจ่ายน้อยลง %2$s %% (ในที่นี้ %3$d คน สมาชิกที่มีค่าสมาชิกเท่ากับคนสุดท้ายในกลุ่มนี้ได้รับด้วย ส่วนสมาชิกที่ไม่มีชั่วโมงไม่ได้รับเลย)"
+
+#. translators: %s: total the regular members should pay.
+#: build/blocks/fee-explanation/render.php:188 src/blocks/fee-explanation/render.php:188
+msgid "The regular members should pay %s together."
+msgstr "สมาชิกสามัญควรจ่ายรวมกัน %s"
+
+#: build/blocks/fee-explanation/render.php:182 src/blocks/fee-explanation/render.php:182
+msgid "4. Discount"
+msgstr "4. ส่วนลด"
+
+#: build/blocks/fee-explanation/render.php:141 build/blocks/membership-fees/render.php:45 src/blocks/fee-explanation/render.php:141 src/blocks/membership-fees/render.php:45
+msgid "Fee to pay"
+msgstr "ค่าสมาชิกที่ต้องจ่าย"
+
+#: build/blocks/fee-explanation/render.php:140 build/blocks/membership-fees/render.php:43 src/blocks/fee-explanation/render.php:140 src/blocks/membership-fees/render.php:43 build/blocks/fee-explanation/index.js:3 build/blocks/membership-fees/index.js:3 src/blocks/fee-explanation/index.js:64 src/blocks/membership-fees/index.js:83
+msgid "Discount"
+msgstr "ส่วนลด"
+
+#: build/blocks/fee-explanation/render.php:138 build/blocks/membership-fees/render.php:42 src/blocks/fee-explanation/render.php:138 src/blocks/membership-fees/render.php:42
+msgid "Calculated fee"
+msgstr "ค่าสมาชิกที่คำนวณได้"
+
+#: build/blocks/fee-explanation/render.php:137 build/blocks/membership-fees/render.php:39 src/blocks/fee-explanation/render.php:137 src/blocks/membership-fees/render.php:39 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:117
+msgid "Unreduced fee"
+msgstr "ค่าสมาชิกก่อนปรับ"
+
+#: build/blocks/fee-explanation/render.php:136 build/blocks/membership-fees/render.php:36 src/blocks/fee-explanation/render.php:136 src/blocks/membership-fees/render.php:36 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:113
+msgid "Share of hours"
+msgstr "สัดส่วนชั่วโมง"
+
+#. translators: 1: sum of the unreduced fees, 2: expected total, 3: amount
+#. taken off each fee.
+#: build/blocks/fee-explanation/render.php:123 src/blocks/fee-explanation/render.php:123
+msgid "The unreduced fees add up to %1$s, more than the expected total of %2$s. The difference is shared equally: each fee is lowered by %3$s, so all fees together give the expected total. No fee goes below zero; if one would, that member pays nothing and the rest is shared by the members who volunteered."
+msgstr "ค่าสมาชิกก่อนปรับรวมกันได้ %1$s ซึ่งมากกว่ายอดรวมที่คาดไว้ %2$s ส่วนต่างจะแบ่งเท่า ๆ กัน: ค่าสมาชิกแต่ละรายการลดลง %3$s เพื่อให้ค่าสมาชิกทั้งหมดรวมกันเท่ากับยอดรวมที่คาดไว้ ไม่มีค่าสมาชิกใดต่ำกว่าศูนย์ หากเกิดขึ้น สมาชิกคนนั้นจะไม่ต้องจ่าย และส่วนที่เหลือจะแบ่งให้สมาชิกที่ทำงานอาสา"
+
+#. translators: %s: hours of all regular members.
+#: build/blocks/fee-explanation/render.php:116 src/blocks/fee-explanation/render.php:116
+msgid "Each regular member’s share of the hours of all regular members (%s hours) lowers the unreduced fee: unreduced fee = expected total × (1 − share of hours)."
+msgstr "สัดส่วนของสมาชิกสามัญแต่ละคนในชั่วโมงของสมาชิกสามัญทั้งหมด (%s ชั่วโมง) ช่วยลดค่าสมาชิกก่อนปรับ: ค่าสมาชิกก่อนปรับ = ยอดรวมที่คาดไว้ × (1 − สัดส่วนชั่วโมง)"
+
+#: build/blocks/fee-explanation/render.php:111 src/blocks/fee-explanation/render.php:111
+msgid "3. Fee of each member"
+msgstr "3. ค่าสมาชิกของสมาชิกแต่ละคน"
+
+#. translators: 1: base fee, 2: number of regular members, 3: base fee again,
+#. 4: expected total.
+#: build/blocks/fee-explanation/render.php:102 src/blocks/fee-explanation/render.php:102
+msgid "The base fee is %1$s. Together, the %2$d regular members are expected to pay %3$s × %2$d = %4$s."
+msgstr "ค่าสมาชิกพื้นฐานคือ %1$s สมาชิกสามัญ %2$d คนควรจ่ายรวมกัน %3$s × %2$d = %4$s"
+
+#: build/blocks/fee-explanation/render.php:97 src/blocks/fee-explanation/render.php:97
+msgid "2. Expected total"
+msgstr "2. ยอดรวมที่คาดไว้"
+
+#. translators: %d: number of honorary members.
+#: build/blocks/fee-explanation/render.php:92 src/blocks/fee-explanation/render.php:92
+msgid "%d honorary member"
+msgid_plural "%d honorary members"
+msgstr[0] "สมาชิกกิตติมศักดิ์ %d คน"
+
+#. translators: %d: number of regular members.
+#: build/blocks/fee-explanation/render.php:90 src/blocks/fee-explanation/render.php:90
+msgid "%d regular member"
+msgid_plural "%d regular members"
+msgstr[0] "สมาชิกสามัญ %d คน"
+
+#. translators: 1: "5 regular members", 2: "1 honorary member".
+#: build/blocks/fee-explanation/render.php:88 src/blocks/fee-explanation/render.php:88
+msgid "Members in the example: %1$s and %2$s. Honorary members do not pay a membership fee, and their hours do not count in the calculation."
+msgstr "สมาชิกในตัวอย่าง: %1$s และ%2$s สมาชิกกิตติมศักดิ์ไม่ต้องจ่ายค่าสมาชิก และชั่วโมงของพวกเขาไม่นับในการคำนวณ"
+
+#: build/blocks/fee-explanation/render.php:78 build/blocks/fee-explanation/render.php:167 build/blocks/membership-fees/render.php:112 src/blocks/fee-explanation/render.php:78 src/blocks/fee-explanation/render.php:167 src/blocks/membership-fees/render.php:112
+msgid "Total"
+msgstr "รวม"
+
+#: build/blocks/fee-explanation/render.php:64 build/blocks/fee-explanation/render.php:135 build/blocks/hours-form/render.php:58 build/blocks/hours-form/render.php:124 build/blocks/hours-list/render.php:64 build/blocks/membership-fees/render.php:33 includes/famefe-admin-tables.php:218 includes/famefe-admin.php:429 src/blocks/fee-explanation/render.php:64 src/blocks/fee-explanation/render.php:135 src/blocks/hours-form/render.php:58 src/blocks/hours-form/render.php:124 src/blocks/hours-list/render.php:64 src/blocks/membership-fees/render.php:33 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:112
+msgid "Hours"
+msgstr "ชั่วโมง"
+
+#: build/blocks/fee-explanation/render.php:63 build/blocks/members-list/render.php:41 build/blocks/membership-fees/render.php:30 includes/famefe-admin-tables.php:33 src/blocks/fee-explanation/render.php:63 src/blocks/members-list/render.php:41 src/blocks/membership-fees/render.php:30 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:67
+msgid "Type"
+msgstr "ประเภท"
+
+#: build/blocks/fee-explanation/render.php:62 build/blocks/fee-explanation/render.php:134 build/blocks/hours-form/render.php:56 includes/famefe-admin-tables.php:303 includes/famefe-admin.php:420 includes/famefe-admin.php:441 includes/famefe-admin.php:475 includes/famefe-admin.php:499 includes/famefe-users.php:83 includes/famefe-users.php:139 src/blocks/fee-explanation/render.php:62 src/blocks/fee-explanation/render.php:134 src/blocks/hours-form/render.php:56
+msgid "Member"
+msgstr "สมาชิก"
+
+#: build/blocks/fee-explanation/render.php:57 src/blocks/fee-explanation/render.php:57
+msgid "1. Members and their hours"
+msgstr "1. สมาชิกและชั่วโมงของพวกเขา"
+
+#: build/blocks/fee-explanation/render.php:55 src/blocks/fee-explanation/render.php:55
+msgid "The membership fee depends on how much each member volunteered for the club, measured in the recorded hours. Members only need to record their hours; the fees are calculated from them. The following example shows how."
+msgstr "ค่าสมาชิกขึ้นอยู่กับว่าสมาชิกแต่ละคนทำงานอาสาให้สโมสรมากเพียงใด โดยวัดจากชั่วโมงที่บันทึกไว้ สมาชิกเพียงบันทึกชั่วโมงของตน แล้วค่าสมาชิกจะคำนวณจากชั่วโมงเหล่านั้น ตัวอย่างต่อไปนี้แสดงวิธีการ"
+
+#. translators: %d: number of the member in the example.
+#: build/blocks/fee-explanation/render.php:52 src/blocks/fee-explanation/render.php:52
+msgid "Member %d"
+msgstr "สมาชิก %d"
+
+#. Author of the plugin
+#: fair-member-fees.php
+msgid "globus2008"
+msgstr "globus2008"
+
+#. Description of the plugin
+#: fair-member-fees.php
+msgid "Membership register with a change history, volunteer hours and a fair membership fee: members who volunteer more pay less. Optional discount and payment through Stripe. Built with blocks."
+msgstr "ทะเบียนสมาชิกพร้อมประวัติการเปลี่ยนแปลง ชั่วโมงอาสา และค่าสมาชิกที่เป็นธรรม: สมาชิกที่ทำงานอาสามากกว่าจะจ่ายน้อยกว่า ส่วนลดแบบเลือกได้และการชำระเงินผ่าน Stripe สร้างด้วยบล็อก"
+
+#. Plugin Name of the plugin
+#: fair-member-fees.php includes/famefe-admin.php:21
+msgid "Fair Member Fees"
+msgstr "Fair Member Fees"

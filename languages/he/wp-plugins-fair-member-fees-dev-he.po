@@ -1,0 +1,1458 @@
+# Translation of Plugins - Fair Member Fees - Development (trunk) in Hebrew
+# This file is distributed under the same license as the Plugins - Fair Member Fees - Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Fair Member Fees - Development (trunk)\n"
+"PO-Revision-Date: 2026-10-16 12:00:00+0000\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "payment"
+msgstr "תשלום"
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block description"
+msgid "Fair membership fees for a period: members who volunteered more pay less. Once the hours of the period are closed, members can pay online; administrators and editors record cash and bank payments."
+msgstr "דמי חבר הוגנים לתקופה: חברים שמתנדבים יותר שעות משלמים פחות. לאחר סגירת השעות של התקופה החברים יכולים לשלם באינטרנט; מנהלים ועורכים רושמים תשלומים במזומן ובהעברה בנקאית."
+
+#: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
+msgctxt "block title"
+msgid "Membership fees"
+msgstr "דמי חבר"
+
+#: build/blocks/members-list/block.json build/blocks/membership-fees/block.json src/blocks/members-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "membership"
+msgstr "חברות"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block keyword"
+msgid "register"
+msgstr "מרשם"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block keyword"
+msgid "members"
+msgstr "חברים"
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block description"
+msgid "The membership register: members, their type, membership changes and who recorded them."
+msgstr "מרשם החברים: החברים, סוגם, שינויי חברות ומי רשם אותם."
+
+#: build/blocks/members-list/block.json src/blocks/members-list/block.json
+msgctxt "block title"
+msgid "Members list"
+msgstr "רשימת חברים"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr "רשימה"
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block description"
+msgid "Recorded volunteer hours of a period."
+msgstr "שעות התנדבות שנרשמו בתקופה."
+
+#: build/blocks/hours-list/block.json src/blocks/hours-list/block.json
+msgctxt "block title"
+msgid "Volunteer hours list"
+msgstr "רשימת שעות התנדבות"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "טופס"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block keyword"
+msgid "work"
+msgstr "עבודה"
+
+#: build/blocks/hours-form/block.json build/blocks/hours-list/block.json build/blocks/membership-fees/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "volunteer"
+msgstr "התנדבות"
+
+#: build/blocks/hours-form/block.json build/blocks/hours-list/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json
+msgctxt "block keyword"
+msgid "hours"
+msgstr "שעות"
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block description"
+msgid "Logged-in members record the hours they volunteered."
+msgstr "חברים מחוברים רושמים את שעות ההתנדבות שביצעו."
+
+#: build/blocks/hours-form/block.json src/blocks/hours-form/block.json
+msgctxt "block title"
+msgid "Volunteer hours form"
+msgstr "טופס שעות התנדבות"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "help"
+msgstr "עזרה"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "example"
+msgstr "דוגמה"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block keyword"
+msgid "calculation"
+msgstr "חישוב"
+
+#: build/blocks/fee-explanation/block.json build/blocks/hours-form/block.json build/blocks/hours-list/block.json build/blocks/members-list/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json src/blocks/members-list/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "fair member fees"
+msgstr "fair member fees"
+
+#: build/blocks/fee-explanation/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/membership-fees/block.json
+msgctxt "block keyword"
+msgid "fee"
+msgstr "דמי חבר"
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block description"
+msgid "Explains on an example how the fair membership fee is calculated."
+msgstr "מסביר בעזרת דוגמה כיצד מחושבים דמי חבר הוגנים."
+
+#: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
+msgctxt "block title"
+msgid "Fee calculation explained"
+msgstr "הסבר חישוב דמי החבר"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:155
+msgid "Highlight the logged-in member"
+msgstr "הדגשת החבר המחובר"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:147
+msgid "Period and base fee above the table"
+msgstr "תקופה ודמי חבר בסיסיים מעל הטבלה"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:143
+msgid "List honorary members"
+msgstr "הצגת חברי כבוד"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:121
+msgid "Calculated fee and discount (when the discount is on)"
+msgstr "דמי חבר מחושבים והנחה (כשההנחה פעילה)"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:94
+msgid "Members who volunteered the most pay even less. The discount is not added to the fees of the others."
+msgstr "חברים שהתנדבו הכי הרבה משלמים עוד פחות. ההנחה אינה מתווספת לדמי החבר של האחרים."
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:90
+msgid "Discount for the lowest fees"
+msgstr "הנחה לדמי החבר הנמוכים ביותר"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:72
+msgid "Turn on once the volunteer hours of the period are closed: members then see their final fee and can pay it. While it is off, the fees are shown as calculated from the hours recorded so far. Leave it off if you do not collect fees through this page."
+msgstr "יש להפעיל לאחר שנסגרו שעות ההתנדבות של התקופה: אז החברים רואים את דמי החבר הסופיים שלהם ויכולים לשלם. כל עוד הכפתור כבוי, דמי החבר מוצגים לפי השעות שנרשמו עד כה. יש להשאיר כבוי אם דמי החבר אינם נגבים דרך עמוד זה."
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:68
+msgid "Payment button (the fees are final)"
+msgstr "כפתור תשלום (דמי החבר סופיים)"
+
+#: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:59
+msgid "The fee of a regular member when nobody volunteers. All regular members together pay the base fee times their number."
+msgstr "דמי החבר של חבר רגיל כאשר אף אחד אינו מתנדב. כל החברים הרגילים יחד משלמים את דמי החבר הבסיסיים כפול מספרם."
+
+#: build/blocks/membership-fees/index.js:2 src/blocks/membership-fees/index.js:46
+msgid "Members of this period pay; their hours of this period lower the fee. Payments are recorded for exactly this period."
+msgstr "חברי התקופה הזו משלמים; השעות שלהם בתקופה זו מפחיתות את דמי החבר. התשלומים נרשמים בדיוק לתקופה זו."
+
+#: build/blocks/membership-fees/index.js:2 src/blocks/membership-fees/index.js:42
+msgid "Period and fee"
+msgstr "תקופה ודמי חבר"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/members-list/index.js:54 src/blocks/membership-fees/index.js:101
+msgid "Columns"
+msgstr "עמודות"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:46
+msgid "Only for logged-in visitors"
+msgstr "רק למבקרים מחוברים"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/members-list/index.js:42 src/blocks/membership-fees/index.js:151
+msgid "Totals rows at the end of the table"
+msgstr "שורות סיכום בסוף הטבלה"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:30
+msgid "Honorary members"
+msgstr "חברי כבוד"
+
+#: build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:26
+msgid "Regular members"
+msgstr "חברים רגילים"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:360
+msgid "Totals rows text"
+msgstr "טקסט שורות הסיכום"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:356
+msgid "Totals rows background"
+msgstr "רקע שורות הסיכום"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:353
+msgid "Header text"
+msgstr "טקסט הכותרת"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:351
+msgid "Header background"
+msgstr "רקע הכותרת"
+
+#: build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:346
+msgid "Table colours"
+msgstr "צבעי הטבלה"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:127
+msgid "They may delete any entry within this time. Older entries can still be deleted in Member Fees → Volunteer hours."
+msgstr "הם יכולים למחוק כל רשומה בפרק זמן זה. רשומות ישנות יותר עדיין אפשר למחוק בדמי חבר ← שעות התנדבות."
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:123
+msgid "Administrators and editors: days after recording"
+msgstr "מנהלים ועורכים: ימים לאחר הרישום"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:106
+msgid "Members delete only hours they recorded themselves, e.g. after a mistake. 0 = only on the day of recording."
+msgstr "חברים מוחקים רק שעות שרשמו בעצמם, למשל לאחר טעות. 0 = רק ביום הרישום."
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:102
+msgid "Members: days after recording"
+msgstr "חברים: ימים לאחר הרישום"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:91
+msgid "Allow deleting hours"
+msgstr "לאפשר מחיקת שעות"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:84
+msgid "Deleting"
+msgstr "מחיקה"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:79
+msgid "Total below"
+msgstr "סיכום למטה"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:3 src/blocks/hours-list/index.js:60 src/blocks/membership-fees/index.js:130
+msgid "Display"
+msgstr "תצוגה"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:52
+msgid "Only the hours of the logged-in visitor"
+msgstr "רק השעות של המבקר המחובר"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:37
+msgid "Maximum entries"
+msgstr "מספר רשומות מרבי"
+
+#: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:29
+msgid "Leave empty for no limit."
+msgstr "יש להשאיר ריק ללא הגבלה."
+
+#: build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:94
+msgid "As in the plugin settings"
+msgstr "כמו בהגדרות התוסף"
+
+#: build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:89
+msgid "Names"
+msgstr "שמות"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:106
+msgid "Number of recent entries"
+msgstr "מספר הרשומות האחרונות"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:96
+msgid "Show my recent entries"
+msgstr "הצגת הרשומות האחרונות שלי"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:92
+msgid "Description of the work is required"
+msgstr "תיאור העבודה הוא שדה חובה"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:81
+msgid "Button text"
+msgstr "טקסט הכפתור"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:63
+msgid "How old the date of the work may be. 0 = only today."
+msgstr "עד כמה ישן יכול להיות תאריך העבודה. 0 = היום בלבד."
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:62
+msgid "Days back"
+msgstr "ימים אחורה"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:49
+msgid "Off: hours are always recorded for today, so nobody can add hours to the past or change a closed period. Administrators and editors can always choose the date."
+msgstr "כבוי: השעות נרשמות תמיד להיום, כך שאיש אינו יכול להוסיף שעות בדיעבד או לשנות תקופה סגורה. מנהלים ועורכים יכולים תמיד לבחור את התאריך."
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:45
+msgid "Members may change the date"
+msgstr "חברים יכולים לשנות את התאריך"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:35
+msgid "Step of the hours"
+msgstr "מרווח השעות"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:23
+msgid "Maximum hours per entry"
+msgstr "מספר שעות מרבי לרשומה"
+
+#: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:18
+msgid "Form"
+msgstr "טופס"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:71
+msgid "Explain the discount"
+msgstr "הסבר על ההנחה"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:53
+msgid "Hours of the honorary members"
+msgstr "שעות חברי הכבוד"
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:41
+msgid "One number per member, separated by commas or spaces."
+msgstr "מספר אחד לכל חבר, מופרדים בפסיקים או ברווחים."
+
+#: build/blocks/fee-explanation/index.js:3 src/blocks/fee-explanation/index.js:37
+msgid "Hours of the regular members"
+msgstr "שעות החברים הרגילים"
+
+#. translators: %s: currency code.
+#: build/blocks/fee-explanation/index.js:3 build/blocks/membership-fees/index.js:3 src/blocks/fee-explanation/index.js:28 src/blocks/membership-fees/index.js:56
+msgid "Base fee (%s)"
+msgstr "דמי חבר בסיסיים (%s)"
+
+#: build/blocks/fee-explanation/index.js:2 src/blocks/fee-explanation/index.js:22
+msgid "Example"
+msgstr "דוגמה"
+
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:300
+msgid "Discount (%)"
+msgstr "הנחה (%)"
+
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:282
+msgid "The discount is calculated so that the regular members pay this amount together. If their calculated fees do not exceed it, there is no discount."
+msgstr "ההנחה מחושבת כך שהחברים הרגילים ישלמו יחד סכום זה. אם דמי החבר המחושבים שלהם אינם עולים עליו, אין הנחה."
+
+#. translators: %s: currency code.
+#: build/blocks/fee-explanation/index.js:2 build/blocks/membership-fees/index.js:2 src/blocks/shared.js:279
+msgid "Total to collect (%s)"
+msgstr "סכום לגבייה (%s)"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:263
+msgid "Total to collect"
+msgstr "סכום לגבייה"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:259
+msgid "Percentage"
+msgstr "אחוז"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:254
+msgid "Discount given by"
+msgstr "ההנחה נקבעת לפי"
+
+#: build/blocks/fee-explanation/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:244
+msgid "Share of members with the lowest fees (%)"
+msgstr "שיעור החברים עם דמי החבר הנמוכים ביותר (%)"
+
+#. translators: %s: list of member names.
+#: includes/famefe-users.php:190
+msgid "These accounts belong to members: %s. The members, their history, hours and payments stay in the register; only the link to the account is removed. To end a membership, use Member Fees → Members."
+msgstr "החשבונות האלה שייכים לחברים: %s. החברים, ההיסטוריה, השעות והתשלומים שלהם נשארים במרשם; רק הקישור לחשבון מוסר. לסיום חברות יש להשתמש בדמי חבר ← חברים."
+
+#: includes/famefe-users.php:93
+msgid "The first name, last name and e-mail of this profile are also the details of the member."
+msgstr "השם הפרטי, שם המשפחה והאימייל של פרופיל זה הם גם פרטי החבר."
+
+#: includes/famefe-users.php:91
+msgid "Membership and history"
+msgstr "חברות והיסטוריה"
+
+#: includes/famefe-users.php:87
+msgid "Add as member"
+msgstr "הוספה כחבר"
+
+#: includes/famefe-users.php:86
+msgid "Not a member."
+msgstr "לא חבר."
+
+#. translators: 1: first day of the period, 2: last day of the period.
+#: includes/famefe-stripe.php:122
+msgid "Membership fee %1$s – %2$s"
+msgstr "דמי חבר %1$s – %2$s"
+
+#. translators: 1: amount, 2: currency symbol or code (Kč, €, USD).
+#: includes/famefe-settings.php:95
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: includes/famefe-notices.php:61
+msgid "The data could not be saved. Please try again."
+msgstr "לא ניתן היה לשמור את הנתונים. יש לנסות שוב."
+
+#: includes/famefe-notices.php:60
+msgid "The payment has not been confirmed yet. If you paid, it will appear shortly."
+msgstr "התשלום עדיין לא אושר. אם שילמת, הוא יופיע בקרוב."
+
+#: includes/famefe-notices.php:59
+msgid "The payment service could not be reached. Please try again later."
+msgstr "לא ניתן היה להתחבר לשירות התשלומים. יש לנסות שוב מאוחר יותר."
+
+#: includes/famefe-notices.php:58
+msgid "Online payment is not set up."
+msgstr "תשלום באינטרנט לא הוגדר."
+
+#: includes/famefe-notices.php:57
+msgid "The block of this form was not found on the page. Please reload the page."
+msgstr "הבלוק של טופס זה לא נמצא בעמוד. יש לטעון מחדש את העמוד."
+
+#: includes/famefe-notices.php:56
+msgid "There is nothing to pay."
+msgstr "אין מה לשלם."
+
+#: includes/famefe-notices.php:55
+msgid "The membership fee for this period has already been paid."
+msgstr "דמי החבר לתקופה זו כבר שולמו."
+
+#: includes/famefe-notices.php:54
+msgid "Choose a valid payment method."
+msgstr "יש לבחור אמצעי תשלום תקין."
+
+#: includes/famefe-notices.php:53
+msgid "Enter a valid amount."
+msgstr "יש להזין סכום תקין."
+
+#: includes/famefe-notices.php:51
+msgid "Describe the work, please."
+msgstr "יש לתאר את העבודה."
+
+#: includes/famefe-notices.php:50
+msgid "Hours cannot be recorded for this date any more."
+msgstr "לא ניתן עוד לרשום שעות לתאריך זה."
+
+#: includes/famefe-notices.php:49
+msgid "These hours can no longer be deleted here; the time limit has passed."
+msgstr "לא ניתן עוד למחוק שעות אלה כאן; פרק הזמן חלף."
+
+#: includes/famefe-notices.php:48
+msgid "Enter a valid number of hours."
+msgstr "יש להזין מספר שעות תקין."
+
+#: includes/famefe-notices.php:47
+msgid "The member has hours or payments and cannot be deleted. End the membership instead."
+msgstr "לחבר יש שעות או תשלומים ולכן לא ניתן למחוק אותו. במקום זאת יש לסיים את החברות."
+
+#: includes/famefe-notices.php:45
+msgid "This e-mail address is already used by another user account."
+msgstr "כתובת האימייל הזו כבר בשימוש בחשבון משתמש אחר."
+
+#: includes/famefe-notices.php:44
+msgid "Enter a valid e-mail address."
+msgstr "יש להזין כתובת אימייל תקינה."
+
+#: includes/famefe-notices.php:43
+msgid "This change is not possible for the member (check the status and the date)."
+msgstr "שינוי זה אינו אפשרי עבור החבר (יש לבדוק את הסטטוס ואת התאריך)."
+
+#: includes/famefe-notices.php:42
+msgid "\"Member since\" cannot be after the end of the membership."
+msgstr "\"חבר מאז\" לא יכול להיות אחרי סיום החברות."
+
+#: includes/famefe-notices.php:41
+msgid "Choose a valid membership type."
+msgstr "יש לבחור סוג חברות תקין."
+
+#: includes/famefe-notices.php:40
+msgid "Enter a valid date."
+msgstr "יש להזין תאריך תקין."
+
+#: includes/famefe-notices.php:39
+msgid "Enter the first or the last name."
+msgstr "יש להזין שם פרטי או שם משפחה."
+
+#: includes/famefe-notices.php:38
+msgid "The record was not found."
+msgstr "הרשומה לא נמצאה."
+
+#: includes/famefe-notices.php:37
+msgid "The form has expired. Please reload the page and try again."
+msgstr "תוקף הטופס פג. יש לטעון מחדש את העמוד ולנסות שוב."
+
+#: includes/famefe-notices.php:36
+msgid "Please log in first."
+msgstr "יש להתחבר תחילה."
+
+#: includes/famefe-notices.php:35
+msgid "You are not allowed to do this."
+msgstr "אין לך הרשאה לבצע פעולה זו."
+
+#: includes/famefe-notices.php:33
+msgid "The settings were saved."
+msgstr "ההגדרות נשמרו."
+
+#: includes/famefe-notices.php:32
+msgid "The payment was cancelled. You can try again at any time."
+msgstr "התשלום בוטל. אפשר לנסות שוב בכל עת."
+
+#: includes/famefe-notices.php:31
+msgid "Thank you, your membership fee was paid."
+msgstr "תודה, דמי החבר שלך שולמו."
+
+#: includes/famefe-notices.php:30
+msgid "The payment was deleted."
+msgstr "התשלום נמחק."
+
+#: includes/famefe-notices.php:29
+msgid "The payment was recorded."
+msgstr "התשלום נרשם."
+
+#: includes/famefe-notices.php:28
+msgid "The hours were deleted."
+msgstr "השעות נמחקו."
+
+#: includes/famefe-notices.php:27
+msgid "The hours were saved."
+msgstr "השעות נשמרו."
+
+#: includes/famefe-notices.php:26
+msgid "Thank you, your hours were recorded."
+msgstr "תודה, השעות שלך נרשמו."
+
+#: includes/famefe-notices.php:25
+msgid "The member was deleted."
+msgstr "החבר נמחק."
+
+#: includes/famefe-notices.php:24
+msgid "The change of the membership was recorded."
+msgstr "שינוי החברות נרשם."
+
+#: includes/famefe-notices.php:23
+msgid "The member was saved."
+msgstr "החבר נשמר."
+
+#: includes/famefe-notices.php:22
+msgid "The member and the user account were created. The member got an e-mail with a link for setting the password."
+msgstr "החבר וחשבון המשתמש נוצרו. החבר קיבל אימייל עם קישור להגדרת סיסמה."
+
+#: includes/famefe-notices.php:21
+msgid "The member and the user account were created."
+msgstr "החבר וחשבון המשתמש נוצרו."
+
+#: includes/famefe-notices.php:20
+msgid "The member was added."
+msgstr "החבר נוסף."
+
+#: includes/famefe-data.php:241
+msgid "Deleted user"
+msgstr "משתמש שנמחק"
+
+#: includes/famefe-data.php:191
+msgid "Unknown name"
+msgstr "שם לא ידוע"
+
+#: includes/famefe-data.php:51
+msgid "Bank transfer"
+msgstr "העברה בנקאית"
+
+#: includes/famefe-data.php:50
+msgid "Cash"
+msgstr "מזומן"
+
+#: includes/famefe-data.php:49
+msgid "Card (Stripe)"
+msgstr "כרטיס (Stripe)"
+
+#: includes/famefe-data.php:39
+msgid "\"Member since\" corrected"
+msgstr "\"חבר מאז\" תוקן"
+
+#: includes/famefe-data.php:38
+msgid "Rejoined"
+msgstr "הצטרף מחדש"
+
+#: includes/famefe-data.php:37
+msgid "Membership ended"
+msgstr "החברות הסתיימה"
+
+#: includes/famefe-data.php:36
+msgid "Membership type changed"
+msgstr "סוג החברות שונה"
+
+#: includes/famefe-data.php:35
+msgid "Joined"
+msgstr "הצטרף"
+
+#: includes/famefe-data.php:25
+msgid "Honorary"
+msgstr "חבר כבוד"
+
+#: includes/famefe-data.php:24
+msgid "Regular"
+msgstr "רגיל"
+
+#: includes/famefe-admin.php:673
+msgid "All regular members of the period together pay the base fee times their number (the expected total). Each member’s share of the volunteer hours of all regular members lowers the fee; what is collected above the expected total is taken off everybody equally, and no fee goes below zero. A member without any hours in the period always pays twice the base fee. Honorary members pay nothing. With the optional discount, the given share of members with the lowest fees pays the given percentage less, or as much less as needed for the given total to collect; nothing is moved to the others."
+msgstr "כל החברים הרגילים בתקופה משלמים יחד את דמי החבר הבסיסיים כפול מספרם (הסכום הצפוי). חלקו של כל חבר משעות ההתנדבות של כל החברים הרגילים מפחית את דמי החבר שלו; מה שנגבה מעבר לסכום הצפוי מופחת מכולם באופן שווה, ואף תשלום אינו יורד מתחת לאפס. חבר ללא שעות בתקופה משלם תמיד פי שניים מדמי החבר הבסיסיים. חברי כבוד אינם משלמים דבר. עם ההנחה האופציונלית, השיעור שנקבע מבין החברים עם דמי החבר הנמוכים ביותר משלם פחות באחוז שנקבע, או פחות ככל הנדרש לסכום לגבייה שנקבע; דבר אינו מועבר לאחרים."
+
+#: includes/famefe-admin.php:672
+msgid "How the fee is calculated"
+msgstr "איך מחושבים דמי החבר"
+
+#: includes/famefe-admin.php:663
+msgid "Blocks"
+msgstr "בלוקים"
+
+#: includes/famefe-admin.php:659
+msgid "Add the blocks to your pages: search for \"Fair Member Fees\" in the block inserter."
+msgstr "יש להוסיף את הבלוקים לעמודים: לחפש \"Fair Member Fees\" בכלי הוספת הבלוקים."
+
+#: includes/famefe-admin.php:658
+msgid "Set the currency, and Stripe if you want online payments (Settings)."
+msgstr "יש להגדיר את המטבע, ואם רוצים תשלומים באינטרנט, גם את Stripe (הגדרות)."
+
+#: includes/famefe-admin.php:657
+msgid "Add your members (Members → Add member) and link them to their user accounts."
+msgstr "יש להוסיף את החברים (חברים ← הוספת חבר) ולקשר אותם לחשבונות המשתמש שלהם."
+
+#: includes/famefe-admin.php:655
+msgid "Getting started"
+msgstr "צעדים ראשונים"
+
+#: includes/famefe-admin.php:653
+msgid "Fair Member Fees help"
+msgstr "עזרה של Fair Member Fees"
+
+#: includes/famefe-admin.php:649
+msgid "Explains the calculation on an example with your numbers."
+msgstr "מסביר את החישוב בעזרת דוגמה עם המספרים שלך."
+
+#: includes/famefe-admin.php:649
+msgid "Fee calculation explained"
+msgstr "הסבר חישוב דמי החבר"
+
+#: includes/famefe-admin.php:648
+msgid "The membership register with the date of the last change and who recorded it; visible to logged-in users by default."
+msgstr "מרשם החברים עם תאריך השינוי האחרון ומי רשם אותו; כברירת מחדל גלוי למשתמשים מחוברים."
+
+#: includes/famefe-admin.php:648
+msgid "Members list"
+msgstr "רשימת חברים"
+
+#: includes/famefe-admin.php:647
+msgid "Recorded hours for a period, all or only the visitor’s own."
+msgstr "השעות שנרשמו בתקופה, כולן או רק של המבקר עצמו."
+
+#: includes/famefe-admin.php:647
+msgid "Volunteer hours list"
+msgstr "רשימת שעות התנדבות"
+
+#: includes/famefe-admin.php:646
+msgid "Members record their own hours. Set the maximum hours per entry, how many days back a date may be, and whether a description is required."
+msgstr "החברים רושמים את השעות שלהם בעצמם. יש לקבוע מספר שעות מרבי לרשומה, כמה ימים אחורה יכול להיות התאריך והאם התיאור הוא חובה."
+
+#: includes/famefe-admin.php:646
+msgid "Volunteer hours form"
+msgstr "טופס שעות התנדבות"
+
+#: includes/famefe-admin.php:645
+msgid "The table of fees for a period. Set the period, the base fee and the optional discount in the block settings. Until the volunteer hours of the period are closed, it shows the fees calculated so far; then turn on its payment button and members can pay their final fee. Administrators and editors can record cash and bank payments right there. Clubs that only keep records of hours leave the button off."
+msgstr "טבלת דמי החבר של תקופה. את התקופה, את דמי החבר הבסיסיים ואת ההנחה האופציונלית קובעים בהגדרות הבלוק. עד שנסגרות שעות ההתנדבות של התקופה היא מציגה את דמי החבר שחושבו עד כה; לאחר מכן מפעילים את כפתור התשלום שלה והחברים יכולים לשלם את דמי החבר הסופיים. מנהלים ועורכים יכולים לרשום שם ישירות תשלומים במזומן ובהעברה. מועדונים שרק מתעדים שעות משאירים את הכפתור כבוי."
+
+#: includes/famefe-admin.php:645
+msgid "Membership fees"
+msgstr "דמי חבר"
+
+#: includes/famefe-admin.php:635 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:123
+msgid "Shortened for data protection: first 4 and last 4 characters (Janaková)"
+msgstr "מקוצר להגנת הפרטיות: 4 התווים הראשונים ו-4 האחרונים (Janemith)"
+
+#: includes/famefe-admin.php:634 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:116
+msgid "Display name of the user account"
+msgstr "שם התצוגה של חשבון המשתמש"
+
+#: includes/famefe-admin.php:633 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:112
+msgid "Initials (J. S.)"
+msgstr "ראשי תיבות (J. S.)"
+
+#: includes/famefe-admin.php:632 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:105
+msgid "First name and initial (Jane S.)"
+msgstr "שם פרטי ואות ראשונה (Jane S.)"
+
+#: includes/famefe-admin.php:631 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:101
+msgid "Full name (Jane Smith)"
+msgstr "שם מלא (Jane Smith)"
+
+#: includes/famefe-admin.php:616
+msgid "Delete all members, hours, payments and settings when the plugin is deleted."
+msgstr "מחיקת כל החברים, השעות, התשלומים וההגדרות בעת מחיקת התוסף."
+
+#: includes/famefe-admin.php:615
+msgid "Delete data"
+msgstr "מחיקת נתונים"
+
+#: includes/famefe-admin.php:612
+msgid "Uninstall"
+msgstr "הסרת התקנה"
+
+#: includes/famefe-admin.php:607
+msgid "Default for all blocks; each block can override it."
+msgstr "ברירת מחדל לכל הבלוקים; כל בלוק יכול לשנות אותה."
+
+#: includes/famefe-admin.php:600
+msgid "Names in blocks"
+msgstr "שמות בבלוקים"
+
+#: includes/famefe-admin.php:597
+msgid "Logged-in users who are not members may record their hours too (they count only in the totals)."
+msgstr "משתמשים מחוברים שאינם חברים יכולים גם הם לרשום את השעות שלהם (הן נספרות רק בסיכומים)."
+
+#: includes/famefe-admin.php:596
+msgid "Hours of non-members"
+msgstr "שעות של מי שאינם חברים"
+
+#: includes/famefe-admin.php:593
+msgid "Volunteer hours and names"
+msgstr "שעות התנדבות ושמות"
+
+#: includes/famefe-admin.php:588
+msgid "Add this address in Stripe (Developers → Webhooks) with the events checkout.session.completed and checkout.session.async_payment_succeeded, then copy its signing secret here. Payments are recorded even when a member closes the browser before returning to your site."
+msgstr "יש להוסיף כתובת זו ב-Stripe (Developers → Webhooks) עם האירועים checkout.session.completed ו-checkout.session.async_payment_succeeded, ואז להעתיק לכאן את סוד החתימה שלה. התשלומים נרשמים גם אם חבר סוגר את הדפדפן לפני שהוא חוזר לאתר."
+
+#: includes/famefe-admin.php:585
+msgid "Webhook endpoint"
+msgstr "נקודת קצה של Webhook"
+
+#: includes/famefe-admin.php:575
+msgid "Live webhook signing secret"
+msgstr "סוד חתימת Webhook אמיתי"
+
+#: includes/famefe-admin.php:574
+msgid "Live secret key"
+msgstr "מפתח סודי אמיתי"
+
+#: includes/famefe-admin.php:573
+msgid "Test webhook signing secret"
+msgstr "סוד חתימת Webhook לבדיקה"
+
+#: includes/famefe-admin.php:572
+msgid "Test secret key"
+msgstr "מפתח סודי לבדיקה"
+
+#: includes/famefe-admin.php:567
+msgid "Live"
+msgstr "אמיתי"
+
+#: includes/famefe-admin.php:566
+msgid "Test (no real money)"
+msgstr "בדיקה (ללא כסף אמיתי)"
+
+#: includes/famefe-admin.php:564
+msgid "Mode"
+msgstr "מצב"
+
+#: includes/famefe-admin.php:561
+msgid "Members pay on the Stripe payment page. Fill in the secret key of the mode you use; without it the Membership fees block shows no payment button."
+msgstr "החברים משלמים בדף התשלום של Stripe. יש למלא את המפתח הסודי של המצב שבשימוש; בלעדיו בלוק דמי החבר אינו מציג כפתור תשלום."
+
+#: includes/famefe-admin.php:560
+msgid "Stripe"
+msgstr "Stripe"
+
+#: includes/famefe-admin.php:555
+msgid "Fees are rounded to this number of decimals. Leave empty to use the usual number of the currency (CZK 0, EUR and USD 2)."
+msgstr "דמי החבר מעוגלים למספר ספרות עשרוניות זה. יש להשאיר ריק כדי להשתמש במספר הרגיל של המטבע (CZK 0, EUR ו-USD 2)."
+
+#: includes/famefe-admin.php:552
+msgid "Decimal places"
+msgstr "ספרות עשרוניות"
+
+#: includes/famefe-admin.php:548
+msgid "Three-letter ISO code, e.g. CZK, EUR, USD."
+msgstr "קוד ISO בן שלוש אותיות, למשל CZK, EUR, USD."
+
+#: includes/famefe-admin.php:545
+msgid "Currency"
+msgstr "מטבע"
+
+#: includes/famefe-admin.php:542
+msgid "Money"
+msgstr "כסף"
+
+#: includes/famefe-admin.php:539
+msgid "The season (period), the base fee and the discount are set in the Membership fees block on your page."
+msgstr "העונה (התקופה), דמי החבר הבסיסיים וההנחה נקבעים בבלוק דמי החבר בעמוד שלך."
+
+#: includes/famefe-admin.php:537
+msgid "Fair Member Fees settings"
+msgstr "הגדרות Fair Member Fees"
+
+#. translators: %s: currency code.
+#: includes/famefe-admin.php:483
+msgid "Amount (%s)"
+msgstr "סכום (%s)"
+
+#: includes/famefe-admin.php:479
+msgid "to"
+msgstr "עד"
+
+#: includes/famefe-admin.php:478
+msgid "Period from"
+msgstr "תקופה מ-"
+
+#: includes/famefe-admin.php:474
+msgid "Cash and bank payments. The period must be the same as in the Membership fees block, otherwise the block does not show the member as paid. Card payments are recorded automatically."
+msgstr "תשלומים במזומן ובהעברה. התקופה חייבת להיות זהה לזו שבבלוק דמי החבר, אחרת הבלוק לא יציג את החבר כמי ששילם. תשלומים בכרטיס נרשמים אוטומטית."
+
+#: includes/famefe-admin.php:473
+msgid "Record a payment"
+msgstr "רישום תשלום"
+
+#. translators: %s: number of hours.
+#: includes/famefe-admin.php:451
+msgid "Total: %s hours"
+msgstr "סה\"כ: %s שעות"
+
+#: includes/famefe-admin.php:447 includes/famefe-admin.php:505
+msgid "Filter"
+msgstr "סינון"
+
+#: includes/famefe-admin.php:433
+msgid "Cancel"
+msgstr "ביטול"
+
+#: includes/famefe-admin.php:431
+msgid "Save"
+msgstr "שמירה"
+
+#: includes/famefe-admin.php:419
+msgid "Record hours for a member"
+msgstr "רישום שעות עבור חבר"
+
+#: includes/famefe-admin.php:419
+msgid "Edit hours"
+msgstr "עריכת שעות"
+
+#: includes/famefe-admin.php:380 includes/famefe-admin.php:440 build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:159
+msgid "To"
+msgstr "עד"
+
+#: includes/famefe-admin.php:379 includes/famefe-admin.php:439 build/blocks/hours-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:149
+msgid "From"
+msgstr "מ-"
+
+#: includes/famefe-admin.php:373
+msgid "History"
+msgstr "היסטוריה"
+
+#: includes/famefe-admin.php:370
+msgid "Active"
+msgstr "פעיל"
+
+#: includes/famefe-admin.php:357
+msgid "Record the change"
+msgstr "רישום השינוי"
+
+#: includes/famefe-admin.php:355
+msgid "Valid from"
+msgstr "בתוקף מ-"
+
+#: includes/famefe-admin.php:353
+msgid "Rejoin"
+msgstr "קבלה מחדש"
+
+#: includes/famefe-admin.php:348
+msgid "End the membership"
+msgstr "סיום החברות"
+
+#. translators: %s: membership type (Regular, Honorary).
+#: includes/famefe-admin.php:343
+msgid "Change type to: %s"
+msgstr "שינוי הסוג ל: %s"
+
+#: includes/famefe-admin.php:336 includes/famefe-admin.php:378
+msgid "Change"
+msgstr "שינוי"
+
+#: includes/famefe-admin.php:330 includes/famefe-users.php:80
+msgid "Membership"
+msgstr "חברות"
+
+#. translators: %s: date.
+#: includes/famefe-admin.php:327 includes/famefe-users.php:110
+msgid "Membership ended on %s"
+msgstr "החברות הסתיימה ב-%s"
+
+#. translators: 1: membership type, 2: date.
+#: includes/famefe-admin.php:325 includes/famefe-users.php:113
+msgid "%1$s member since %2$s"
+msgstr "חבר %1$s מאז %2$s"
+
+#: includes/famefe-admin.php:311
+msgid "Delete member entered by mistake"
+msgstr "מחיקת חבר שהוזן בטעות"
+
+#: includes/famefe-admin.php:311
+msgid "Delete this member? Use this only for a member entered by mistake."
+msgstr "למחוק את החבר הזה? יש להשתמש בזה רק לחבר שהוזן בטעות."
+
+#: includes/famefe-admin.php:297
+msgid "Save details"
+msgstr "שמירת פרטים"
+
+#: includes/famefe-admin.php:288
+msgid "Only to correct a mistake; the correction is recorded in the history. Membership changes go below."
+msgstr "רק לתיקון טעות; התיקון נרשם בהיסטוריה. שינויי חברות נמצאים למטה."
+
+#: includes/famefe-admin.php:279
+msgid "Regular members pay the membership fee, honorary members do not."
+msgstr "חברים רגילים משלמים דמי חבר, חברי כבוד לא."
+
+#: includes/famefe-admin.php:272 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:108
+msgid "Membership type"
+msgstr "סוג חברות"
+
+#: includes/famefe-admin.php:266
+msgid "For an existing account, the name and e-mail of the account are used; these fields only fill in what the account lacks."
+msgstr "בחשבון קיים נעשה שימוש בשם ובאימייל של החשבון; שדות אלה משלימים רק את מה שחסר בחשבון."
+
+#: includes/famefe-admin.php:264
+msgid "Changes of the name and e-mail are saved to the user account too."
+msgstr "שינויים בשם ובאימייל נשמרים גם בחשבון המשתמש."
+
+#: includes/famefe-admin.php:262
+msgid "The name and e-mail come from the user account, which you are not allowed to edit."
+msgstr "השם והאימייל מגיעים מחשבון המשתמש, שאין לך הרשאה לערוך."
+
+#: includes/famefe-admin.php:254
+msgid "Last name"
+msgstr "שם משפחה"
+
+#: includes/famefe-admin.php:250
+msgid "First name"
+msgstr "שם פרטי"
+
+#: includes/famefe-admin.php:245
+msgid "Members with an account can record their hours and pay online."
+msgstr "חברים עם חשבון יכולים לרשום את השעות שלהם ולשלם באינטרנט."
+
+#: includes/famefe-admin.php:243
+msgid "Open the profile"
+msgstr "פתיחת הפרופיל"
+
+#: includes/famefe-admin.php:238
+msgid "Members with an account can record their hours and pay online. The name and e-mail of a linked member are those of the account."
+msgstr "חברים עם חשבון יכולים לרשום את השעות שלהם ולשלם באינטרנט. השם והאימייל של חבר מקושר הם אלה של החשבון."
+
+#: includes/famefe-admin.php:236
+msgid "Without a user account"
+msgstr "ללא חשבון משתמש"
+
+#: includes/famefe-admin.php:233
+msgid "The account gets the default role of the site; the e-mail address is required."
+msgstr "החשבון מקבל את תפקיד ברירת המחדל של האתר; כתובת האימייל היא חובה."
+
+#: includes/famefe-admin.php:232
+msgid "Send the member an e-mail with a link for setting the password"
+msgstr "שליחת אימייל לחבר עם קישור להגדרת סיסמה"
+
+#: includes/famefe-admin.php:230
+msgid "Create a new user account"
+msgstr "יצירת חשבון משתמש חדש"
+
+#: includes/famefe-admin.php:227
+msgid "Existing user account"
+msgstr "חשבון משתמש קיים"
+
+#: includes/famefe-admin.php:217
+msgid "— No account —"
+msgstr "— ללא חשבון —"
+
+#: includes/famefe-admin.php:205
+msgid "Details"
+msgstr "פרטים"
+
+#: includes/famefe-admin.php:202
+msgid "No account found."
+msgstr "לא נמצא חשבון."
+
+#. translators: %d: number of user accounts found.
+#: includes/famefe-admin.php:201
+msgid "Found: %d"
+msgstr "נמצאו: %d"
+
+#: includes/famefe-admin.php:199 includes/famefe-notices.php:46
+msgid "This user account already belongs to another member."
+msgstr "חשבון משתמש זה כבר שייך לחבר אחר."
+
+#: includes/famefe-admin.php:194
+msgid "Back to the members"
+msgstr "חזרה לחברים"
+
+#: includes/famefe-admin.php:176
+msgid "Search members"
+msgstr "חיפוש חברים"
+
+#: includes/famefe-admin.php:165 includes/famefe-admin.php:193 includes/famefe-admin.php:297
+msgid "Add member"
+msgstr "הוספת חבר"
+
+#: includes/famefe-admin.php:143
+msgid "Search user accounts"
+msgstr "חיפוש חשבונות משתמש"
+
+#: includes/famefe-admin.php:142
+msgid "Search accounts by name or login…"
+msgstr "חיפוש חשבונות לפי שם או שם משתמש…"
+
+#. translators: 1: name of the person, 2: date and time.
+#: includes/famefe-admin.php:132
+msgid "%1$s on %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: %s: date and time.
+#: includes/famefe-admin.php:129
+msgid "automatically on %s"
+msgstr "אוטומטית, %s"
+
+#: includes/famefe-admin.php:33
+msgid "Help"
+msgstr "עזרה"
+
+#: includes/famefe-admin.php:32
+msgid "Settings"
+msgstr "הגדרות"
+
+#: includes/famefe-admin.php:31 includes/famefe-admin.php:470
+msgid "Payments"
+msgstr "תשלומים"
+
+#: includes/famefe-admin.php:30 includes/famefe-admin.php:415
+msgid "Volunteer hours"
+msgstr "שעות התנדבות"
+
+#: includes/famefe-admin.php:22
+msgid "Member Fees"
+msgstr "דמי חבר"
+
+#: includes/famefe-admin-tables.php:334
+msgid "Delete this payment? The member will be shown as unpaid."
+msgstr "למחוק את התשלום הזה? החבר יוצג כמי שלא שילם."
+
+#: includes/famefe-admin-tables.php:324
+msgid "No payments recorded."
+msgstr "לא נרשמו תשלומים."
+
+#: includes/famefe-admin-tables.php:307 includes/famefe-admin.php:293 includes/famefe-admin.php:356 includes/famefe-admin.php:381 includes/famefe-admin.php:494
+msgid "Note"
+msgstr "הערה"
+
+#: includes/famefe-admin-tables.php:305
+msgid "Amount"
+msgstr "סכום"
+
+#: includes/famefe-admin-tables.php:304 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:25
+msgid "Period"
+msgstr "תקופה"
+
+#. translators: %s: name of a user who is not a member.
+#: includes/famefe-admin-tables.php:266
+msgid "%s (not a member)"
+msgstr "%s (לא חבר)"
+
+#: includes/famefe-admin-tables.php:251
+msgid "Edit"
+msgstr "עריכה"
+
+#: includes/famefe-admin-tables.php:154
+msgid "Edit and history"
+msgstr "עריכה והיסטוריה"
+
+#: includes/famefe-admin-tables.php:152
+msgid "(no name)"
+msgstr "(ללא שם)"
+
+#: includes/famefe-admin-tables.php:128 includes/famefe-admin.php:443 includes/famefe-admin.php:501
+msgid "All"
+msgstr "הכול"
+
+#: includes/famefe-admin-tables.php:127 includes/famefe-admin.php:109 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:34
+msgid "Former members"
+msgstr "חברים לשעבר"
+
+#: includes/famefe-admin-tables.php:126 includes/famefe-admin.php:29 includes/famefe-admin.php:109 includes/famefe-admin.php:164 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:21
+msgid "Members"
+msgstr "חברים"
+
+#: includes/famefe-admin-tables.php:39 includes/famefe-admin.php:258
+msgid "Email"
+msgstr "אימייל"
+
+#: includes/famefe-admin-tables.php:38 includes/famefe-admin.php:223
+msgid "User account"
+msgstr "חשבון משתמש"
+
+#: build/blocks/membership-fees/render.php:306 src/blocks/membership-fees/render.php:306
+msgid "Only administrators and editors see this form. The amount is the calculated fee of the member."
+msgstr "רק מנהלים ועורכים רואים טופס זה. הסכום הוא דמי החבר המחושבים של החבר."
+
+#: build/blocks/membership-fees/render.php:305 includes/famefe-admin.php:495 src/blocks/membership-fees/render.php:305
+msgid "Record payment"
+msgstr "רישום התשלום"
+
+#: build/blocks/membership-fees/render.php:295 includes/famefe-admin-tables.php:306 includes/famefe-admin.php:487 src/blocks/membership-fees/render.php:295
+msgid "Method"
+msgstr "אמצעי"
+
+#: build/blocks/membership-fees/render.php:287 src/blocks/membership-fees/render.php:287
+msgid "Member and fee"
+msgstr "חבר ודמי חבר"
+
+#: build/blocks/membership-fees/render.php:283 src/blocks/membership-fees/render.php:283
+msgid "Record a cash or bank payment (administrators and editors)"
+msgstr "רישום תשלום במזומן או בהעברה (מנהלים ועורכים)"
+
+#: build/blocks/membership-fees/render.php:267 src/blocks/membership-fees/render.php:267
+msgid "(Visible only to administrators and editors.)"
+msgstr "(גלוי רק למנהלים ולעורכים.)"
+
+#: build/blocks/membership-fees/render.php:261 src/blocks/membership-fees/render.php:261
+msgid "The payment button is shown only to logged-in regular members who have a fee to pay."
+msgstr "כפתור התשלום מוצג רק לחברים רגילים מחוברים שיש להם דמי חבר לתשלום."
+
+#: build/blocks/membership-fees/render.php:259 src/blocks/membership-fees/render.php:259
+msgid "The fees are final, but members cannot pay online: Stripe is not set up yet (Member Fees → Settings → Stripe secret key)."
+msgstr "דמי החבר סופיים, אך החברים אינם יכולים לשלם באינטרנט: Stripe עדיין לא הוגדר (דמי חבר ← הגדרות ← מפתח סודי של Stripe)."
+
+#: build/blocks/membership-fees/render.php:257 src/blocks/membership-fees/render.php:257
+msgid "The payment button is off: the fees are shown as calculated so far. Turn it on in the block settings (\"Payment button\") once the volunteer hours of the period are closed and the fees are final. Leave it off if you do not collect fees through this page."
+msgstr "כפתור התשלום כבוי: דמי החבר מוצגים כפי שחושבו עד כה. יש להפעיל אותו בהגדרות הבלוק (\"כפתור תשלום\") לאחר שנסגרו שעות ההתנדבות של התקופה ודמי החבר סופיים. יש להשאיר כבוי אם דמי החבר אינם נגבים דרך עמוד זה."
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:244 src/blocks/membership-fees/render.php:244
+msgid "Pay %s online"
+msgstr "תשלום %s באינטרנט"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:233 src/blocks/membership-fees/render.php:233
+msgid "Your membership fee: %s"
+msgstr "דמי החבר שלך: %s"
+
+#: build/blocks/membership-fees/render.php:227 src/blocks/membership-fees/render.php:227
+msgid "You do not need to pay a membership fee for this period. Thank you for your work!"
+msgstr "אין צורך לשלם דמי חבר לתקופה זו. תודה על העבודה שלך!"
+
+#: build/blocks/membership-fees/render.php:221 src/blocks/membership-fees/render.php:221
+msgid "The fee will be final once the volunteer hours of this period are closed."
+msgstr "דמי החבר יהיו סופיים לאחר סגירת שעות ההתנדבות של תקופה זו."
+
+#: build/blocks/membership-fees/render.php:219 src/blocks/membership-fees/render.php:219
+msgid "The fee will be final once the volunteer hours of this period are closed; then you can pay it here."
+msgstr "דמי החבר יהיו סופיים לאחר סגירת שעות ההתנדבות של תקופה זו; אז אפשר יהיה לשלם אותם כאן."
+
+#: build/blocks/membership-fees/render.php:214 src/blocks/membership-fees/render.php:214
+msgid "Thank you for your work!"
+msgstr "תודה על העבודה שלך!"
+
+#. translators: %s: amount.
+#: build/blocks/membership-fees/render.php:209 src/blocks/membership-fees/render.php:209
+msgid "With the volunteer hours recorded so far, your membership fee is %s."
+msgstr "לפי שעות ההתנדבות שנרשמו עד כה, דמי החבר שלך הם %s."
+
+#. translators: 1: amount, 2: date.
+#: build/blocks/membership-fees/render.php:198 src/blocks/membership-fees/render.php:198
+msgid "You paid %1$s on %2$s. Thank you!"
+msgstr "שילמת %1$s ב-%2$s. תודה!"
+
+#: build/blocks/membership-fees/render.php:144 src/blocks/membership-fees/render.php:144
+msgid "There are no members in this period."
+msgstr "אין חברים בתקופה זו."
+
+#. translators: 1: period (from – to), 2: base fee with currency.
+#: build/blocks/membership-fees/render.php:135 src/blocks/membership-fees/render.php:135
+msgid "Membership fees for %1$s. Base fee: %2$s."
+msgstr "דמי חבר לתקופה %1$s. דמי חבר בסיסיים: %2$s."
+
+#. translators: 1: first day of the period, 2: last day of the period.
+#: build/blocks/membership-fees/render.php:122 src/blocks/membership-fees/render.php:122
+msgid "%1$s – %2$s"
+msgstr "%1$s – %2$s"
+
+#: build/blocks/membership-fees/render.php:106 src/blocks/membership-fees/render.php:106
+msgid "Non-members and former members"
+msgstr "מי שאינם חברים וחברים לשעבר"
+
+#. translators: 1: number of members who paid, 2: number of regular members.
+#: build/blocks/membership-fees/render.php:94 src/blocks/membership-fees/render.php:94
+msgid "%1$d of %2$d"
+msgstr "%1$d מתוך %2$d"
+
+#: build/blocks/membership-fees/render.php:47 build/blocks/membership-fees/render.php:302 includes/famefe-admin-tables.php:302 includes/famefe-admin.php:493 src/blocks/membership-fees/render.php:47 src/blocks/membership-fees/render.php:302 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:125
+msgid "Paid on"
+msgstr "שולם בתאריך"
+
+#: build/blocks/members-list/render.php:99 includes/famefe-admin-tables.php:160 includes/famefe-admin.php:370 includes/famefe-users.php:159 src/blocks/members-list/render.php:99
+msgid "Former member"
+msgstr "חבר לשעבר"
+
+#: build/blocks/members-list/render.php:83 src/blocks/members-list/render.php:83 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:38
+msgid "Search by name"
+msgstr "חיפוש לפי שם"
+
+#: build/blocks/members-list/render.php:82 src/blocks/members-list/render.php:82
+msgid "Search by name…"
+msgstr "חיפוש לפי שם…"
+
+#: build/blocks/members-list/render.php:77 includes/famefe-admin-tables.php:146 src/blocks/members-list/render.php:77
+msgid "No members found."
+msgstr "לא נמצאו חברים."
+
+#. translators: %d: number of current members.
+#: build/blocks/members-list/render.php:72 src/blocks/members-list/render.php:72
+msgid "Current members (%d)"
+msgstr "חברים נוכחיים (%d)"
+
+#. translators: %d: number of former members.
+#: build/blocks/members-list/render.php:69 src/blocks/members-list/render.php:69
+msgid "Former members (%d)"
+msgstr "חברים לשעבר (%d)"
+
+#. translators: %d: number of honorary members.
+#: build/blocks/members-list/render.php:66 build/blocks/membership-fees/render.php:99 src/blocks/members-list/render.php:66 src/blocks/membership-fees/render.php:99
+msgid "Honorary members (%d)"
+msgstr "חברי כבוד (%d)"
+
+#. translators: %d: number of regular members.
+#: build/blocks/members-list/render.php:64 build/blocks/membership-fees/render.php:86 src/blocks/members-list/render.php:64 src/blocks/membership-fees/render.php:86
+msgid "Regular members (%d)"
+msgstr "חברים רגילים (%d)"
+
+#: build/blocks/members-list/render.php:45 includes/famefe-admin-tables.php:37 includes/famefe-admin-tables.php:220 includes/famefe-admin-tables.php:308 includes/famefe-admin.php:382 src/blocks/members-list/render.php:45 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:80
+msgid "Recorded by"
+msgstr "נרשם על ידי"
+
+#: build/blocks/members-list/render.php:44 includes/famefe-admin-tables.php:36 includes/famefe-admin.php:377 src/blocks/members-list/render.php:44 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:76
+msgid "Change date"
+msgstr "תאריך השינוי"
+
+#: build/blocks/members-list/render.php:43 includes/famefe-admin-tables.php:35 src/blocks/members-list/render.php:43 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:72
+msgid "Last change"
+msgstr "שינוי אחרון"
+
+#: build/blocks/members-list/render.php:42 includes/famefe-admin-tables.php:34 includes/famefe-admin.php:284 src/blocks/members-list/render.php:42 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:68
+msgid "Member since"
+msgstr "חבר מאז"
+
+#: build/blocks/members-list/render.php:19 src/blocks/members-list/render.php:19
+msgid "The list of members is available to logged-in users."
+msgstr "רשימת החברים זמינה למשתמשים מחוברים."
+
+#. translators: 1: number of hours, 2: number of entries.
+#: build/blocks/hours-list/render.php:112 src/blocks/hours-list/render.php:112
+msgid "Total: %1$s hours in %2$d entry"
+msgid_plural "Total: %1$s hours in %2$d entries"
+msgstr[0] "סה\"כ: %1$s שעות ב-%2$d רשומה"
+msgstr[1] "סה\"כ: %1$s שעות ב-%2$d רשומות"
+
+#: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:256 includes/famefe-admin-tables.php:335 src/blocks/hours-list/render.php:94
+msgid "Delete"
+msgstr "מחיקה"
+
+#: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:255 src/blocks/hours-list/render.php:94
+msgid "Delete these hours?"
+msgstr "למחוק את השעות האלה?"
+
+#: build/blocks/hours-list/render.php:72 src/blocks/hours-list/render.php:72
+msgid "Actions"
+msgstr "פעולות"
+
+#: build/blocks/hours-list/render.php:69 build/blocks/members-list/render.php:46 src/blocks/hours-list/render.php:69 src/blocks/members-list/render.php:46 build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 src/blocks/hours-list/index.js:75 src/blocks/members-list/index.js:84
+msgid "Recorded on"
+msgstr "נרשם בתאריך"
+
+#: build/blocks/hours-list/render.php:62 build/blocks/members-list/render.php:39 build/blocks/membership-fees/render.php:28 includes/famefe-admin-tables.php:32 includes/famefe-admin-tables.php:217 src/blocks/hours-list/render.php:62 src/blocks/members-list/render.php:39 src/blocks/membership-fees/render.php:28 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:73
+msgid "Name"
+msgstr "שם"
+
+#: build/blocks/hours-list/render.php:50 includes/famefe-admin-tables.php:243 src/blocks/hours-list/render.php:50
+msgid "No hours recorded."
+msgstr "לא נרשמו שעות."
+
+#: build/blocks/hours-list/render.php:19 src/blocks/hours-list/render.php:19
+msgid "Log in to see your volunteer hours."
+msgstr "יש להתחבר כדי לראות את שעות ההתנדבות שלך."
+
+#: build/blocks/hours-form/render.php:118 src/blocks/hours-form/render.php:118
+msgid "My recent entries"
+msgstr "הרשומות האחרונות שלי"
+
+#: build/blocks/hours-form/render.php:59 build/blocks/hours-form/render.php:125 build/blocks/hours-list/render.php:66 includes/famefe-admin-tables.php:219 includes/famefe-admin.php:430 src/blocks/hours-form/render.php:59 src/blocks/hours-form/render.php:125 src/blocks/hours-list/render.php:66 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:74
+msgid "Work done"
+msgstr "העבודה שבוצעה"
+
+#: build/blocks/hours-form/render.php:57 build/blocks/hours-form/render.php:123 build/blocks/hours-list/render.php:60 includes/famefe-admin-tables.php:216 includes/famefe-admin.php:428 src/blocks/hours-form/render.php:57 src/blocks/hours-form/render.php:123 src/blocks/hours-list/render.php:60
+msgid "Date"
+msgstr "תאריך"
+
+#: build/blocks/hours-form/render.php:39 includes/famefe-notices.php:52 src/blocks/hours-form/render.php:39
+msgid "Only members can record volunteer hours."
+msgstr "רק חברים יכולים לרשום שעות התנדבות."
+
+#: build/blocks/hours-form/render.php:34 build/blocks/hours-list/render.php:21 build/blocks/members-list/render.php:21 src/blocks/hours-form/render.php:34 src/blocks/hours-list/render.php:21 src/blocks/members-list/render.php:21
+msgid "Log in"
+msgstr "התחברות"
+
+#: build/blocks/hours-form/render.php:32 src/blocks/hours-form/render.php:32
+msgid "Log in to record your volunteer hours."
+msgstr "יש להתחבר כדי לרשום את שעות ההתנדבות שלך."
+
+#: build/blocks/hours-form/render.php:22 includes/famefe-admin.php:431 src/blocks/hours-form/render.php:22 build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:82
+msgid "Add hours"
+msgstr "הוספת שעות"
+
+#. translators: %s: twice the base fee.
+#: build/blocks/fee-explanation/render.php:219 src/blocks/fee-explanation/render.php:219
+msgid "A member without any volunteer hours in the period always pays twice the base fee, %s: paying instead of working should never be the cheaper choice."
+msgstr "חבר ללא שעות התנדבות בתקופה משלם תמיד פי שניים מדמי החבר הבסיסיים, כלומר %s: תשלום במקום עבודה לעולם לא אמור להיות הבחירה הזולה יותר."
+
+#: build/blocks/fee-explanation/render.php:209 src/blocks/fee-explanation/render.php:209
+msgid "The calculated fees do not exceed it, so there is no discount."
+msgstr "דמי החבר המחושבים אינם עולים עליו, לכן אין הנחה."
+
+#. translators: 1: share of members in percent, 2: discount in percent, 3:
+#. number of members with the discount.
+#: build/blocks/fee-explanation/render.php:203 src/blocks/fee-explanation/render.php:203
+msgid "The %1$s %% of regular members with the lowest calculated fees pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never). The discount is not added to the fees of the others, so the club collects less than the expected total."
+msgstr "%1$s %% מהחברים הרגילים עם דמי החבר המחושבים הנמוכים ביותר משלמים %2$s %% פחות (כאן %3$d חברים; גם חברים עם אותם דמי חבר כמו האחרון שבהם מקבלים אותה, חברים ללא שעות לעולם לא). ההנחה אינה מתווספת לדמי החבר של האחרים, ולכן המועדון גובה פחות מהסכום הצפוי."
+
+#. translators: 1: share of members in percent, 2: calculated discount in
+#. percent, 3: number of members with the discount.
+#: build/blocks/fee-explanation/render.php:195 src/blocks/fee-explanation/render.php:195
+msgid "The %1$s %% of regular members with the lowest calculated fees therefore pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never)."
+msgstr "לכן %1$s %% מהחברים הרגילים עם דמי החבר המחושבים הנמוכים ביותר משלמים %2$s %% פחות (כאן %3$d חברים; גם חברים עם אותם דמי חבר כמו האחרון שבהם מקבלים אותה, חברים ללא שעות לעולם לא)."
+
+#. translators: %s: total the regular members should pay.
+#: build/blocks/fee-explanation/render.php:188 src/blocks/fee-explanation/render.php:188
+msgid "The regular members should pay %s together."
+msgstr "החברים הרגילים אמורים לשלם יחד %s."
+
+#: build/blocks/fee-explanation/render.php:182 src/blocks/fee-explanation/render.php:182
+msgid "4. Discount"
+msgstr "4. הנחה"
+
+#: build/blocks/fee-explanation/render.php:141 build/blocks/membership-fees/render.php:45 src/blocks/fee-explanation/render.php:141 src/blocks/membership-fees/render.php:45
+msgid "Fee to pay"
+msgstr "דמי חבר לתשלום"
+
+#: build/blocks/fee-explanation/render.php:140 build/blocks/membership-fees/render.php:43 src/blocks/fee-explanation/render.php:140 src/blocks/membership-fees/render.php:43 build/blocks/fee-explanation/index.js:3 build/blocks/membership-fees/index.js:3 src/blocks/fee-explanation/index.js:64 src/blocks/membership-fees/index.js:83
+msgid "Discount"
+msgstr "הנחה"
+
+#: build/blocks/fee-explanation/render.php:138 build/blocks/membership-fees/render.php:42 src/blocks/fee-explanation/render.php:138 src/blocks/membership-fees/render.php:42
+msgid "Calculated fee"
+msgstr "דמי חבר מחושבים"
+
+#: build/blocks/fee-explanation/render.php:137 build/blocks/membership-fees/render.php:39 src/blocks/fee-explanation/render.php:137 src/blocks/membership-fees/render.php:39 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:117
+msgid "Unreduced fee"
+msgstr "דמי חבר לפני התאמה"
+
+#: build/blocks/fee-explanation/render.php:136 build/blocks/membership-fees/render.php:36 src/blocks/fee-explanation/render.php:136 src/blocks/membership-fees/render.php:36 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:113
+msgid "Share of hours"
+msgstr "חלק מהשעות"
+
+#. translators: 1: sum of the unreduced fees, 2: expected total, 3: amount
+#. taken off each fee.
+#: build/blocks/fee-explanation/render.php:123 src/blocks/fee-explanation/render.php:123
+msgid "The unreduced fees add up to %1$s, more than the expected total of %2$s. The difference is shared equally: each fee is lowered by %3$s, so all fees together give the expected total. No fee goes below zero; if one would, that member pays nothing and the rest is shared by the members who volunteered."
+msgstr "סך דמי החבר לפני התאמה הוא %1$s, יותר מהסכום הצפוי של %2$s. ההפרש מתחלק באופן שווה: כל תשלום מופחת ב-%3$s, כך שכל התשלומים יחד נותנים את הסכום הצפוי. אף תשלום אינו יורד מתחת לאפס; אם זה היה קורה, החבר הזה לא משלם דבר והיתרה מתחלקת בין החברים שהתנדבו."
+
+#. translators: %s: hours of all regular members.
+#: build/blocks/fee-explanation/render.php:116 src/blocks/fee-explanation/render.php:116
+msgid "Each regular member’s share of the hours of all regular members (%s hours) lowers the unreduced fee: unreduced fee = expected total × (1 − share of hours)."
+msgstr "חלקו של כל חבר רגיל מהשעות של כל החברים הרגילים (%s שעות) מפחית את דמי החבר לפני התאמה: דמי חבר לפני התאמה = הסכום הצפוי × (1 − חלק מהשעות)."
+
+#: build/blocks/fee-explanation/render.php:111 src/blocks/fee-explanation/render.php:111
+msgid "3. Fee of each member"
+msgstr "3. דמי החבר של כל חבר"
+
+#. translators: 1: base fee, 2: number of regular members, 3: base fee again,
+#. 4: expected total.
+#: build/blocks/fee-explanation/render.php:102 src/blocks/fee-explanation/render.php:102
+msgid "The base fee is %1$s. Together, the %2$d regular members are expected to pay %3$s × %2$d = %4$s."
+msgstr "דמי החבר הבסיסיים הם %1$s. יחד, %2$d החברים הרגילים אמורים לשלם %3$s × %2$d = %4$s."
+
+#: build/blocks/fee-explanation/render.php:97 src/blocks/fee-explanation/render.php:97
+msgid "2. Expected total"
+msgstr "2. הסכום הצפוי"
+
+#. translators: %d: number of honorary members.
+#: build/blocks/fee-explanation/render.php:92 src/blocks/fee-explanation/render.php:92
+msgid "%d honorary member"
+msgid_plural "%d honorary members"
+msgstr[0] "%d חבר כבוד"
+msgstr[1] "%d חברי כבוד"
+
+#. translators: %d: number of regular members.
+#: build/blocks/fee-explanation/render.php:90 src/blocks/fee-explanation/render.php:90
+msgid "%d regular member"
+msgid_plural "%d regular members"
+msgstr[0] "%d חבר רגיל"
+msgstr[1] "%d חברים רגילים"
+
+#. translators: 1: "5 regular members", 2: "1 honorary member".
+#: build/blocks/fee-explanation/render.php:88 src/blocks/fee-explanation/render.php:88
+msgid "Members in the example: %1$s and %2$s. Honorary members do not pay a membership fee, and their hours do not count in the calculation."
+msgstr "החברים בדוגמה: %1$s ו-%2$s. חברי כבוד אינם משלמים דמי חבר, והשעות שלהם אינן נספרות בחישוב."
+
+#: build/blocks/fee-explanation/render.php:78 build/blocks/fee-explanation/render.php:167 build/blocks/membership-fees/render.php:112 src/blocks/fee-explanation/render.php:78 src/blocks/fee-explanation/render.php:167 src/blocks/membership-fees/render.php:112
+msgid "Total"
+msgstr "סה\"כ"
+
+#: build/blocks/fee-explanation/render.php:64 build/blocks/fee-explanation/render.php:135 build/blocks/hours-form/render.php:58 build/blocks/hours-form/render.php:124 build/blocks/hours-list/render.php:64 build/blocks/membership-fees/render.php:33 includes/famefe-admin-tables.php:218 includes/famefe-admin.php:429 src/blocks/fee-explanation/render.php:64 src/blocks/fee-explanation/render.php:135 src/blocks/hours-form/render.php:58 src/blocks/hours-form/render.php:124 src/blocks/hours-list/render.php:64 src/blocks/membership-fees/render.php:33 build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:112
+msgid "Hours"
+msgstr "שעות"
+
+#: build/blocks/fee-explanation/render.php:63 build/blocks/members-list/render.php:41 build/blocks/membership-fees/render.php:30 includes/famefe-admin-tables.php:33 src/blocks/fee-explanation/render.php:63 src/blocks/members-list/render.php:41 src/blocks/membership-fees/render.php:30 build/blocks/members-list/index.js:1 src/blocks/members-list/index.js:67
+msgid "Type"
+msgstr "סוג"
+
+#: build/blocks/fee-explanation/render.php:62 build/blocks/fee-explanation/render.php:134 build/blocks/hours-form/render.php:56 includes/famefe-admin-tables.php:303 includes/famefe-admin.php:420 includes/famefe-admin.php:441 includes/famefe-admin.php:475 includes/famefe-admin.php:499 includes/famefe-users.php:83 includes/famefe-users.php:139 src/blocks/fee-explanation/render.php:62 src/blocks/fee-explanation/render.php:134 src/blocks/hours-form/render.php:56
+msgid "Member"
+msgstr "חבר"
+
+#: build/blocks/fee-explanation/render.php:57 src/blocks/fee-explanation/render.php:57
+msgid "1. Members and their hours"
+msgstr "1. החברים והשעות שלהם"
+
+#: build/blocks/fee-explanation/render.php:55 src/blocks/fee-explanation/render.php:55
+msgid "The membership fee depends on how much each member volunteered for the club, measured in the recorded hours. Members only need to record their hours; the fees are calculated from them. The following example shows how."
+msgstr "דמי החבר תלויים במידה שבה כל חבר התנדב למען המועדון, כפי שנמדד בשעות שנרשמו. החברים צריכים רק לרשום את השעות שלהם; דמי החבר מחושבים מהן. הדוגמה הבאה מראה כיצד."
+
+#. translators: %d: number of the member in the example.
+#: build/blocks/fee-explanation/render.php:52 src/blocks/fee-explanation/render.php:52
+msgid "Member %d"
+msgstr "חבר %d"
+
+#. Author of the plugin
+#: fair-member-fees.php
+msgid "globus2008"
+msgstr "globus2008"
+
+#. Description of the plugin
+#: fair-member-fees.php
+msgid "Membership register with a change history, volunteer hours and a fair membership fee: members who volunteer more pay less. Optional discount and payment through Stripe. Built with blocks."
+msgstr "מרשם חברים עם היסטוריית שינויים, שעות התנדבות ודמי חבר הוגנים: חברים שמתנדבים יותר משלמים פחות. הנחה אופציונלית ותשלום דרך Stripe. בנוי מבלוקים."
+
+#. Plugin Name of the plugin
+#: fair-member-fees.php includes/famefe-admin.php:21
+msgid "Fair Member Fees"
+msgstr "Fair Member Fees"

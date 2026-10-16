@@ -1,0 +1,247 @@
+# Translation of Plugins - Fair Member Fees - Development Readme (trunk) in Bengali (India)
+# This file is distributed under the same license as the Plugins - Fair Member Fees - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Fair Member Fees - Development Readme (trunk)\n"
+"PO-Revision-Date: 2026-10-16 12:00:00+0000\n"
+"Language: bn_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+
+#. Short description.
+#, gp-priority: high
+msgid "Membership register, volunteer hours and a fair membership fee: members who volunteer more pay less. Optional discount and Stripe payments."
+msgstr "সদস্য রেজিস্টার, স্বেচ্ছাসেবী ঘণ্টা ও ন্যায্য সদস্য চাঁদা: যে সদস্যরা বেশি স্বেচ্ছাসেবা করেন, তাঁরা কম দেন। ঐচ্ছিক ছাড় ও Stripe-এর মাধ্যমে পেমেন্ট।"
+
+#. Plugin name.
+#, gp-priority: high
+msgid "Fair Member Fees"
+msgstr "Fair Member Fees"
+
+#. Found in faq paragraph.
+msgid "Nothing, unless you turn on \"Delete data\" in the settings."
+msgstr "কিছুই না, যদি না আপনি সেটিংসে \"ডেটা মুছুন\" চালু করেন।"
+
+#. Found in faq paragraph.
+msgid "No. The server always calculates the fee from the saved block settings and the recorded hours."
+msgstr "না। সার্ভার সবসময় সংরক্ষিত ব্লক সেটিংস ও নথিভুক্ত ঘণ্টা থেকে চাঁদা হিসাব করে।"
+
+#. Found in faq paragraph.
+msgid "Only administrators and editors (the capability <code>famefe_manage</code>)."
+msgstr "শুধু অ্যাডমিনিস্ট্রেটর ও এডিটররা (ক্ষমতা <code>famefe_manage</code>)।"
+
+#. Found in faq paragraph.
+msgid "Every logged-in member records own hours. Administrators and editors can record hours for any member. In the settings you can allow logged-in non-members to record hours too; their hours count only in the totals."
+msgstr "প্রত্যেক লগ ইন করা সদস্য নিজের ঘণ্টা নথিভুক্ত করেন। অ্যাডমিনিস্ট্রেটর ও এডিটররা যেকোনো সদস্যের জন্য ঘণ্টা নথিভুক্ত করতে পারেন। সেটিংসে আপনি লগ ইন করা অ-সদস্যদেরও ঘণ্টা নথিভুক্ত করার অনুমতি দিতে পারেন; তাঁদের ঘণ্টা শুধু মোটে গণনা হয়।"
+
+#. Found in faq paragraph.
+msgid "The button is off until you turn it on in the Membership fees block (\"Payment button\"). Turn it on once the volunteer hours of the period are closed and the fees are final; until then members see the fee calculated from the hours recorded so far. Online payment also needs the Stripe keys in the settings. If your club only keeps records of hours, simply leave the button off."
+msgstr "সদস্য চাঁদা ব্লকে (\"পেমেন্ট বোতাম\") চালু না করা পর্যন্ত বোতামটি বন্ধ থাকে। সময়কালের স্বেচ্ছাসেবী ঘণ্টা বন্ধ হলে এবং চাঁদা চূড়ান্ত হলে এটি চালু করুন; ততক্ষণ সদস্যরা এখন পর্যন্ত নথিভুক্ত ঘণ্টা থেকে হিসাব করা চাঁদা দেখেন। অনলাইন পেমেন্টের জন্য সেটিংসে Stripe কী-ও লাগে। আপনার ক্লাব শুধু ঘণ্টার হিসাব রাখলে বোতামটি বন্ধই রাখুন।"
+
+#. Found in faq header.
+msgid "What happens with the data when I delete the plugin?"
+msgstr "প্লাগইন মুছলে ডেটার কী হয়?"
+
+#. Found in faq header.
+msgid "Can the amount to pay be changed in the browser?"
+msgstr "পরিশোধের পরিমাণ কি ব্রাউজারে বদলানো যায়?"
+
+#. Found in faq header.
+msgid "Who sees the form for cash payments?"
+msgstr "নগদ পেমেন্টের ফর্ম কে দেখেন?"
+
+#. Found in faq header.
+msgid "Who can record hours?"
+msgstr "কে ঘণ্টা নথিভুক্ত করতে পারেন?"
+
+#. Found in faq header.
+msgid "Why do members not see the payment button?"
+msgstr "সদস্যরা পেমেন্ট বোতাম দেখতে পান না কেন?"
+
+#. Found in installation list item.
+msgid "Add the blocks to your pages (search for \"Fair Member Fees\" in the block inserter). Set the period, the base fee and the discount in the Membership fees block."
+msgstr "আপনার পেজে ব্লকগুলি যোগ করুন (ব্লক ইনসার্টারে \"Fair Member Fees\" খুঁজুন)। সদস্য চাঁদা ব্লকে সময়কাল, মূল চাঁদা ও ছাড় সেট করুন।"
+
+#. Found in installation list item.
+msgid "In <strong>Member Fees → Settings</strong> set the currency and, for online payments, your Stripe keys and the webhook."
+msgstr "<strong>সদস্য চাঁদা → সেটিংস</strong>-এ মুদ্রা এবং অনলাইন পেমেন্টের জন্য আপনার Stripe কী ও Webhook সেট করুন।"
+
+#. Found in installation list item.
+msgid "Go to <strong>Member Fees → Members</strong> and add your members; link them to their user accounts so that they can record hours and pay online."
+msgstr "<strong>সদস্য চাঁদা → সদস্য</strong>-এ যান এবং আপনার সদস্যদের যোগ করুন; তাঁদের ইউজার অ্যাকাউন্টের সঙ্গে লিঙ্ক করুন যাতে তাঁরা ঘণ্টা নথিভুক্ত করতে ও অনলাইনে পেমেন্ট করতে পারেন।"
+
+#. Found in installation list item.
+msgid "Install and activate the plugin."
+msgstr "প্লাগইন ইনস্টল ও সক্রিয় করুন।"
+
+#. Found in description paragraph.
+msgid "The editor scripts in <code>build/</code> are compiled from the human-readable sources in <code>src/</code> (included in the plugin) with <code>@wordpress/scripts</code> (<code>npm install</code>, <code>npm run build</code>). The development repository is public: https://github.com/globus2008/fair-member-fees"
+msgstr "<code>build/</code>-এর এডিটর স্ক্রিপ্টগুলি <code>src/</code>-এর পাঠযোগ্য উৎস (প্লাগইনে অন্তর্ভুক্ত) থেকে <code>@wordpress/scripts</code> দিয়ে কম্পাইল করা (<code>npm install</code>, <code>npm run build</code>)। ডেভেলপমেন্ট রিপোজিটরি সর্বজনীন: https://github.com/globus2008/fair-member-fees"
+
+#. Found in description paragraph.
+msgid "Stripe terms of service: https://stripe.com/legal/ssa – Stripe privacy policy: https://stripe.com/privacy"
+msgstr "Stripe-এর পরিষেবার শর্তাবলি: https://stripe.com/legal/ssa – Stripe-এর গোপনীয়তা নীতি: https://stripe.com/privacy"
+
+#. Found in description paragraph.
+msgid "This plugin connects to <strong>Stripe</strong> (https://stripe.com) to let members pay their membership fee by card. It is used only when you enter a Stripe secret key in the plugin settings."
+msgstr "এই প্লাগইনটি <strong>Stripe</strong> (https://stripe.com)-এর সঙ্গে সংযুক্ত হয়, যাতে সদস্যরা কার্ডে তাঁদের সদস্য চাঁদা দিতে পারেন। এটি শুধু তখনই ব্যবহৃত হয়, যখন আপনি প্লাগইন সেটিংসে একটি Stripe সিক্রেট কী লেখেন।"
+
+#. Found in description paragraph.
+msgid "Instead of the percentage, you can set the total to collect: the discount of the same members is then calculated so that all regular members pay exactly this amount together (for example to give back what the double fees of members without hours brought above the expected total)."
+msgstr "শতাংশের বদলে আপনি আদায়যোগ্য মোট সেট করতে পারেন: তখন একই সদস্যদের ছাড় এমনভাবে হিসাব করা হয় যাতে সব নিয়মিত সদস্য মিলে ঠিক এই পরিমাণ দেন (যেমন ঘণ্টা না থাকা সদস্যদের দ্বিগুণ চাঁদা প্রত্যাশিত মোটের বেশি যা এনেছে, তা ফেরত দিতে)।"
+
+#. Found in description paragraph.
+msgid "Set a share of members (e.g. 60 %) and a discount (e.g. 20 %) in the Membership fees block: the given share of regular members with the lowest fees pays the given percentage less. Members with the same fee as the last of them get it too; members without hours never get it. The discount is not added to the fees of the others."
+msgstr "সদস্য চাঁদা ব্লকে সদস্যদের একটি অংশ (যেমন 60 %) ও একটি ছাড় (যেমন 20 %) সেট করুন: সবচেয়ে কম চাঁদার নিয়মিত সদস্যদের নির্ধারিত অংশ নির্ধারিত শতাংশ কম দেন। তাঁদের শেষজনের সমান চাঁদার সদস্যরাও এটি পান; ঘণ্টা না থাকা সদস্যরা কখনো পান না। ছাড় অন্যদের চাঁদার সঙ্গে যোগ করা হয় না।"
+
+#. Found in description paragraph.
+msgid "<strong>Discount (optional)</strong>"
+msgstr "<strong>ছাড় (ঐচ্ছিক)</strong>"
+
+#. Found in description paragraph.
+msgid "Whoever does not volunteer pays twice the base fee, so paying instead of working is never the cheaper choice. Hours of honorary members and non-members are shown in the totals but do not change the fees."
+msgstr "যিনি স্বেচ্ছাসেবা করেন না, তিনি মূল চাঁদার দ্বিগুণ দেন, তাই কাজের বদলে টাকা দেওয়া কখনো সস্তা বিকল্প হয় না। সম্মানসূচক সদস্য ও অ-সদস্যদের ঘণ্টা মোটে দেখানো হয়, কিন্তু চাঁদা বদলায় না।"
+
+#. Found in description paragraph.
+msgid "<strong>How the fee is calculated</strong>"
+msgstr "<strong>চাঁদা কীভাবে হিসাব করা হয়</strong>"
+
+#. Found in description paragraph.
+msgid "<strong>Features</strong>"
+msgstr "<strong>বৈশিষ্ট্য</strong>"
+
+#. Found in description paragraph.
+msgid "Clubs live from the work of their members. Fair Member Fees rewards it: every member records the hours they volunteered, and the membership fee of each member is calculated from them. Whoever works for the club pays less; whoever does not, pays twice the base fee – paying instead of working is never the cheaper choice."
+msgstr "ক্লাব চলে তার সদস্যদের কাজে। Fair Member Fees সেই কাজের পুরস্কার দেয়: প্রত্যেক সদস্য নিজের স্বেচ্ছাসেবী ঘণ্টা নথিভুক্ত করেন, আর সেখান থেকেই প্রত্যেকের সদস্য চাঁদা হিসাব হয়। যিনি ক্লাবের জন্য কাজ করেন, তিনি কম দেন; যিনি করেন না, তিনি মূল চাঁদার দ্বিগুণ দেন – কাজের বদলে টাকা দেওয়া কখনো সস্তা বিকল্প নয়।"
+
+#. Found in description list item.
+msgid "When the member returns, the plugin asks Stripe whether the payment was completed. Stripe also sends the result to the webhook address of the plugin."
+msgstr "সদস্য ফিরে এলে প্লাগইন Stripe-কে জিজ্ঞাসা করে পেমেন্ট সম্পন্ন হয়েছে কিনা। Stripe ফলাফল প্লাগইনের Webhook ঠিকানাতেও পাঠায়।"
+
+#. Found in description list item.
+msgid "When a member clicks the payment button, the plugin sends to Stripe: the amount and currency, the name of the payment (\"Membership fee\" and the period), the member's e-mail address, the member ID and the period, and the addresses of your page to return to. The member then enters the card details directly on the Stripe payment page."
+msgstr "কোনো সদস্য পেমেন্ট বোতামে ক্লিক করলে প্লাগইন Stripe-কে পাঠায়: পরিমাণ ও মুদ্রা, পেমেন্টের নাম (\"সদস্য চাঁদা\" ও সময়কাল), সদস্যের ইমেল ঠিকানা, সদস্য ID ও সময়কাল, এবং ফেরার জন্য আপনার পেজের ঠিকানা। এরপর সদস্য সরাসরি Stripe-এর পেমেন্ট পেজে কার্ডের তথ্য লেখেন।"
+
+#. Found in description list item.
+msgid "A member without any recorded hours in the period always pays twice the base fee."
+msgstr "সময়কালে কোনো নথিভুক্ত ঘণ্টা না থাকা সদস্য সবসময় মূল চাঁদার দ্বিগুণ দেন।"
+
+#. Found in description list item.
+msgid "The unreduced fees add up to more than the expected total; the difference is taken off every fee equally. No fee goes below zero (the rest is shared by the others)."
+msgstr "সমন্বয়ের আগের চাঁদার যোগফল প্রত্যাশিত মোটের চেয়ে বেশি হয়; পার্থক্যটি প্রতিটি চাঁদা থেকে সমানভাবে বাদ দেওয়া হয়। কোনো চাঁদা শূন্যের নিচে নামে না (বাকিটা অন্যরা ভাগ করেন)।"
+
+#. Found in description list item.
+msgid "Unreduced fee = expected total × (1 − share of hours)."
+msgstr "সমন্বয়ের আগের চাঁদা = প্রত্যাশিত মোট × (1 − ঘণ্টার অংশ)।"
+
+#. Found in description list item.
+msgid "Share of hours = hours of the member / hours of all regular members."
+msgstr "ঘণ্টার অংশ = সদস্যের ঘণ্টা / সব নিয়মিত সদস্যের ঘণ্টা।"
+
+#. Found in description list item.
+msgid "Expected total = base fee × number of regular members."
+msgstr "প্রত্যাশিত মোট = মূল চাঁদা × নিয়মিত সদস্যের সংখ্যা।"
+
+#. Found in description list item.
+msgid "Ready for translation."
+msgstr "অনুবাদের জন্য প্রস্তুত।"
+
+#. Found in description list item.
+msgid "<strong>Fee calculation explained</strong> – the method on an example with your own numbers."
+msgstr "<strong>চাঁদার হিসাবের ব্যাখ্যা</strong> – আপনার নিজের সংখ্যা দিয়ে একটি উদাহরণে পদ্ধতি।"
+
+#. Found in description list item.
+msgid "<strong>Members list</strong>,"
+msgstr "<strong>সদস্য তালিকা</strong>,"
+
+#. Found in description list item.
+msgid "<strong>Volunteer hours list</strong>,"
+msgstr "<strong>স্বেচ্ছাসেবী ঘণ্টার তালিকা</strong>,"
+
+#. Found in description list item.
+msgid "<strong>Volunteer hours form</strong>,"
+msgstr "<strong>স্বেচ্ছাসেবী ঘণ্টার ফর্ম</strong>,"
+
+#. Found in description list item.
+msgid "<strong>Membership fees</strong> – the fee table of a period; its payment button is turned on once the hours of the period are closed,"
+msgstr "<strong>সদস্য চাঁদা</strong> – একটি সময়কালের চাঁদার টেবিল; সময়কালের ঘণ্টা বন্ধ হলে এর পেমেন্ট বোতাম চালু করা হয়,"
+
+#. Found in description list item.
+msgid "Five blocks, all set up in the block settings – no shortcodes:"
+msgstr "পাঁচটি ব্লক, সবগুলি ব্লক সেটিংসে সেট করা যায় – কোনো শর্টকোড নেই:"
+
+#. Found in description list item.
+msgid "Online payment of the fee through Stripe Checkout; cash and bank payments recorded by administrators and editors."
+msgstr "Stripe Checkout-এর মাধ্যমে চাঁদার অনলাইন পেমেন্ট; নগদ ও ব্যাংক ট্রান্সফার পেমেন্ট অ্যাডমিনিস্ট্রেটর ও এডিটররা নথিভুক্ত করেন।"
+
+#. Found in description list item.
+msgid "Optional discount for the members with the lowest fees."
+msgstr "সবচেয়ে কম চাঁদার সদস্যদের জন্য ঐচ্ছিক ছাড়।"
+
+#. Found in description list item.
+msgid "Fair calculation of the fees for any period (season), see below."
+msgstr "যেকোনো সময়কালের (মরসুমের) জন্য চাঁদার ন্যায্য হিসাব, নিচে দেখুন।"
+
+#. Found in description list item.
+msgid "Volunteer hours recorded by the members themselves, or by administrators and editors for anybody."
+msgstr "স্বেচ্ছাসেবী ঘণ্টা, যা সদস্যরা নিজেরা বা অ্যাডমিনিস্ট্রেটর ও এডিটররা যে কারো জন্য নথিভুক্ত করেন।"
+
+#. Found in description list item.
+msgid "Full history of every member: joined, membership type changed, membership ended, rejoined – each with the date of the change, who recorded it and when."
+msgstr "প্রত্যেক সদস্যের সম্পূর্ণ ইতিহাস: যোগদান, সদস্যপদের ধরন পরিবর্তন, সদস্যপদ শেষ, আবার যোগদান – প্রতিটির সঙ্গে পরিবর্তনের তারিখ, কে নথিভুক্ত করেছেন এবং কখন।"
+
+#. Found in description list item.
+msgid "Membership register with regular and honorary members (honorary members pay no fee)."
+msgstr "নিয়মিত ও সম্মানসূচক সদস্যসহ সদস্য রেজিস্টার (সম্মানসূচক সদস্যরা চাঁদা দেন না)।"
+
+#. Found in description header.
+msgid "Source code"
+msgstr "সোর্স কোড"
+
+#. Found in description header.
+msgid "External services"
+msgstr "বাহ্যিক পরিষেবা"
+
+#. Screenshot description.
+msgid "Member Fees → Settings: currency and Stripe keys for online payments."
+msgstr "সদস্য চাঁদা → সেটিংস: মুদ্রা এবং অনলাইন পেমেন্টের জন্য Stripe কী।"
+
+#. Screenshot description.
+msgid "Member Fees → Volunteer hours: all recorded hours with filters."
+msgstr "সদস্য চাঁদা → স্বেচ্ছাসেবী ঘণ্টা: ফিল্টারসহ সব নথিভুক্ত ঘণ্টা।"
+
+#. Screenshot description.
+msgid "Every change of a membership is kept in the history with the date of the change, who recorded it and when."
+msgstr "সদস্যপদের প্রতিটি পরিবর্তন পরিবর্তনের তারিখ, কে নথিভুক্ত করেছেন ও কখন সহ ইতিহাসে রাখা হয়।"
+
+#. Screenshot description.
+msgid "Member Fees → Members: the membership register."
+msgstr "সদস্য চাঁদা → সদস্য: সদস্য রেজিস্টার।"
+
+#. Screenshot description.
+msgid "All options of the blocks are in the block settings: the period, the base fee, the discount, the payment button, columns, names and table colours."
+msgstr "ব্লকগুলির সব বিকল্প ব্লক সেটিংসে আছে: সময়কাল, মূল চাঁদা, ছাড়, পেমেন্ট বোতাম, কলাম, নাম ও টেবিলের রং।"
+
+#. Screenshot description.
+msgid "The Fee calculation explained block shows the method on an example with your own base fee and discount."
+msgstr "চাঁদার হিসাবের ব্যাখ্যা ব্লক আপনার নিজের মূল চাঁদা ও ছাড় দিয়ে একটি উদাহরণে পদ্ধতি দেখায়।"
+
+#. Screenshot description.
+msgid "The Volunteer hours form and list: members record their own hours, administrators and editors record them for anybody."
+msgstr "স্বেচ্ছাসেবী ঘণ্টার ফর্ম ও তালিকা: সদস্যরা নিজেদের ঘণ্টা নথিভুক্ত করেন, অ্যাডমিনিস্ট্রেটর ও এডিটররা যে কারো জন্য নথিভুক্ত করেন।"
+
+#. Screenshot description.
+msgid "The Members list block with the totals of regular and honorary members."
+msgstr "নিয়মিত ও সম্মানসূচক সদস্যদের মোটসহ সদস্য তালিকা ব্লক।"
+
+#. Screenshot description.
+msgid "The Membership fees block: the fee of every member calculated from the volunteer hours, with the optional discount and the totals rows."
+msgstr "সদস্য চাঁদা ব্লক: স্বেচ্ছাসেবী ঘণ্টা থেকে হিসাব করা প্রত্যেক সদস্যের চাঁদা, ঐচ্ছিক ছাড় ও মোটের সারিসহ।"
+
+#. Found in changelog list item.
+#, gp-priority: low
+msgid "First release."
+msgstr "প্রথম রিলিজ।"
