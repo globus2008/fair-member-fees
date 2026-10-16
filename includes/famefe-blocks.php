@@ -67,7 +67,8 @@ function famefe_find_block_in(array $blocks, string $name, string $block_id, int
 		return null;
 	}
 	foreach ($blocks as $block) {
-		if (($block['blockName'] ?? '') === $name && ($block['attrs']['blockId'] ?? '') === $block_id) {
+		// The forms send the normalised blockId (famefe_block_id()), so compare it the same way.
+		if (($block['blockName'] ?? '') === $name && famefe_block_id($block['attrs'] ?? []) === $block_id) {
 			return $block['attrs'];
 		}
 		if (!empty($block['innerBlocks'])) {
