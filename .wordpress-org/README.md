@@ -4,6 +4,11 @@ Files for the `assets/` folder of the plugin's SVN repository (not part of the p
 icons, banners and the screenshots described in `readme.txt` → `== Screenshots ==`.
 The screenshots use made-up data (names of famous tennis players).
 
+Localised screenshots `screenshot-<n>-<locale>.png` (cs_CZ, en_GB, es_CL, es_MX, nl_NL, ru_RU, sv_SE, made 2026-10-18)
+replace `screenshot-<n>.png` on the plugin page in that language (wordpress.org matches the full locale, then the
+language). They use the translations of the translate.wordpress.org `dev` project, the site language, its date
+format, a local currency and translated work descriptions.
+
 Plugin ZIP for the submission: `git archive --format=zip --prefix=fair-member-fees/ -o fair-member-fees-1.0.0.zip HEAD`
 
 `blueprints/blueprint.json` is the WordPress Playground blueprint of the Live Preview on wordpress.org
