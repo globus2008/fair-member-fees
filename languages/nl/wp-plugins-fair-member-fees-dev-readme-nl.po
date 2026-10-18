@@ -63,7 +63,7 @@ msgstr "Waarom zien leden de betaalknop niet?"
 
 #. Found in installation list item.
 msgid "Add the blocks to your pages (search for \"Fair Member Fees\" in the block inserter). Set the period, the base fee and the discount in the Membership fees block."
-msgstr "Voeg de blokken toe aan je pagina's (zoek naar 'Fair Member Fees' in de blokinvoeger). Stel de periode, de basiscontributie en de korting in bij het blok Contributies."
+msgstr "Voeg de blokken toe aan je pagina's (zoek naar 'Fair Member Fees' in de blok-inserter). Stel de periode, de basiscontributie en de korting in bij het blok Contributies."
 
 #. Found in installation list item.
 msgid "In <strong>Member Fees → Settings</strong> set the currency and, for online payments, your Stripe keys and the webhook."
@@ -71,7 +71,7 @@ msgstr "Stel in <strong>Contributies → Instellingen</strong> de valuta in en, 
 
 #. Found in installation list item.
 msgid "Go to <strong>Member Fees → Members</strong> and add your members; link them to their user accounts so that they can record hours and pay online."
-msgstr "Ga naar <strong>Contributies → Leden</strong> en voeg je leden toe; koppel ze aan hun gebruikersaccounts zodat ze uren kunnen registreren en online kunnen betalen."
+msgstr "Ga naar <strong>Contributies → Leden</strong> en voeg je leden toe; link ze aan hun gebruikersaccounts zodat ze uren kunnen registreren en online kunnen betalen."
 
 #. Found in installation list item.
 msgid "Install and activate the plugin."
@@ -119,11 +119,11 @@ msgstr "Clubs bestaan dankzij het werk van hun leden. Fair Member Fees beloont d
 
 #. Found in description list item.
 msgid "When the member returns, the plugin asks Stripe whether the payment was completed. Stripe also sends the result to the webhook address of the plugin."
-msgstr "Als het lid terugkeert, vraagt de plugin aan Stripe of de betaling is voltooid. Stripe stuurt het resultaat ook naar het webhook-adres van de plugin."
+msgstr "Als het lid terugkeert, vraagt de plugin aan Stripe of de betaling is afgerond. Stripe stuurt het resultaat ook naar het webhook-adres van de plugin."
 
 #. Found in description list item.
 msgid "When a member clicks the payment button, the plugin sends to Stripe: the amount and currency, the name of the payment (\"Membership fee\" and the period), the member's e-mail address, the member ID and the period, and the addresses of your page to return to. The member then enters the card details directly on the Stripe payment page."
-msgstr "Als een lid op de betaalknop klikt, stuurt de plugin naar Stripe: het bedrag en de valuta, de naam van de betaling ('Contributie' en de periode), het e-mailadres van het lid, het lid-ID en de periode, en de adressen van je pagina om naar terug te keren. Het lid voert daarna de kaartgegevens rechtstreeks in op de betaalpagina van Stripe."
+msgstr "Als een lid op de betaalknop klikt, stuurt de plugin naar Stripe: het bedrag en de valuta, de naam van de betaling ('Contributie' en de periode), het e-mailadres van het lid, het lid-ID en de periode, en de adressen van je pagina om naar terug te keren. Het lid voert daarna de kaartdetails rechtstreeks in op de betaalpagina van Stripe."
 
 #. Found in description list item.
 msgid "A member without any recorded hours in the period always pays twice the base fee."

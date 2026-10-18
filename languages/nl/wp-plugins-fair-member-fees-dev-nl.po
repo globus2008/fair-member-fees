@@ -217,7 +217,7 @@ msgstr "Tabelkleuren"
 
 #: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:127
 msgid "They may delete any entry within this time. Older entries can still be deleted in Member Fees → Volunteer hours."
-msgstr "Zij mogen binnen deze tijd elke registratie verwijderen. Oudere registraties kunnen nog steeds worden verwijderd in Contributies → Vrijwilligersuren."
+msgstr "Zij mogen binnen deze tijd elke vermelding verwijderen. Oudere vermeldingen kunnen nog steeds worden verwijderd in Contributies → Vrijwilligersuren."
 
 #: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:123
 msgid "Administrators and editors: days after recording"
@@ -253,7 +253,7 @@ msgstr "Alleen de uren van de ingelogde bezoeker"
 
 #: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:37
 msgid "Maximum entries"
-msgstr "Maximaal aantal registraties"
+msgstr "Maximaal aantal vermeldingen"
 
 #: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:29
 msgid "Leave empty for no limit."
@@ -269,11 +269,11 @@ msgstr "Namen"
 
 #: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:106
 msgid "Number of recent entries"
-msgstr "Aantal recente registraties"
+msgstr "Aantal recente vermeldingen"
 
 #: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:96
 msgid "Show my recent entries"
-msgstr "Mijn recente registraties tonen"
+msgstr "Mijn recente vermeldingen tonen"
 
 #: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:92
 msgid "Description of the work is required"
@@ -305,7 +305,7 @@ msgstr "Stapgrootte van de uren"
 
 #: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:23
 msgid "Maximum hours per entry"
-msgstr "Maximaal aantal uren per registratie"
+msgstr "Maximaal aantal uren per vermelding"
 
 #: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:18
 msgid "Form"
@@ -368,11 +368,11 @@ msgstr "Aandeel leden met de laagste contributies (%)"
 #. translators: %s: list of member names.
 #: includes/famefe-users.php:190
 msgid "These accounts belong to members: %s. The members, their history, hours and payments stay in the register; only the link to the account is removed. To end a membership, use Member Fees → Members."
-msgstr "Deze accounts zijn van leden: %s. De leden, hun geschiedenis, uren en betalingen blijven in het register; alleen de koppeling met het account wordt verwijderd. Gebruik Contributies → Leden om een lidmaatschap te beëindigen."
+msgstr "Deze accounts zijn van leden: %s. De leden, hun geschiedenis, uren en betalingen blijven in het register; alleen de link met het account wordt verwijderd. Gebruik Contributies → Leden om een lidmaatschap te beëindigen."
 
 #: includes/famefe-users.php:93
 msgid "The first name, last name and e-mail of this profile are also the details of the member."
-msgstr "De voornaam, achternaam en het e-mailadres van dit profiel zijn ook de gegevens van het lid."
+msgstr "De voornaam, achternaam en het e-mailadres van dit profiel zijn ook de details van het lid."
 
 #: includes/famefe-users.php:91
 msgid "Membership and history"
@@ -442,7 +442,7 @@ msgstr "Voor deze datum kunnen geen uren meer worden geregistreerd."
 
 #: includes/famefe-notices.php:49
 msgid "These hours can no longer be deleted here; the time limit has passed."
-msgstr "Deze uren kunnen hier niet meer worden verwijderd; de termijn is verstreken."
+msgstr "Deze uren kunnen hier niet meer worden verwijderd; de tijdsbeperking is verstreken."
 
 #: includes/famefe-notices.php:48
 msgid "Enter a valid number of hours."
@@ -614,7 +614,7 @@ msgstr "Blokken"
 
 #: includes/famefe-admin.php:659
 msgid "Add the blocks to your pages: search for \"Fair Member Fees\" in the block inserter."
-msgstr "Voeg de blokken toe aan je pagina's: zoek naar 'Fair Member Fees' in de blokinvoeger."
+msgstr "Voeg de blokken toe aan je pagina's: zoek naar 'Fair Member Fees' in de blok-inserter."
 
 #: includes/famefe-admin.php:658
 msgid "Set the currency, and Stripe if you want online payments (Settings)."
@@ -622,7 +622,7 @@ msgstr "Stel de valuta in en, als je online betalingen wil, Stripe (Instellingen
 
 #: includes/famefe-admin.php:657
 msgid "Add your members (Members → Add member) and link them to their user accounts."
-msgstr "Voeg je leden toe (Leden → Lid toevoegen) en koppel ze aan hun gebruikersaccounts."
+msgstr "Voeg je leden toe (Leden → Lid toevoegen) en link ze aan hun gebruikersaccounts."
 
 #: includes/famefe-admin.php:655
 msgid "Getting started"
@@ -658,7 +658,7 @@ msgstr "Lijst met vrijwilligersuren"
 
 #: includes/famefe-admin.php:646
 msgid "Members record their own hours. Set the maximum hours per entry, how many days back a date may be, and whether a description is required."
-msgstr "Leden registreren hun eigen uren. Stel het maximale aantal uren per registratie in, hoeveel dagen terug een datum mag liggen en of een beschrijving verplicht is."
+msgstr "Leden registreren hun eigen uren. Stel het maximale aantal uren per vermelding in, hoeveel dagen terug een datum mag liggen en of een beschrijving verplicht is."
 
 #: includes/famefe-admin.php:646
 msgid "Volunteer hours form"
@@ -907,7 +907,7 @@ msgstr "Dit lid verwijderen? Gebruik dit alleen voor een lid dat per vergissing 
 
 #: includes/famefe-admin.php:297
 msgid "Save details"
-msgstr "Gegevens opslaan"
+msgstr "Details opslaan"
 
 #: includes/famefe-admin.php:288
 msgid "Only to correct a mistake; the correction is recorded in the history. Membership changes go below."
@@ -931,7 +931,7 @@ msgstr "Wijzigingen van de naam en het e-mailadres worden ook in het gebruikersa
 
 #: includes/famefe-admin.php:262
 msgid "The name and e-mail come from the user account, which you are not allowed to edit."
-msgstr "De naam en het e-mailadres komen uit het gebruikersaccount, dat je niet mag bewerken."
+msgstr "De naam en het e-mailadres komen uit het gebruikersaccount; je hebt geen toestemming om dat te bewerken."
 
 #: includes/famefe-admin.php:254
 msgid "Last name"
@@ -1012,7 +1012,7 @@ msgstr "Gebruikersaccounts zoeken"
 
 #: includes/famefe-admin.php:142
 msgid "Search accounts by name or login…"
-msgstr "Accounts zoeken op naam of gebruikersnaam…"
+msgstr "Accounts zoeken op naam of login…"
 
 #. translators: 1: name of the person, 2: date and time.
 #: includes/famefe-admin.php:132
@@ -1260,8 +1260,8 @@ msgstr "De ledenlijst is beschikbaar voor ingelogde gebruikers."
 #: build/blocks/hours-list/render.php:112 src/blocks/hours-list/render.php:112
 msgid "Total: %1$s hours in %2$d entry"
 msgid_plural "Total: %1$s hours in %2$d entries"
-msgstr[0] "Totaal: %1$s uur in %2$d registratie"
-msgstr[1] "Totaal: %1$s uur in %2$d registraties"
+msgstr[0] "Totaal: %1$s uur in %2$d vermelding"
+msgstr[1] "Totaal: %1$s uur in %2$d vermeldingen"
 
 #: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:256 includes/famefe-admin-tables.php:335 src/blocks/hours-list/render.php:94
 msgid "Delete"
@@ -1293,7 +1293,7 @@ msgstr "Log in om je vrijwilligersuren te bekijken."
 
 #: build/blocks/hours-form/render.php:118 src/blocks/hours-form/render.php:118
 msgid "My recent entries"
-msgstr "Mijn recente registraties"
+msgstr "Mijn recente vermeldingen"
 
 #: build/blocks/hours-form/render.php:59 build/blocks/hours-form/render.php:125 build/blocks/hours-list/render.php:66 includes/famefe-admin-tables.php:219 includes/famefe-admin.php:430 src/blocks/hours-form/render.php:59 src/blocks/hours-form/render.php:125 src/blocks/hours-list/render.php:66 build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:74
 msgid "Work done"
@@ -1332,7 +1332,7 @@ msgstr "De berekende contributies overschrijden dit niet, dus er is geen korting
 #. number of members with the discount.
 #: build/blocks/fee-explanation/render.php:203 src/blocks/fee-explanation/render.php:203
 msgid "The %1$s %% of regular members with the lowest calculated fees pay %2$s %% less (here %3$d members; members with the same fee as the last of them get it too, members without hours never). The discount is not added to the fees of the others, so the club collects less than the expected total."
-msgstr "De %1$s %% van de gewone leden met de laagste berekende contributies betaalt %2$s %% minder (hier %3$d leden; leden met dezelfde contributie als de laatste van hen krijgen die ook, leden zonder uren nooit). De korting wordt niet bij de contributies van de anderen opgeteld, dus de club int minder dan het verwachte totaal."
+msgstr "De %1$s %% van de gewone leden met de laagste berekende contributies betaalt %2$s %% minder (hier %3$d leden; leden met dezelfde contributie als de laatste van hen krijgen die ook, leden zonder uren nooit). De korting wordt niet aan de contributies van de anderen toegevoegd, dus de club int minder dan het verwachte totaal."
 
 #. translators: 1: share of members in percent, 2: calculated discount in
 #. percent, 3: number of members with the discount.

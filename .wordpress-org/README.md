@@ -9,6 +9,10 @@ replace `screenshot-<n>.png` on the plugin page in that language (wordpress.org 
 language). They use the translations of the translate.wordpress.org `dev` project, the site language, its date
 format, a local currency and translated work descriptions.
 
+Localised banners `banner-772x250-<locale>.png` / `banner-1544x500-<locale>.png` (same locales except en_GB, whose
+text would equal the English banner): translated slogan and table, local names and number format; the plugin name
+stays untranslated.
+
 Plugin ZIP for the submission: `git archive --format=zip --prefix=fair-member-fees/ -o fair-member-fees-1.0.0.zip HEAD`
 
 `blueprints/blueprint.json` is the WordPress Playground blueprint of the Live Preview on wordpress.org
