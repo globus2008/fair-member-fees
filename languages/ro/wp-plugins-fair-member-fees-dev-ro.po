@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plugins - Fair Member Fees - Development (trunk)\n"
-"PO-Revision-Date: 2026-10-16 12:00:00+0000\n"
+"PO-Revision-Date: 2026-10-19 12:00:00+0000\n"
 "Language: ro_RO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -129,7 +129,7 @@ msgstr "Explică printr-un exemplu cum se calculează cotizația echitabilă."
 #: build/blocks/fee-explanation/block.json src/blocks/fee-explanation/block.json
 msgctxt "block title"
 msgid "Fee calculation explained"
-msgstr "Calculul cotizației explicat"
+msgstr "Explicarea calculului cotizației"
 
 #: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:155
 msgid "Highlight the logged-in member"
@@ -157,7 +157,7 @@ msgstr "Reducere pentru cele mai mici cotizații"
 
 #: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:72
 msgid "Turn on once the volunteer hours of the period are closed: members then see their final fee and can pay it. While it is off, the fees are shown as calculated from the hours recorded so far. Leave it off if you do not collect fees through this page."
-msgstr "Activați-l când orele de voluntariat ale perioadei sunt închise: membrii își văd atunci cotizația finală și o pot plăti. Cât timp este dezactivat, cotizațiile sunt afișate așa cum sunt calculate din orele înregistrate până acum. Lăsați-l dezactivat dacă nu încasați cotizații prin această pagină."
+msgstr "Pornește-l când orele de voluntariat ale perioadei sunt închise: membrii își văd atunci cotizația finală și o pot plăti. Cât timp este oprit, cotizațiile sunt calculate din orele înregistrate până acum. Lasă-l oprit dacă nu încasezi cotizații prin această pagină."
 
 #: build/blocks/membership-fees/index.js:3 src/blocks/membership-fees/index.js:68
 msgid "Payment button (the fees are final)"
@@ -217,7 +217,7 @@ msgstr "Culorile tabelului"
 
 #: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:127
 msgid "They may delete any entry within this time. Older entries can still be deleted in Member Fees → Volunteer hours."
-msgstr "Ei pot șterge orice înregistrare în acest interval. Înregistrările mai vechi pot fi șterse în continuare în Cotizații → Ore de voluntariat."
+msgstr "Ei pot șterge orice înregistrare în acest interval. Înregistrările mai vechi se pot șterge în continuare în Cotizații → Ore de voluntariat."
 
 #: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:123
 msgid "Administrators and editors: days after recording"
@@ -257,7 +257,7 @@ msgstr "Număr maxim de înregistrări"
 
 #: build/blocks/hours-list/index.js:1 src/blocks/hours-list/index.js:29
 msgid "Leave empty for no limit."
-msgstr "Lăsați gol pentru nicio limită."
+msgstr "Lasă gol dacă nu vrei o limită."
 
 #: build/blocks/hours-list/index.js:1 build/blocks/members-list/index.js:1 build/blocks/membership-fees/index.js:1 src/blocks/shared.js:94
 msgid "As in the plugin settings"
@@ -273,7 +273,7 @@ msgstr "Numărul de înregistrări recente"
 
 #: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:96
 msgid "Show my recent entries"
-msgstr "Afișează înregistrările mele recente"
+msgstr "Arată înregistrările mele recente"
 
 #: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:92
 msgid "Description of the work is required"
@@ -293,7 +293,7 @@ msgstr "Zile în urmă"
 
 #: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:49
 msgid "Off: hours are always recorded for today, so nobody can add hours to the past or change a closed period. Administrators and editors can always choose the date."
-msgstr "Dezactivat: orele sunt înregistrate mereu pentru astăzi, astfel încât nimeni nu poate adăuga ore în trecut sau modifica o perioadă închisă. Administratorii și editorii pot alege oricând data."
+msgstr "Oprit: orele se înregistrează mereu pentru ziua de azi, așa că nimeni nu poate adăuga ore în trecut sau modifica o perioadă închisă. Administratorii și editorii pot alege oricând data."
 
 #: build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:45
 msgid "Members may change the date"
@@ -368,7 +368,7 @@ msgstr "Proporția membrilor cu cele mai mici cotizații (%)"
 #. translators: %s: list of member names.
 #: includes/famefe-users.php:190
 msgid "These accounts belong to members: %s. The members, their history, hours and payments stay in the register; only the link to the account is removed. To end a membership, use Member Fees → Members."
-msgstr "Aceste conturi aparțin unor membri: %s. Membrii, istoricul, orele și plățile lor rămân în registru; se elimină doar legătura cu contul. Pentru a încheia calitatea de membru, folosiți Cotizații → Membri."
+msgstr "Aceste conturi aparțin unor membri: %s. Membrii, istoricul, orele și plățile lor rămân în registru; înlătur doar legătura cu contul. Pentru a încheia calitatea de membru, folosește Cotizații → Membri."
 
 #: includes/famefe-users.php:93
 msgid "The first name, last name and e-mail of this profile are also the details of the member."
@@ -398,15 +398,15 @@ msgstr "%1$s %2$s"
 
 #: includes/famefe-notices.php:61
 msgid "The data could not be saved. Please try again."
-msgstr "Datele nu au putut fi salvate. Vă rugăm să încercați din nou."
+msgstr "Nu am putut salva datele. Te rog să încerci din nou."
 
 #: includes/famefe-notices.php:60
 msgid "The payment has not been confirmed yet. If you paid, it will appear shortly."
-msgstr "Plata nu a fost confirmată încă. Dacă ați plătit, va apărea în curând."
+msgstr "Plata nu a fost confirmată încă. Dacă ai plătit, va apărea în curând."
 
 #: includes/famefe-notices.php:59
 msgid "The payment service could not be reached. Please try again later."
-msgstr "Serviciul de plată nu a putut fi contactat. Vă rugăm să încercați mai târziu."
+msgstr "Serviciul de plată nu a putut fi contactat. Te rog să încerci mai târziu."
 
 #: includes/famefe-notices.php:58
 msgid "Online payment is not set up."
@@ -414,7 +414,7 @@ msgstr "Plata online nu este configurată."
 
 #: includes/famefe-notices.php:57
 msgid "The block of this form was not found on the page. Please reload the page."
-msgstr "Blocul acestui formular nu a fost găsit pe pagină. Vă rugăm să reîncărcați pagina."
+msgstr "Nu am găsit pe pagină blocul acestui formular. Te rog să reîncarci pagina."
 
 #: includes/famefe-notices.php:56
 msgid "There is nothing to pay."
@@ -426,15 +426,15 @@ msgstr "Cotizația pentru această perioadă a fost deja plătită."
 
 #: includes/famefe-notices.php:54
 msgid "Choose a valid payment method."
-msgstr "Alegeți o metodă de plată validă."
+msgstr "Alege o metodă de plată validă."
 
 #: includes/famefe-notices.php:53
 msgid "Enter a valid amount."
-msgstr "Introduceți o sumă validă."
+msgstr "Introdu o sumă validă."
 
 #: includes/famefe-notices.php:51
 msgid "Describe the work, please."
-msgstr "Descrieți munca, vă rog."
+msgstr "Descrie munca, te rog."
 
 #: includes/famefe-notices.php:50
 msgid "Hours cannot be recorded for this date any more."
@@ -446,11 +446,11 @@ msgstr "Aceste ore nu mai pot fi șterse aici; termenul a expirat."
 
 #: includes/famefe-notices.php:48
 msgid "Enter a valid number of hours."
-msgstr "Introduceți un număr de ore valid."
+msgstr "Introdu un număr valid de ore."
 
 #: includes/famefe-notices.php:47
 msgid "The member has hours or payments and cannot be deleted. End the membership instead."
-msgstr "Membrul are ore sau plăți și nu poate fi șters. Încheiați în schimb calitatea de membru."
+msgstr "Membrul are ore sau plăți și nu poate fi șters. În schimb, încheie calitatea de membru."
 
 #: includes/famefe-notices.php:45
 msgid "This e-mail address is already used by another user account."
@@ -458,11 +458,11 @@ msgstr "Această adresă de email este deja folosită de un alt cont de utilizat
 
 #: includes/famefe-notices.php:44
 msgid "Enter a valid e-mail address."
-msgstr "Introduceți o adresă de email validă."
+msgstr "Introdu o adresă de email validă."
 
 #: includes/famefe-notices.php:43
 msgid "This change is not possible for the member (check the status and the date)."
-msgstr "Această modificare nu este posibilă pentru membru (verificați starea și data)."
+msgstr "Această modificare nu este posibilă pentru membru (verifică starea și data)."
 
 #: includes/famefe-notices.php:42
 msgid "\"Member since\" cannot be after the end of the membership."
@@ -470,87 +470,87 @@ msgstr "„Membru din” nu poate fi după încheierea calității de membru."
 
 #: includes/famefe-notices.php:41
 msgid "Choose a valid membership type."
-msgstr "Alegeți un tip de membru valid."
+msgstr "Alege un tip de membru valid."
 
 #: includes/famefe-notices.php:40
 msgid "Enter a valid date."
-msgstr "Introduceți o dată validă."
+msgstr "Introdu o dată validă."
 
 #: includes/famefe-notices.php:39
 msgid "Enter the first or the last name."
-msgstr "Introduceți prenumele sau numele."
+msgstr "Introdu prenumele sau numele."
 
 #: includes/famefe-notices.php:38
 msgid "The record was not found."
-msgstr "Înregistrarea nu a fost găsită."
+msgstr "Nu am găsit înregistrarea."
 
 #: includes/famefe-notices.php:37
 msgid "The form has expired. Please reload the page and try again."
-msgstr "Formularul a expirat. Reîncărcați pagina și încercați din nou."
+msgstr "Formularul a expirat. Reîncarcă pagina și încearcă din nou."
 
 #: includes/famefe-notices.php:36
 msgid "Please log in first."
-msgstr "Mai întâi autentificați-vă."
+msgstr "Te rog să te autentifici mai întâi."
 
 #: includes/famefe-notices.php:35
 msgid "You are not allowed to do this."
-msgstr "Nu aveți permisiunea să faceți asta."
+msgstr "Nu ai voie să faci asta."
 
 #: includes/famefe-notices.php:33
 msgid "The settings were saved."
-msgstr "Setările au fost salvate."
+msgstr "Am salvat setările."
 
 #: includes/famefe-notices.php:32
 msgid "The payment was cancelled. You can try again at any time."
-msgstr "Plata a fost anulată. Puteți încerca din nou oricând."
+msgstr "Plata a fost anulată. Poți încerca din nou oricând."
 
 #: includes/famefe-notices.php:31
 msgid "Thank you, your membership fee was paid."
-msgstr "Mulțumim, cotizația dvs. a fost plătită."
+msgstr "Îți mulțumim, ai plătit cotizația."
 
 #: includes/famefe-notices.php:30
 msgid "The payment was deleted."
-msgstr "Plata a fost ștearsă."
+msgstr "Am șters plata."
 
 #: includes/famefe-notices.php:29
 msgid "The payment was recorded."
-msgstr "Plata a fost înregistrată."
+msgstr "Am înregistrat plata."
 
 #: includes/famefe-notices.php:28
 msgid "The hours were deleted."
-msgstr "Orele au fost șterse."
+msgstr "Am șters orele."
 
 #: includes/famefe-notices.php:27
 msgid "The hours were saved."
-msgstr "Orele au fost salvate."
+msgstr "Am salvat orele."
 
 #: includes/famefe-notices.php:26
 msgid "Thank you, your hours were recorded."
-msgstr "Mulțumim, orele dvs. au fost înregistrate."
+msgstr "Îți mulțumim, am înregistrat orele."
 
 #: includes/famefe-notices.php:25
 msgid "The member was deleted."
-msgstr "Membrul a fost șters."
+msgstr "Am șters membrul."
 
 #: includes/famefe-notices.php:24
 msgid "The change of the membership was recorded."
-msgstr "Modificarea calității de membru a fost înregistrată."
+msgstr "Am înregistrat modificarea calității de membru."
 
 #: includes/famefe-notices.php:23
 msgid "The member was saved."
-msgstr "Membrul a fost salvat."
+msgstr "Am salvat membrul."
 
 #: includes/famefe-notices.php:22
 msgid "The member and the user account were created. The member got an e-mail with a link for setting the password."
-msgstr "Membrul și contul de utilizator au fost create. Membrul a primit un email cu un link pentru setarea parolei."
+msgstr "Am creat membrul și contul de utilizator. Membrul a primit un email cu o legătură pentru setarea parolei."
 
 #: includes/famefe-notices.php:21
 msgid "The member and the user account were created."
-msgstr "Membrul și contul de utilizator au fost create."
+msgstr "Am creat membrul și contul de utilizator."
 
 #: includes/famefe-notices.php:20
 msgid "The member was added."
-msgstr "Membrul a fost adăugat."
+msgstr "Am adăugat membrul."
 
 #: includes/famefe-data.php:241
 msgid "Deleted user"
@@ -614,15 +614,15 @@ msgstr "Blocuri"
 
 #: includes/famefe-admin.php:659
 msgid "Add the blocks to your pages: search for \"Fair Member Fees\" in the block inserter."
-msgstr "Adăugați blocurile în paginile dvs.: căutați „Fair Member Fees” în inserătorul de blocuri."
+msgstr "Adaugă blocurile în paginile tale: caută „Fair Member Fees” în inserătorul de blocuri."
 
 #: includes/famefe-admin.php:658
 msgid "Set the currency, and Stripe if you want online payments (Settings)."
-msgstr "Setați moneda și, dacă doriți plăți online, Stripe (Setări)."
+msgstr "Setează moneda și, dacă vrei plăți online, Stripe (Setări)."
 
 #: includes/famefe-admin.php:657
 msgid "Add your members (Members → Add member) and link them to their user accounts."
-msgstr "Adăugați membrii (Membri → Adaugă membru) și legați-i de conturile lor de utilizator."
+msgstr "Adaugă membrii (Membri → Adaugă membru) și leagă-i de conturile lor de utilizator."
 
 #: includes/famefe-admin.php:655
 msgid "Getting started"
@@ -634,11 +634,11 @@ msgstr "Ajutor Fair Member Fees"
 
 #: includes/famefe-admin.php:649
 msgid "Explains the calculation on an example with your numbers."
-msgstr "Explică calculul printr-un exemplu cu numerele dvs."
+msgstr "Explică calculul printr-un exemplu cu numerele tale."
 
 #: includes/famefe-admin.php:649
 msgid "Fee calculation explained"
-msgstr "Calculul cotizației explicat"
+msgstr "Explicarea calculului cotizației"
 
 #: includes/famefe-admin.php:648
 msgid "The membership register with the date of the last change and who recorded it; visible to logged-in users by default."
@@ -658,7 +658,7 @@ msgstr "Listă de ore de voluntariat"
 
 #: includes/famefe-admin.php:646
 msgid "Members record their own hours. Set the maximum hours per entry, how many days back a date may be, and whether a description is required."
-msgstr "Membrii își înregistrează singuri orele. Setați numărul maxim de ore per înregistrare, cu câte zile în urmă poate fi data și dacă descrierea este obligatorie."
+msgstr "Membrii își înregistrează singuri orele. Setează numărul maxim de ore per înregistrare, cu câte zile în urmă poate fi data și dacă descrierea este obligatorie."
 
 #: includes/famefe-admin.php:646
 msgid "Volunteer hours form"
@@ -666,7 +666,7 @@ msgstr "Formular pentru ore de voluntariat"
 
 #: includes/famefe-admin.php:645
 msgid "The table of fees for a period. Set the period, the base fee and the optional discount in the block settings. Until the volunteer hours of the period are closed, it shows the fees calculated so far; then turn on its payment button and members can pay their final fee. Administrators and editors can record cash and bank payments right there. Clubs that only keep records of hours leave the button off."
-msgstr "Tabelul cotizațiilor unei perioade. Setați perioada, cotizația de bază și reducerea opțională în setările blocului. Până la închiderea orelor de voluntariat ale perioadei, afișează cotizațiile calculate până atunci; apoi activați butonul de plată, iar membrii își pot plăti cotizația finală. Administratorii și editorii pot înregistra chiar acolo plățile în numerar și prin transfer. Cluburile care doar țin evidența orelor lasă butonul dezactivat."
+msgstr "Tabelul cotizațiilor unei perioade. Setează perioada, cotizația de bază și reducerea opțională în setările blocului. Până la închiderea orelor de voluntariat ale perioadei, afișează cotizațiile calculate până atunci; apoi pornește butonul de plată, iar membrii își pot plăti cotizația finală. Administratorii și editorii pot înregistra chiar acolo plățile în numerar și prin transfer. Cluburile care doar țin evidența orelor lasă butonul oprit."
 
 #: includes/famefe-admin.php:645
 msgid "Membership fees"
@@ -694,7 +694,7 @@ msgstr "Nume complet (Maria Popescu)"
 
 #: includes/famefe-admin.php:616
 msgid "Delete all members, hours, payments and settings when the plugin is deleted."
-msgstr "Șterge toți membrii, orele, plățile și setările când modulul este șters."
+msgstr "Șterge toți membrii, orele, plățile și setările la ștergerea modulului."
 
 #: includes/famefe-admin.php:615
 msgid "Delete data"
@@ -706,7 +706,7 @@ msgstr "Dezinstalare"
 
 #: includes/famefe-admin.php:607
 msgid "Default for all blocks; each block can override it."
-msgstr "Implicit pentru toate blocurile; fiecare bloc îl poate modifica."
+msgstr "Implicit pentru toate blocurile; fiecare bloc poate contramanda această setare."
 
 #: includes/famefe-admin.php:600
 msgid "Names in blocks"
@@ -726,27 +726,27 @@ msgstr "Ore de voluntariat și nume"
 
 #: includes/famefe-admin.php:588
 msgid "Add this address in Stripe (Developers → Webhooks) with the events checkout.session.completed and checkout.session.async_payment_succeeded, then copy its signing secret here. Payments are recorded even when a member closes the browser before returning to your site."
-msgstr "Adăugați această adresă în Stripe (Developers → Webhooks) cu evenimentele checkout.session.completed și checkout.session.async_payment_succeeded, apoi copiați aici secretul ei de semnare. Plățile sunt înregistrate chiar dacă un membru închide browserul înainte de a reveni pe site-ul dvs."
+msgstr "Adaugă această adresă în Stripe (Developers → Webhooks) cu evenimentele checkout.session.completed și checkout.session.async_payment_succeeded, apoi copiază aici secretul ei de semnare. Plățile se înregistrează chiar dacă un membru închide navigatorul înainte de a reveni pe site-ul tău."
 
 #: includes/famefe-admin.php:585
 msgid "Webhook endpoint"
-msgstr "Endpoint webhook"
+msgstr "Punct-final pentru cârligul web"
 
 #: includes/famefe-admin.php:575
 msgid "Live webhook signing secret"
-msgstr "Secret de semnare webhook live"
+msgstr "Secret de semnare a cârligului web (live)"
 
 #: includes/famefe-admin.php:574
 msgid "Live secret key"
-msgstr "Cheie secretă live"
+msgstr "Cheie secretă (live)"
 
 #: includes/famefe-admin.php:573
 msgid "Test webhook signing secret"
-msgstr "Secret de semnare webhook de test"
+msgstr "Secret de semnare a cârligului web (test)"
 
 #: includes/famefe-admin.php:572
 msgid "Test secret key"
-msgstr "Cheie secretă de test"
+msgstr "Cheie secretă (test)"
 
 #: includes/famefe-admin.php:567
 msgid "Live"
@@ -762,7 +762,7 @@ msgstr "Mod"
 
 #: includes/famefe-admin.php:561
 msgid "Members pay on the Stripe payment page. Fill in the secret key of the mode you use; without it the Membership fees block shows no payment button."
-msgstr "Membrii plătesc pe pagina de plată Stripe. Completați cheia secretă a modului folosit; fără ea, blocul Cotizații nu afișează butonul de plată."
+msgstr "Membrii plătesc pe pagina de plată Stripe. Completează cheia secretă a modului pe care îl folosești; fără ea, blocul Cotizații nu afișează butonul de plată."
 
 #: includes/famefe-admin.php:560
 msgid "Stripe"
@@ -770,7 +770,7 @@ msgstr "Stripe"
 
 #: includes/famefe-admin.php:555
 msgid "Fees are rounded to this number of decimals. Leave empty to use the usual number of the currency (CZK 0, EUR and USD 2)."
-msgstr "Cotizațiile sunt rotunjite la acest număr de zecimale. Lăsați gol pentru a folosi numărul obișnuit al monedei (CZK 0, EUR și USD 2)."
+msgstr "Cotizațiile sunt rotunjite la acest număr de zecimale. Lasă gol pentru numărul obișnuit al monedei (CZK 0, EUR și USD 2)."
 
 #: includes/famefe-admin.php:552
 msgid "Decimal places"
@@ -790,7 +790,7 @@ msgstr "Bani"
 
 #: includes/famefe-admin.php:539
 msgid "The season (period), the base fee and the discount are set in the Membership fees block on your page."
-msgstr "Sezonul (perioada), cotizația de bază și reducerea se setează în blocul Cotizații de pe pagina dvs."
+msgstr "Sezonul (perioada), cotizația de bază și reducerea se setează în blocul Cotizații de pe pagina ta."
 
 #: includes/famefe-admin.php:537
 msgid "Fair Member Fees settings"
@@ -903,7 +903,7 @@ msgstr "Șterge membrul adăugat din greșeală"
 
 #: includes/famefe-admin.php:311
 msgid "Delete this member? Use this only for a member entered by mistake."
-msgstr "Ștergeți acest membru? Folosiți doar pentru un membru adăugat din greșeală."
+msgstr "Ștergi acest membru? Folosește această opțiune doar pentru un membru adăugat din greșeală."
 
 #: includes/famefe-admin.php:297
 msgid "Save details"
@@ -931,7 +931,7 @@ msgstr "Modificările numelui și ale emailului sunt salvate și în contul de u
 
 #: includes/famefe-admin.php:262
 msgid "The name and e-mail come from the user account, which you are not allowed to edit."
-msgstr "Numele și emailul provin din contul de utilizator, pe care nu aveți permisiunea să îl editați."
+msgstr "Numele și emailul provin din contul de utilizator, pe care nu ai voie să îl editezi."
 
 #: includes/famefe-admin.php:254
 msgid "Last name"
@@ -963,7 +963,7 @@ msgstr "Contul primește rolul implicit al site-ului; adresa de email este oblig
 
 #: includes/famefe-admin.php:232
 msgid "Send the member an e-mail with a link for setting the password"
-msgstr "Trimite membrului un email cu un link pentru setarea parolei"
+msgstr "Trimite membrului un email cu o legătură pentru setarea parolei"
 
 #: includes/famefe-admin.php:230
 msgid "Create a new user account"
@@ -1017,12 +1017,12 @@ msgstr "Caută conturi după nume sau nume de utilizator…"
 #. translators: 1: name of the person, 2: date and time.
 #: includes/famefe-admin.php:132
 msgid "%1$s on %2$s"
-msgstr "%1$s pe %2$s"
+msgstr "%1$s, la %2$s"
 
 #. translators: %s: date and time.
 #: includes/famefe-admin.php:129
 msgid "automatically on %s"
-msgstr "automat pe %s"
+msgstr "automat, la %s"
 
 #: includes/famefe-admin.php:33
 msgid "Help"
@@ -1046,7 +1046,7 @@ msgstr "Cotizații"
 
 #: includes/famefe-admin-tables.php:334
 msgid "Delete this payment? The member will be shown as unpaid."
-msgstr "Ștergeți această plată? Membrul va fi afișat ca neplătit."
+msgstr "Ștergi această plată? Membrul va apărea ca neplătit."
 
 #: includes/famefe-admin-tables.php:324
 msgid "No payments recorded."
@@ -1135,7 +1135,7 @@ msgstr "Cotizațiile sunt finale, dar membrii nu pot plăti online: Stripe nu es
 
 #: build/blocks/membership-fees/render.php:257 src/blocks/membership-fees/render.php:257
 msgid "The payment button is off: the fees are shown as calculated so far. Turn it on in the block settings (\"Payment button\") once the volunteer hours of the period are closed and the fees are final. Leave it off if you do not collect fees through this page."
-msgstr "Butonul de plată este dezactivat: cotizațiile sunt afișate așa cum au fost calculate până acum. Activați-l în setările blocului („Buton de plată”) când orele de voluntariat ale perioadei sunt închise și cotizațiile sunt finale. Lăsați-l dezactivat dacă nu încasați cotizații prin această pagină."
+msgstr "Butonul de plată este oprit: cotizațiile sunt cele calculate până acum. Pornește-l în setările blocului („Buton de plată”) când orele de voluntariat ale perioadei sunt închise și cotizațiile sunt finale. Lasă-l oprit dacă nu încasezi cotizații prin această pagină."
 
 #. translators: %s: amount.
 #: build/blocks/membership-fees/render.php:244 src/blocks/membership-fees/render.php:244
@@ -1145,11 +1145,11 @@ msgstr "Plătește %s online"
 #. translators: %s: amount.
 #: build/blocks/membership-fees/render.php:233 src/blocks/membership-fees/render.php:233
 msgid "Your membership fee: %s"
-msgstr "Cotizația dvs.: %s"
+msgstr "Cotizația ta: %s"
 
 #: build/blocks/membership-fees/render.php:227 src/blocks/membership-fees/render.php:227
 msgid "You do not need to pay a membership fee for this period. Thank you for your work!"
-msgstr "Nu trebuie să plătiți cotizație pentru această perioadă. Mulțumim pentru munca dvs.!"
+msgstr "Nu trebuie să plătești cotizație pentru această perioadă. Îți mulțumim pentru muncă!"
 
 #: build/blocks/membership-fees/render.php:221 src/blocks/membership-fees/render.php:221
 msgid "The fee will be final once the volunteer hours of this period are closed."
@@ -1157,21 +1157,21 @@ msgstr "Cotizația va fi finală după închiderea orelor de voluntariat ale ace
 
 #: build/blocks/membership-fees/render.php:219 src/blocks/membership-fees/render.php:219
 msgid "The fee will be final once the volunteer hours of this period are closed; then you can pay it here."
-msgstr "Cotizația va fi finală după închiderea orelor de voluntariat ale acestei perioade; atunci o veți putea plăti aici."
+msgstr "Cotizația va fi finală după închiderea orelor de voluntariat ale acestei perioade; atunci o vei putea plăti aici."
 
 #: build/blocks/membership-fees/render.php:214 src/blocks/membership-fees/render.php:214
 msgid "Thank you for your work!"
-msgstr "Mulțumim pentru munca dvs.!"
+msgstr "Îți mulțumim pentru muncă!"
 
 #. translators: %s: amount.
 #: build/blocks/membership-fees/render.php:209 src/blocks/membership-fees/render.php:209
 msgid "With the volunteer hours recorded so far, your membership fee is %s."
-msgstr "Cu orele de voluntariat înregistrate până acum, cotizația dvs. este de %s."
+msgstr "Cu orele de voluntariat înregistrate până acum, cotizația ta este de %s."
 
 #. translators: 1: amount, 2: date.
 #: build/blocks/membership-fees/render.php:198 src/blocks/membership-fees/render.php:198
 msgid "You paid %1$s on %2$s. Thank you!"
-msgstr "Ați plătit %1$s pe %2$s. Mulțumim!"
+msgstr "Ai plătit %1$s în data de %2$s. Îți mulțumim!"
 
 #: build/blocks/membership-fees/render.php:144 src/blocks/membership-fees/render.php:144
 msgid "There are no members in this period."
@@ -1270,7 +1270,7 @@ msgstr "Șterge"
 
 #: build/blocks/hours-list/render.php:94 includes/famefe-admin-tables.php:255 src/blocks/hours-list/render.php:94
 msgid "Delete these hours?"
-msgstr "Ștergeți aceste ore?"
+msgstr "Ștergi aceste ore?"
 
 #: build/blocks/hours-list/render.php:72 src/blocks/hours-list/render.php:72
 msgid "Actions"
@@ -1290,7 +1290,7 @@ msgstr "Nicio oră înregistrată."
 
 #: build/blocks/hours-list/render.php:19 src/blocks/hours-list/render.php:19
 msgid "Log in to see your volunteer hours."
-msgstr "Autentificați-vă pentru a vedea orele dvs. de voluntariat."
+msgstr "Autentifică-te ca să îți vezi orele de voluntariat."
 
 #: build/blocks/hours-form/render.php:118 src/blocks/hours-form/render.php:118
 msgid "My recent entries"
@@ -1314,7 +1314,7 @@ msgstr "Autentificare"
 
 #: build/blocks/hours-form/render.php:32 src/blocks/hours-form/render.php:32
 msgid "Log in to record your volunteer hours."
-msgstr "Autentificați-vă pentru a înregistra orele dvs. de voluntariat."
+msgstr "Autentifică-te ca să îți înregistrezi orele de voluntariat."
 
 #: build/blocks/hours-form/render.php:22 includes/famefe-admin.php:431 src/blocks/hours-form/render.php:22 build/blocks/hours-form/index.js:1 src/blocks/hours-form/index.js:82
 msgid "Add hours"

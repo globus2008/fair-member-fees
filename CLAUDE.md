@@ -52,6 +52,12 @@
   es «», es_MX/es_CL “” + "Ingresa", es_AR voseo; en_* copies with "email"; fr no-break spaces before : ; ! ? » %.
 - Terms: volunteer hours = nb "dugnadstimer", fi "talkootunnit", cs/sk "brigádnické hodiny"; fee = de "Mitgliedsbeitrag",
   fr "cotisation", nl "contributie", da/nb "kontingent", pt_BR "contribuição associativa".
+- ro: follow `../doubles-rotation-tournament/wordpress.org/translation-guide-ro.md` (the editor's review of Rotation
+  Tournaments, 2026-10-18). The whole ro PO files were rewritten on 2026-10-19 before any review: informal 2nd person,
+  the plugin speaks in the 1st person ("Am salvat setările.", "Nu am găsit ..."), glossary terms legătură, înlătura,
+  navigator, scurtcod, webhook = "cârlig web", endpoint = "punct-final", repository = "depozitar", on/off = pornit/oprit,
+  "you are not allowed to" = "nu ai voie să", changelog "Lansare inițială"; fee = "cotizație", regular member =
+  "membru titular", membership = "calitate de membru" (glossary: apartenență, with this as a variant).
 
 ## Data
 - `famefe_members` (user_id optional + unique, member_type regular|honorary, status active|left, member_since, left_on).
