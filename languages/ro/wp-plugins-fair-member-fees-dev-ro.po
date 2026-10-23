@@ -19,7 +19,7 @@ msgstr "plată"
 #: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
 msgctxt "block description"
 msgid "Fair membership fees for a period: members who volunteered more pay less. Once the hours of the period are closed, members can pay online; administrators and editors record cash and bank payments."
-msgstr "Cotizații echitabile pentru o perioadă: membrii care fac mai multe ore de voluntariat plătesc mai puțin. După închiderea orelor perioadei, membrii pot plăti online; administratorii și editorii înregistrează plățile în numerar și prin transfer bancar."
+msgstr "Cotizații echitabile pentru o perioadă: membrii care au făcut mai multe ore de voluntariat plătesc mai puțin. După încheierea înregistrării orelor din perioadă, membrii pot plăti online, iar administratorii și editorii înregistrează plățile în numerar sau prin transfer bancar."
 
 #: build/blocks/membership-fees/block.json src/blocks/membership-fees/block.json
 msgctxt "block title"
@@ -44,7 +44,7 @@ msgstr "membri"
 #: build/blocks/members-list/block.json src/blocks/members-list/block.json
 msgctxt "block description"
 msgid "The membership register: members, their type, membership changes and who recorded them."
-msgstr "Registrul membrilor: membrii, tipul lor, modificările calității de membru și cine le-a înregistrat."
+msgstr "Registrul membrilor: lista membrilor, tipul fiecăruia, modificările calității de membru și persoana care le-a înregistrat."
 
 #: build/blocks/members-list/block.json src/blocks/members-list/block.json
 msgctxt "block title"
@@ -114,7 +114,7 @@ msgstr "calcul"
 #: build/blocks/fee-explanation/block.json build/blocks/hours-form/block.json build/blocks/hours-list/block.json build/blocks/members-list/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/hours-form/block.json src/blocks/hours-list/block.json src/blocks/members-list/block.json src/blocks/membership-fees/block.json
 msgctxt "block keyword"
 msgid "fair member fees"
-msgstr "fair member fees"
+msgstr "cotizații echitabile"
 
 #: build/blocks/fee-explanation/block.json build/blocks/membership-fees/block.json src/blocks/fee-explanation/block.json src/blocks/membership-fees/block.json
 msgctxt "block keyword"
@@ -811,7 +811,7 @@ msgstr "Perioadă de la"
 
 #: includes/famefe-admin.php:474
 msgid "Cash and bank payments. The period must be the same as in the Membership fees block, otherwise the block does not show the member as paid. Card payments are recorded automatically."
-msgstr "Plăți în numerar și prin transfer. Perioada trebuie să fie aceeași ca în blocul Cotizații, altfel blocul nu afișează membrul ca plătit. Plățile cu cardul sunt înregistrate automat."
+msgstr "Plăți în numerar și prin transfer. Perioada trebuie să fie aceeași ca în blocul Cotizații, altfel blocul nu afișează cotizația membrului ca achitată. Plățile cu cardul sunt înregistrate automat."
 
 #: includes/famefe-admin.php:473
 msgid "Record a payment"
@@ -951,7 +951,7 @@ msgstr "Deschide profilul"
 
 #: includes/famefe-admin.php:238
 msgid "Members with an account can record their hours and pay online. The name and e-mail of a linked member are those of the account."
-msgstr "Membrii cu cont își pot înregistra orele și pot plăti online. Numele și emailul unui membru legat sunt cele ale contului."
+msgstr "Membrii care au cont își pot înregistra orele și pot plăti online. Pentru un membru asociat unui cont, folosesc numele și emailul din cont."
 
 #: includes/famefe-admin.php:236
 msgid "Without a user account"
@@ -1012,7 +1012,7 @@ msgstr "Caută conturi de utilizator"
 
 #: includes/famefe-admin.php:142
 msgid "Search accounts by name or login…"
-msgstr "Caută conturi după nume sau nume de utilizator…"
+msgstr "Caută conturi după nume sau nume de autentificare…"
 
 #. translators: 1: name of the person, 2: date and time.
 #: includes/famefe-admin.php:132
@@ -1046,7 +1046,7 @@ msgstr "Cotizații"
 
 #: includes/famefe-admin-tables.php:334
 msgid "Delete this payment? The member will be shown as unpaid."
-msgstr "Ștergi această plată? Membrul va apărea ca neplătit."
+msgstr "Ștergi această plată? Cotizația membrului va apărea ca neachitată."
 
 #: includes/famefe-admin-tables.php:324
 msgid "No payments recorded."
@@ -1434,11 +1434,11 @@ msgstr "Membru"
 
 #: build/blocks/fee-explanation/render.php:57 src/blocks/fee-explanation/render.php:57
 msgid "1. Members and their hours"
-msgstr "1. Membrii și orele lor"
+msgstr "1. Membri și ore de voluntariat"
 
 #: build/blocks/fee-explanation/render.php:55 src/blocks/fee-explanation/render.php:55
 msgid "The membership fee depends on how much each member volunteered for the club, measured in the recorded hours. Members only need to record their hours; the fees are calculated from them. The following example shows how."
-msgstr "Cotizația depinde de cât voluntariat a făcut fiecare membru pentru club, măsurat în orele înregistrate. Membrii trebuie doar să își înregistreze orele; cotizațiile se calculează din acestea. Exemplul următor arată cum."
+msgstr "Cotizația depinde de numărul de ore de voluntariat pe care fiecare membru le-a înregistrat pentru club. Membrii trebuie doar să își înregistreze orele, iar cotizațiile se calculează pe baza lor. Iată un exemplu."
 
 #. translators: %d: number of the member in the example.
 #: build/blocks/fee-explanation/render.php:52 src/blocks/fee-explanation/render.php:52

@@ -45,6 +45,7 @@
 ## Translations (languages/<locale>/, 2026-10-16)
 - The plugin name "Fair Member Fees" and the block keyword "fair member fees" stay untranslated in every locale
   (the help and readme tell users to search for that name; nl and es_MX editors of Rotation Tournaments wanted it).
+  Exception: the ro editor returned the untranslated keyword (2026-10-22), ro keyword = "cotizații echitabile".
 - Name examples of the "Names in blocks" setting use a local name; the masked one is first 4 + last 4 characters of
   "First Last" including the space (`famefe_mask_name()`), e.g. de "Erika Mustermann" → "Erikmann". The en_US source
   says "Janaková" next to "Jane Smith"; the en_* files use "Janemith".
@@ -58,6 +59,16 @@
   navigator, scurtcod, webhook = "cârlig web", endpoint = "punct-final", repository = "depozitar", on/off = pornit/oprit,
   "you are not allowed to" = "nu ai voie să", changelog "Lansare inițială"; fee = "cotizație", regular member =
   "membru titular", membership = "calitate de membru" (glossary: apartenență, with this as a variant).
+- ro review by Dan Caragea (2026-10-22): 113 approved, 8 "changes requested", 222 still waiting. Each returned string
+  has a reason (7x "Grammar" without details, 1x "Glossary: login"; nl editor flagged the same "login" string).
+  Fixed 2026-10-23 in the local PO, import file `_temp/ro-changes-requested-dev.po` (the 8 + "show the member as paid"):
+  login = "nume de autentificare" (glossary: login -> autentifica/autentificare); a member is not "neplătit"/"plătit"
+  (that means unpaid/paid as a worker) -> "cotizația membrului ... neachitată/achitată"; "linked member" = "membru
+  asociat unui cont" (not "legat" = tied); headings without the article ("1. Membri și ore de voluntariat", like the
+  approved "Membri"); no English-style ";" (none of the 113 approved strings has one; use ", iar" or a full stop);
+  rephrase literal clauses ("după închiderea orelor perioadei", "măsurat în orele", "din acestea", "arată cum").
+  The 222 waiting strings still contain 15 with ";" and "închiderea orelor" - wait for the review before touching them
+  (a new suggestion duplicates the waiting one).
 
 ## Data
 - `famefe_members` (user_id optional + unique, member_type regular|honorary, status active|left, member_since, left_on).
